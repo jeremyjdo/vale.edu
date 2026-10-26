@@ -94,7 +94,8 @@ kbd { font: 500 11px/1 var(--police-mono); color: var(--encre-3); border: 1px so
 .puce[aria-pressed="false"] { color: var(--encre-3); opacity: .6; }
 .puce[aria-pressed="false"] .pastille { background: transparent; box-shadow: inset 0 0 0 1.5px var(--c); }
 .pastille { width: 9px; height: 9px; flex: none; border-radius: 50%; background: var(--c); }
-.choix-langue { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; color: var(--encre-3); }
+.puce.sous { height: 26px; padding-left: 26px; font-weight: 500; }
+.puce.sous .pastille { width: 7px; height: 7px; }
 select { height: 26px; padding-inline: 2px; font: inherit; font-size: 12.5px; font-weight: 600; color: var(--encre-2);
   background: transparent; border: 0; border-radius: 6px; cursor: pointer; }
 select:hover { color: var(--encre); }
@@ -198,7 +199,6 @@ td .pastille { display: inline-block; margin-right: 7px; }
 
 @media (max-width: 1080px) {
   .libre-ligne { justify-content: flex-start; }
-  .choix-langue { margin-left: 0; }
   /* Sur mobile, la fiche est une vraie fenêtre qui monte du bas de l'écran, au-dessus d'un voile */
   .panneau, .panneau.a-gauche { position: fixed; z-index: 20; inset: auto 0 0 0; width: auto; max-height: 86vh;
     border-radius: 16px 16px 0 0; border-bottom: 0; box-shadow: 0 -14px 40px rgb(0 0 0 / .3);
@@ -283,7 +283,6 @@ td .pastille { display: inline-block; margin-right: 7px; }
           <div class="legende" id="legende"></div>
           <div class="menu-pied">
             <button type="button" class="lien-menu" id="tout-afficher">Tout afficher</button>
-            <label class="choix-langue" for="langue">Langue au collège <select id="langue"></select></label>
           </div>
         </div>
       </div>
@@ -403,17 +402,23 @@ const familleChoix = FAM.findIndex(f => f.choix);
 const etat = {
   vue: null, pile: [], sel: null, anc: new Set(), desc: new Set(), directs: new Set(),
   resultats: null, caseActive: null, survol: null, masquees: new Set(),
-  langue: lire('langue') || (familleChoix >= 0 ? FAM[familleChoix].choix[0] : 'toutes'),
+  langues: new Set(lire('langues') !== null ? lire('langues').split(',').filter(Boolean) : (familleChoix >= 0 ? [FAM[familleChoix].choix[0]] : [])),
 };
 const bonneLangue = n => {
   const f = FAM[n.fam];
-  return !(f.choix && f.choix.includes(n.mat) && etat.langue !== 'toutes' && n.mat !== etat.langue);
+  return !(f.choix && f.choix.includes(n.mat) && !etat.langues.has(n.mat));
 };
 const visible = n => !etat.masquees.has(n.fam) && bonneLangue(n);
+// Texte court des langues cochées, quand elles ne le sont pas toutes (sinon '')
+const languesAffichees = f => {
+  if (!f.choix) return '';
+  const l = f.choix.filter(x => etat.langues.has(x));
+  return l.length === f.choix.length ? '' : l.length === 1 ? l[0] : l.length ? `${l.length} langues` : 'aucune langue';
+};
 function rendreVisible(n) {
   let change = etat.masquees.delete(n.fam);
   if (!bonneLangue(n)) {
-    etat.langue = n.mat; $('#langue').value = n.mat; garder('langue', n.mat); change = true;
+    etat.langues.add(n.mat); garder('langues', [...etat.langues].join(',')); change = true;
   }
   if (change) { legende(); disposer(); }
 }
@@ -469,7 +474,7 @@ function preparer(serre) {
       c.groupes.push(g);
       c.fin = g[0].c1;
     }
-    const hEtiquette = serre ? 22 : 24 + etiquette(ctx, f).length * 14 + (f.choix && etat.langue !== 'toutes' ? 13 : 0);
+    const hEtiquette = serre ? 22 : 24 + etiquette(ctx, f).length * 14 + (languesAffichees(f) ? 13 : 0);
     familles.push({ fi, items, simples, couloirs, hEtiquette });
   });
   return familles;
@@ -603,7 +608,7 @@ function dessiner() {
     const yInfo = b.y0 + 16 + lignes.length * 14;
     ctx.fillStyle = C.encre3; ctx.font = police(400, 11, true);
     ctx.fillText(nf.format(b.nb), 27, yInfo);
-    if (f.choix && etat.langue !== 'toutes') { ctx.font = police(400, 11.5); ctx.fillText(etat.langue, 27, yInfo + 13); }
+    if (languesAffichees(f)) { ctx.font = police(400, 11.5); ctx.fillText(languesAffichees(f), 27, yInfo + 13); }
     }
     // Accolades : notions valables pour plusieurs classes
     ctx.strokeStyle = C.encre2; ctx.globalAlpha = .55;
@@ -718,9 +723,13 @@ canvas.addEventListener('click', ev => {
 // Menu des matières : une ligne par matière, à cocher, avec son nombre de notions
 const boutonFiltre = $('#bouton-filtre'), menuFiltre = $('#menu-filtre');
 function legende() {
-  const compte = FAM.map(() => 0);
-  for (const n of N) if (bonneLangue(n)) compte[n.fam]++;
-  $('#legende').innerHTML = FAM.map((f, fi) => `<button type="button" class="puce" data-fam="${fi}" aria-pressed="${!etat.masquees.has(fi)}" title="${esc(f.nom)} : afficher ou masquer">${pastille(fi)}${esc(f.court)}<span class="n">${nf.format(compte[fi])}</span></button>`).join('');
+  const compte = FAM.map(() => 0), parLangue = {};
+  for (const n of N) {
+    if (FAM[n.fam].choix?.includes(n.mat)) parLangue[n.mat] = (parLangue[n.mat] || 0) + 1;
+    if (bonneLangue(n)) compte[n.fam]++;
+  }
+  $('#legende').innerHTML = FAM.map((f, fi) => `<button type="button" class="puce" data-fam="${fi}" aria-pressed="${!etat.masquees.has(fi)}" title="${esc(f.nom)} : afficher ou masquer">${pastille(fi)}${esc(f.court)}<span class="n">${nf.format(compte[fi])}</span></button>` +
+    (f.choix || []).map(l => `<button type="button" class="puce sous" data-langue="${esc(l)}" aria-pressed="${etat.langues.has(l)}" title="${esc(l)} au collège : afficher ou masquer">${pastille(fi)}${esc(l)}<span class="n">${nf.format(parLangue[l] || 0)}</span></button>`).join('')).join('');
   rendreParcours();
   const vues = FAM.map((f, fi) => fi).filter(fi => !etat.masquees.has(fi));
   boutonFiltre.firstElementChild.textContent = vues.length === FAM.length ? 'Toutes les matières'
@@ -732,20 +741,18 @@ boutonFiltre.addEventListener('click', () => ouvrirMenu(menuFiltre.hidden));
 const filtre = $('#filtre');
 document.addEventListener('click', ev => { if (!menuFiltre.hidden && !ev.composedPath().includes(filtre)) ouvrirMenu(false); });
 $('#tout-afficher').addEventListener('click', () => { etat.masquees.clear(); legende(); disposer(); });
-const choixLangue = $('#langue');
-if (familleChoix >= 0) {
-  choixLangue.innerHTML = FAM[familleChoix].choix.map(l => `<option>${esc(l)}</option>`).join('') + '<option value="toutes">Toutes</option>';
-  choixLangue.value = etat.langue;
-} else choixLangue.closest('label').hidden = true;
 $('#legende').addEventListener('click', ev => {
-  const b = ev.target.closest('[data-fam]');
-  if (!b) return;
-  const fi = +b.dataset.fam;
-  if (etat.masquees.has(fi)) etat.masquees.delete(fi); else etat.masquees.add(fi);
-  legende(); disposer();
-});
-choixLangue.addEventListener('change', ev => {
-  etat.langue = ev.target.value; garder('langue', etat.langue);
+  const l = ev.target.closest('[data-langue]');
+  if (l) {
+    const langue = l.dataset.langue;
+    if (etat.langues.has(langue)) etat.langues.delete(langue); else etat.langues.add(langue);
+    garder('langues', [...etat.langues].join(','));
+  } else {
+    const b = ev.target.closest('[data-fam]');
+    if (!b) return;
+    const fi = +b.dataset.fam;
+    if (etat.masquees.has(fi)) etat.masquees.delete(fi); else etat.masquees.add(fi);
+  }
   legende(); disposer();
   if (etat.vue && etat.vue.t !== 'notion') afficher(etat.vue, false);
 });
@@ -836,7 +843,7 @@ function liste(fi, c) {
   const cycle = D.cycles.find(cy => cy.de <= c && c <= cy.a);
   let html = `<p class="sur-titre">${fi == null ? '' : pastille(fi)}<span>${esc(v)}</span><span>·</span><span>${esc(D.ages[v])}</span><span>·</span><span>${esc(cycle ? cycle.nom + ', ' + cycle.sous : '')}</span></p>
     <h2 class="nom">${esc(titre)}</h2>
-    <p class="desc">${nf.format(propres.length)} notion${propres.length > 1 ? 's' : ''} propre${propres.length > 1 ? 's' : ''} à cette classe${communes.length ? `, et ${nf.format(communes.length)} valable${communes.length > 1 ? 's' : ''} sur plusieurs classes` : ''}.${familleChoix >= 0 && (fi == null || fi === familleChoix) && etat.langue !== 'toutes' ? ` Langue du collège affichée : ${esc(etat.langue)}.` : ''}</p>`;
+    <p class="desc">${nf.format(propres.length)} notion${propres.length > 1 ? 's' : ''} propre${propres.length > 1 ? 's' : ''} à cette classe${communes.length ? `, et ${nf.format(communes.length)} valable${communes.length > 1 ? 's' : ''} sur plusieurs classes` : ''}.${familleChoix >= 0 && (fi == null || fi === familleChoix) && languesAffichees(FAM[familleChoix]) ? ` Langues du collège affichées : ${esc([...etat.langues].join(', ') || 'aucune')}.` : ''}</p>`;
   if (!propres.length && !communes.length) html += '<p class="vide">Aucune notion pour cette case. Vérifiez les matières masquées dans la légende.</p>';
   const droite = n => n.type;
   if (fi == null) {
