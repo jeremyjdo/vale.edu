@@ -1,0 +1,3002 @@
+{
+  "programme": "anglais-college",
+  "prerequisites": [
+    {
+      "topicId": "fr-ang-6e-cult-01",
+      "prerequisiteId": "fr-lv-cm2-cult-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Réinvestit le repérage des ressemblances et différences culturelles vu au CM2."
+    },
+    {
+      "topicId": "fr-ang-6e-cult-02",
+      "prerequisiteId": "fr-lv-cm2-cult-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer la vie des jeunes anglophones à la sienne réinvestit le repérage culturel du CM2."
+    },
+    {
+      "topicId": "fr-ang-6e-comp-01",
+      "prerequisiteId": "fr-lv-cm2-comsg-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer des mots familiers pour trouver le thème d’un message oral » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-comp-01",
+      "prerequisiteId": "fr-lv-cm2-ctex-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un texte grâce aux mots familiers et en trouver le thème » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-coagi-01",
+      "prerequisiteId": "fr-lv-cm2-coagi-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et suivre des consignes à l’impératif » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-coagi-01",
+      "prerequisiteId": "fr-lv-cm2-ceagi-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et suivre des consignes écrites courtes et simples » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-strc-01",
+      "prerequisiteId": "fr-lv-cm2-cohis-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’appuyer sur les images, les sons et le titre pour comprendre l’oral » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-strc-01",
+      "prerequisiteId": "fr-lv-cm2-ctex-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’appuyer sur les images et le titre pour comprendre un texte » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-strc-02",
+      "prerequisiteId": "fr-lv-cm2-ctex-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un texte grâce aux mots familiers et en trouver le thème » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-strc-02",
+      "prerequisiteId": "fr-lv-cm2-comsg-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer des mots familiers pour trouver le thème d’un message oral » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-strc-03",
+      "prerequisiteId": "fr-lv-cm2-comsg-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Compter les personnes qui parlent dans une conversation (A2) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-strc-04",
+      "prerequisiteId": "fr-lv-cm2-comsg-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître l’humeur et les sentiments à la voix et aux gestes » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-strc-05",
+      "prerequisiteId": "fr-lv-cm2-ctex-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier un document grâce au titre, à l’auteur et à la date (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-strc-06",
+      "prerequisiteId": "fr-lv-cm2-cohis-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver le thème grâce aux mots accentués qui se répètent (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-strc-07",
+      "prerequisiteId": "fr-lv-cm2-ctex-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître le type d’un texte à sa présentation » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-strc-08",
+      "prerequisiteId": "fr-lv-cm2-trame-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer les étapes d’un récit grâce aux répétitions (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-strc-09",
+      "prerequisiteId": "fr-lv-cm2-ctex-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un texte grâce aux mots familiers et en trouver le thème » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-stex-01",
+      "prerequisiteId": "fr-lv-cm2-phon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer correctement les mots appris » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-stex-02",
+      "prerequisiteId": "fr-lv-cm2-copie-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Copier ou prendre en note des éléments écrits » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-stex-02",
+      "prerequisiteId": "fr-lv-cm2-copie-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire sous la dictée des mots et des expressions connus » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-decr-01",
+      "prerequisiteId": "fr-lv-cm2-decr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter et décrire son environnement proche » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-decr-01",
+      "prerequisiteId": "fr-lv-cm2-erac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire pour nommer et décrire des personnes, des objets et des lieux » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-pres-01",
+      "prerequisiteId": "fr-lv-cm2-pres-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se présenter et présenter un camarade à l’oral » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-pres-01",
+      "prerequisiteId": "fr-lv-cm2-erac-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se présenter brièvement par écrit » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-rac-01",
+      "prerequisiteId": "fr-lv-cm2-rac-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Redire une histoire répétitive en suivant sa trame » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-rac-01",
+      "prerequisiteId": "fr-lv-cm2-rac-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résumer les moments clés d’une histoire lue en classe (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-situ-01",
+      "prerequisiteId": "fr-lv-cm2-rac-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans l’espace des personnes, des objets et des lieux » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-situ-02",
+      "prerequisiteId": "fr-lv-cm2-rac-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans le temps : dire une date et des repères simples » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-situ-02",
+      "prerequisiteId": "fr-lv-cm2-pres-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nommer les moments de la journée » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-opin-01",
+      "prerequisiteId": "fr-lv-cm2-decr-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire ce qu’on aime de façon simple » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-opin-01",
+      "prerequisiteId": "fr-lv-cm2-decr-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer une préférence avec des verbes et des expressions toutes faites » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-org-01",
+      "prerequisiteId": "fr-lv-cm2-decr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier deux phrases simples avec « et » ou « ou » » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-emo-01",
+      "prerequisiteId": "fr-lv-cm2-emo-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réagir aux propos de l’autre pour dire ce qu’on ressent ou souhaite (A2) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-emo-01",
+      "prerequisiteId": "fr-lv-cm2-pres-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Parler d’un projet proche suppose quelques formes du futur vues au CM2."
+    },
+    {
+      "topicId": "fr-ang-6e-coop-01",
+      "prerequisiteId": "fr-lv-cm2-cult-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Signaler une incompréhension culturelle pour quelqu’un (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-coop-01",
+      "prerequisiteId": "fr-lv-cm2-coop-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander de l’aide ou signaler qu’un autre en a besoin (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-stin-01",
+      "prerequisiteId": "fr-lv-cm2-clar-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire si l’on a compris ou non, demander de répéter » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-stin-02",
+      "prerequisiteId": "fr-lv-cm2-coop-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander de l’aide ou signaler qu’un autre en a besoin (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-stin-03",
+      "prerequisiteId": "fr-lv-cm2-expl-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Joindre le geste à la parole pour montrer une information » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-ech-01",
+      "prerequisiteId": "fr-lv-cm2-ech-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Donner des consignes ou des ordres simples à l’impératif » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-ech-01",
+      "prerequisiteId": "fr-lv-cm2-ech-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réagir à des consignes simples de la classe » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-ech-02",
+      "prerequisiteId": "fr-lv-cm2-ech-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser des questions simples avec les mots interrogatifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-ech-02",
+      "prerequisiteId": "fr-lv-cm2-ech-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Répondre par des réponses courtes » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-cont-01",
+      "prerequisiteId": "fr-lv-cm2-cont-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Saluer et ouvrir un échange » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-ech-03",
+      "prerequisiteId": "fr-lv-cm2-ech-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander ou donner une permission, dire une interdiction » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-opin-02",
+      "prerequisiteId": "fr-lv-cm2-emo-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire ses goûts, son accord ou son désaccord avec des formules (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-clar-01",
+      "prerequisiteId": "fr-lv-cm2-clar-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer les lettres de l’alphabet pour épeler » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-clar-01",
+      "prerequisiteId": "fr-lv-cm2-rac-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Donner des numéros suppose de savoir dire les nombres."
+    },
+    {
+      "topicId": "fr-ang-6e-clar-02",
+      "prerequisiteId": "fr-lv-cm2-clar-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire si l’on a compris ou non, demander de répéter » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-clar-02",
+      "prerequisiteId": "fr-lv-cm2-clar-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander le sens d’un mot » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-cont-02",
+      "prerequisiteId": "fr-lv-cm2-cont-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les formules de politesse de base » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-cont-02",
+      "prerequisiteId": "fr-lv-cm2-struc-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un court courrier à un proche » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-expl-01",
+      "prerequisiteId": "fr-lv-cm2-expl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des verbes de perception (voir, entendre, regarder…) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-expl-02",
+      "prerequisiteId": "fr-lv-cm2-expl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer une information sur un document (ici, en haut, en bas…) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-expl-03",
+      "prerequisiteId": "fr-lv-cm2-notes-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer les besoins d’une autre personne ou y répondre (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-expl-04",
+      "prerequisiteId": "fr-lv-cm2-notes-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Transmettre les informations d’un prospectus ou d’une invitation (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-phon-01",
+      "prerequisiteId": "fr-lv-cm2-phon-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer les sons et accents propres à la langue apprise » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-phon-02",
+      "prerequisiteId": "fr-lv-cm2-phon-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer les sons et accents propres à la langue apprise » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-phon-03",
+      "prerequisiteId": "fr-lv-cm2-phon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer correctement les mots appris » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-phon-06",
+      "prerequisiteId": "fr-lv-cm2-phon-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Faire entendre l’intonation d’une affirmation et d’une question (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-lex-01",
+      "prerequisiteId": "fr-lv-cm2-trame-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître à l’écrit les mots de la famille, des relations et du caractère » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-lex-02",
+      "prerequisiteId": "fr-lv-cm2-erac-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les nationalités s’appuient sur le nom des pays vu au CM2."
+    },
+    {
+      "topicId": "fr-ang-6e-lex-03",
+      "prerequisiteId": "fr-lv-cm2-rac-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Décrire l’apparence réemploie les adjectifs et leurs contraires vus au CM2."
+    },
+    {
+      "topicId": "fr-ang-6e-lex-04",
+      "prerequisiteId": "fr-lv-cm2-trame-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître à l’écrit les mots de la famille, des relations et du caractère » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-lex-05",
+      "prerequisiteId": "fr-lv-cm2-rac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nommer des personnes, objets et lieux avec le vocabulaire des thèmes étudiés » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-lex-06",
+      "prerequisiteId": "fr-lv-cm2-rac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nommer des personnes, objets et lieux avec le vocabulaire des thèmes étudiés » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-lex-09",
+      "prerequisiteId": "fr-lv-cm2-pres-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Parler de ses activités quotidiennes et de ses habitudes » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-lex-09",
+      "prerequisiteId": "fr-lv-cm2-ctex-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Enrichir son répertoire de mots écrits des activités quotidiennes » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-lex-10",
+      "prerequisiteId": "fr-lv-cm2-decr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter et décrire son environnement proche » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-lex-12",
+      "prerequisiteId": "fr-lv-cm2-ceagi-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre à l’écrit le vocabulaire des fournitures et de la cuisine » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-lex-13",
+      "prerequisiteId": "fr-lv-cm2-pres-08",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Parler de ses loisirs réemploie l’expression de la fréquence vue au CM2."
+    },
+    {
+      "topicId": "fr-ang-6e-lex-17",
+      "prerequisiteId": "fr-lv-cm2-emo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer ses sentiments et émotions dans des situations ritualisées » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-lex-18",
+      "prerequisiteId": "fr-lv-cm2-rac-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Compter au-delà de 100 » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-lex-19",
+      "prerequisiteId": "fr-lv-cm2-pres-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nommer les moments de la journée » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gverb-01",
+      "prerequisiteId": "fr-lv-cm2-decr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le présent simple avec je, tu, il ou elle » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gverb-03",
+      "prerequisiteId": "fr-lv-cm2-coagi-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre les verbes qui disent si l’on peut, sait ou doit faire (modaux) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gverb-04",
+      "prerequisiteId": "fr-lv-cm2-ceagi-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître l’impératif affirmatif et négatif et agir » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gverb-05",
+      "prerequisiteId": "fr-lv-cm2-decr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décrire une action en train de se dérouler (A2) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gverb-06",
+      "prerequisiteId": "fr-lv-cm2-pres-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Parler au passé et au futur (A2) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gverb-07",
+      "prerequisiteId": "fr-lv-cm2-pres-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Parler au passé et au futur (A2) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gverb-08",
+      "prerequisiteId": "fr-lv-cm2-decr-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Réemploie les expressions toutes faites (I like, I’d like) vues au CM2."
+    },
+    {
+      "topicId": "fr-ang-6e-gnom-02",
+      "prerequisiteId": "fr-lv-cm2-rac-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Placer l’adjectif avant le nom suppose de connaître des adjectifs."
+    },
+    {
+      "topicId": "fr-ang-6e-gnom-03",
+      "prerequisiteId": "fr-lv-cm2-decr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les articles et les démonstratifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gnom-04",
+      "prerequisiteId": "fr-lv-cm2-decr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les articles et les démonstratifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gnom-05",
+      "prerequisiteId": "fr-lv-cm2-rac-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Appliquer les règles d’accord élémentaires à l’oral » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gnom-06",
+      "prerequisiteId": "fr-lv-cm2-comsg-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre de qui on parle grâce aux pronoms et aux possessifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gnom-08",
+      "prerequisiteId": "fr-lv-cm2-clar-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reformuler en changeant la classe d’un mot (A2) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gpro-01",
+      "prerequisiteId": "fr-lv-cm2-comsg-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre de qui on parle grâce aux pronoms et aux possessifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gpro-02",
+      "prerequisiteId": "fr-lv-cm2-comsg-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre de qui on parle grâce aux pronoms et aux possessifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gpro-03",
+      "prerequisiteId": "fr-lv-cm2-comsg-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre à qui appartient quelque chose grâce aux pronoms possessifs (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gpro-04",
+      "prerequisiteId": "fr-lv-cm2-pres-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se présenter et présenter un camarade à l’oral » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gpro-05",
+      "prerequisiteId": "fr-lv-cm2-comsg-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître les mots interrogatifs dans des questions simples » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gadv-01",
+      "prerequisiteId": "fr-lv-cm2-pres-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les marqueurs de temps pour parler de ses habitudes » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gadv-02",
+      "prerequisiteId": "fr-lv-cm2-rac-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans le temps : dire une date et des repères simples » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gadv-03",
+      "prerequisiteId": "fr-lv-cm2-coagi-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se repérer dans l’espace grâce aux prépositions et verbes d’action entendus » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gphr-01",
+      "prerequisiteId": "fr-lv-cm2-trame-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer une phrase affirmative, négative ou interrogative » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gphr-02",
+      "prerequisiteId": "fr-lv-cm2-ecri-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire sur ses activités en nuançant (un peu, beaucoup, très) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gphr-03",
+      "prerequisiteId": "fr-lv-cm2-trame-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer les connecteurs de coordination dans un texte » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-gphr-04",
+      "prerequisiteId": "fr-lv-cm2-struc-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier des phrases simples à l’écrit avec des connecteurs (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-5e-cult-01",
+      "prerequisiteId": "fr-ang-6e-cult-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître la vie quotidienne des jeunes anglophones » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-comp-01",
+      "prerequisiteId": "fr-ang-6e-comp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre des énoncés simples sur des sujets familiers » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-coagi-01",
+      "prerequisiteId": "fr-ang-6e-coagi-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Suivre des consignes et des instructions simples » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-strc-01",
+      "prerequisiteId": "fr-ang-6e-strc-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier la nature d’un document grâce à sa source et à son titre (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-strc-02",
+      "prerequisiteId": "fr-ang-6e-strc-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’appuyer sur les mots transparents ou familiers pour comprendre » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-strc-03",
+      "prerequisiteId": "fr-ang-6e-strc-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver le thème grâce aux mots accentués qui se répètent (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-strc-04",
+      "prerequisiteId": "fr-ang-6e-strc-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître un type de texte à sa mise en page (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-strc-05",
+      "prerequisiteId": "fr-ang-6e-strc-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer les étapes d’un récit grâce aux répétitions (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-strc-06",
+      "prerequisiteId": "fr-ang-6e-strc-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre la thématique grâce au champ lexical et aux synonymes (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-strc-07",
+      "prerequisiteId": "fr-ang-6e-strc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’appuyer sur les images, les sons et le titre pour comprendre » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-erac-01",
+      "prerequisiteId": "fr-ang-6e-rac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Raconter brièvement une histoire découverte en classe » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-stex-01",
+      "prerequisiteId": "fr-ang-6e-stex-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Répéter, mémoriser et prononcer de manière expressive » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-stex-02",
+      "prerequisiteId": "fr-ang-6e-stex-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Copier, écrire sous la dictée et préparer un écrit au brouillon » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-decr-01",
+      "prerequisiteId": "fr-ang-6e-decr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter et décrire simplement des personnes, des objets et des lieux » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-pres-01",
+      "prerequisiteId": "fr-ang-6e-pres-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se présenter et présenter quelqu’un » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-rac-01",
+      "prerequisiteId": "fr-ang-6e-rac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Raconter brièvement une histoire découverte en classe » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-situ-01",
+      "prerequisiteId": "fr-ang-6e-situ-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer des personnes et des objets dans l’espace » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-situ-02",
+      "prerequisiteId": "fr-ang-6e-situ-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans le temps avec les jours, l’heure et les dates » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-opin-01",
+      "prerequisiteId": "fr-ang-6e-opin-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer simplement ses goûts et ses préférences » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-opin-02",
+      "prerequisiteId": "fr-ang-6e-opin-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer simplement ses goûts et ses préférences » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-org-01",
+      "prerequisiteId": "fr-ang-6e-org-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier ses phrases avec quelques connecteurs simples » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-emo-01",
+      "prerequisiteId": "fr-ang-6e-emo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer un souhait, une intention ou un projet proche » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-hyp-01",
+      "prerequisiteId": "fr-ang-6e-hyp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Formuler simplement des hypothèses » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-coop-01",
+      "prerequisiteId": "fr-ang-6e-coop-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Signaler une difficulté culturelle et vérifier que chacun a compris (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-stin-01",
+      "prerequisiteId": "fr-ang-6e-stin-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Répéter les paroles de l’autre pour montrer qu’on a compris ou non » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-stin-02",
+      "prerequisiteId": "fr-ang-6e-stin-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se faire aider et solliciter de l’aide » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-stin-03",
+      "prerequisiteId": "fr-ang-6e-stin-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Joindre le geste à la parole pour se faire comprendre » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-stin-04",
+      "prerequisiteId": "fr-ang-6e-stin-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accepter les silences et les faux départs » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-stin-05",
+      "prerequisiteId": "fr-ang-6e-stin-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Oser prendre la parole en imitant et en mettant le ton » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-stin-08",
+      "prerequisiteId": "fr-ang-6e-stin-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Répéter les paroles de l’autre pour montrer qu’on a compris ou non » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-ech-01",
+      "prerequisiteId": "fr-ang-6e-ech-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Donner des consignes et des conseils simples, et y réagir » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-ech-02",
+      "prerequisiteId": "fr-ang-6e-ech-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser des questions simples et y répondre » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-cont-01",
+      "prerequisiteId": "fr-ang-6e-cont-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander des nouvelles et réagir » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-ech-03",
+      "prerequisiteId": "fr-ang-6e-ech-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander une autorisation, dire ce qui est permis ou interdit » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-opin-03",
+      "prerequisiteId": "fr-ang-6e-opin-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire très simplement si l’on est d’accord ou non » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-clar-01",
+      "prerequisiteId": "fr-ang-6e-clar-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Épeler des mots et donner des numéros » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-clar-02",
+      "prerequisiteId": "fr-ang-6e-clar-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander de répéter, d’expliquer ou de traduire » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-cont-02",
+      "prerequisiteId": "fr-ang-6e-cont-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Saluer, remercier et s’excuser, à l’oral et dans un court courrier » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-ech-04",
+      "prerequisiteId": "fr-ang-6e-ech-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prévenir ou alerter avec des formules simples » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-expl-01",
+      "prerequisiteId": "fr-ang-6e-expl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des verbes de perception (regarder, écouter, voir) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-expl-02",
+      "prerequisiteId": "fr-ang-6e-expl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Indiquer où se trouve une information sur un document » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-expl-03",
+      "prerequisiteId": "fr-ang-6e-expl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer ses besoins et ceux d’une autre personne » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-expl-04",
+      "prerequisiteId": "fr-ang-6e-expl-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Transmettre les informations d’un prospectus ou d’une invitation » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-cont-03",
+      "prerequisiteId": "fr-ang-6e-cont-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander des nouvelles et réagir » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-emo-02",
+      "prerequisiteId": "fr-ang-6e-lex-17",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Exprimer ses émotions suppose le vocabulaire des émotions de base."
+    },
+    {
+      "topicId": "fr-ang-5e-phon-01",
+      "prerequisiteId": "fr-ang-6e-phon-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier écrit et prononciation, marquer l’intonation des questions (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-phon-02",
+      "prerequisiteId": "fr-ang-6e-phon-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer le -s final : 3e personne, génitif et pluriel » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-phon-03",
+      "prerequisiteId": "fr-ang-6e-phon-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer l’accent dans les mots de plusieurs syllabes » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-phon-06",
+      "prerequisiteId": "fr-ang-6e-phon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer une voyelle courte devant une consonne doublée » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-phon-07",
+      "prerequisiteId": "fr-ang-6e-phon-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer les diphtongues (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-lex-01",
+      "prerequisiteId": "fr-ang-6e-lex-13",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire des loisirs et des sports » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-lex-02",
+      "prerequisiteId": "fr-ang-6e-lex-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de l’apparence physique » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-lex-02",
+      "prerequisiteId": "fr-ang-6e-lex-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire du caractère » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-lex-04",
+      "prerequisiteId": "fr-ang-6e-lex-15",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de la géographie et des paysages » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-lex-05",
+      "prerequisiteId": "fr-ang-6e-lex-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de la maison » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-lex-06",
+      "prerequisiteId": "fr-ang-6e-lex-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire des aliments et des repas » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-lex-09",
+      "prerequisiteId": "fr-ang-6e-lex-16",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire des contes et légendes » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-lex-10",
+      "prerequisiteId": "fr-ang-6e-lex-17",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire des émotions de base » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gverb-01",
+      "prerequisiteId": "fr-ang-6e-gverb-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer au présent les verbes courants, be et have » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gverb-02",
+      "prerequisiteId": "fr-ang-6e-gverb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître le présent en be + -ing (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gverb-03",
+      "prerequisiteId": "fr-ang-6e-gverb-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser be + -ing pour parler d’un futur proche (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gverb-04",
+      "prerequisiteId": "fr-ang-6e-gverb-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître quelques verbes courants au prétérit (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gverb-05",
+      "prerequisiteId": "fr-ang-6e-gverb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser can et can’t, must et mustn’t » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gverb-06",
+      "prerequisiteId": "fr-ang-6e-gverb-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer une intention avec I want to et I would like to (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gverb-07",
+      "prerequisiteId": "fr-ang-6e-gverb-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître l’impératif des consignes » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gnom-01",
+      "prerequisiteId": "fr-ang-6e-gnom-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Appliquer les accords de base et les pluriels irréguliers » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gnom-02",
+      "prerequisiteId": "fr-ang-6e-gnom-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les articles a, the et l’absence d’article » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gnom-02",
+      "prerequisiteId": "fr-ang-6e-gnom-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser this, these, that et those » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gnom-03",
+      "prerequisiteId": "fr-ang-6e-gnom-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les déterminants possessifs (my, your, his, her…) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gnom-03",
+      "prerequisiteId": "fr-ang-6e-gnom-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le génitif (’s) pour indiquer l’appartenance » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gnom-04",
+      "prerequisiteId": "fr-ang-6e-gnom-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer les suffixes qui transforment un mot » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gnom-06",
+      "prerequisiteId": "fr-ang-6e-gnom-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer suppose de savoir employer et placer les adjectifs."
+    },
+    {
+      "topicId": "fr-ang-5e-gpro-01",
+      "prerequisiteId": "fr-ang-6e-gpro-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les pronoms personnels sujets » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gpro-01",
+      "prerequisiteId": "fr-ang-6e-gpro-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les pronoms personnels compléments » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gpro-02",
+      "prerequisiteId": "fr-ang-6e-gpro-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les pronoms possessifs (mine, yours…) (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gpro-03",
+      "prerequisiteId": "fr-ang-6e-gpro-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître les mots interrogatifs » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gadv-01",
+      "prerequisiteId": "fr-ang-6e-gadv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire la date et l’année » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gadv-02",
+      "prerequisiteId": "fr-ang-6e-gadv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les marqueurs de temps essentiels » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gadv-03",
+      "prerequisiteId": "fr-ang-6e-gadv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans l’espace avec les prépositions et les verbes de mouvement » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gadv-04",
+      "prerequisiteId": "fr-ang-6e-gadv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les marqueurs de temps essentiels » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gadv-05",
+      "prerequisiteId": "fr-ang-6e-gphr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’opposition s’appuie sur but, déjà employé en 6e."
+    },
+    {
+      "topicId": "fr-ang-5e-gphr-01",
+      "prerequisiteId": "fr-ang-6e-gphr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Former des phrases affirmatives, négatives et interrogatives » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gphr-02",
+      "prerequisiteId": "fr-ang-6e-gphr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nuancer avec very, much et too (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gphr-03",
+      "prerequisiteId": "fr-ang-6e-gphr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier avec and, but et or » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gphr-04",
+      "prerequisiteId": "fr-ang-6e-gphr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des connecteurs chronologiques et logiques » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gphr-05",
+      "prerequisiteId": "fr-ang-6e-gphr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer le doute avec maybe ou perhaps (A1+) » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-gphr-06",
+      "prerequisiteId": "fr-ang-6e-gphr-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Après le doute avec maybe, l’hypothèse en if exprime à son tour l’incertain."
+    },
+    {
+      "topicId": "fr-ang-4e-cult-01",
+      "prerequisiteId": "fr-ang-5e-cult-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir le monde anglophone à travers quatre axes culturels au choix » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-cult-02",
+      "prerequisiteId": "fr-ang-5e-cult-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître des repères sur le Royaume-Uni » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-comp-01",
+      "prerequisiteId": "fr-ang-5e-comp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et repérer des informations simples dans des documents variés » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-coagi-01",
+      "prerequisiteId": "fr-ang-5e-coagi-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Suivre des consignes et des instructions » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-strc-01",
+      "prerequisiteId": "fr-ang-5e-strc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier la nature d’un document grâce à sa source et à ses illustrations » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-strc-02",
+      "prerequisiteId": "fr-ang-5e-strc-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver le thème grâce aux mots transparents, familiers ou répétés » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-strc-03",
+      "prerequisiteId": "fr-ang-5e-strc-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver le thème grâce aux mots accentués qui se répètent » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-strc-04",
+      "prerequisiteId": "fr-ang-5e-strc-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître un type de texte à sa mise en page » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-strc-05",
+      "prerequisiteId": "fr-ang-5e-strc-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer les étapes d’un récit grâce aux répétitions » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-strc-06",
+      "prerequisiteId": "fr-ang-5e-strc-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre la thématique grâce au champ lexical et aux synonymes » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-strc-09",
+      "prerequisiteId": "fr-ang-5e-strc-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Vérifier ses hypothèses suppose d’en avoir formé à partir de la source du document."
+    },
+    {
+      "topicId": "fr-ang-4e-stex-01",
+      "prerequisiteId": "fr-ang-5e-stex-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Préparer et soutenir sa prise de parole » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stex-02",
+      "prerequisiteId": "fr-ang-5e-stex-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Préparer, corriger et enrichir un écrit à partir d’un modèle » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stex-03",
+      "prerequisiteId": "fr-ang-5e-stex-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Préparer et soutenir sa prise de parole » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stex-04",
+      "prerequisiteId": "fr-ang-5e-stex-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Préparer et soutenir sa prise de parole » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stex-05",
+      "prerequisiteId": "fr-ang-5e-stex-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Préparer, corriger et enrichir un écrit à partir d’un modèle » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stex-06",
+      "prerequisiteId": "fr-ang-5e-org-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Organiser son propos avec des connecteurs logiques et chronologiques » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-decr-01",
+      "prerequisiteId": "fr-ang-5e-decr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter et décrire des personnes, des objets, des lieux et des activités » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-pres-01",
+      "prerequisiteId": "fr-ang-5e-pres-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter une personne : nom, âge, origine, famille » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-rac-01",
+      "prerequisiteId": "fr-ang-5e-rac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Raconter une histoire, un évènement ou une expérience passée » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-situ-01",
+      "prerequisiteId": "fr-ang-5e-situ-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer des personnes, des objets et des lieux dans l’espace » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-situ-02",
+      "prerequisiteId": "fr-ang-5e-situ-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans le temps : dates, heures, passé et futur proches » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-opin-01",
+      "prerequisiteId": "fr-ang-5e-opin-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer ses goûts et ses préférences, en les opposant » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-opin-02",
+      "prerequisiteId": "fr-ang-5e-opin-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer son opinion sur une œuvre ou une personne (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-org-01",
+      "prerequisiteId": "fr-ang-5e-org-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Organiser son propos avec des connecteurs logiques et chronologiques » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-emo-01",
+      "prerequisiteId": "fr-ang-5e-emo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer un souhait, une intention ou un projet » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-hyp-01",
+      "prerequisiteId": "fr-ang-5e-hyp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Formuler des hypothèses » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-coop-01",
+      "prerequisiteId": "fr-ang-5e-coop-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Signaler une difficulté et vérifier que chacun a compris » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stin-01",
+      "prerequisiteId": "fr-ang-5e-stin-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Répéter les paroles de l’autre pour montrer qu’on a compris ou non » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stin-02",
+      "prerequisiteId": "fr-ang-5e-stin-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire qu’on ne comprend pas et demander de l’aide » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stin-03",
+      "prerequisiteId": "fr-ang-5e-stin-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Joindre le geste à la parole pour se faire comprendre » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stin-04",
+      "prerequisiteId": "fr-ang-5e-stin-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accepter les silences et les faux départs » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stin-05",
+      "prerequisiteId": "fr-ang-5e-stin-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Oser prendre la parole en imitant et en mettant le ton » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stin-06",
+      "prerequisiteId": "fr-ang-5e-stin-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accepter les silences et les faux départs » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stin-08",
+      "prerequisiteId": "fr-ang-5e-stin-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire qu’on ne comprend pas et demander de l’aide » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stin-09",
+      "prerequisiteId": "fr-ang-5e-stin-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Redire le point principal avec d’autres mots pour aider les autres (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-stin-10",
+      "prerequisiteId": "fr-ang-5e-stin-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Joindre le geste à la parole pour se faire comprendre » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-ech-01",
+      "prerequisiteId": "fr-ang-5e-ech-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Donner des consignes et des conseils, et y réagir » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-ech-02",
+      "prerequisiteId": "fr-ang-5e-ech-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser des questions variées, y compris au passé » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-cont-01",
+      "prerequisiteId": "fr-ang-5e-cont-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander des nouvelles et réagir » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-ech-03",
+      "prerequisiteId": "fr-ang-5e-ech-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander une autorisation, exprimer permission, interdiction et contrainte » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-opin-03",
+      "prerequisiteId": "fr-ang-5e-opin-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire si l’on est d’accord ou non » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-clar-01",
+      "prerequisiteId": "fr-ang-5e-clar-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Épeler des mots et donner des numéros de téléphone » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-clar-02",
+      "prerequisiteId": "fr-ang-5e-clar-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Donner et demander de l’aide : répéter, préciser, traduire » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-cont-02",
+      "prerequisiteId": "fr-ang-5e-cont-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les formules de politesse, à l’oral et à l’écrit » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-ech-04",
+      "prerequisiteId": "fr-ang-5e-ech-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prévenir ou alerter avec des formules simples » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-expl-01",
+      "prerequisiteId": "fr-ang-5e-expl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les verbes de perception » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-expl-02",
+      "prerequisiteId": "fr-ang-5e-expl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Indiquer où se trouve une information sur un document » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-expl-03",
+      "prerequisiteId": "fr-ang-5e-expl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer ses besoins et ceux d’une autre personne » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-expl-04",
+      "prerequisiteId": "fr-ang-5e-expl-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Transmettre les informations d’un document, y compris culturelles » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-cont-03",
+      "prerequisiteId": "fr-ang-5e-cont-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relancer la conversation par des questions simples (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-emo-02",
+      "prerequisiteId": "fr-ang-5e-emo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer ses sentiments et ses émotions (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-phon-01",
+      "prerequisiteId": "fr-ang-5e-phon-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Maîtriser l’intonation montante et descendante » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-phon-02",
+      "prerequisiteId": "fr-ang-5e-phon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer les terminaisons -s et -ed » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-phon-03",
+      "prerequisiteId": "fr-ang-5e-phon-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accentuer les mots et respecter le rythme de la phrase » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-phon-04",
+      "prerequisiteId": "fr-ang-5e-phon-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer les formes faibles (of, to, at, from) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-phon-05",
+      "prerequisiteId": "fr-ang-5e-phon-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer les voyelles longues et courtes (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-phon-05",
+      "prerequisiteId": "fr-ang-5e-phon-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer les diphtongues (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-lex-01",
+      "prerequisiteId": "fr-ang-5e-lex-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de l’école et des loisirs » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-lex-02",
+      "prerequisiteId": "fr-ang-5e-lex-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de la description physique et morale » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-lex-03",
+      "prerequisiteId": "fr-ang-5e-lex-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire des transports et des déplacements » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-lex-04",
+      "prerequisiteId": "fr-ang-5e-lex-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire des paysages, du temps et des saisons » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-lex-05",
+      "prerequisiteId": "fr-ang-5e-lex-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire des lieux et de la ville » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-lex-07",
+      "prerequisiteId": "fr-ang-5e-lex-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de l’art » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-lex-08",
+      "prerequisiteId": "fr-ang-5e-lex-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de l’aventure et de la découverte » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-lex-09",
+      "prerequisiteId": "fr-ang-5e-lex-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de l’imaginaire » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-lex-10",
+      "prerequisiteId": "fr-ang-5e-lex-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire des sentiments et des émotions » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gverb-01",
+      "prerequisiteId": "fr-ang-5e-gverb-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le présent simple aux formes affirmative, négative et interrogative » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gverb-02",
+      "prerequisiteId": "fr-ang-5e-gverb-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître le présent be + -ing » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gverb-03",
+      "prerequisiteId": "fr-ang-5e-gverb-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître puis utiliser le prétérit des verbes courants » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gverb-04",
+      "prerequisiteId": "fr-ang-5e-gverb-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le present perfect s’oppose au prétérit, qu’il faut déjà savoir former."
+    },
+    {
+      "topicId": "fr-ang-4e-gverb-05",
+      "prerequisiteId": "fr-ang-5e-gverb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer le futur avec be + -ing, will et be going to » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gverb-06",
+      "prerequisiteId": "fr-ang-5e-gverb-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer une intention ou un souhait avec des formules toutes faites » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gverb-07",
+      "prerequisiteId": "fr-ang-5e-gverb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les modaux can, must, should et could » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gverb-08",
+      "prerequisiteId": "fr-ang-5e-gverb-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer une intention ou un souhait avec des formules toutes faites » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gverb-09",
+      "prerequisiteId": "fr-ang-5e-gverb-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser l’impératif affirmatif et négatif, et le gérondif d’interdiction » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gnom-01",
+      "prerequisiteId": "fr-ang-5e-gnom-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Appliquer les accords et les pluriels irréguliers courants » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gnom-02",
+      "prerequisiteId": "fr-ang-5e-gnom-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les articles et les démonstratifs » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gnom-03",
+      "prerequisiteId": "fr-ang-5e-gnom-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les déterminants possessifs et le génitif » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gnom-04",
+      "prerequisiteId": "fr-ang-5e-gnom-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Former des mots avec un suffixe ou un préfixe » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gnom-06",
+      "prerequisiteId": "fr-ang-5e-gnom-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer avec les comparatifs et les superlatifs (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gpro-01",
+      "prerequisiteId": "fr-ang-5e-gpro-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les pronoms personnels sujets et compléments » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gpro-02",
+      "prerequisiteId": "fr-ang-5e-gpro-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les pronoms possessifs (mine, his, hers…) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gpro-03",
+      "prerequisiteId": "fr-ang-5e-gpro-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les mots interrogatifs » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gpro-04",
+      "prerequisiteId": "fr-ang-5e-gpro-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les pronoms réfléchis (myself, himself…) (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gadv-01",
+      "prerequisiteId": "fr-ang-5e-gadv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des marqueurs temporels » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gadv-02",
+      "prerequisiteId": "fr-ang-5e-gadv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans l’espace avec des prépositions et des expressions » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gadv-03",
+      "prerequisiteId": "fr-ang-5e-gadv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les adverbes de fréquence » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gadv-04",
+      "prerequisiteId": "fr-ang-5e-gadv-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer une opposition ou un contraste (but, whereas, however) (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gphr-01",
+      "prerequisiteId": "fr-ang-5e-gphr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Former des phrases affirmatives, négatives et interrogatives » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gphr-02",
+      "prerequisiteId": "fr-ang-5e-gphr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nuancer avec des adverbes de degré et d’intensité » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gphr-03",
+      "prerequisiteId": "fr-ang-5e-gphr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier avec and, but et or » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gphr-04",
+      "prerequisiteId": "fr-ang-5e-gphr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des connecteurs chronologiques et logiques » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gphr-05",
+      "prerequisiteId": "fr-ang-5e-gphr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer le doute avec maybe ou perhaps » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gphr-07",
+      "prerequisiteId": "fr-ang-5e-gphr-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Formuler des hypothèses avec if (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-4e-gphr-08",
+      "prerequisiteId": "fr-ang-5e-gphr-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Passer du discours direct au discours indirect (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-3e-cult-01",
+      "prerequisiteId": "fr-ang-4e-cult-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir le monde anglophone à travers quatre axes culturels au choix » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-cult-02",
+      "prerequisiteId": "fr-ang-4e-cult-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître des repères sur l’Irlande » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-comp-01",
+      "prerequisiteId": "fr-ang-4e-comp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre les informations principales de documents variés » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-comp-02",
+      "prerequisiteId": "fr-ang-4e-comp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre les informations principales de documents variés » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-cohis-01",
+      "prerequisiteId": "fr-ang-4e-strc-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Suivre la progression d’un récit » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-coagi-01",
+      "prerequisiteId": "fr-ang-4e-coagi-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Suivre des consignes et mettre en application des instructions » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-strc-03",
+      "prerequisiteId": "fr-ang-4e-strc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Faire des hypothèses sur un document grâce à sa source et à son titre » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-strc-04",
+      "prerequisiteId": "fr-ang-4e-strc-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver le thème et les sous-thèmes grâce aux mots connus et répétés » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-strc-05",
+      "prerequisiteId": "fr-ang-4e-strc-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver le thème grâce aux mots accentués qui se répètent » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-erac-01",
+      "prerequisiteId": "fr-ang-4e-rac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Raconter une histoire brève en enchaînant les évènements » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stex-01",
+      "prerequisiteId": "fr-ang-4e-stex-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Répéter, mémoriser et enrichir un énoncé à l’oral » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stex-02",
+      "prerequisiteId": "fr-ang-4e-stex-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Préparer un écrit au brouillon et enrichir un modèle » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stex-03",
+      "prerequisiteId": "fr-ang-4e-stex-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Enrichir son vocabulaire en remplaçant ou précisant des mots (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stex-04",
+      "prerequisiteId": "fr-ang-4e-stex-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Améliorer la correction de ses écrits avec des outils (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stex-05",
+      "prerequisiteId": "fr-ang-4e-stex-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Gagner en aisance en faisant varier des phrases connues (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stex-06",
+      "prerequisiteId": "fr-ang-4e-stex-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Gagner en aisance en faisant varier des phrases connues (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stex-07",
+      "prerequisiteId": "fr-ang-4e-stex-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Améliorer la correction de ses écrits avec des outils (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stex-08",
+      "prerequisiteId": "fr-ang-4e-stex-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Améliorer la correction de ses écrits avec des outils (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stex-09",
+      "prerequisiteId": "fr-ang-4e-stex-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des connecteurs pour rendre un écrit cohérent (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-decr-01",
+      "prerequisiteId": "fr-ang-4e-decr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter et décrire avec précision personnes, objets, lieux et activités » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-pres-01",
+      "prerequisiteId": "fr-ang-4e-pres-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se présenter et présenter quelqu’un de manière nuancée » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-rac-01",
+      "prerequisiteId": "fr-ang-4e-rac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Raconter une histoire brève en enchaînant les évènements » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-situ-01",
+      "prerequisiteId": "fr-ang-4e-situ-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer précisément dans l’espace, y compris sur une image » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-situ-02",
+      "prerequisiteId": "fr-ang-4e-situ-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans le temps avec des marqueurs adaptés » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-opin-01",
+      "prerequisiteId": "fr-ang-4e-opin-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer ses goûts et ses préférences en comparant » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-opin-02",
+      "prerequisiteId": "fr-ang-4e-opin-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer une opinion nuancée (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-emo-01",
+      "prerequisiteId": "fr-ang-4e-emo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer des sentiments et des émotions avec nuance (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-org-01",
+      "prerequisiteId": "fr-ang-4e-org-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Organiser et hiérarchiser son propos avec des connecteurs » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-emo-02",
+      "prerequisiteId": "fr-ang-4e-emo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer une intention, un projet et ses conditions » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-hyp-01",
+      "prerequisiteId": "fr-ang-4e-hyp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Formuler des hypothèses avec des expressions de la condition » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stin-01",
+      "prerequisiteId": "fr-ang-4e-stin-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Oser prendre la parole en imitant et en mettant le ton » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stin-02",
+      "prerequisiteId": "fr-ang-4e-stin-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Répéter pour montrer ou vérifier la compréhension » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stin-03",
+      "prerequisiteId": "fr-ang-4e-stin-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se faire aider et solliciter de l’aide » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stin-04",
+      "prerequisiteId": "fr-ang-4e-stin-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Redire les points principaux avec d’autres mots pour aider les autres (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stin-05",
+      "prerequisiteId": "fr-ang-4e-stin-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander des précisions avec empathie (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stin-07",
+      "prerequisiteId": "fr-ang-4e-coop-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Signaler une difficulté culturelle et vérifier que chacun a compris » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-ech-01",
+      "prerequisiteId": "fr-ang-4e-ech-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Donner des consignes et des conseils avec assurance, et y réagir » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-ech-02",
+      "prerequisiteId": "fr-ang-4e-ech-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser une large gamme de questions, dont quelques questions précises » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-ech-03",
+      "prerequisiteId": "fr-ang-4e-ech-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer de façon variée autorisation, interdiction et obligation » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-opin-03",
+      "prerequisiteId": "fr-ang-4e-opin-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer son accord ou son désaccord de manière variée » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-clar-01",
+      "prerequisiteId": "fr-ang-4e-clar-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander de l’aide et des précisions sur une information » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-cont-01",
+      "prerequisiteId": "fr-ang-4e-cont-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les formules de politesse pour ouvrir et clore un échange » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-cont-02",
+      "prerequisiteId": "fr-ang-4e-cont-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relancer la conversation par des questions variées (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-expl-02",
+      "prerequisiteId": "fr-ang-4e-expl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des verbes de perception » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-expl-03",
+      "prerequisiteId": "fr-ang-4e-expl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer et hiérarchiser une information sur un document » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-emo-03",
+      "prerequisiteId": "fr-ang-4e-emo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer des sentiments et des émotions avec nuance (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-expl-04",
+      "prerequisiteId": "fr-ang-4e-expl-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Transmettre de façon organisée les informations d’un document » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-phon-01",
+      "prerequisiteId": "fr-ang-4e-phon-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Marquer l’intonation des affirmations et des questions » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-phon-02",
+      "prerequisiteId": "fr-ang-4e-phon-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accentuer les mots et mettre en relief les mots-clés » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-phon-03",
+      "prerequisiteId": "fr-ang-4e-phon-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les formes contractées réduisent les mots grammaticaux comme les formes faibles."
+    },
+    {
+      "topicId": "fr-ang-3e-phon-04",
+      "prerequisiteId": "fr-ang-4e-phon-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Mobiliser ses connaissances : lettres muettes, h, voyelles, diphtongues (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-phon-05",
+      "prerequisiteId": "fr-ang-4e-phon-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Mobiliser ses connaissances : lettres muettes, h, voyelles, diphtongues (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-phon-06",
+      "prerequisiteId": "fr-ang-4e-phon-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer les sons th : /θ/ et /ð/ (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-phon-07",
+      "prerequisiteId": "fr-ang-4e-phon-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accentuer les mots et mettre en relief les mots-clés » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-lex-01",
+      "prerequisiteId": "fr-ang-4e-lex-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de l’aventure et des voyages » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-lex-02",
+      "prerequisiteId": "fr-ang-4e-lex-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire des sentiments et des émotions » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-lex-05",
+      "prerequisiteId": "fr-ang-4e-lex-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire des transports et des déplacements » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-lex-05",
+      "prerequisiteId": "fr-ang-4e-lex-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de l’aventure et des voyages » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-lex-07",
+      "prerequisiteId": "fr-ang-4e-lex-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de la description physique et morale » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-lex-08",
+      "prerequisiteId": "fr-ang-4e-lex-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de la géographie et des paysages » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-lex-08",
+      "prerequisiteId": "fr-ang-4e-lex-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le vocabulaire de la ville et des quartiers » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gverb-01",
+      "prerequisiteId": "fr-ang-4e-gverb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le prétérit simple et le prétérit en be + -ing » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gverb-02",
+      "prerequisiteId": "fr-ang-4e-gverb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer le futur avec be + -ing, will et be going to » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gverb-03",
+      "prerequisiteId": "fr-ang-4e-gverb-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les modaux, y compris pour la probabilité » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gverb-04",
+      "prerequisiteId": "fr-ang-4e-gverb-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer une intention avec I want to et I would like to » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gnom-02",
+      "prerequisiteId": "fr-ang-4e-gnom-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer avec une gamme variée de comparatifs et de superlatifs (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gpro-02",
+      "prerequisiteId": "fr-ang-4e-gpro-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les pronoms et verbes réfléchis et réciproques (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gpro-03",
+      "prerequisiteId": "fr-ang-4e-gpro-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les pronoms interrogatifs » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gadv-01",
+      "prerequisiteId": "fr-ang-4e-gadv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans le temps avec des marqueurs variés (ago, for, since…) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gadv-02",
+      "prerequisiteId": "fr-ang-4e-gadv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans l’espace avec des prépositions et des expressions » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gadv-03",
+      "prerequisiteId": "fr-ang-4e-gadv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer une opposition ou une concession (however, yet…) (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gphr-01",
+      "prerequisiteId": "fr-ang-4e-gphr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nuancer avec des adverbes d’intensité » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gphr-02",
+      "prerequisiteId": "fr-ang-4e-gphr-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des subordonnées hypothétiques et conditionnelles (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gphr-03",
+      "prerequisiteId": "fr-ang-4e-gphr-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Passer du discours direct au discours indirect (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gphr-04",
+      "prerequisiteId": "fr-ang-4e-gphr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des connecteurs chronologiques et logiques variés » (4e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gphr-05",
+      "prerequisiteId": "fr-ang-4e-gphr-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser la proposition relative avec who et which (A2+) » (4e)"
+    },
+    {
+      "topicId": "fr-ang-6e-phon-04",
+      "prerequisiteId": "fr-lv-cm2-phon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer correctement les mots appris » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-6e-phon-05",
+      "prerequisiteId": "fr-lv-cm2-phon-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer les sons et accents propres à la langue apprise » (CM2)"
+    },
+    {
+      "topicId": "fr-ang-5e-cult-01",
+      "prerequisiteId": "fr-ang-6e-cult-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir des personnes et personnages emblématiques du monde anglophone » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-cult-01",
+      "prerequisiteId": "fr-ang-6e-cult-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir contes, légendes et imaginaire du monde anglophone » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-stin-06",
+      "prerequisiteId": "fr-ang-6e-stin-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Oser prendre la parole en imitant et en mettant le ton » (6e)"
+    },
+    {
+      "topicId": "fr-ang-5e-stin-07",
+      "prerequisiteId": "fr-ang-6e-stin-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Répéter les paroles de l’autre pour montrer qu’on a compris ou non » (6e)"
+    },
+    {
+      "topicId": "fr-ang-3e-strc-01",
+      "prerequisiteId": "fr-ang-5e-strc-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’appuyer sur les images et les sons pour comprendre un message oral (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-3e-strc-02",
+      "prerequisiteId": "fr-ang-5e-strc-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’appuyer sur des indices culturels pour construire le sens (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-3e-erac-01",
+      "prerequisiteId": "fr-ang-5e-erac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire le début d’une histoire ou la continuer (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stin-01",
+      "prerequisiteId": "fr-ang-5e-stin-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Attirer l’attention pour prendre la parole (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-3e-stin-02",
+      "prerequisiteId": "fr-ang-5e-stin-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Montrer que l’on suit ce qui se dit (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-3e-phon-03",
+      "prerequisiteId": "fr-ang-5e-phon-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer les formes contractées (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gverb-05",
+      "prerequisiteId": "fr-ang-5e-gverb-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer son opinion avec I think, I believe, In my opinion (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gnom-01",
+      "prerequisiteId": "fr-ang-5e-gnom-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des antonymes (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-3e-gpro-01",
+      "prerequisiteId": "fr-ang-5e-gpro-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les quantifieurs much, many et some (A2) » (5e)"
+    },
+    {
+      "topicId": "fr-ang-3e-lex-04",
+      "prerequisiteId": "fr-ang-6e-lex-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le nom des métiers courants » (6e)"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "anglais-college": "2026-10-23",
+    "lv-cm": "2026-10-23"
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "programme": "tec-c4",
+  "prerequisites": [
+    {
+      "topicId": "fr-tec-4e-evo-01",
+      "prerequisiteId": "fr-sc-cm1-bes-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer comment un objet technique a évolué selon les contextes » (CM1)"
+    },
+    {
+      "topicId": "fr-tec-5e-evo-01",
+      "prerequisiteId": "fr-sc-cm1-fonc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Associer les éléments d’un objet technique à leurs fonctions » (CM1)"
+    },
+    {
+      "topicId": "fr-tec-c4-evo-01",
+      "prerequisiteId": "fr-sc-cm1-bes-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer des objets qui répondent à un même besoin selon le contexte » (CM1)"
+    },
+    {
+      "topicId": "fr-tec-c4-num-02",
+      "prerequisiteId": "fr-sc-6e-masv-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Convertir avec les multiples (kilo, méga…), comme pour les unités de masse et de volume"
+    },
+    {
+      "topicId": "fr-tec-c4-env-01",
+      "prerequisiteId": "fr-sc-cm1-fonc-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dessiner à main levée les éléments d’un objet technique » (CM1)"
+    },
+    {
+      "topicId": "fr-tec-c4-env-01",
+      "prerequisiteId": "fr-sc-6e-elec-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le schéma normalisé d’un circuit est un des modes de représentation d’un objet"
+    },
+    {
+      "topicId": "fr-tec-5e-env-02",
+      "prerequisiteId": "fr-sc-cm1-fonc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Associer les éléments d’un objet technique à leurs fonctions » (CM1)"
+    },
+    {
+      "topicId": "fr-tec-4e-choix-01",
+      "prerequisiteId": "fr-sc-6e-mel-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Connaître la composition de l’air et les gaz à effet de serre pour juger l’impact sur l’air"
+    },
+    {
+      "topicId": "fr-tec-5e-choix-01",
+      "prerequisiteId": "fr-sc-cm2-conc-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "A déjà comparé des solutions selon leur durée de vie et leur impact sur l’environnement"
+    },
+    {
+      "topicId": "fr-tec-3e-choix-01",
+      "prerequisiteId": "fr-sc-6e-edd-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S’appuie sur un projet de développement durable mené en 6e"
+    },
+    {
+      "topicId": "fr-tec-c4-choix-03",
+      "prerequisiteId": "fr-sc-cm1-bes-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer des objets qui répondent à un même besoin selon le contexte » (CM1)"
+    },
+    {
+      "topicId": "fr-tec-c4-choix-03",
+      "prerequisiteId": "fr-sc-cm2-conc-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer des solutions techniques de façon critique » (CM2)"
+    },
+    {
+      "topicId": "fr-tec-c4-perf-01",
+      "prerequisiteId": "fr-sc-6e-mvt-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Mesurer une vitesse en comparant des durées pour une même distance"
+    },
+    {
+      "topicId": "fr-tec-c4-ener-01",
+      "prerequisiteId": "fr-sc-cm1-fonc-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Repérer les sous-ensembles d’un objet pour y situer la chaîne d’énergie"
+    },
+    {
+      "topicId": "fr-tec-5e-ener-01",
+      "prerequisiteId": "fr-sc-6e-elec-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le moteur et l’élément photovoltaïque utilisés en 6e font intervenir plusieurs formes d’énergie"
+    },
+    {
+      "topicId": "fr-tec-5e-ener-02",
+      "prerequisiteId": "fr-sc-6e-elec-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réaliser un circuit avec un moteur ou un élément photovoltaïque » (6e)"
+    },
+    {
+      "topicId": "fr-tec-4e-ener-01",
+      "prerequisiteId": "fr-sc-cm2-elec-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réaliser un circuit électrique à une boucle qui fonctionne » (CM2)"
+    },
+    {
+      "topicId": "fr-tec-c4-ener-02",
+      "prerequisiteId": "fr-sc-cm2-mvt-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Distinguer un mouvement rectiligne d’un mouvement circulaire (rotation)"
+    },
+    {
+      "topicId": "fr-tec-5e-mat-01",
+      "prerequisiteId": "fr-sc-cm2-conc-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Choisir un matériau selon une contrainte » (CM2)"
+    },
+    {
+      "topicId": "fr-tec-5e-mat-01",
+      "prerequisiteId": "fr-sc-6e-masv-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer la masse de matériaux de même volume, une de leurs propriétés"
+    },
+    {
+      "topicId": "fr-tec-c4-info-01",
+      "prerequisiteId": "fr-sc-6e-elec-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réaliser un circuit avec un capteur » (6e)"
+    },
+    {
+      "topicId": "fr-tec-4e-info-01",
+      "prerequisiteId": "fr-sc-6e-elec-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réaliser un circuit avec un capteur » (6e)"
+    },
+    {
+      "topicId": "fr-tec-c4-rep-01",
+      "prerequisiteId": "fr-sc-6e-elec-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Respecter les règles de sécurité électrique avant d’intervenir sur un objet"
+    },
+    {
+      "topicId": "fr-tec-c4-rep-03",
+      "prerequisiteId": "fr-sc-6e-elec-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Appliquer les règles de sécurité électrique, y compris à la maison » (6e)"
+    },
+    {
+      "topicId": "fr-tec-c4-rep-07",
+      "prerequisiteId": "fr-sc-6e-elec-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réaliser un circuit avec un capteur » (6e)"
+    },
+    {
+      "topicId": "fr-tec-c4-rep-07",
+      "prerequisiteId": "fr-sc-6e-elec-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Câbler un circuit sur une plaque d’essai à partir de son schéma normalisé"
+    },
+    {
+      "topicId": "fr-tec-c4-rep-09",
+      "prerequisiteId": "fr-sc-cm2-elec-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer matériaux conducteurs et isolants électriques » (CM2)"
+    },
+    {
+      "topicId": "fr-tec-c4-prog-01",
+      "prerequisiteId": "fr-sc-cm2-prog-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Modifier, tester et corriger un programme » (CM2)"
+    },
+    {
+      "topicId": "fr-tec-c4-prog-04",
+      "prerequisiteId": "fr-sc-cm2-prog-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un algorithme : repérer boucles et conditions » (CM2)"
+    },
+    {
+      "topicId": "fr-tec-c4-prog-05",
+      "prerequisiteId": "fr-sc-cm2-prog-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un algorithme : repérer boucles et conditions » (CM2)"
+    },
+    {
+      "topicId": "fr-tec-c4-prog-07",
+      "prerequisiteId": "fr-sc-cm1-prog-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser un programme pour piloter un robot ou un personnage » (CM1)"
+    },
+    {
+      "topicId": "fr-tec-c4-prog-10",
+      "prerequisiteId": "fr-sc-cm2-prog-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un algorithme : repérer boucles et conditions » (CM2)"
+    },
+    {
+      "topicId": "fr-tec-c4-proj-01",
+      "prerequisiteId": "fr-sc-cm2-conc-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Organiser en équipe la conception d’une maquette et la fabriquer » (CM2)"
+    },
+    {
+      "topicId": "fr-tec-c4-proj-02",
+      "prerequisiteId": "fr-sc-6e-edd-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "A déjà coopéré en groupe dans un projet de développement durable"
+    },
+    {
+      "topicId": "fr-tec-c4-proj-03",
+      "prerequisiteId": "fr-sc-cm2-conc-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer des solutions selon leur impact sur l’environnement"
+    },
+    {
+      "topicId": "fr-tec-c4-proj-03",
+      "prerequisiteId": "fr-sc-6e-edd-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S’appuie sur un projet de développement durable mené en 6e"
+    },
+    {
+      "topicId": "fr-tec-c4-proto-01",
+      "prerequisiteId": "fr-sc-cm2-conc-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Organiser en équipe la conception d’une maquette et la fabriquer » (CM2)"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "sciences-c3": "2026-10-23",
+    "tec-c4": "2026-10-23"
+  }
+}

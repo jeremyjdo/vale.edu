@@ -1,0 +1,19 @@
+{
+  "programme": "tec-c4",
+  "description": "Liens vers une autre matière",
+  "prerequisites": [
+    {
+      "topicId": "fr-tec-3e-res-01",
+      "prerequisiteId": "fr-hg-cm1-net-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S'appuie sur « Le fonctionnement d’Internet : un réseau de câbles et de satellites » (CM1, histoire-géographie)"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "hg-c3": "2026-10-23",
+    "tec-c4": "2026-10-23"
+  }
+}

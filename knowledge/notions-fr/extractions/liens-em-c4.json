@@ -1,0 +1,234 @@
+{
+  "programme": "em-c4",
+  "prerequisites": [
+    {
+      "topicId": "fr-em-c4-proj-01",
+      "prerequisiteId": "fr-em-c3-cha-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Interpréter un chant avec expressivité selon des choix fixés » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-proj-02",
+      "prerequisiteId": "fr-em-c3-cha-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Interpréter un chant avec expressivité selon des choix fixés » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-proj-02",
+      "prerequisiteId": "fr-em-c3-cre-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Un projet de création s’appuie sur l’invention d’une organisation sonore (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-proj-04",
+      "prerequisiteId": "fr-em-c3-cha-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Tenir sa partie dans une polyphonie » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-proj-05",
+      "prerequisiteId": "fr-em-c3-cha-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Chanter par cœur et soutenir un bref solo » (Cycle 3) : répertoire de chansons diverses"
+    },
+    {
+      "topicId": "fr-em-c4-proj-06",
+      "prerequisiteId": "fr-em-c3-cha-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Vocabulaire de l’expression et notion d’interprétation » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-proj-06",
+      "prerequisiteId": "fr-em-c3-cha-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Interpréter un chant avec expressivité selon des choix fixés » (Cycle 3) : paramètres du son et techniques vocales"
+    },
+    {
+      "topicId": "fr-em-c4-proj-07",
+      "prerequisiteId": "fr-em-c3-cre-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Expérimenter les paramètres du son et imaginer leurs usages » (Cycle 3) : manipuler des objets sonores avec des outils numériques"
+    },
+    {
+      "topicId": "fr-em-c4-ecou-01",
+      "prerequisiteId": "fr-em-c3-eco-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer une organisation simple et en déduire une forme » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ecou-02",
+      "prerequisiteId": "fr-em-c3-eco-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer une œuvre musicale dans le temps et dans l’espace » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ecou-03",
+      "prerequisiteId": "fr-em-c3-eco-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer une œuvre musicale dans le temps et dans l’espace » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ecou-03",
+      "prerequisiteId": "fr-em-c3-eco-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Relier une musique à son contexte mobilise les savoirs d’histoire déjà associés aux œuvres (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ecou-05",
+      "prerequisiteId": "fr-em-c3-eco-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier une œuvre musicale aux savoirs d’autres disciplines et d’autres arts » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ecou-06",
+      "prerequisiteId": "fr-em-c3-eco-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier ressemblances et différences entre deux extraits » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ecou-08",
+      "prerequisiteId": "fr-em-c3-cre-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Représenter graphiquement une suite de sons (partition graphique) » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ecou-09",
+      "prerequisiteId": "fr-em-c3-eco-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décrire et comparer des éléments sonores variés » (Cycle 3) : vocabulaire simple pour décrire la musique"
+    },
+    {
+      "topicId": "fr-em-c4-ecou-10",
+      "prerequisiteId": "fr-em-c3-eco-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « L’orchestre symphonique et les formes de production musicale » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ecou-11",
+      "prerequisiteId": "fr-em-c3-eco-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître quelques grandes œuvres du patrimoine musical » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-crea-01",
+      "prerequisiteId": "fr-em-c3-cre-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Inventer et interpréter une organisation sonore simple » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-crea-04",
+      "prerequisiteId": "fr-em-c3-cre-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Représenter graphiquement une suite de sons (partition graphique) » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-crea-05",
+      "prerequisiteId": "fr-em-c3-ech-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’auto-évaluation fait partie des conditions du travail collectif vues au cycle 3"
+    },
+    {
+      "topicId": "fr-em-c4-ech-01",
+      "prerequisiteId": "fr-em-c3-ech-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Argumenter un choix pour une interprétation collective » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ech-02",
+      "prerequisiteId": "fr-em-c3-cha-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier les difficultés rencontrées en chantant » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ech-03",
+      "prerequisiteId": "fr-em-c3-ech-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Argumenter un choix pour une interprétation collective » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ech-06",
+      "prerequisiteId": "fr-em-c3-ech-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer ses goûts au-delà du ressenti immédiat » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ech-07",
+      "prerequisiteId": "fr-em-c3-ech-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Argumenter un jugement sur une musique » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ech-08",
+      "prerequisiteId": "fr-em-c3-ech-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écouter et respecter le point de vue et la sensibilité des autres » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-em-c4-ech-09",
+      "prerequisiteId": "fr-em-c3-cre-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Inventer et interpréter une organisation sonore simple » (Cycle 3) : postures de l’explorateur du son puis du compositeur"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "em-c3": "2026-10-23",
+    "em-c4": "2026-10-23"
+  }
+}

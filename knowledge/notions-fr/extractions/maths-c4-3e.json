@@ -1,0 +1,2079 @@
+{
+  "programme": "maths-c4",
+  "level": "3e",
+  "themeCodes": {
+    "rat": "Nombres rationnels",
+    "pui": "Puissances",
+    "rac": "Racine carrée",
+    "mul": "Multiples et diviseurs",
+    "lit": "Calcul littéral et algébrique",
+    "rep": "Repérage sur une droite et dans le plan",
+    "esp": "Représentation de l’espace",
+    "tri": "Triangles",
+    "vec": "Translations et vecteurs",
+    "sta": "Statistiques",
+    "prb": "Probabilités",
+    "prop": "Proportionnalité",
+    "fct": "Fonctions",
+    "info": "La pensée informatique"
+  },
+  "notions": [
+    {
+      "id": "fr-ma-3e-rat-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres rationnels",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Rendre une fraction irréductible",
+      "description": "Simplifier une fraction jusqu’au bout, c’est-à-dire jusqu’à ce que le numérateur et le dénominateur n’aient plus de diviseur commun autre que 1 : 60/84 devient 5/7. On s’aide pour cela des tables de multiplication et de la décomposition des nombres en facteurs.",
+      "officialObjectives": [
+        "Mettre une fraction sous forme irréductible.",
+        "Rendre irréductible une fraction."
+      ],
+      "evidence": [
+        "Simplifie de façon automatique une fraction dont le numérateur et le dénominateur sont dans une même table de multiplication, par exemple 15/35 et 63/14.",
+        "Met une fraction sous forme irréductible en divisant le numérateur et le dénominateur par leurs facteurs communs, par exemple 60/84 = 5/7.",
+        "S’appuie sur la décomposition en facteurs (60 = 2² × 3 × 5) et sur les critères de divisibilité pour repérer les facteurs communs.",
+        "Reconnaît qu’une fraction est irréductible quand son numérateur et son dénominateur n’ont plus de diviseur commun autre que 1.",
+        "Donne le résultat d’un calcul sur les fractions sous forme irréductible."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait rendre irréductible la fraction 60/84 (réponse : 5/7) et simplifier de tête 15/35 ?",
+      "priorKnowledge": [
+        "Simplifier une fraction (4e)",
+        "Utiliser les notions de multiples et diviseurs (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-rat-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres rationnels",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Résoudre des problèmes avec des fractions",
+      "description": "Utiliser les fractions et les quatre opérations sur les fractions pour résoudre des problèmes : une fraction peut être un nombre, le résultat d’une division ou une « part de » quelque chose (les 2/3 d’une quantité). En 3e, additionner, soustraire, multiplier et diviser des fractions doit être devenu automatique.",
+      "officialObjectives": [
+        "Résoudre des problèmes faisant appel à des fractions."
+      ],
+      "evidence": [
+        "Additionne, soustrait, multiplie et divise des fractions de façon automatique.",
+        "Trouve un dénominateur commun à deux fractions pour les additionner, les soustraire ou les comparer.",
+        "Utilise une fraction comme nombre, comme quotient ou comme opérateur (fraction d’une quantité) pour modéliser un problème.",
+        "Résout un problème du type : un réservoir est rempli aux 3/4 et on utilise les 2/3 de son contenu ; on a utilisé 2/3 × 3/4 = 1/2 du réservoir.",
+        "Donne le résultat sous forme irréductible et contrôle sa vraisemblance."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait résoudre : « Un réservoir est rempli aux 3/4 ; on utilise les 2/3 de ce qu’il contient. Quelle fraction du réservoir a-t-on utilisée ? » (réponse : 1/2) ?",
+      "priorKnowledge": [
+        "Résoudre des problèmes mobilisant les opérations sur les fractions : addition, soustraction, multiplication, division, inverse (4e)",
+        "Calculer et représenter la fraction d’une fraction, d’un nombre, d’une quantité (4e)",
+        "Diviser des fractions (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-pui-01",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Puissances",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Puissances d’exposant négatif",
+      "description": "Comprendre que 10⁻³ (« 10 puissance moins 3 ») veut dire 1 divisé par 10³, soit 0,001. Plus généralement, a⁻ⁿ est l’inverse de aⁿ. Les exposants négatifs servent à écrire de très petites grandeurs, par exemple en sciences.",
+      "officialObjectives": [
+        "Définir les puissances d’exposant négatif d’un nombre."
+      ],
+      "evidence": [
+        "Écrit a⁻ⁿ comme l’inverse de aⁿ, c’est-à-dire 1/aⁿ (a non nul), par exemple 2⁻³ = 1/2³ = 1/8.",
+        "Passe d’une puissance de dix d’exposant négatif à l’écriture décimale et inversement : 10⁻³ = 0,001.",
+        "Utilise les exposants négatifs pour exprimer de petites grandeurs issues des sciences de l’atome, de la microbiologie, des sciences chimiques ou des nanotechnologies.",
+        "Associe les préfixes milli, micro et nano aux puissances 10⁻³, 10⁻⁶ et 10⁻⁹, en lien avec les conversions."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire 10⁻³ en écriture décimale (0,001) et 2⁻³ sous forme de fraction (1/8) ?",
+      "priorKnowledge": [
+        "Définir les puissances d’exposant positif d’un nombre a (4e)",
+        "Définir l’inverse d’un nombre et connaitre sa notation (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-pui-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Puissances",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Multiplier et diviser des puissances",
+      "description": "Utiliser les règles de calcul sur les puissances : pour multiplier deux puissances d’un même nombre, on additionne les exposants (10⁵ × 10² = 10⁷) ; pour les diviser, on soustrait les exposants (10⁷ ÷ 10³ = 10⁴).",
+      "officialObjectives": [
+        "Multiplier et diviser des puissances."
+      ],
+      "evidence": [
+        "Écrit de façon automatique une multiplication itérée sous forme de puissance : 3 × 3 × 3 × 3 = 3⁴.",
+        "Multiplie des puissances d’un même nombre : aᵐ × aⁿ = aᵐ⁺ⁿ, par exemple 10⁵ × 10⁻² = 10³.",
+        "Multiplie des puissances de même exposant de deux nombres : aⁿ × bⁿ = (a × b)ⁿ, par exemple 2³ × 5³ = 10³.",
+        "Divise des puissances d’un même nombre : aᵐ ÷ aⁿ = aᵐ⁻ⁿ, par exemple 10⁷ ÷ 10³ = 10⁴."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire sous la forme d’une seule puissance de 10 les calculs 10⁵ × 10⁻² (10³) et 10⁷ ÷ 10³ (10⁴) ?",
+      "priorKnowledge": [
+        "Multiplier des puissances d’exposant entier naturel d’un même nombre entre elles (4e)",
+        "Multiplier des puissances d’un même exposant entier naturel de deux nombres entre elles (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-pui-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Puissances",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Notation scientifique d’un nombre",
+      "description": "Écrire un nombre sous la forme a × 10ⁿ, avec a compris entre 1 et 10 (10 exclu) : 150 000 000 s’écrit 1,5 × 10⁸ et 0,000 002 s’écrit 2 × 10⁻⁶. C’est l’écriture utilisée en sciences pour les très grands et les très petits nombres.",
+      "officialObjectives": [
+        "Déterminer la notation scientifique d’un nombre."
+      ],
+      "evidence": [
+        "Écrit un nombre sous la forme a × 10ⁿ, où a est un nombre décimal compris entre 1 et 10 (10 exclu) et n un entier relatif.",
+        "Détermine la notation scientifique de grands nombres issus de l’astronomie ou de l’informatique, par exemple 150 000 000 = 1,5 × 10⁸.",
+        "Détermine la notation scientifique de petits nombres, par exemple 0,000 002 = 2 × 10⁻⁶.",
+        "Passe de la notation scientifique à l’écriture décimale, et inversement."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait donner la notation scientifique de 150 000 000 (1,5 × 10⁸) et de 0,000 002 (2 × 10⁻⁶) ?",
+      "priorKnowledge": [
+        "Multiplier et diviser par 10, 100, 1 000 ; savoir compléter 1 200 = 1,2 × … (4e)",
+        "Définir les puissances d’exposant positif d’un nombre a (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-pui-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Puissances",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Résoudre des problèmes avec la notation scientifique",
+      "description": "Utiliser les puissances et la notation scientifique pour résoudre des problèmes, souvent tirés des sciences (distances en astronomie, tailles de microbes ou d’atomes), et faire des conversions avec les préfixes de nano à giga.",
+      "officialObjectives": [
+        "Résoudre des problèmes notamment en utilisant la notation scientifique."
+      ],
+      "evidence": [
+        "Calcule avec des nombres en notation scientifique, par exemple (3 × 10⁸) × (2 × 10³) = 6 × 10¹¹.",
+        "Résout des problèmes de produits itérés, comme le comptage de situations répétitives.",
+        "Utilise les préfixes des puissances de dix de nano à giga pour faire des conversions, en lien avec la physique-chimie.",
+        "Contrôle un résultat à l’aide d’un ordre de grandeur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait résoudre : « La lumière parcourt environ 3 × 10⁵ km par seconde ; quelle distance parcourt-elle en 500 s ? » et donner le résultat en notation scientifique (1,5 × 10⁸ km) ?",
+      "priorKnowledge": [
+        "Résoudre des problèmes faisant intervenir des puissances (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-rac-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Racine carrée",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Résoudre une équation x² = a",
+      "description": "Trouver les nombres dont le carré vaut a : si a est positif, il y en a deux, √a et −√a (par exemple x² = 25 donne 5 ou −5) ; si a est négatif, il n’y en a aucun. On peut aussi lire ces solutions sur la courbe de la fonction carré.",
+      "officialObjectives": [
+        "Résoudre analytiquement et graphiquement des équations de la forme 𝑥² = a."
+      ],
+      "evidence": [
+        "Résout par le calcul 𝑥² = a : deux solutions √a et −√a si a > 0, une seule (0) si a = 0, aucune si a < 0.",
+        "Résout par exemple 𝑥² = 49 (solutions 7 et −7) et 𝑥² = 2 (solutions √2 et −√2).",
+        "Résout graphiquement 𝑥² = a en lisant les abscisses des points d’intersection de la courbe de la fonction carré avec la droite horizontale d’ordonnée a.",
+        "Mobilise de façon automatique les carrés des nombres entiers compris entre 0 et 12."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait résoudre 𝑥² = 49 (𝑥 = 7 ou 𝑥 = −7) et expliquer pourquoi 𝑥² = −4 n’a pas de solution ?",
+      "priorKnowledge": [
+        "Comprendre et connaitre la définition de la racine carrée d’un nombre positif (4e)",
+        "Connaitre et reconnaitre les carrés parfaits des entiers de 0 à 12 (4e)",
+        "Multiplier deux nombres relatifs (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-rac-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Racine carrée",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Résoudre des problèmes avec la racine carrée",
+      "description": "Utiliser la racine carrée dans des situations de géométrie : trouver le côté d’un carré dont on connaît l’aire, ou une longueur avec le théorème de Pythagore, en donnant une valeur exacte (√20) ou approchée (environ 4,5).",
+      "officialObjectives": [
+        "Résoudre des problèmes utilisant la racine carrée."
+      ],
+      "evidence": [
+        "Calcule la longueur du côté d’un carré d’aire donnée, par exemple un carré de 20 cm² a un côté de √20 cm, soit environ 4,5 cm.",
+        "Utilise la racine carrée pour calculer une longueur avec le théorème de Pythagore.",
+        "Donne une valeur exacte ou une valeur approchée à la calculatrice, selon ce qui est demandé.",
+        "Encadre une racine carrée entre deux entiers consécutifs pour contrôler un résultat, par exemple 4 < √20 < 5."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver la longueur du côté d’un carré d’aire 20 cm² (√20 cm, soit environ 4,5 cm) ?",
+      "priorKnowledge": [
+        "Encadrer la racine carrée d’un entier par deux nombres entiers consécutifs (4e)",
+        "Connaitre le théorème de Pythagore, sa réciproque, sa contraposée (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-mul-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Multiples et diviseurs",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Décomposer un entier en produit de facteurs (automatisme)",
+      "description": "Écrire un nombre entier comme un produit de facteurs premiers, par exemple 60 = 2² × 3 × 5, en s’aidant des critères de divisibilité par 2, 3, 5 et 9. En 3e, cette partie du programme ne comporte que des automatismes, utilisés avec les fractions et dans des problèmes.",
+      "officialObjectives": [
+        "Factoriser un nombre entier positif : 60 = 2² × 3 × 5.",
+        "Appliquer les critères de divisibilité par 2, 3, 5, 9."
+      ],
+      "evidence": [
+        "Factorise un nombre entier positif en produit de facteurs premiers, par exemple 60 = 2² × 3 × 5.",
+        "Applique les critères de divisibilité par 2, 3, 5 et 9 pour trouver des diviseurs d’un nombre, par exemple 135 est divisible par 9 car 1 + 3 + 5 = 9.",
+        "Utilise les multiples et diviseurs en lien avec les fractions : simplification, recherche d’un dénominateur commun.",
+        "Utilise les multiples et diviseurs pour résoudre des problèmes, par exemple de calendrier, d’engrenages ou de phénomènes périodiques."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire 60 sous la forme 2² × 3 × 5, et dire sans poser de division si 135 est divisible par 9 ?",
+      "priorKnowledge": [
+        "Utiliser les notions de multiples et diviseurs (5e)",
+        "Connaitre les critères de divisibilité par 3 et par 9 (5e)",
+        "Définir les puissances d’exposant positif d’un nombre a (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-lit-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Simplifier des produits et des quotients ayant des facteurs communs",
+      "description": "Simplifier une expression en regroupant les facteurs (3𝑥 × 2𝑥 = 6𝑥²) ou en supprimant un facteur présent en haut et en bas d’un quotient. Attention : on ne simplifie que des facteurs, jamais des termes d’une somme.",
+      "officialObjectives": [
+        "Simplifier des expressions produits ou des rapports comportant des facteurs communs."
+      ],
+      "evidence": [
+        "Simplifie de façon automatique des expressions littérales, par exemple 3𝑥 × 2𝑥 = 6𝑥² ou 𝑥 + 𝑥 = 2𝑥.",
+        "Simplifie un rapport en supprimant un facteur commun au numérateur et au dénominateur, par exemple (6 × 𝑥)/(6 × 5) = 𝑥/5.",
+        "Simplifie un quotient de produits de puissances, par exemple (2³ × 5)/(2 × 5²) = 2²/5 = 4/5.",
+        "Explique pourquoi (𝑥 + 6)/6 ne se simplifie pas comme un produit : 6 y est un terme et non un facteur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait simplifier (6 × 𝑥)/(6 × 5) en 𝑥/5, et expliquer pourquoi (𝑥 + 6)/6 ne se simplifie pas de la même façon ?",
+      "priorKnowledge": [
+        "Simplifier une fraction (4e)",
+        "Connaitre et utiliser : 1 × 𝑥 = 𝑥 ; 𝑥 + 𝑥 = 2𝑥 ; 𝑥 × 𝑥 = 𝑥² ; 3𝑥 + 2𝑥 = 5𝑥 ; 3𝑥 × 2𝑥 = 6𝑥² (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-lit-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Développer avec la double distributivité",
+      "description": "Transformer un produit de deux parenthèses en somme en multipliant chaque terme de la première par chaque terme de la seconde : (𝑥 + 2)(𝑥 + 5) = 𝑥² + 5𝑥 + 2𝑥 + 10 = 𝑥² + 7𝑥 + 10.",
+      "officialObjectives": [
+        "Utiliser la double distributivité pour développer et factoriser des expressions dont le facteur est apparent."
+      ],
+      "evidence": [
+        "Développe un produit de deux sommes avec (a + b)(c + d) = ac + ad + bc + bd, par exemple (𝑥 + 2)(𝑥 + 5) = 𝑥² + 7𝑥 + 10.",
+        "Réduit l’expression obtenue après développement.",
+        "Gère les signes lors du développement, par exemple (𝑥 − 3)(2𝑥 + 1) = 2𝑥² − 5𝑥 − 3.",
+        "Prend l’opposé d’une expression de façon automatique : –(5 – 4𝑥) = –5 + 4𝑥."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait développer et réduire (𝑥 + 2)(𝑥 + 5) (réponse : 𝑥² + 7𝑥 + 10) ?",
+      "priorKnowledge": [
+        "Connaitre et utiliser la distributivité simple pour développer et factoriser une expression algébrique (4e)",
+        "Multiplier deux nombres relatifs (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-lit-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Factoriser une expression dont le facteur commun est apparent",
+      "description": "Faire l’inverse du développement : repérer un facteur qui apparaît dans chaque terme et le « mettre en commun » pour écrire l’expression sous forme de produit, par exemple 5𝑥 + 20 = 5(𝑥 + 4).",
+      "officialObjectives": [
+        "Utiliser la double distributivité pour développer et factoriser des expressions dont le facteur est apparent."
+      ],
+      "evidence": [
+        "Factorise de façon automatique une expression simple, par exemple 5𝑥 + 20 = 5(𝑥 + 4).",
+        "Repère un facteur commun apparent et factorise, par exemple (𝑥 + 1)(2𝑥 − 3) + (𝑥 + 1)(𝑥 + 4) = (𝑥 + 1)(3𝑥 + 1).",
+        "Vérifie une factorisation en développant le résultat obtenu.",
+        "Factorise une expression pour se ramener à une équation produit nul."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait factoriser (𝑥 + 1)(2𝑥 − 3) + (𝑥 + 1)(𝑥 + 4) (réponse : (𝑥 + 1)(3𝑥 + 1)) ?",
+      "priorKnowledge": [
+        "Connaitre et utiliser la distributivité simple pour développer et factoriser une expression algébrique (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-lit-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Résoudre une inéquation du type a𝑥 ⩾ b",
+      "description": "Trouver tous les nombres qui rendent vraie une inégalité comme 3𝑥 ⩾ 12 (ici, tous les nombres supérieurs ou égaux à 4), par le calcul ou sur un graphique. Attention : quand on divise par un nombre négatif, le sens de l’inégalité change.",
+      "officialObjectives": [
+        "Résoudre analytiquement et graphiquement une inéquation du premier degré du type a𝑥 ⩾ b."
+      ],
+      "evidence": [
+        "Résout par le calcul une inéquation du type a𝑥 ⩾ b, par exemple 3𝑥 ⩾ 12 donne 𝑥 ⩾ 4.",
+        "Change le sens de l’inégalité en divisant par un nombre négatif : −2𝑥 ⩾ 6 donne 𝑥 ⩽ −3.",
+        "Représente l’ensemble des solutions sur une droite graduée.",
+        "Résout graphiquement l’inéquation en repérant les abscisses des points de la droite représentant 𝑥 ↦ a𝑥 situés au-dessus de la droite horizontale d’ordonnée b.",
+        "Teste si un nombre est solution en remplaçant 𝑥 par ce nombre."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait résoudre 3𝑥 ⩾ 12 (𝑥 ⩾ 4) et −2𝑥 ⩾ 6 (𝑥 ⩽ −3) ?",
+      "priorKnowledge": [
+        "Résoudre une équation du premier degré du type a𝑥 + b = c (4e)",
+        "Diviser deux nombres relatifs (4e)",
+        "Placer sur une droite graduée un point dont l’abscisse est un nombre relatif (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-lit-05",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Résoudre une équation produit nul",
+      "description": "Utiliser le fait qu’un produit est nul seulement si l’un de ses facteurs est nul : (𝑥 − 2)(𝑥 + 5) = 0 donne 𝑥 − 2 = 0 ou 𝑥 + 5 = 0, donc 𝑥 = 2 ou 𝑥 = −5.",
+      "officialObjectives": [
+        "Résoudre une équation produit nul."
+      ],
+      "evidence": [
+        "Donne de façon automatique la nature d’une expression : 3𝑥 + 2 est une somme, 5(𝑥 + 4) est un produit.",
+        "Utilise la propriété : un produit est nul si et seulement si l’un au moins de ses facteurs est nul.",
+        "Résout par exemple (𝑥 − 2)(𝑥 + 5) = 0 : 𝑥 = 2 ou 𝑥 = −5.",
+        "Résout chaque équation du premier degré obtenue, par exemple pour (2𝑥 + 1)(𝑥 − 3) = 0 : 𝑥 = −0,5 ou 𝑥 = 3.",
+        "Vérifie les solutions en les remplaçant dans l’équation de départ."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait résoudre (𝑥 − 2)(𝑥 + 5) = 0 (𝑥 = 2 ou 𝑥 = −5) ?",
+      "priorKnowledge": [
+        "Résoudre une équation du premier degré du type a𝑥 + b = c (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-lit-06",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Développer avec les identités remarquables",
+      "description": "Connaître par cœur trois formules qui font gagner du temps pour développer : (a + b)² = a² + 2ab + b², (a – b)² = a² – 2ab + b² et (a – b)(a + b) = a² – b². Erreur fréquente à éviter : (a + b)² n’est pas égal à a² + b².",
+      "officialObjectives": [
+        "Manipuler les trois identités remarquables pour développer et factoriser : a² + 2ab + b² = (a + b)² ; a² – 2ab + b² = (a – b)² ; a² – b² = (a – b)(a + b)"
+      ],
+      "evidence": [
+        "Développe (a + b)², (a – b)² et (a – b)(a + b) à l’aide des identités remarquables, par exemple (𝑥 + 3)² = 𝑥² + 6𝑥 + 9.",
+        "Développe des expressions comme (2𝑥 − 1)² = 4𝑥² − 4𝑥 + 1 ou (𝑥 − 5)(𝑥 + 5) = 𝑥² − 25.",
+        "Utilise les identités pour calculer mentalement, par exemple 101² = 10 201 ou 99 × 101 = 9 999.",
+        "Montre sur un exemple numérique que (a + b)² ≠ a² + b², par exemple (2 + 3)² = 25 alors que 2² + 3² = 13.",
+        "Utilise une identité dans une démonstration, par exemple pour prouver que le carré d’un nombre impair 2n + 1 est impair."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait développer (𝑥 + 3)² (réponse : 𝑥² + 6𝑥 + 9) et expliquer pourquoi ce n’est pas 𝑥² + 9 ?",
+      "priorKnowledge": [
+        "Connaitre et utiliser la distributivité simple pour développer et factoriser une expression algébrique (4e)",
+        "Utiliser le calcul algébrique pour produire des démonstrations (4e)",
+        "Produire des formules et tester leur vraisemblance : aires de formes géométriques simples, nombres pairs/impairs (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-lit-07",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Factoriser avec les identités remarquables",
+      "description": "Reconnaître dans une expression la forme d’une identité remarquable pour l’écrire en produit, par exemple 𝑥² − 25 = (𝑥 − 5)(𝑥 + 5). C’est souvent l’étape qui permet ensuite de résoudre une équation.",
+      "officialObjectives": [
+        "Manipuler les trois identités remarquables pour développer et factoriser : a² + 2ab + b² = (a + b)² ; a² – 2ab + b² = (a – b)² ; a² – b² = (a – b)(a + b)"
+      ],
+      "evidence": [
+        "Reconnaît une différence de deux carrés et la factorise : 𝑥² − 25 = (𝑥 − 5)(𝑥 + 5) ; 4𝑥² − 9 = (2𝑥 − 3)(2𝑥 + 3).",
+        "Reconnaît le développement d’un carré et le factorise : 𝑥² + 6𝑥 + 9 = (𝑥 + 3)².",
+        "Vérifie une factorisation en la développant.",
+        "Utilise la factorisation pour résoudre une équation, par exemple 𝑥² − 25 = 0 donne 𝑥 = 5 ou 𝑥 = −5."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait factoriser 𝑥² − 25 (réponse : (𝑥 − 5)(𝑥 + 5)) ?",
+      "priorKnowledge": [
+        "Connaitre et reconnaitre les carrés parfaits des entiers de 0 à 12 (4e)",
+        "Connaitre et utiliser la distributivité simple pour développer et factoriser une expression algébrique (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-lit-08",
+      "programme": "maths-c4",
+      "type": "META",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Raisonner par analyse-synthèse pour résoudre une équation",
+      "description": "Résoudre une équation en deux temps : d’abord supposer qu’un nombre est solution et en déduire ce qu’il doit valoir (analyse), puis vérifier que ce nombre convient vraiment (synthèse). On apprend ainsi à distinguer « si c’est une solution, alors… » et « c’est bien une solution ».",
+      "officialObjectives": [
+        "Pratiquer un raisonnement par analyse-synthèse dans le cadre d’une résolution d’équation."
+      ],
+      "evidence": [
+        "Suppose qu’un nombre 𝑥 est solution et en déduit, étape par étape, les valeurs possibles de 𝑥 (analyse).",
+        "Vérifie ensuite que chaque valeur trouvée est bien solution en la remplaçant dans l’équation (synthèse).",
+        "Conclut en donnant toutes les solutions, ou en écartant une valeur qui ne convient pas.",
+        "Enchaîne logiquement les étapes du raisonnement, à l’oral ou à l’écrit, sans exigence de rédaction stéréotypée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer, pour 2𝑥 + 3 = 11, pourquoi la seule solution possible est 4, puis vérifier que 4 convient bien (2 × 4 + 3 = 11) ?",
+      "priorKnowledge": [
+        "Résoudre une équation du premier degré du type a𝑥 + b = c (4e)",
+        "Tester si un nombre vérifie une égalité (4e)",
+        "Utiliser le calcul algébrique pour produire des démonstrations (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 11,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-rep-01",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Repérage sur une droite et dans le plan",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Se repérer sur une droite graduée et dans un repère (automatisme)",
+      "description": "Placer et lire des nombres positifs ou négatifs sur une droite graduée, et lire ou placer un point dans un repère à partir de ses coordonnées (abscisse, ordonnée). En 3e, ces savoir-faire sont des automatismes, très utiles pour lire et tracer des représentations de fonctions.",
+      "officialObjectives": [
+        "Placer sur une droite graduée un point dont l’abscisse est un nombre relatif.",
+        "Repérer un nombre relatif sur une droite graduée.",
+        "Dans le plan muni d’un repère orthogonal : lire les coordonnées d’un point donné ; placer un point de coordonnées données."
+      ],
+      "evidence": [
+        "Place sur une droite graduée un point dont l’abscisse est un nombre relatif, par exemple −2,5.",
+        "Repère un nombre relatif sur une droite graduée.",
+        "Lit les coordonnées d’un point donné dans un repère orthogonal.",
+        "Place un point de coordonnées données dans un repère orthogonal, par exemple A(−3 ; 2)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer rapidement le point A(−3 ; 2) dans un repère et lire les coordonnées d’un autre point ?",
+      "priorKnowledge": [
+        "Placer sur une droite graduée un point dont l’abscisse est un nombre relatif (4e)",
+        "Dans le plan muni d’un repère orthogonal, lire les coordonnées d’un point donné et placer un point de coordonnées données (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 15,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-esp-01",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Représentation de l’espace",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Sphère, boule, grands cercles et diamètre",
+      "description": "Distinguer la sphère (la « surface » : tous les points situés à la même distance du centre) et la boule (la sphère et tout son intérieur). Un grand cercle est un cercle tracé sur la sphère qui a le même centre qu’elle, comme l’équateur sur la Terre.",
+      "officialObjectives": [
+        "Définir la boule et la sphère.",
+        "Définir les grands cercles, le diamètre."
+      ],
+      "evidence": [
+        "Définit la sphère de centre O et de rayon r comme l’ensemble des points situés à la distance r de O.",
+        "Définit la boule de centre O et de rayon r comme l’ensemble des points situés à une distance inférieure ou égale à r de O.",
+        "Définit un grand cercle comme un cercle de la sphère de même centre et de même rayon qu’elle, et un diamètre comme un segment passant par le centre dont les extrémités sont sur la sphère.",
+        "Reconnaît une boule parmi d’autres solides (pavé droit, cube, prisme droit, cylindre, pyramide, cône)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer la différence entre une sphère et une boule, et dire pourquoi l’équateur est un grand cercle de la Terre ?",
+      "priorKnowledge": [
+        "Reconnaitre des solides (pyramide, cône de révolution) (4e)",
+        "Construire et mettre en relation différentes représentations des solides (pavé droit, cube, cylindre de révolution, prisme droit, pyramides et cônes de révolution) (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 15,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-esp-02",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Représentation de l’espace",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Sections d’un pavé, d’un cylindre et d’une boule par un plan",
+      "description": "Imaginer et dessiner la forme obtenue quand on « coupe » un solide par un plan : couper un pavé parallèlement à une face donne un rectangle, couper un cylindre perpendiculairement à son axe donne un disque, couper une boule donne toujours un disque.",
+      "officialObjectives": [
+        "Visualiser et réaliser des sections de pavé parallèlement à une face, de cylindre parallèlement ou perpendiculairement à son axe, d’une boule."
+      ],
+      "evidence": [
+        "Reconnaît que la section d’un pavé droit par un plan parallèle à une face est un rectangle de mêmes dimensions que cette face.",
+        "Reconnaît que la section d’un cylindre de révolution perpendiculairement à son axe est un disque de même rayon que la base, et parallèlement à son axe un rectangle.",
+        "Reconnaît que la section d’une boule par un plan est un disque, le plus grand possible quand le plan passe par le centre (grand cercle).",
+        "Représente une section en perspective cavalière et la trace en vraie grandeur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quelle forme on obtient en coupant un cylindre perpendiculairement à son axe (un disque) puis parallèlement à son axe (un rectangle) ?",
+      "priorKnowledge": [
+        "Construire et mettre en relation différentes représentations des solides (pavé droit, cube, cylindre de révolution, prisme droit, pyramides et cônes de révolution) (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 15,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-esp-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Représentation de l’espace",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Calculer le volume d’une boule",
+      "description": "Calculer le volume d’une boule avec la formule V = 4/3 × π × r³, où r est le rayon. Archimède avait remarqué que ce volume vaut les 2/3 de celui du cylindre qui contient la boule.",
+      "officialObjectives": [
+        "Connaitre et utiliser la formule du volume d’une boule de rayon donné."
+      ],
+      "evidence": [
+        "Connaît la formule du volume d’une boule de rayon r : V = 4/3 × π × r³.",
+        "Calcule le volume d’une boule de rayon donné, en valeur exacte et en valeur approchée, par exemple pour r = 3 cm : 36π cm³, soit environ 113 cm³.",
+        "Exprime le résultat dans une unité de volume ou de capacité adaptée.",
+        "Utilise de façon automatique les formules du volume d’une pyramide ou d’un cône."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer le volume d’une boule de rayon 3 cm (36π cm³, soit environ 113 cm³) ?",
+      "priorKnowledge": [
+        "Connaitre le volume de la pyramide et du cône de révolution (4e)",
+        "Définir les puissances d’exposant positif d’un nombre a (4e)",
+        "Calculer l’aire du disque, le volume du cylindre de révolution (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 15,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-tri-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Calculer une longueur avec le théorème de Thalès",
+      "description": "Quand deux droites parallèles coupent deux droites sécantes, les longueurs des triangles obtenus sont proportionnelles. Le théorème de Thalès permet ainsi de calculer une longueur inconnue, dans la figure des triangles emboîtés comme dans la figure « en papillon ».",
+      "officialObjectives": [
+        "Connaitre et appliquer le théorème de Thalès, sa réciproque, sa contraposée (configurations des triangles emboités et configuration dite du papillon)."
+      ],
+      "evidence": [
+        "Énonce le théorème de Thalès : si M est sur (AB), N sur (AC) et (MN) parallèle à (BC), alors AM/AB = AN/AC = MN/BC.",
+        "Reconnaît la configuration des triangles emboîtés et la configuration dite du papillon.",
+        "Écrit l’égalité des trois rapports et calcule une longueur manquante, par exemple avec AM = 3 cm, AB = 5 cm et BC = 10 cm, trouve MN = 6 cm.",
+        "Cite les hypothèses nécessaires (points alignés, droites parallèles) pour justifier l’utilisation du théorème."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer MN dans un triangle ABC où M est sur [AB], N sur [AC], (MN) parallèle à (BC), avec AM = 3 cm, AB = 5 cm et BC = 10 cm (réponse : 6 cm) ?",
+      "priorKnowledge": [
+        "Connaitre les trois théorèmes relatifs à la droite des milieux dans un triangle (4e)",
+        "Exprimer la proportionnalité entre deux suites de nombres par des égalités de rapports ou sous forme de ratio (4e)",
+        "Déterminer une quatrième proportionnelle (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 15,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-tri-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Prouver un parallélisme avec la réciproque ou la contraposée de Thalès",
+      "description": "Utiliser la réciproque du théorème de Thalès pour démontrer que deux droites sont parallèles (les rapports sont égaux), et sa contraposée pour démontrer qu’elles ne le sont pas (les rapports sont différents). La mesure sur la figure ne suffit pas comme preuve.",
+      "officialObjectives": [
+        "Connaitre et appliquer le théorème de Thalès, sa réciproque, sa contraposée (configurations des triangles emboités et configuration dite du papillon)."
+      ],
+      "evidence": [
+        "Utilise la réciproque du théorème de Thalès pour démontrer que deux droites sont parallèles, en vérifiant l’égalité des rapports et l’ordre des points alignés.",
+        "Utilise la contraposée pour démontrer que deux droites ne sont pas parallèles quand les rapports sont différents.",
+        "Compare deux rapports, par exemple 4/6 = 6/9 alors que 4/6 ≠ 5/8.",
+        "Distingue le théorème, sa réciproque et sa contraposée, et choisit celui qui convient selon ce qu’il faut démontrer.",
+        "Ne prend pas la mesure ou l’apparence de la figure comme preuve."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait démontrer si (MN) et (BC) sont parallèles, sachant que A, M, B et A, N, C sont alignés dans cet ordre, avec AM = 4, AB = 6, AN = 6 et AC = 9 ?",
+      "priorKnowledge": [
+        "Mener un travail de logique sur la réciproque et la contraposée (4e)",
+        "Connaitre le théorème de Pythagore, sa réciproque, sa contraposée (4e)",
+        "Comparer des fractions (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 15,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-tri-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Cosinus, sinus, tangente : calculer une longueur",
+      "description": "Dans un triangle rectangle, le cosinus, le sinus et la tangente d’un angle aigu sont des quotients de longueurs (côté adjacent, côté opposé, hypoténuse). Connaissant un angle et un côté, on peut calculer un autre côté.",
+      "officialObjectives": [
+        "Connaitre et utiliser les lignes trigonométriques dans le triangle rectangle : cosinus, sinus, tangente."
+      ],
+      "evidence": [
+        "Repère, pour un angle aigu d’un triangle rectangle, l’hypoténuse, le côté adjacent et le côté opposé.",
+        "Connaît les définitions : cosinus = adjacent / hypoténuse, sinus = opposé / hypoténuse, tangente = opposé / adjacent.",
+        "Choisit la ligne trigonométrique adaptée aux données et calcule une longueur, par exemple avec une hypoténuse de 10 cm et un angle de 30°, le côté opposé mesure 10 × sin 30° = 5 cm.",
+        "Utilise la calculatrice en mode degrés et arrondit le résultat comme demandé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer, dans un triangle ABC rectangle en B avec AC = 10 cm et un angle de 30° en A, la longueur BC (10 × sin 30° = 5 cm) ?",
+      "priorKnowledge": [
+        "Connaitre le théorème de Pythagore, sa réciproque, sa contraposée (4e)",
+        "Exprimer la proportionnalité entre deux suites de nombres par des égalités de rapports ou sous forme de ratio (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 15,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-tri-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Calculer un angle avec la trigonométrie",
+      "description": "Dans un triangle rectangle dont on connaît deux côtés, calculer le cosinus, le sinus ou la tangente d’un angle, puis retrouver la mesure de cet angle avec la calculatrice.",
+      "officialObjectives": [
+        "Connaitre et utiliser les lignes trigonométriques dans le triangle rectangle : cosinus, sinus, tangente."
+      ],
+      "evidence": [
+        "Calcule le cosinus, le sinus ou la tangente d’un angle aigu à partir de deux longueurs connues du triangle rectangle.",
+        "Détermine la mesure de l’angle à la calculatrice (touches cos⁻¹, sin⁻¹, tan⁻¹ ou Arccos, Arcsin, Arctan), par exemple une tangente de 3/4 donne un angle d’environ 37°.",
+        "Contrôle la vraisemblance du résultat : un angle aigu d’un triangle rectangle est compris entre 0° et 90°, et les deux angles aigus totalisent 90°."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver à la calculatrice l’angle aigu d’un triangle rectangle dont le côté opposé mesure 3 cm et le côté adjacent 4 cm (environ 37°) ?",
+      "priorKnowledge": [
+        "Connaitre la somme des angles d’un triangle et savoir la démontrer (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 15,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-vec-01",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Translations et vecteurs",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Définir une translation à l’aide d’un parallélogramme",
+      "description": "Une translation fait « glisser » une figure sans la tourner ni la déformer. Le point M’ est l’image du point M par la translation qui transforme A en B lorsque ABM’M est un parallélogramme (éventuellement aplati).",
+      "officialObjectives": [
+        "Définir et utiliser la translation : définition ponctuelle avec parallélogramme."
+      ],
+      "evidence": [
+        "Définit l’image M’ d’un point M par la translation qui transforme A en B : ABM’M est un parallélogramme, éventuellement aplati.",
+        "Construit l’image d’un point, d’un segment ou d’une figure par une translation, sur quadrillage ou à la règle et au compas.",
+        "Mobilise les connaissances sur la symétrie axiale, le demi-tour et la translation pour reconnaître la transformation qui envoie une figure sur une autre.",
+        "Utilise la définition pour justifier qu’un quadrilatère est un parallélogramme ou pour placer l’image d’un point."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait construire l’image d’un point M par la translation qui transforme A en B, en expliquant le lien avec le parallélogramme ABM’M ?",
+      "priorKnowledge": [
+        "Comprendre l’effet d’une translation (4e)",
+        "Faire le lien entre translations et parallélogrammes (4e)",
+        "Connaitre et utiliser les propriétés de conservations des translations (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 15,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-vec-02",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Translations et vecteurs",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Vecteurs : vecteurs égaux, vecteur nul, vecteur opposé",
+      "description": "Un vecteur décrit un déplacement, caractérisé par une direction, un sens et une longueur ; le vecteur AB correspond à la translation qui transforme A en B. Deux vecteurs sont égaux s’ils décrivent le même déplacement ; l’opposé du vecteur AB est le vecteur BA.",
+      "officialObjectives": [
+        "Définir et utiliser les notions de vecteur, de vecteurs égaux, de vecteur nul, d’opposé d’un vecteur."
+      ],
+      "evidence": [
+        "Associe à la translation qui transforme A en B le vecteur AB, caractérisé par une direction, un sens et une longueur.",
+        "Reconnaît des vecteurs égaux, par exemple les vecteurs AB et DC sont égaux quand ABCD est un parallélogramme.",
+        "Identifie le vecteur nul (vecteur AA) et l’opposé d’un vecteur (l’opposé du vecteur AB est le vecteur BA).",
+        "Trace un représentant d’un vecteur donné à partir d’un point, sur quadrillage."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi, dans un parallélogramme ABCD, les vecteurs AB et DC sont égaux, et quel est l’opposé du vecteur AB ?",
+      "priorKnowledge": [
+        "Comprendre l’effet d’une translation (4e)",
+        "Reconnaitre un parallélogramme à l’aide de sa définition ou d’une propriété caractéristique grâce aux codages (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 15,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-vec-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Translations et vecteurs",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Somme de deux vecteurs",
+      "description": "Enchaîner deux translations revient à faire une seule translation : son vecteur est la somme des deux vecteurs. On la construit en mettant les deux vecteurs « bout à bout ».",
+      "officialObjectives": [
+        "Définir et utiliser la somme de deux vecteurs par enchainement de deux translations."
+      ],
+      "evidence": [
+        "Interprète la somme de deux vecteurs comme le vecteur de la translation obtenue en enchaînant deux translations.",
+        "Construit l’image d’un point par l’enchaînement de deux translations, sur quadrillage.",
+        "Construit un représentant de la somme de deux vecteurs en les plaçant bout à bout."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait construire sur un quadrillage l’image d’un point par deux translations successives, puis tracer le vecteur somme correspondant ?",
+      "priorKnowledge": [
+        "Comprendre l’effet d’une translation (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 16,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-vec-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Translations et vecteurs",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Relation de Chasles",
+      "description": "Aller de A à B puis de B à C revient à aller directement de A à C : la somme des vecteurs AB et BC est le vecteur AC. C’est la relation de Chasles, qui permet de simplifier des sommes de vecteurs.",
+      "officialObjectives": [
+        "Découvrir et utiliser la relation de Chasles."
+      ],
+      "evidence": [
+        "Énonce la relation de Chasles : pour tous points A, B et C, la somme des vecteurs AB et BC est le vecteur AC.",
+        "Simplifie une somme de vecteurs, par exemple la somme des vecteurs AB, BC et CD est le vecteur AD.",
+        "Retrouve que la somme des vecteurs AB et BA est le vecteur nul.",
+        "Introduit un point intermédiaire pour décomposer un vecteur en somme de deux vecteurs."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait simplifier la somme des vecteurs AB, BC et CD (réponse : le vecteur AD) ?",
+      "priorKnowledge": [
+        "Comprendre l’effet d’une translation (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 16,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-sta-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Statistiques",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Calculer des effectifs cumulés croissants",
+      "description": "Additionner au fur et à mesure les effectifs d’un tableau pour savoir combien de valeurs sont inférieures ou égales à chaque valeur, par exemple combien d’élèves ont une note inférieure ou égale à 12. C’est très utile pour trouver la médiane et les quartiles.",
+      "officialObjectives": [
+        "Calculer des effectifs cumulés croissants."
+      ],
+      "evidence": [
+        "Complète la ligne des effectifs cumulés croissants d’un tableau d’effectifs.",
+        "Interprète un effectif cumulé, par exemple « 18 élèves ont une note inférieure ou égale à 12 ».",
+        "Contrôle que le dernier effectif cumulé est égal à l’effectif total.",
+        "Utilise les effectifs cumulés pour repérer la position de la médiane et des quartiles."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait compléter la ligne des effectifs cumulés croissants d’un tableau de notes, et dire ce que signifie le nombre obtenu sous la note 12 ?",
+      "priorKnowledge": [
+        "Calculer un effectif manquant dans un tableau pour un petit nombre de valeurs (4e)",
+        "Calculer des effectifs et des fréquences (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-sta-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Statistiques",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Déterminer la médiane et les quartiles d’une série",
+      "description": "La médiane partage une série rangée dans l’ordre en deux moitiés. Les quartiles la partagent en quatre : au moins un quart des valeurs est inférieur ou égal au premier quartile Q1, et au moins trois quarts au troisième quartile Q3.",
+      "officialObjectives": [
+        "Donner les quartiles et la médiane d’une série donnée sous forme de tableau d’effectifs ou de diagramme en barres."
+      ],
+      "evidence": [
+        "Donne de façon automatique une médiane pour une série comportant un petit nombre de valeurs.",
+        "Détermine la médiane d’une série donnée par un tableau d’effectifs ou un diagramme en barres, en s’aidant des effectifs cumulés.",
+        "Détermine le premier quartile Q1, plus petite valeur telle qu’au moins 25 % des valeurs lui sont inférieures ou égales, et le troisième quartile Q3 (au moins 75 %).",
+        "Interprète médiane et quartiles dans le contexte, par exemple « au moins la moitié des élèves a eu 12 ou moins »."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver la médiane et les quartiles Q1 et Q3 d’une série de notes présentée dans un tableau d’effectifs ?",
+      "priorKnowledge": [
+        "Déterminer une médiane et l’interpréter dans le cas d’une série de petit effectif présentée sous forme de données brutes (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-sta-03",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Statistiques",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Construire et utiliser une boîte à moustaches",
+      "description": "Une boîte à moustaches résume une série en un dessin : une boîte qui va du premier au troisième quartile, coupée par la médiane, et deux « moustaches » qui vont jusqu’à la plus petite et à la plus grande valeur. Elle permet de comparer facilement deux séries.",
+      "officialObjectives": [
+        "Construire et utiliser des boites à moustache pour représenter les valeurs de position d’une série statistique."
+      ],
+      "evidence": [
+        "Construit sur son cahier, le long d’un axe gradué, une boîte à moustaches à partir du minimum, du premier quartile, de la médiane, du troisième quartile et du maximum.",
+        "Lit sur une boîte à moustaches les valeurs de position et l’étendue d’une série.",
+        "Compare deux séries à l’aide de leurs boîtes à moustaches et argumente."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tracer la boîte à moustaches d’une série dont on connaît le minimum, Q1, la médiane, Q3 et le maximum, puis s’en servir pour comparer les notes de deux classes ?",
+      "priorKnowledge": [
+        "Calculer et interpréter l’étendue d’une série présentée sous forme de données brutes, d’un tableau, d’un diagramme en barres, d’un diagramme circulaire (4e)",
+        "Résoudre des problèmes de comparaison de séries statistiques (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-sta-04",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Statistiques",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Comprendre et interpréter des données statistiques",
+      "description": "Lire des tableaux, des graphiques et des indicateurs (moyenne, médiane, quartiles, étendue) pour en tirer des conclusions, comparer des séries, et repérer quand une présentation des données est trompeuse. Cela développe l’esprit critique face aux chiffres.",
+      "officialObjectives": [
+        "Comprendre et interpréter des données statistiques."
+      ],
+      "evidence": [
+        "Calcule de façon automatique une moyenne et l’étendue d’une série.",
+        "Dégage des informations pertinentes de données présentées sous forme de tableaux, de diagrammes ou de graphiques.",
+        "Choisit l’indicateur pertinent pour comparer des séries et justifie son choix, par exemple la médiane quand la série contient une valeur extrême.",
+        "Repère une présentation trompeuse des données et l’explique.",
+        "Communique ses conclusions à l’écrit ou à l’oral, de façon argumentée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer, à partir de la moyenne, de la médiane et de l’étendue des notes de deux classes, laquelle a les meilleurs résultats et pourquoi ?",
+      "priorKnowledge": [
+        "Résoudre des problèmes faisant intervenir les différents indicateurs (4e)",
+        "Comprendre l’évolution de la médiane et de la moyenne quand on ajoute une valeur extrême (4e)",
+        "Calculer une moyenne pondérée dans le cas d’une série discrète de petits effectifs (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-sta-05",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Statistiques",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Calculer moyenne, médiane et étendue avec un tableur",
+      "description": "Saisir une série de données dans un tableur et utiliser ses formules pour obtenir automatiquement la moyenne, la médiane et l’étendue (écart entre la plus grande et la plus petite valeur). Cet objectif, déjà présent en 4e, est repris en 3e.",
+      "officialObjectives": [
+        "Utiliser le tableur pour calculer une moyenne, une médiane et l’étendue d’une série statistique."
+      ],
+      "evidence": [
+        "Saisit une série statistique dans un tableur.",
+        "Utilise les fonctions du tableur pour calculer la moyenne, la médiane, le maximum et le minimum d’une plage de cellules.",
+        "Écrit une formule qui calcule l’étendue à partir du maximum et du minimum.",
+        "Contrôle la cohérence des résultats affichés à l’aide d’un ordre de grandeur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire, dans un tableur, les formules qui donnent la moyenne, la médiane et l’étendue d’une série de 20 valeurs ?",
+      "priorKnowledge": [
+        "Utiliser le tableur pour calculer une moyenne, une médiane et l’étendue d’une série statistique (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-prb-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Probabilités",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Utiliser la relation P(A ∪ B) + P(A ∩ B) = P(A) + P(B)",
+      "description": "La probabilité que A ou B se réalise, plus la probabilité que A et B se réalisent en même temps, est égale à la somme des probabilités de A et de B. Cette relation permet de calculer l’une de ces probabilités quand on connaît les trois autres.",
+      "officialObjectives": [
+        "Connaitre et savoir appliquer la relation 𝑃(𝐴 ∪ 𝐵) + 𝑃(𝐴 ∩ 𝐵) = 𝑃(𝐴) + 𝑃(𝐵)."
+      ],
+      "evidence": [
+        "Traduit « A ou B » par la réunion A ∪ B et « A et B » par l’intersection A ∩ B.",
+        "Énonce la relation P(A ∪ B) + P(A ∩ B) = P(A) + P(B) et l’applique pour calculer une probabilité manquante.",
+        "Applique la relation sur un dé équilibré à six faces avec A « obtenir un nombre pair » et B « obtenir un multiple de 3 » : P(A ∪ B) = 3/6 + 2/6 − 1/6 = 4/6.",
+        "Retrouve que P(A ∪ B) = P(A) + P(B) quand l’intersection de A et B est vide."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer, pour un dé équilibré à six faces, la probabilité d’obtenir un nombre pair ou un multiple de 3 (réponse : 4/6, soit 2/3) ?",
+      "priorKnowledge": [
+        "Définir : complémentaire, réunion, intersection, ensemble vide (évènement impossible) (4e)",
+        "Calculer la probabilité d’un évènement et de l’évènement contraire (4e)",
+        "Utiliser le vocabulaire et les notations ensemblistes pour décrire une expérience aléatoire dans des cas simples (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-prb-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Probabilités",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Simuler des expériences aléatoires indépendantes",
+      "description": "Reproduire un grand nombre de fois une expérience de hasard (lancer de pièces ou de dés) à l’aide d’un tableur ou d’un programme, chaque répétition étant sans influence sur les autres. On distingue la situation réelle du modèle mathématique qui la décrit.",
+      "officialObjectives": [
+        "Simuler des expériences aléatoires indépendantes."
+      ],
+      "evidence": [
+        "Simule une expérience aléatoire, par exemple le lancer d’un dé équilibré, avec un tableur ou un programme.",
+        "Simule des expériences aléatoires indépendantes, comme le lancer de deux pièces ou de deux dés, et enregistre les résultats.",
+        "Justifie le choix d’un modèle d’équiprobabilité par un argument de symétrie (pièce ou dé équilibré) et le confronte à l’expérience.",
+        "Distingue la situation réelle du modèle probabiliste utilisé pour la décrire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait simuler 1 000 lancers de deux dés avec un tableur ou un programme, et relever la fréquence des doubles obtenus ?",
+      "priorKnowledge": [
+        "Exemples simples d’expériences aléatoires à deux épreuves : lancer de deux pièces, d’une pièce et d’un dé, de deux dés (4e)",
+        "À partir de la répétition d’une expérience aléatoire, réalisée matériellement ou simulée, comparer des graphiques de distributions (fréquentielle et probabiliste) (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-prb-03",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Probabilités",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Stabilisation des fréquences et lien avec la probabilité",
+      "description": "Constater que, lorsqu’on répète une expérience de hasard un très grand nombre de fois, la fréquence d’un résultat se rapproche de sa probabilité (environ 1/6 pour le 6 avec un dé). C’est la loi des grands nombres ; elle permet aussi d’estimer une probabilité qu’on ne peut pas calculer.",
+      "officialObjectives": [
+        "Observer la stabilisation des fréquences lorsqu’on augmente le nombre de répétitions de l’expérience aléatoire, faire le lien entre fréquence et probabilité selon le nombre de répétitions."
+      ],
+      "evidence": [
+        "Observe que la fréquence d’une issue varie beaucoup pour un petit nombre de répétitions et se stabilise quand ce nombre augmente.",
+        "Fait le lien entre la fréquence observée sur un grand nombre de répétitions et la probabilité, par exemple une fréquence proche de 1/6 pour le 6 avec un dé équilibré.",
+        "Construit un modèle probabiliste à partir de fréquences observées, par exemple pour le sexe d’un enfant à la naissance."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi on peut obtenir trois fois le 6 en 10 lancers de dé, alors que sur 10 000 lancers la fréquence du 6 sera proche de 1/6 ?",
+      "priorKnowledge": [
+        "Observer la fluctuation des fréquences pour un nombre de répétitions fixé de l’expérience aléatoire (4e)",
+        "Calculer la probabilité d’un évènement et de l’évènement contraire (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-prop-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Proportionnalité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Traduire une augmentation ou une diminution en pourcentage",
+      "description": "Passer d’une hausse ou d’une baisse en pourcentage à une multiplication, et inversement : augmenter de 20 % revient à multiplier par 1,2 ; baisser de 30 % revient à multiplier par 0,7 ; passer de 50 € à 40 €, c’est une baisse de 20 %.",
+      "officialObjectives": [
+        "Traduire une augmentation ou une diminution en pourcentages."
+      ],
+      "evidence": [
+        "Calcule de façon automatique le pourcentage d’une quantité.",
+        "Applique une augmentation ou une diminution exprimée en pourcentage, en utilisant ou non le coefficient multiplicateur, par exemple 80 € augmentés de 20 % donnent 96 €.",
+        "Associe une augmentation de t % au coefficient multiplicateur 1 + t/100 et une diminution de t % au coefficient 1 − t/100.",
+        "Exprime une évolution en pourcentage, par exemple un prix qui passe de 50 € à 40 € baisse de 20 %."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer le nouveau prix d’un article de 80 € augmenté de 20 % (96 €), et dire de quel pourcentage baisse un prix qui passe de 50 € à 40 € (20 %) ?",
+      "priorKnowledge": [
+        "Rendre compte d’une augmentation ou une diminution exprimée en pourcentages au moyen d’un coefficient multiplicateur (4e)",
+        "Définir le coefficient multiplicateur (4e)",
+        "Calculer avec des pourcentages (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-prop-02",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Proportionnalité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Relier le graphique d’une situation de proportionnalité au théorème de Thalès",
+      "description": "Comprendre pourquoi une situation de proportionnalité est représentée par des points alignés sur une droite passant par l’origine du repère : les triangles formés avec l’axe des abscisses sont en configuration de Thalès, donc le rapport ordonnée/abscisse est le même pour tous les points.",
+      "officialObjectives": [
+        "Relier la représentation graphique d’une situation de proportionnalité avec le théorème de Thalès."
+      ],
+      "evidence": [
+        "Reconnaît que les points représentant une situation de proportionnalité sont alignés sur une droite passant par l’origine du repère.",
+        "Justifie avec le théorème de Thalès que, pour deux points d’une droite passant par l’origine, les rapports ordonnée/abscisse sont égaux.",
+        "Lit le coefficient de proportionnalité sur le graphique comme le rapport entre l’ordonnée et l’abscisse d’un point de la droite."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer, à l’aide du théorème de Thalès, pourquoi les coordonnées des points d’une droite passant par l’origine sont proportionnelles ?",
+      "priorKnowledge": [
+        "Exprimer la proportionnalité entre deux suites de nombres par des égalités de rapports ou sous forme de ratio (4e)",
+        "Caractériser graphiquement la proportionnalité (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-prop-03",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Proportionnalité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Fonction linéaire et proportionnalité",
+      "description": "Une situation de proportionnalité (prix au kilo, échelle, pourcentage) se décrit par une fonction linéaire 𝑥 ↦ a𝑥, dont le coefficient a est le coefficient de proportionnalité. Inversement, une fonction linéaire traduit toujours une situation de proportionnalité.",
+      "officialObjectives": [
+        "Connaitre et utiliser les fonctions linéaires.",
+        "Relier fonctions linéaires et proportionnalité."
+      ],
+      "evidence": [
+        "Traduit une situation de proportionnalité par une fonction linéaire, par exemple le prix de 𝑥 kg de tomates à 2,50 € le kilo par 𝑥 ↦ 2,5𝑥.",
+        "Identifie le coefficient de la fonction linéaire au coefficient de proportionnalité.",
+        "Interprète une augmentation de 5 % comme la fonction linéaire 𝑥 ↦ 1,05𝑥.",
+        "Reconnaît qu’un tableau de valeurs d’une fonction linéaire est un tableau de proportionnalité, et inversement.",
+        "Mobilise de façon automatique les procédures de proportionnalité : partager une somme entre deux personnes âgées de 20 et 30 ans proportionnellement à leur âge, partager une masse selon un ratio, calculer une distance réelle à partir d’une carte dont l’échelle est connue."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire la fonction qui donne le prix de 𝑥 kg de tomates à 2,50 € le kilo (𝑥 ↦ 2,5𝑥) et expliquer pourquoi c’est une situation de proportionnalité ?",
+      "priorKnowledge": [
+        "Utiliser un coefficient de proportionnalité dans des contextes concrets (prix unitaire, vitesse moyenne, échelle, etc.) (5e)",
+        "Produire une formule littérale représentant la dépendance d’une grandeur en fonction d’une autre (4e)",
+        "Résoudre des problèmes de partage proportionnel (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-fct-01",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Passer d’une représentation d’une fonction à une autre",
+      "description": "Une fonction peut être donnée par une formule, un tableau de valeurs ou une courbe. Il s’agit de passer de l’une à l’autre et de choisir la plus pratique selon la question. En 3e, on étudie des exemples de fonctions, sans étude générale de la notion.",
+      "officialObjectives": [
+        "Utiliser les différentes représentations d’une fonction."
+      ],
+      "evidence": [
+        "Passe d’une formule à un tableau de valeurs, puis à une représentation graphique, et inversement.",
+        "Utilise les notations 𝑓(𝑥) et 𝑥 ↦ 𝑓(𝑥).",
+        "Lit et interprète une courbe représentant une grandeur en fonction d’une autre.",
+        "Choisit la représentation la plus adaptée pour répondre à une question."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, à partir de la formule 𝑓(𝑥) = 2𝑥 − 1, compléter un tableau de valeurs puis tracer la représentation graphique de 𝑓 ?",
+      "priorKnowledge": [
+        "Représenter l’expression d’une grandeur en fonction d’une autre par un graphique (4e)",
+        "Produire une formule littérale représentant la dépendance d’une grandeur en fonction d’une autre (4e)",
+        "Comprendre la dépendance d’une grandeur en fonction d’une autre (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-fct-02",
+      "programme": "maths-c4",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Image et antécédent par une fonction",
+      "description": "Pour une fonction 𝑓, si 𝑓(3) = 7, on dit que 7 est l’image de 3 et que 3 est un antécédent de 7. Un nombre a une seule image, mais il peut avoir plusieurs antécédents, ou aucun.",
+      "officialObjectives": [
+        "Définir et connaitre le vocabulaire : image, antécédents."
+      ],
+      "evidence": [
+        "Emploie correctement les mots image et antécédent, et la notation 𝑓(3) = 7.",
+        "Calcule une image à partir d’une formule, par exemple l’image de 3 par 𝑓 : 𝑥 ↦ 𝑥² − 2 est 7.",
+        "Lit une image ou des antécédents dans un tableau de valeurs ou sur une courbe.",
+        "Sait qu’un nombre a une seule image mais peut avoir plusieurs antécédents, par exemple 9 a deux antécédents par la fonction carré : 3 et −3."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, pour la fonction 𝑓 : 𝑥 ↦ 𝑥² − 2, calculer l’image de 3 (7) et trouver les antécédents de 7 (3 et −3) ?",
+      "priorKnowledge": [
+        "Savoir appliquer un programme de calcul à deux (plusieurs) étapes à un nombre simple puis à une variable (4e)",
+        "Savoir retrouver le nombre de départ après avoir remonté un programme de calcul simple (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-fct-03",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Définir et représenter une fonction linéaire",
+      "description": "Une fonction linéaire est une fonction de la forme 𝑥 ↦ a𝑥 : on multiplie toujours par le même nombre a. Sa représentation graphique est une droite qui passe par l’origine du repère.",
+      "officialObjectives": [
+        "Définir et utiliser les fonctions linéaires."
+      ],
+      "evidence": [
+        "Reconnaît une fonction linéaire à sa formule 𝑓(𝑥) = a𝑥, par exemple 𝑓(𝑥) = −3𝑥.",
+        "Calcule des images et des antécédents par une fonction linéaire.",
+        "Représente graphiquement une fonction linéaire par une droite passant par l’origine du repère.",
+        "Détermine le coefficient a d’une fonction linéaire connaissant un nombre et son image, par exemple 𝑓(4) = 10 donne a = 2,5."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver la fonction linéaire 𝑓 telle que 𝑓(4) = 10 (𝑓(𝑥) = 2,5𝑥) et la représenter dans un repère ?",
+      "priorKnowledge": [
+        "Produire une formule littérale représentant la dépendance d’une grandeur en fonction d’une autre (4e)",
+        "Caractériser graphiquement la proportionnalité (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-fct-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Résoudre graphiquement des équations et inéquations linéaires",
+      "description": "Utiliser la droite qui représente une fonction linéaire pour trouver les nombres 𝑥 tels que a𝑥 = b (là où la droite atteint la hauteur b) ou a𝑥 ⩾ b (là où la droite est au-dessus de cette hauteur).",
+      "officialObjectives": [
+        "Résoudre graphiquement des équations et des inéquations linéaires."
+      ],
+      "evidence": [
+        "Résout graphiquement une équation a𝑥 = b en lisant l’abscisse du point d’ordonnée b de la droite représentant 𝑥 ↦ a𝑥.",
+        "Résout graphiquement une inéquation a𝑥 ⩾ b (ou a𝑥 ⩽ b) en repérant la partie de la droite située au-dessus (ou au-dessous) de la droite horizontale d’ordonnée b.",
+        "Confronte la solution lue sur le graphique à celle obtenue par le calcul.",
+        "Tient compte de la précision limitée d’une lecture graphique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lire sur la représentation graphique de 𝑓(𝑥) = 2𝑥 les solutions de 2𝑥 = 6 (𝑥 = 3) et de 2𝑥 ⩾ 6 (𝑥 ⩾ 3) ?",
+      "priorKnowledge": [
+        "Résoudre des équations du type a𝑥 = c et 𝑥 + b = c, où a, b et c sont des nombres (4e)",
+        "Dans le plan muni d’un repère orthogonal, lire les coordonnées d’un point donné (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-fct-05",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Définir et utiliser une fonction affine",
+      "description": "Une fonction affine est de la forme 𝑥 ↦ a𝑥 + b, comme le prix d’une course de taxi : une somme fixe plus un prix par kilomètre. Sa représentation graphique est une droite ; une fonction linéaire est une fonction affine particulière (b = 0).",
+      "officialObjectives": [
+        "Définir et utiliser les fonctions affines."
+      ],
+      "evidence": [
+        "Reconnaît une fonction affine à sa formule 𝑓(𝑥) = a𝑥 + b, et une fonction linéaire comme le cas b = 0.",
+        "Calcule des images et des antécédents par une fonction affine, par exemple pour 𝑓(𝑥) = 2𝑥 + 3, l’image de 4 est 11 et l’antécédent de 7 est 2.",
+        "Représente graphiquement une fonction affine par une droite, à partir de deux points.",
+        "Modélise par une fonction affine une situation comportant une part fixe et une part proportionnelle."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, pour un taxi qui coûte 3 € de prise en charge plus 2 € par kilomètre, écrire la fonction 𝑓(𝑥) = 2𝑥 + 3 et calculer le prix d’une course de 4 km (11 €) ?",
+      "priorKnowledge": [
+        "Produire une formule littérale représentant la dépendance d’une grandeur en fonction d’une autre (4e)",
+        "Résoudre une équation du premier degré du type a𝑥 + b = c (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-fct-06",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Lire graphiquement les coefficients d’une fonction affine",
+      "description": "Sur la droite qui représente 𝑥 ↦ a𝑥 + b, lire b (la hauteur à laquelle la droite coupe l’axe vertical) et a (de combien la droite monte ou descend quand on avance de 1 vers la droite).",
+      "officialObjectives": [
+        "Déterminer graphiquement les coefficients d’une fonction affine."
+      ],
+      "evidence": [
+        "Lit le coefficient b comme l’ordonnée du point d’intersection de la droite avec l’axe des ordonnées.",
+        "Lit le coefficient a comme la variation de l’ordonnée quand l’abscisse augmente de 1.",
+        "Relie le signe de a au fait que la droite monte ou descend.",
+        "Retrouve la formule d’une fonction affine à partir de sa représentation graphique, par exemple 𝑓(𝑥) = −2𝑥 + 1."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver, à partir d’une droite tracée dans un repère, les coefficients a et b de la fonction affine qu’elle représente ?",
+      "priorKnowledge": [
+        "Dans le plan muni d’un repère orthogonal, lire les coordonnées d’un point donné (4e)",
+        "Représenter l’expression d’une grandeur en fonction d’une autre par un graphique (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-fct-07",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Représenter la fonction carré",
+      "description": "Tracer la courbe de la fonction 𝑥 ↦ 𝑥² à partir d’un tableau de valeurs : on obtient une courbe en forme de « U » (une parabole), symétrique par rapport à l’axe vertical, qui n’est pas une droite.",
+      "officialObjectives": [
+        "Représenter la fonction carré."
+      ],
+      "evidence": [
+        "Complète un tableau de valeurs de la fonction 𝑥 ↦ 𝑥² pour des valeurs positives et négatives de 𝑥, par exemple (−3)² = 9.",
+        "Place les points obtenus et trace la courbe de façon régulière.",
+        "Reconnaît que la courbe n’est pas une droite et qu’elle est symétrique par rapport à l’axe des ordonnées, car 𝑥 et −𝑥 ont le même carré.",
+        "Utilise la courbe pour lire des images et des antécédents, en lien avec la résolution de 𝑥² = a."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait compléter un tableau de valeurs de 𝑥 ↦ 𝑥² pour 𝑥 allant de −3 à 3, puis tracer la courbe correspondante ?",
+      "priorKnowledge": [
+        "Connaitre et reconnaitre les carrés parfaits des entiers de 0 à 12 (4e)",
+        "Multiplier deux nombres relatifs (4e)",
+        "Représenter l’expression d’une grandeur en fonction d’une autre par un graphique (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-info-01",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "La pensée informatique",
+      "subdomain": "La pensée informatique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Approfondir la notion de variable",
+      "description": "Une variable est une « case mémoire » nommée dans laquelle un programme range une valeur qui peut changer pendant son exécution (un score, un compteur). En 3e, on utilise plusieurs variables, on les initialise, on les modifie et on suit leur évolution.",
+      "officialObjectives": [
+        "Approfondir la notion de variables."
+      ],
+      "evidence": [
+        "Crée, nomme et initialise une ou plusieurs variables dans un langage de programmation par blocs.",
+        "Modifie la valeur d’une variable au cours d’un programme, par exemple un compteur, un score ou une somme.",
+        "Prévoit la valeur d’une variable après l’exécution d’une suite d’instructions.",
+        "Utilise une variable pour stocker une donnée saisie par l’utilisateur ou le résultat d’un calcul."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait prévoir la valeur finale de la variable « score » dans un programme qui la met à 0, puis lui ajoute 5 trois fois de suite (réponse : 15) ?",
+      "priorKnowledge": [
+        "Manipuler une variable (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-info-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "La pensée informatique",
+      "subdomain": "La pensée informatique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Utiliser des conditions composées",
+      "description": "Écrire dans un programme des conditions qui combinent plusieurs tests avec « et », « ou », « non », par exemple « si le nombre est supérieur à 0 et inférieur à 10, alors… ».",
+      "officialObjectives": [
+        "Utiliser des conditions composées."
+      ],
+      "evidence": [
+        "Combine plusieurs conditions simples avec les opérateurs logiques « et », « ou », « non ».",
+        "Écrit une instruction conditionnelle utilisant une condition composée, par exemple « si 𝑥 > 0 et 𝑥 < 10 alors… ».",
+        "Prévoit si une condition composée est vraie ou fausse pour des valeurs données."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire, en programmation par blocs (par exemple Scratch), une condition qui teste si un nombre est à la fois supérieur à 0 et inférieur à 10 ?",
+      "priorKnowledge": [
+        "Représenter des conditions simples (4e)",
+        "Écrire des instructions conditionnelles (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-info-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "La pensée informatique",
+      "subdomain": "La pensée informatique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Utiliser une boucle conditionnelle",
+      "description": "Faire répéter des instructions jusqu’à ce qu’une condition soit réalisée, sans connaître à l’avance le nombre de répétitions, par exemple « répéter jusqu’à ce que le total dépasse 100 ».",
+      "officialObjectives": [
+        "Utiliser une boucle conditionnelle."
+      ],
+      "evidence": [
+        "Distingue une boucle conditionnelle (« répéter jusqu’à ce que… ») d’une boucle qui répète un nombre fixé de fois.",
+        "Écrit une boucle conditionnelle pour répéter une séquence d’instructions jusqu’à ce qu’une condition soit réalisée.",
+        "Utilise une variable dans la condition d’arrêt d’une boucle, par exemple ajouter 7 à un total jusqu’à ce qu’il dépasse 100.",
+        "Vérifie que la condition d’arrêt finit par être réalisée, pour éviter une boucle sans fin."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire un programme qui ajoute 7 à un total parti de 0 jusqu’à ce qu’il dépasse 100, puis affiche le nombre de tours effectués ?",
+      "priorKnowledge": [
+        "Effectuer une boucle inconditionnelle simple permettant de répéter une séquence linéaire d’instructions un nombre précis de fois (5e)",
+        "Écrire des instructions conditionnelles (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-info-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "La pensée informatique",
+      "subdomain": "La pensée informatique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Structurer un programme",
+      "description": "Organiser un programme en parties claires : découper le problème en sous-problèmes, regrouper dans un bloc réutilisable les instructions qui se répètent, et ordonner le tout de façon lisible.",
+      "officialObjectives": [
+        "Structurer des programmes."
+      ],
+      "evidence": [
+        "Découpe un problème en sous-problèmes et organise le programme en parties correspondantes.",
+        "Regroupe une suite d’instructions qui se répète dans un sous-programme (bloc personnalisé) réutilisable.",
+        "Combine séquences d’instructions, instructions conditionnelles et boucles dans un même programme.",
+        "Rend son programme lisible : noms de variables explicites, ordre logique des instructions."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait organiser un programme qui dessine plusieurs carrés en créant un bloc « carré » qu’il réutilise ?",
+      "priorKnowledge": [
+        "Écrire un programme simple donné pour réaliser un objectif ou résoudre un problème (4e)",
+        "Modifier un programme donné pour changer son comportement (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-3e-info-05",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "La pensée informatique",
+      "subdomain": "La pensée informatique",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Écrire un programme pour réaliser un objectif ou résoudre un problème",
+      "description": "Concevoir et écrire seul un programme qui répond à un objectif ou résout un problème, en combinant variables, conditions et boucles. C’est l’aboutissement du cycle 4 : l’autonomie d’écriture de programme.",
+      "officialObjectives": [
+        "Écrire un programme donné pour réaliser un objectif ou résoudre un problème."
+      ],
+      "evidence": [
+        "Écrit en autonomie, dans un langage de programmation par blocs, un programme qui répond à un objectif ou à un problème donné.",
+        "Mobilise variables, conditions composées et boucles conditionnelles dans un même programme.",
+        "Teste son programme, repère les erreurs et les corrige.",
+        "Utilise un programme pour traiter un problème mathématique, par exemple simuler une expérience aléatoire ou calculer des valeurs d’une fonction."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire seul un jeu du « nombre mystère » : l’ordinateur choisit un nombre au hasard et répond « trop grand » ou « trop petit » jusqu’à ce que le joueur le trouve ?",
+      "priorKnowledge": [
+        "Écrire un programme simple donné pour réaliser un objectif ou résoudre un problème (4e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-ma-3e-rat-01",
+      "prerequisiteId": "fr-ma-3e-mul-01",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Le programme indique que les multiples et diviseurs sont utilisés en lien avec les fractions : la décomposition aide à repérer les facteurs communs."
+    },
+    {
+      "topicId": "fr-ma-3e-rat-02",
+      "prerequisiteId": "fr-ma-3e-rat-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les résultats des problèmes se donnent sous forme irréductible."
+    },
+    {
+      "topicId": "fr-ma-3e-pui-02",
+      "prerequisiteId": "fr-ma-3e-pui-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les calculs sur les puissances font intervenir des exposants négatifs (10⁵ × 10⁻²)."
+    },
+    {
+      "topicId": "fr-ma-3e-pui-03",
+      "prerequisiteId": "fr-ma-3e-pui-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La notation scientifique des petits nombres utilise des exposants négatifs."
+    },
+    {
+      "topicId": "fr-ma-3e-pui-04",
+      "prerequisiteId": "fr-ma-3e-pui-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Les problèmes visés utilisent « notamment » la notation scientifique."
+    },
+    {
+      "topicId": "fr-ma-3e-pui-04",
+      "prerequisiteId": "fr-ma-3e-pui-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Calculer avec des nombres en notation scientifique demande de multiplier et diviser des puissances de 10."
+    },
+    {
+      "topicId": "fr-ma-3e-rac-01",
+      "prerequisiteId": "fr-ma-3e-fct-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La résolution graphique de 𝑥² = a se fait sur la courbe de la fonction carré."
+    },
+    {
+      "topicId": "fr-ma-3e-rac-02",
+      "prerequisiteId": "fr-ma-3e-rac-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Trouver le côté d’un carré d’aire donnée revient à résoudre une équation 𝑥² = a."
+    },
+    {
+      "topicId": "fr-ma-3e-lit-01",
+      "prerequisiteId": "fr-ma-3e-mul-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Décomposer les nombres en facteurs aide à repérer les facteurs communs d’un rapport."
+    },
+    {
+      "topicId": "fr-ma-3e-lit-05",
+      "prerequisiteId": "fr-ma-3e-lit-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "On factorise souvent une expression pour se ramener à une équation produit nul."
+    },
+    {
+      "topicId": "fr-ma-3e-lit-06",
+      "prerequisiteId": "fr-ma-3e-lit-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les identités remarquables se retrouvent et se justifient par la double distributivité."
+    },
+    {
+      "topicId": "fr-ma-3e-lit-07",
+      "prerequisiteId": "fr-ma-3e-lit-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Factoriser avec une identité suppose de reconnaître la forme développée de cette identité."
+    },
+    {
+      "topicId": "fr-ma-3e-lit-08",
+      "prerequisiteId": "fr-ma-3e-lit-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les équations produit nul offrent un cadre où l’on trouve des valeurs possibles puis où l’on vérifie qu’elles conviennent."
+    },
+    {
+      "topicId": "fr-ma-3e-lit-04",
+      "prerequisiteId": "fr-ma-3e-fct-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La résolution graphique d’une inéquation a𝑥 ⩾ b utilise la lecture graphique sur la droite d’une fonction linéaire."
+    },
+    {
+      "topicId": "fr-ma-3e-esp-02",
+      "prerequisiteId": "fr-ma-3e-esp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La section d’une boule et le grand cercle supposent de connaître la boule et la sphère."
+    },
+    {
+      "topicId": "fr-ma-3e-esp-03",
+      "prerequisiteId": "fr-ma-3e-esp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Calculer le volume d’une boule suppose de savoir ce qu’est une boule et son rayon."
+    },
+    {
+      "topicId": "fr-ma-3e-tri-02",
+      "prerequisiteId": "fr-ma-3e-tri-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La réciproque et la contraposée se comprennent à partir du théorème de Thalès lui-même."
+    },
+    {
+      "topicId": "fr-ma-3e-tri-04",
+      "prerequisiteId": "fr-ma-3e-tri-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Calculer un angle suppose de connaître les définitions du cosinus, du sinus et de la tangente."
+    },
+    {
+      "topicId": "fr-ma-3e-vec-02",
+      "prerequisiteId": "fr-ma-3e-vec-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le vecteur AB est associé à la translation qui transforme A en B."
+    },
+    {
+      "topicId": "fr-ma-3e-vec-03",
+      "prerequisiteId": "fr-ma-3e-vec-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le programme définit la somme de deux vecteurs par l’enchaînement de deux translations."
+    },
+    {
+      "topicId": "fr-ma-3e-vec-04",
+      "prerequisiteId": "fr-ma-3e-vec-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La relation de Chasles porte sur la somme de deux vecteurs."
+    },
+    {
+      "topicId": "fr-ma-3e-sta-02",
+      "prerequisiteId": "fr-ma-3e-sta-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les effectifs cumulés aident à trouver la médiane et les quartiles d’une série donnée par un tableau."
+    },
+    {
+      "topicId": "fr-ma-3e-sta-03",
+      "prerequisiteId": "fr-ma-3e-sta-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Une boîte à moustaches se construit avec la médiane et les quartiles."
+    },
+    {
+      "topicId": "fr-ma-3e-sta-04",
+      "prerequisiteId": "fr-ma-3e-sta-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les boîtes à moustaches sont un outil pour interpréter et comparer des séries."
+    },
+    {
+      "topicId": "fr-ma-3e-prb-03",
+      "prerequisiteId": "fr-ma-3e-prb-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La simulation permet de répéter l’expérience un grand nombre de fois pour observer la stabilisation des fréquences."
+    },
+    {
+      "topicId": "fr-ma-3e-prop-02",
+      "prerequisiteId": "fr-ma-3e-tri-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme demande de relier la représentation graphique de la proportionnalité au théorème de Thalès."
+    },
+    {
+      "topicId": "fr-ma-3e-prop-03",
+      "prerequisiteId": "fr-ma-3e-fct-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme demande de relier fonctions linéaires et proportionnalité : il faut d’abord connaître les fonctions linéaires."
+    },
+    {
+      "topicId": "fr-ma-3e-prop-03",
+      "prerequisiteId": "fr-ma-3e-prop-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Une évolution en pourcentage se traduit par une fonction linéaire de coefficient le coefficient multiplicateur."
+    },
+    {
+      "topicId": "fr-ma-3e-fct-01",
+      "prerequisiteId": "fr-ma-3e-rep-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Tracer et lire une représentation graphique demande de placer et lire des points dans un repère."
+    },
+    {
+      "topicId": "fr-ma-3e-fct-02",
+      "prerequisiteId": "fr-ma-3e-fct-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les images et antécédents se lisent dans un tableau de valeurs ou sur une courbe."
+    },
+    {
+      "topicId": "fr-ma-3e-fct-03",
+      "prerequisiteId": "fr-ma-3e-fct-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Utiliser une fonction linéaire demande de calculer des images et des antécédents."
+    },
+    {
+      "topicId": "fr-ma-3e-fct-04",
+      "prerequisiteId": "fr-ma-3e-fct-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La résolution graphique se fait sur la droite représentant une fonction linéaire."
+    },
+    {
+      "topicId": "fr-ma-3e-fct-05",
+      "prerequisiteId": "fr-ma-3e-fct-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Une fonction linéaire est le cas particulier b = 0 d’une fonction affine."
+    },
+    {
+      "topicId": "fr-ma-3e-fct-06",
+      "prerequisiteId": "fr-ma-3e-fct-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Lire les coefficients suppose de connaître la forme 𝑥 ↦ a𝑥 + b et sa représentation."
+    },
+    {
+      "topicId": "fr-ma-3e-fct-07",
+      "prerequisiteId": "fr-ma-3e-fct-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Représenter la fonction carré demande de passer d’une formule à un tableau de valeurs puis à une courbe."
+    },
+    {
+      "topicId": "fr-ma-3e-info-03",
+      "prerequisiteId": "fr-ma-3e-info-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La condition d’arrêt d’une boucle porte souvent sur une variable qui évolue."
+    },
+    {
+      "topicId": "fr-ma-3e-info-05",
+      "prerequisiteId": "fr-ma-3e-info-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Écrire un programme autonome mobilise des conditions composées."
+    },
+    {
+      "topicId": "fr-ma-3e-info-05",
+      "prerequisiteId": "fr-ma-3e-info-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Écrire un programme autonome mobilise des boucles conditionnelles."
+    },
+    {
+      "topicId": "fr-ma-3e-info-05",
+      "prerequisiteId": "fr-ma-3e-info-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Un programme écrit en autonomie doit être structuré."
+    }
+  ],
+  "extractedAt": "2026-10-22"
+}

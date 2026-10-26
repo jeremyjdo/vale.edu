@@ -1,0 +1,59 @@
+{
+  "programme": "hda-c4",
+  "description": "Liens vers une autre matière",
+  "prerequisites": [
+    {
+      "topicId": "fr-hda-c4-them-01",
+      "prerequisiteId": "fr-hg-6e-gre-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S'appuie sur « L’unité et la diversité du monde grec » (6e, histoire-géographie)"
+    },
+    {
+      "topicId": "fr-hda-c4-them-02",
+      "prerequisiteId": "fr-hg-cm1-moy-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S'appuie sur « Différencier l’art roman de l’art gothique » (CM1, histoire-géographie)"
+    },
+    {
+      "topicId": "fr-hda-c4-them-03",
+      "prerequisiteId": "fr-hg-cm1-mon-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S'appuie sur « François Ier, roi mécène de la Renaissance » (CM1, histoire-géographie)"
+    },
+    {
+      "topicId": "fr-hda-c4-them-04",
+      "prerequisiteId": "fr-hg-cm1-mon-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S'appuie sur « Louis XIV, Versailles et la monarchie absolue » (CM1, histoire-géographie)"
+    },
+    {
+      "topicId": "fr-hda-c4-them-05",
+      "prerequisiteId": "fr-hg-cm1-rev-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S'appuie sur « Les idées des Lumières » (CM1, histoire-géographie)"
+    },
+    {
+      "topicId": "fr-hda-c4-them-06",
+      "prerequisiteId": "fr-hg-cm2-ind-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S'appuie sur « Les progrès techniques du XIXe siècle et la vie quotidienne » (CM2, histoire-géographie)"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "hda-c4": "2026-10-23",
+    "hg-c3": "2026-10-23"
+  }
+}

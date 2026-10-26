@@ -1,0 +1,2674 @@
+{
+  "programme": "francais-c3",
+  "prerequisites": [
+    {
+      "topicId": "fr-fr-cm1-flu-01",
+      "prerequisiteId": "fr-fr-ce2-comp-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire et comprendre seul un texte d’une vingtaine de lignes » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-flu-02",
+      "prerequisiteId": "fr-fr-ce2-voix-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire à voix haute en respectant la ponctuation et les liaisons » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-flu-02",
+      "prerequisiteId": "fr-fr-ce2-mots-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Ne plus confondre les graphèmes complexes suppose d’avoir automatisé toutes les correspondances lettres-sons"
+    },
+    {
+      "topicId": "fr-fr-cm1-flu-03",
+      "prerequisiteId": "fr-fr-ce2-mots-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître directement les mots fréquents et irréguliers » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-flu-04",
+      "prerequisiteId": "fr-fr-ce2-voix-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire à voix haute à 90 mots par minute » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-expr-01",
+      "prerequisiteId": "fr-fr-ce2-voix-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire de façon expressive pour montrer qu’on a compris » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-expr-02",
+      "prerequisiteId": "fr-fr-ce2-voix-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Une lecture expressive qui respecte la structure de la phrase prépare le respect des groupes de sens"
+    },
+    {
+      "topicId": "fr-fr-cm1-expr-03",
+      "prerequisiteId": "fr-fr-ce2-voix-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire de façon expressive pour montrer qu’on a compris » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-expr-03",
+      "prerequisiteId": "fr-fr-ce2-dire-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Garder l’attention de son auditoire suppose déjà une voix audible et un débit maîtrisé"
+    },
+    {
+      "topicId": "fr-fr-cm1-comp-01",
+      "prerequisiteId": "fr-fr-ce2-comp-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Revenir au texte quand on ne comprend pas un passage » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-comp-01",
+      "prerequisiteId": "fr-fr-ce2-comp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les stratégies (repérer les personnages, résumer) s’exercent sur des récits que l’élève comprend déjà"
+    },
+    {
+      "topicId": "fr-fr-cm1-comp-02",
+      "prerequisiteId": "fr-fr-ce2-comp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un récit lu seul ou lu par un adulte » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-comp-03",
+      "prerequisiteId": "fr-fr-ce2-comp-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre ce que le texte ne dit pas directement (inférences) » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-comp-04",
+      "prerequisiteId": "fr-fr-ce2-lect-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître les genres : poésie, théâtre, récit policier ou d’aventure » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-doc-01",
+      "prerequisiteId": "fr-fr-ce2-comp-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Dire la nature d’un document s’appuie sur la lecture de textes documentaires au CE2"
+    },
+    {
+      "topicId": "fr-fr-cm1-doc-03",
+      "prerequisiteId": "fr-fr-ce2-comp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un texte documentaire et dire ce qu’il apprend » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-oeuv-01",
+      "prerequisiteId": "fr-fr-ce2-lect-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier ses lectures entre elles et à sa propre expérience » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-oeuv-02",
+      "prerequisiteId": "fr-fr-ce2-lect-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier ses lectures entre elles et à sa propre expérience » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-oeuv-03",
+      "prerequisiteId": "fr-fr-ce2-lect-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire seul 5 à 10 œuvres complètes dans l’année » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-oeuv-03",
+      "prerequisiteId": "fr-fr-ce2-lect-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Fréquenter bibliothèques et acteurs du livre nourrit des lectures variées"
+    },
+    {
+      "topicId": "fr-fr-cm1-oeuv-04",
+      "prerequisiteId": "fr-fr-ce2-lect-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire seul 5 à 10 œuvres complètes dans l’année » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-her-01",
+      "prerequisiteId": "fr-fr-ce2-lect-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Connaître les personnages-types des genres étudiés au CE2 aide à réfléchir à ce qui fait un héros"
+    },
+    {
+      "topicId": "fr-fr-cm1-merv-01",
+      "prerequisiteId": "fr-fr-ce2-lect-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Connaître les genres et leurs personnages-types aide à repérer le merveilleux et l’étrange"
+    },
+    {
+      "topicId": "fr-fr-cm1-merv-01",
+      "prerequisiteId": "fr-fr-ce2-lect-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Explorer l’étrange s’appuie sur la mise en réseau des lectures"
+    },
+    {
+      "topicId": "fr-fr-cm1-main-01",
+      "prerequisiteId": "fr-fr-ce2-curs-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme prolonge au cycle 3 les gestes de l’écriture cursive systématisés au cycle 2"
+    },
+    {
+      "topicId": "fr-fr-cm1-main-01",
+      "prerequisiteId": "fr-fr-ce2-copie-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Copier une dizaine de lignes sans erreur, vite et en respectant la mise en page » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-main-02",
+      "prerequisiteId": "fr-fr-ce2-copie-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Copier une dizaine de lignes sans erreur, vite et en respectant la mise en page » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-refl-02",
+      "prerequisiteId": "fr-fr-ce2-prod-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Expliquer son avis par écrit suppose d’écrire des phrases compréhensibles par un lecteur"
+    },
+    {
+      "topicId": "fr-fr-cm1-refl-02",
+      "prerequisiteId": "fr-fr-ce2-dire-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Se justifier à l’oral au CE2 prépare la justification écrite"
+    },
+    {
+      "topicId": "fr-fr-cm1-refl-03",
+      "prerequisiteId": "fr-fr-ce2-prod-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Reformuler une leçon par écrit suppose d’écrire un message compréhensible"
+    },
+    {
+      "topicId": "fr-fr-cm1-refl-04",
+      "prerequisiteId": "fr-fr-ce2-prod-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire des phrases pour s’entraîner en grammaire et en orthographe » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-refl-05",
+      "prerequisiteId": "fr-fr-ce2-reem-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Réemployer par écrit les mots étudiés s’appuie sur le choix du mot juste travaillé au CE2"
+    },
+    {
+      "topicId": "fr-fr-cm1-prod-01",
+      "prerequisiteId": "fr-fr-ce2-prod-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme situe l’écriture de textes au cycle 3 dans le prolongement des premiers textes rédigés au cycle 2"
+    },
+    {
+      "topicId": "fr-fr-cm1-prod-02",
+      "prerequisiteId": "fr-fr-ce2-prod-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme situe l’écriture de textes au cycle 3 dans le prolongement des premiers textes rédigés au cycle 2"
+    },
+    {
+      "topicId": "fr-fr-cm1-prod-03",
+      "prerequisiteId": "fr-fr-ce2-prod-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un texte d’une dizaine de lignes de différents types » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-prod-03",
+      "prerequisiteId": "fr-fr-ce2-prod-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Exprimer une émotion ou une hypothèse par écrit est déjà pratiqué au CE2"
+    },
+    {
+      "topicId": "fr-fr-cm1-prod-04",
+      "prerequisiteId": "fr-fr-ce2-prod-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un texte d’une dizaine de lignes de différents types » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-prod-05",
+      "prerequisiteId": "fr-fr-ce2-prod-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relire son texte méthodiquement pour l’améliorer » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-prod-05",
+      "prerequisiteId": "fr-fr-ce2-phr-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Délimiter ses phrases suppose de les terminer par le bon signe"
+    },
+    {
+      "topicId": "fr-fr-cm1-prod-06",
+      "prerequisiteId": "fr-fr-ce2-comp-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Des reprises claires supposent de savoir suivre les désignations d’un personnage (chaîne anaphorique)"
+    },
+    {
+      "topicId": "fr-fr-cm1-prod-07",
+      "prerequisiteId": "fr-fr-ce2-prod-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relire son texte méthodiquement pour l’améliorer » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-ecou-01",
+      "prerequisiteId": "fr-fr-ce2-ecou-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un message oral de 5 minutes en reliant les informations » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-ecou-02",
+      "prerequisiteId": "fr-fr-ce2-ecou-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un message oral de 5 minutes en reliant les informations » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-ecou-03",
+      "prerequisiteId": "fr-fr-ce2-ecou-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un message oral de 5 minutes en reliant les informations » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-ecou-03",
+      "prerequisiteId": "fr-fr-ce2-comp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comprendre un récit lu par un adulte est déjà travaillé au CE2"
+    },
+    {
+      "topicId": "fr-fr-cm1-ecou-04",
+      "prerequisiteId": "fr-fr-ce2-comp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Distinguer récit et texte informatif, appris en lecture, se transpose à l’écoute"
+    },
+    {
+      "topicId": "fr-fr-cm1-ecou-04",
+      "prerequisiteId": "fr-fr-ce2-lect-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Connaître les genres (poésie, théâtre, récit) aide à les reconnaître à l’écoute"
+    },
+    {
+      "topicId": "fr-fr-cm1-ecou-05",
+      "prerequisiteId": "fr-fr-ce2-lect-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Relier un texte à sa propre expérience aide à dire ce qu’il fait ressentir"
+    },
+    {
+      "topicId": "fr-fr-cm1-dire-01",
+      "prerequisiteId": "fr-fr-ce2-dire-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Raconter ou exposer à l’oral de façon longue et structurée » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-dire-02",
+      "prerequisiteId": "fr-fr-ce2-dire-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Expliquer un raisonnement et se justifier à l’oral » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-dire-03",
+      "prerequisiteId": "fr-fr-ce2-dire-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Garder l’attention de son auditoire lors d’un exposé ou d’une récitation » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-dire-04",
+      "prerequisiteId": "fr-fr-ce2-dire-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Expliquer un raisonnement et se justifier à l’oral » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-ech-01",
+      "prerequisiteId": "fr-fr-ce2-ech-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Rebondir sur ce qu’ont dit les autres dans une discussion » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-ech-02",
+      "prerequisiteId": "fr-fr-ce2-ech-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Adapter sa façon de parler à une situation prépare le choix de tournures adaptées au but"
+    },
+    {
+      "topicId": "fr-fr-cm1-ech-02",
+      "prerequisiteId": "fr-fr-ce2-dire-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Réutiliser à l’oral les tournures apprises en classe est déjà pratiqué au CE2"
+    },
+    {
+      "topicId": "fr-fr-cm1-ech-03",
+      "prerequisiteId": "fr-fr-ce2-dire-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Raconter ou exposer à l’oral de façon longue et structurée » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-ech-05",
+      "prerequisiteId": "fr-fr-ce2-ech-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Adapter sa façon de parler et sa posture dans un jeu de rôle » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-ech-06",
+      "prerequisiteId": "fr-fr-ce2-dire-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Savoir ce qui retient l’attention d’un auditoire fournit des critères pour juger une prise de parole"
+    },
+    {
+      "topicId": "fr-fr-cm1-enr-01",
+      "prerequisiteId": "fr-fr-ce2-enr-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande d’approfondir en contexte le vocabulaire appris au cycle 2"
+    },
+    {
+      "topicId": "fr-fr-cm1-enr-01",
+      "prerequisiteId": "fr-fr-ce2-enr-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Passer du sens propre au sens figuré aide à découvrir les multiples usages d’un mot"
+    },
+    {
+      "topicId": "fr-fr-cm1-enr-02",
+      "prerequisiteId": "fr-fr-ce2-reem-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Citer rapidement les mots d’un thème étudié (fluence verbale) » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-enr-02",
+      "prerequisiteId": "fr-fr-ce2-rel-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le répertoire de mots personnel construit au CE2 sert d’outil pour mémoriser"
+    },
+    {
+      "topicId": "fr-fr-cm1-enr-03",
+      "prerequisiteId": "fr-fr-ce2-comp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Chercher activement le sens des mots inconnus » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-enr-03",
+      "prerequisiteId": "fr-fr-ce2-enr-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Vérifier le sens supposé d’un mot dans un dictionnaire adapté, appris au CE2"
+    },
+    {
+      "topicId": "fr-fr-cm1-enr-04",
+      "prerequisiteId": "fr-fr-ce2-enr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver le sens d’un mot grâce à sa construction (préfixes, suffixes) » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-rel-01",
+      "prerequisiteId": "fr-fr-ce2-rel-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trier les mots dérivés selon leurs préfixes et suffixes » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-rel-02",
+      "prerequisiteId": "fr-fr-ce2-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Classer les mots par grandes catégories, du général au particulier » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-rel-02",
+      "prerequisiteId": "fr-fr-ce2-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Compléter ses collections de mots et percevoir des nuances d’intensité » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-rel-03",
+      "prerequisiteId": "fr-fr-ce2-reem-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Remplacer un mot par un synonyme pour éviter une répétition est pratiqué au CE2"
+    },
+    {
+      "topicId": "fr-fr-cm1-reem-01",
+      "prerequisiteId": "fr-fr-ce2-reem-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Employer le mot juste et varier les mots pour éviter les répétitions » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-reem-02",
+      "prerequisiteId": "fr-fr-ce2-reem-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Employer un même mot au sens propre et au sens figuré » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-orth-01",
+      "prerequisiteId": "fr-fr-ce2-orth-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire sans erreur les mots fréquents, réguliers et irréguliers » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-orth-02",
+      "prerequisiteId": "fr-fr-ce2-orth-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Orthographier un mot grâce à sa famille ou à des mots qui lui ressemblent » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-typ-01",
+      "prerequisiteId": "fr-fr-ce2-phr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et écrire des phrases déclaratives, interrogatives, impératives » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-typ-02",
+      "prerequisiteId": "fr-fr-ce2-phr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Mettre une phrase à la forme négative ou exclamative » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-typ-04",
+      "prerequisiteId": "fr-fr-ce2-phr-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Une question écrite se termine par un point d’interrogation"
+    },
+    {
+      "topicId": "fr-fr-cm1-phr-01",
+      "prerequisiteId": "fr-fr-ce2-phr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer le groupe sujet, le verbe et les compléments d’une phrase simple » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-phr-01",
+      "prerequisiteId": "fr-fr-ce2-ogr-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Retrouver l’infinitif du verbe conjugué suppose de distinguer radical et terminaison"
+    },
+    {
+      "topicId": "fr-fr-cm1-phr-02",
+      "prerequisiteId": "fr-fr-ce2-ogr-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Relier le verbe à son sujet aide à identifier le groupe sujet"
+    },
+    {
+      "topicId": "fr-fr-cm1-phr-07",
+      "prerequisiteId": "fr-fr-ce2-phr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer le groupe sujet, le verbe et les compléments d’une phrase simple » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-natf-01",
+      "prerequisiteId": "fr-fr-ce2-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Distinguer nature et fonction suppose de connaître les classes de mots"
+    },
+    {
+      "topicId": "fr-fr-cm1-natf-01",
+      "prerequisiteId": "fr-fr-ce2-phr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Distinguer nature et fonction suppose de repérer sujet, verbe et compléments"
+    },
+    {
+      "topicId": "fr-fr-cm1-nat-01",
+      "prerequisiteId": "fr-fr-ce2-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et nommer les classes de mots : nom, verbe, adjectif… » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-nat-02",
+      "prerequisiteId": "fr-fr-ce2-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La conjonction de coordination s’ajoute aux classes de mots connues"
+    },
+    {
+      "topicId": "fr-fr-cm1-nat-03",
+      "prerequisiteId": "fr-fr-ce2-phr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir l’adverbe, un mot qui ne change jamais » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-nat-04",
+      "prerequisiteId": "fr-fr-ce2-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et nommer les classes de mots : nom, verbe, adjectif… » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-gn-01",
+      "prerequisiteId": "fr-fr-ce2-ogr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le groupe nominal (déterminant + nom + adjectif) a été repéré au CE2 pour y faire les accords"
+    },
+    {
+      "topicId": "fr-fr-cm1-var-01",
+      "prerequisiteId": "fr-fr-ce2-ogr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les variations en genre et en nombre s’appuient sur les accords dans le groupe nominal"
+    },
+    {
+      "topicId": "fr-fr-cm1-var-01",
+      "prerequisiteId": "fr-fr-ce2-ogr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les variations du verbe en personne et en temps s’appuient sur la relation sujet-verbe"
+    },
+    {
+      "topicId": "fr-fr-cm1-var-01",
+      "prerequisiteId": "fr-fr-ce2-phr-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La distinction entre mots variables et invariables a été découverte au CE2"
+    },
+    {
+      "topicId": "fr-fr-cm1-var-02",
+      "prerequisiteId": "fr-fr-ce2-ogr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les formes du déterminant varient avec le genre et le nombre du nom, comme dans les accords du CE2"
+    },
+    {
+      "topicId": "fr-fr-cm1-var-03",
+      "prerequisiteId": "fr-fr-ce2-prod-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un texte d’une dizaine de lignes de différents types » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-acc-01",
+      "prerequisiteId": "fr-fr-ce2-ogr-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme indique que les pluriels irréguliers (-x, -al/-aux), introduits au cycle 2, sont stabilisés au cycle 3"
+    },
+    {
+      "topicId": "fr-fr-cm1-acc-05",
+      "prerequisiteId": "fr-fr-ce2-dict-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire des phrases dictées en faisant les accords étudiés » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-sv-01",
+      "prerequisiteId": "fr-fr-ce2-ogr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier le verbe à son sujet » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-sv-03",
+      "prerequisiteId": "fr-fr-ce2-prod-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les gammes d’écriture du CE2 transforment déjà des phrases en changeant le sujet ou le temps"
+    },
+    {
+      "topicId": "fr-fr-cm1-sv-05",
+      "prerequisiteId": "fr-fr-ce2-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Distinguer les marques du verbe et du nom suppose de reconnaître ces deux classes"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-01",
+      "prerequisiteId": "fr-fr-ce2-ogr-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer au passé composé : être, avoir, 1er groupe et 8 verbes irréguliers » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-01",
+      "prerequisiteId": "fr-fr-ce2-ogr-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Retrouver l’infinitif d’un verbe conjugué est appris au CE2"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-02",
+      "prerequisiteId": "fr-fr-ce2-phr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Mettre un verbe au passé composé à la forme négative suppose de connaître la forme négative"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-03",
+      "prerequisiteId": "fr-fr-ce2-ogr-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver le radical, la terminaison et l’infinitif d’un verbe conjugué » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-04",
+      "prerequisiteId": "fr-fr-ce2-ogr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les marques de personne s’observent dans les verbes conjugués au présent"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-04",
+      "prerequisiteId": "fr-fr-ce2-ogr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les marques de personne s’observent dans les verbes conjugués à l’imparfait"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-04",
+      "prerequisiteId": "fr-fr-ce2-ogr-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les marques de personne s’observent dans les verbes conjugués au futur"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-05",
+      "prerequisiteId": "fr-fr-ce2-ogr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Isoler la marque -ai- / -i- suppose de savoir conjuguer à l’imparfait"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-05",
+      "prerequisiteId": "fr-fr-ce2-ogr-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Isoler la marque -r- suppose de savoir conjuguer au futur"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-06",
+      "prerequisiteId": "fr-fr-ce2-ogr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les variations du radical s’étudient sur les verbes du 1er groupe déjà conjugués au présent"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-07",
+      "prerequisiteId": "fr-fr-ce2-ogr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer au présent : être, avoir, 1er groupe et 8 verbes irréguliers » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-08",
+      "prerequisiteId": "fr-fr-ce2-ogr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer à l’imparfait : être, avoir, 1er groupe et 8 verbes irréguliers » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm1-conj-09",
+      "prerequisiteId": "fr-fr-ce2-ogr-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer au futur : être, avoir, 1er groupe et 8 verbes irréguliers » (CE2)"
+    },
+    {
+      "topicId": "fr-fr-cm2-flu-01",
+      "prerequisiteId": "fr-fr-cm1-flu-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire sans effort un texte d’une page, en silence ou à voix haute » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-flu-02",
+      "prerequisiteId": "fr-fr-cm1-flu-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire à voix haute un texte court préparé, sans erreur de déchiffrage » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-flu-02",
+      "prerequisiteId": "fr-fr-cm1-expr-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Regrouper les mots qui forment un sens est travaillé au CM1"
+    },
+    {
+      "topicId": "fr-fr-cm2-flu-03",
+      "prerequisiteId": "fr-fr-cm1-flu-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire correctement environ 110 mots par minute » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-expr-01",
+      "prerequisiteId": "fr-fr-cm1-expr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire à voix haute avec expression un texte court préparé » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-expr-01",
+      "prerequisiteId": "fr-fr-cm1-expr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Une lecture fluide suppose un rythme régulier qui respecte les groupes de sens"
+    },
+    {
+      "topicId": "fr-fr-cm2-expr-02",
+      "prerequisiteId": "fr-fr-cm1-expr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Adapter le volume et le débit de sa voix en lisant » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-expr-03",
+      "prerequisiteId": "fr-fr-cm1-expr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire à voix haute avec expression un texte court préparé » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-comp-01",
+      "prerequisiteId": "fr-fr-cm1-comp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des stratégies pour comprendre ce qu’on lit » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-comp-02",
+      "prerequisiteId": "fr-fr-cm1-comp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Pointer les informations implicites d’un texte (inférences) » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-comp-03",
+      "prerequisiteId": "fr-fr-cm1-comp-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer un extrait de théâtre, un poème et un récit » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-doc-01",
+      "prerequisiteId": "fr-fr-cm1-doc-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer des informations dans un document composite » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-doc-01",
+      "prerequisiteId": "fr-fr-cm1-doc-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Reconnaître chaque élément suppose de connaître les genres de documents (texte, schéma, tableau, image)"
+    },
+    {
+      "topicId": "fr-fr-cm2-doc-02",
+      "prerequisiteId": "fr-fr-cm1-doc-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Rapprocher deux documents de genres différents suppose de reconnaître ces genres"
+    },
+    {
+      "topicId": "fr-fr-cm2-doc-03",
+      "prerequisiteId": "fr-fr-cm1-doc-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver dans des documents simples les réponses à des questions » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-doc-03",
+      "prerequisiteId": "fr-fr-cm1-comp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Deviner les informations non écrites suppose de savoir faire des inférences"
+    },
+    {
+      "topicId": "fr-fr-cm2-oeuv-01",
+      "prerequisiteId": "fr-fr-cm1-oeuv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier le livre lu aux œuvres déjà lues en classe » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-oeuv-02",
+      "prerequisiteId": "fr-fr-cm1-oeuv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier sa lecture à son vécu et à ses connaissances » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-oeuv-03",
+      "prerequisiteId": "fr-fr-cm1-oeuv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire des livres variés : au moins 2 œuvres du patrimoine et 5 de jeunesse » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-oeuv-04",
+      "prerequisiteId": "fr-fr-cm1-oeuv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’engager dans une lecture longue et la poursuivre jusqu’au bout » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-oeuv-04",
+      "prerequisiteId": "fr-fr-cm1-oeuv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire des livres variés : au moins 2 œuvres du patrimoine et 5 de jeunesse » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-main-01",
+      "prerequisiteId": "fr-fr-cm1-main-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Copier et écrire des textes de façon lisible, régulière et soignée » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-main-02",
+      "prerequisiteId": "fr-fr-cm1-main-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Copier un texte avec méthode (stratégies de copie) » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-refl-01",
+      "prerequisiteId": "fr-fr-cm1-refl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire pour repérer et trier les informations importantes » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-refl-02",
+      "prerequisiteId": "fr-fr-cm1-refl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire quelques phrases pour expliquer son point de vue » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-refl-03",
+      "prerequisiteId": "fr-fr-cm1-refl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reformuler par écrit l’essentiel d’une leçon ou d’une activité » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-refl-04",
+      "prerequisiteId": "fr-fr-cm1-refl-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire de courts textes pour appliquer une règle de grammaire » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-refl-04",
+      "prerequisiteId": "fr-fr-cm1-refl-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire de courts textes pour employer et retenir le vocabulaire appris » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-prod-01",
+      "prerequisiteId": "fr-fr-cm1-prod-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les passages descriptifs s’insèrent dans un récit, écrit dès le CM1"
+    },
+    {
+      "topicId": "fr-fr-cm2-prod-02",
+      "prerequisiteId": "fr-fr-cm1-prod-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le dialogue s’insère dans un récit, écrit dès le CM1"
+    },
+    {
+      "topicId": "fr-fr-cm2-prod-02",
+      "prerequisiteId": "fr-fr-cm1-prod-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Choisir la bonne ponctuation, travaillé au CM1, prépare la ponctuation du dialogue"
+    },
+    {
+      "topicId": "fr-fr-cm2-prod-03",
+      "prerequisiteId": "fr-fr-cm1-prod-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire chaque jour des textes personnels : avis, suite de texte, hypothèses » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-prod-04",
+      "prerequisiteId": "fr-fr-cm1-prod-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Veiller aux règles de l’écrit : phrases, ponctuation, accords » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-prod-05",
+      "prerequisiteId": "fr-fr-cm1-prod-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre ce qui rend un texte cohérent » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-prod-06",
+      "prerequisiteId": "fr-fr-cm1-prod-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Préparer son texte au brouillon » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-prod-07",
+      "prerequisiteId": "fr-fr-cm1-prod-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Améliorer son texte à partir des remarques de l’enseignant ou des camarades » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-ecou-01",
+      "prerequisiteId": "fr-fr-cm1-ecou-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écouter activement en fonction de ce que l’on cherche » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-ecou-02",
+      "prerequisiteId": "fr-fr-cm1-ecou-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un message oral venant d’une autre personne ou d’un média » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-ecou-03",
+      "prerequisiteId": "fr-fr-cm1-ecou-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Montrer qu’on a compris un texte entendu » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-ecou-04",
+      "prerequisiteId": "fr-fr-cm1-ecou-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître à l’écoute les éléments d’un récit ou d’un documentaire » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-ecou-05",
+      "prerequisiteId": "fr-fr-cm1-ecou-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer et justifier ce qu’on ressent à l’écoute d’un texte » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-dire-01",
+      "prerequisiteId": "fr-fr-cm1-dire-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Raconter ou présenter un exposé à l’oral de façon claire et organisée » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-dire-02",
+      "prerequisiteId": "fr-fr-cm1-dire-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Faire vivre un texte devant un public (lecture expressive, récitation) » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-dire-03",
+      "prerequisiteId": "fr-fr-cm1-dire-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se servir de l’oral pour réfléchir et expliquer sa démarche » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-ech-01",
+      "prerequisiteId": "fr-fr-cm1-ech-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prendre la parole en respectant les règles de l’échange » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-ech-02",
+      "prerequisiteId": "fr-fr-cm1-ech-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les tournures de phrase adaptées à ce que l’on veut dire » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-ech-03",
+      "prerequisiteId": "fr-fr-cm1-ech-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Préparer et organiser son propos pour être clair » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-ech-04",
+      "prerequisiteId": "fr-fr-cm1-ech-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire une réflexion collective par l’échange oral (débat) » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-ech-05",
+      "prerequisiteId": "fr-fr-cm1-ech-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Adapter sa façon de parler à la situation » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-ech-06",
+      "prerequisiteId": "fr-fr-cm1-ech-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Évaluer une prise de parole à l’aide de critères » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-enr-01",
+      "prerequisiteId": "fr-fr-cm1-enr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Mémoriser des mots et expressions issus de toutes les matières » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-enr-01",
+      "prerequisiteId": "fr-fr-cm1-enr-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le vocabulaire du cycle 2 approfondi au CM1 sert de base au vocabulaire précis des matières"
+    },
+    {
+      "topicId": "fr-fr-cm2-enr-02",
+      "prerequisiteId": "fr-fr-cm1-enr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer les mots inconnus et en chercher le sens grâce au contexte » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-enr-02",
+      "prerequisiteId": "fr-fr-cm1-enr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver le sens d’un mot inconnu grâce à sa construction » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-enr-03",
+      "prerequisiteId": "fr-fr-cm1-enr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer les mots inconnus et en chercher le sens grâce au contexte » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-rel-01",
+      "prerequisiteId": "fr-fr-cm1-reem-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Employer les mots à plusieurs sens selon la matière » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-rel-02",
+      "prerequisiteId": "fr-fr-cm1-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier les mots par leur forme : familles, préfixes, suffixes, mots composés » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-rel-02",
+      "prerequisiteId": "fr-fr-cm1-enr-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Décomposer un mot pour trouver son sens est pratiqué au CM1"
+    },
+    {
+      "topicId": "fr-fr-cm2-rel-03",
+      "prerequisiteId": "fr-fr-cm1-rel-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et utiliser les synonymes et les antonymes » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-rel-03",
+      "prerequisiteId": "fr-fr-cm1-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier les mots par leur sens : champ lexical, mot générique, gradation » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-reem-01",
+      "prerequisiteId": "fr-fr-cm1-reem-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réutiliser à l’oral et à l’écrit les mots appris » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-orth-01",
+      "prerequisiteId": "fr-fr-cm1-orth-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire sans erreur les mots les plus fréquents » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-orth-01",
+      "prerequisiteId": "fr-fr-cm1-orth-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Orthographier un mot grâce à sa famille et à sa construction » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-typ-01",
+      "prerequisiteId": "fr-fr-cm1-typ-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider les objectifs du CM1 sur les types et formes de phrases"
+    },
+    {
+      "topicId": "fr-fr-cm2-typ-01",
+      "prerequisiteId": "fr-fr-cm1-typ-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider les objectifs du CM1 sur les types et formes de phrases"
+    },
+    {
+      "topicId": "fr-fr-cm2-typ-01",
+      "prerequisiteId": "fr-fr-cm1-typ-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider les objectifs du CM1 sur les types et formes de phrases"
+    },
+    {
+      "topicId": "fr-fr-cm2-typ-01",
+      "prerequisiteId": "fr-fr-cm1-typ-04",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider les objectifs du CM1 sur les types et formes de phrases"
+    },
+    {
+      "topicId": "fr-fr-cm2-phr-01",
+      "prerequisiteId": "fr-fr-cm1-phr-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider l’identification des types de sujets rencontrés au CM1"
+    },
+    {
+      "topicId": "fr-fr-cm2-phr-02",
+      "prerequisiteId": "fr-fr-cm1-phr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Repérer un sujet inversé suppose de reconnaître les différentes formes du sujet"
+    },
+    {
+      "topicId": "fr-fr-cm2-phr-02",
+      "prerequisiteId": "fr-fr-cm1-typ-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le sujet inversé se repère d’abord dans les questions par inversion, vues au CM1"
+    },
+    {
+      "topicId": "fr-fr-cm2-phr-03",
+      "prerequisiteId": "fr-fr-cm1-phr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier sans hésiter le groupe sujet » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-phr-03",
+      "prerequisiteId": "fr-fr-cm1-phr-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer les compléments circonstanciels (sans les classer) » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-phr-04",
+      "prerequisiteId": "fr-fr-cm1-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Distinguer l’attribut du complément d’objet suppose de savoir reconnaître le complément d’objet"
+    },
+    {
+      "topicId": "fr-fr-cm2-phr-05",
+      "prerequisiteId": "fr-fr-cm1-phr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Différencier complément d’objet direct (COD) et indirect (COI) » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-phr-07",
+      "prerequisiteId": "fr-fr-cm1-phr-07",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de mobiliser les manipulations syntaxiques dans le prolongement du CM1"
+    },
+    {
+      "topicId": "fr-fr-cm2-nat-01",
+      "prerequisiteId": "fr-fr-cm1-natf-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer la nature d’un mot et sa fonction dans la phrase » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-nat-02",
+      "prerequisiteId": "fr-fr-cm1-gn-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Donner la nature d’un groupe suppose de repérer les groupes nominaux et leurs éléments"
+    },
+    {
+      "topicId": "fr-fr-cm2-mots-01",
+      "prerequisiteId": "fr-fr-cm1-nat-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comme l’adverbe vu au CM1, la préposition est un mot invariable dont il faut la distinguer"
+    },
+    {
+      "topicId": "fr-fr-cm2-mots-01",
+      "prerequisiteId": "fr-fr-cm1-nat-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Distinguer la préposition « de » du déterminant suppose de connaître les déterminants"
+    },
+    {
+      "topicId": "fr-fr-cm2-mots-02",
+      "prerequisiteId": "fr-fr-cm1-nat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les conjonctions de subordination se distinguent des conjonctions de coordination vues au CM1"
+    },
+    {
+      "topicId": "fr-fr-cm2-mots-03",
+      "prerequisiteId": "fr-fr-cm1-nat-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer pronoms personnels sujets et compléments » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-mots-04",
+      "prerequisiteId": "fr-fr-cm1-nat-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Remplacer un groupe nominal objet par un pronom personnel objet » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-mots-05",
+      "prerequisiteId": "fr-fr-cm1-var-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le pronom personnel varie en personne, critère de variation vu au CM1"
+    },
+    {
+      "topicId": "fr-fr-cm2-gn-01",
+      "prerequisiteId": "fr-fr-cm1-gn-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les expansions complètent le nom noyau du groupe nominal"
+    },
+    {
+      "topicId": "fr-fr-cm2-gn-03",
+      "prerequisiteId": "fr-fr-cm1-gn-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir la notion d’adjectif épithète » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-cplx-01",
+      "prerequisiteId": "fr-fr-cm1-phr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Distinguer phrase simple et complexe suppose de repérer chaque verbe conjugué"
+    },
+    {
+      "topicId": "fr-fr-cm2-var-01",
+      "prerequisiteId": "fr-fr-cm1-var-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer ce qui fait varier les mots : genre, nombre, personne, temps » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-var-01",
+      "prerequisiteId": "fr-fr-cm1-var-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître les formes des articles, possessifs et démonstratifs » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-var-02",
+      "prerequisiteId": "fr-fr-cm1-var-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser ses connaissances sur les variations en écrivant, outils à l’appui » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-agn-01",
+      "prerequisiteId": "fr-fr-cm1-acc-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Faire systématiquement la chaîne d’accords dans le groupe nominal » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-agn-02",
+      "prerequisiteId": "fr-fr-cm1-acc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Maîtriser les marques régulières du féminin et du pluriel » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-asv-01",
+      "prerequisiteId": "fr-fr-cm1-sv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer le sujet du verbe, et son nom noyau, pour faire l’accord » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-asv-02",
+      "prerequisiteId": "fr-fr-cm1-sv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Accorder verbe et attribut demande de respecter toutes les chaînes d’accord, travaillées au CM1"
+    },
+    {
+      "topicId": "fr-fr-cm2-asv-03",
+      "prerequisiteId": "fr-fr-cm1-conj-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Mémoriser le passé simple s’appuie sur les marques de personne connues"
+    },
+    {
+      "topicId": "fr-fr-cm2-asv-03",
+      "prerequisiteId": "fr-fr-cm1-conj-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Connaître les verbes des 1er et 2e groupes et les irréguliers au présent aide à apprendre le passé simple"
+    },
+    {
+      "topicId": "fr-fr-cm2-asv-04",
+      "prerequisiteId": "fr-fr-cm1-conj-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le plus-que-parfait se forme avec être ou avoir à l’imparfait"
+    },
+    {
+      "topicId": "fr-fr-cm2-conj-01",
+      "prerequisiteId": "fr-fr-cm1-conj-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre la composition du passé composé et retrouver l’infinitif » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-conj-02",
+      "prerequisiteId": "fr-fr-cm1-sv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accorder le participe passé avec le sujet quand l’auxiliaire est être » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-conj-03",
+      "prerequisiteId": "fr-fr-cm1-nat-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le COD placé avant est souvent un pronom personnel objet"
+    },
+    {
+      "topicId": "fr-fr-cm2-conj-04",
+      "prerequisiteId": "fr-fr-cm1-conj-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Mettre un verbe au passé composé à la forme négative » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-conj-05",
+      "prerequisiteId": "fr-fr-cm1-conj-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Isoler les marques de temps de l’imparfait (-ai-, -i-) et du futur (-r-) » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-conj-05",
+      "prerequisiteId": "fr-fr-cm1-conj-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître les marques de personne au présent, à l’imparfait et au futur » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-cm2-conj-06",
+      "prerequisiteId": "fr-fr-cm1-conj-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer les verbes du 1er groupe dont le radical change (-cer, -ger, -yer…) » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-6e-flu-01",
+      "prerequisiteId": "fr-fr-cm2-flu-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’entraîner chaque jour à lire en silence et à voix haute » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-flu-02",
+      "prerequisiteId": "fr-fr-cm2-flu-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire à voix haute un texte long préparé (ponctuation, liaisons) » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-flu-02",
+      "prerequisiteId": "fr-fr-cm1-expr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Respecter les groupes de mots suppose le rythme régulier par groupes de sens travaillé au CM1"
+    },
+    {
+      "topicId": "fr-fr-6e-flu-03",
+      "prerequisiteId": "fr-fr-cm2-flu-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire correctement environ 120 mots par minute » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-voix-01",
+      "prerequisiteId": "fr-fr-cm2-expr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire avec aisance et expressivité un texte préparé » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-voix-01",
+      "prerequisiteId": "fr-fr-cm1-expr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Lire pour un auditoire suppose de gérer le volume et le débit de sa voix"
+    },
+    {
+      "topicId": "fr-fr-6e-voix-02",
+      "prerequisiteId": "fr-fr-cm2-expr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Travailler la mise en voix : intonation et effets » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-voix-02",
+      "prerequisiteId": "fr-fr-cm2-expr-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S’entraîner à faire vivre un texte aide à préparer sa mise en voix"
+    },
+    {
+      "topicId": "fr-fr-6e-voix-03",
+      "prerequisiteId": "fr-fr-cm2-expr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire avec aisance et expressivité un texte préparé » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-voix-03",
+      "prerequisiteId": "fr-fr-cm2-comp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Faire entendre les émotions des personnages suppose d’avoir compris l’implicite du texte"
+    },
+    {
+      "topicId": "fr-fr-6e-voix-05",
+      "prerequisiteId": "fr-fr-cm2-expr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’entraîner à faire vivre un texte et prendre plaisir à le lire » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-comp-01",
+      "prerequisiteId": "fr-fr-cm2-comp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire seul des textes plus longs et complexes grâce à des indices » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-comp-02",
+      "prerequisiteId": "fr-fr-cm2-comp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et nommer les principaux genres littéraires » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-comp-03",
+      "prerequisiteId": "fr-fr-cm2-comp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Restituer l’essentiel d’un texte, y compris ce qui est sous-entendu » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-comp-03",
+      "prerequisiteId": "fr-fr-cm2-doc-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Prélever des informations pour répondre à des questions est travaillé au CM2"
+    },
+    {
+      "topicId": "fr-fr-6e-comp-05",
+      "prerequisiteId": "fr-fr-cm2-comp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire seul des textes plus longs et complexes grâce à des indices » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-comp-05",
+      "prerequisiteId": "fr-fr-cm1-nat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Repérer les liens logiques suppose de reconnaître les conjonctions de coordination (mais, donc, car…)"
+    },
+    {
+      "topicId": "fr-fr-6e-comp-06",
+      "prerequisiteId": "fr-fr-cm2-prod-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Suivre les reprises suppose de connaître les principes de cohérence (pronoms, enchaînements)"
+    },
+    {
+      "topicId": "fr-fr-6e-comp-06",
+      "prerequisiteId": "fr-fr-cm1-nat-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Suivre les reprises pronominales suppose de distinguer pronoms sujets et compléments"
+    },
+    {
+      "topicId": "fr-fr-6e-comp-07",
+      "prerequisiteId": "fr-fr-cm2-doc-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Justifier par le texte suppose de savoir y prélever les informations utiles"
+    },
+    {
+      "topicId": "fr-fr-6e-doc-01",
+      "prerequisiteId": "fr-fr-cm1-doc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire de quel type est un document et d’où il vient » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-6e-doc-02",
+      "prerequisiteId": "fr-fr-cm2-doc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier les éléments d’un document composite » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-doc-03",
+      "prerequisiteId": "fr-fr-cm2-doc-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Rapprocher deux documents de genres différents sur un même sujet » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-doc-03",
+      "prerequisiteId": "fr-fr-cm2-refl-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Écrire pour comparer deux documents aide à les comparer"
+    },
+    {
+      "topicId": "fr-fr-6e-doc-05",
+      "prerequisiteId": "fr-fr-cm2-doc-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Savoir lire chaque élément d’un document composite, dont l’image, prépare l’interprétation d’une image fixe"
+    },
+    {
+      "topicId": "fr-fr-6e-oeuv-01",
+      "prerequisiteId": "fr-fr-cm2-oeuv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’engager et persévérer dans la lecture d’œuvres complètes » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-oeuv-02",
+      "prerequisiteId": "fr-fr-cm2-oeuv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier un texte à d’autres œuvres et références culturelles » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-oeuv-03",
+      "prerequisiteId": "fr-fr-cm2-oeuv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier sa lecture à ses expériences personnelles » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-oeuv-03",
+      "prerequisiteId": "fr-fr-cm2-oeuv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier un texte à d’autres œuvres et références culturelles » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-oeuv-04",
+      "prerequisiteId": "fr-fr-cm2-oeuv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier sa lecture à ses expériences personnelles » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-oeuv-06",
+      "prerequisiteId": "fr-fr-cm2-ech-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Débattre de ses lectures suppose de savoir participer à un débat"
+    },
+    {
+      "topicId": "fr-fr-6e-oeuv-06",
+      "prerequisiteId": "fr-fr-cm2-oeuv-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Relier sa lecture à ses expériences nourrit les impressions à partager"
+    },
+    {
+      "topicId": "fr-fr-6e-oeuv-07",
+      "prerequisiteId": "fr-fr-cm2-oeuv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Développer le plaisir de lire avec des œuvres choisies » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-oeuv-08",
+      "prerequisiteId": "fr-fr-cm2-oeuv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’engager et persévérer dans la lecture d’œuvres complètes » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-orig-01",
+      "prerequisiteId": "fr-fr-cm1-mor-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les valeurs morales portées par les personnages, étudiées au cours moyen, éclairent mythes et contes"
+    },
+    {
+      "topicId": "fr-fr-6e-poes-01",
+      "prerequisiteId": "fr-fr-cm1-poes-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Goûter la langue des poèmes et jouer avec les mots » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-6e-theat-01",
+      "prerequisiteId": "fr-fr-cm1-her-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le jeu scénique et la lecture de pièces de l’entrée « héroïnes, héros » préparent la découverte du théâtre"
+    },
+    {
+      "topicId": "fr-fr-6e-theat-01",
+      "prerequisiteId": "fr-fr-cm2-comp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Découvrir le théâtre suppose de savoir reconnaître une pièce parmi les genres littéraires"
+    },
+    {
+      "topicId": "fr-fr-6e-avent-01",
+      "prerequisiteId": "fr-fr-cm1-vies-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S’identifier aux personnages ou s’en démarquer, travaillé au cours moyen, sert la lecture des récits d’aventure"
+    },
+    {
+      "topicId": "fr-fr-6e-monst-01",
+      "prerequisiteId": "fr-fr-cm1-merv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’entrée « merveilleux, étrange » du cours moyen explore déjà la peur et l’inexplicable"
+    },
+    {
+      "topicId": "fr-fr-6e-monst-01",
+      "prerequisiteId": "fr-fr-cm1-mor-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les valeurs morales portées par les personnages éclairent le rôle des monstres"
+    },
+    {
+      "topicId": "fr-fr-6e-main-01",
+      "prerequisiteId": "fr-fr-cm2-main-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Copier et écrire à la main de façon rapide, lisible et soignée » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-main-01",
+      "prerequisiteId": "fr-fr-cm2-main-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Copier trente lignes sans erreur suppose des stratégies de copie efficaces"
+    },
+    {
+      "topicId": "fr-fr-6e-main-02",
+      "prerequisiteId": "fr-fr-cm2-main-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Copier et écrire à la main de façon rapide, lisible et soignée » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-refl-01",
+      "prerequisiteId": "fr-fr-cm2-refl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reformuler l’essentiel d’une leçon, y compris par un schéma » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-refl-02",
+      "prerequisiteId": "fr-fr-cm2-refl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Expliquer un point de vue par écrit à partir de plusieurs documents » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-refl-03",
+      "prerequisiteId": "fr-fr-cm2-refl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reformuler l’essentiel d’une leçon, y compris par un schéma » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-refl-04",
+      "prerequisiteId": "fr-fr-cm1-refl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire pour repérer et trier les informations importantes » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-6e-refl-04",
+      "prerequisiteId": "fr-fr-cm2-refl-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Reformuler une leçon sous forme de schéma aide à hiérarchiser les idées"
+    },
+    {
+      "topicId": "fr-fr-6e-refl-05",
+      "prerequisiteId": "fr-fr-cm2-refl-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire de courts textes pour appliquer la grammaire et le lexique » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-var-01",
+      "prerequisiteId": "fr-fr-cm2-prod-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire chaque jour des textes personnels variés » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-var-02",
+      "prerequisiteId": "fr-fr-cm1-prod-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire pour raconter » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-6e-var-02",
+      "prerequisiteId": "fr-fr-cm2-prod-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Imaginer chaque jour des suites de texte entraîne à écrire des récits"
+    },
+    {
+      "topicId": "fr-fr-6e-var-03",
+      "prerequisiteId": "fr-fr-cm2-prod-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire chaque jour des textes personnels variés » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-var-03",
+      "prerequisiteId": "fr-fr-cm1-prod-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire pour expliquer » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-6e-var-04",
+      "prerequisiteId": "fr-fr-cm2-prod-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Préparer son texte au brouillon » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-var-05",
+      "prerequisiteId": "fr-fr-cm2-prod-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Respecter seul les codes de l’écrit (accords, virgule, supports) » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-var-06",
+      "prerequisiteId": "fr-fr-cm2-prod-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un texte cohérent : connecteurs, pronoms, enchaînements » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-var-07",
+      "prerequisiteId": "fr-fr-cm2-prod-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Améliorer son texte grâce aux conseils et à sa relecture » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-var-08",
+      "prerequisiteId": "fr-fr-cm2-prod-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Améliorer son texte grâce aux conseils et à sa relecture » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-ecou-01",
+      "prerequisiteId": "fr-fr-cm2-ecou-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écouter activement et longtemps en fonction d’un but » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-ecou-02",
+      "prerequisiteId": "fr-fr-cm2-ecou-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre une interview ou un reportage » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-ecou-03",
+      "prerequisiteId": "fr-fr-cm2-ecou-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Montrer qu’on a compris un texte entendu » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-ecou-04",
+      "prerequisiteId": "fr-fr-cm2-comp-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Restituer l’implicite d’un texte lu aide à le déduire d’un texte entendu"
+    },
+    {
+      "topicId": "fr-fr-6e-ecou-05",
+      "prerequisiteId": "fr-fr-cm2-ecou-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître les différents genres de discours entendus » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-ecou-06",
+      "prerequisiteId": "fr-fr-cm2-ecou-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer ses réactions à l’écoute d’un texte » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-dire-01",
+      "prerequisiteId": "fr-fr-cm2-dire-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Faire une présentation orale claire et organisée » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-dire-02",
+      "prerequisiteId": "fr-fr-cm2-dire-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Faire vivre un texte devant un public par une lecture expressive » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-dire-03",
+      "prerequisiteId": "fr-fr-cm2-dire-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser l’oral pour réfléchir et expliquer sa démarche » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-ech-01",
+      "prerequisiteId": "fr-fr-cm2-ech-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prendre la parole en respectant les codes de la communication » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-ech-02",
+      "prerequisiteId": "fr-fr-cm2-ech-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Préparer et ajuster son propos pour être clair et ordonné » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-ech-03",
+      "prerequisiteId": "fr-fr-cm2-ech-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Adapter sa façon de parler à la situation » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-ech-03",
+      "prerequisiteId": "fr-fr-cm2-ech-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Choisir des tournures selon le but aide à adapter son discours"
+    },
+    {
+      "topicId": "fr-fr-6e-ech-04",
+      "prerequisiteId": "fr-fr-cm2-ech-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Évaluer une production orale pour l’améliorer » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-ech-05",
+      "prerequisiteId": "fr-fr-cm2-ech-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire une réflexion à plusieurs dans un échange ou un débat » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-enr-01",
+      "prerequisiteId": "fr-fr-cm2-enr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Acquérir le vocabulaire précis de chaque matière » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-enr-02",
+      "prerequisiteId": "fr-fr-cm2-enr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un mot inconnu grâce au contexte et à sa formation » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-enr-02",
+      "prerequisiteId": "fr-fr-cm2-enr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des dictionnaires » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-rel-01",
+      "prerequisiteId": "fr-fr-cm2-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Analyser la formation des mots pour en déduire le sens » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-rel-03",
+      "prerequisiteId": "fr-fr-cm2-rel-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver synonymes et antonymes de même classe grammaticale » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-rel-04",
+      "prerequisiteId": "fr-fr-cm2-enr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S’intéresser à l’étymologie suppose de savoir lire un article de dictionnaire"
+    },
+    {
+      "topicId": "fr-fr-6e-reem-01",
+      "prerequisiteId": "fr-fr-cm2-reem-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réemployer avec précision le vocabulaire des différentes matières » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-reem-02",
+      "prerequisiteId": "fr-fr-cm2-reem-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Employer à bon escient les différents sens d’un mot polysémique » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-orth-01",
+      "prerequisiteId": "fr-fr-cm2-orth-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire correctement les mots fréquents grâce aux régularités et à la formation » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-phr-01",
+      "prerequisiteId": "fr-fr-cm2-phr-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande d’identifier tous les constituants de la phrase simple étudiés précédemment"
+    },
+    {
+      "topicId": "fr-fr-6e-phr-01",
+      "prerequisiteId": "fr-fr-cm2-phr-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande d’identifier tous les constituants de la phrase simple étudiés précédemment"
+    },
+    {
+      "topicId": "fr-fr-6e-phr-02",
+      "prerequisiteId": "fr-fr-cm2-phr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Différencier COD et COI » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-phr-03",
+      "prerequisiteId": "fr-fr-cm2-phr-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Différencier les compléments circonstanciels de temps, de lieu, de cause » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-phr-03",
+      "prerequisiteId": "fr-fr-cm1-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Distinguer les compléments circonstanciels suppose de les distinguer du complément d’objet"
+    },
+    {
+      "topicId": "fr-fr-6e-phr-04",
+      "prerequisiteId": "fr-fr-cm2-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Différencier attribut du sujet et complément d’objet » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-phr-05",
+      "prerequisiteId": "fr-fr-cm2-phr-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les manipulations syntaxiques pour écrire et analyser » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-nat-01",
+      "prerequisiteId": "fr-fr-cm2-mots-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître les variations du pronom personnel » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-nat-01",
+      "prerequisiteId": "fr-fr-cm2-mots-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Préciser la fonction d’un pronom suppose de reconnaître les pronoms compléments d’objet"
+    },
+    {
+      "topicId": "fr-fr-6e-nat-02",
+      "prerequisiteId": "fr-fr-cm1-nat-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Relier un pronom sujet à son antécédent s’appuie sur le remplacement du groupe nominal sujet par un pronom"
+    },
+    {
+      "topicId": "fr-fr-6e-nat-03",
+      "prerequisiteId": "fr-fr-cm2-nat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer nature des mots et nature des groupes fonctionnels » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-nat-03",
+      "prerequisiteId": "fr-fr-cm1-gn-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Identifier le groupe nominal suppose d’en repérer le nom noyau"
+    },
+    {
+      "topicId": "fr-fr-6e-gn-01",
+      "prerequisiteId": "fr-fr-cm2-gn-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir le complément du nom » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-gn-01",
+      "prerequisiteId": "fr-fr-cm2-gn-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Distinguer l’épithète suppose de la différencier déjà de l’attribut du sujet"
+    },
+    {
+      "topicId": "fr-fr-6e-prop-01",
+      "prerequisiteId": "fr-fr-cm2-cplx-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La proposition se construit autour d’un verbe conjugué, repéré au CM2 pour distinguer phrase simple et complexe"
+    },
+    {
+      "topicId": "fr-fr-6e-artic-01",
+      "prerequisiteId": "fr-fr-cm2-mots-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Reconnaître la subordination suppose d’identifier les conjonctions de subordination"
+    },
+    {
+      "topicId": "fr-fr-6e-vari-01",
+      "prerequisiteId": "fr-fr-cm2-var-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les outils de référence pour vérifier les variations » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-vari-01",
+      "prerequisiteId": "fr-fr-cm2-var-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Améliorer son orthographe grammaticale suppose de connaître les classes de mots variables et leurs variations"
+    },
+    {
+      "topicId": "fr-fr-6e-agn-01",
+      "prerequisiteId": "fr-fr-cm2-agn-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Maîtriser les accords réguliers dans le groupe nominal » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-agn-01",
+      "prerequisiteId": "fr-fr-cm2-agn-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Apprendre des pluriels et féminins particuliers » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-asv-01",
+      "prerequisiteId": "fr-fr-cm2-asv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accorder le verbe avec un sujet inversé » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-asv-01",
+      "prerequisiteId": "fr-fr-cm2-asv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accorder le verbe et l’attribut avec le sujet » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-01",
+      "prerequisiteId": "fr-fr-cm2-asv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer au plus-que-parfait » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-02",
+      "prerequisiteId": "fr-fr-cm1-conj-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’impératif présent se forme à partir du présent de l’indicatif"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-02",
+      "prerequisiteId": "fr-fr-cm1-typ-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’impératif sert à construire la phrase impérative (injonctive), étudiée au CM1"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-03",
+      "prerequisiteId": "fr-fr-cm1-conj-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le conditionnel présent se forme sur le radical du futur"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-03",
+      "prerequisiteId": "fr-fr-cm1-conj-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le conditionnel présent prend les terminaisons de l’imparfait"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-03",
+      "prerequisiteId": "fr-fr-cm1-conj-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le conditionnel associe la marque -r- du futur et la marque -ai- / -i- de l’imparfait"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-04",
+      "prerequisiteId": "fr-fr-cm2-conj-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accorder le participe passé employé avec être » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-05",
+      "prerequisiteId": "fr-fr-cm2-conj-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accorder le participe passé employé avec avoir (COD placé avant) » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-06",
+      "prerequisiteId": "fr-fr-cm2-conj-05",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de connaître les marques des temps étudiés au CM1 et au CM2"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-07",
+      "prerequisiteId": "fr-fr-cm2-conj-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Maîtriser les variations du radical (1er et 3e groupes) » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-08",
+      "prerequisiteId": "fr-fr-cm2-asv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les valeurs des temps du récit supposent de connaître le passé simple"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-08",
+      "prerequisiteId": "fr-fr-cm1-conj-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les valeurs des temps du récit supposent de connaître l’imparfait"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-08",
+      "prerequisiteId": "fr-fr-cm1-conj-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les valeurs des temps du discours supposent de connaître le présent"
+    },
+    {
+      "topicId": "fr-fr-6e-conj-08",
+      "prerequisiteId": "fr-fr-cm1-conj-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les valeurs des temps du discours supposent de connaître le passé composé"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "francais-c2": "2026-10-22",
+    "francais-c3": "2026-10-23"
+  }
+}

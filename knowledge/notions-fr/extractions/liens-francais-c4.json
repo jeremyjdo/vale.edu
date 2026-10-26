@@ -1,0 +1,2786 @@
+{
+  "programme": "francais-c4",
+  "prerequisites": [
+    {
+      "topicId": "fr-fr-5e-comp-01",
+      "prerequisiteId": "fr-fr-6e-oeuv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer spontanément ses premières impressions de lecture » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-comp-01",
+      "prerequisiteId": "fr-fr-6e-var-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Écrire sa réception d’une lecture suppose de savoir déjà écrire un avis personnel justifié"
+    },
+    {
+      "topicId": "fr-fr-5e-comp-02",
+      "prerequisiteId": "fr-fr-6e-comp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre seul le sens global d’un texte » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-comp-02",
+      "prerequisiteId": "fr-fr-6e-flu-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Lire seul des textes de plusieurs pages s’appuie sur la fluidité de lecture silencieuse"
+    },
+    {
+      "topicId": "fr-fr-5e-comp-03",
+      "prerequisiteId": "fr-fr-6e-comp-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de poursuivre l’apprentissage de lecteur autonome engagé en 6e (« devenir un lecteur autonome »)"
+    },
+    {
+      "topicId": "fr-fr-5e-comp-03",
+      "prerequisiteId": "fr-fr-6e-oeuv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire 3 œuvres intégrales du patrimoine et 3 œuvres en lecture cursive » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-comp-03",
+      "prerequisiteId": "fr-fr-6e-oeuv-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Lire seul des œuvres entières suppose de savoir s’engager et persévérer dans sa lecture"
+    },
+    {
+      "topicId": "fr-fr-5e-comp-04",
+      "prerequisiteId": "fr-fr-6e-oeuv-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Partager ses impressions de lecture et en débattre » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-comp-05",
+      "prerequisiteId": "fr-fr-6e-comp-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Justifier ses réponses et interprétations par le texte » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-comp-06",
+      "prerequisiteId": "fr-fr-6e-comp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Rattacher un texte à son genre grâce à ses caractéristiques » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-voix-01",
+      "prerequisiteId": "fr-fr-6e-voix-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire à voix haute un texte de 10 à 20 lignes en regardant l’auditoire » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-voix-01",
+      "prerequisiteId": "fr-fr-6e-flu-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Lire vingt lignes avec aisance suppose une lecture fluide d’environ 130 mots par minute"
+    },
+    {
+      "topicId": "fr-fr-5e-voix-02",
+      "prerequisiteId": "fr-fr-6e-voix-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Varier le ton et le rythme s’appuie sur la lecture de dialogues en faisant entendre chaque personnage"
+    },
+    {
+      "topicId": "fr-fr-5e-voix-04",
+      "prerequisiteId": "fr-fr-6e-ech-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Porter un regard critique sur une production orale » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-oeuv-01",
+      "prerequisiteId": "fr-fr-6e-oeuv-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Partager ses impressions de lecture et en débattre » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-oeuv-01",
+      "prerequisiteId": "fr-fr-6e-oeuv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Rendre compte d’une œuvre suppose de savoir exprimer ses premières impressions de lecture"
+    },
+    {
+      "topicId": "fr-fr-5e-oeuv-02",
+      "prerequisiteId": "fr-fr-6e-oeuv-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Fonder son interprétation d’une œuvre sur des éléments précis » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-oeuv-02",
+      "prerequisiteId": "fr-fr-6e-voix-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Suivre le parcours d’un personnage s’appuie sur l’attention portée en 6e à ses émotions et aux intentions de l’auteur"
+    },
+    {
+      "topicId": "fr-fr-5e-oeuv-03",
+      "prerequisiteId": "fr-fr-6e-doc-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer deux documents de genres différents » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-oeuv-03",
+      "prerequisiteId": "fr-fr-6e-doc-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer un texte et une œuvre d’art suppose de savoir décrire et interpréter une image"
+    },
+    {
+      "topicId": "fr-fr-5e-oeuv-04",
+      "prerequisiteId": "fr-fr-6e-oeuv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier le texte lu à son expérience, sa culture et le monde actuel » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-oeuv-04",
+      "prerequisiteId": "fr-fr-6e-doc-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Tirer parti du contexte de création d’une œuvre s’appuie sur l’identification de la nature et de la source d’un document"
+    },
+    {
+      "topicId": "fr-fr-5e-conn-01",
+      "prerequisiteId": "fr-fr-6e-enr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Développer un vocabulaire spécifique à chaque discipline » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-conn-02",
+      "prerequisiteId": "fr-fr-6e-dire-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire ou réciter un texte devant un public, clairement et avec expression » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-conn-02",
+      "prerequisiteId": "fr-fr-6e-oeuv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le passage à mémoriser est choisi dans une œuvre intégrale, lecture pratiquée dès la 6e"
+    },
+    {
+      "topicId": "fr-fr-5e-conn-03",
+      "prerequisiteId": "fr-fr-6e-oeuv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Développer sa culture littéraire et artistique » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-conn-04",
+      "prerequisiteId": "fr-fr-6e-oeuv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier le texte lu à son expérience, sa culture et le monde actuel » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-hero-01",
+      "prerequisiteId": "fr-fr-cm1-her-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre ce qui fait une héroïne ou un héros » (CM1)"
+    },
+    {
+      "topicId": "fr-fr-5e-hero-01",
+      "prerequisiteId": "fr-fr-6e-avent-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les récits d’aventure de 6e ont déjà fait rencontrer des figures de héros"
+    },
+    {
+      "topicId": "fr-fr-5e-hero-01",
+      "prerequisiteId": "fr-fr-6e-orig-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les héros épiques et mythologiques s’appuient sur la découverte des mythes et textes fondateurs en 6e"
+    },
+    {
+      "topicId": "fr-fr-5e-poes-01",
+      "prerequisiteId": "fr-fr-6e-poes-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir la poésie : formes, images et pouvoir d’évocation » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-theat-01",
+      "prerequisiteId": "fr-fr-6e-theat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir le théâtre à travers les ruses et les jeux de masques » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-apol-01",
+      "prerequisiteId": "fr-fr-6e-monst-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Rencontrer des monstres dans les contes et les récits » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-refl-01",
+      "prerequisiteId": "fr-fr-6e-refl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’approprier seul l’essentiel d’une leçon par écrit » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-refl-01",
+      "prerequisiteId": "fr-fr-6e-refl-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Écrire pour mémoriser prolonge les écrits courts qui servent à retenir une règle ou du lexique"
+    },
+    {
+      "topicId": "fr-fr-5e-refl-02",
+      "prerequisiteId": "fr-fr-6e-refl-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Hiérarchiser des idées » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-refl-02",
+      "prerequisiteId": "fr-fr-6e-refl-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Résumer en 6e a déjà exercé à dégager l’essentiel d’un texte"
+    },
+    {
+      "topicId": "fr-fr-5e-refl-03",
+      "prerequisiteId": "fr-fr-6e-refl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résumer ou synthétiser un texte » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-inv-01",
+      "prerequisiteId": "fr-fr-6e-var-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le brouillon pour préparer son texte » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-inv-01",
+      "prerequisiteId": "fr-fr-6e-refl-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Organiser ses idées avant d’écrire suppose de savoir les hiérarchiser"
+    },
+    {
+      "topicId": "fr-fr-5e-inv-02",
+      "prerequisiteId": "fr-fr-6e-var-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Inventer des textes suppose de savoir déjà écrire des textes personnels, notamment narratifs"
+    },
+    {
+      "topicId": "fr-fr-5e-inv-03",
+      "prerequisiteId": "fr-fr-6e-var-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un récit complet, structuré en paragraphes » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-inv-04",
+      "prerequisiteId": "fr-fr-cm2-prod-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire une description » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-5e-inv-04",
+      "prerequisiteId": "fr-fr-6e-var-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Organiser une description suppose de veiller à la cohérence du texte"
+    },
+    {
+      "topicId": "fr-fr-5e-inv-05",
+      "prerequisiteId": "fr-fr-6e-refl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire de courts textes pour argumenter et justifier ses choix » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-inv-05",
+      "prerequisiteId": "fr-fr-6e-var-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Donner son avis par écrit en le justifiant » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-rev-01",
+      "prerequisiteId": "fr-fr-6e-var-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le brouillon pour préparer son texte » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-rev-02",
+      "prerequisiteId": "fr-fr-6e-var-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Améliorer son texte grâce à l’autoévaluation et aux conseils » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-rev-02",
+      "prerequisiteId": "fr-fr-6e-var-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réviser son texte en s’appuyant sur les normes de l’écrit » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-rev-03",
+      "prerequisiteId": "fr-fr-6e-var-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Améliorer son texte grâce à l’autoévaluation et aux conseils » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-parl-01",
+      "prerequisiteId": "fr-fr-6e-ech-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Adapter son discours et son registre de langue à la situation » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-parl-02",
+      "prerequisiteId": "fr-fr-6e-dire-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Faire une présentation orale claire et organisée » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-parl-03",
+      "prerequisiteId": "fr-fr-6e-ech-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Intervenir en tenant compte de ce qu’ont dit les autres » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-parl-03",
+      "prerequisiteId": "fr-fr-6e-ech-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Dialoguer suppose de respecter les codes de la prise de parole"
+    },
+    {
+      "topicId": "fr-fr-5e-parl-04",
+      "prerequisiteId": "fr-fr-6e-ech-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire et ajuster son propos pour expliquer ou répondre » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-parl-04",
+      "prerequisiteId": "fr-fr-6e-oeuv-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Débattre de ses impressions de lecture en 6e a initié au débat"
+    },
+    {
+      "topicId": "fr-fr-5e-ecou-01",
+      "prerequisiteId": "fr-fr-6e-ecou-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Retenir l’essentiel d’un oral suppose de savoir reformuler ce que l’on a entendu"
+    },
+    {
+      "topicId": "fr-fr-5e-ecou-02",
+      "prerequisiteId": "fr-fr-6e-ecou-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître les différents genres de discours à l’écoute » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-ecou-02",
+      "prerequisiteId": "fr-fr-6e-ecou-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comprendre le but d’un message oral s’appuie sur l’écoute d’interviews et de reportages"
+    },
+    {
+      "topicId": "fr-fr-5e-dire-01",
+      "prerequisiteId": "fr-fr-6e-dire-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire ou réciter un texte devant un public, clairement et avec expression » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-dire-01",
+      "prerequisiteId": "fr-fr-6e-flu-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Lire sans hésitation à un rythme régulier suppose une lecture fluide d’environ 130 mots par minute"
+    },
+    {
+      "topicId": "fr-fr-5e-dire-02",
+      "prerequisiteId": "fr-fr-6e-dire-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire ou réciter un texte devant un public, clairement et avec expression » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-dire-02",
+      "prerequisiteId": "fr-fr-6e-voix-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Faire vivre un texte s’appuie sur le travail de l’intonation et du rythme dans les dialogues"
+    },
+    {
+      "topicId": "fr-fr-5e-dire-03",
+      "prerequisiteId": "fr-fr-6e-theat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir le théâtre à travers les ruses et les jeux de masques » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-enr-01",
+      "prerequisiteId": "fr-fr-6e-enr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Choisir seul la bonne stratégie pour comprendre un mot inconnu » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-enr-02",
+      "prerequisiteId": "fr-fr-6e-reem-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réemployer le vocabulaire spécifique en respectant le registre de langue » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-enr-03",
+      "prerequisiteId": "fr-fr-6e-enr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Développer un vocabulaire spécifique à chaque discipline » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-enr-03",
+      "prerequisiteId": "fr-fr-6e-rel-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Ranger les mots en familles s’appuie sur la décomposition des mots en préfixe, radical et suffixe"
+    },
+    {
+      "topicId": "fr-fr-5e-enr-04",
+      "prerequisiteId": "fr-fr-6e-enr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Choisir seul la bonne stratégie pour comprendre un mot inconnu » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-rel-01",
+      "prerequisiteId": "fr-fr-6e-rel-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Donner des synonymes et antonymes de même classe grammaticale » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-rel-01",
+      "prerequisiteId": "fr-fr-6e-reem-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser à bon escient les mots qui ont plusieurs sens » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-rel-02",
+      "prerequisiteId": "fr-fr-6e-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Différencier mots simples, dérivés et composés » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-rel-03",
+      "prerequisiteId": "fr-fr-6e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décomposer et composer des mots (préfixe, radical, suffixe) » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-jeu-01",
+      "prerequisiteId": "fr-fr-6e-reem-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser à bon escient les mots qui ont plusieurs sens » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-jeu-02",
+      "prerequisiteId": "fr-fr-6e-reem-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réemployer le vocabulaire spécifique en respectant le registre de langue » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-jeu-02",
+      "prerequisiteId": "fr-fr-6e-ech-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Adapter son discours et son registre de langue à la situation » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-jeu-03",
+      "prerequisiteId": "fr-fr-6e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décomposer et composer des mots (préfixe, radical, suffixe) » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-jeu-03",
+      "prerequisiteId": "fr-fr-6e-rel-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le néologisme de sens s’appuie sur l’idée que le sens des mots évolue"
+    },
+    {
+      "topicId": "fr-fr-5e-jeu-04",
+      "prerequisiteId": "fr-fr-6e-poes-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir la poésie : formes, images et pouvoir d’évocation » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-form-01",
+      "prerequisiteId": "fr-fr-6e-rel-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider en 5e la connaissance de la formation des mots travaillée en 6e"
+    },
+    {
+      "topicId": "fr-fr-5e-form-01",
+      "prerequisiteId": "fr-fr-6e-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Différencier mots simples, dérivés et composés » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-form-02",
+      "prerequisiteId": "fr-fr-6e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décomposer et composer des mots (préfixe, radical, suffixe) » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-form-03",
+      "prerequisiteId": "fr-fr-6e-rel-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’intéresser à l’étymologie et à l’évolution du sens des mots » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-form-04",
+      "prerequisiteId": "fr-fr-6e-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Différencier mots simples, dérivés et composés » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-orth-01",
+      "prerequisiteId": "fr-fr-6e-orth-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire correctement les mots fréquents en autonomie » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-orth-02",
+      "prerequisiteId": "fr-fr-6e-orth-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire correctement les mots fréquents en autonomie » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-orth-03",
+      "prerequisiteId": "fr-fr-6e-orth-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire correctement les mots fréquents en autonomie » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-phr-01",
+      "prerequisiteId": "fr-fr-6e-var-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Respecter les codes de l’écrit : accords, ponctuation, syntaxe » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-phr-01",
+      "prerequisiteId": "fr-fr-6e-flu-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le rôle des signes de ponctuation s’appuie sur leur prise en compte en lecture"
+    },
+    {
+      "topicId": "fr-fr-5e-phr-02",
+      "prerequisiteId": "fr-fr-cm2-typ-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Consolider types et formes de phrases sur des corpus plus complexes » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-5e-phr-03",
+      "prerequisiteId": "fr-fr-cm2-typ-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Consolider types et formes de phrases sur des corpus plus complexes » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-5e-phr-04",
+      "prerequisiteId": "fr-fr-6e-prop-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer phrase simple et phrase complexe par les propositions » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-phr-05",
+      "prerequisiteId": "fr-fr-6e-artic-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître juxtaposition, coordination et subordination » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-phr-06",
+      "prerequisiteId": "fr-fr-6e-artic-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comprendre l’effet de « mais », « donc », « car » suppose de reconnaître les conjonctions de coordination"
+    },
+    {
+      "topicId": "fr-fr-5e-phr-07",
+      "prerequisiteId": "fr-fr-6e-var-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Veiller à la cohérence de son texte » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-phr-07",
+      "prerequisiteId": "fr-fr-6e-nat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Relier chaque phrase à la précédente suppose de maîtriser les reprises par un pronom"
+    },
+    {
+      "topicId": "fr-fr-5e-cons-01",
+      "prerequisiteId": "fr-fr-6e-phr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier sujet, verbe et groupes de la phrase simple » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-cons-02",
+      "prerequisiteId": "fr-fr-6e-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer l’attribut du sujet et le COD » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-cons-02",
+      "prerequisiteId": "fr-fr-6e-phr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Identifier les fonctions en manipulant la phrase suppose les manipulations syntaxiques pratiquées en 6e"
+    },
+    {
+      "topicId": "fr-fr-5e-cons-03",
+      "prerequisiteId": "fr-fr-6e-phr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier et distinguer les compléments circonstanciels » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-cons-04",
+      "prerequisiteId": "fr-fr-6e-gn-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer l’épithète et le complément du nom » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-cons-05",
+      "prerequisiteId": "fr-fr-6e-artic-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer conjonction de coordination et conjonction de subordination » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-cons-05",
+      "prerequisiteId": "fr-fr-cm2-mots-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier et nommer les prépositions » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-5e-cons-06",
+      "prerequisiteId": "fr-fr-6e-nat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier les pronoms personnels et préciser leur fonction » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-cons-06",
+      "prerequisiteId": "fr-fr-cm2-var-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Classer les mots variables et leurs variations » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-5e-cons-07",
+      "prerequisiteId": "fr-fr-6e-nat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier les pronoms personnels et préciser leur fonction » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-cons-08",
+      "prerequisiteId": "fr-fr-6e-artic-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer conjonction de coordination et conjonction de subordination » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-reg-01",
+      "prerequisiteId": "fr-fr-6e-ech-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer la grammaire de l’oral et de l’écrit s’appuie sur l’adaptation de son discours et de son registre à la situation"
+    },
+    {
+      "topicId": "fr-fr-5e-reg-01",
+      "prerequisiteId": "fr-fr-6e-var-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les normes de l’écrit doivent être connues pour être comparées à l’oral"
+    },
+    {
+      "topicId": "fr-fr-5e-par-01",
+      "prerequisiteId": "fr-fr-cm2-prod-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Repérer le discours direct suppose de connaître la présentation d’un dialogue (tirets, guillemets)"
+    },
+    {
+      "topicId": "fr-fr-5e-par-01",
+      "prerequisiteId": "fr-fr-6e-voix-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Reconnaître les paroles des personnages s’appuie sur la lecture de dialogues de récit"
+    },
+    {
+      "topicId": "fr-fr-5e-par-02",
+      "prerequisiteId": "fr-fr-cm2-prod-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un dialogue bien ponctué » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-5e-conj-01",
+      "prerequisiteId": "fr-fr-6e-conj-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier les marques de temps et de personne des temps étudiés » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-conj-02",
+      "prerequisiteId": "fr-fr-cm2-asv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comprendre la formation du passé simple suppose de l’avoir mémorisé au CM2"
+    },
+    {
+      "topicId": "fr-fr-5e-conj-03",
+      "prerequisiteId": "fr-fr-6e-conj-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer le passé composé et le plus-que-parfait » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-conj-05",
+      "prerequisiteId": "fr-fr-6e-conj-07",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider en 5e la conjugaison selon la variation du radical, travaillée en 6e"
+    },
+    {
+      "topicId": "fr-fr-5e-conj-05",
+      "prerequisiteId": "fr-fr-6e-conj-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les principaux verbes irréguliers (faire, aller, dire, venir…) ont été mémorisés en 6e"
+    },
+    {
+      "topicId": "fr-fr-5e-temp-01",
+      "prerequisiteId": "fr-fr-6e-conj-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir les valeurs des temps dans le discours et le récit » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-temp-02",
+      "prerequisiteId": "fr-fr-6e-conj-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer l’impératif présent » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-acc-01",
+      "prerequisiteId": "fr-fr-6e-agn-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Maîtriser les accords dans le groupe nominal » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-acc-02",
+      "prerequisiteId": "fr-fr-cm2-asv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accorder le verbe et l’attribut avec le sujet » (CM2)"
+    },
+    {
+      "topicId": "fr-fr-5e-acc-03",
+      "prerequisiteId": "fr-fr-6e-asv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier le sujet et raisonner sur l’accord sujet-verbe » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-acc-04",
+      "prerequisiteId": "fr-fr-6e-conj-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accorder le participe passé employé avec être » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-acc-04",
+      "prerequisiteId": "fr-fr-6e-conj-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accorder le participe passé avec avoir quand le COD est placé avant » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-acc-05",
+      "prerequisiteId": "fr-fr-6e-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer l’attribut du sujet et le COD » (6e)"
+    },
+    {
+      "topicId": "fr-fr-5e-acc-05",
+      "prerequisiteId": "fr-fr-cm2-gn-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Reconnaître l’attribut du sujet suppose de savoir le distinguer de l’épithète"
+    },
+    {
+      "topicId": "fr-fr-4e-cia-01",
+      "prerequisiteId": "fr-fr-5e-comp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un texte personnel sur sa lecture (écrit d’appropriation) » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-cia-02",
+      "prerequisiteId": "fr-fr-5e-comp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire silencieusement et utiliser des stratégies de compréhension » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-cia-03",
+      "prerequisiteId": "fr-fr-5e-comp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Justifier son point de vue de lecteur » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-cia-03",
+      "prerequisiteId": "fr-fr-5e-parl-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Défendre son interprétation dans un débat suppose de savoir intervenir dans un débat en respectant ses règles"
+    },
+    {
+      "topicId": "fr-fr-4e-cia-04",
+      "prerequisiteId": "fr-fr-5e-comp-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser quelques outils d’analyse pour lire un texte » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-cia-05",
+      "prerequisiteId": "fr-fr-5e-comp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Justifier son point de vue de lecteur » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-lvh-01",
+      "prerequisiteId": "fr-fr-5e-voix-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire de manière expressive (voix, rythme, regard, gestes) » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-lvh-02",
+      "prerequisiteId": "fr-fr-5e-voix-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réciter un court texte en vers ou en prose » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-lvh-03",
+      "prerequisiteId": "fr-fr-5e-voix-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer ce qu’il faut améliorer dans une lecture à voix haute » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-oeu-01",
+      "prerequisiteId": "fr-fr-5e-oeuv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Interpréter le parcours d’un personnage pour saisir les enjeux d’une œuvre » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-oeu-02",
+      "prerequisiteId": "fr-fr-5e-oeuv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’appuyer sur le contexte de création d’une œuvre pour l’interpréter » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-oeu-03",
+      "prerequisiteId": "fr-fr-5e-oeuv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer une œuvre littéraire et une œuvre artistique » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-oeu-04",
+      "prerequisiteId": "fr-fr-5e-comp-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser quelques outils d’analyse pour lire un texte » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-oeu-04",
+      "prerequisiteId": "fr-fr-5e-conn-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les repères d’histoire littéraire de 5e aident à situer les genres étudiés"
+    },
+    {
+      "topicId": "fr-fr-4e-conl-01",
+      "prerequisiteId": "fr-fr-5e-comp-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Identifier le style d’un auteur suppose de savoir utiliser quelques outils d’analyse"
+    },
+    {
+      "topicId": "fr-fr-4e-conl-02",
+      "prerequisiteId": "fr-fr-5e-conn-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Mémoriser un passage d’une dizaine de lignes d’une œuvre étudiée » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-conl-03",
+      "prerequisiteId": "fr-fr-5e-conn-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se constituer des repères en histoire littéraire » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-conl-03",
+      "prerequisiteId": "fr-fr-5e-conn-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier un texte nouveau aux textes déjà lus » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-conl-04",
+      "prerequisiteId": "fr-fr-5e-comp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Justifier son point de vue de lecteur » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-conl-04",
+      "prerequisiteId": "fr-fr-5e-inv-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Argumenter avec des exemples suppose de savoir écrire un texte argumentatif simple"
+    },
+    {
+      "topicId": "fr-fr-4e-lqt-01",
+      "prerequisiteId": "fr-fr-5e-comp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire en lecteur autonome et contrôler sa compréhension » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-fic-01",
+      "prerequisiteId": "fr-fr-5e-hero-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre la figure de l’héroïne et du héros, de l’épopée au roman » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-poe-01",
+      "prerequisiteId": "fr-fr-5e-poes-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir la poésie du voyage et le pouvoir des mots » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-the-01",
+      "prerequisiteId": "fr-fr-5e-theat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre le théâtre comique qui renverse l’ordre social » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-lum-01",
+      "prerequisiteId": "fr-fr-5e-apol-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre les contes et les fables, histoires qui plaisent et instruisent » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-erm-01",
+      "prerequisiteId": "fr-fr-5e-refl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser différents supports d’écriture pour apprendre et mémoriser » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-erm-02",
+      "prerequisiteId": "fr-fr-5e-refl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer l’idée principale d’un message écrit ou oral » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-erm-03",
+      "prerequisiteId": "fr-fr-5e-refl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Produire des écrits de travail (listes, synthèses, brouillons d’oral) » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-erm-04",
+      "prerequisiteId": "fr-fr-5e-refl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Produire des écrits de travail (listes, synthèses, brouillons d’oral) » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-inv-01",
+      "prerequisiteId": "fr-fr-5e-inv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Planifier un écrit avec l’aide du professeur » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-inv-02",
+      "prerequisiteId": "fr-fr-5e-inv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’initier à l’écriture créative, seul ou à plusieurs » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-inv-03",
+      "prerequisiteId": "fr-fr-5e-inv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’initier à l’écriture créative, seul ou à plusieurs » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-inv-04",
+      "prerequisiteId": "fr-fr-5e-inv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un récit d’une trentaine de lignes » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-inv-04",
+      "prerequisiteId": "fr-fr-5e-inv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un texte descriptif, comme un portrait » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-inv-05",
+      "prerequisiteId": "fr-fr-5e-inv-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un texte argumentatif à partir de consignes simples » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-rev-01",
+      "prerequisiteId": "fr-fr-5e-rev-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réviser un écrit en suivant les consignes du professeur » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-rev-02",
+      "prerequisiteId": "fr-fr-5e-rev-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Transformer un écrit en fonction de nouvelles consignes » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-rev-02",
+      "prerequisiteId": "fr-fr-5e-enr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Améliorer son texte par le lexique suppose de savoir réemployer le vocabulaire nouveau"
+    },
+    {
+      "topicId": "fr-fr-4e-rev-03",
+      "prerequisiteId": "fr-fr-5e-rev-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le brouillon pour retravailler son texte » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-rev-04",
+      "prerequisiteId": "fr-fr-5e-rev-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réviser un écrit en suivant les consignes du professeur » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-rev-04",
+      "prerequisiteId": "fr-fr-5e-enr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Corriger un écrit avec un dictionnaire suppose de savoir l’utiliser"
+    },
+    {
+      "topicId": "fr-fr-4e-par-01",
+      "prerequisiteId": "fr-fr-5e-parl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Adapter son oral à la situation de communication » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-par-01",
+      "prerequisiteId": "fr-fr-5e-parl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prendre la parole seul quelques minutes de façon fluide » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-par-02",
+      "prerequisiteId": "fr-fr-5e-parl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prendre la parole seul quelques minutes de façon fluide » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-par-03",
+      "prerequisiteId": "fr-fr-5e-parl-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Intervenir dans un débat en respectant ses règles » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-eco-01",
+      "prerequisiteId": "fr-fr-5e-ecou-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écouter et retenir l’essentiel d’un discours de quelques minutes » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-eco-02",
+      "prerequisiteId": "fr-fr-5e-ecou-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre le but d’un message oral » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-dlj-01",
+      "prerequisiteId": "fr-fr-5e-dire-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire et réciter un texte avec fluidité » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-dlj-01",
+      "prerequisiteId": "fr-fr-5e-dire-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Faire vivre un texte avec sa voix et son corps » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-dlj-02",
+      "prerequisiteId": "fr-fr-5e-voix-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire avec aisance un texte d’une vingtaine de lignes devant un auditoire » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-dlj-03",
+      "prerequisiteId": "fr-fr-5e-dire-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’exercer à la pratique théâtrale » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-enr-01",
+      "prerequisiteId": "fr-fr-5e-conn-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’approprier le vocabulaire clé de l’œuvre étudiée » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-enr-02",
+      "prerequisiteId": "fr-fr-5e-enr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Déduire, vérifier ou rechercher le sens d’un mot inconnu » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-enr-03",
+      "prerequisiteId": "fr-fr-5e-enr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réutiliser le vocabulaire nouveau pour améliorer ses écrits et ses oraux » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-enr-04",
+      "prerequisiteId": "fr-fr-5e-enr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Organiser ses connaissances de vocabulaire (collections, familles de mots) » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-enr-05",
+      "prerequisiteId": "fr-fr-5e-enr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser un dictionnaire de langue papier et numérique » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-enr-05",
+      "prerequisiteId": "fr-fr-5e-enr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Déduire, vérifier ou rechercher le sens d’un mot inconnu » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-rel-01",
+      "prerequisiteId": "fr-fr-5e-rel-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider en 4e la connaissance des relations de sens entre les mots, vue en 5e"
+    },
+    {
+      "topicId": "fr-fr-4e-rel-02",
+      "prerequisiteId": "fr-fr-5e-rel-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider en 4e la connaissance des relations de forme entre les mots, vue en 5e"
+    },
+    {
+      "topicId": "fr-fr-4e-rel-02",
+      "prerequisiteId": "fr-fr-5e-rel-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Déduire le sens d’un mot de sa composition (préfixe, radical, suffixe) » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-rel-03",
+      "prerequisiteId": "fr-fr-5e-enr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Organiser ses connaissances de vocabulaire (collections, familles de mots) » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-rel-04",
+      "prerequisiteId": "fr-fr-5e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et nommer les relations de sens entre les mots » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-jeu-01",
+      "prerequisiteId": "fr-fr-5e-jeu-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les mots en jouant sur leurs variations de sens » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-jeu-01",
+      "prerequisiteId": "fr-fr-5e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et nommer les relations de sens entre les mots » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-jeu-02",
+      "prerequisiteId": "fr-fr-5e-jeu-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Percevoir les connotations d’un mot suppose de savoir jouer sur ses variations de sens"
+    },
+    {
+      "topicId": "fr-fr-4e-jeu-03",
+      "prerequisiteId": "fr-fr-5e-conn-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer le vocabulaire de plusieurs textes suppose de savoir rapprocher un texte de ceux déjà lus"
+    },
+    {
+      "topicId": "fr-fr-4e-jeu-04",
+      "prerequisiteId": "fr-fr-5e-form-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La variation des mots en traduction s’appuie sur la connaissance des racines et des emprunts"
+    },
+    {
+      "topicId": "fr-fr-4e-jeu-05",
+      "prerequisiteId": "fr-fr-5e-jeu-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Jouer avec les sonorités des mots » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-form-01",
+      "prerequisiteId": "fr-fr-5e-form-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Consolider la formation des mots et repérer leurs régularités » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-form-02",
+      "prerequisiteId": "fr-fr-5e-form-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître le sens des préfixes et suffixes les plus fréquents » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-form-03",
+      "prerequisiteId": "fr-fr-5e-form-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître l’origine de mots (racines latines, grecques, emprunts) » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-orth-01",
+      "prerequisiteId": "fr-fr-5e-orth-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’aider de l’étymologie pour écrire des mots de même radical » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-orth-01",
+      "prerequisiteId": "fr-fr-5e-form-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre la dérivation et son effet sur l’orthographe » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-orth-02",
+      "prerequisiteId": "fr-fr-5e-conj-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer les verbes réguliers et irréguliers malgré les variations du radical » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-orth-02",
+      "prerequisiteId": "fr-fr-5e-conj-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Orthographier les radicaux verbaux suppose de connaître la formation des temps simples de l’indicatif et de l’impératif"
+    },
+    {
+      "topicId": "fr-fr-4e-orth-03",
+      "prerequisiteId": "fr-fr-5e-orth-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire des réflexes d’orthographe grâce aux régularités » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-orth-03",
+      "prerequisiteId": "fr-fr-5e-cons-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Distinguer une conjonction de son homophone suppose de reconnaître les mots coordonnants"
+    },
+    {
+      "topicId": "fr-fr-4e-phr-01",
+      "prerequisiteId": "fr-fr-5e-phr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et utiliser le rôle des signes de ponctuation » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-phr-01",
+      "prerequisiteId": "fr-fr-5e-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le point-virgule sépare des propositions : il faut distinguer phrase simple et phrase complexe"
+    },
+    {
+      "topicId": "fr-fr-4e-phr-02",
+      "prerequisiteId": "fr-fr-5e-phr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier et employer les relations entre propositions » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-phr-04",
+      "prerequisiteId": "fr-fr-5e-cons-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La relative complète un nom : il faut connaître le groupe nominal étendu"
+    },
+    {
+      "topicId": "fr-fr-4e-phr-05",
+      "prerequisiteId": "fr-fr-5e-cons-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les conjonctives complétives occupent des fonctions (COD…) déjà identifiées dans la phrase simple"
+    },
+    {
+      "topicId": "fr-fr-4e-phr-05",
+      "prerequisiteId": "fr-fr-5e-cons-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les conjonctives circonstancielles occupent la fonction de complément circonstanciel déjà identifiée en 5e"
+    },
+    {
+      "topicId": "fr-fr-4e-phr-06",
+      "prerequisiteId": "fr-fr-5e-phr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’interrogative indirecte suppose de connaître le type interrogatif"
+    },
+    {
+      "topicId": "fr-fr-4e-phr-06",
+      "prerequisiteId": "fr-fr-5e-par-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’interrogative indirecte se rencontre dans les paroles rapportées au discours indirect"
+    },
+    {
+      "topicId": "fr-fr-4e-cons-01",
+      "prerequisiteId": "fr-fr-5e-cons-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier les prépositions, les adverbes et les mots subordonnants » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-cons-01",
+      "prerequisiteId": "fr-fr-5e-cons-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Identifier les pronoms relatifs suppose de reconnaître déjà les principales sortes de pronoms"
+    },
+    {
+      "topicId": "fr-fr-4e-cons-02",
+      "prerequisiteId": "fr-fr-5e-cons-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier les compléments circonstanciels de lieu, temps, cause et manière » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-cons-03",
+      "prerequisiteId": "fr-fr-5e-cons-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’apposition est une expansion du nom : il faut connaître le groupe nominal étendu"
+    },
+    {
+      "topicId": "fr-fr-4e-cons-04",
+      "prerequisiteId": "fr-fr-5e-cons-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et repérer le groupe nominal minimal et étendu » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-cons-05",
+      "prerequisiteId": "fr-fr-5e-phr-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Enchaîner ses phrases pour assurer la cohérence d’un texte » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-reg-01",
+      "prerequisiteId": "fr-fr-5e-jeu-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer les registres de langue et les adapter au contexte » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-reg-01",
+      "prerequisiteId": "fr-fr-5e-reg-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer grammaire de l’écrit et grammaire de l’oral » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-disc-01",
+      "prerequisiteId": "fr-fr-5e-par-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier les paroles rapportées au discours direct et indirect » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-disc-01",
+      "prerequisiteId": "fr-fr-5e-par-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Insérer un dialogue au discours direct dans un texte » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-conj-01",
+      "prerequisiteId": "fr-fr-5e-conj-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer par imitation au passé antérieur et au futur antérieur » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-conj-01",
+      "prerequisiteId": "fr-fr-5e-conj-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le conditionnel passé se forme avec l’auxiliaire au conditionnel présent"
+    },
+    {
+      "topicId": "fr-fr-4e-conj-03",
+      "prerequisiteId": "fr-fr-5e-conj-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre la formation du passé composé et du plus-que-parfait » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-conj-04",
+      "prerequisiteId": "fr-fr-5e-cons-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Passer à la voix passive suppose de repérer le COD qui devient sujet"
+    },
+    {
+      "topicId": "fr-fr-4e-conj-04",
+      "prerequisiteId": "fr-fr-5e-conj-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La voix passive se forme avec l’auxiliaire être suivi du participe passé"
+    },
+    {
+      "topicId": "fr-fr-4e-conj-04",
+      "prerequisiteId": "fr-fr-5e-acc-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "À la voix passive, le participe passé s’accorde avec le sujet comme avec l’auxiliaire être"
+    },
+    {
+      "topicId": "fr-fr-4e-conj-05",
+      "prerequisiteId": "fr-fr-5e-conj-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer les verbes réguliers et irréguliers malgré les variations du radical » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-temp-01",
+      "prerequisiteId": "fr-fr-5e-temp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre les valeurs des temps (moment et aspect de l’action) » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-temp-01",
+      "prerequisiteId": "fr-fr-5e-conj-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Étudier les valeurs du conditionnel suppose de connaître sa formation"
+    },
+    {
+      "topicId": "fr-fr-4e-temp-02",
+      "prerequisiteId": "fr-fr-5e-temp-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande d’approfondir les valeurs aspectuelles des « temps étudiés précédemment »"
+    },
+    {
+      "topicId": "fr-fr-4e-temp-03",
+      "prerequisiteId": "fr-fr-5e-temp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Maîtriser l’emploi des modes indicatif et impératif » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-acc-01",
+      "prerequisiteId": "fr-fr-5e-acc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accorder dans le groupe nominal en expliquant son raisonnement » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-acc-02",
+      "prerequisiteId": "fr-fr-5e-acc-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réussir l’accord sujet-verbe dans les cas complexes » (5e)"
+    },
+    {
+      "topicId": "fr-fr-4e-acc-03",
+      "prerequisiteId": "fr-fr-5e-acc-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Justifier l’accord du participe passé avec être et avec avoir » (5e)"
+    },
+    {
+      "topicId": "fr-fr-3e-comp-01",
+      "prerequisiteId": "fr-fr-4e-cia-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire une dizaine de lignes pour s’approprier sa lecture » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-comp-02",
+      "prerequisiteId": "fr-fr-4e-cia-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier des informations pour comprendre l’implicite d’un texte » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-comp-02",
+      "prerequisiteId": "fr-fr-4e-lum-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les textes des Lumières ont fait rencontrer des visées critiques (dénoncer, convaincre)"
+    },
+    {
+      "topicId": "fr-fr-3e-comp-03",
+      "prerequisiteId": "fr-fr-4e-cia-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Défendre son interprétation dans un débat en citant le texte » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-comp-04",
+      "prerequisiteId": "fr-fr-4e-cia-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des notions littéraires pour interpréter un texte » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-comp-05",
+      "prerequisiteId": "fr-fr-4e-conl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier quelques caractéristiques du style d’un auteur » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-comp-06",
+      "prerequisiteId": "fr-fr-4e-lqt-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire des œuvres complètes et des textes longs au fil de l’année » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-voix-01",
+      "prerequisiteId": "fr-fr-4e-lvh-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire à voix haute en faisant entendre sa compréhension » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-voix-02",
+      "prerequisiteId": "fr-fr-4e-lvh-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réciter de façon expressive un texte d’une quinzaine de lignes » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-voix-03",
+      "prerequisiteId": "fr-fr-4e-the-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer des mises en scène s’appuie sur l’attention portée à la dimension scénique du théâtre en 4e"
+    },
+    {
+      "topicId": "fr-fr-3e-oeuv-01",
+      "prerequisiteId": "fr-fr-4e-conl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier les œuvres entre elles selon leurs contextes de création » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-oeuv-01",
+      "prerequisiteId": "fr-fr-4e-oeu-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer œuvres littéraires et artistiques avec un vocabulaire adapté » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-oeuv-02",
+      "prerequisiteId": "fr-fr-4e-oeu-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre une œuvre dans son contexte de publication » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-oeuv-02",
+      "prerequisiteId": "fr-fr-4e-cia-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Percevoir le regard subjectif de l’auteur suppose de savoir comprendre l’implicite"
+    },
+    {
+      "topicId": "fr-fr-3e-oeuv-03",
+      "prerequisiteId": "fr-fr-4e-cia-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Justifier et réviser son appréciation d’un texte » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-oeuv-03",
+      "prerequisiteId": "fr-fr-4e-conl-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Un jugement argumenté s’appuie sur la pratique de l’argumentation par des exemples littéraires"
+    },
+    {
+      "topicId": "fr-fr-3e-oeuv-03",
+      "prerequisiteId": "fr-fr-4e-oeu-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Juger une œuvre selon son contexte suppose de savoir la comprendre dans son contexte de publication"
+    },
+    {
+      "topicId": "fr-fr-3e-oeuv-04",
+      "prerequisiteId": "fr-fr-4e-oeu-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître quelques caractéristiques des genres étudiés en 4e » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-oeuv-04",
+      "prerequisiteId": "fr-fr-4e-oeu-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre une œuvre dans son contexte de publication » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-conn-01",
+      "prerequisiteId": "fr-fr-4e-conl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier quelques caractéristiques du style d’un auteur » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-conn-02",
+      "prerequisiteId": "fr-fr-4e-conl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Mémoriser un passage d’une quinzaine de lignes d’une œuvre étudiée » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-conn-03",
+      "prerequisiteId": "fr-fr-4e-conl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier les œuvres entre elles selon leurs contextes de création » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-conn-03",
+      "prerequisiteId": "fr-fr-4e-lum-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les Lumières, étudiées en 4e, sont un premier courant littéraire identifié"
+    },
+    {
+      "topicId": "fr-fr-3e-conn-04",
+      "prerequisiteId": "fr-fr-4e-conl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier les œuvres entre elles selon leurs contextes de création » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-recit-01",
+      "prerequisiteId": "fr-fr-4e-fic-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Explorer la fiction aux limites du réel : fantastique, anticipation, enquête » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-poes-01",
+      "prerequisiteId": "fr-fr-4e-poe-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Habiter la terre en poète : le regard du poète sur le monde » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-theat-01",
+      "prerequisiteId": "fr-fr-4e-the-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre les conflits de valeurs au théâtre : obéir, désobéir, trahir » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-press-01",
+      "prerequisiteId": "fr-fr-4e-lum-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre l’héritage des Lumières : critiquer, dénoncer, penser » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-refl-01",
+      "prerequisiteId": "fr-fr-4e-erm-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prendre des notes en faisant apparaître l’organisation des idées » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-refl-02",
+      "prerequisiteId": "fr-fr-4e-erm-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser l’écrit de travail en autonomie » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-refl-02",
+      "prerequisiteId": "fr-fr-4e-erm-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Choisir seul les supports d’écriture adaptés à son objectif » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-refl-03",
+      "prerequisiteId": "fr-fr-4e-erm-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’initier aux écrits réflexifs » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-inv-01",
+      "prerequisiteId": "fr-fr-4e-inv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Développer une pratique créative de l’écriture » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-inv-01",
+      "prerequisiteId": "fr-fr-4e-inv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire des textes libres pour exprimer ses sentiments et ses idées » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-inv-02",
+      "prerequisiteId": "fr-fr-4e-inv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un texte mêlant narration, description et paroles rapportées » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-inv-02",
+      "prerequisiteId": "fr-fr-4e-inv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Écrire seul un texte d’une soixantaine de lignes suppose de savoir planifier son écrit en autonomie"
+    },
+    {
+      "topicId": "fr-fr-3e-inv-03",
+      "prerequisiteId": "fr-fr-4e-inv-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un texte argumentatif avec un argument et un exemple » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-inv-04",
+      "prerequisiteId": "fr-fr-4e-cia-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Rédiger une analyse littéraire suppose de savoir mobiliser des notions littéraires pour interpréter"
+    },
+    {
+      "topicId": "fr-fr-3e-inv-04",
+      "prerequisiteId": "fr-fr-4e-conl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Appuyer son analyse sur le style suppose de savoir identifier quelques caractéristiques du style d’un auteur"
+    },
+    {
+      "topicId": "fr-fr-3e-eval-01",
+      "prerequisiteId": "fr-fr-4e-rev-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se fixer des objectifs de relecture » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-eval-01",
+      "prerequisiteId": "fr-fr-4e-rev-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Retravailler son texte avec le brouillon et les versions intermédiaires » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-eval-02",
+      "prerequisiteId": "fr-fr-4e-rev-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Améliorer son texte grâce au vocabulaire et à ses lectures » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-eval-03",
+      "prerequisiteId": "fr-fr-4e-rev-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se fixer des objectifs de relecture » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-eval-03",
+      "prerequisiteId": "fr-fr-4e-rev-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser dictionnaires, correcteur et grammaire pour corriger un écrit » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-parl-01",
+      "prerequisiteId": "fr-fr-4e-par-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter un oral construit adapté à la situation » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-parl-01",
+      "prerequisiteId": "fr-fr-4e-par-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prendre la parole sans préparation » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-parl-02",
+      "prerequisiteId": "fr-fr-4e-par-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter un oral construit adapté à la situation » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-parl-03",
+      "prerequisiteId": "fr-fr-4e-par-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Participer activement et de façon raisonnée à un débat » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-ecou-01",
+      "prerequisiteId": "fr-fr-4e-eco-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et restituer l’organisation d’un oral » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-ecou-02",
+      "prerequisiteId": "fr-fr-4e-eco-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et restituer l’organisation d’un oral » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-ecou-02",
+      "prerequisiteId": "fr-fr-4e-inv-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Distinguer argument et exemple suppose de les avoir déjà articulés dans un texte argumentatif"
+    },
+    {
+      "topicId": "fr-fr-3e-ecou-03",
+      "prerequisiteId": "fr-fr-4e-eco-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écouter un oral et en retenir les idées principales » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-ecou-04",
+      "prerequisiteId": "fr-fr-4e-eco-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer l’explicite et l’implicite dans un message oral » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-dire-01",
+      "prerequisiteId": "fr-fr-4e-dlj-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire et réciter avec expressivité pour un public » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-dire-01",
+      "prerequisiteId": "fr-fr-4e-dlj-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Interpréter un texte avec une intention expressive suppose de prendre en compte son auditoire"
+    },
+    {
+      "topicId": "fr-fr-3e-dire-02",
+      "prerequisiteId": "fr-fr-4e-dlj-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Jouer une scène de théâtre » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-dire-03",
+      "prerequisiteId": "fr-fr-4e-par-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter un oral construit adapté à la situation » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-dire-03",
+      "prerequisiteId": "fr-fr-4e-dlj-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire et réciter avec expressivité pour un public » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-enr-01",
+      "prerequisiteId": "fr-fr-4e-jeu-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Analyser en contexte polysémie, synonymie, antonymie, homonymie » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-enr-01",
+      "prerequisiteId": "fr-fr-4e-jeu-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comprendre l’implicite par le vocabulaire suppose de percevoir les connotations des mots"
+    },
+    {
+      "topicId": "fr-fr-3e-enr-01",
+      "prerequisiteId": "fr-fr-4e-cia-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Relier des indices lexicaux prolonge la mise en relation d’informations pour comprendre l’implicite"
+    },
+    {
+      "topicId": "fr-fr-3e-enr-02",
+      "prerequisiteId": "fr-fr-4e-enr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Enrichir son vocabulaire de l’analyse littéraire (théâtre et roman) » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-enr-03",
+      "prerequisiteId": "fr-fr-4e-conl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier quelques caractéristiques du style d’un auteur » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-enr-04",
+      "prerequisiteId": "fr-fr-4e-enr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Consulter dictionnaire ou encyclopédie quand le contexte ne suffit pas » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-enr-04",
+      "prerequisiteId": "fr-fr-4e-form-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les dictionnaires historiques prolongent la découverte de l’évolution du sens et de l’orthographe des mots"
+    },
+    {
+      "topicId": "fr-fr-3e-rel-01",
+      "prerequisiteId": "fr-fr-4e-rel-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Mettre les mots en réseau » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-rel-02",
+      "prerequisiteId": "fr-fr-4e-cons-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Organiser un texte avec des subordonnées, avec cohérence et cohésion » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-rel-03",
+      "prerequisiteId": "fr-fr-4e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître les glissements de sens des mots et les locutions » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-rel-03",
+      "prerequisiteId": "fr-fr-4e-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître la composition des mots » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-rel-04",
+      "prerequisiteId": "fr-fr-4e-rel-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Classer les mots par intensité et par généralité » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-jeu-01",
+      "prerequisiteId": "fr-fr-4e-jeu-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer dénotation et connotation » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-jeu-02",
+      "prerequisiteId": "fr-fr-4e-jeu-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Jouer avec les mots : expansion, reprise, déplacement » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-jeu-03",
+      "prerequisiteId": "fr-fr-4e-jeu-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Jouer avec les mots : expansion, reprise, déplacement » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-jeu-04",
+      "prerequisiteId": "fr-fr-4e-jeu-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Jouer avec les mots : expansion, reprise, déplacement » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-form-01",
+      "prerequisiteId": "fr-fr-4e-orth-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’appuyer sur la morphologie des mots pour les orthographier » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-form-01",
+      "prerequisiteId": "fr-fr-4e-conj-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les participes passés à consonne finale muette illustrent l’écart entre l’oral et l’écrit"
+    },
+    {
+      "topicId": "fr-fr-3e-form-02",
+      "prerequisiteId": "fr-fr-4e-form-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Formation des mots : distinguer régularités et exceptions » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-form-02",
+      "prerequisiteId": "fr-fr-4e-form-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décrire et justifier l’emploi des préfixes et suffixes fréquents » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-form-04",
+      "prerequisiteId": "fr-fr-4e-enr-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La recherche autonome du sens s’articule avec la consultation du dictionnaire quand la déduction ne suffit pas"
+    },
+    {
+      "topicId": "fr-fr-3e-orth-01",
+      "prerequisiteId": "fr-fr-4e-orth-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’appuyer sur la morphologie des mots pour les orthographier » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-orth-02",
+      "prerequisiteId": "fr-fr-4e-orth-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Orthographier les radicaux des verbes à l’indicatif et à l’impératif » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-orth-03",
+      "prerequisiteId": "fr-fr-4e-orth-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider en 3e les réflexes orthographiques sur les homophones construits en 4e"
+    },
+    {
+      "topicId": "fr-fr-3e-phr-01",
+      "prerequisiteId": "fr-fr-4e-phr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Employer à bon escient le point-virgule » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-phr-02",
+      "prerequisiteId": "fr-fr-5e-phr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître les formes de phrases (exclamative, négative) » (5e)"
+    },
+    {
+      "topicId": "fr-fr-3e-phr-03",
+      "prerequisiteId": "fr-fr-4e-phr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et identifier la fonction des subordonnées conjonctives » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-phr-03",
+      "prerequisiteId": "fr-fr-4e-cons-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Compléments circonstanciels d’opposition et de condition » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-phr-04",
+      "prerequisiteId": "fr-fr-4e-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et identifier la fonction des subordonnées relatives » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-phr-05",
+      "prerequisiteId": "fr-fr-4e-cons-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Organiser un texte avec des subordonnées, avec cohérence et cohésion » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-const-01",
+      "prerequisiteId": "fr-fr-4e-phr-04",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider en 3e l’identification des fonctions des subordonnées relatives, vue en 4e"
+    },
+    {
+      "topicId": "fr-fr-3e-const-01",
+      "prerequisiteId": "fr-fr-4e-phr-05",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider en 3e l’identification des fonctions des subordonnées conjonctives, vue en 4e"
+    },
+    {
+      "topicId": "fr-fr-3e-const-02",
+      "prerequisiteId": "fr-fr-5e-cons-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider en 3e l’identification du groupe verbal, analysé en 5e"
+    },
+    {
+      "topicId": "fr-fr-3e-const-02",
+      "prerequisiteId": "fr-fr-4e-phr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le groupe verbal complexe comprend des subordonnées conjonctives, étudiées en 4e"
+    },
+    {
+      "topicId": "fr-fr-3e-const-03",
+      "prerequisiteId": "fr-fr-4e-cons-04",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider en 3e l’identification du groupe nominal étendu, approfondie en 4e"
+    },
+    {
+      "topicId": "fr-fr-3e-const-03",
+      "prerequisiteId": "fr-fr-4e-phr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le groupe nominal étendu complexe comprend des subordonnées relatives, étudiées en 4e"
+    },
+    {
+      "topicId": "fr-fr-3e-reg-01",
+      "prerequisiteId": "fr-fr-4e-reg-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Employer un registre courant ou soutenu à l’oral en classe » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-reg-02",
+      "prerequisiteId": "fr-fr-4e-reg-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier les différents registres de langue » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-par-01",
+      "prerequisiteId": "fr-fr-4e-disc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Alterner discours direct et discours indirect dans un texte » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-par-02",
+      "prerequisiteId": "fr-fr-4e-disc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Alterner discours direct et discours indirect dans un texte » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-conj-01",
+      "prerequisiteId": "fr-fr-4e-conj-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier ces temps dans un texte en explicitant sa démarche » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-conj-02",
+      "prerequisiteId": "fr-fr-4e-temp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier les valeurs du mode subjonctif » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-conj-03",
+      "prerequisiteId": "fr-fr-4e-conj-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le passé du subjonctif se forme comme les temps composés (auxiliaire + participe passé)"
+    },
+    {
+      "topicId": "fr-fr-3e-conj-04",
+      "prerequisiteId": "fr-fr-4e-conj-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Conjuguer les verbes selon la variation de leur radical » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-temps-01",
+      "prerequisiteId": "fr-fr-4e-conj-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre la construction de la voix passive » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-temps-02",
+      "prerequisiteId": "fr-fr-4e-cons-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Employer le subjonctif après une conjonction suppose de reconnaître les conjonctions de subordination"
+    },
+    {
+      "topicId": "fr-fr-3e-temps-03",
+      "prerequisiteId": "fr-fr-4e-temp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Valeurs aspectuelles des temps : borné / non borné, accompli / non accompli » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-temps-04",
+      "prerequisiteId": "fr-fr-4e-temp-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme demande de consolider en 3e la maîtrise du conditionnel étudié en 4e"
+    },
+    {
+      "topicId": "fr-fr-3e-acc-01",
+      "prerequisiteId": "fr-fr-4e-acc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accorder dans un groupe nominal avec un déterminant indéfini » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-acc-02",
+      "prerequisiteId": "fr-fr-4e-acc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accorder dans un groupe nominal avec un déterminant indéfini » (4e)"
+    },
+    {
+      "topicId": "fr-fr-3e-acc-02",
+      "prerequisiteId": "fr-fr-5e-acc-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accorder l’attribut du sujet en expliquant son raisonnement » (5e)"
+    },
+    {
+      "topicId": "fr-fr-3e-acc-02",
+      "prerequisiteId": "fr-fr-4e-cons-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Accorder l’adjectif apposé suppose de savoir identifier la fonction apposition"
+    },
+    {
+      "topicId": "fr-fr-3e-acc-03",
+      "prerequisiteId": "fr-fr-5e-acc-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Justifier l’accord du participe passé avec être et avec avoir » (5e)"
+    },
+    {
+      "topicId": "fr-fr-3e-acc-04",
+      "prerequisiteId": "fr-fr-4e-acc-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Accord sujet-verbe : sujet à plusieurs personnes et pronom relatif » (4e)"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "francais-c3": "2026-10-23",
+    "francais-c4": "2026-10-23"
+  }
+}

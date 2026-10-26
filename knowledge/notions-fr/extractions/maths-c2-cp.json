@@ -1,0 +1,2881 @@
+{
+  "programme": "maths-c2",
+  "level": "CP",
+  "notions": [
+    {
+      "id": "fr-ma-cp-num-01",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Dénombrer et comparer des collections en les groupant par dix",
+      "description": "Compter une grande collection d’objets en formant d’abord des paquets de dix, puis comparer deux collections. Le travail commence dès la période 1 ; les quantités vont jusqu’à 59 au plus tard en période 2 et jusqu’à 100 au plus tard en période 3.",
+      "officialObjectives": [
+        "Comparer et dénombrer des collections en les organisant."
+      ],
+      "evidence": [
+        "Organise une collection non groupée ou partiellement groupée (par exemple trois dizaines déjà formées et quinze unités isolées) en groupes de dix pour la dénombrer ou la comparer.",
+        "Reconnait qu’une collection de trois barres de dix cubes et quatre cubes isolés contient trente-quatre cubes.",
+        "Verbalise : « Trois dizaines et quatre unités, cela fait trente-quatre » ou « Trente plus quatre, cela fait trente-quatre », ou compte de dix en dix puis de un en un.",
+        "Dénombre d’abord des objets déplaçables (jetons), puis des collections fixes représentées sur une feuille."
+      ],
+      "period": "dès la période 1",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait compter une collection en faisant des paquets de dix, par exemple dire qu’il y a trente-quatre cubes devant trois barres de dix cubes et quatre cubes isolés ?",
+      "priorKnowledge": [
+        "Dénombrer de petites collections et comparer des quantités (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 4,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-02",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Construire une collection d’un nombre donné d’objets",
+      "description": "Préparer exactement le nombre d’objets demandé (par exemple 34 cubes) en formant des groupes de dix et des unités isolées, avec du matériel comme les cubes emboitables ou les buchettes.",
+      "officialObjectives": [
+        "Construire des collections de cardinal donné."
+      ],
+      "evidence": [
+        "Constitue une collection d’un nombre donné d’objets, jusqu’à cent, organisée en groupes de dix unités et en unités isolées.",
+        "Utilise du matériel représentant unités et dizaines (cubes emboitables formant des barres de dix, buchettes groupées par dix, matériel multibase).",
+        "Forme par exemple trente-quatre avec trois barres de dix cubes et quatre cubes isolés."
+      ],
+      "period": "dès la période 1",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait préparer exactement 34 cubes en faisant trois barres de dix et quatre cubes isolés ?",
+      "priorKnowledge": [
+        "Réaliser une collection dont le nombre d’objets est donné (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 4,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-03",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Réciter et écrire la suite des nombres jusqu’à 100, à l’endroit et à rebours",
+      "description": "Connaitre la suite des nombres jusqu’à cent, à l’oral et à l’écrit : compter de 1 en 1, de 2 en 2, de 10 en 10 et à rebours, en partant de n’importe quel nombre. Jusqu’à 59 au plus tard en période 2, jusqu’à 100 au plus tard en période 3.",
+      "officialObjectives": [
+        "Connaitre la suite écrite et la suite orale des nombres jusqu’à cent."
+      ],
+      "evidence": [
+        "Compte à l’oral et à l’écrit de un en un, de deux en deux et de dix en dix en partant de n’importe quel nombre.",
+        "Compte à rebours de un en un, à l’oral comme à l’écrit, en partant de n’importe quel nombre."
+      ],
+      "period": "jusqu’à 59 en période 2, jusqu’à 100 en période 3",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait compter de dix en dix ou à rebours en partant de n’importe quel nombre, à l’oral comme à l’écrit ?",
+      "priorKnowledge": [
+        "Réciter la comptine numérique (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 4,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-04",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Lire et écrire en chiffres les nombres jusqu’à 100",
+      "description": "Écrire en chiffres un nombre entendu (dictée de nombres) et lire à voix haute un nombre écrit en chiffres.",
+      "officialObjectives": [
+        "Connaitre et utiliser diverses représentations d’un nombre et passer de l’une à l’autre."
+      ],
+      "evidence": [
+        "Écrit en chiffres un nombre dicté (« trente-cinq » s’écrit 35).",
+        "Lit un nombre écrit en chiffres."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire 35 quand on lui dicte « trente-cinq », et lire un nombre écrit en chiffres ?",
+      "priorKnowledge": [
+        "Reconnaitre l’écriture chiffrée des petits nombres (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 4,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-05",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Passer d’une représentation d’un nombre à une autre",
+      "description": "Comprendre qu’un même nombre peut se montrer de plusieurs façons : avec du matériel, en chiffres, à l’oral, en dizaines et unités, sous forme d’addition (30 + 5) ou en lettres, et passer de l’une à l’autre.",
+      "officialObjectives": [
+        "Connaitre et utiliser diverses représentations d’un nombre et passer de l’une à l’autre."
+      ],
+      "evidence": [
+        "Associe trois barres et cinq cubes, l’écriture 35, le nom oral « trente-cinq » et l’écriture en lettres trente-cinq.",
+        "Exprime un nombre en unités de numération : trois dizaines et cinq unités, ou trente-cinq unités.",
+        "Décompose un nombre sous la forme 30 + 5."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire que trois barres de dix et cinq cubes, « 35 », « trois dizaines et cinq unités » et « 30 + 5 » représentent le même nombre ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 4,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-06",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Écrire les nombres en lettres jusqu’à cinquante",
+      "description": "Écrire les nombres en mots (par exemple trente-cinq). Cette écriture est maitrisée jusqu’à cinquante à la fin du CP.",
+      "officialObjectives": [
+        "Connaitre et utiliser diverses représentations d’un nombre et passer de l’une à l’autre."
+      ],
+      "evidence": [
+        "Écrit en lettres les nombres jusqu’à cinquante en fin de CP (35 s’écrit trente-cinq)."
+      ],
+      "period": "fin de CP",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire en lettres un nombre jusqu’à cinquante, comme « trente-cinq » ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 4,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-07",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Comprendre la valeur d’un chiffre selon sa place (dizaines, unités)",
+      "description": "Comprendre que dans 32 le 3 vaut trois dizaines et le 2 vaut deux unités : la place d’un chiffre change sa valeur (système en base dix). Abordé dès la période 1.",
+      "officialObjectives": [
+        "Connaitre la valeur des chiffres en fonction de leur position (unités, dizaines)."
+      ],
+      "evidence": [
+        "Explique, en s’appuyant sur les dizaines et les unités, pourquoi 23 n’est pas le même nombre que 32 bien qu’ils s’écrivent avec les mêmes chiffres.",
+        "Indique ce que vaut chaque chiffre d’un nombre (35 : trois dizaines et cinq unités)."
+      ],
+      "period": "dès la période 1",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi 23 et 32 ne sont pas le même nombre alors qu’ils s’écrivent avec les mêmes chiffres ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 4,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-08",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Utiliser le vocabulaire de la comparaison (autant que, plus que…)",
+      "description": "Comprendre et employer les mots pour comparer des quantités ou des nombres : égal à, autant que, plus que, plus grand que, moins que, plus petit que.",
+      "officialObjectives": [
+        "Comparer, encadrer, intercaler des nombres entiers en utilisant les symboles =, < et >."
+      ],
+      "evidence": [
+        "Comprend et utilise les expressions : égal à, autant que, plus que, plus grand que, moins que, plus petit que."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend et utilise correctement « autant que », « plus que » et « plus petit que » ?",
+      "priorKnowledge": [
+        "Comparer des quantités avec autant que, plus que, moins que (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 4,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-09",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Comparer deux nombres jusqu’à 100 avec les signes =, < et >",
+      "description": "Dire quel nombre est le plus grand et l’écrire avec les signes =, < ou >, en s’aidant au début de collections d’objets. Encadrer et intercaler des nombres font partie de cet objectif.",
+      "officialObjectives": [
+        "Comparer, encadrer, intercaler des nombres entiers en utilisant les symboles =, < et >."
+      ],
+      "evidence": [
+        "Compare deux nombres en prenant appui sur des représentations de collections.",
+        "Compare les cardinaux de deux collections : « Aaron a 49 trombones et Mia en a 53. Qui a le plus de trombones ? ».",
+        "Place le symbole qui convient (=, < ou >) entre deux nombres, par exemple entre 49 et 53."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire le bon signe entre 49 et 53 et dire qui a le plus de trombones entre Aaron (49) et Mia (53) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 4,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-10",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Ranger des nombres dans l’ordre croissant ou décroissant",
+      "description": "Ranger une série de nombres du plus petit au plus grand (ordre croissant) ou du plus grand au plus petit (ordre décroissant).",
+      "officialObjectives": [
+        "Ordonner des nombres dans l’ordre croissant ou décroissant."
+      ],
+      "evidence": [
+        "Ordonne cinq nombres dans l’ordre croissant et dans l’ordre décroissant."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger cinq nombres du plus petit au plus grand, puis du plus grand au plus petit ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 4,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-11",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Placer des nombres sur une bande numérique et une demi-droite graduée",
+      "description": "Repérer la place d’un nombre sur une bande numérotée ou sur une ligne graduée de 1 en 1 (comme une règle), en comprenant que le nombre indique la distance depuis le point de départ.",
+      "officialObjectives": [
+        "Savoir placer des nombres sur une demi-droite graduée de un en un."
+      ],
+      "evidence": [
+        "Associe un nombre à une position sur une bande numérique.",
+        "Associe un nombre à un point sur une demi-droite graduée de un en un, en faisant le lien avec la distance qui sépare ce point de l’origine.",
+        "S’appuie sur les règles graduées utilisées pour mesurer des longueurs pour associer des points à des nombres."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer où se trouve un nombre sur une bande numérique ou sur une ligne graduée de un en un ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 4,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-12",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Utiliser les nombres ordinaux jusqu’à « vingtième »",
+      "description": "Utiliser premier, deuxième, troisième… jusqu’à vingtième pour indiquer une place dans une file ou une liste, en précisant d’où l’on part.",
+      "officialObjectives": [
+        "Connaitre les nombres ordinaux jusqu’à « vingtième ».",
+        "Comprendre et utiliser les nombres ordinaux."
+      ],
+      "evidence": [
+        "Indique une position dans une liste ou une suite avec un nombre ordinal : « La voiture blanche est la quatrième voiture ».",
+        "Définit une origine et un sens de parcours pour une file d’objets non orientée : « Le jeton est caché sous le sixième gobelet en partant de la gauche »."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire « le jeton est caché sous le sixième gobelet en partant de la gauche » ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 4,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-13",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Repérer un rang ou une position dans une file ou une liste",
+      "description": "Trouver quel élément occupe une place donnée dans une liste, ou dire à quelle place se trouve un élément.",
+      "officialObjectives": [
+        "Repérer un rang ou une position dans une file orientée ou dans une liste d’objets ou de personnes."
+      ],
+      "evidence": [
+        "Repère le nombre qui occupe une position donnée dans une liste : dans 2, 6, 10, 14, 18, le quatrième nombre est 14.",
+        "Énonce le rang d’un nombre dans une liste : dans 2, 6, 10, 14, 18, le nombre 10 est en troisième position."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, dans la liste 2, 6, 10, 14, 18, que 10 est en troisième position et que le quatrième nombre est 14 ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 5,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-14",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Relier le rang d’un élément au nombre d’éléments placés avant lui",
+      "description": "Comprendre que si l’on est troisième dans une file, il y a deux personnes devant soi.",
+      "officialObjectives": [
+        "Faire le lien entre le rang d’un objet dans une liste et le nombre d’éléments qui le précèdent."
+      ],
+      "evidence": [
+        "Répond à : « Il y a six personnes qui font la queue à la caisse. Je suis le troisième dans la file. Combien y a-t-il de personnes devant moi ? »"
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire combien de personnes sont devant lui s’il est le troisième d’une file de six personnes ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 5,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-num-15",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les nombres entiers",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Trouver un élément éloigné dans une suite répétitive",
+      "description": "Dans une suite qui se répète (lettres, formes, nombres), trouver par exemple le 19e ou le 20e élément en repérant le motif qui revient. Ce travail prolonge l’étude des motifs commencée à l’école maternelle.",
+      "officialObjectives": [
+        "Utiliser les nombres ordinaux dans le cadre de l’étude de suites de symboles, de formes, de lettres ou de nombres."
+      ],
+      "evidence": [
+        "Trouve la dix-neuvième lettre de la suite répétitive « ABABAB… ».",
+        "Trouve le vingtième symbole de suites répétitives de symboles comme « △ ✕ ▢ O △ ✕ ▢ O △ ✕… ».",
+        "Trouve le septième nombre de la suite « 1, 3, 5, 7, 9… ».",
+        "Trouve la dix-septième lettre de la suite « ABGFABGFAB… »."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver la dix-neuvième lettre de la suite ABABAB… ?",
+      "priorKnowledge": [
+        "Reconnaitre et prolonger des suites organisées (motifs, algorithmes) (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 5,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-ope-01",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les quatre opérations",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Comprendre le sens de l’addition et de la soustraction",
+      "description": "Savoir quand il faut ajouter ou retirer, en s’appuyant sur des problèmes concrets, et savoir que l’on peut changer l’ordre des nombres dans une addition mais pas dans une soustraction.",
+      "officialObjectives": [
+        "Comprendre le sens de l’addition et de la soustraction."
+      ],
+      "evidence": [
+        "Montre sa compréhension du sens de l’addition et de la soustraction lors de la résolution de problèmes.",
+        "Explique que l’ordre des termes n’a pas d’importance pour l’addition, mais qu’il en a pour la soustraction."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir entre ajouter et retirer pour résoudre un petit problème, et sait que 32 + 15 donne le même résultat que 15 + 32 ?",
+      "priorKnowledge": [
+        "Composer et décomposer de petites quantités (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 5,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-ope-02",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les quatre opérations",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Comprendre que la soustraction est l’inverse de l’addition",
+      "description": "Comprendre que si 32 + 15 = 47, alors 47 – 32 = 15 et 47 – 15 = 32 : une addition connue permet de trouver des soustractions.",
+      "officialObjectives": [
+        "Comprendre le sens de l’addition et de la soustraction."
+      ],
+      "evidence": [
+        "Déduit d’une addition les soustractions associées : 32 + 15 = 47, donc 47 - 32 = 15 et 47 - 15 = 32."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que, puisque 32 + 15 = 47, alors 47 – 32 = 15 et 47 – 15 = 32 ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 5,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-ope-03",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les quatre opérations",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Utiliser correctement les signes +, – et =",
+      "description": "Écrire des calculs avec les signes +, – et =, en sachant que le signe = veut dire « a la même valeur que » et ne se place qu’entre deux écritures égales.",
+      "officialObjectives": [
+        "Comprendre et utiliser les symboles « + », « - » et « = »."
+      ],
+      "evidence": [
+        "Utilise de façon pertinente les symboles « + », « - » et « = ».",
+        "Place le symbole « = » uniquement entre deux termes égaux et repère que l’écriture « 47 + 3 = 50 + 5 = 55 » est incorrecte."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi l’écriture « 47 + 3 = 50 + 5 = 55 » est fausse ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 5,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-ope-04",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les quatre opérations",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Poser et calculer une addition en colonnes",
+      "description": "Poser une addition en alignant les unités sous les unités et les dizaines sous les dizaines, puis la calculer. Cette technique n’arrive qu’en période 4 ou 5 ; avant, l’enfant additionne avec les résultats mémorisés et le calcul par étapes.",
+      "officialObjectives": [
+        "Poser et effectuer des additions en colonnes."
+      ],
+      "evidence": [
+        "Pose une addition de deux ou trois nombres à un ou deux chiffres en plaçant les unités sous les unités et les dizaines sous les dizaines.",
+        "Calcule le résultat d’additions posées comme 45 + 37 ou 28 + 8 + 56."
+      ],
+      "period": "période 4 ou 5",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait poser et calculer 45 + 37 en colonnes ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 5,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-ope-05",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Les quatre opérations",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Comprendre le sens de la multiplication (« fois »)",
+      "description": "Comprendre que « trois fois vingt » revient à ajouter trois fois le même nombre (20 + 20 + 20). C’est une première approche de la multiplication par des additions répétées.",
+      "officialObjectives": [
+        "Comprendre le sens de la multiplication."
+      ],
+      "evidence": [
+        "Montre sa compréhension du sens de la multiplication lors de la résolution de problèmes.",
+        "Comprend et utilise le mot « fois » dans le cadre d’additions itérées.",
+        "Pour « Jan a trois paquets de 20 biscuits », dit « Jan a trois fois vingt biscuits » et écrit 20 + 20 + 20."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire « trois fois vingt biscuits » et écrire 20 + 20 + 20 pour trois paquets de 20 biscuits ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 5,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmp-01",
+      "type": "META",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Choisir une procédure de calcul mental efficace et gagner en rapidité",
+      "description": "Le calcul mental, c’est aussi choisir la bonne méthode selon les nombres, abandonner le comptage un par un au profit des méthodes apprises, et noter au début les étapes sur l’ardoise avant de s’en passer (au CP ou plus tard). Tous les calculs portent sur des nombres jusqu’à 100. En fin de CP, on attend neuf résultats justes en trois minutes pour les calculs utilisant la numération ou les procédures apprises.",
+      "officialObjectives": [
+        "élaborer des stratégies et maitriser des procédures de calcul mental efficaces qui seront progressivement automatisées."
+      ],
+      "evidence": [
+        "Restitue en fin de CP neuf résultats corrects en trois minutes pour des calculs s’appuyant sur la numération ou sur des procédures apprises.",
+        "Utilise une procédure adaptée aux nombres en jeu (par exemple, n’ajoute pas 10 puis retire 1 pour ajouter 9 quand le chiffre des unités est 0 ou 1).",
+        "Note par écrit les résultats intermédiaires, puis allège progressivement le recours à l’écrit jusqu’à s’en libérer.",
+        "Abandonne les procédures peu efficaces au profit des procédures enseignées.",
+        "Compare dans le temps le nombre de résultats corrects obtenus lors des tests en temps limité pour mesurer ses progrès."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} choisit une méthode adaptée pour calculer de tête et réussit environ neuf calculs justes en trois minutes ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 5,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmf-01",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Mémoriser des faits numériques",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Connaitre les tables d’addition dans les deux sens",
+      "description": "Retrouver presque instantanément les résultats des additions de deux nombres de 0 à 10, et les compléments (4 + … = 12). Beaucoup de ces résultats ont été rencontrés à l’école maternelle ; ils sont repris pendant les périodes 1 et 2, écrits avec les signes + et =. Objectif de fin de CP : huit égalités complétées en une minute. Les égalités avec un signe – (13 – 7 = …) relèvent plutôt des procédures de calcul.",
+      "officialObjectives": [
+        "Connaitre dans les deux sens les tables d’addition."
+      ],
+      "evidence": [
+        "Donne oralement et par écrit l’un des trois nombres d’une égalité A + B = C ou C = A + B, avec A et B entre 0 et 10, les deux autres étant connus.",
+        "Complète des égalités à trou : 4 + … = 12 ; 5 + 3 = … ; 10 = 7 + …",
+        "Complète huit égalités de ce type en une minute en fin de CP."
+      ],
+      "period": "périodes 1 et 2",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait compléter rapidement 4 + … = 12, 5 + 3 = … ou 10 = 7 + … ?",
+      "priorKnowledge": [
+        "Décompositions des nombres inférieurs à dix (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 6,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmf-02",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Mémoriser des faits numériques",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Connaitre les doubles des nombres usuels",
+      "description": "Savoir par cœur les doubles des nombres de 1 à 10 et de 20, 30, 40 et 50. Objectif de fin de CP : huit égalités complétées en une minute.",
+      "officialObjectives": [
+        "Connaitre les doubles et les moitiés de nombres usuels."
+      ],
+      "evidence": [
+        "Donne oralement ou par écrit les doubles des nombres de 1 à 10.",
+        "Donne les doubles des dizaines entières 20, 30, 40 et 50.",
+        "Complète des égalités à trou : double de 40 = … ; double de … = 12.",
+        "Complète huit égalités de ce type en une minute en fin de CP."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire tout de suite le double de 40, ou de quel nombre 12 est le double ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 6,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmf-03",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Mémoriser des faits numériques",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Connaitre les moitiés des nombres usuels",
+      "description": "Savoir par cœur les moitiés des nombres pairs de 2 à 20 et de 40, 60, 80 et 100. Objectif de fin de CP : huit égalités complétées en une minute.",
+      "officialObjectives": [
+        "Connaitre les doubles et les moitiés de nombres usuels."
+      ],
+      "evidence": [
+        "Donne oralement ou par écrit les moitiés des nombres pairs de 2 à 20.",
+        "Donne les moitiés des dizaines entières 40, 60, 80 et 100.",
+        "Complète des égalités à trou : moitié de 60 = … ; moitié de … = 8.",
+        "Complète huit égalités de ce type en une minute en fin de CP."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire tout de suite la moitié de 60, ou de quel nombre 8 est la moitié ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 6,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmn-01",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Utiliser ses connaissances en numération pour calculer mentalement",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Ajouter ou soustraire 1 ou 2 à un nombre",
+      "description": "Ajouter 1, c’est dire le nombre qui vient juste après ; retirer 2, c’est reculer deux fois d’un cran dans la suite des nombres. En fin de CP, ce type de calcul fait partie de l’objectif de fluence : neuf résultats justes en trois minutes.",
+      "officialObjectives": [
+        "Ajouter ou soustraire 1 ou 2 à un nombre."
+      ],
+      "evidence": [
+        "Ajoute 1 en énonçant le nombre qui vient juste après dans la comptine orale ou la suite écrite.",
+        "Soustrait 2 en soustrayant 1 et encore 1 : « Le nombre qui précède 17 est 16. Le nombre qui précède 16 est 15. Donc 17 - 2 = 15. »"
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 17 – 2 en reculant de un, puis encore de un ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 6,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmn-02",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Utiliser ses connaissances en numération pour calculer mentalement",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Ajouter ou soustraire 10 à un nombre",
+      "description": "Ajouter 10, c’est ajouter une dizaine ; retirer 10, c’est enlever une dizaine : seul le chiffre des dizaines change. En fin de CP, ce type de calcul fait partie de l’objectif de fluence : neuf résultats justes en trois minutes.",
+      "officialObjectives": [
+        "Ajouter ou soustraire 10 à un nombre."
+      ],
+      "evidence": [
+        "Explique qu’ajouter 10, c’est ajouter une dizaine, et que soustraire 10, c’est soustraire une dizaine.",
+        "Calcule 37 - 10 : « J’enlève une dizaine aux trois dizaines, cela fait deux dizaines. Donc 37 - 10 = 27. »"
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 37 – 10 en enlevant une dizaine ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 6,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmn-03",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Utiliser ses connaissances en numération pour calculer mentalement",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Ajouter ou soustraire des dizaines entières (de 20 à 90)",
+      "description": "Ajouter ou retirer 20, 30… 90, c’est ajouter ou retirer 2, 3… 9 dizaines. En fin de CP, ce type de calcul fait partie de l’objectif de fluence : neuf résultats justes en trois minutes.",
+      "officialObjectives": [
+        "Ajouter ou soustraire 20, 30, 40, 50, 60, 70, 80 ou 90 à un nombre."
+      ],
+      "evidence": [
+        "Explique qu’ajouter ou soustraire 20, 30, 40, 50, 60, 70, 80 ou 90, c’est ajouter ou soustraire 2, 3, 4, 5, 6, 7, 8 ou 9 dizaines.",
+        "Calcule 76 - 30 : « 30, c’est 3 dizaines. 7 dizaines – 3 dizaines = 4 dizaines. Donc 76 - 30 = 46. »"
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 76 – 30 en pensant « 7 dizaines moins 3 dizaines » ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 6,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmp-02",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Apprendre des procédures de calcul mental",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Trouver le complément d’un nombre à la dizaine supérieure",
+      "description": "Trouver combien il faut ajouter à un nombre pour atteindre la dizaine suivante (de 74 à 80, il faut 6), grâce aux compléments à 10. En fin de CP, ce type de calcul fait partie de l’objectif de fluence : neuf résultats justes en trois minutes.",
+      "officialObjectives": [
+        "Trouver le complément d’un nombre à la dizaine supérieure."
+      ],
+      "evidence": [
+        "Utilise les compléments à dix pour déterminer le nombre d’unités à ajouter pour former une nouvelle dizaine.",
+        "Explique pour 74 : « 74, c’est 7 dizaines et 4 unités. Le complément à 10 de 4 est 6. Il faut donc ajouter 6 unités pour obtenir la dizaine supérieure. »"
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire qu’il faut ajouter 6 à 74 pour arriver à la dizaine supérieure ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 6,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmp-03",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Apprendre des procédures de calcul mental",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Ajouter un petit nombre sans changer de dizaine",
+      "description": "Quand on ajoute quelques unités sans former de nouvelle dizaine, seul le chiffre des unités change : 32 + 4 = 36 car 2 + 4 = 6. En fin de CP, ce type de calcul fait partie de l’objectif de fluence : neuf résultats justes en trois minutes.",
+      "officialObjectives": [
+        "Ajouter un nombre inférieur à 9 à un nombre."
+      ],
+      "evidence": [
+        "Reconnait que l’ajout ne forme pas de nouvelle dizaine et agit seulement sur le chiffre des unités : 32 + 4 = 36 car 2 + 4 = 6."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 32 + 4 en pensant « 2 + 4 = 6 » ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 7,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmp-04",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Apprendre des procédures de calcul mental",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Ajouter un nombre inférieur à 9 en passant par la dizaine",
+      "description": "Pour calculer 47 + 8, on va d’abord à la dizaine suivante (47 + 3 = 50), puis on ajoute ce qui reste (50 + 5 = 55), car 8 c’est 3 + 5. En fin de CP, ce type de calcul fait partie de l’objectif de fluence : neuf résultats justes en trois minutes.",
+      "officialObjectives": [
+        "Ajouter un nombre inférieur à 9 à un nombre."
+      ],
+      "evidence": [
+        "Cherche d’abord combien il faut ajouter pour aller à la dizaine supérieure : de 47 à 50, il faut ajouter 3.",
+        "Ajoute ensuite ce qui reste, car 8 c’est 3 + 5 : 50 + 5 = 55, donc 47 + 8 = 55.",
+        "Utilise cette procédure quand l’ajout des unités change le nombre de dizaines."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 47 + 8 en passant par 50 ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 7,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmp-05",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Apprendre des procédures de calcul mental",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Ajouter 9 à un nombre (ajouter 10 puis retirer 1)",
+      "description": "Pour ajouter 9, on ajoute 10 puis on retire 1 : 37 → 47 → 46. Cette astuce est inutile quand le nombre se termine par 0 ou 1. En fin de CP, ce type de calcul fait partie de l’objectif de fluence : neuf résultats justes en trois minutes.",
+      "officialObjectives": [
+        "Ajouter 9 à un nombre."
+      ],
+      "evidence": [
+        "Ajoute 9 en ajoutant 10 puis en soustrayant 1.",
+        "Écrit si besoin sur l’ardoise le résultat intermédiaire : 37, puis 47, puis 46.",
+        "Sait que cette procédure n’est pas utile quand le chiffre des unités est 0 ou 1."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 37 + 9 en faisant 37 + 10 = 47, puis 47 – 1 = 46 ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 7,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmp-06",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Apprendre des procédures de calcul mental",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Ajouter deux nombres inférieurs à 100 (dizaines, puis unités)",
+      "description": "Pour 47 + 28, on ajoute les dizaines entre elles (40 + 20 = 60), les unités entre elles (7 + 8 = 15), puis on réunit les deux résultats : 60 + 15 = 75. En fin de CP, ce type de calcul fait partie de l’objectif de fluence : neuf résultats justes en trois minutes.",
+      "officialObjectives": [
+        "Ajouter deux nombres inférieurs à 100."
+      ],
+      "evidence": [
+        "Décompose les deux nombres pour ajouter les dizaines entre elles et les unités entre elles.",
+        "Additionne les deux nombres trouvés avec la procédure apprise pour ajouter des dizaines entières : 47 + 28 donne 60 et 15, puis 75.",
+        "Garde au besoin une trace intermédiaire sur l’ardoise (47 + 28, puis 60 15, puis 75)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 47 + 28 en ajoutant d’abord les dizaines (60), puis les unités (15) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 7,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmp-07",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Apprendre des procédures de calcul mental",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Trouver la moitié d’un nombre pair en le décomposant",
+      "description": "Pour trouver la moitié de 46, on le découpe en 40 + 6, on prend la moitié de chaque partie (20 et 3) et on les ajoute : 23. En fin de CP, ce type de calcul fait partie de l’objectif de fluence : neuf résultats justes en trois minutes.",
+      "officialObjectives": [
+        "Déterminer la moitié d’un nombre pair."
+      ],
+      "evidence": [
+        "Décompose un nombre pair en dizaines et unités pour faire apparaitre des nombres dont il a mémorisé les moitiés : 46 = 40 + 6.",
+        "Calcule la moitié de 46 : la moitié de 40 est 20, la moitié de 6 est 3, 20 + 3 = 23.",
+        "Garde au besoin une trace intermédiaire sur l’ardoise (46, puis 40 + 6, puis 20 + 3, puis 23)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver la moitié de 46 en pensant « moitié de 40 = 20, moitié de 6 = 3 » ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 7,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-cmp-08",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "Le calcul mental – Apprendre des procédures de calcul mental",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Soustraire un nombre inférieur à 10 à une dizaine entière",
+      "description": "Pour 50 – 6, on « casse » une dizaine : 50, c’est 4 dizaines et 10 unités ; on enlève 6 unités, il reste 4 dizaines et 4 unités, soit 44. En fin de CP, ce type de calcul fait partie de l’objectif de fluence : neuf résultats justes en trois minutes.",
+      "officialObjectives": [
+        "Soustraire un nombre inférieur à 10 à un nombre entier de dizaines."
+      ],
+      "evidence": [
+        "Casse une dizaine pour retirer les unités : 50 c’est 4 dizaines et 10 unités, en enlevant 6 unités il reste 4 dizaines et 4 unités, c’est-à-dire 44.",
+        "Utilise le complément à 10 du nombre soustrait pour trouver les unités restantes.",
+        "S’appuie au besoin sur des traces écrites intermédiaires sur l’ardoise (50, puis 40 + 10, puis 4, puis 44)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 50 – 6 en « cassant » une dizaine ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 8,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-pb-01",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "La résolution de problèmes",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Résoudre des problèmes additifs en une étape (parties-tout)",
+      "description": "Résoudre des petits problèmes où l’on cherche un tout ou une de ses parties (réunir, ajouter, retirer), avec des nombres jusqu’à 100. L’enfant s’aide d’abord d’objets (cubes et barres de dix, pièces et billets fictifs) ou de schémas, puis du calcul. Il apprend à redire l’histoire avec ses mots et à vérifier si sa réponse est possible. En classe : au moins dix problèmes par semaine ; les retraits en « cassant » une dizaine arrivent dès la période 3.",
+      "officialObjectives": [
+        "Résoudre des problèmes additifs en une étape du type parties-tout."
+      ],
+      "evidence": [
+        "Résout « Anna avait 43 cerises. Elle en a mangé 18. Combien en a-t-elle maintenant ? » en représentant 43 par quatre barres de dix cubes et trois cubes, puis en cassant une barre pour retirer 18 : il reste 25.",
+        "Traite les problèmes de transformation (ajout, retrait) comme des problèmes de parties-tout.",
+        "Résout « Léa a 53 euros. Elle achète un livre à 7 euros. Combien lui reste-t-il ? » et « Il y avait 36 oiseaux dans l’arbre. Il n’en reste plus que 21. Combien se sont envolés ? »",
+        "Résout « J’ai mangé 6 bonbons et il en reste encore 21. Combien y en avait-il avant ? »",
+        "Résout « 25, 32 et 18 passagers dans les trois wagons d’un train. Combien de passagers au total ? »",
+        "Reformule l’histoire du problème avec ses mots et vérifie si son résultat est possible (une partie ne peut pas dépasser le total)."
+      ],
+      "period": "toute l’année ; retraits avec cassage de dizaines dès la période 3",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait résoudre « Anna avait 43 cerises. Elle en a mangé 18. Combien en a-t-elle maintenant ? », avec des cubes ou un schéma ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 9,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-pb-02",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "La résolution de problèmes",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Résoudre des problèmes additifs en deux étapes (nombres jusqu’à 30)",
+      "description": "Résoudre des problèmes qui demandent deux calculs successifs (ajouts et retraits), avec des nombres jusqu’à 30.",
+      "officialObjectives": [
+        "Résoudre des problèmes additifs en deux étapes (champ numérique inférieur ou égal à 30)."
+      ],
+      "evidence": [
+        "Résout « Il y avait 29 enfants dans un bus. Au premier arrêt, 12 sont descendus. Au deuxième arrêt, 7 sont montés. Combien d’enfants y a-t-il maintenant ? »",
+        "Résout « Sur le présentoir, il y a 24 livres, dont 7 albums et 6 bandes dessinées, le reste étant des documentaires. Combien y a-t-il de documentaires ? »"
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait résoudre « 29 enfants dans un bus, 12 descendent, puis 7 montent. Combien y en a-t-il maintenant ? » ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 9,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-pb-03",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "La résolution de problèmes",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Problèmes multiplicatifs : trouver le total de parts égales (jusqu’à 30)",
+      "description": "Trouver le total quand on a plusieurs paquets identiques (3 paquets de 7 biscuits), en manipulant, en dessinant des croix ou en additionnant plusieurs fois le même nombre. Nombres jusqu’à 30.",
+      "officialObjectives": [
+        "Résoudre des problèmes multiplicatifs en une étape (champ numérique inférieur ou égal à 30)."
+      ],
+      "evidence": [
+        "Recherche la valeur d’un tout composé de plusieurs parties de même valeur, en s’appuyant si besoin sur des jetons, des cubes ou des symboles (croix, ronds).",
+        "Pour « Paul apporte 3 paquets de biscuits. Il y a 7 biscuits dans chaque paquet. Combien y a-t-il de biscuits en tout ? », dessine des croix pour chaque paquet puis les dénombre un par un ou en regroupant par dix.",
+        "Utilise aussi des additions itérées."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver combien il y a de biscuits en tout dans 3 paquets de 7 biscuits ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 9,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-pb-04",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "La résolution de problèmes",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Problèmes de partage : trouver le nombre de parts (jusqu’à 30)",
+      "description": "Dans un partage équitable, trouver combien de groupes égaux on peut faire (24 élèves en équipes de 4 : combien d’équipes ?), en dessinant les objets et en entourant des groupes.",
+      "officialObjectives": [
+        "Résoudre des problèmes multiplicatifs en une étape (champ numérique inférieur ou égal à 30)."
+      ],
+      "evidence": [
+        "Représente la totalité des éléments (croix, ronds) puis entoure des groupes de même cardinal que la valeur d’une part.",
+        "Pour « Il y a 24 élèves. Le professeur fait des équipes de 4. Combien y aura-t-il d’équipes ? », dessine vingt-quatre croix et fait des groupes de quatre croix."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver combien d’équipes de 4 on peut faire avec 24 élèves, en dessinant des croix ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 10,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-pb-05",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres, calcul et résolution de problèmes",
+      "subdomain": "La résolution de problèmes",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Problèmes de partage : trouver la valeur d’une part (jusqu’à 30)",
+      "description": "Dans un partage équitable, trouver combien chacun reçoit (3 enfants se partagent 18 images), en distribuant les objets un à un.",
+      "officialObjectives": [
+        "Résoudre des problèmes multiplicatifs en une étape (champ numérique inférieur ou égal à 30)."
+      ],
+      "evidence": [
+        "Recherche la valeur d’une part dans un partage équitable en distribuant un à un, équitablement, des jetons ou des cubes dans chacune des parts.",
+        "Pour « 3 enfants se partagent 18 images. Combien d’images aura chaque enfant ? », répartit dix-huit images ou jetons en trois paquets de six en les distribuant un à un."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver combien d’images aura chaque enfant si 3 enfants se partagent 18 images ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 10,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-lon-01",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "Les longueurs",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Utiliser le vocabulaire des longueurs (long, court, près, loin)",
+      "description": "Comprendre et employer les mots long, court, près et loin. Au CP, le travail sur les longueurs s’appuie surtout sur des manipulations.",
+      "officialObjectives": [
+        "Utiliser le lexique spécifique associé aux longueurs."
+      ],
+      "evidence": [
+        "Comprend et utilise le lexique associé aux longueurs : long, court, près, loin."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} utilise correctement les mots « long », « court », « près » et « loin » ?",
+      "priorKnowledge": [
+        "Comparer des objets selon leur taille ou leur longueur (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 25,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-lon-02",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "Les longueurs",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Comparer et ranger des objets selon leur longueur",
+      "description": "Dire quel objet est le plus long en les posant côte à côte, ou à l’aide d’une ficelle quand on ne peut pas les déplacer, et ranger plusieurs objets du plus court au plus long.",
+      "officialObjectives": [
+        "Comparer des objets selon leur longueur."
+      ],
+      "evidence": [
+        "Dit, quand il n’y a aucun doute, qu’une baguette, une bandelette ou une ficelle est plus longue ou plus courte qu’une autre.",
+        "Compare les longueurs de deux objets déplaçables en faisant coïncider une extrémité et en les superposant.",
+        "Compare les longueurs de deux objets non déplaçables en utilisant une ficelle ou une bandelette pour reporter la longueur.",
+        "Ordonne jusqu’à cinq baguettes ou cinq bandelettes selon leur longueur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger cinq baguettes de la plus courte à la plus longue ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 25,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-lon-03",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "Les longueurs",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Comparer des segments selon leur longueur",
+      "description": "Comparer des traits droits (segments) dessinés sur une feuille, en reportant plusieurs fois une même petite longueur (un étalon) ou en les mesurant avec une règle graduée.",
+      "officialObjectives": [
+        "Comparer des segments selon leur longueur."
+      ],
+      "evidence": [
+        "Dit, quand il n’y a aucun doute, qu’un segment est plus long ou plus court qu’un autre.",
+        "Compare les longueurs de deux segments en les mesurant par report d’un étalon ou en utilisant une règle graduée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire lequel de deux segments est le plus long, en reportant un étalon ou avec une règle graduée ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 25,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-lon-04",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "Les longueurs",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Mesurer et tracer un segment avec une règle graduée",
+      "description": "Utiliser une règle graduée pour mesurer la longueur d’un trait ou pour tracer un trait d’une longueur donnée.",
+      "officialObjectives": [
+        "Savoir mesurer la longueur d’un segment en utilisant une règle graduée."
+      ],
+      "evidence": [
+        "Utilise une règle graduée pour mesurer des segments.",
+        "Utilise une règle graduée pour construire des segments d’une longueur donnée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait mesurer un segment avec sa règle et tracer un segment d’une longueur donnée ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 25,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-lon-05",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "Les longueurs",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Connaitre le mètre et le centimètre (m, cm) et que 1 m = 100 cm",
+      "description": "Connaitre les unités mètre (m) et centimètre (cm), les utiliser pour exprimer une mesure, et savoir qu’un mètre vaut cent centimètres.",
+      "officialObjectives": [
+        "Connaitre et utiliser les unités mètre et centimètre et les symboles associés (m et cm).",
+        "Savoir qu’un mètre est égal à cent centimètres."
+      ],
+      "evidence": [
+        "Utilise une règle graduée en centimètres pour mesurer des segments ou construire des segments d’une longueur donnée.",
+        "Exprime une longueur avec les unités et symboles m et cm (une trousse mesure plutôt 20 cm, la porte plutôt 2 m).",
+        "Sait qu’un mètre est égal à cent centimètres."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’un mètre est égal à cent centimètres et donne ses mesures à la règle en centimètres (cm) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 25,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-lon-06",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "Les longueurs",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Connaitre des longueurs de référence pour estimer une longueur",
+      "description": "Avoir en tête quelques longueurs connues pour estimer, sans mesurer, si un objet mesure plutôt quelques centimètres, quelques dizaines de centimètres ou un mètre.",
+      "officialObjectives": [
+        "Connaitre quelques longueurs de référence."
+      ],
+      "evidence": [
+        "Dit si la longueur d’une trousse est plutôt 2 cm, 20 cm ou 1 m.",
+        "Estime la hauteur de la porte, la largeur de la classe ou la longueur du couloir."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si une trousse mesure plutôt 2 cm, 20 cm ou 1 m ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 26,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-mas-01",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "Les masses",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Utiliser le vocabulaire des masses (lourd, léger)",
+      "description": "Comprendre et employer les mots lourd et léger. La masse est ce que l’on appelle souvent, à tort, le « poids ».",
+      "officialObjectives": [
+        "Utiliser le lexique associé aux masses."
+      ],
+      "evidence": [
+        "Comprend et utilise le lexique associé aux masses : lourd, léger."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} utilise correctement les mots « lourd » et « léger » ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 26,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-mas-02",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "Les masses",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Comparer des masses en soupesant",
+      "description": "Prendre en main deux ou trois objets qui se ressemblent pour dire lequel est le plus lourd ou le plus léger. Au CP, tout le travail sur les masses se fait en manipulant.",
+      "officialObjectives": [
+        "Comparer des objets selon leur masse."
+      ],
+      "evidence": [
+        "Compare en les soupesant les masses de deux ou trois objets d’apparence identique mais de masses clairement différentes (boites ou bouteilles opaques identiques).",
+        "Dit lequel est le plus lourd ou lequel est le plus léger."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, en les soupesant, laquelle de deux boites identiques est la plus lourde ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 26,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-mas-03",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "Les masses",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Ranger des objets selon leur masse avec une balance à plateaux",
+      "description": "Utiliser une balance à deux plateaux (type Roberval) pour comparer des objets deux à deux et les ranger du plus léger au plus lourd.",
+      "officialObjectives": [
+        "Comparer des objets selon leur masse."
+      ],
+      "evidence": [
+        "Ordonne par ordre croissant les masses de deux ou de trois objets avec une balance de type Roberval, par comparaison deux à deux."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger trois objets du plus léger au plus lourd avec une balance à deux plateaux ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 26,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-mon-01",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "La monnaie",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Utiliser le vocabulaire de la monnaie et des prix",
+      "description": "Comprendre et employer les mots plus cher, moins cher, rendre la monnaie, billet, pièce, somme, reste, euros. La monnaie est introduite en période 2 ou 3, avec des montants entiers jusqu’à 100 euros.",
+      "officialObjectives": [
+        "Utiliser le lexique spécifique lié à la monnaie."
+      ],
+      "evidence": [
+        "Comprend et utilise le lexique associé aux prix : plus cher, moins cher, rendre la monnaie, billet, pièce, somme, reste, euros."
+      ],
+      "period": "période 2 ou 3",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend et utilise « plus cher », « moins cher » et « rendre la monnaie » ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 26,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-mon-02",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "La monnaie",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Comparer la valeur de deux ensembles de pièces et de billets",
+      "description": "Comprendre que c’est la valeur qui compte, pas le nombre de pièces : un billet de 10 € vaut autant que dix pièces de 1 €. La monnaie est utilisée après le matériel de numération, car un billet de 10 € ne « montre » pas ses dix euros comme une barre de dix cubes.",
+      "officialObjectives": [
+        "Comparer les valeurs de deux ensembles constitués de pièces de monnaie ou de deux ensembles constitués de pièces et de billets."
+      ],
+      "evidence": [
+        "Compare deux ensembles de pièces ou de billets selon leur valeur et non selon le nombre de pièces ou de billets.",
+        "Sait que dix pièces de 1 € ont la même valeur qu’un billet de 10 €."
+      ],
+      "period": "période 2 ou 3",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’un billet de 10 € vaut autant que dix pièces de 1 €, et comparer deux tas d’argent selon leur valeur ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 26,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-mon-03",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "La monnaie",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Trouver la valeur d’un ensemble de pièces et de billets",
+      "description": "Trouver combien d’euros représente un ensemble de pièces et de billets, en les rangeant par groupes de dix euros pour compter plus facilement. Montants jusqu’à 100 euros.",
+      "officialObjectives": [
+        "Déterminer la valeur en euro d’un ensemble constitué de pièces et de billets."
+      ],
+      "evidence": [
+        "Détermine la valeur d’une somme d’argent en organisant la monnaie pour faciliter les comptes (groupes de dix euros)."
+      ],
+      "period": "période 2 ou 3",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver combien d’euros il y a dans un tas de billets de 10 € et de pièces de 1 €, en faisant des groupes de dix euros ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 26,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-mon-04",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "La monnaie",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Constituer une somme d’argent donnée avec des pièces et des billets",
+      "description": "Préparer un montant demandé avec des pièces et des billets fictifs, parfois avec des contraintes (le moins de pièces possible).",
+      "officialObjectives": [
+        "Constituer une somme d’argent donnée avec des pièces et des billets."
+      ],
+      "evidence": [
+        "Constitue une somme d’argent donnée avec le matériel fourni.",
+        "Produit 48 € en utilisant le moins de pièces possible et le moins de billets possible.",
+        "Produit 56 € avec le moins de pièces et de billets possible et sans utiliser de pièces de 1 €."
+      ],
+      "period": "période 2 ou 3",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire 48 € avec le moins de pièces et de billets possible ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 26,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-mon-05",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "La monnaie",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Simuler des achats et rendre la monnaie",
+      "description": "Jouer à la marchande : payer plusieurs objets séparément ou en une fois, donner plus que le prix et récupérer la monnaie, faire des échanges. Ces situations servent ensuite à résoudre des problèmes, d’abord en manipulant, puis en calculant.",
+      "officialObjectives": [
+        "Simuler des achats en manipulant des pièces et des billets fictifs. Rendre la monnaie."
+      ],
+      "evidence": [
+        "Paie plusieurs objets séparément, ou cherche d’abord leur valeur totale puis règle cette valeur totale.",
+        "Donne plus que la valeur due et rend ou reçoit la monnaie.",
+        "Procède à des échanges de pièces et de billets au cours de jeux."
+      ],
+      "period": "période 2 ou 3",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, en jouant à la marchande, payer plusieurs objets et rendre la monnaie quand on lui donne plus que le prix ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 26,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-tps-01",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "Le repérage dans le temps",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Lire une heure entière sur une horloge à aiguilles",
+      "description": "Lire une heure « pile » sur une horloge à aiguilles (trois heures, neuf heures, midi). Au CP, on se limite aux heures entières ; ce travail est mené avec « Questionner le monde ».",
+      "officialObjectives": [
+        "Lire sur une horloge à aiguilles une heure donnée en heures entières."
+      ],
+      "evidence": [
+        "Lit des heures entières montrées sur un cadran à aiguilles : trois heures, neuf heures, mais aussi midi."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lire « trois heures » ou « midi » sur une horloge à aiguilles ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 26,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-tps-02",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "Le repérage dans le temps",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Placer les aiguilles d’une horloge pour une heure entière",
+      "description": "Positionner les aiguilles pour afficher une heure entière donnée, du matin ou de l’après-midi (heures de 1 à 12 sur le cadran).",
+      "officialObjectives": [
+        "Positionner les aiguilles d’une horloge correspondant à une heure donnée (uniquement des heures entières inférieures ou égales à douze)."
+      ],
+      "evidence": [
+        "Positionne les aiguilles d’un cadran pour une heure entière donnée du matin ou de l’après-midi (heures inférieures ou égales à douze)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer les aiguilles d’une horloge pour indiquer neuf heures ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 26,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-tps-03",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Grandeurs et mesures",
+      "subdomain": "Le repérage dans le temps",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Associer une heure à un moment de la journée",
+      "description": "Relier des moments de la vie quotidienne (se lever, aller à l’école, déjeuner) aux heures affichées sur une horloge.",
+      "officialObjectives": [
+        "Associer une heure à un moment de la journée."
+      ],
+      "evidence": [
+        "Associe des actions familières (se lever, aller à l’école, déjeuner) à des heures affichées sur des horloges."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait associer le moment du lever ou du déjeuner à l’horloge qui affiche la bonne heure ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 26,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-sol-01",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Les solides",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Reconnaitre les solides usuels : cube, boule, cône, cylindre, pavé",
+      "description": "Reconnaitre parmi des objets ou dans la vie courante les cubes, boules, cônes, cylindres et pavés (forme d’une boite à chaussures). Au CP, on trie selon l’aspect : le cube n’est pas rangé avec les pavés.",
+      "officialObjectives": [
+        "Reconnaitre les solides usuels suivants : cube, boule, cône, cylindre, pavé."
+      ],
+      "evidence": [
+        "Identifie, dans un ensemble de solides, les boules, les cubes, les cylindres, les pavés et les cônes.",
+        "Repère des solides simples dans son environnement : une boite à chaussures a la forme d’un pavé, une boite de conserve celle d’un cylindre, une balle de tennis celle d’une boule.",
+        "Trie et classe des solides selon des critères visuels (les cubes, les pavés, les cylindres, les boules et les autres solides)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire qu’une boite de conserve a la forme d’un cylindre et qu’une balle de tennis a la forme d’une boule ?",
+      "priorKnowledge": [
+        "Trier et classer des solides (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 32,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-sol-02",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Les solides",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Nommer un cube, un pavé et une boule",
+      "description": "Donner le nom correct de ces trois solides quand on les montre. Le mot « pavé » (ou « pavé droit ») désigne une forme de boite, comme une boite à chaussures.",
+      "officialObjectives": [
+        "Nommer un cube, un pavé et une boule."
+      ],
+      "evidence": [
+        "Nomme un cube ou un pavé qui lui est donné.",
+        "Nomme la forme d’objets du quotidien : une boite à chaussures a la forme d’un pavé, une balle de tennis celle d’une boule."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer un cube, un pavé et une boule quand on les lui montre ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 32,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-sol-03",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Les solides",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Décrire un cube ou un pavé par ses faces",
+      "description": "Décrire un cube ou un pavé en parlant de ses faces : combien il en a et quelle est leur forme (carrés ou rectangles).",
+      "officialObjectives": [
+        "Décrire un cube ou un pavé en utilisant le terme « face ». Connaitre le nombre et la nature des faces d’un cube et d’un pavé."
+      ],
+      "evidence": [
+        "Décrit un cube ou un pavé en utilisant le mot « face ».",
+        "Donne le nombre de faces et la nature des faces (carré ou rectangle) d’un cube et d’un pavé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire combien de faces a un cube et quelle forme elles ont ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 32,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-sol-04",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Les solides",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Construire un cube ou un pavé en assemblant ses faces",
+      "description": "Reproduire un cube ou un pavé à partir d’un modèle, en assemblant ses différentes faces.",
+      "officialObjectives": [
+        "Construire des cubes et des pavés."
+      ],
+      "evidence": [
+        "Assemble, à partir d’un modèle, les différentes faces d’un cube ou d’un pavé pour le reproduire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reproduire un cube ou un pavé en assemblant ses faces à partir d’un modèle ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 32,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-geo-01",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "La géométrie plane",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Reconnaitre disque, carré, rectangle et triangle",
+      "description": "Reconnaitre ces formes dans un puzzle (comme le tangram), dans un assemblage ou autour de soi, et décrire comment elles sont placées les unes par rapport aux autres.",
+      "officialObjectives": [
+        "Reconnaitre des formes planes (disque, carré, rectangle et triangle) dans un assemblage et dans son environnement proche."
+      ],
+      "evidence": [
+        "Identifie disque, carré, rectangle et triangle parmi des formes planes (pièces de tangram, figures découpées en carton).",
+        "Décrit des formes juxtaposées : « Il y a deux triangles qui forment un rectangle. »",
+        "Décrit des formes superposées : « Je vois deux carrés avec un côté en commun. » ou « Il y a un triangle dans un carré. »"
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver les carrés, les rectangles, les triangles et les disques parmi des formes découpées ou des pièces de puzzle ?",
+      "priorKnowledge": [
+        "Reconnaitre quelques formes planes (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 32,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-geo-02",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "La géométrie plane",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Nommer le disque, le carré, le rectangle et le triangle",
+      "description": "Donner le bon nom à chaque forme : disque, carré, rectangle, triangle.",
+      "officialObjectives": [
+        "Nommer le disque, le carré, le rectangle et le triangle."
+      ],
+      "evidence": [
+        "Nomme un triangle, un carré ou un rectangle qui lui est donné.",
+        "Nomme les formes d’un ensemble de formes planes : disque, carré, rectangle et triangle."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer un disque, un carré, un rectangle et un triangle ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 32,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-geo-03",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "La géométrie plane",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Décrire carré, rectangle et triangle avec « côté » et « sommet »",
+      "description": "Expliquer pourquoi une forme est un carré, un rectangle ou un triangle en comptant ses côtés et ses sommets (les « coins ») et en repérant les côtés de même longueur.",
+      "officialObjectives": [
+        "Donner une première description du carré, du rectangle, du triangle en utilisant les termes « sommet » et « côté »."
+      ],
+      "evidence": [
+        "Justifie le nom d’un triangle, d’un carré ou d’un rectangle en donnant son nombre de côtés.",
+        "Mentionne les longueurs de côtés égales pour le carré et le rectangle.",
+        "Donne le nombre de sommets et le nombre de côtés d’un polygone qui lui est présenté.",
+        "Décrit des formes superposées avec ces mots : « Deux sommets du triangle sont des sommets du carré. Un sommet du triangle est sur un côté du carré. »"
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer qu’une forme est un carré en parlant de ses côtés et de leurs longueurs ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 32,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-geo-04",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "La géométrie plane",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Repérer des alignements à l’œil",
+      "description": "Voir si des objets ou des points sont sur une même ligne droite, d’abord avec de vrais objets (des plots dans la cour), puis avec des points dessinés sur une feuille.",
+      "officialObjectives": [
+        "Repérer visuellement des alignements."
+      ],
+      "evidence": [
+        "Aligne des plots dans la cour pour délimiter une zone.",
+        "Repère visuellement des points alignés (représentés par des petites croix) sur une feuille de papier."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait aligner des objets, par exemple des plots, pour former une ligne droite ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 32,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-geo-05",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "La géométrie plane",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Vérifier un alignement avec la règle",
+      "description": "Utiliser la règle pour savoir si trois points sont alignés quand cela ne se voit pas facilement à l’œil.",
+      "officialObjectives": [
+        "Utiliser la règle pour repérer ou vérifier des alignements."
+      ],
+      "evidence": [
+        "Dit si trois points sont alignés ou non en utilisant la règle dans les cas où la réponse n’est pas perceptible de façon évidente."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait vérifier avec sa règle si trois points sont alignés ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 32,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-geo-06",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "La géométrie plane",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Tracer une droite avec la règle",
+      "description": "Tenir la règle pour tracer un trait droit passant par deux points, quelle que soit sa direction.",
+      "officialObjectives": [
+        "Utiliser la règle comme instrument de tracé."
+      ],
+      "evidence": [
+        "Trace à l’aide d’une règle une droite passant par deux points.",
+        "Trace cette droite qu’elle soit horizontale, verticale ou oblique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tracer à la règle une droite passant par deux points, même en oblique ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 32,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-geo-07",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "La géométrie plane",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Tracer des figures simples avec des gabarits et des pochoirs",
+      "description": "Dessiner des carrés, des rectangles, des cercles et des triangles en suivant le bord d’un gabarit ou l’intérieur d’un pochoir.",
+      "officialObjectives": [
+        "Construire un carré, un rectangle, un triangle ou un assemblage de ces figures sur du papier quadrillé ou pointé."
+      ],
+      "evidence": [
+        "Trace des figures simples (carrés, rectangles, cercles, triangles) à l’aide de gabarits et de pochoirs."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tracer un carré ou un cercle en suivant un gabarit ou un pochoir ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 32,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-geo-08",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "La géométrie plane",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Reproduire et compléter des figures sur papier quadrillé ou pointé",
+      "description": "Reproduire, compléter ou construire un carré, un rectangle, un triangle ou un assemblage de ces figures sur papier quadrillé ou pointé, d’abord à main levée puis à la règle.",
+      "officialObjectives": [
+        "Construire un carré, un rectangle, un triangle ou un assemblage de ces figures sur du papier quadrillé ou pointé."
+      ],
+      "evidence": [
+        "Reproduit, complète et construit des figures simples, d’abord à main levée puis avec une règle.",
+        "Trace sur papier quadrillé ou pointé des rectangles et des carrés dont les côtés suivent les lignes du quadrillage.",
+        "Complète un rectangle dont deux côtés consécutifs sont déjà tracés.",
+        "Complète un carré dont un côté est déjà tracé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait terminer, sur du papier quadrillé, un carré dont un côté est déjà tracé ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 32,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-esp-01",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Le repérage dans l’espace",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Utiliser le vocabulaire des positions (gauche, droite, sur, sous…)",
+      "description": "Comprendre et employer les mots qui décrivent une position : gauche, droite, sur, sous, entre, devant, derrière, au-dessus, en dessous.",
+      "officialObjectives": [
+        "Connaitre et utiliser le vocabulaire lié aux positions relatives."
+      ],
+      "evidence": [
+        "Comprend et utilise les mots gauche et droite.",
+        "Comprend et utilise sur, sous, entre, devant, derrière, au-dessus, en dessous."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer un objet « entre » deux autres, ou « à sa gauche », quand on le lui demande ?",
+      "priorKnowledge": [
+        "Décrire des positions avec le vocabulaire spatial (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 33,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-esp-02",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Le repérage dans l’espace",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Situer des personnes ou des objets dans la classe",
+      "description": "Retrouver ou décrire où se trouve une personne ou un objet dans la classe, par rapport à d’autres objets ou repères.",
+      "officialObjectives": [
+        "Situer des personnes ou des objets les uns par rapport aux autres ou par rapport à d’autres repères dans la classe."
+      ],
+      "evidence": [
+        "Retrouve un objet ou un élève dont la position dans la classe a été décrite oralement.",
+        "Interprète ou donne des indications pour retrouver un objet caché."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver un objet caché à partir d’indications données à l’oral ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 33,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-esp-03",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Le repérage dans l’espace",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Se repérer sur un plan ou une maquette de la classe",
+      "description": "Utiliser un plan de la classe (ou une maquette) pour situer des camarades ou retrouver un objet caché.",
+      "officialObjectives": [
+        "Construire et utiliser des représentations de la classe pour localiser, mémoriser et communiquer un emplacement."
+      ],
+      "evidence": [
+        "Repère la position de ses camarades sur un plan de la classe.",
+        "Retrouve un objet caché dont la position est indiquée sur un plan.",
+        "Choisit, parmi trois photographies avec les mêmes personnages et objets, celle qui correspond à une maquette placée devant lui."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver un objet caché dont la place est indiquée sur un plan de la classe ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 33,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-esp-04",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Le repérage dans l’espace",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Reproduire un assemblage de cubes et de pavés d’après un modèle",
+      "description": "Construire un assemblage de cubes et de pavés identique à un modèle posé devant soi ou à une photographie.",
+      "officialObjectives": [
+        "Construire et reproduire des assemblages de solides à partir d’un modèle en trois dimensions ou de représentations planes."
+      ],
+      "evidence": [
+        "Construit des assemblages de cubes et de pavés à partir d’un modèle physique en trois dimensions.",
+        "Construit des assemblages de cubes et de pavés à partir d’une photographie."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reproduire une construction de cubes et de pavés en regardant une photographie ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 33,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-esp-05",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Le repérage dans l’espace",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Se déplacer et décrire un déplacement dans la classe",
+      "description": "Comprendre et utiliser les consignes avancer, reculer, tourner à droite, tourner à gauche, monter, descendre pour se déplacer ou décrire un trajet dans la classe.",
+      "officialObjectives": [
+        "Se déplacer et décrire des déplacements dans la classe en s’orientant et en utilisant des repères."
+      ],
+      "evidence": [
+        "Comprend et utilise les instructions : avancer, reculer, tourner à droite, tourner à gauche, monter, descendre."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait suivre et donner des consignes comme « avance, tourne à droite, recule » ?",
+      "priorKnowledge": [
+        "Décrire des déplacements (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 33,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-esp-06",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Le repérage dans l’espace",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Représenter un itinéraire sur un plan de la classe",
+      "description": "Tracer sur un plan de la classe le chemin que l’on vient de parcourir, pour le communiquer.",
+      "officialObjectives": [
+        "Construire et utiliser un plan de la classe pour communiquer un déplacement."
+      ],
+      "evidence": [
+        "Représente sur un plan de la classe un itinéraire qu’il a effectué."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tracer sur un plan de la classe le chemin qu’il vient de faire ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 33,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-esp-07",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Le repérage dans l’espace",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Coder un déplacement par une suite d’instructions",
+      "description": "Écrire ou dire une suite d’instructions précises pour qu’un camarade (ou un petit robot) fasse un trajet : au plus dix instructions, dont deux virages.",
+      "officialObjectives": [
+        "Utiliser et produire une suite d’instructions qui codent un déplacement en utilisant un vocabulaire spatial précis."
+      ],
+      "evidence": [
+        "Code un déplacement qu’un autre élève doit effectuer : « avancer de deux pas, tourner à droite, reculer de trois pas ».",
+        "Programme, si un robot est disponible, son déplacement sur un tapis quadrillé avec « avancer d’une case », « pivoter d’un quart de tour à droite », « pivoter d’un quart de tour à gauche ».",
+        "Produit des programmes de déplacement d’au maximum dix instructions, dont deux virages."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire une suite d’instructions comme « avancer de deux pas, tourner à droite, reculer de trois pas » pour guider un camarade ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 33,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-don-01",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données",
+      "subdomain": "Organisation et gestion de données",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Recueillir des données lors d’une petite enquête",
+      "description": "Poser une question à un groupe (« Quel est ton fruit préféré ? ») et noter toutes les réponses, par exemple avec des bâtons. L’enquête porte sur moins de quarante personnes et deux à cinq réponses possibles.",
+      "officialObjectives": [
+        "Collecter des données et présenter ces données sous forme d’un tableau ou d’un diagramme en barres."
+      ],
+      "evidence": [
+        "Effectue un recueil de données pour une population de moins de quarante individus, à partir d’une question comme « Quel est ton animal préféré ? ».",
+        "Produit et utilise un outil pour recueillir les réponses de toute la population étudiée, par exemple des bâtons pour orange, fraise, banane ou kiwi."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait noter avec des bâtons les réponses de sa classe à la question « Quel est ton fruit préféré ? » ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 37,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-don-02",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données",
+      "subdomain": "Organisation et gestion de données",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Organiser des données recueillies dans un tableau",
+      "description": "Ranger les résultats d’une enquête dans un tableau (par exemple : fruit préféré / nombre d’élèves).",
+      "officialObjectives": [
+        "Collecter des données et présenter ces données sous forme d’un tableau ou d’un diagramme en barres."
+      ],
+      "evidence": [
+        "Organise dans un tableau les données recueillies : Orange 4, Fraise 12, Banane 8, Kiwi 2."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait passer de ses bâtons à un tableau « Fruit préféré / Nombre d’élèves » (Orange 4, Fraise 12…) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 37,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-don-03",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données",
+      "subdomain": "Organisation et gestion de données",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Construire un diagramme en barres",
+      "description": "Représenter les résultats d’une enquête par des barres dont la hauteur montre le nombre de réponses, en passant parfois d’abord par des tours de cubes (un cube par personne).",
+      "officialObjectives": [
+        "Collecter des données et présenter ces données sous forme d’un tableau ou d’un diagramme en barres."
+      ],
+      "evidence": [
+        "Construit un diagramme en barres restituant les résultats de son enquête.",
+        "Réalise au préalable, si besoin, une représentation en trois dimensions avec des barres de cubes, à raison d’un cube par individu."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait construire un diagramme en barres montrant que 12 élèves préfèrent la fraise et 2 le kiwi ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 37,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-don-04",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données",
+      "subdomain": "Organisation et gestion de données",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Lire et commenter des données (le plus, le moins, autant que…)",
+      "description": "À chaque étape d’une enquête (bâtons, tableau, diagramme), dire ce que montrent les résultats avec les mots le plus, le moins, autant que, plus que, moins que.",
+      "officialObjectives": [
+        "Collecter des données et présenter ces données sous forme d’un tableau ou d’un diagramme en barres."
+      ],
+      "evidence": [
+        "Interprète, lit et communique les données disponibles à chaque étape (recueil, tableau, diagramme).",
+        "Utilise les expressions « le plus », « le moins », « le plus grand », « le plus petit », « autant que », « plus que » ou « moins que »."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, à partir des résultats de l’enquête, quel fruit est le plus choisi et lequel l’est le moins ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 37,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    },
+    {
+      "id": "fr-ma-cp-don-05",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données",
+      "subdomain": "Organisation et gestion de données",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Construire et compléter un tableau à double entrée",
+      "description": "Remplir un tableau où chaque case correspond à la fois à une ligne et à une colonne, par exemple une forme et une couleur.",
+      "officialObjectives": [
+        "Construire et compléter un tableau à double entrée."
+      ],
+      "evidence": [
+        "Sait qu’un tableau à double entrée permet de représenter tous les couples formés à partir de deux critères, par exemple la forme et la couleur.",
+        "Identifie le contenu d’une case à l’intersection d’une ligne et d’une colonne.",
+        "Complète un tableau croisant des formes (rond, carré, triangle) et des couleurs."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait compléter un tableau qui croise des formes (rond, carré, triangle) et des couleurs ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024",
+        "page": 37,
+        "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-ma-cp-num-01",
+      "prerequisiteId": "fr-ma-cp-num-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Dénombrer une collection suppose de connaitre la suite des nombres."
+    },
+    {
+      "topicId": "fr-ma-cp-num-02",
+      "prerequisiteId": "fr-ma-cp-num-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Construire une collection mobilise les mêmes groupements par dix que le dénombrement."
+    },
+    {
+      "topicId": "fr-ma-cp-num-04",
+      "prerequisiteId": "fr-ma-cp-num-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Lire et écrire un nombre suppose de connaitre la suite orale et écrite des nombres."
+    },
+    {
+      "topicId": "fr-ma-cp-num-05",
+      "prerequisiteId": "fr-ma-cp-num-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’écriture en chiffres est l’une des représentations à relier entre elles."
+    },
+    {
+      "topicId": "fr-ma-cp-num-05",
+      "prerequisiteId": "fr-ma-cp-num-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les collections groupées par dix fournissent la représentation matérielle (barres et cubes)."
+    },
+    {
+      "topicId": "fr-ma-cp-num-06",
+      "prerequisiteId": "fr-ma-cp-num-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "On écrit en lettres un nombre dont on connait le nom et l’écriture en chiffres."
+    },
+    {
+      "topicId": "fr-ma-cp-num-07",
+      "prerequisiteId": "fr-ma-cp-num-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La valeur d’un chiffre s’explique à partir de l’écriture en dizaines et unités."
+    },
+    {
+      "topicId": "fr-ma-cp-num-09",
+      "prerequisiteId": "fr-ma-cp-num-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Comparer deux nombres à deux chiffres s’appuie sur les dizaines puis sur les unités."
+    },
+    {
+      "topicId": "fr-ma-cp-num-09",
+      "prerequisiteId": "fr-ma-cp-num-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les expressions plus grand que, plus petit que donnent leur sens aux symboles < et >."
+    },
+    {
+      "topicId": "fr-ma-cp-num-10",
+      "prerequisiteId": "fr-ma-cp-num-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Ranger des nombres demande de savoir les comparer deux à deux."
+    },
+    {
+      "topicId": "fr-ma-cp-num-11",
+      "prerequisiteId": "fr-ma-cp-num-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Placer des nombres sur une graduation suppose de connaitre leur suite."
+    },
+    {
+      "topicId": "fr-ma-cp-num-11",
+      "prerequisiteId": "fr-ma-cp-lon-04",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Le programme indique que l’usage de règles graduées pour mesurer est un point d’appui pour placer des nombres sur une demi-droite graduée."
+    },
+    {
+      "topicId": "fr-ma-cp-num-12",
+      "prerequisiteId": "fr-ma-cp-num-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les nombres ordinaux se construisent à partir des noms des nombres (quatre, quatrième)."
+    },
+    {
+      "topicId": "fr-ma-cp-num-13",
+      "prerequisiteId": "fr-ma-cp-num-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Repérer un rang s’exprime avec les nombres ordinaux."
+    },
+    {
+      "topicId": "fr-ma-cp-num-14",
+      "prerequisiteId": "fr-ma-cp-num-13",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut savoir repérer un rang avant de le relier au nombre d’éléments qui le précèdent."
+    },
+    {
+      "topicId": "fr-ma-cp-num-15",
+      "prerequisiteId": "fr-ma-cp-num-12",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme indique que la connaissance des nombres ordinaux permet de travailler sur des suites."
+    },
+    {
+      "topicId": "fr-ma-cp-ope-01",
+      "prerequisiteId": "fr-ma-cp-pb-01",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Le programme indique que la résolution de problèmes fournit le cadre qui donne du sens aux opérations."
+    },
+    {
+      "topicId": "fr-ma-cp-ope-02",
+      "prerequisiteId": "fr-ma-cp-ope-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Relier soustraction et addition suppose de comprendre le sens de chacune."
+    },
+    {
+      "topicId": "fr-ma-cp-ope-03",
+      "prerequisiteId": "fr-ma-cp-ope-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les symboles + et - traduisent des opérations dont il faut comprendre le sens."
+    },
+    {
+      "topicId": "fr-ma-cp-ope-04",
+      "prerequisiteId": "fr-ma-cp-cmf-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’addition posée s’appuie sur les résultats des tables d’addition."
+    },
+    {
+      "topicId": "fr-ma-cp-ope-04",
+      "prerequisiteId": "fr-ma-cp-num-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut placer les unités sous les unités et les dizaines sous les dizaines."
+    },
+    {
+      "topicId": "fr-ma-cp-ope-05",
+      "prerequisiteId": "fr-ma-cp-ope-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme aborde la multiplication au CP par des additions itérées."
+    },
+    {
+      "topicId": "fr-ma-cp-ope-05",
+      "prerequisiteId": "fr-ma-cp-pb-03",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Le sens de la multiplication se construit et se montre lors de la résolution de problèmes."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-01",
+      "prerequisiteId": "fr-ma-cp-cmp-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Choisir une procédure adaptée suppose d’en connaitre plusieurs, comme le passage par la dizaine."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-01",
+      "prerequisiteId": "fr-ma-cp-cmp-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le programme cite le cas où ajouter 10 puis retirer 1 n’est pas utile : il faut connaitre cette procédure."
+    },
+    {
+      "topicId": "fr-ma-cp-cmf-01",
+      "prerequisiteId": "fr-ma-cp-ope-03",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Les résultats des tables sont désormais écrits avec les symboles + et =."
+    },
+    {
+      "topicId": "fr-ma-cp-cmf-02",
+      "prerequisiteId": "fr-ma-cp-cmf-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les doubles des nombres de 1 à 10 font partie des tables d’addition."
+    },
+    {
+      "topicId": "fr-ma-cp-cmf-03",
+      "prerequisiteId": "fr-ma-cp-cmf-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La moitié d’un nombre se retrouve à partir des doubles connus (moitié de 8 = 4 car double de 4 = 8)."
+    },
+    {
+      "topicId": "fr-ma-cp-cmn-01",
+      "prerequisiteId": "fr-ma-cp-num-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Ajouter 1, c’est dire le nombre qui vient juste après dans la suite des nombres."
+    },
+    {
+      "topicId": "fr-ma-cp-cmn-02",
+      "prerequisiteId": "fr-ma-cp-num-07",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Ajouter 10 à un nombre, c’est ajouter une dizaine."
+    },
+    {
+      "topicId": "fr-ma-cp-cmn-03",
+      "prerequisiteId": "fr-ma-cp-cmn-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Ajouter 30, c’est ajouter trois dizaines : on généralise l’ajout d’une dizaine."
+    },
+    {
+      "topicId": "fr-ma-cp-cmn-03",
+      "prerequisiteId": "fr-ma-cp-cmf-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "On calcule sur les dizaines (7 dizaines – 3 dizaines) avec les faits numériques."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-02",
+      "prerequisiteId": "fr-ma-cp-cmf-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "La procédure utilise les compléments à dix."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-02",
+      "prerequisiteId": "fr-ma-cp-num-07",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Il faut voir 74 comme 7 dizaines et 4 unités."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-03",
+      "prerequisiteId": "fr-ma-cp-cmf-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "32 + 4 = 36 car 2 + 4 = 6 : on utilise un fait numérique."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-03",
+      "prerequisiteId": "fr-ma-cp-num-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut savoir qu’on agit seulement sur le chiffre des unités."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-04",
+      "prerequisiteId": "fr-ma-cp-cmp-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "On cherche d’abord combien ajouter pour aller à la dizaine supérieure."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-05",
+      "prerequisiteId": "fr-ma-cp-cmn-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Ajouter 9, c’est ajouter 10 puis soustraire 1."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-05",
+      "prerequisiteId": "fr-ma-cp-cmn-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Ajouter 9, c’est ajouter 10 puis soustraire 1."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-06",
+      "prerequisiteId": "fr-ma-cp-cmn-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme précise d’utiliser la procédure apprise pour ajouter des dizaines entières."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-07",
+      "prerequisiteId": "fr-ma-cp-cmf-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "On fait apparaitre des nombres dont on a mémorisé les moitiés."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-07",
+      "prerequisiteId": "fr-ma-cp-num-05",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "On décompose le nombre en dizaines et unités (46 = 40 + 6)."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-08",
+      "prerequisiteId": "fr-ma-cp-cmf-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le nombre d’unités restantes est le complément à 10 du nombre soustrait."
+    },
+    {
+      "topicId": "fr-ma-cp-cmp-08",
+      "prerequisiteId": "fr-ma-cp-num-07",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "On casse une dizaine de 50 en dix unités."
+    },
+    {
+      "topicId": "fr-ma-cp-pb-01",
+      "prerequisiteId": "fr-ma-cp-num-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Les quantités sont représentées par des barres de dix cubes et des cubes isolés, puis dénombrées."
+    },
+    {
+      "topicId": "fr-ma-cp-pb-02",
+      "prerequisiteId": "fr-ma-cp-pb-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Un problème en deux étapes enchaine deux problèmes en une étape."
+    },
+    {
+      "topicId": "fr-ma-cp-pb-03",
+      "prerequisiteId": "fr-ma-cp-num-01",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "On dénombre les croix un par un ou en les regroupant par dix."
+    },
+    {
+      "topicId": "fr-ma-cp-pb-04",
+      "prerequisiteId": "fr-ma-cp-pb-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Faire des groupes égaux s’appuie sur l’idée d’un tout formé de parts de même valeur."
+    },
+    {
+      "topicId": "fr-ma-cp-pb-05",
+      "prerequisiteId": "fr-ma-cp-pb-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le partage équitable s’appuie sur l’idée d’un tout formé de parts de même valeur."
+    },
+    {
+      "topicId": "fr-ma-cp-lon-02",
+      "prerequisiteId": "fr-ma-cp-lon-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le lexique long, court sert à exprimer la comparaison."
+    },
+    {
+      "topicId": "fr-ma-cp-lon-03",
+      "prerequisiteId": "fr-ma-cp-lon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Comparer des segments prolonge la comparaison d’objets selon leur longueur."
+    },
+    {
+      "topicId": "fr-ma-cp-lon-04",
+      "prerequisiteId": "fr-ma-cp-lon-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le report d’un étalon prépare la mesure avec une règle graduée."
+    },
+    {
+      "topicId": "fr-ma-cp-lon-05",
+      "prerequisiteId": "fr-ma-cp-lon-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le centimètre s’utilise en mesurant avec une règle graduée."
+    },
+    {
+      "topicId": "fr-ma-cp-lon-06",
+      "prerequisiteId": "fr-ma-cp-lon-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Une longueur de référence s’exprime en mètres ou en centimètres."
+    },
+    {
+      "topicId": "fr-ma-cp-mas-02",
+      "prerequisiteId": "fr-ma-cp-mas-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Dire plus lourd ou plus léger demande ce lexique."
+    },
+    {
+      "topicId": "fr-ma-cp-mas-03",
+      "prerequisiteId": "fr-ma-cp-mas-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La balance prolonge la comparaison faite en soupesant."
+    },
+    {
+      "topicId": "fr-ma-cp-mon-02",
+      "prerequisiteId": "fr-ma-cp-num-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme utilise la monnaie après le matériel de numération : dix pièces de 1 € jouent le rôle d’une dizaine."
+    },
+    {
+      "topicId": "fr-ma-cp-mon-02",
+      "prerequisiteId": "fr-ma-cp-mon-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer des sommes mobilise les mots pièce, billet, somme, euros."
+    },
+    {
+      "topicId": "fr-ma-cp-mon-03",
+      "prerequisiteId": "fr-ma-cp-mon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Grouper la monnaie par dix euros suppose de savoir que dix pièces de 1 € valent un billet de 10 €."
+    },
+    {
+      "topicId": "fr-ma-cp-mon-04",
+      "prerequisiteId": "fr-ma-cp-mon-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Pour vérifier la somme constituée, il faut savoir en déterminer la valeur."
+    },
+    {
+      "topicId": "fr-ma-cp-mon-04",
+      "prerequisiteId": "fr-ma-cp-num-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "48 €, c’est 4 dizaines et 8 unités : 4 billets de 10 € et 8 pièces de 1 €."
+    },
+    {
+      "topicId": "fr-ma-cp-mon-05",
+      "prerequisiteId": "fr-ma-cp-mon-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Payer un achat suppose de savoir constituer une somme donnée."
+    },
+    {
+      "topicId": "fr-ma-cp-mon-05",
+      "prerequisiteId": "fr-ma-cp-ope-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Calculer un total ou la monnaie à rendre mobilise l’addition et la soustraction."
+    },
+    {
+      "topicId": "fr-ma-cp-tps-01",
+      "prerequisiteId": "fr-ma-cp-num-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Lire l’heure demande de lire les nombres du cadran."
+    },
+    {
+      "topicId": "fr-ma-cp-tps-02",
+      "prerequisiteId": "fr-ma-cp-tps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Placer les aiguilles suppose de savoir lire l’heure sur le cadran."
+    },
+    {
+      "topicId": "fr-ma-cp-tps-03",
+      "prerequisiteId": "fr-ma-cp-tps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Associer une heure à un moment demande de lire l’heure affichée."
+    },
+    {
+      "topicId": "fr-ma-cp-sol-02",
+      "prerequisiteId": "fr-ma-cp-sol-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "On nomme un solide que l’on sait reconnaitre."
+    },
+    {
+      "topicId": "fr-ma-cp-sol-03",
+      "prerequisiteId": "fr-ma-cp-sol-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Décrire un cube ou un pavé suppose de savoir le nommer."
+    },
+    {
+      "topicId": "fr-ma-cp-sol-03",
+      "prerequisiteId": "fr-ma-cp-geo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La nature des faces se dit avec les mots carré et rectangle."
+    },
+    {
+      "topicId": "fr-ma-cp-sol-04",
+      "prerequisiteId": "fr-ma-cp-sol-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Assembler les faces suppose de connaitre leur nombre et leur forme."
+    },
+    {
+      "topicId": "fr-ma-cp-geo-02",
+      "prerequisiteId": "fr-ma-cp-geo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "On nomme une forme que l’on sait reconnaitre."
+    },
+    {
+      "topicId": "fr-ma-cp-geo-03",
+      "prerequisiteId": "fr-ma-cp-geo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Décrire une figure suppose de savoir la nommer."
+    },
+    {
+      "topicId": "fr-ma-cp-geo-05",
+      "prerequisiteId": "fr-ma-cp-geo-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Vérifier un alignement à la règle suppose de savoir ce qu’est un alignement."
+    },
+    {
+      "topicId": "fr-ma-cp-geo-06",
+      "prerequisiteId": "fr-ma-cp-geo-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Tracer une droite par deux points prolonge l’usage de la règle pour les alignements."
+    },
+    {
+      "topicId": "fr-ma-cp-geo-07",
+      "prerequisiteId": "fr-ma-cp-geo-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Tracer avec un gabarit suppose de reconnaitre la forme visée."
+    },
+    {
+      "topicId": "fr-ma-cp-geo-08",
+      "prerequisiteId": "fr-ma-cp-geo-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Construire un carré ou un rectangle mobilise côtés, sommets et longueurs égales."
+    },
+    {
+      "topicId": "fr-ma-cp-geo-08",
+      "prerequisiteId": "fr-ma-cp-geo-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le travail est mené d’abord à main levée puis avec une règle."
+    },
+    {
+      "topicId": "fr-ma-cp-esp-02",
+      "prerequisiteId": "fr-ma-cp-esp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Situer un objet mobilise le vocabulaire des positions."
+    },
+    {
+      "topicId": "fr-ma-cp-esp-03",
+      "prerequisiteId": "fr-ma-cp-esp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le plan représente des positions que l’on sait d’abord situer dans la classe."
+    },
+    {
+      "topicId": "fr-ma-cp-esp-04",
+      "prerequisiteId": "fr-ma-cp-sol-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Reproduire un assemblage suppose de reconnaitre cubes et pavés."
+    },
+    {
+      "topicId": "fr-ma-cp-esp-05",
+      "prerequisiteId": "fr-ma-cp-esp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Tourner à droite ou à gauche suppose de connaitre la gauche et la droite."
+    },
+    {
+      "topicId": "fr-ma-cp-esp-06",
+      "prerequisiteId": "fr-ma-cp-esp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Représenter un itinéraire suppose de savoir décrire un déplacement."
+    },
+    {
+      "topicId": "fr-ma-cp-esp-06",
+      "prerequisiteId": "fr-ma-cp-esp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Représenter un itinéraire suppose de savoir se repérer sur un plan."
+    },
+    {
+      "topicId": "fr-ma-cp-esp-07",
+      "prerequisiteId": "fr-ma-cp-esp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Coder un déplacement utilise les instructions avancer, reculer, tourner."
+    },
+    {
+      "topicId": "fr-ma-cp-don-01",
+      "prerequisiteId": "fr-ma-cp-num-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Recueillir les réponses demande de les dénombrer."
+    },
+    {
+      "topicId": "fr-ma-cp-don-02",
+      "prerequisiteId": "fr-ma-cp-don-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme indique que l’élève organise ensuite dans un tableau les données recueillies."
+    },
+    {
+      "topicId": "fr-ma-cp-don-03",
+      "prerequisiteId": "fr-ma-cp-don-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le diagramme représente les effectifs rassemblés dans le tableau."
+    },
+    {
+      "topicId": "fr-ma-cp-don-03",
+      "prerequisiteId": "fr-ma-cp-num-11",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’axe du diagramme est gradué de un en un."
+    },
+    {
+      "topicId": "fr-ma-cp-don-04",
+      "prerequisiteId": "fr-ma-cp-don-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Commenter des données suppose d’en disposer."
+    },
+    {
+      "topicId": "fr-ma-cp-don-04",
+      "prerequisiteId": "fr-ma-cp-num-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les expressions le plus, autant que, plus que viennent du vocabulaire de la comparaison."
+    },
+    {
+      "topicId": "fr-ma-cp-don-05",
+      "prerequisiteId": "fr-ma-cp-don-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le tableau à double entrée prolonge le tableau simple."
+    }
+  ],
+  "extractedAt": "2026-10-22"
+}

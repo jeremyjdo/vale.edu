@@ -1,0 +1,2791 @@
+{
+  "programme": "eps-c2",
+  "level": "multiple",
+  "themeCodes": {
+    "cour": "Se déplacer le plus vite ou le plus longtemps possible",
+    "saut": "Se déplacer pour sauter le plus haut ou le plus loin possible",
+    "lanc": "Se déplacer pour lancer le plus loin possible",
+    "orie": "Se déplacer pour s’orienter dans l’espace",
+    "res": "Recueillir et apprécier des résultats",
+    "terr": "Construire des équilibres dans des environnements terrestres",
+    "loco": "Construire des équilibres avec un moyen de locomotion",
+    "nat": "Construire des équilibres dans un environnement aquatique",
+    "secu": "Agir en toute sécurité",
+    "art": "Développer une motricité à visée artistique",
+    "ench": "Créer des enchainements simples et mémorisés",
+    "emo": "Éprouver et exprimer des émotions",
+    "opp": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+    "marq": "Faire des choix pour marquer",
+    "regl": "Respecter les règles du jeu, les partenaires et les adversaires"
+  },
+  "notions": [
+    {
+      "id": "fr-eps-cp-cour-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Partir vite au signal de départ, quel qu’il soit",
+      "description": "Reconnaître le signal qui lance une course (un son, un geste, une tape sur l’épaule) et s’élancer aussitôt.",
+      "officialObjectives": [
+        "Découvrir une diversité de signaux de départ."
+      ],
+      "evidence": [
+        "Identifie le signal de départ, qu’il soit sonore, visuel ou tactile.",
+        "S’élance avec réactivité dès le signal."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait partir en courant dès le signal, qu’il s’agisse d’un coup de sifflet, d’un geste de la main ou d’une tape sur l’épaule ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-cour-02",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Courir vite en restant équilibré dans son couloir",
+      "description": "Courir le plus vite possible en gardant l’équilibre : le regard porté loin devant, sans sortir de son couloir.",
+      "officialObjectives": [
+        "Courir vite de façon équilibrée."
+      ],
+      "evidence": [
+        "Regarde loin devant lui pendant sa course.",
+        "Reste dans l’espace dévolu à sa course (un couloir, une zone aménagée)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait courir vite en regardant loin devant, sans sortir de son couloir ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-cour-03",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Franchir en courant des obstacles au sol sans ralentir",
+      "description": "Enjamber en courant des obstacles posés au sol (des « rivières » matérialisées par des lattes ou des tracés) sans perdre de vitesse, avec l’un ou l’autre pied.",
+      "officialObjectives": [
+        "Courir et franchir sans ralentir des obstacles horizontaux."
+      ],
+      "evidence": [
+        "Franchit plusieurs obstacles horizontaux (type « rivière ») sans ralentir sa course.",
+        "Franchit toutes les rivières avec le pied droit, puis avec le pied gauche.",
+        "Franchit toutes les rivières en alternant le pied d’impulsion."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait enjamber en courant plusieurs « rivières » tracées au sol sans ralentir, d’abord avec le pied droit puis avec le pied gauche ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-cour-04",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Courir longtemps en s’arrêtant le moins possible",
+      "description": "Courir sur une durée donnée en s’arrêtant ou en marchant de moins en moins souvent : c’est le début de la course d’endurance. Le « contrat de course » fixe un objectif adapté à chacun.",
+      "officialObjectives": [
+        "Courir longtemps en limitant les arrêts."
+      ],
+      "evidence": [
+        "Réduit le nombre d’arrêts dans un espace de course aménagé autorisant des zones de marche (« contrats de course »).",
+        "Court en groupe pour parcourir la plus grande distance possible sur une durée donnée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait courir pendant la durée fixée en s’arrêtant pour marcher de moins en moins souvent ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-saut-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer pour sauter le plus haut ou le plus loin possible",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Sauter sans élan en variant les impulsions",
+      "description": "Sauter loin ou haut sans prendre d’élan, en partant tantôt des deux pieds joints, tantôt d’un seul pied puis de l’autre (l’« impulsion » est la poussée qui fait décoller).",
+      "officialObjectives": [
+        "Varier les impulsions pour sauter loin ou haut."
+      ],
+      "evidence": [
+        "Saute vers l’avant et sans élan pour franchir un obstacle horizontal en variant les impulsions (pieds joints, un pied, puis l’autre).",
+        "Saute sans élan au-dessus d’un fil ou d’un tapis en variant les impulsions.",
+        "Saute pour atteindre des zones de plus en plus hautes ou de plus en plus éloignées de la zone d’impulsion (fil, tapis, plots)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait sauter sans élan par-dessus un fil ou un tapis, une fois pieds joints, puis sur un pied, puis sur l’autre ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-lanc-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer pour lancer le plus loin possible",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Lancer loin des objets variés de différentes façons",
+      "description": "Lancer différents objets (balle, vortex, cerceau) le plus loin possible, à une ou à deux mains, en s’aidant des jambes et du buste.",
+      "officialObjectives": [
+        "Lancer loin et de manière variée différents objets"
+      ],
+      "evidence": [
+        "Lance des objets variés (balle, vortex, cerceaux) en visant des zones plus ou moins éloignées.",
+        "Lance de différentes manières (à deux mains, à une main, mains au niveau de la poitrine, au-dessus de la tête) vers des zones de plus en plus éloignées.",
+        "Lance loin en mobilisant ses jambes et en basculant le haut du corps de l’arrière vers l’avant."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lancer une balle loin, à une main puis à deux mains au-dessus de la tête, en basculant le haut du corps de l’arrière vers l’avant ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-orie-01",
+      "programme": "eps-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer pour s’orienter dans l’espace",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Se situer sur un plan ou une photo dans un lieu connu",
+      "description": "Faire le lien entre un plan (ou une photo) et le lieu réel, comme la cour ou le gymnase, pour savoir où l’on se trouve et retrouver une balise toute proche.",
+      "officialObjectives": [
+        "Repérer des éléments visibles pour se situer dans un espace connu."
+      ],
+      "evidence": [
+        "Identifie et nomme les symboles présents sur un plan et les reconnaît sur le terrain.",
+        "Se situe sur un plan en reconnaissant des éléments remarquables situés « à proximité ».",
+        "Identifie des éléments remarquables sur une photographie et reconnaît l’endroit où elle a été prise.",
+        "Trouve à l’aide d’un plan une balise facilement identifiable et visible, à proximité de sa position."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître sur le terrain les symboles d’un plan de la cour, puis aller chercher une balise toute proche indiquée sur ce plan ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-res-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Recueillir et apprécier des résultats",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Repérer son résultat grâce à des repères concrets",
+      "description": "Utiliser des repères simples (zones marquées au sol, plots, distance parcourue) pour voir jusqu’où on a sauté, lancé ou couru, et constater ses progrès.",
+      "officialObjectives": [
+        "Explorer et utiliser des outils de mesure concrets."
+      ],
+      "evidence": [
+        "Repère la zone qui matérialise le résultat de son action ou de celle d’un camarade (durée ou distance en course, zone de réception pour le lancer et le saut).",
+        "Mesure ses progrès grâce à des repères très concrets (zone atteinte, distance parcourue)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, après un lancer, dans quelle zone l’objet est retombé et si c’est plus loin qu’à l’essai précédent ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-terr-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Découvrir la roulade avant depuis un support surélevé",
+      "description": "Découvrir la roulade avant en partant d’un support un peu plus haut que le sol (« contre-haut » : bloc de mousse, banc), en rentrant bien la tête.",
+      "officialObjectives": [
+        "Explorer un nouvel équilibre avec le corps qui roule vers l’avant."
+      ],
+      "evidence": [
+        "Effectue une roulade avant à partir d’un contre-haut (bloc, banc) avec le menton collé à la poitrine.",
+        "Roule en variant sa position de départ : jambes tendues, à genoux, accroupi."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire une roulade avant en partant d’un bloc de mousse, le menton collé à la poitrine ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 7,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-terr-02",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Sauter le corps droit et se réceptionner en équilibre",
+      "description": "En gymnastique, sauter à pieds joints en gardant le corps bien droit en l’air, les bras le long du corps, puis retomber sans perdre l’équilibre.",
+      "officialObjectives": [
+        "Explorer un nouvel équilibre de suspension en l’air avec le corps droit."
+      ],
+      "evidence": [
+        "Effectue un saut avec le corps droit sur une surface plane après une impulsion sur deux pieds.",
+        "Se réceptionne en équilibre.",
+        "Garde le corps droit pendant la suspension en l’air, les bras placés le long du corps.",
+        "Effectue deux sauts successifs sur une surface plane, le corps droit, après une impulsion à deux pieds."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire deux sauts à pieds joints de suite, le corps bien droit et les bras le long du corps, et retomber en équilibre ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 7,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-terr-03",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Avancer à quatre pattes, bassin plus haut que les épaules",
+      "description": "Première approche du « renversement » (avoir la tête plus bas que le bassin) : se déplacer à quatre pattes sur plusieurs mètres, les fesses plus hautes que les épaules.",
+      "officialObjectives": [
+        "Explorer un nouvel équilibre avec le corps qui se renverse."
+      ],
+      "evidence": [
+        "Se déplace sur plusieurs mètres en quadrupédie, le bassin au-dessus de la ligne des épaules."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait avancer à quatre pattes sur plusieurs mètres en gardant les fesses plus hautes que les épaules ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 7,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-terr-04",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Marcher sur un banc sans tomber",
+      "description": "Garder l’équilibre en se déplaçant sur un support étroit, comme un banc, en s’aidant des bras écartés.",
+      "officialObjectives": [
+        "Explorer un nouvel équilibre avec le corps en mouvement sur une surface réduite."
+      ],
+      "evidence": [
+        "Se déplace sur un banc avec les bras écartés, sans tomber."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait marcher d’un bout à l’autre d’un banc, bras écartés, sans tomber ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 7,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-terr-05",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Oser grimper sur un mur ou un espalier (moins de 3 m)",
+      "description": "Oser se déplacer sur un support vertical (espalier, mur d’escalade, corde), à moins de trois mètres du sol, en utilisant de grosses prises.",
+      "officialObjectives": [
+        "Explorer un nouvel équilibre vertical en se déplaçant sur un support vertical (espalier, mur, mur d’escalade, corde, etc.)."
+      ],
+      "evidence": [
+        "Ose se déplacer sur un parcours de grimpe de moins de trois mètres de haut, constitué de plusieurs grosses prises.",
+        "Limite les arrêts et les retours au sol sur ces parcours simples."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} ose grimper sur un parcours de grosses prises (à moins de 3 mètres de haut) sans redescendre au sol à chaque difficulté ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 7,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-loco-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres avec un moyen de locomotion",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Rouler en ligne droite à vélo, en rollers ou en patinette",
+      "description": "Tenir en équilibre sur un vélo, des rollers ou une patinette (trottinette) en allant tout droit, puis freiner et s’arrêter en posant un pied par terre. C’est la première étape du « savoir rouler à vélo ».",
+      "officialObjectives": [
+        "Rouler et glisser, avec un moyen de locomotion, en ligne droite."
+      ],
+      "evidence": [
+        "Maintient son équilibre sur un moyen de locomotion (vélo, roller, patinette) pour réaliser un parcours en ligne droite.",
+        "Roule ou glisse d’un plot de départ jusqu’au plot d’arrivée, sans tomber.",
+        "Regarde devant lui, freine puis s’arrête en posant un pied au sol.",
+        "Réalise un parcours en s’arrêtant le moins possible."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait rouler à vélo tout droit d’un plot à un autre sans tomber, puis freiner et s’arrêter en posant un pied au sol ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 7,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-nat-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans un environnement aquatique",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Entrer seul dans l’eau et mettre la tête sous l’eau",
+      "description": "Se sentir à l’aise à la piscine : entrer et sortir seul du bassin, s’éloigner du bord avec de l’eau jusqu’aux épaules, mettre la tête sous l’eau en retenant sa respiration. C’est la première étape vers le « savoir nager ».",
+      "officialObjectives": [
+        "Explorer le milieu aquatique et découvrir une nouvelle locomotion."
+      ],
+      "evidence": [
+        "Entre et sort seul de l’eau (par l’échelle, par un saut depuis le bord du bassin).",
+        "S’éloigne progressivement du bord et se déplace avec les épaules immergées.",
+        "Accepte de mettre la tête sous l’eau en bloquant sa respiration pendant plusieurs secondes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait entrer seul dans le bassin (par l’échelle ou en sautant du bord) et mettre la tête sous l’eau plusieurs secondes en bloquant sa respiration ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 7,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-secu-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Agir en toute sécurité",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Respecter les règles pour ne pas se mettre en danger",
+      "description": "Connaître et suivre les règles qui évitent de se faire mal ou de blesser les autres : attendre le signal, rester dans sa zone, connaître l’équipement de sécurité, respecter le règlement de la piscine.",
+      "officialObjectives": [
+        "Respecter les règles pour ne pas se mettre en danger."
+      ],
+      "evidence": [
+        "Connaît et respecte les positions de départ et d’arrivée d’un parcours.",
+        "Attend le signal de départ avant de s’engager dans le parcours, pour ne pas gêner ou mettre en danger ses camarades.",
+        "Connaît et respecte les limites de la zone dans laquelle il évolue.",
+        "Identifie les consignes et les règles liées au respect de l’environnement de la pratique.",
+        "Connaît les équipements de sécurité adaptés à l’activité.",
+        "À la piscine, respecte les principales règles de sécurité (espace de pratique ou d’évolution, règlement de la piscine)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait attendre le signal avant de s’élancer sur un parcours et rester dans la zone prévue ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 7,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-art-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Développer une motricité à visée artistique",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Bouger tout son corps pour danser ou faire du cirque",
+      "description": "Explorer ce que le corps peut exprimer en danse, en gymnastique ou en arts du cirque : faire bouger toutes ses parties, faire de grands gestes, suivre la musique.",
+      "officialObjectives": [
+        "Explorer des actions à visée artistique"
+      ],
+      "evidence": [
+        "En danse, mobilise tout son corps (bras, jambes, tête, mains, buste).",
+        "En arts du cirque et en gymnastique, explore l’amplitude gestuelle (étirer ses bras, tendre sa jambe d’appui en équilibre sur une poutre).",
+        "En danse ou en gymnastique, adapte sa gestuelle à une phrase musicale."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait danser sur une musique en faisant bouger tout son corps : bras, jambes, tête, mains et buste ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 11,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-art-02",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Développer une motricité à visée artistique",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Occuper tout l’espace de danse sans toucher les autres",
+      "description": "Utiliser tout l’espace de la « scène » (l’endroit où l’on danse ou présente), sans toucher les autres, en faisant de très grands ou de très petits mouvements.",
+      "officialObjectives": [
+        "Explorer l’espace scénique."
+      ],
+      "evidence": [
+        "En danse, adapte ses déplacements à l’espace délimité : danse « très grand » ou « très petit ».",
+        "Occupe tout l’espace sans contact avec les autres.",
+        "En arts du cirque, se déplace sur tout l’espace selon le verbe d’action proposé (sauter, courir, ramper, tourner).",
+        "En gymnastique, explore tout l’espace disponible en adaptant ses mouvements aux matériels (bancs, poutres, cordes, chaises, tapis)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait se déplacer dans toute la salle en dansant « très grand » puis « très petit », sans toucher les autres ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 11,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-ench-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Créer des enchainements simples et mémorisés",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Reproduire une courte phrase dansée ou acrobatique",
+      "description": "Refaire une petite suite de mouvements montrée par l’enseignant ou un camarade (une « phrase dansée » ou un enchaînement acrobatique), en respectant le début, le milieu et la fin.",
+      "officialObjectives": [
+        "Reproduire un enchainement artistique."
+      ],
+      "evidence": [
+        "Respecte le contenu de la phrase dansée ou de l’enchaînement acrobatique.",
+        "En danse traditionnelle, reproduit le début, le milieu et la fin d’une phrase chorégraphiée.",
+        "En danse, reproduit la phrase d’un partenaire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait refaire une courte danse traditionnelle apprise en classe, du début à la fin ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 11,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-emo-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Éprouver et exprimer des émotions",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Accepter d’être regardé et exprimer une émotion avec son corps",
+      "description": "Commencer à se comporter en artiste : se montrer devant les autres, saluer le public à la fin, faire passer une émotion (joie, colère, peur) ou un état (fatigué, pressé) par ses gestes.",
+      "officialObjectives": [
+        "Explorer la posture d’artiste."
+      ],
+      "evidence": [
+        "Accepte d’être regardé pendant sa prestation.",
+        "Salue le public à la fin de la prestation.",
+        "Traduit une émotion par son expression corporelle (sauter de joie, taper des pieds de colère).",
+        "En danse ou en arts du cirque, exprime un état (pressé, fatigué, surpris, joyeux), un sentiment, une émotion (joie, tristesse, peur) ou une énergie (mou, résistant, lourd)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer avec son corps, sans parler, qu’on est joyeux, fatigué ou en colère, puis saluer le public à la fin ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 11,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-emo-02",
+      "programme": "eps-c2",
+      "type": "LANGUAGE",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Éprouver et exprimer des émotions",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Décrire une prestation avec des mots précis",
+      "description": "Regarder en silence la présentation des camarades, puis dire ce qu’on a vu avec des mots précis (mouvements, espace, matériel) et quelle émotion le numéro a provoquée.",
+      "officialObjectives": [
+        "Apprécier et décrire une prestation à l’aide d’un vocabulaire approprié."
+      ],
+      "evidence": [
+        "Utilise un vocabulaire spécifique pour décrire une prestation (espace, matériel, mouvement, verbes d’action).",
+        "Reste respectueux, silencieux et attentif pendant la prestation de ses camarades.",
+        "En arts du cirque, associe une émotion à un numéro observé (joie, peur, étonnement).",
+        "En gymnastique, reconnaît un élément et sait le nommer."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter ce qu’un camarade a fait pendant son numéro (par exemple « rouler sur le tapis, sauter du banc ») et dire l’émotion ressentie en le regardant ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 11,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-opp-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Courir, s’arrêter et se faire des passes dans un jeu collectif",
+      "description": "Dans les jeux de ballon ou de poursuite, savoir démarrer, s’arrêter net, changer de direction, et lancer ou attraper une balle à deux mains.",
+      "officialObjectives": [
+        "Maitriser des actions d’opposition simples."
+      ],
+      "evidence": [
+        "Dans un jeu collectif, court, s’arrête et change de direction.",
+        "Lance et attrape à deux mains, en passe directe, différents types de balles."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lancer et attraper un ballon à deux mains avec un camarade, sans le faire tomber ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 14,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-opp-02",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Pousser ou tirer un adversaire dans un jeu de lutte",
+      "description": "Dans les jeux de combat (jeux de lutte où l’on s’attrape), rester stable sur ses jambes, accepter le contact et pousser ou tirer l’autre pour le faire entrer dans la zone ou en sortir.",
+      "officialObjectives": [
+        "Maitriser des actions d’opposition simples."
+      ],
+      "evidence": [
+        "Dans un jeu de combat de préhension, est solide sur ses appuis et accepte le contact.",
+        "Tire ou pousse son adversaire pour le faire rentrer ou sortir de la zone de combat."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, dans un jeu de lutte, rester bien campé sur ses jambes et pousser son adversaire hors du tapis ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 14,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-opp-03",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Utiliser toute la zone de jeu et en respecter les limites",
+      "description": "Bouger partout sur le terrain (au sol, en l’air, sur un grand ou un petit terrain) tout en sachant où sont les limites de l’aire de jeu.",
+      "officialObjectives": [
+        "Explorer la zone de jeu dans toutes ses dimensions."
+      ],
+      "evidence": [
+        "Se déplace pour explorer toutes les zones possibles (au sol, en aérien, sur grand terrain, sur petit terrain).",
+        "Identifie les limites du terrain ou de l’aire de jeu.",
+        "Dans un jeu de combat, se déplace, accepte l’opposition et reste dans la zone de jeu.",
+        "Dans un jeu collectif avec ou sans ballon, est mobile et actif sur tout l’espace de jeu."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer les limites du terrain de jeu et rester à l’intérieur tout en bougeant partout ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 14,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-marq-01",
+      "programme": "eps-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Faire des choix pour marquer",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Distinguer partenaires et adversaires et connaître les rôles",
+      "description": "Savoir qui joue avec soi et qui joue contre soi, connaître les rôles dans une équipe (porteur du ballon, non-porteur, attaquant, défenseur) et se montrer prêt à recevoir une passe.",
+      "officialObjectives": [
+        "Se situer pour agir seul ou à plusieurs."
+      ],
+      "evidence": [
+        "Reconnaît ses partenaires et ses adversaires.",
+        "Différencie « jouer avec » et « jouer contre ».",
+        "Dans un jeu collectif avec ballon, connaît et identifie les différents rôles dans une équipe (porteur de balle, non-porteur de balle, attaquant, défenseur).",
+        "Prépare ses mains et se rapproche de son partenaire pour lui indiquer qu’il est prêt à recevoir le ballon."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, dans un jeu de ballon, qui sont ses partenaires et qui sont ses adversaires, et tendre les mains vers un partenaire pour montrer qu’on est prêt à recevoir la balle ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 15,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-regl-01",
+      "programme": "eps-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Respecter les règles du jeu, les partenaires et les adversaires",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Connaître le but du jeu et ses principales règles",
+      "description": "Comprendre à quoi servent les règles d’un jeu, connaître le but à atteindre et savoir ce qui est une faute (sortir du terrain, toucher un autre joueur…).",
+      "officialObjectives": [
+        "Explorer les règles du jeu."
+      ],
+      "evidence": [
+        "Connaît le but du jeu et les consignes pour agir.",
+        "Découvre l’importance des règles pour le bon déroulement du jeu.",
+        "Reformule les principales règles du jeu avec ses propres mots.",
+        "Associe les fautes aux principales règles du jeu (sortie de terrain, manipulation du ballon, contact entre joueurs)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer avec ses mots le but d’un jeu pratiqué en EPS et dire ce qui y est une faute (sortir du terrain, toucher un autre joueur…) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 15,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-cp-regl-02",
+      "programme": "eps-c2",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Respecter les règles du jeu, les partenaires et les adversaires",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Garder son calme en gagnant ou en perdant, jouer avec tous",
+      "description": "Contrôler ses émotions quand on gagne comme quand on perd, et accepter de jouer avec tous les camarades de son équipe.",
+      "officialObjectives": [
+        "Explorer les interactions dans le jeu."
+      ],
+      "evidence": [
+        "Contrôle ses émotions dans la victoire comme dans la défaite, dans diverses situations de jeu.",
+        "Dans un jeu collectif, accepte de jouer avec les autres."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait rester calme et continuer à jouer après avoir perdu une partie ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 15,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-cour-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Se tenir prêt et immobile avant le signal de départ",
+      "description": "Avant une course, se mettre en position et rester immobile, prêt à partir, en guettant le signal.",
+      "officialObjectives": [
+        "Se préparer au signal de départ."
+      ],
+      "evidence": [
+        "Reste immobile avant le départ.",
+        "Est attentif au signal de départ."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait rester immobile sur la ligne de départ, attentif, jusqu’au signal ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-cour-02",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Courir vite en slalomant et en changeant de direction",
+      "description": "Courir vite tout en coordonnant ses mouvements : slalomer entre des objets, courir en arrière ou sur le côté sans perdre l’équilibre.",
+      "officialObjectives": [
+        "Courir vite et de façon coordonnée."
+      ],
+      "evidence": [
+        "Court vite en slalomant entre des petits objets.",
+        "Court vite en variant la direction de ses déplacements (vers l’avant, l’arrière, sur le côté)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait courir vite en slalomant entre des plots, puis en courant sur le côté ou en arrière ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-cour-03",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Franchir en courant une petite haie sans ralentir",
+      "description": "Passer en courant au-dessus d’un obstacle placé plus bas que le genou, sans freiner, avec un pied puis avec l’autre : c’est l’initiation à la course de haies.",
+      "officialObjectives": [
+        "Courir et franchir sans ralentir des obstacles verticaux."
+      ],
+      "evidence": [
+        "Franchit un obstacle vertical placé en deçà de la hauteur de son genou sans ralentir sa course.",
+        "Franchit l’obstacle vertical avec le pied droit, puis avec le pied gauche."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait passer en courant au-dessus d’une petite haie plus basse que son genou, sans ralentir ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-cour-04",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Courir longtemps sans s’arrêter",
+      "description": "Courir pendant toute une durée fixée sans marcher ni s’arrêter, en réussissant un « contrat de course » (objectif de course adapté à ses capacités).",
+      "officialObjectives": [
+        "Courir longtemps sans s’arrêter."
+      ],
+      "evidence": [
+        "Court sans s’arrêter sur une durée de course donnée.",
+        "Réussit un « contrat de course » adapté à ses capacités."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait courir sans s’arrêter pendant toute la durée fixée par l’enseignant ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-saut-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer pour sauter le plus haut ou le plus loin possible",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Sauter en prenant appel sur un pied",
+      "description": "Apprendre à décoller sur un seul pied, toujours le même : le « pied d’appel », celui avec lequel on saute le mieux.",
+      "officialObjectives": [
+        "Construire une impulsion avec un pied d’appel pour sauter loin ou haut."
+      ],
+      "evidence": [
+        "Réalise des foulées bondissantes vers l’avant.",
+        "Effectue une succession de bonds vers le haut.",
+        "Identifie le pied avec lequel il préfère sauter (pied d’appel)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait enchaîner de grandes foulées bondissantes et dire avec quel pied il est le plus facile de sauter ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-lanc-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer pour lancer le plus loin possible",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Lancer loin et droit devant soi",
+      "description": "Lancer un objet le plus loin possible mais aussi droit devant soi (« dans l’axe »), en le faisant retomber dans la zone de lancer.",
+      "officialObjectives": [
+        "Lancer loin et dans l’axe différents objets."
+      ],
+      "evidence": [
+        "Lance un objet loin en le faisant passer au-dessus d’un obstacle vertical.",
+        "Lance un objet loin dans les limites de la zone de lancer."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lancer une balle loin, par-dessus un obstacle placé devant soi, en la faisant retomber dans la zone de lancer ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-orie-01",
+      "programme": "eps-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer pour s’orienter dans l’espace",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Orienter son plan et le garder orienté en se déplaçant",
+      "description": "Tourner son plan pour qu’il soit dans le même sens que le terrain, puis le réorienter à chaque changement de direction pour toujours savoir où l’on est.",
+      "officialObjectives": [
+        "Repérer des éléments visibles pour s’orienter dans un espace connu."
+      ],
+      "evidence": [
+        "Oriente son plan à l’aide des éléments remarquables situés sur le terrain.",
+        "Ajuste l’orientation de son plan à chaque changement de direction.",
+        "Se situe sur le plan à chaque arrêt."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tourner le plan de la cour pour qu’il soit dans le même sens que le terrain, et le réorienter quand on change de direction ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-res-01",
+      "programme": "eps-c2",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Recueillir et apprécier des résultats",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Relever ses résultats et les comparer d’un essai à l’autre",
+      "description": "Noter ou dire son résultat (temps, distance, zone atteinte) et le comparer à celui de l’essai précédent pour savoir si l’on progresse.",
+      "officialObjectives": [
+        "Identifier la mesure d’un résultat pour progresser."
+      ],
+      "evidence": [
+        "Relève et communique les résultats obtenus.",
+        "Compare les résultats d’un essai à l’autre pour mesurer ses progrès."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait noter la distance de son saut et dire si elle est meilleure qu’à l’essai précédent ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-terr-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Faire une roulade avant au sol et finir en équilibre",
+      "description": "Faire la roulade avant directement sur un tapis au sol, bien droit, et se relever en équilibre à la fin.",
+      "officialObjectives": [
+        "Construire un nouvel équilibre avec le corps qui roule vers l’avant."
+      ],
+      "evidence": [
+        "Effectue une roulade avant sur une surface plane avec le menton collé à la poitrine.",
+        "Réalise une roulade avant dans l’axe et termine en équilibre."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire une roulade avant sur un tapis au sol, sans dévier, et finir debout en équilibre ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-terr-02",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Sauter le corps droit depuis un banc ou un bloc",
+      "description": "Sauter à pieds joints depuis un support surélevé (banc, bloc), garder le corps droit en l’air et atterrir en équilibre dans une cible (un cerceau).",
+      "officialObjectives": [
+        "Construire un nouvel équilibre de suspension en l’air avec le corps droit."
+      ],
+      "evidence": [
+        "Effectue un saut avec le corps droit depuis un contre-haut (banc, bloc) après une impulsion sur deux pieds.",
+        "Se réceptionne en équilibre dans un cerceau.",
+        "Réalise un saut avec le corps droit."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait sauter d’un banc à pieds joints, le corps droit, et retomber en équilibre dans un cerceau ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-terr-03",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Tenir la position de « la planche », pieds surélevés",
+      "description": "Mains au sol et pieds posés sur un banc ou un bloc, tenir le corps bien droit et gainé (position « de la planche »), les épaules juste au-dessus des mains.",
+      "officialObjectives": [
+        "Construire un nouvel équilibre avec le corps qui se renverse."
+      ],
+      "evidence": [
+        "En position renversée, les jambes en appui sur un contre-haut (bloc, banc), aligne ses mains et ses épaules (position dite « de la planche »).",
+        "A le corps gainé, les épaules dans l’axe et au-dessus des mains."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tenir la position de « la planche », les pieds posés sur un banc, le corps gainé et les épaules au-dessus des mains ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-terr-04",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Marcher sur une poutre sans tomber",
+      "description": "Garder l’équilibre en se déplaçant sur une poutre, plus étroite qu’un banc, en s’aidant des bras écartés.",
+      "officialObjectives": [
+        "Construire un nouvel équilibre avec le corps en mouvement sur une surface réduite."
+      ],
+      "evidence": [
+        "Se déplace sans tomber sur une poutre avec les bras écartés."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait traverser une poutre, bras écartés, sans tomber ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-terr-05",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Grimper puis traverser une paroi sans retour au sol",
+      "description": "Sur un mur d’escalade ou un espalier, monter (à moins de trois mètres) puis se déplacer en traversée d’un point à un autre sans redescendre, en coordonnant bras et jambes.",
+      "officialObjectives": [
+        "Construire un nouvel équilibre vertical en se déplaçant sur un support vertical."
+      ],
+      "evidence": [
+        "Se déplace vers le haut (à moins de trois mètres), puis en traversée d’un point A à un point B sans retour au sol.",
+        "Dissocie et coordonne les actions des bras et des jambes dans son déplacement."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait traverser un mur d’escalade d’un point A à un point B sans poser le pied au sol ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-loco-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres avec un moyen de locomotion",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Rouler en virage et en slalom",
+      "description": "À vélo, en rollers ou en patinette, ne plus seulement aller tout droit : prendre des virages des deux côtés, slalomer, et garder l’équilibre même les pieds retirés des pédales.",
+      "officialObjectives": [
+        "Rouler et glisser, avec un moyen de locomotion, dans des situations variées."
+      ],
+      "evidence": [
+        "Roule ou glisse sur des parcours en effectuant des virages à droite et à gauche.",
+        "Pédale sur des trajectoires variées (ligne droite, slalom).",
+        "Roule en retirant ses pieds des pédales."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire un slalom à vélo entre des plots, en tournant à droite et à gauche ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-nat-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans un environnement aquatique",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Se laisser remonter à la surface et découvrir la flottaison",
+      "description": "Comprendre que l’eau porte le corps : descendre toucher le fond puis se laisser remonter sans bouger, tenir un instant dans l’eau sans s’accrocher au bord, essayer de flotter sur le ventre et sur le dos.",
+      "officialObjectives": [
+        "Accepter l’action de l’eau sur son corps et construire un nouvel équilibre horizontal."
+      ],
+      "evidence": [
+        "Touche le fond avec les pieds puis se laisse remonter passivement à la surface en bloquant sa respiration.",
+        "Se maintient un court instant en position verticale dans l’eau sans prendre appui sur le bord du bassin.",
+        "Expérimente la flottaison sur le ventre et sur le dos."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait descendre toucher le fond de la piscine avec les pieds, puis se laisser remonter sans bouger à la surface en retenant sa respiration ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-secu-01",
+      "programme": "eps-c2",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Agir en toute sécurité",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Repérer les dangers et adapter son comportement",
+      "description": "Reconnaître ce qui est dangereux (un camarade déjà sur le parcours, une hauteur trop grande) et réagir : prévenir l’adulte, attendre, aider. Comprendre aussi pourquoi l’eau fait remonter et pourquoi il faut un peu de vitesse pour tenir en équilibre sur un vélo.",
+      "officialObjectives": [
+        "Identifier les dangers propres à l’activité et adapter son comportement."
+      ],
+      "evidence": [
+        "Reconnaît des situations dangereuses pour lui ou pour les autres et prévient le professeur.",
+        "Ne s’engage pas dans un parcours où un camarade est déjà engagé, et aide un camarade en difficulté.",
+        "Connaît et respecte la hauteur de sécurité à ne pas dépasser.",
+        "Comprend des principes d’efficacité au service de sa sécurité : la poussée d’Archimède, qui permet une remontée passive dans l’eau ; la vitesse, condition de l’équilibre sur un moyen de locomotion.",
+        "Aide le professeur à installer le petit matériel (tapis, blocs) et vérifie son équipement dans le respect des règles de sécurité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi on ne s’engage pas sur un parcours d’escalade quand un camarade y est déjà, et quoi faire si quelqu’un est en difficulté ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-art-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Développer une motricité à visée artistique",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Reproduire des procédés de danse et des figures de cirque simples",
+      "description": "Reprendre des façons de danser ensemble (tous en même temps « à l’unisson », l’un après l’autre « en cascade », en répétant un geste) et transformer sa façon de se déplacer en imaginant une situation (marcher sur un fil, courir sur des braises).",
+      "officialObjectives": [
+        "Reproduire des actions à visée artistique."
+      ],
+      "evidence": [
+        "En danse, reproduit des procédés chorégraphiques simples (répétition, unisson, cascade), éventuellement sur une phrase musicale.",
+        "Utilise les paramètres du mouvement et son imagination pour transformer des déplacements (marcher sur un fil, courir sur des braises, avancer dans l’obscurité).",
+        "Dans un numéro d’arts du cirque, reproduit des figures simples."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait se déplacer « comme sur des braises » ou « comme dans l’obscurité », puis refaire un geste de danse en même temps que tout le groupe ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 12,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-art-02",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Développer une motricité à visée artistique",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Varier ses déplacements et ses lancers dans l’espace scénique",
+      "description": "Utiliser les repères de la scène (devant, fond, de face, de profil) et varier les directions de ses déplacements ou de ses lancers de balles et de foulards.",
+      "officialObjectives": [
+        "Varier ses actions dans l’espace scénique."
+      ],
+      "evidence": [
+        "En danse, reproduit des chorégraphies simples en s’appuyant sur des repères spatiaux (devant de scène, fond de scène, position de face ou de profil).",
+        "En arts du cirque, varie les lancers de balles ou de foulards dans les différentes dimensions de l’espace (en cascade, verticalement, horizontalement, au sol).",
+        "En gymnastique, varie ses déplacements (en avant, en arrière, sur le côté, sur demi-pointes) sur différents matériels (banc, poutre)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait danser une petite chorégraphie en passant du fond de la scène au devant de la scène, de face puis de profil ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 12,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-ench-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Créer des enchainements simples et mémorisés",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Mémoriser une phrase dansée de deux ou trois mouvements",
+      "description": "Retenir une petite suite de deux ou trois mouvements et la refaire seul, en marquant clairement le début et la fin (présentation au public, salut).",
+      "officialObjectives": [
+        "S’approprier un enchainement artistique."
+      ],
+      "evidence": [
+        "En danse, s’approprie et mémorise une phrase composée de deux à trois mouvements.",
+        "En arts du cirque ou en gymnastique, marque le début et la fin de l’enchaînement (présentation des balles de jonglage au début, salut au public à la fin)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait refaire de mémoire une phrase dansée de deux ou trois mouvements, en marquant le début et en saluant à la fin ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 12,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-emo-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Éprouver et exprimer des émotions",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Aller au bout de sa prestation devant un public",
+      "description": "Surmonter sa timidité pour présenter son numéro en entier devant les autres, rester attentif à ses partenaires et accepter de répéter pour progresser.",
+      "officialObjectives": [
+        "Construire une posture d’artiste."
+      ],
+      "evidence": [
+        "Reste à l’écoute des autres dans une prestation individuelle ou collective, tout en restant centré sur son action.",
+        "Surmonte ses appréhensions pour réaliser l’intégralité de sa prestation devant un public.",
+        "En danse, accepte de participer à un travail collectif destiné à être montré et apprécié.",
+        "En arts du cirque, accepte de répéter plusieurs fois le numéro pour le maîtriser."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait présenter son numéro de cirque ou sa danse en entier devant la classe, sans s’arrêter en cours de route ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 12,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-emo-02",
+      "programme": "eps-c2",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Éprouver et exprimer des émotions",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Apprécier une prestation selon deux ou trois critères",
+      "description": "Regarder attentivement la prestation d’un camarade et dire ce qu’on a aimé ou non en s’appuyant sur deux ou trois repères simples (par exemple : roulade réussie, équilibre tenu).",
+      "officialObjectives": [
+        "Apprécier une prestation selon deux ou trois critères."
+      ],
+      "evidence": [
+        "Reste orienté vers l’espace scénique tout au long de la prestation et observe ses camarades avec attention.",
+        "Dit ce qu’il a apprécié ou non dans une prestation à partir de repères simples.",
+        "En arts du cirque ou en danse, exprime devant le groupe les émotions et les sentiments ressentis.",
+        "En gymnastique, identifie la réalisation des éléments présentés (roulade, équilibre, saut)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, après avoir regardé un camarade en gymnastique, si la roulade, l’équilibre et le saut ont été réussis ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 12,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-opp-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Faire une passe précise et renvoyer une balle",
+      "description": "Passer le ballon avec précision à un partenaire proche (en direct ou avec un rebond) et renvoyer une balle ou un volant.",
+      "officialObjectives": [
+        "Maitriser et contrôler des actions d’opposition simples."
+      ],
+      "evidence": [
+        "Dans un jeu collectif avec ballon, à l’arrêt, passe le ballon avec précision à un partenaire proche (passes directes ou à rebond).",
+        "Lance et renvoie une balle ou un volant."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire une passe à rebond précise à un partenaire placé tout près ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 15,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-opp-02",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Immobiliser un adversaire au sol dans un jeu de lutte",
+      "description": "Dans un jeu de combat, contrôler son adversaire au sol en le retenant ou en utilisant le poids de son corps, sans lui faire mal.",
+      "officialObjectives": [
+        "Maitriser et contrôler des actions d’opposition simples."
+      ],
+      "evidence": [
+        "Dans un jeu de combat, contrôle son adversaire de différentes façons pour l’immobiliser au sol (retenir, maintenir au sol en recouvrant le corps, utiliser le poids de son corps)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, dans un jeu de lutte, maintenir son adversaire au sol en le recouvrant avec le poids de son corps ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 15,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-opp-03",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Organiser ses déplacements dans la zone de jeu",
+      "description": "Se déplacer en respectant la zone de jeu et maîtriser un objet en mouvement, par exemple transporter une balle posée sur une raquette sans la faire tomber.",
+      "officialObjectives": [
+        "S’adapter à la zone de jeu."
+      ],
+      "evidence": [
+        "Organise ses déplacements dans le respect de la zone de jeu.",
+        "Dans un jeu de raquettes, réalise un parcours avec la balle posée sur la raquette sans la faire tomber (sur une ligne tracée au sol, en slalom entre des plots, en marche arrière)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait suivre une ligne tracée au sol avec une balle posée sur sa raquette, sans la faire tomber ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 15,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-marq-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Faire des choix pour marquer",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Se reconnaître attaquant ou défenseur et changer vite de rôle",
+      "description": "Savoir si l’on attaque ou si l’on défend selon que son équipe a le ballon ou non, changer vite de rôle, et doser ses passes selon la distance.",
+      "officialObjectives": [
+        "Prendre des repères au service d’un projet d’action individuel ou collectif."
+      ],
+      "evidence": [
+        "Dans un jeu collectif avec ou sans ballon, se reconnaît dans un rôle d’attaquant ou de défenseur.",
+        "Repère si son équipe est en possession du ballon et change rapidement de rôle (attaquant, défenseur).",
+        "Ajuste sa frappe ou ses passes en fonction de la distance de la cible ou de celle d’un partenaire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, pendant un jeu de ballon, si son équipe attaque ou défend, et changer de rôle dès que le ballon est perdu ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 15,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-regl-01",
+      "programme": "eps-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Respecter les règles du jeu, les partenaires et les adversaires",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Comprendre les règles et respecter l’arbitre",
+      "description": "Connaître et nommer les règles du jeu, comprendre le rôle de l’arbitre et accepter ses décisions, connaître les règles de sécurité des jeux d’opposition.",
+      "officialObjectives": [
+        "Comprendre et respecter les règles du jeu."
+      ],
+      "evidence": [
+        "Identifie différentes règles et sait les nommer.",
+        "Reformule le but du jeu et ses règles à l’aide du vocabulaire spécifique.",
+        "Identifie et respecte le rôle d’arbitre.",
+        "Reconnaît la faute et accepte la décision en cas de non-respect de la règle.",
+        "Connaît les règles de sécurité dans les jeux d’opposition (ne pas faire mal, ne pas se faire mal)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer deux règles d’un jeu d’opposition, dont une règle de sécurité comme « ne pas faire mal, ne pas se faire mal » ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 15,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce1-regl-02",
+      "programme": "eps-c2",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Respecter les règles du jeu, les partenaires et les adversaires",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Accepter la défaite et saluer son adversaire",
+      "description": "Reconnaître qu’on a perdu sans se comporter mal avec l’adversaire, et saluer ou serrer la main avant et après une partie ou un combat.",
+      "officialObjectives": [
+        "Accepter l’opposition tout en respectant l’autre."
+      ],
+      "evidence": [
+        "Reconnaît la défaite et ne manifeste pas de comportement déplacé envers l’adversaire.",
+        "Salue ou serre la main de ses partenaires et de ses adversaires avant et après la confrontation (partie, combat)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait serrer la main de son adversaire à la fin d’un combat, même après avoir perdu ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 16,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-cour-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Réagir vite au signal de départ",
+      "description": "Partir le plus rapidement possible dès le signal sonore (un coup de sifflet par exemple), sans temps d’hésitation.",
+      "officialObjectives": [
+        "Réagir vite au signal de départ."
+      ],
+      "evidence": [
+        "Réagit vite à un signal sonore."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait démarrer sa course aussitôt après le coup de sifflet ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-cour-02",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Adapter sa foulée pour courir vite sans ralentir",
+      "description": "Courir vite en allongeant ou en raccourcissant ses pas (sa « foulée ») selon les repères posés au sol, sans perdre de vitesse.",
+      "officialObjectives": [
+        "Courir vite et de façon coordonnée."
+      ],
+      "evidence": [
+        "Court vite en adaptant sa foulée aux contraintes (espaces différents entre des lattes, des plots), sans ralentir."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait courir vite sur une piste de lattes plus ou moins espacées en adaptant la longueur de ses pas, sans ralentir ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-cour-03",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Franchir en courant plusieurs petites haies",
+      "description": "Enchaîner en courant plusieurs obstacles plus bas que le genou sans ralentir, en sachant partir du pied droit, du pied gauche ou en alternant.",
+      "officialObjectives": [
+        "Courir et franchir sans ralentir des obstacles verticaux."
+      ],
+      "evidence": [
+        "Franchit plusieurs obstacles verticaux placés en deçà de la hauteur de son genou sans ralentir sa course.",
+        "Franchit tous les obstacles verticaux avec le pied droit, puis avec le pied gauche.",
+        "Franchit tous les obstacles verticaux en alternant le pied d’impulsion."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait franchir en courant une série de petites haies plus basses que le genou, sans ralentir entre elles ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-cour-04",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Courir de plus en plus longtemps et choisir son contrat",
+      "description": "Allonger peu à peu la durée de course sans s’arrêter, et savoir choisir soi-même un « contrat de course » (objectif de durée ou de distance) adapté à ses capacités.",
+      "officialObjectives": [
+        "Courir longtemps sans s’arrêter."
+      ],
+      "evidence": [
+        "Court sans s’arrêter sur une durée de course de plus en plus longue.",
+        "Choisit un « contrat de course » adapté à ses capacités."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir un objectif de course à sa mesure et courir sans s’arrêter jusqu’à l’atteindre ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-saut-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer pour sauter le plus haut ou le plus loin possible",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Sauter plus loin ou plus haut avec son pied d’appel",
+      "description": "Trouver son meilleur pied d’appel en comparant ses sauts, sauter toujours avec ce pied et s’aider des bras pour aller plus loin ou plus haut.",
+      "officialObjectives": [
+        "Construire une impulsion avec un pied d’appel pour sauter loin ou haut."
+      ],
+      "evidence": [
+        "Identifie son pied d’appel préférentiel en comparant les distances atteintes ou les hauteurs franchies après chaque saut.",
+        "Effectue des sauts exclusivement avec son pied d’appel.",
+        "Mobilise ses bras pour sauter plus loin ou plus haut."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quel est son pied d’appel et sauter en s’aidant de l’élan des bras ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-lanc-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer pour lancer le plus loin possible",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Lancer en poussée à deux mains ou « à bras cassé »",
+      "description": "Utiliser deux gestes de lanceur : la poussée à deux mains (pour un petit ballon lesté) et le lancer « à bras cassé », coude plié, comme pour un javelot.",
+      "officialObjectives": [
+        "Lancer loin et dans l’axe différents objets."
+      ],
+      "evidence": [
+        "Lance à deux mains un petit ballon lesté : poussée du bas vers le haut et vers l’avant, en terminant les deux bras tendus vers le haut et l’avant.",
+        "Lance une balle, un vortex ou un petit javelot en mousse « à bras cassé » : bras de l’arrière vers l’avant, coude fléchi, en terminant la main vers le haut et l’avant."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lancer un vortex ou un javelot en mousse « à bras cassé » : le bras part de l’arrière, coude plié, et finit la main vers le haut et l’avant ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-orie-01",
+      "programme": "eps-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer pour s’orienter dans l’espace",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Trouver deux balises à moins de 20 m avec un plan",
+      "description": "Se servir d’un plan pour aller trouver des balises situées à moins de vingt mètres, en marchant pour prendre le temps de bien s’orienter plutôt que de courir.",
+      "officialObjectives": [
+        "Repérer des éléments visibles pour s’orienter dans un espace connu."
+      ],
+      "evidence": [
+        "Trouve à l’aide d’un plan deux balises facilement identifiables, à moins de vingt mètres de sa position.",
+        "Marche pour mieux s’orienter à partir d’un plan et sur le terrain (l’orientation prime sur la course)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver, avec un plan, deux balises placées à moins de 20 mètres ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 6,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-res-01",
+      "programme": "eps-c2",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Recueillir et apprécier des résultats",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Utiliser ses résultats pour changer sa façon de faire",
+      "description": "Comprendre à quoi sert de mesurer ses résultats : changer quelque chose dans sa façon de faire (être plus attentif au départ, sauter avec son pied d’appel, s’aider des jambes pour lancer) pour réussir mieux à l’essai suivant.",
+      "officialObjectives": [
+        "Identifier la mesure d’un résultat pour progresser."
+      ],
+      "evidence": [
+        "Applique des principes pour s’améliorer d’un essai à l’autre (être attentif pour réagir vite à un signal de départ).",
+        "Comprend l’intérêt de la mesure d’un résultat pour modifier son attitude et son action (identifier son pied d’appel pour sauter plus loin ou plus haut, lancer loin grâce à l’action des jambes)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qu’il faut changer pour sauter plus loin au prochain essai, par exemple sauter avec son pied d’appel ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 6,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-terr-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Varier départs et arrivées de la roulade avant",
+      "description": "Faire la roulade avant au sol en partant de positions différentes (jambes tendues, à genoux, accroupi) et en finissant de différentes façons (sur deux pieds, sur un pied, assis…).",
+      "officialObjectives": [
+        "Construire un nouvel équilibre avec le corps qui roule vers l’avant."
+      ],
+      "evidence": [
+        "Effectue une roulade avant sur une surface plane en variant sa position de départ : jambes tendues, à genoux, accroupi.",
+        "Roule vers l’avant et adopte des positions d’arrivée différentes : sur deux pieds, sur un pied, accroupi, assis."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire une roulade avant en partant jambes tendues et en finissant sur un pied ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-terr-02",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Sauter le corps droit après un élan sur un tremplin",
+      "description": "Prendre un petit élan, sauter à deux pieds sur un tremplin, s’envoler le corps droit et les bras vers le haut, puis se réceptionner en équilibre.",
+      "officialObjectives": [
+        "Construire un nouvel équilibre de suspension en l’air avec le corps droit."
+      ],
+      "evidence": [
+        "Effectue un saut avec le corps droit après une course d’élan réduite et une impulsion à deux pieds sur un tremplin.",
+        "Se réceptionne en équilibre sur une surface plane.",
+        "Réalise un saut avec le corps droit et les bras vers le haut."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait sauter sur un tremplin après quelques pas d’élan, le corps droit et les bras levés, et retomber en équilibre ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-terr-03",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Tenir « l’équerre » et avancer en « saut de lapin »",
+      "description": "Se renverser davantage : mains au sol et jambes posées sur un support, aligner mains, épaules et bassin (« l’équerre ») ; avancer en posant les mains puis les pieds (« saut de lapin »).",
+      "officialObjectives": [
+        "Construire un nouvel équilibre avec le corps qui se renverse."
+      ],
+      "evidence": [
+        "En position renversée, les jambes en appui sur un contre-haut (banc, bloc, espalier), aligne ses mains, ses épaules et son bassin (position « à l’équerre »).",
+        "Se déplace en alternant une pose des mains et une pose des pieds (« saut de lapin »)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait avancer en « saut de lapin », en posant les mains puis les pieds ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-terr-04",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Tenir sur une jambe sur un banc ou une poutre",
+      "description": "Sur un banc ou une poutre, réaliser des figures simples en équilibre sur une seule jambe, sans tomber.",
+      "officialObjectives": [
+        "Construire un nouvel équilibre avec le corps en mouvement sur une surface réduite."
+      ],
+      "evidence": [
+        "Réalise des figures simples sur une jambe, sur un banc ou sur une poutre, sans tomber."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tenir une figure en équilibre sur une jambe, debout sur une poutre, sans tomber ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-terr-05",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Traverser une paroi sur des prises plus petites",
+      "description": "Traverser un mur d’escalade d’un point à un autre avec des prises plus petites et plus espacées, en déplaçant les pieds avant les mains.",
+      "officialObjectives": [
+        "Construire un nouvel équilibre vertical en se déplaçant sur un support vertical."
+      ],
+      "evidence": [
+        "Grimpe en traversée d’un point A à un point B sur des prises plus petites et plus espacées entre elles.",
+        "Déplace les pieds avant les mains dans son déplacement."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait traverser un mur d’escalade sur de petites prises en déplaçant d’abord les pieds, puis les mains ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-loco-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres avec un moyen de locomotion",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Maîtriser son engin : pas du patineur, virages, suivre un camarade",
+      "description": "Mieux maîtriser son vélo, ses rollers ou sa patinette : avancer en « pas du patineur », rouler un pied levé, tourner des deux côtés, suivre un camarade sans le doubler, contourner des obstacles.",
+      "officialObjectives": [
+        "Rouler et glisser, avec un moyen de locomotion, dans des situations variées."
+      ],
+      "evidence": [
+        "Se déplace en utilisant le « pas du patineur ».",
+        "Roule ou glisse entre deux plots en levant un pied.",
+        "Roule ou glisse en effectuant un virage une fois à droite, une fois à gauche.",
+        "Roule en suivant un autre élève sans le dépasser.",
+        "Roule ou glisse en contournant des obstacles sans tomber."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait rouler derrière un camarade sans le dépasser, puis contourner des obstacles sans tomber ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-nat-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans un environnement aquatique",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Flotter sur le ventre et sur le dos et avancer quelques mètres",
+      "description": "Sauter dans l’eau et remonter sans effort, puis s’allonger et flotter sur le ventre et sur le dos, la tête et les bras dans l’alignement du corps, en avançant de quelques mètres. Une étape importante vers le « savoir nager ».",
+      "officialObjectives": [
+        "Accepter l’action de l’eau sur son corps et construire un nouvel équilibre horizontal."
+      ],
+      "evidence": [
+        "Saute dans l’eau, touche le fond avec les pieds puis se laisse remonter passivement à la surface en bloquant sa respiration.",
+        "S’allonge, flotte sur le ventre puis sur le dos et se déplace sur quelques mètres.",
+        "Adopte une posture d’équilibre ventral puis dorsal, bras et tête dans le prolongement de l’axe du corps."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait s’allonger dans l’eau, flotter sur le ventre puis sur le dos, et avancer ainsi sur quelques mètres ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 10,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-secu-01",
+      "programme": "eps-c2",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Agir en toute sécurité",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Choisir un parcours à sa mesure et savoir renoncer",
+      "description": "Évaluer soi-même si un parcours est à sa portée : s’engager sans peur quand l’espace est sécurisé, choisir un parcours d’escalade adapté à son niveau, savoir renoncer en expliquant le danger.",
+      "officialObjectives": [
+        "Identifier les dangers propres à l’activité et adapter son comportement."
+      ],
+      "evidence": [
+        "Sait renoncer si le parcours lui paraît trop difficile et précise la nature du danger potentiel.",
+        "Dans un espace aménagé et sécurisé, s’engage dans l’activité sans appréhension.",
+        "Dans une activité de grimpe, s’engage dans un parcours adapté à ses capacités pour le réussir en toute sécurité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir un parcours d’escalade à sa mesure, et dire pourquoi un autre parcours serait trop dangereux ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 10,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-art-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Développer une motricité à visée artistique",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Varier vitesse et trajets de ses mouvements selon la musique",
+      "description": "Danser plus ou moins vite, de façon fluide ou saccadée, selon la musique, en suivant des chemins variés (lignes, cercles, carrés), et reproduire des figures à deux (en miroir, en chaîne).",
+      "officialObjectives": [
+        "Reproduire des actions à visée artistique."
+      ],
+      "evidence": [
+        "En danse, varie ses mouvements et leur vitesse selon les rythmes entendus, en suivant des chemins variés (lignes droites, cercles, carrés).",
+        "En arts du cirque et en gymnastique, reproduit des figures simples avec un partenaire (figures en miroir, en chaîne).",
+        "En danse, adapte sa gestuelle et ses déplacements au monde sonore : danse plus ou moins rapidement, lentement ou de façon saccadée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait danser en cercle puis en ligne droite, en accélérant ou en ralentissant selon le rythme de la musique ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 13,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-art-02",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Développer une motricité à visée artistique",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Occuper l’espace en largeur, en hauteur et en profondeur",
+      "description": "Utiliser toutes les dimensions de l’espace dans un numéro (largeur, hauteur, profondeur) en tenant compte du public, et choisir où réaliser des mouvements imposés.",
+      "officialObjectives": [
+        "Varier ses actions dans l’espace scénique."
+      ],
+      "evidence": [
+        "En arts du cirque, lance un anneau en hauteur, touche le sol avec une main puis rattrape l’anneau.",
+        "En gymnastique, choisit deux parcours dans l’espace (poutre, tapis, banc, plan incliné, tremplin) sur lesquels il réalise des mouvements imposés (rouler, sauter, enjamber).",
+        "Dans son numéro d’arts du cirque, utilise la largeur, la hauteur et la profondeur pour occuper l’espace et prendre en compte le public."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lancer un anneau en l’air, toucher le sol d’une main, puis rattraper l’anneau ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 13,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-ench-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Créer des enchainements simples et mémorisés",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Construire un enchaînement avec un début, un milieu et une fin",
+      "description": "Choisir soi-même les éléments de son enchaînement et les organiser avec un début, un milieu et une fin, de façon fluide, en traduisant une émotion par l’amplitude des gestes.",
+      "officialObjectives": [
+        "S’approprier un enchainement artistique."
+      ],
+      "evidence": [
+        "Choisit des éléments artistiques en respectant une structure définie (un début, un milieu et une fin).",
+        "En danse, modifie l’amplitude de ses mouvements pour traduire une émotion (colère, tristesse, peur, joie).",
+        "En gymnastique, choisit un ordre pour enchaîner les différents éléments de manière fluide."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait présenter un petit enchaînement de gymnastique en choisissant l’ordre des éléments, avec un début, un milieu et une fin bien marqués ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 13,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-emo-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Éprouver et exprimer des émotions",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Jouer un personnage et tenir compte du public",
+      "description": "Se présenter au public, se placer face à lui, jouer un personnage et s’inspirer d’images ou de sentiments pour créer.",
+      "officialObjectives": [
+        "Construire une posture d’artiste."
+      ],
+      "evidence": [
+        "Prend en compte le public : se place, se présente, s’exprime.",
+        "Joue un personnage.",
+        "En danse, s’inspire de différents matériaux (photographies, images, états, sentiments) pour créer.",
+        "En gymnastique, ose effectuer une prestation devant d’autres qui l’observent et l’apprécient."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait inventer quelques mouvements de danse à partir d’une photographie, puis les présenter au public en jouant un personnage ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 13,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-emo-02",
+      "programme": "eps-c2",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps pour éprouver et partager des émotions",
+      "subdomain": "Éprouver et exprimer des émotions",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Justifier son avis sur une prestation et proposer une amélioration",
+      "description": "Donner son avis sur la prestation d’un camarade en l’expliquant à l’aide de critères (début, milieu, fin ; équilibre ; mémorisation) et proposer une piste pour l’améliorer.",
+      "officialObjectives": [
+        "Apprécier une prestation selon deux ou trois critères."
+      ],
+      "evidence": [
+        "Commence à justifier son appréciation en s’appuyant sur un support (figures gymniques, code).",
+        "Précise ce qu’il a apprécié ou non dans une prestation en proposant une amélioration.",
+        "En arts du cirque ou en danse, apprécie la qualité de la prestation en identifiant les trois moments clés (début, milieu et fin).",
+        "En gymnastique, qualifie une prestation selon divers critères (déséquilibre, mémorisation, enchaînement)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, après le numéro d’un camarade, ce qui était réussi au début, au milieu et à la fin, et proposer une amélioration ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 13,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-opp-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Échanger une balle de part et d’autre d’un filet",
+      "description": "Dans un jeu de raquettes, se renvoyer une balle (ballon de baudruche, balle en mousse ou balle molle) par-dessus un filet ou une ligne au sol.",
+      "officialObjectives": [
+        "Maitriser et contrôler des actions d’opposition simples."
+      ],
+      "evidence": [
+        "Dans un jeu de raquettes, réussit à échanger un ballon de baudruche, une balle en mousse ou une balle molle de part et d’autre d’un filet ou d’une ligne au sol."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait se renvoyer une balle en mousse avec un camarade, par-dessus un filet, avec une raquette ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 16,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-opp-02",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Se défendre au sol pour ne pas être immobilisé",
+      "description": "Dans un jeu de lutte, rester actif quand on est au sol pour ne pas se faire retourner ni immobiliser par l’adversaire.",
+      "officialObjectives": [
+        "Maitriser et contrôler des actions d’opposition simples."
+      ],
+      "evidence": [
+        "Dans un jeu de combat, est actif au sol pour ne pas se faire retourner et immobiliser."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, dans un jeu de lutte au sol, bouger et résister pour ne pas se faire retourner sur le dos ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 16,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-opp-03",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Se démarquer et viser une zone précise",
+      "description": "S’adapter à l’espace de jeu : s’éloigner ou se rapprocher de ses partenaires pour être libre (se démarquer), rester dans la zone de combat, frapper une balle avec précision vers une zone choisie.",
+      "officialObjectives": [
+        "S’adapter à la zone de jeu."
+      ],
+      "evidence": [
+        "Dans un jeu collectif avec ballon, s’éloigne ou se rapproche de ses partenaires pour se démarquer.",
+        "Dans un jeu de combat, adapte son action pour ne pas sortir de la zone de combat ou pour en faire sortir son adversaire.",
+        "Dans un jeu de raquettes, lance ou frappe avec précision un volant ou une balle, de bas en haut ou à « bras cassé », dans une zone définie."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait frapper un volant avec sa raquette pour l’envoyer dans une zone précise du terrain adverse ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 16,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-marq-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Faire des choix pour marquer",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Monter la balle à deux et se démarquer pour recevoir",
+      "description": "Avancer avec un partenaire vers la cible en se faisant des passes (« montée de balle »), repérer un espace libre pour se proposer, et esquiver une attaque dans un jeu de combat.",
+      "officialObjectives": [
+        "Prendre des repères au service d’un projet d’action individuel ou collectif."
+      ],
+      "evidence": [
+        "Dans un jeu collectif avec ballon, réalise avec un partenaire une « montée de balle » pour se rapprocher de la cible.",
+        "Identifie et exploite un espace libre pour offrir une solution de passe à son partenaire (démarquage).",
+        "Dans un jeu de combat, évite une action adverse par des esquives (déplacements latéraux, sauts)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, dans un jeu de ballon, se placer dans un espace libre pour que son partenaire puisse lui faire une passe ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 16,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-regl-01",
+      "programme": "eps-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Respecter les règles du jeu, les partenaires et les adversaires",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Arbitrer un jeu et compter les points",
+      "description": "Tenir le rôle d’arbitre : annoncer le début du jeu, l’arrêter, attribuer et compter les points ; s’exprimer clairement sur les actions de jeu et respecter les règles même en cas de défaite.",
+      "officialObjectives": [
+        "Comprendre et respecter les règles du jeu."
+      ],
+      "evidence": [
+        "Arbitre et attribue des points en fonction des actions (annoncer le début d’un combat ou d’un jeu collectif, arrêter le jeu, compter les points).",
+        "Écoute et s’exprime à l’oral pour comprendre et se faire comprendre sur les actions de jeu.",
+        "Respecte les règles en toutes circonstances (victoire ou défaite)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait arbitrer une partie : annoncer le début, arrêter le jeu en cas de faute et compter les points ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 16,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    },
+    {
+      "id": "fr-eps-ce2-regl-02",
+      "programme": "eps-c2",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Respecter les règles du jeu, les partenaires et les adversaires",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Encourager, féliciter et jouer sans arbitre",
+      "description": "Encourager ses partenaires, féliciter l’adversaire, accepter les décisions de l’arbitre, et savoir jouer en respectant les règles même sans arbitre (« autoarbitrage »).",
+      "officialObjectives": [
+        "Accepter l’opposition tout en respectant l’autre."
+      ],
+      "evidence": [
+        "Encourage son partenaire ou félicite l’adversaire.",
+        "Accepte les décisions de l’arbitre et encourage les efforts de chacun.",
+        "Joue en respectant les règles sans la présence d’un arbitre (autoarbitrage)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait jouer une partie sans arbitre en reconnaissant soi-même ses fautes, et féliciter l’adversaire à la fin ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 16,
+        "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-eps-ce1-cour-01",
+      "prerequisiteId": "fr-eps-cp-cour-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Se préparer puis réagir vite au signal suppose d’abord d’identifier ce signal."
+    },
+    {
+      "topicId": "fr-eps-ce2-cour-01",
+      "prerequisiteId": "fr-eps-ce1-cour-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Se préparer puis réagir vite au signal suppose d’abord d’identifier ce signal."
+    },
+    {
+      "topicId": "fr-eps-ce1-cour-02",
+      "prerequisiteId": "fr-eps-cp-cour-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La course rapide coordonnée prolonge la course rapide équilibrée de la classe précédente."
+    },
+    {
+      "topicId": "fr-eps-ce2-cour-02",
+      "prerequisiteId": "fr-eps-ce1-cour-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La course rapide coordonnée prolonge la course rapide équilibrée de la classe précédente."
+    },
+    {
+      "topicId": "fr-eps-ce1-cour-03",
+      "prerequisiteId": "fr-eps-cp-cour-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le franchissement d’obstacles sans ralentir se construit d’abord sur des obstacles plus simples."
+    },
+    {
+      "topicId": "fr-eps-ce2-cour-03",
+      "prerequisiteId": "fr-eps-ce1-cour-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le franchissement d’obstacles sans ralentir se construit d’abord sur des obstacles plus simples."
+    },
+    {
+      "topicId": "fr-eps-ce1-cour-04",
+      "prerequisiteId": "fr-eps-cp-cour-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Courir sans s’arrêter prolonge le travail sur la réduction des arrêts."
+    },
+    {
+      "topicId": "fr-eps-ce2-cour-04",
+      "prerequisiteId": "fr-eps-ce1-cour-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Courir sans s’arrêter prolonge le travail sur la réduction des arrêts."
+    },
+    {
+      "topicId": "fr-eps-ce1-saut-01",
+      "prerequisiteId": "fr-eps-cp-saut-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’impulsion sur un pied d’appel s’appuie sur les impulsions déjà explorées."
+    },
+    {
+      "topicId": "fr-eps-ce2-saut-01",
+      "prerequisiteId": "fr-eps-ce1-saut-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’impulsion sur un pied d’appel s’appuie sur les impulsions déjà explorées."
+    },
+    {
+      "topicId": "fr-eps-ce1-lanc-01",
+      "prerequisiteId": "fr-eps-cp-lanc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le lancer plus technique prolonge le lancer loin de la classe précédente."
+    },
+    {
+      "topicId": "fr-eps-ce2-lanc-01",
+      "prerequisiteId": "fr-eps-ce1-lanc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le lancer plus technique prolonge le lancer loin de la classe précédente."
+    },
+    {
+      "topicId": "fr-eps-ce1-orie-01",
+      "prerequisiteId": "fr-eps-cp-orie-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "S’orienter avec un plan suppose de savoir déjà s’y situer."
+    },
+    {
+      "topicId": "fr-eps-ce2-orie-01",
+      "prerequisiteId": "fr-eps-ce1-orie-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "S’orienter avec un plan suppose de savoir déjà s’y situer."
+    },
+    {
+      "topicId": "fr-eps-ce1-res-01",
+      "prerequisiteId": "fr-eps-cp-res-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Exploiter un résultat suppose de savoir d’abord le repérer et le relever."
+    },
+    {
+      "topicId": "fr-eps-ce2-res-01",
+      "prerequisiteId": "fr-eps-ce1-res-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Exploiter un résultat suppose de savoir d’abord le repérer et le relever."
+    },
+    {
+      "topicId": "fr-eps-ce1-terr-01",
+      "prerequisiteId": "fr-eps-cp-terr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La roulade de cette classe prolonge celle de la classe précédente."
+    },
+    {
+      "topicId": "fr-eps-ce2-terr-01",
+      "prerequisiteId": "fr-eps-ce1-terr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La roulade de cette classe prolonge celle de la classe précédente."
+    },
+    {
+      "topicId": "fr-eps-ce1-terr-02",
+      "prerequisiteId": "fr-eps-cp-terr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le saut corps droit se complexifie à partir du saut de la classe précédente."
+    },
+    {
+      "topicId": "fr-eps-ce2-terr-02",
+      "prerequisiteId": "fr-eps-ce1-terr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le saut corps droit se complexifie à partir du saut de la classe précédente."
+    },
+    {
+      "topicId": "fr-eps-ce1-terr-03",
+      "prerequisiteId": "fr-eps-cp-terr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les positions renversées se construisent progressivement."
+    },
+    {
+      "topicId": "fr-eps-ce2-terr-03",
+      "prerequisiteId": "fr-eps-ce1-terr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les positions renversées se construisent progressivement."
+    },
+    {
+      "topicId": "fr-eps-ce1-terr-04",
+      "prerequisiteId": "fr-eps-cp-terr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’équilibre sur surface réduite se construit progressivement (banc, puis poutre, puis sur une jambe)."
+    },
+    {
+      "topicId": "fr-eps-ce2-terr-04",
+      "prerequisiteId": "fr-eps-ce1-terr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’équilibre sur surface réduite se construit progressivement (banc, puis poutre, puis sur une jambe)."
+    },
+    {
+      "topicId": "fr-eps-ce1-terr-05",
+      "prerequisiteId": "fr-eps-cp-terr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La grimpe en traversée s’appuie sur la grimpe de la classe précédente."
+    },
+    {
+      "topicId": "fr-eps-ce2-terr-05",
+      "prerequisiteId": "fr-eps-ce1-terr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La grimpe en traversée s’appuie sur la grimpe de la classe précédente."
+    },
+    {
+      "topicId": "fr-eps-ce1-loco-01",
+      "prerequisiteId": "fr-eps-cp-loco-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Rouler dans des situations plus variées suppose de maîtriser déjà les situations plus simples."
+    },
+    {
+      "topicId": "fr-eps-ce2-loco-01",
+      "prerequisiteId": "fr-eps-ce1-loco-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Rouler dans des situations plus variées suppose de maîtriser déjà les situations plus simples."
+    },
+    {
+      "topicId": "fr-eps-ce1-nat-01",
+      "prerequisiteId": "fr-eps-cp-nat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Chaque étape de l’aisance aquatique s’appuie sur la précédente."
+    },
+    {
+      "topicId": "fr-eps-ce2-nat-01",
+      "prerequisiteId": "fr-eps-ce1-nat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Chaque étape de l’aisance aquatique s’appuie sur la précédente."
+    },
+    {
+      "topicId": "fr-eps-ce1-secu-01",
+      "prerequisiteId": "fr-eps-cp-secu-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Identifier les dangers prolonge la connaissance et le respect des règles de sécurité."
+    },
+    {
+      "topicId": "fr-eps-ce2-secu-01",
+      "prerequisiteId": "fr-eps-ce1-secu-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Identifier les dangers prolonge la connaissance et le respect des règles de sécurité."
+    },
+    {
+      "topicId": "fr-eps-ce1-art-01",
+      "prerequisiteId": "fr-eps-cp-art-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les actions à visée artistique s’enrichissent d’une classe à l’autre."
+    },
+    {
+      "topicId": "fr-eps-ce2-art-01",
+      "prerequisiteId": "fr-eps-ce1-art-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les actions à visée artistique s’enrichissent d’une classe à l’autre."
+    },
+    {
+      "topicId": "fr-eps-ce1-art-02",
+      "prerequisiteId": "fr-eps-cp-art-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’usage de l’espace scénique s’enrichit d’une classe à l’autre."
+    },
+    {
+      "topicId": "fr-eps-ce2-art-02",
+      "prerequisiteId": "fr-eps-ce1-art-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’usage de l’espace scénique s’enrichit d’une classe à l’autre."
+    },
+    {
+      "topicId": "fr-eps-ce1-ench-01",
+      "prerequisiteId": "fr-eps-cp-ench-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "S’approprier un enchaînement suppose de savoir d’abord en reproduire un."
+    },
+    {
+      "topicId": "fr-eps-ce2-ench-01",
+      "prerequisiteId": "fr-eps-ce1-ench-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "S’approprier un enchaînement suppose de savoir d’abord en reproduire un."
+    },
+    {
+      "topicId": "fr-eps-ce1-emo-01",
+      "prerequisiteId": "fr-eps-cp-emo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La posture d’artiste se construit progressivement."
+    },
+    {
+      "topicId": "fr-eps-ce2-emo-01",
+      "prerequisiteId": "fr-eps-ce1-emo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La posture d’artiste se construit progressivement."
+    },
+    {
+      "topicId": "fr-eps-ce1-emo-02",
+      "prerequisiteId": "fr-eps-cp-emo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Apprécier une prestation selon des critères suppose de savoir l’observer et la décrire."
+    },
+    {
+      "topicId": "fr-eps-ce2-emo-02",
+      "prerequisiteId": "fr-eps-ce1-emo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Apprécier une prestation selon des critères suppose de savoir l’observer et la décrire."
+    },
+    {
+      "topicId": "fr-eps-ce1-opp-01",
+      "prerequisiteId": "fr-eps-cp-opp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les actions d’opposition se maîtrisent progressivement."
+    },
+    {
+      "topicId": "fr-eps-ce2-opp-01",
+      "prerequisiteId": "fr-eps-ce1-opp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les actions d’opposition se maîtrisent progressivement."
+    },
+    {
+      "topicId": "fr-eps-ce1-opp-02",
+      "prerequisiteId": "fr-eps-cp-opp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les actions de combat se complexifient d’une classe à l’autre."
+    },
+    {
+      "topicId": "fr-eps-ce2-opp-02",
+      "prerequisiteId": "fr-eps-ce1-opp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les actions de combat se complexifient d’une classe à l’autre."
+    },
+    {
+      "topicId": "fr-eps-ce1-opp-03",
+      "prerequisiteId": "fr-eps-cp-opp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’adaptation à la zone de jeu suppose de l’avoir d’abord explorée."
+    },
+    {
+      "topicId": "fr-eps-ce2-opp-03",
+      "prerequisiteId": "fr-eps-ce1-opp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’adaptation à la zone de jeu suppose de l’avoir d’abord explorée."
+    },
+    {
+      "topicId": "fr-eps-ce1-marq-01",
+      "prerequisiteId": "fr-eps-cp-marq-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prendre des repères pour un projet d’action suppose de distinguer partenaires, adversaires et rôles."
+    },
+    {
+      "topicId": "fr-eps-ce2-marq-01",
+      "prerequisiteId": "fr-eps-ce1-marq-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prendre des repères pour un projet d’action suppose de distinguer partenaires, adversaires et rôles."
+    },
+    {
+      "topicId": "fr-eps-ce1-regl-01",
+      "prerequisiteId": "fr-eps-cp-regl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Comprendre et appliquer les règles prolonge leur découverte."
+    },
+    {
+      "topicId": "fr-eps-ce2-regl-01",
+      "prerequisiteId": "fr-eps-ce1-regl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Comprendre et appliquer les règles prolonge leur découverte."
+    },
+    {
+      "topicId": "fr-eps-ce1-regl-02",
+      "prerequisiteId": "fr-eps-cp-regl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le respect de l’adversaire prolonge la maîtrise de ses émotions dans le jeu."
+    },
+    {
+      "topicId": "fr-eps-ce2-regl-02",
+      "prerequisiteId": "fr-eps-ce1-regl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le respect de l’adversaire prolonge la maîtrise de ses émotions dans le jeu."
+    },
+    {
+      "topicId": "fr-eps-cp-cour-03",
+      "prerequisiteId": "fr-eps-cp-cour-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Courir vite en restant équilibré aide à franchir les rivières sans ralentir."
+    },
+    {
+      "topicId": "fr-eps-ce1-marq-01",
+      "prerequisiteId": "fr-eps-ce1-opp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Ajuster ses passes selon la distance s’appuie sur la maîtrise de la passe précise."
+    },
+    {
+      "topicId": "fr-eps-ce2-marq-01",
+      "prerequisiteId": "fr-eps-ce2-opp-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Offrir une solution de passe prolonge le fait de se démarquer dans la zone de jeu."
+    },
+    {
+      "topicId": "fr-eps-ce2-res-01",
+      "prerequisiteId": "fr-eps-ce2-saut-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le programme prend l’exemple du pied d’appel pour montrer l’intérêt de la mesure d’un résultat."
+    },
+    {
+      "topicId": "fr-eps-ce2-emo-02",
+      "prerequisiteId": "fr-eps-ce2-ench-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Apprécier une prestation par ses trois moments clés suppose de connaître la structure début, milieu, fin."
+    },
+    {
+      "topicId": "fr-eps-ce2-regl-02",
+      "prerequisiteId": "fr-eps-ce2-regl-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Jouer sans arbitre suppose de connaître les règles et de savoir attribuer les points."
+    },
+    {
+      "topicId": "fr-eps-ce2-art-02",
+      "prerequisiteId": "fr-eps-ce2-terr-01",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Le programme indique que ce domaine mobilise les habiletés gymniques (rouler, sauter) construites dans le domaine des équilibres."
+    },
+    {
+      "topicId": "fr-eps-ce1-emo-02",
+      "prerequisiteId": "fr-eps-ce1-terr-01",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Identifier une roulade ou un saut réussi s’appuie sur les habiletés gymniques du domaine des équilibres, comme le précise le programme."
+    },
+    {
+      "topicId": "fr-eps-ce1-secu-01",
+      "prerequisiteId": "fr-eps-cp-nat-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comprendre la remontée passive dans l’eau suppose d’avoir déjà accepté de mettre la tête sous l’eau."
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

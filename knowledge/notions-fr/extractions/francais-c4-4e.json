@@ -1,0 +1,3190 @@
+{
+  "programme": "francais-c4",
+  "level": "4e",
+  "themeCodes": {
+    "cia": "Comprendre, interpréter, apprécier",
+    "lvh": "Lire à voix haute, seul ou à plusieurs",
+    "oeu": "Appréhender une œuvre dans des contextes artistiques variés",
+    "conl": "Acquérir, structurer et mobiliser des connaissances littéraires et culturelles",
+    "lqt": "Indications quantitatives",
+    "fic": "Sonder, explorer, anticiper : la fiction aux limites de notre monde (récit, fiction)",
+    "poe": "Contempler, célébrer, veiller : habiter la terre en poète (poésie)",
+    "the": "Obéir, désobéir, trahir ? Conflits de valeurs sur scène (théâtre)",
+    "lum": "Critiquer, dénoncer, penser : les Lumières en héritage (discours, essai, récit, fiction)",
+    "erm": "Écrire pour réfléchir, apprendre et mémoriser",
+    "inv": "Écrire des textes d’invention et de réflexion pour soi et pour autrui",
+    "rev": "Évaluer son écrit et savoir le faire évoluer",
+    "epri": "Principes",
+    "par": "Prendre la parole, communiquer et interagir",
+    "eco": "Écouter, comprendre et interpréter",
+    "dlj": "Dire, lire, jouer un texte",
+    "enr": "Enrichir son vocabulaire",
+    "rel": "Identifier les types de relations entre les mots",
+    "jeu": "Réemployer son lexique et jouer avec les mots",
+    "form": "Comprendre la formation des mots",
+    "orth": "Écrire avec justesse (orthographe)",
+    "phr": "Comprendre ce qu’est une phrase pour mieux lire et mieux écrire",
+    "cons": "Connaitre les différents constituants d’une phrase",
+    "reg": "Observer et distinguer les registres de langue et ajuster ses choix au contexte",
+    "disc": "Analyser et employer des paroles rapportées",
+    "conj": "Maitriser la composition des formes verbales pour identifier un temps et le conjuguer",
+    "temp": "Maitriser l’emploi des temps et des modes",
+    "acc": "Savoir accorder les mots dans la phrase et expliquer ses choix"
+  },
+  "notions": [
+    {
+      "id": "fr-fr-4e-cia-01",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Comprendre, interpréter, apprécier",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Écrire une dizaine de lignes pour s’approprier sa lecture",
+      "description": "Après une lecture, écrire un petit texte personnel (une dizaine de lignes) pour dire ce qu’on a compris, ressenti ou pensé du texte : c’est un « écrit d’appropriation ».",
+      "officialObjectives": [
+        "Écrire un texte d’une dizaine de lignes pour s’approprier sa lecture."
+      ],
+      "evidence": [
+        "Rédige, après une lecture, un texte personnel d’une dizaine de lignes pour s’approprier sa lecture.",
+        "Rédige régulièrement un écrit d’appropriation (journal de lecteur, par exemple).",
+        "Y fait apparaître sa compréhension, son interprétation et son appréciation du texte."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire une dizaine de lignes personnelles sur un livre ou un texte qu’il vient de lire (ce qu’il a compris, ressenti, ce qu’il en pense) ?",
+      "priorKnowledge": [
+        "Rédiger un texte personnel pour rendre compte de sa réception et s’approprier sa lecture (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-cia-02",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Comprendre, interpréter, apprécier",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Relier des informations pour comprendre l’implicite d’un texte",
+      "description": "Comprendre ce que le texte ne dit pas directement (l’« implicite ») en rapprochant plusieurs indices dispersés dans le texte.",
+      "officialObjectives": [
+        "Mettre en relation des informations pour comprendre l’implicite."
+      ],
+      "evidence": [
+        "Met en relation des informations dispersées dans le texte pour comprendre ce qui n’est pas dit explicitement.",
+        "Appréhende l’implicite d’un texte avec une finesse accrue."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qu’un texte laisse comprendre sans le dire, par exemple deviner ce que ressent un personnage à partir de ses gestes et de ses paroles ?",
+      "priorKnowledge": [
+        "Travailler la lecture silencieuse et développer les différentes stratégies de compréhension (5e)",
+        "Poursuivre son apprentissage de lecteur autonome, contrôler sa compréhension (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-cia-03",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Comprendre, interpréter, apprécier",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Défendre son interprétation dans un débat en citant le texte",
+      "description": "Dans une discussion en classe sur le sens d’un texte, défendre sa façon de le comprendre en s’appuyant sur des passages précis.",
+      "officialObjectives": [
+        "Défendre et justifier son point de vue de lecteur dans un débat interprétatif en s’appuyant sur des éléments du texte."
+      ],
+      "evidence": [
+        "Défend son point de vue de lecteur dans un débat interprétatif.",
+        "Justifie son interprétation en s’appuyant sur des éléments précis du texte.",
+        "Partage son point de vue avec ses pairs pour élaborer des interprétations de plus en plus nuancées."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait défendre sa lecture d’un texte (par exemple dire si un personnage a eu raison d’agir ainsi) en citant des passages précis ?",
+      "priorKnowledge": [
+        "Justifier son point de vue de lecteur (5e)",
+        "Formuler un jugement fondé sur des émotions, sur des critères esthétiques, sur des idées et des valeurs (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-cia-04",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Comprendre, interpréter, apprécier",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Utiliser des notions littéraires pour interpréter un texte",
+      "description": "Se servir à bon escient de quelques notions et outils d’analyse appris en classe (genre du texte, vocabulaire de l’analyse littéraire…) pour mieux comprendre et interpréter un texte.",
+      "officialObjectives": [
+        "Mobiliser à bon escient quelques notions littéraires et outils d’analyse pour interpréter un texte."
+      ],
+      "evidence": [
+        "Mobilise à bon escient quelques notions littéraires et outils d’analyse pour interpréter un texte.",
+        "Met ces outils au service du sens et de l’appropriation du texte, sans approche technicienne ou systématique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait utiliser une notion vue en cours (par exemple le genre du texte) pour expliquer ce que veut dire un passage ?",
+      "priorKnowledge": [
+        "Apprendre à recourir à quelques outils d’analyse pertinents pour lire les textes rencontrés (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-cia-05",
+      "programme": "francais-c4",
+      "type": "META",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Comprendre, interpréter, apprécier",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Justifier et réviser son appréciation d’un texte",
+      "description": "Dire si l’on a aimé ou non un texte en expliquant pourquoi, et accepter de faire évoluer son avis après une relecture ou une discussion.",
+      "officialObjectives": [
+        "Justifier et réviser son appréciation."
+      ],
+      "evidence": [
+        "Justifie son appréciation d’un texte (émotions, critères esthétiques, idées et valeurs).",
+        "Révise son appréciation après une relecture ou un échange avec ses pairs."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi il a aimé ou non un livre, et reconnaître qu’il a changé d’avis après en avoir discuté ?",
+      "priorKnowledge": [
+        "Formuler un jugement fondé sur des émotions, sur des critères esthétiques, sur des idées et des valeurs (5e)",
+        "Justifier son point de vue de lecteur (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-lvh-01",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Lire à voix haute, seul ou à plusieurs",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Lire à voix haute en faisant entendre sa compréhension",
+      "description": "Lire un texte à voix haute de façon à montrer qu’on l’a compris et interprété : ton, pauses et rythme adaptés au sens.",
+      "officialObjectives": [
+        "Exprimer sa compréhension et son interprétation par sa lecture à voix haute."
+      ],
+      "evidence": [
+        "Exprime sa compréhension et son interprétation d’un texte par sa lecture à voix haute.",
+        "Lit régulièrement un texte à voix haute, pour soi ou pour la classe (chaque semaine)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lire à voix haute un passage en adaptant son ton et ses pauses au sens, par exemple pour faire sentir l’inquiétude dans un récit fantastique ?",
+      "priorKnowledge": [
+        "Lire un texte de manière expressive en utilisant les ressources de la voix, du rythme, du regard et éventuellement de la gestuelle (5e)",
+        "Lire un texte d’une vingtaine de lignes avec aisance devant un auditoire (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-lvh-02",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Lire à voix haute, seul ou à plusieurs",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Réciter de façon expressive un texte d’une quinzaine de lignes",
+      "description": "Dire par cœur un texte d’environ quinze lignes ou vers, de façon vivante, en s’appuyant sur la ponctuation (pauses, intonations).",
+      "officialObjectives": [
+        "Réciter un texte, d’une quinzaine de lignes ou de vers, de manière expressive en s’appuyant sur la ponctuation."
+      ],
+      "evidence": [
+        "Récite un texte d’une quinzaine de lignes ou de vers.",
+        "Récite de manière expressive en s’appuyant sur la ponctuation.",
+        "Récite de façon fluide, seul ou avec ses pairs, plusieurs fois par an."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait réciter par cœur une quinzaine de vers, sans hésiter, en marquant les pauses et les intonations indiquées par la ponctuation ?",
+      "priorKnowledge": [
+        "Réciter un court texte en vers ou en prose (5e)",
+        "Mémoriser pour une œuvre intégrale étudiée un passage choisi d’une dizaine de lignes ou vers (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-lvh-03",
+      "programme": "francais-c4",
+      "type": "META",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Lire à voix haute, seul ou à plusieurs",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "S’entraîner seul ou à plusieurs pour améliorer sa lecture",
+      "description": "Répéter sa lecture à voix haute, s’écouter et écouter les conseils de ses camarades pour lire de mieux en mieux.",
+      "officialObjectives": [
+        "S’entrainer, seul ou avec ses pairs, pour améliorer sa lecture."
+      ],
+      "evidence": [
+        "S’entraine, seul ou avec ses pairs, à lire un texte à voix haute.",
+        "Améliore sa lecture d’un essai à l’autre en tenant compte des remarques reçues."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait s’entraîner à lire un texte à voix haute (seul ou avec un camarade) et s’améliorer d’une lecture à l’autre ?",
+      "priorKnowledge": [
+        "Repérer des éléments à améliorer dans sa lecture oralisée ou celle des autres (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-oeu-01",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Appréhender une œuvre dans des contextes artistiques variés",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comprendre la structure globale d’une œuvre et ses enjeux",
+      "description": "Comprendre comment une œuvre entière est construite (grandes parties, progression) pour saisir ce qu’elle cherche à dire et la replacer dans son époque.",
+      "officialObjectives": [
+        "Comprendre, interpréter la structure globale d’une œuvre afin d’en appréhender les enjeux et de la situer dans son contexte."
+      ],
+      "evidence": [
+        "Comprend et interprète la structure globale d’une œuvre intégrale étudiée.",
+        "S’appuie sur cette structure pour appréhender les enjeux de l’œuvre.",
+        "Situe l’œuvre dans son contexte."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer comment est construit un livre étudié en classe (ses grandes étapes) et ce que cette construction permet de comprendre ?",
+      "priorKnowledge": [
+        "Comprendre et interpréter le parcours d’un ou de plusieurs personnages afin d’appréhender les enjeux de l’œuvre et la situer dans son contexte (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-oeu-02",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Appréhender une œuvre dans des contextes artistiques variés",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comprendre une œuvre dans son contexte de publication",
+      "description": "Comprendre et apprécier une œuvre en tenant compte du moment et des conditions de sa publication (époque, idées du temps).",
+      "officialObjectives": [
+        "Comprendre, interpréter, apprécier une œuvre dans son contexte de publication."
+      ],
+      "evidence": [
+        "Comprend, interprète et apprécie une œuvre en tenant compte de son contexte de publication.",
+        "Mesure qu’une œuvre s’inscrit dans un contexte de production et de diffusion et se nourrit des idées et des savoirs de son temps."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire à quelle époque une œuvre étudiée a été publiée et en quoi cela aide à la comprendre (par exemple un texte des Lumières au XVIIIe siècle) ?",
+      "priorKnowledge": [
+        "Tirer parti des informations sur le contexte de production d’une œuvre pour la comprendre et l’interpréter (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-oeu-03",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Appréhender une œuvre dans des contextes artistiques variés",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comparer œuvres littéraires et artistiques avec un vocabulaire adapté",
+      "description": "Rapprocher un texte et une autre œuvre d’art (tableau, mise en scène…) pour voir leurs points communs et leurs différences, en employant les mots justes.",
+      "officialObjectives": [
+        "Comparer des œuvres littéraires et artistiques en utilisant un vocabulaire adapté."
+      ],
+      "evidence": [
+        "Compare des œuvres littéraires et des œuvres artistiques.",
+        "Utilise un vocabulaire adapté pour décrire et comparer ces œuvres."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comparer un texte et une œuvre d’art qui s’y rapporte (un tableau, une mise en scène) en utilisant des mots précis ?",
+      "priorKnowledge": [
+        "Comparer les langages différents d’une œuvre littéraire et d’une œuvre artistique (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-oeu-04",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Appréhender une œuvre dans des contextes artistiques variés",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Connaître quelques caractéristiques des genres étudiés en 4e",
+      "description": "Savoir reconnaître les traits principaux des genres lus dans l’année : récits fantastiques, d’anticipation ou policiers, poésie, théâtre, textes d’idées (discours, essai).",
+      "officialObjectives": [
+        "Connaitre quelques caractéristiques des genres littéraires abordés dans l’année."
+      ],
+      "evidence": [
+        "Connait quelques caractéristiques des genres littéraires abordés dans l’année (récit, poésie, théâtre, discours ou essai).",
+        "Reconnait un récit fantastique, un récit d’anticipation ou une enquête policière."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qui fait qu’un récit est fantastique, policier ou d’anticipation, ou ce qui distingue une pièce de théâtre d’un poème ?",
+      "priorKnowledge": [
+        "Se constituer des repères dans l’histoire littéraire (5e)",
+        "Genres étudiés dans les entrées de culture littéraire : récit héroïque, poésie, théâtre comique, conte et fable (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-conl-01",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Acquérir, structurer et mobiliser des connaissances littéraires et culturelles",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Identifier quelques caractéristiques du style d’un auteur",
+      "description": "Repérer ce qui rend l’écriture d’un auteur reconnaissable : ses mots, ses tournures, ses images, son rythme.",
+      "officialObjectives": [
+        "Identifier quelques caractéristiques du style d’un auteur."
+      ],
+      "evidence": [
+        "Identifie quelques caractéristiques du style d’un auteur étudié.",
+        "Apprécie les choix esthétiques de l’écrivain, notamment grâce à des activités d’écriture."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer ce qui caractérise l’écriture d’un auteur étudié (par exemple les mots ou les images qu’il emploie souvent) ?",
+      "priorKnowledge": [
+        "Apprendre à recourir à quelques outils d’analyse pertinents pour lire les textes rencontrés (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-conl-02",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Acquérir, structurer et mobiliser des connaissances littéraires et culturelles",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Mémoriser un passage d’une quinzaine de lignes d’une œuvre étudiée",
+      "description": "Apprendre par cœur un passage choisi (environ quinze lignes ou vers) d’un livre étudié en entier en classe.",
+      "officialObjectives": [
+        "Mémoriser pour une œuvre intégrale étudiée un passage choisi d’une quinzaine de lignes ou de vers."
+      ],
+      "evidence": [
+        "Mémorise un passage choisi d’une quinzaine de lignes ou de vers d’une œuvre intégrale étudiée.",
+        "Restitue ce passage de façon fluide, seul ou avec ses pairs, plusieurs fois par an."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} a appris par cœur un passage d’une quinzaine de lignes ou de vers d’un livre étudié en classe et sait le redire sans erreur ?",
+      "priorKnowledge": [
+        "Mémoriser pour une œuvre intégrale étudiée un passage choisi d’une dizaine de lignes ou vers (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-conl-03",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Acquérir, structurer et mobiliser des connaissances littéraires et culturelles",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Relier les œuvres entre elles selon leurs contextes de création",
+      "description": "Rapprocher des œuvres écrites à la même époque ou dans des circonstances proches, et se construire des repères d’histoire littéraire.",
+      "officialObjectives": [
+        "Relier les œuvres entre elles selon leurs contextes de création."
+      ],
+      "evidence": [
+        "Relie des œuvres entre elles selon leurs contextes de création.",
+        "Met en réseau textes et œuvres dans une approche comparatiste et acquiert des premiers repères d’histoire littéraire.",
+        "Situe peu à peu les récits lus dans leur époque et leur contexte de création."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait rapprocher deux œuvres écrites à la même époque (par exemple deux textes des Lumières) et dire ce qu’elles ont en commun ?",
+      "priorKnowledge": [
+        "Se constituer des repères dans l’histoire littéraire (5e)",
+        "Mettre en relation les textes nouveaux avec ceux de lus ou étudiés précédemment (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-conl-04",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Acquérir, structurer et mobiliser des connaissances littéraires et culturelles",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Argumenter en s’appuyant sur des exemples littéraires",
+      "description": "Défendre une idée en citant des exemples tirés des livres lus (un personnage, une scène, une citation).",
+      "officialObjectives": [
+        "Argumenter en prenant appui sur des exemples littéraires."
+      ],
+      "evidence": [
+        "Argumente en prenant appui sur des exemples littéraires.",
+        "Mobilise ses lectures pour illustrer une idée, à l’écrit comme à l’oral."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait défendre une idée en donnant un exemple tiré d’un livre lu, par exemple un personnage qui désobéit pour rester fidèle à ses valeurs ?",
+      "priorKnowledge": [
+        "Justifier son point de vue de lecteur (5e)",
+        "Écrire un texte à visée argumentative à partir de consignes simples et explicitées (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 4,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-lqt-01",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Lecture",
+      "subdomain": "Indications quantitatives",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Lire des œuvres complètes et des textes longs au fil de l’année",
+      "description": "Dans l’année, lire seul au moins trois livres choisis (« lecture cursive ») et étudier en classe quatre œuvres complètes de genres et d’époques différents, ainsi que des textes de plusieurs pages.",
+      "officialObjectives": [
+        "Lire au moins trois œuvres en lecture cursive (qui peuvent relever de la littérature de jeunesse contemporaine) dans l’année et étudier quatre œuvres intégrales de genres différents et d’époques variées.",
+        "Étudier ou lire de manière cursive au moins deux groupements de textes.",
+        "Lire et analyser des textes de longueur variée, notamment des textes de plusieurs pages."
+      ],
+      "evidence": [
+        "Lit au moins trois œuvres en lecture cursive dans l’année (elles peuvent relever de la littérature de jeunesse contemporaine).",
+        "Étudie quatre œuvres intégrales de genres différents et d’époques variées.",
+        "Étudie ou lit de manière cursive au moins deux groupements de textes.",
+        "Lit et analyse des textes de longueur variée, notamment des textes de plusieurs pages.",
+        "Emprunte régulièrement des livres (CDI, médiathèque) qui correspondent à ses centres d’intérêt."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} a lu cette année au moins trois livres en autonomie, en plus des œuvres complètes étudiées en classe ?",
+      "priorKnowledge": [
+        "Poursuivre son apprentissage de lecteur autonome, contrôler sa compréhension (5e)",
+        "Lire au moins trois œuvres en lecture cursive et étudier quatre œuvres intégrales dans l’année (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 3,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-fic-01",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Culture littéraire et artistique",
+      "subdomain": "Sonder, explorer, anticiper : la fiction aux limites de notre monde (récit, fiction)",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Explorer la fiction aux limites du réel : fantastique, anticipation, enquête",
+      "description": "Lire des récits fantastiques, d’anticipation (science-fiction) ou des enquêtes policières, qui brouillent la frontière entre le réel et l’imaginaire, et réfléchir à ce qu’ils disent de notre monde.",
+      "officialObjectives": [
+        "Sonder, explorer, anticiper : la fiction aux limites de notre monde (récit, fiction)",
+        "En prenant appui sur l’étude et l’appropriation d’une œuvre intégrale ou d’un groupement de textes, comme sur des lectures cursives, dans le cadre d’un projet d’apprentissage, l’élève perçoit que la curiosité devant l’étrange peut être source de répulsion tout autant que de fascination."
+      ],
+      "evidence": [
+        "Étudie une œuvre intégrale ou un groupement de récits fantastiques, d’anticipation, d’enquêtes policières ou paranormales.",
+        "Perçoit que la curiosité devant l’étrange peut être source de répulsion autant que de fascination.",
+        "Fait preuve d’esprit critique face aux frontières entre réel, imaginaire et rêve.",
+        "Situe peu à peu ces récits dans leur époque et leur contexte de création.",
+        "Réinvestit ces lectures dans ses pratiques d’écriture."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi un récit fantastique ou d’anticipation lu en classe fascine et inquiète à la fois, et ce qu’il fait réfléchir sur notre monde ?",
+      "priorKnowledge": [
+        "Devenir héroïne/héros : destins romanesques, étude du récit et des figures héroïques (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-poe-01",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Culture littéraire et artistique",
+      "subdomain": "Contempler, célébrer, veiller : habiter la terre en poète (poésie)",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Habiter la terre en poète : le regard du poète sur le monde",
+      "description": "Découvrir comment les poètes, d’hier et d’aujourd’hui, observent, célèbrent et questionnent le monde, la nature et les êtres, en étant sensibles à la fragilité de l’environnement.",
+      "officialObjectives": [
+        "Contempler, célébrer, veiller : habiter la terre en poète (poésie)",
+        "En prenant appui sur l’étude et l’appropriation de larges extraits d’œuvres intégrales ou d’un groupement de textes, comme sur des lectures cursives, dans le cadre d’un projet d’apprentissage, l’élève découvre la multiplicité des regards que le poète pose sur le monde, la vie, la nature et les êtres, en étant sensible à la fragilité de son environnement."
+      ],
+      "evidence": [
+        "Étudie de larges extraits d’œuvres poétiques ou un groupement de poèmes.",
+        "Repère la multiplicité des regards que le poète pose sur le monde, la vie, la nature et les êtres.",
+        "Perçoit que le poète saisit la beauté et les tensions du réel et met en lumière les injustices et les inégalités de son temps.",
+        "Comprend qu’habiter le monde en poète est une manière d’observer, de célébrer et de questionner ce qui l’entoure."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer, à partir d’un poème étudié, comment le poète regarde la nature ou le monde (pour l’admirer, le célébrer ou dénoncer ce qui le menace) ?",
+      "priorKnowledge": [
+        "Voyager en poésie : la force des mots, des sonorités, des rythmes et des images (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-the-01",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Culture littéraire et artistique",
+      "subdomain": "Obéir, désobéir, trahir ? Conflits de valeurs sur scène (théâtre)",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comprendre les conflits de valeurs au théâtre : obéir, désobéir, trahir",
+      "description": "Étudier des pièces où les personnages doivent choisir entre obéir, désobéir ou trahir, et comprendre comment le théâtre met ces dilemmes sous les yeux du spectateur.",
+      "officialObjectives": [
+        "Obéir, désobéir, trahir ? Conflits de valeurs sur scène (théâtre)",
+        "En prenant appui sur l’étude et l’appropriation d’une œuvre intégrale ou d’un groupement de textes, comme sur des lectures cursives, dans le cadre d’un projet d’apprentissage, l’élève réfléchit à la manière dont, au théâtre, des systèmes de valeurs s’incarnent, s’opposent et se dépassent.",
+        "Il perçoit les conflits de loyauté, les dilemmes qui peuvent en résulter et prend conscience que la scène est un espace de délibération et de construction de soi qui invite le spectateur à repenser ses propres valeurs."
+      ],
+      "evidence": [
+        "Étudie une œuvre théâtrale intégrale ou un groupement de textes autour d’un conflit de valeurs.",
+        "Analyse comment, au théâtre, des systèmes de valeurs s’incarnent, s’opposent et se dépassent.",
+        "Repère les conflits de loyauté et les dilemmes des personnages.",
+        "Prend en compte la dimension scénique (mises en scène, scénographie, pratique théâtrale) au-delà de la seule étude du texte.",
+        "Comprend que la scène invite le spectateur à repenser ses propres valeurs."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer le dilemme d’un personnage de théâtre étudié en classe (obéir ou désobéir, rester loyal ou trahir) et dire ce qu’il en pense ?",
+      "priorKnowledge": [
+        "Expérimenter et jouer au théâtre : spécificités de l’écriture et de la représentation théâtrales, dynamique du comique (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-lum-01",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Culture littéraire et artistique",
+      "subdomain": "Critiquer, dénoncer, penser : les Lumières en héritage (discours, essai, récit, fiction)",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comprendre l’héritage des Lumières : critiquer, dénoncer, penser",
+      "description": "Découvrir les idées des Lumières (XVIIIe siècle) et leurs combats pour l’égalité, la justice et l’accès au savoir, et comprendre que cette façon de penser par soi-même reste actuelle et fragile.",
+      "officialObjectives": [
+        "Critiquer, dénoncer, penser : les Lumières en héritage (discours, essai, récit, fiction)",
+        "En prenant appui sur l’étude et l’appropriation d’une œuvre intégrale ou d’un groupement de textes, ainsi que sur des lectures cursives, dans le cadre d’un projet d’apprentissage, l’élève prend conscience que l’héritage des Lumières est toujours vivant et constitue une dynamique de pensée, une manière d’interroger le monde avec exigence et sensibilité.",
+        "Dialoguant avec les œuvres d’hier et d’aujourd’hui, il développe et enrichit la dimension réflexive et argumentative de ses écrits et de ses prises de parole et formule sa pensée avec plus de justesse, de nuance et de force."
+      ],
+      "evidence": [
+        "Étudie une œuvre intégrale ou un groupement de textes (discours, essai, récit, fiction) liés aux Lumières.",
+        "Identifie les combats humanistes inspirés par les Lumières : égalité, justice, accès au savoir.",
+        "Comprend que l’héritage des Lumières est toujours vivant mais fragile, et qu’il mérite d’être défendu.",
+        "Développe la dimension réflexive et argumentative de ses écrits et de ses prises de parole.",
+        "Examine, critique, doute et ose dénoncer, en pensant par lui-même hors des dogmes et des préjugés."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer un combat des écrivains des Lumières (pour la justice, l’égalité ou le savoir) et dire en quoi il est encore d’actualité ?",
+      "priorKnowledge": [
+        "Imaginer, sentir, raisonner : contes et fables qui allient récit et réflexion morale (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-erm-01",
+      "programme": "francais-c4",
+      "type": "META",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Écrire pour réfléchir, apprendre et mémoriser",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Choisir seul les supports d’écriture adaptés à son objectif",
+      "description": "Savoir, sans qu’on le lui dise, sur quel support écrire selon ce qu’il veut faire : apprendre, mémoriser, préparer, réfléchir (fiche, liste, brouillon, carnet, outil numérique…).",
+      "officialObjectives": [
+        "Choisir de façon autonome les supports adaptés aux objectifs d’écriture."
+      ],
+      "evidence": [
+        "Choisit de façon autonome les supports adaptés à ses objectifs d’écriture.",
+        "Utilise ces supports pour écrire, apprendre et mémoriser sans qu’ils lui soient imposés."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir seul comment noter ce qu’il doit apprendre (fiche, tableau, liste, carnet) selon ce qu’il veut en faire ?",
+      "priorKnowledge": [
+        "Utiliser différents supports pour écrire, apprendre et mémoriser (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-erm-02",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Écrire pour réfléchir, apprendre et mémoriser",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Prendre des notes en faisant apparaître l’organisation des idées",
+      "description": "Noter l’essentiel d’un message entendu ou lu en faisant apparaître comment il est organisé et comment les idées s’enchaînent.",
+      "officialObjectives": [
+        "Prendre en notes un message oral ou écrit : organisation du propos et enchainement des idées."
+      ],
+      "evidence": [
+        "Prend en notes un message oral ou écrit.",
+        "Fait apparaître dans ses notes l’organisation du propos et l’enchainement des idées."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait prendre des notes pendant un exposé ou une lecture en faisant apparaître le plan et les liens entre les idées ?",
+      "priorKnowledge": [
+        "Repérer l’idée principale d’un message écrit ou oral (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-erm-03",
+      "programme": "francais-c4",
+      "type": "META",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Écrire pour réfléchir, apprendre et mémoriser",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Utiliser l’écrit de travail en autonomie",
+      "description": "Produire de lui-même des écrits de travail (listes, synthèses, brouillons d’oral…) pour réfléchir, préparer une tâche ou apprendre.",
+      "officialObjectives": [
+        "Utiliser l’écrit de travail en autonomie"
+      ],
+      "evidence": [
+        "Produit de lui-même des écrits de travail (listes, synthèses, brouillons d’oral, etc.).",
+        "S’en sert sans qu’on le lui demande pour réfléchir, apprendre et mémoriser."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} prépare de lui-même un brouillon, une liste ou une synthèse avant un exposé ou pour réviser une leçon ?",
+      "priorKnowledge": [
+        "Produire des écrits de travail : listes, synthèses, brouillons d’oral, etc (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-erm-04",
+      "programme": "francais-c4",
+      "type": "META",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Écrire pour réfléchir, apprendre et mémoriser",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "S’initier aux écrits réflexifs",
+      "description": "Écrire pour réfléchir : expliquer ce qu’on a compris, retracer comment on a travaillé et ce qu’on a appris au cours d’un projet.",
+      "officialObjectives": [
+        "S’initier aux écrits réflexifs."
+      ],
+      "evidence": [
+        "Rédige de courts écrits pour réfléchir à ce qu’il apprend.",
+        "Retrace par écrit le cheminement suivi au cours d’un projet d’apprentissage et ce qu’il a appris."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire quelques lignes pour expliquer ce qu’il a appris dans un chapitre et comment il s’y est pris ?",
+      "priorKnowledge": [
+        "Produire des écrits de travail : listes, synthèses, brouillons d’oral, etc (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-inv-01",
+      "programme": "francais-c4",
+      "type": "META",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Écrire des textes d’invention et de réflexion pour soi et pour autrui",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Planifier un écrit de façon autonome",
+      "description": "Préparer son texte avant de le rédiger (idées, organisation, brouillon) en devenant capable de le faire seul, sans l’aide du professeur.",
+      "officialObjectives": [
+        "Planifier un écrit et devenir autonome."
+      ],
+      "evidence": [
+        "Planifie un écrit avant de le rédiger (préparation, brouillon, écrits intermédiaires).",
+        "Planifie de plus en plus seul, sans être accompagné dans sa démarche.",
+        "S’appuie sur des objets littéraires (le personnage, le dialogue, le portrait) pour planifier ses textes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} prépare seul un plan ou un brouillon avant de rédiger une rédaction ?",
+      "priorKnowledge": [
+        "Planifier un écrit en étant accompagné dans sa démarche (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-inv-02",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Écrire des textes d’invention et de réflexion pour soi et pour autrui",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Développer une pratique créative de l’écriture",
+      "description": "Écrire de façon inventive, seul ou en groupe (par exemple en cercle d’auteurs), en jouant avec la langue : poèmes, récits, scènes, scénarios.",
+      "officialObjectives": [
+        "Développer une pratique artistique et créative de l’écriture, seul ou avec ses pairs."
+      ],
+      "evidence": [
+        "Pratique régulièrement l’écriture créative, seul ou avec ses pairs (cercles d’auteurs, par exemple).",
+        "Imagine des mondes et des personnages, s’exerce à la mise en récit, en scène ou à l’écriture de scénario.",
+        "S’inspire de formes puisées dans ses lectures, qu’il imite ou remanie."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait inventer un texte original (un poème, une scène de théâtre, un début de récit fantastique), seul ou avec des camarades ?",
+      "priorKnowledge": [
+        "S’initier à une pratique artistique et créative de l’écriture, seul ou avec ses pairs (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-inv-03",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Écrire des textes d’invention et de réflexion pour soi et pour autrui",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Écrire des textes libres pour exprimer ses sentiments et ses idées",
+      "description": "Écrire librement pour parler de soi, de ce qu’on ressent ou de ce qu’on pense (poème, lettre, journal…).",
+      "officialObjectives": [
+        "Écrire des textes libres, favorisant l’expression de soi, des sentiments et des idées."
+      ],
+      "evidence": [
+        "Écrit des textes libres favorisant l’expression de soi.",
+        "Exprime ses sentiments et ses idées, notamment dans des textes poétiques."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire un texte personnel, par exemple un poème, pour exprimer ce qu’il ressent ou ce qu’il pense ?",
+      "priorKnowledge": [
+        "S’initier à une pratique artistique et créative de l’écriture, seul ou avec ses pairs (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-inv-04",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Écrire des textes d’invention et de réflexion pour soi et pour autrui",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Écrire un texte mêlant narration, description et paroles rapportées",
+      "description": "Écrire un texte qui combine plusieurs façons d’écrire : raconter, décrire, faire parler les personnages (au discours direct ou indirect), en respectant les règles du genre choisi.",
+      "officialObjectives": [
+        "Écrire des textes qui mêlent les différents types de texte mêlant narration, description, paroles rapportées directement ou indirectement, en s’initiant aux codes propres aux genres et types de textes abordés."
+      ],
+      "evidence": [
+        "Écrit des textes qui mêlent narration, description et paroles rapportées directement ou indirectement.",
+        "S’initie aux codes propres aux genres et types de textes abordés.",
+        "Compose progressivement un récit complet combinant différentes formes de discours, avec un travail sur l’implicite.",
+        "Écrit au moins un texte par projet d’apprentissage, de plus en plus long (d’une trentaine de lignes en 5e vers une soixantaine en 3e)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire un récit où il raconte, décrit un lieu ou un personnage et fait parler les personnages, au discours direct et au discours indirect ?",
+      "priorKnowledge": [
+        "Écrire des textes narratifs et descriptifs (5e)",
+        "Insérer des paroles au discours direct dans un texte (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-inv-05",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Écrire des textes d’invention et de réflexion pour soi et pour autrui",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Écrire un texte argumentatif avec un argument et un exemple",
+      "description": "Écrire un texte qui défend une opinion en donnant au moins une raison (un argument) et un exemple qui l’illustre.",
+      "officialObjectives": [
+        "Écrire des textes à visée argumentative présentant au moins un argument et un exemple l’illustrant."
+      ],
+      "evidence": [
+        "Écrit un texte à visée argumentative présentant au moins un argument.",
+        "Illustre son argument par au moins un exemple.",
+        "Étaye sa pensée personnelle et la confronte à celle des autres."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire un paragraphe pour défendre son avis (par exemple « faut-il toujours obéir ? ») avec au moins un argument et un exemple qui l’illustre ?",
+      "priorKnowledge": [
+        "Écrire un texte à visée argumentative à partir de consignes simples et explicitées (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-rev-01",
+      "programme": "francais-c4",
+      "type": "META",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Évaluer son écrit et savoir le faire évoluer",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Se fixer des objectifs de relecture",
+      "description": "Avant de relire son texte, décider ce qu’on va vérifier (respect de la consigne, accords, ponctuation…), seul ou avec des camarades.",
+      "officialObjectives": [
+        "Construire des objectifs de relecture seul ou avec ses pairs."
+      ],
+      "evidence": [
+        "Construit, seul ou avec ses pairs, des objectifs de relecture.",
+        "Effectue une relecture efficace et ciblée à partir de ces objectifs."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qu’il va vérifier en relisant sa rédaction (par exemple les accords sujet-verbe, puis la ponctuation) et le faire point par point ?",
+      "priorKnowledge": [
+        "Réviser un écrit en suivant les consignes des professeurs (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-rev-02",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Évaluer son écrit et savoir le faire évoluer",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Améliorer son texte grâce au vocabulaire et à ses lectures",
+      "description": "Enrichir un texte en y réutilisant des mots appris en classe ou en s’inspirant de textes lus.",
+      "officialObjectives": [
+        "Améliorer un écrit en exploitant un lexique ou des lectures."
+      ],
+      "evidence": [
+        "Améliore un écrit en exploitant un lexique étudié.",
+        "Améliore un écrit en s’inspirant de ses lectures.",
+        "Réinvestit ses connaissances sur la morphologie et l’étymologie des mots pour enrichir ses productions."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait améliorer sa rédaction en remplaçant des mots trop simples par des mots plus précis appris en classe, ou en s’inspirant d’un texte lu ?",
+      "priorKnowledge": [
+        "Mobiliser le vocabulaire nouveau pour améliorer ses productions écrites et orales (5e)",
+        "Faire évoluer un écrit en fonction de nouvelles consignes (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-rev-03",
+      "programme": "francais-c4",
+      "type": "META",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Évaluer son écrit et savoir le faire évoluer",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Retravailler son texte avec le brouillon et les versions intermédiaires",
+      "description": "Utiliser le brouillon pour essayer, comparer plusieurs versions de son texte et garder les meilleures formulations.",
+      "officialObjectives": [
+        "Explorer les versions intermédiaires d’un texte, utiliser les ressorts du brouillon. Utiliser des dictionnaires variés imprimés ou en ligne, apprendre à utiliser un vérificateur orthographique, une grammaire, pour accompagner, améliorer ou corriger la production d’un écrit."
+      ],
+      "evidence": [
+        "Explore les versions intermédiaires d’un texte pour le faire évoluer.",
+        "Utilise les ressorts du brouillon pour réviser et enrichir son texte."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comparer deux versions de son brouillon et expliquer laquelle est la meilleure et pourquoi ?",
+      "priorKnowledge": [
+        "Savoir utiliser le brouillon comme un écrit pour retravailler son texte (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-rev-04",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Évaluer son écrit et savoir le faire évoluer",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Utiliser dictionnaires, correcteur et grammaire pour corriger un écrit",
+      "description": "Se servir d’outils (dictionnaires papier ou en ligne, vérificateur orthographique, grammaire) pour vérifier, améliorer et corriger son texte.",
+      "officialObjectives": [
+        "Explorer les versions intermédiaires d’un texte, utiliser les ressorts du brouillon. Utiliser des dictionnaires variés imprimés ou en ligne, apprendre à utiliser un vérificateur orthographique, une grammaire, pour accompagner, améliorer ou corriger la production d’un écrit."
+      ],
+      "evidence": [
+        "Utilise des dictionnaires variés, imprimés ou en ligne, pour accompagner ou améliorer son écrit.",
+        "Apprend à utiliser un vérificateur orthographique pour corriger un écrit.",
+        "Consulte une grammaire pour vérifier ou corriger la production d’un écrit."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} pense à consulter un dictionnaire, une grammaire ou un correcteur orthographique pour vérifier un mot ou un accord dans sa rédaction ?",
+      "priorKnowledge": [
+        "Maitriser l’usage du dictionnaire de langue en version papier et numérique (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 10,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-epri-01",
+      "programme": "francais-c4",
+      "type": "META",
+      "subject": "Français",
+      "domain": "Écriture",
+      "subdomain": "Principes",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Utiliser de façon critique les outils numériques et l’IA pour écrire",
+      "description": "À partir de la 4e, utiliser ponctuellement des outils numériques et l’intelligence artificielle (IA) avec du recul : réfléchir à la façon de formuler une demande et juger de façon critique les textes produits.",
+      "officialObjectives": [
+        "Ponctuellement, à partir de la classe de 4e, une utilisation critique et distanciée d’outils numériques et de l’intelligence artificielle permet à l’élève d’interroger la production contemporaine des textes ou de réfléchir à la formulation des instructions adressées à l’algorithme.",
+        "Il peut alors poser un regard critique sur les écrits qui lui sont proposés et opérer des choix conscients pour nourrir sa propre écriture."
+      ],
+      "evidence": [
+        "Utilise ponctuellement, de façon critique et distanciée, des outils numériques et l’intelligence artificielle.",
+        "Réfléchit à la formulation des instructions adressées à l’algorithme.",
+        "Pose un regard critique sur les écrits qui lui sont proposés.",
+        "Opère des choix conscients pour nourrir sa propre écriture."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait formuler une demande précise à un outil d’intelligence artificielle, puis juger avec recul le texte obtenu avant de s’en servir ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 9,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-par-01",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Oral",
+      "subdomain": "Prendre la parole, communiquer et interagir",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Présenter un oral construit adapté à la situation",
+      "description": "Faire un exposé ou une présentation organisée et préparée, en adaptant sa façon de parler au public et au but.",
+      "officialObjectives": [
+        "Pratiquer un oral construit adapté à la situation de communication."
+      ],
+      "evidence": [
+        "Pratique un oral construit, adapté à la situation de communication.",
+        "Prend la parole quelques minutes, en progressant vers les cinq minutes attendues en 3e.",
+        "Formule sa pensée dans un registre de langue approprié et une syntaxe correcte.",
+        "S’exerce à des genres oraux variés (exposé, restitution d’une recherche, etc.)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait présenter un exposé organisé de quelques minutes devant la classe, en adaptant sa manière de parler à son public ?",
+      "priorKnowledge": [
+        "Pratiquer un oral adapté à la situation de communication (5e)",
+        "Prendre la parole seul et s’exprimer de façon fluide (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-par-02",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Oral",
+      "subdomain": "Prendre la parole, communiquer et interagir",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Prendre la parole sans préparation",
+      "description": "Oser parler de façon spontanée, sans avoir préparé, pour répondre, réagir ou donner son avis de façon claire.",
+      "officialObjectives": [
+        "Prendre la parole sans préparation."
+      ],
+      "evidence": [
+        "Prend la parole de façon spontanée, sans préparation.",
+        "Se fait comprendre en admettant les redites, pauses et corrections propres à l’oral spontané."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} ose prendre la parole sans préparation, par exemple pour donner son avis sur un sujet proposé à l’improviste ?",
+      "priorKnowledge": [
+        "Prendre la parole seul et s’exprimer de façon fluide (5e)",
+        "Entrer dans un dialogue (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-par-03",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Oral",
+      "subdomain": "Prendre la parole, communiquer et interagir",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Participer activement et de façon raisonnée à un débat",
+      "description": "Prendre part à un débat en donnant des arguments, en écoutant les autres et en tenant compte de leur point de vue.",
+      "officialObjectives": [
+        "Prendre part de manière active et raisonnée à un débat."
+      ],
+      "evidence": [
+        "Prend part de manière active à un débat.",
+        "Exprime, précise et défend ses idées par des arguments.",
+        "Prend en compte le point de vue d’autrui."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait participer à un débat en classe en donnant des arguments et en répondant à ceux des autres ?",
+      "priorKnowledge": [
+        "Intervenir dans un débat en respectant les règles d’un échange argumentatif (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-eco-01",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Oral",
+      "subdomain": "Écouter, comprendre et interpréter",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Écouter un oral et en retenir les idées principales",
+      "description": "Écouter une présentation, un reportage ou un discours de quelques minutes et être capable d’en redire les idées principales.",
+      "officialObjectives": [
+        "Écouter une production orale et en mémoriser les idées principales."
+      ],
+      "evidence": [
+        "Écoute une production orale et en mémorise les idées principales.",
+        "Comprend un discours de quelques minutes de façon de plus en plus autonome."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écouter un reportage ou un exposé de quelques minutes et en redire les idées principales ?",
+      "priorKnowledge": [
+        "Écouter une production orale et en mémoriser les principaux éléments (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-eco-02",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Oral",
+      "subdomain": "Écouter, comprendre et interpréter",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Distinguer l’explicite et l’implicite dans un message oral",
+      "description": "Faire la différence entre ce qu’une personne dit clairement et ce qu’elle laisse entendre sans le dire.",
+      "officialObjectives": [
+        "Distinguer l’explicite et l’implicite."
+      ],
+      "evidence": [
+        "Distingue ce qui est dit explicitement de ce qui est sous-entendu.",
+        "S’appuie sur les manières de parler (voix, ton, contexte) pour percevoir l’implicite."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer ce qu’une personne veut dire sans le dire clairement, par exemple une critique cachée derrière un compliment ironique ?",
+      "priorKnowledge": [
+        "Comprendre les visées d’une production orale spécifique (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-eco-03",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Oral",
+      "subdomain": "Écouter, comprendre et interpréter",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comprendre et restituer l’organisation d’un oral",
+      "description": "Repérer comment les informations d’un exposé ou d’un discours sont organisées (plan, enchaînements) et pouvoir le redire.",
+      "officialObjectives": [
+        "Comprendre dans une production orale l’organisation des informations et pouvoir la restituer."
+      ],
+      "evidence": [
+        "Repère, dans une production orale, l’organisation des informations.",
+        "Restitue cette organisation."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, après avoir écouté un exposé, en retrouver le plan et le restituer dans l’ordre ?",
+      "priorKnowledge": [
+        "Écouter une production orale et en mémoriser les principaux éléments (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-dlj-01",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Oral",
+      "subdomain": "Dire, lire, jouer un texte",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Lire et réciter avec expressivité pour un public",
+      "description": "Lire ou dire par cœur un texte de façon vivante pour ceux qui écoutent : voix, rythme, intonation au service du sens.",
+      "officialObjectives": [
+        "Lire et réciter avec expressivité pour autrui."
+      ],
+      "evidence": [
+        "Lit et récite avec expressivité pour autrui.",
+        "Travaille l’articulation, les modulations de sa voix, la gestion du souffle et des silences.",
+        "Lit chaque semaine un texte à voix haute, pour lui ou pour la classe."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lire ou réciter un texte devant d’autres en mettant le ton, en articulant et en marquant les silences ?",
+      "priorKnowledge": [
+        "Lire et réciter avec fluidité (5e)",
+        "Utiliser les ressources de la voix et du corps pour faire vivre un texte (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-dlj-02",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Oral",
+      "subdomain": "Dire, lire, jouer un texte",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Prendre en compte un auditoire",
+      "description": "Quand on parle, lit ou joue devant d’autres, s’adresser vraiment à eux : les regarder, parler assez fort, vérifier qu’ils suivent.",
+      "officialObjectives": [
+        "Prendre en compte un auditoire."
+      ],
+      "evidence": [
+        "Prend en compte son auditoire lorsqu’il dit, lit ou joue un texte.",
+        "Mesure les effets de sa parole et ajuste son statut d’interlocuteur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}}, quand il parle devant la classe, regarde son public, parle assez fort et adapte son débit pour être bien compris ?",
+      "priorKnowledge": [
+        "Lire un texte d’une vingtaine de lignes avec aisance devant un auditoire (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-dlj-03",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Oral",
+      "subdomain": "Dire, lire, jouer un texte",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Jouer une scène de théâtre",
+      "description": "Interpréter un rôle dans une scène de théâtre, en utilisant sa voix, son corps et l’espace de la scène.",
+      "officialObjectives": [
+        "Jouer une scène de théâtre."
+      ],
+      "evidence": [
+        "Joue une scène de théâtre, seul ou avec ses pairs.",
+        "Mobilise sa voix et son corps au profit d’effets de sens.",
+        "Prend en compte l’espace et les déplacements des personnages pour faire des propositions de mise en scène pertinentes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait jouer une scène de théâtre avec un camarade en tenant compte de ses déplacements et de son ton pour faire comprendre la situation ?",
+      "priorKnowledge": [
+        "S’exercer à la pratique théâtrale (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-enr-01",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Enrichir son vocabulaire de l’analyse littéraire (théâtre et roman)",
+      "description": "Apprendre et employer les mots précis pour parler des œuvres, surtout du théâtre (par exemple réplique, didascalie) et du roman (par exemple narrateur).",
+      "officialObjectives": [
+        "Enrichir son lexique de l’analyse littéraire, en particulier celui du théâtre et du roman."
+      ],
+      "evidence": [
+        "Enrichit son lexique de l’analyse littéraire, en particulier celui du théâtre et du roman.",
+        "Découvre et mémorise dans l’année une dizaine de notions en lien avec les entrées de culture littéraire et artistique.",
+        "Réemploie ce vocabulaire dans de courts paragraphes (réponse à une question d’analyse, écrit de synthèse)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait employer les mots justes pour parler d’une pièce de théâtre ou d’un roman, par exemple « réplique », « didascalie » ou « narrateur » ?",
+      "priorKnowledge": [
+        "S’approprier les mots importants de l’univers de l’œuvre étudiée (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-enr-02",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Questionner les conditions d’emploi d’un mot selon le contexte",
+      "description": "Se demander, à partir du texte, dans quelles conditions un mot s’emploie : à quelle époque, dans quel lieu, dans quel milieu.",
+      "officialObjectives": [
+        "Questionner en s’appuyant sur le contexte les conditions d’emploi d’un lexique (époque, lieu, etc.)."
+      ],
+      "evidence": [
+        "S’appuie sur le contexte pour questionner les conditions d’emploi d’un lexique (époque, lieu, etc.).",
+        "Opère des rapprochements entre les langues, les époques et les cultures."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait remarquer qu’un mot d’un texte ancien n’a plus le même sens aujourd’hui, ou qu’un mot appartient à une région ou à une époque particulière ?",
+      "priorKnowledge": [
+        "Savoir déduire, vérifier ou rechercher le sens d’un mot (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-enr-03",
+      "programme": "francais-c4",
+      "type": "META",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Justifier à l’oral le choix de ses mots",
+      "description": "Expliquer à l’oral pourquoi on a choisi tel mot plutôt qu’un autre (plus précis, mieux adapté à la situation).",
+      "officialObjectives": [
+        "Justifier l’emploi de son lexique à l’oral."
+      ],
+      "evidence": [
+        "Justifie à l’oral l’emploi de son lexique.",
+        "Explique en quoi le mot choisi rend sa pensée et son propos plus précis."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer à l’oral pourquoi il a choisi un mot plutôt qu’un autre, par exemple « effrayé » plutôt que « inquiet » ?",
+      "priorKnowledge": [
+        "Mobiliser le vocabulaire nouveau pour améliorer ses productions écrites et orales (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-enr-04",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Construire un lexique interdisciplinaire",
+      "description": "Rassembler et organiser les mots utiles dans plusieurs matières (par exemple « hypothèse », « argument », « analyser ») pour les comprendre et les réemployer partout.",
+      "officialObjectives": [
+        "Construire un lexique interdisciplinaire."
+      ],
+      "evidence": [
+        "Construit un lexique commun à plusieurs disciplines.",
+        "Organise ce lexique et le réemploie à l’écrit et à l’oral."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait utiliser correctement des mots communs à plusieurs matières, comme « hypothèse », « argument » ou « analyser » ?",
+      "priorKnowledge": [
+        "Organiser les savoirs lexicaux (collections, familles de mots, portfolios, etc.) (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-enr-05",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Consulter dictionnaire ou encyclopédie quand le contexte ne suffit pas",
+      "description": "D’abord essayer de deviner le sens d’un mot grâce au contexte et à sa formation, puis, si cela ne suffit pas, chercher efficacement dans un dictionnaire ou une encyclopédie.",
+      "officialObjectives": [
+        "Maitriser la consultation d’un dictionnaire de langue ou une encyclopédie lorsque les stratégies déductives ne suffisent pas pour éclairer le sens."
+      ],
+      "evidence": [
+        "Cherche d’abord à déduire le sens d’un mot (contexte, formation du mot).",
+        "Consulte un dictionnaire de langue ou une encyclopédie lorsque ces stratégies déductives ne suffisent pas.",
+        "Fait un usage raisonné de dictionnaires variés (de langue, orthographiques, analogiques, historiques et culturels)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}}, face à un mot inconnu, essaie d’abord d’en deviner le sens grâce à la phrase, puis vérifie dans un dictionnaire si besoin ?",
+      "priorKnowledge": [
+        "Maitriser l’usage du dictionnaire de langue en version papier et numérique (5e)",
+        "Savoir déduire, vérifier ou rechercher le sens d’un mot (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-rel-01",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Identifier les types de relations entre les mots",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Connaître les glissements de sens des mots et les locutions",
+      "description": "Comprendre qu’un mot peut changer de sens selon son emploi (glissements, sens figuré) et connaître des locutions, c’est-à-dire des groupes de mots figés comme « avoir le cœur sur la main ».",
+      "officialObjectives": [
+        "Consolider la connaissance des relations de sens entre les mots (glissements et variations de sens, locutions)."
+      ],
+      "evidence": [
+        "Repère les glissements et les variations de sens d’un mot selon son emploi.",
+        "Identifie et comprend des locutions."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer le sens d’une expression toute faite comme « avoir le cœur sur la main », ou comment un mot change de sens selon la phrase ?",
+      "priorKnowledge": [
+        "Reconnaitre et savoir nommer les relations de sens entre les mots (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-rel-02",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Identifier les types de relations entre les mots",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Connaître la composition des mots",
+      "description": "Comprendre comment se forment les mots composés de plusieurs mots ou éléments (« porte-monnaie », « chronomètre ») et s’en servir pour les comprendre.",
+      "officialObjectives": [
+        "Consolider la connaissance des relations de forme entre les mots (composition)."
+      ],
+      "evidence": [
+        "Consolide la connaissance des relations de forme entre les mots par la composition.",
+        "Identifie les éléments qui forment un mot composé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire de quels mots ou éléments est formé un mot composé comme « porte-monnaie » ou « chronomètre » ?",
+      "priorKnowledge": [
+        "Reconnaitre et savoir nommer les relations de forme (morphologie) entre les mots (5e)",
+        "S’appuyer sur la composition d’un mot (préfixe, radical, suffixe) pour en déduire le sens (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-rel-03",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Identifier les types de relations entre les mots",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Mettre les mots en réseau",
+      "description": "Relier les mots entre eux selon leur sens (champ lexical, synonymes), leur forme (famille de mots) ou leur histoire (étymologie), pour mieux les comprendre et les retenir.",
+      "officialObjectives": [
+        "Mettre les mots en réseau."
+      ],
+      "evidence": [
+        "Met les mots en réseau selon leurs relations de sens (champs lexicaux, synonymie, polysémie), de forme (dérivation) ou leur histoire (étymologie).",
+        "Pratique la catégorisation et le tri lexical pour s’approprier le vocabulaire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait rassembler autour d’un thème (par exemple la peur) des mots de la même famille, des synonymes et des mots du même champ lexical ?",
+      "priorKnowledge": [
+        "Organiser les savoirs lexicaux (collections, familles de mots, portfolios, etc.) (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-rel-04",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Identifier les types de relations entre les mots",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Classer les mots par intensité et par généralité",
+      "description": "Ranger des mots du plus faible au plus fort (tiède, chaud, brûlant) ou du plus général au plus précis (animal, chien, caniche), et choisir le mot juste en écrivant ou en parlant.",
+      "officialObjectives": [
+        "Maitriser le classement par degré d’intensité et de généralité, et les utiliser à l’écrit et à l’oral."
+      ],
+      "evidence": [
+        "Classe des mots par degré d’intensité.",
+        "Classe des mots par degré de généralité.",
+        "Utilise ces classements pour choisir le mot juste à l’écrit et à l’oral."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger des mots du plus faible au plus fort, par exemple « content, joyeux, ravi », et choisir le plus juste dans une phrase ?",
+      "priorKnowledge": [
+        "Reconnaitre et savoir nommer les relations de sens entre les mots (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-jeu-01",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Réemployer son lexique et jouer avec les mots",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Analyser en contexte polysémie, synonymie, antonymie, homonymie",
+      "description": "Comprendre, dans un texte, le sens d’un mot qui en a plusieurs (polysémie), et repérer synonymes, contraires (antonymes) et homonymes.",
+      "officialObjectives": [
+        "Analyser en contexte le sens des mots : polysémie et synonymie, antonymie et homonymie, dénotation et connotation."
+      ],
+      "evidence": [
+        "Analyse en contexte le sens d’un mot polysémique.",
+        "Analyse en contexte synonymes, antonymes et homonymes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quel est le sens du mot « glace » dans une phrase donnée (eau gelée, miroir ou dessert), et en donner un synonyme ou un contraire ?",
+      "priorKnowledge": [
+        "Utiliser les mots en exploitant les variations de sens (5e)",
+        "Reconnaitre et savoir nommer les relations de sens entre les mots (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-jeu-02",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Réemployer son lexique et jouer avec les mots",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Distinguer dénotation et connotation",
+      "description": "Distinguer le sens premier d’un mot (dénotation) et les idées ou impressions qu’il évoque en plus (connotation) : « nuit » désigne un moment, mais peut évoquer la peur ou le mystère.",
+      "officialObjectives": [
+        "Analyser en contexte le sens des mots : polysémie et synonymie, antonymie et homonymie, dénotation et connotation."
+      ],
+      "evidence": [
+        "Distingue en contexte le sens dénoté d’un mot et ses connotations.",
+        "Analyse l’effet des connotations dans un texte."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qu’un mot évoque en plus de son sens premier, par exemple pourquoi « nuit » peut suggérer la peur dans un récit fantastique ?",
+      "priorKnowledge": [
+        "Utiliser les mots en exploitant les variations de sens (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-jeu-03",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Réemployer son lexique et jouer avec les mots",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comparer le vocabulaire de textes de même genre ou de même époque",
+      "description": "Comparer les mots employés dans plusieurs textes du même genre (deux poèmes) ou de la même époque (deux textes du XVIIIe siècle) et voir ce qui les rapproche ou les distingue.",
+      "officialObjectives": [
+        "Comparer le vocabulaire et le sens des mots entre des textes de même genre ou de même période."
+      ],
+      "evidence": [
+        "Compare le vocabulaire et le sens des mots entre des textes de même genre.",
+        "Compare le vocabulaire et le sens des mots entre des textes de même période."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comparer les mots employés dans deux poèmes sur la nature, ou dans deux textes du XVIIIe siècle, et dire ce qui les rapproche ?",
+      "priorKnowledge": [
+        "Mettre en relation les textes nouveaux avec ceux de lus ou étudiés précédemment (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-jeu-04",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Réemployer son lexique et jouer avec les mots",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Explorer la variation des mots en traduction et en adaptation",
+      "description": "Observer comment les mots changent quand un texte est traduit d’une autre langue ou adapté : les mots choisis ne sont pas toujours les mêmes, ni leur sens exact.",
+      "officialObjectives": [
+        "Explorer la variation des mots en traduction et en adaptation."
+      ],
+      "evidence": [
+        "Compare des traductions ou des adaptations d’un même texte.",
+        "Observe la variation des mots d’une version à l’autre et ses effets sur le sens.",
+        "Opère des rapprochements et des transferts entre les langues."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comparer deux traductions d’un même passage (par exemple d’un poème d’Emily Dickinson) et repérer les mots qui changent ?",
+      "priorKnowledge": [
+        "Appréhender la dimension historique des mots (étymologie) en maitrisant quelques éléments latins, grecs ou empruntés aux langues étrangères (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-jeu-05",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Réemployer son lexique et jouer avec les mots",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Jouer avec les mots : expansion, reprise, déplacement",
+      "description": "Faire des jeux d’écriture en ajoutant des mots (expansion), en les reprenant ou en changeant leur place (déplacement), pour observer l’effet produit.",
+      "officialObjectives": [
+        "Expérimenter les jeux d’expansion, de reprise ou de déplacement des mots."
+      ],
+      "evidence": [
+        "Expérimente des jeux d’expansion des mots.",
+        "Expérimente des jeux de reprise et de déplacement des mots.",
+        "Observe les effets produits par ces jeux."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait enrichir une phrase simple en ajoutant des mots, ou déplacer des mots dans un vers, et dire ce que cela change ?",
+      "priorKnowledge": [
+        "Jouer avec les mots comme matériau sonore (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-form-01",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Comprendre la formation des mots",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Formation des mots : distinguer régularités et exceptions",
+      "description": "Approfondir la façon dont les mots se forment (préfixe, radical, suffixe, composition) en repérant ce qui est régulier et ce qui fait exception.",
+      "officialObjectives": [
+        "Approfondir la connaissance de la formation des mots, distinguer des régularités et des exceptions."
+      ],
+      "evidence": [
+        "Approfondit la connaissance de la formation des mots.",
+        "Distingue des régularités et des exceptions dans la formation des mots."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer comment un mot est formé (par exemple « impossible » = im- + possible) et repérer un mot qui fait exception ?",
+      "priorKnowledge": [
+        "Consolider la connaissance de la formation des mots, repérer les analogies, les régularités entre eux (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-form-02",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Comprendre la formation des mots",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Décrire et justifier l’emploi des préfixes et suffixes fréquents",
+      "description": "Connaître le sens des préfixes et suffixes courants et expliquer ce qu’ils apportent au mot (par exemple « lisible » devient « illisible »).",
+      "officialObjectives": [
+        "Décrire et justifier l’emploi des préfixes et suffixes les plus fréquents."
+      ],
+      "evidence": [
+        "Décrit l’emploi des préfixes et suffixes les plus fréquents.",
+        "Justifie l’emploi d’un préfixe ou d’un suffixe par le sens qu’il apporte."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qu’apporte un préfixe ou un suffixe, par exemple pourquoi « lisible » devient « illisible » ?",
+      "priorKnowledge": [
+        "Connaitre le sens des préfixes et suffixes les plus fréquents (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-form-03",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Comprendre la formation des mots",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Découvrir l’évolution du sens et de l’orthographe des mots",
+      "description": "Découvrir, sur quelques exemples, que les mots ont une histoire : leur sens et leur orthographe ont changé au fil du temps.",
+      "officialObjectives": [
+        "Appréhender la dimension historique des mots à travers quelques exemples d’évolutions de sens et de graphies."
+      ],
+      "evidence": [
+        "Appréhende la dimension historique des mots à travers quelques exemples d’évolutions de sens.",
+        "Observe quelques exemples d’évolutions de graphies."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait donner un exemple de mot dont le sens a changé avec le temps, comme « étonner », qui voulait dire autrefois « frapper comme par le tonnerre » ?",
+      "priorKnowledge": [
+        "Appréhender la dimension historique des mots (étymologie) en maitrisant quelques éléments latins, grecs ou empruntés aux langues étrangères (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-orth-01",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Écrire avec justesse (orthographe)",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "S’appuyer sur la morphologie des mots pour les orthographier",
+      "description": "Trouver comment écrire un mot en pensant à sa famille ou à sa formation : par exemple, le « d » muet de « bavard » s’entend dans « bavarder ».",
+      "officialObjectives": [
+        "S’appuyer sur la morphologie des mots pour en déduire leur orthographe."
+      ],
+      "evidence": [
+        "S’appuie sur la morphologie des mots (famille, dérivation) pour en déduire leur orthographe.",
+        "Mobilise ses connaissances morphologiques et étymologiques pour rechercher l’orthographe correcte d’un mot."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver la lettre muette d’un mot en pensant à un mot de la même famille, par exemple « bavard » grâce à « bavarder » ?",
+      "priorKnowledge": [
+        "Utiliser sa connaissance de l’étymologie pour orthographier des mots ayant le même radical (5e)",
+        "Comprendre le principe de la dérivation des mots et son incidence sur l’orthographe (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-orth-02",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Écrire avec justesse (orthographe)",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Orthographier les radicaux des verbes à l’indicatif et à l’impératif",
+      "description": "Raisonner pour bien écrire les verbes dont le radical change ou pose problème (je jette / nous jetons, il appelle / vous appelez) à l’indicatif et à l’impératif.",
+      "officialObjectives": [
+        "Développer un raisonnement pour résoudre les difficultés orthographiques liées aux radicaux verbaux (indicatif et impératif)."
+      ],
+      "evidence": [
+        "Développe un raisonnement pour résoudre les difficultés orthographiques des radicaux verbaux à l’indicatif.",
+        "Applique ce raisonnement aux radicaux verbaux à l’impératif."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire sans erreur « je jette » mais « nous jetons », ou « il appelle » mais « vous appelez », et expliquer pourquoi ?",
+      "priorKnowledge": [
+        "Consolider la conjugaison des verbes réguliers et des principaux verbes irréguliers en fonction de la variation de leur radical (5e)",
+        "Approfondir sa maitrise des modes indicatif et impératif (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-orth-03",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Vocabulaire et orthographe lexicale",
+      "subdomain": "Écrire avec justesse (orthographe)",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Distinguer les conjonctions de leurs homophones",
+      "description": "Écrire correctement les petits mots de liaison qui se prononcent comme d’autres mots : et / est, mais / mes, ou / où, quand / quant…",
+      "officialObjectives": [
+        "Construire des réflexes orthographiques : les conjonctions et leurs homophones."
+      ],
+      "evidence": [
+        "Construit des réflexes orthographiques pour distinguer les conjonctions de leurs homophones.",
+        "Vérifie son choix en raisonnant sur la nature du mot.",
+        "S’entraine lors de dictées et de rituels orthographiques réguliers."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir sans hésiter entre « et » et « est », « ou » et « où », « quand » et « quant » dans une dictée ?",
+      "priorKnowledge": [
+        "Construire des réflexes d’écriture en s’appuyant sur les régularités orthographiques (5e)",
+        "Identifier les mots coordonnants et comprendre leurs rôles syntaxique et sémantique dans la phrase (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 14,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-phr-01",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Comprendre ce qu’est une phrase pour mieux lire et mieux écrire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Employer à bon escient le point-virgule",
+      "description": "Savoir utiliser le point-virgule pour séparer deux parties d’une phrase liées par le sens : une pause plus forte qu’une virgule mais plus faible qu’un point.",
+      "officialObjectives": [
+        "Employer à bon escient le point-virgule."
+      ],
+      "evidence": [
+        "Emploie le point-virgule à bon escient dans ses écrits.",
+        "Emploie régulièrement les principaux signes de ponctuation et les étudie dans les textes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait utiliser un point-virgule pour relier deux propositions proches par le sens, par exemple « Il pleuvait ; nous sommes restés à la maison » ?",
+      "priorKnowledge": [
+        "Identifier et réinvestir le rôle des différents signes de ponctuation en lien avec les constituants de la phrase (5e)",
+        "Comprendre et expliciter la différence entre phrase simple, phrase complexe, phrase non verbale (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-phr-02",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Comprendre ce qu’est une phrase pour mieux lire et mieux écrire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comprendre la relation entre proposition principale et subordonnée",
+      "description": "Comprendre qu’une phrase complexe peut contenir une proposition principale et une proposition subordonnée qui dépend d’elle (« Je pense [que tu as raison] »).",
+      "officialObjectives": [
+        "Comprendre la relation de subordination en analysant les liens entre proposition principale et proposition subordonnée."
+      ],
+      "evidence": [
+        "Distingue proposition principale et proposition subordonnée dans une phrase complexe.",
+        "Analyse les liens de dépendance entre la principale et la subordonnée.",
+        "Verbalise son raisonnement en s’appuyant sur des manipulations syntaxiques."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, dans la phrase « Je pense que tu as raison », trouver la proposition principale et la proposition subordonnée ?",
+      "priorKnowledge": [
+        "Comprendre, identifier et employer les relations entre les propositions (5e)",
+        "Comprendre et expliciter la différence entre phrase simple, phrase complexe, phrase non verbale (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-phr-03",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Comprendre ce qu’est une phrase pour mieux lire et mieux écrire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Analyser l’enchaînement et l’imbrication des subordonnées",
+      "description": "Analyser des phrases longues qui contiennent plusieurs subordonnées, qui se suivent ou qui sont emboîtées les unes dans les autres.",
+      "officialObjectives": [
+        "Analyser l’enchainement et l’imbrication des propositions subordonnées."
+      ],
+      "evidence": [
+        "Analyse des phrases comportant plusieurs propositions subordonnées qui s’enchainent.",
+        "Analyse l’imbrication d’une subordonnée dans une autre."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait découper en propositions une phrase comme « Je crois que le livre que tu m’as prêté est passionnant » et dire laquelle est emboîtée dans l’autre ?",
+      "priorKnowledge": [
+        "Comprendre, identifier et employer les relations entre les propositions (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-phr-04",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Comprendre ce qu’est une phrase pour mieux lire et mieux écrire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comprendre et identifier la fonction des subordonnées relatives",
+      "description": "Comprendre et repérer le rôle d’une subordonnée relative (introduite par qui, que, dont, où…) : elle complète un nom, appelé antécédent, un peu comme un adjectif.",
+      "officialObjectives": [
+        "Comprendre les fonctions grammaticales des propositions subordonnées relatives et conjonctives.",
+        "Identifier les fonctions des propositions subordonnées conjonctives et relatives."
+      ],
+      "evidence": [
+        "Identifie la proposition subordonnée relative et son antécédent.",
+        "Identifie sa fonction de complément de l’antécédent dans le groupe nominal.",
+        "Justifie son analyse par des manipulations syntaxiques."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, dans « Le roman que j’ai lu m’a plu », trouver la subordonnée relative et le nom qu’elle complète ?",
+      "priorKnowledge": [
+        "Comprendre la structure du groupe nominal minimal et du groupe nominal étendu ; les identifier dans une phrase ou un court passage (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-phr-05",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Comprendre ce qu’est une phrase pour mieux lire et mieux écrire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comprendre et identifier la fonction des subordonnées conjonctives",
+      "description": "Comprendre et repérer le rôle d’une subordonnée conjonctive (introduite par que, quand, parce que, si…) : complément d’objet du verbe (« Je crois qu’il viendra ») ou complément circonstanciel (« Je sors quand il fait beau »).",
+      "officialObjectives": [
+        "Comprendre les fonctions grammaticales des propositions subordonnées relatives et conjonctives.",
+        "Identifier les fonctions des propositions subordonnées conjonctives et relatives."
+      ],
+      "evidence": [
+        "Identifie la proposition subordonnée conjonctive et le mot qui l’introduit.",
+        "Identifie sa fonction : complément d’objet du verbe ou complément circonstanciel.",
+        "Justifie son analyse par des manipulations syntaxiques."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quelle est la fonction de la subordonnée dans « Je crois qu’il viendra » (COD) et dans « Nous sortirons quand il fera beau » (complément circonstanciel de temps) ?",
+      "priorKnowledge": [
+        "Identifier le sujet, les compléments d’objet direct et indirect, l’attribut du sujet, les compléments circonstanciels de lieu, de cause, de temps et de manière (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-phr-06",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Comprendre ce qu’est une phrase pour mieux lire et mieux écrire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Identifier la subordonnée interrogative indirecte",
+      "description": "Reconnaître une question posée indirectement à l’intérieur d’une phrase (« Je me demande s’il viendra », « Dis-moi où tu vas »), qu’elle appelle une réponse oui/non (interrogation totale) ou une information (interrogation partielle).",
+      "officialObjectives": [
+        "Identifier la proposition subordonnée interrogative indirecte dans le cadre d’une interrogation totale ou partielle."
+      ],
+      "evidence": [
+        "Identifie la proposition subordonnée interrogative indirecte.",
+        "Distingue l’interrogation indirecte totale (réponse oui ou non) et partielle (porte sur un élément : qui, où, quand…)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître la question indirecte dans « Je me demande s’il viendra » ou « Dis-moi où tu vas » ?",
+      "priorKnowledge": [
+        "Identifier trois types de phrases et analyser leurs effets dans un texte (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-cons-01",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Connaitre les différents constituants d’une phrase",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Identifier les conjonctions de subordination et les pronoms relatifs",
+      "description": "Reconnaître et nommer les mots qui introduisent les subordonnées : conjonctions de subordination (que, quand, parce que, si…) et pronoms relatifs (qui, que, dont, où…), sans en connaître la liste complète.",
+      "officialObjectives": [
+        "Identifier et nommer les conjonctions de subordination et pronoms relatifs, sans chercher l’exhaustivité."
+      ],
+      "evidence": [
+        "Identifie et nomme les conjonctions de subordination courantes.",
+        "Identifie et nomme les pronoms relatifs.",
+        "S’exerce chaque semaine à l’identification des classes de mots (tri de mots, phrases dictées)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si « que » est un pronom relatif ou une conjonction de subordination dans « le livre que je lis » et dans « je crois que tu as raison » ?",
+      "priorKnowledge": [
+        "Identifier les prépositions, les adverbes et les mots subordonnants (5e)",
+        "Distinguer les déterminants et les pronoms (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-cons-02",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Connaitre les différents constituants d’une phrase",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Compléments circonstanciels d’opposition et de condition",
+      "description": "Repérer les compléments qui expriment une opposition (« Malgré la pluie, nous sommes sortis ») ou une condition (« S’il pleut, nous resterons »).",
+      "officialObjectives": [
+        "Identifier les fonctions de complément circonstanciel d’opposition, de condition et la fonction apposition."
+      ],
+      "evidence": [
+        "Identifie la fonction de complément circonstanciel d’opposition.",
+        "Identifie la fonction de complément circonstanciel de condition."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qu’exprime le complément dans « Malgré la pluie, nous sommes sortis » (opposition) et dans « S’il pleut, nous resterons » (condition) ?",
+      "priorKnowledge": [
+        "Identifier le sujet, les compléments d’objet direct et indirect, l’attribut du sujet, les compléments circonstanciels de lieu, de cause, de temps et de manière (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-cons-03",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Connaitre les différents constituants d’une phrase",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Identifier la fonction apposition",
+      "description": "Reconnaître un mot ou groupe de mots placé à côté d’un nom, souvent entre virgules, pour en préciser une caractéristique (« Victor Hugo, grand poète, … »).",
+      "officialObjectives": [
+        "Identifier les fonctions de complément circonstanciel d’opposition, de condition et la fonction apposition."
+      ],
+      "evidence": [
+        "Identifie la fonction apposition dans une phrase.",
+        "Repère le nom ou le pronom auquel se rapporte l’apposition."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver l’apposition dans « Victor Hugo, grand poète, s’engagea contre la misère » ?",
+      "priorKnowledge": [
+        "Comprendre la structure du groupe nominal minimal et du groupe nominal étendu ; les identifier dans une phrase ou un court passage (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-cons-04",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Connaitre les différents constituants d’une phrase",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Analyser la structure et les fonctions du groupe nominal étendu",
+      "description": "Analyser un groupe nominal enrichi (nom accompagné d’adjectifs, d’un complément du nom, d’une subordonnée relative…) et les fonctions de ses éléments.",
+      "officialObjectives": [
+        "Approfondir l’analyse de la structure du groupe nominal étendu et de ses différentes fonctions grammaticales."
+      ],
+      "evidence": [
+        "Analyse la structure du groupe nominal étendu : nom noyau et expansions.",
+        "Identifie les différentes fonctions grammaticales au sein du groupe nominal étendu et celle du groupe dans la phrase."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer le nom noyau et ses expansions dans « un vieux château aux murs couverts de lierre » ?",
+      "priorKnowledge": [
+        "Comprendre la structure du groupe nominal minimal et du groupe nominal étendu ; les identifier dans une phrase ou un court passage (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-cons-05",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Connaitre les différents constituants d’une phrase",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Organiser un texte avec des subordonnées, avec cohérence et cohésion",
+      "description": "Écrire un texte où les phrases complexes (avec subordonnées) s’enchaînent de façon logique et claire, sans ruptures ni répétitions maladroites.",
+      "officialObjectives": [
+        "Organiser la progression d’un texte comportant des subordonnées et assurer sa cohérence et sa cohésion."
+      ],
+      "evidence": [
+        "Organise la progression d’un texte comportant des propositions subordonnées.",
+        "Assure la cohérence et la cohésion de son texte.",
+        "Emploie régulièrement des phrases complexes dans ses écrits."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire un paragraphe qui utilise des subordonnées (parce que, quand, qui…) tout en restant clair et bien enchaîné ?",
+      "priorKnowledge": [
+        "Organiser la progression d’un texte et assurer sa cohérence par l’enchainement des phrases (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-reg-01",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Observer et distinguer les registres de langue et ajuster ses choix au contexte",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Identifier les différents registres de langue",
+      "description": "Reconnaître les niveaux de langue : familier (« bagnole »), courant (« voiture »), soutenu (« automobile », tournures recherchées).",
+      "officialObjectives": [
+        "Identifier les différents registres de langue."
+      ],
+      "evidence": [
+        "Identifie les différents registres de langue (familier, courant, soutenu).",
+        "Repère les indices de registre dans le vocabulaire et la syntaxe."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si une phrase est en langage familier, courant ou soutenu, par exemple « T’as vu ma bagnole ? » ?",
+      "priorKnowledge": [
+        "Découvrir et comprendre les différences entre grammaire de l’écrit et grammaire de l’oral (registre de langue, syntaxe, langue écrite ou parlée plus ou moins normée, contexte d’énonciation) (5e)",
+        "Distinguer les registres de langue et les utiliser en s’ajustant au contexte, à l’écrit comme à l’oral (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-reg-02",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Observer et distinguer les registres de langue et ajuster ses choix au contexte",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Employer un registre courant ou soutenu à l’oral en classe",
+      "description": "En classe, à l’oral, parler en langage courant, surveillé, voire soutenu, en évitant volontairement le langage familier.",
+      "officialObjectives": [
+        "Employer le registre de langue courant, contrôlé, voire soutenu, dans un oral scolaire et en exclure volontairement le registre de langue familier."
+      ],
+      "evidence": [
+        "Emploie le registre de langue courant, contrôlé, voire soutenu, dans un oral scolaire.",
+        "Exclut volontairement le registre familier de ses prises de parole en classe.",
+        "Formule sa pensée avec une syntaxe correcte."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}}, quand il présente un exposé, évite les mots familiers et emploie un langage courant ou soutenu ?",
+      "priorKnowledge": [
+        "Distinguer les registres de langue et les utiliser en s’ajustant au contexte, à l’écrit comme à l’oral (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-disc-01",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Analyser et employer des paroles rapportées",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Alterner discours direct et discours indirect dans un texte",
+      "description": "Rapporter les paroles d’un personnage soit telles quelles, entre guillemets (discours direct), soit intégrées au récit (« Il dit qu’il viendrait » : discours indirect), et passer de l’un à l’autre.",
+      "officialObjectives": [
+        "Insérer dans un texte des paroles rapportées au discours indirect en alternance avec le discours direct."
+      ],
+      "evidence": [
+        "Insère dans un texte des paroles rapportées au discours indirect.",
+        "Alterne discours indirect et discours direct dans un même texte.",
+        "Effectue les transformations nécessaires (pronoms, temps, ponctuation) lors du passage au discours indirect."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait transformer « Je viendrai demain », dit-il, en « Il dit qu’il viendrait le lendemain », et alterner les deux formes dans un récit ?",
+      "priorKnowledge": [
+        "Identifier des paroles rapportées aux discours direct et indirect (5e)",
+        "Insérer des paroles au discours direct dans un texte (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-conj-01",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Maitriser la composition des formes verbales pour identifier un temps et le conjuguer",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Connaître la formation des temps composés de l’indicatif",
+      "description": "Savoir comment se forment le plus-que-parfait, le passé antérieur, le futur antérieur et le conditionnel passé : auxiliaire être ou avoir conjugué + participe passé (j’avais fini, j’eus fini, j’aurai fini, j’aurais fini).",
+      "officialObjectives": [
+        "Découvrir, comprendre et mémoriser les éléments qui caractérisent les temps composés (plus-que-parfait, passé antérieur, futur antérieur et conditionnel passé de l’indicatif)."
+      ],
+      "evidence": [
+        "Mémorise les éléments qui caractérisent les temps composés : auxiliaire conjugué et participe passé.",
+        "Conjugue un verbe au plus-que-parfait, au passé antérieur, au futur antérieur et au conditionnel passé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait conjuguer « finir » au plus-que-parfait (j’avais fini), au passé antérieur (j’eus fini), au futur antérieur (j’aurai fini) et au conditionnel passé (j’aurais fini) ?",
+      "priorKnowledge": [
+        "Comprendre la morphologie des temps simples (présent, futur simple, imparfait, passé simple de l’indicatif, conditionnel et présent de l’impératif) et des temps composés (passé composé et plus-que-parfait de l’indicatif) (5e)",
+        "Conjuguer un verbe par imitation, au passé antérieur et au futur antérieur de l’indicatif (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-conj-02",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Maitriser la composition des formes verbales pour identifier un temps et le conjuguer",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Identifier ces temps dans un texte en explicitant sa démarche",
+      "description": "Repérer dans un texte un verbe au plus-que-parfait, au passé antérieur, au futur antérieur ou au conditionnel, et expliquer comment on l’a reconnu.",
+      "officialObjectives": [
+        "Identifier la morphologie du plus-que-parfait, du passé antérieur, du futur antérieur et du conditionnel dans un texte, en explicitant sa démarche."
+      ],
+      "evidence": [
+        "Identifie dans un texte la morphologie du plus-que-parfait, du passé antérieur, du futur antérieur et du conditionnel.",
+        "Explicite sa démarche (auxiliaire, terminaison, participe passé)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, dans « Quand il eut fini, il sortit », à quel temps est « eut fini » et comment il l’a reconnu ?",
+      "priorKnowledge": [
+        "Découvrir, comprendre et mémoriser les éléments qui constituent une forme verbale : radical verbal et terminaison (marques de temps et de personne) (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-conj-03",
+      "programme": "francais-c4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Maitriser la composition des formes verbales pour identifier un temps et le conjuguer",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Orthographier les participes passés (-é, -i, -u, consonne muette)",
+      "description": "Bien écrire les participes passés en -é (chanté), -i (fini), -u (vendu), et ceux qui finissent par une consonne muette (pris, fait, mis), qu’on entend au féminin (prise, faite, mise).",
+      "officialObjectives": [
+        "Mémoriser les particularités orthographiques des participes passés en -é, -i, -u ainsi que les formes avec une consonne finale muette."
+      ],
+      "evidence": [
+        "Mémorise les particularités orthographiques des participes passés en -é, -i, -u.",
+        "Mémorise les participes passés terminés par une consonne finale muette."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire correctement « il a pris », « elle a fait », « j’ai mis » en pensant au féminin (prise, faite, mise) ?",
+      "priorKnowledge": [
+        "Comprendre la morphologie des temps simples (présent, futur simple, imparfait, passé simple de l’indicatif, conditionnel et présent de l’impératif) et des temps composés (passé composé et plus-que-parfait de l’indicatif) (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-conj-04",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Maitriser la composition des formes verbales pour identifier un temps et le conjuguer",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comprendre la construction de la voix passive",
+      "description": "Comprendre comment on passe de « Le chat mange la souris » (voix active) à « La souris est mangée par le chat » (voix passive) : auxiliaire être + participe passé.",
+      "officialObjectives": [
+        "Comprendre la construction de la voix passive."
+      ],
+      "evidence": [
+        "Comprend la construction de la voix passive : auxiliaire être conjugué et participe passé.",
+        "Transforme une phrase active en phrase passive et inversement."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait transformer « Le chat mange la souris » en « La souris est mangée par le chat » et expliquer ce qui a changé ?",
+      "priorKnowledge": [
+        "Identifier le sujet, les compléments d’objet direct et indirect, l’attribut du sujet, les compléments circonstanciels de lieu, de cause, de temps et de manière (5e)",
+        "Comprendre la morphologie des temps simples (présent, futur simple, imparfait, passé simple de l’indicatif, conditionnel et présent de l’impératif) et des temps composés (passé composé et plus-que-parfait de l’indicatif) (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-conj-05",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Maitriser la composition des formes verbales pour identifier un temps et le conjuguer",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Conjuguer les verbes selon la variation de leur radical",
+      "description": "Conjuguer correctement les verbes réguliers et les principaux verbes irréguliers dont le radical change (venir : je viens, nous venons, ils viennent), sans viser tous les verbes.",
+      "officialObjectives": [
+        "Maitriser la conjugaison des verbes réguliers et des principaux verbes irréguliers en fonction de la variation de leur radical, sans viser l’exhaustivité."
+      ],
+      "evidence": [
+        "Conjugue les verbes réguliers en tenant compte de la variation de leur radical.",
+        "Conjugue les principaux verbes irréguliers en fonction de la variation de leur radical, sans viser l’exhaustivité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait conjuguer sans erreur des verbes irréguliers fréquents dont le radical change, comme « venir » (je viens, nous venons, ils viennent) ?",
+      "priorKnowledge": [
+        "Consolider la conjugaison des verbes réguliers et des principaux verbes irréguliers en fonction de la variation de leur radical (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-temp-01",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Maitriser l’emploi des temps et des modes",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Connaître la valeur temporelle et les valeurs modales du conditionnel",
+      "description": "Comprendre que le conditionnel sert à exprimer un futur vu du passé (« Il disait qu’il viendrait ») mais aussi une hypothèse, un souhait ou une demande polie.",
+      "officialObjectives": [
+        "Étudier la valeur temporelle et les valeurs modales du conditionnel."
+      ],
+      "evidence": [
+        "Identifie la valeur temporelle du conditionnel (futur dans le passé).",
+        "Identifie les valeurs modales du conditionnel (hypothèse, souhait, politesse…)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer la différence entre « Il a dit qu’il viendrait » (futur dans le passé) et « Pourrais-tu m’aider ? » (politesse) ?",
+      "priorKnowledge": [
+        "Comprendre la morphologie des temps simples (présent, futur simple, imparfait, passé simple de l’indicatif, conditionnel et présent de l’impératif) et des temps composés (passé composé et plus-que-parfait de l’indicatif) (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-temp-02",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Maitriser l’emploi des temps et des modes",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Valeurs aspectuelles des temps : borné / non borné, accompli / non accompli",
+      "description": "Comprendre que le choix d’un temps montre aussi comment on voit l’action : vue dans ses limites ou en cours de déroulement (borné / non borné), terminée ou non (accompli / non accompli).",
+      "officialObjectives": [
+        "Approfondir l’emploi des valeurs aspectuelles des temps étudiés précédemment : borné et non borné, accompli et non accompli."
+      ],
+      "evidence": [
+        "Distingue l’aspect borné et non borné d’une action (par exemple passé simple et imparfait dans un récit).",
+        "Distingue l’aspect accompli et non accompli (temps composés et temps simples).",
+        "Emploie ces valeurs à bon escient dans ses écrits."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi on écrit « Il lisait quand le téléphone sonna » (une action en cours, une action brève) ?",
+      "priorKnowledge": [
+        "Approfondir sa maitrise des valeurs temporelles et aspectuelles des temps simples et composés (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-temp-03",
+      "programme": "francais-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Maitriser l’emploi des temps et des modes",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Identifier les valeurs du mode subjonctif",
+      "description": "Comprendre à quoi sert le subjonctif (« Il faut que tu viennes ») : présenter une action envisagée (souhait, ordre, crainte, doute) plutôt qu’un fait certain.",
+      "officialObjectives": [
+        "Identifier les valeurs du mode subjonctif."
+      ],
+      "evidence": [
+        "Identifie le mode subjonctif dans une phrase.",
+        "Identifie ses valeurs (souhait, ordre, crainte, doute…)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi on dit « Je veux que tu viennes » et non « Je veux que tu viens » ?",
+      "priorKnowledge": [
+        "Approfondir sa maitrise des modes indicatif et impératif (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-acc-01",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Savoir accorder les mots dans la phrase et expliquer ses choix",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Accorder dans un groupe nominal avec un déterminant indéfini",
+      "description": "Bien accorder le nom et les adjectifs avec des déterminants comme chaque, aucun, plusieurs, quelques (chaque élève, aucune idée, quelques livres anciens).",
+      "officialObjectives": [
+        "Comprendre et maitriser le fonctionnement des chaines d’accord dans un groupe nominal présentant un déterminant indéfini."
+      ],
+      "evidence": [
+        "Comprend le fonctionnement des chaines d’accord dans un groupe nominal présentant un déterminant indéfini.",
+        "Accorde correctement le nom et les adjectifs avec un déterminant indéfini.",
+        "Explique ses choix d’accord."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire sans erreur « chaque élève », « aucune idée », « quelques livres anciens », et expliquer pourquoi ?",
+      "priorKnowledge": [
+        "Maitriser les chaines d’accord du groupe nominal en développant son raisonnement (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-acc-02",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Savoir accorder les mots dans la phrase et expliquer ses choix",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Accord sujet-verbe : sujet à plusieurs personnes et pronom relatif",
+      "description": "Accorder le verbe dans des cas difficiles : sujet regroupant plusieurs personnes (« Toi et moi partirons ») ou pronom relatif « qui » sujet, qui prend la personne de son antécédent (« C’est moi qui ai gagné »).",
+      "officialObjectives": [
+        "Comprendre, mémoriser et maitriser l’accord du verbe avec le sujet dans des cas complexes (sujet comportant plusieurs personnes et pronom relatif sujet)."
+      ],
+      "evidence": [
+        "Accorde le verbe avec un sujet comportant plusieurs personnes.",
+        "Accorde le verbe avec le pronom relatif sujet en fonction de son antécédent.",
+        "Mémorise ces règles et justifie son accord."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire correctement « Toi et moi partirons demain » et « C’est moi qui ai gagné » ?",
+      "priorKnowledge": [
+        "Maitriser les cas complexes de l’accord sujet-verbe (sujet séparé du verbe par un complément, sujet comportant plusieurs noms) (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    },
+    {
+      "id": "fr-fr-4e-acc-03",
+      "programme": "francais-c4",
+      "type": "PROCEDURAL",
+      "subject": "Français",
+      "domain": "Grammaire et orthographe grammaticale",
+      "subdomain": "Savoir accorder les mots dans la phrase et expliquer ses choix",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Découvrir l’accord du participe passé des verbes pronominaux",
+      "description": "Découvrir comment s’accorde le participe passé des verbes pronominaux (se lever, se laver) : « Elles se sont levées tôt ».",
+      "officialObjectives": [
+        "Découvrir l’accord du participe passé des verbes pronominaux."
+      ],
+      "evidence": [
+        "Repère un verbe pronominal conjugué à un temps composé.",
+        "Découvre et applique l’accord du participe passé des verbes pronominaux dans des cas simples."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire « Elles se sont levées tôt » avec le bon accord du participe passé ?",
+      "priorKnowledge": [
+        "Justifier à l'oral ou à l'écrit l'accord du participe passé employé avec l'auxiliaire être et avec l'auxiliaire avoir (COD antéposé dont pronom personnel COD, à distinguer du COI) (5e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-fr-4e-lvh-02",
+      "prerequisiteId": "fr-fr-4e-conl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Réciter un passage suppose de l’avoir d’abord mémorisé."
+    },
+    {
+      "topicId": "fr-fr-4e-dlj-01",
+      "prerequisiteId": "fr-fr-4e-lvh-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Lire avec expressivité pour autrui prolonge la lecture à voix haute qui traduit sa compréhension."
+    },
+    {
+      "topicId": "fr-fr-4e-dlj-03",
+      "prerequisiteId": "fr-fr-4e-dlj-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Jouer une scène mobilise la voix et l’expressivité travaillées en lecture et récitation."
+    },
+    {
+      "topicId": "fr-fr-4e-cia-04",
+      "prerequisiteId": "fr-fr-4e-enr-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Interpréter avec des notions littéraires demande le vocabulaire de l’analyse littéraire."
+    },
+    {
+      "topicId": "fr-fr-4e-conl-01",
+      "prerequisiteId": "fr-fr-4e-cia-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Repérer le style d’un auteur s’appuie sur les outils d’analyse."
+    },
+    {
+      "topicId": "fr-fr-4e-conl-03",
+      "prerequisiteId": "fr-fr-4e-oeu-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Relier des œuvres par leur contexte suppose de savoir situer une œuvre dans son contexte."
+    },
+    {
+      "topicId": "fr-fr-4e-conl-04",
+      "prerequisiteId": "fr-fr-4e-inv-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Savoir associer un argument et un exemple aide à argumenter avec des exemples littéraires."
+    },
+    {
+      "topicId": "fr-fr-4e-oeu-01",
+      "prerequisiteId": "fr-fr-4e-lqt-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comprendre la structure d’une œuvre repose sur la lecture d’œuvres intégrales."
+    },
+    {
+      "topicId": "fr-fr-4e-fic-01",
+      "prerequisiteId": "fr-fr-4e-oeu-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Connaître les caractéristiques des genres aide à lire fantastique, anticipation et récit policier."
+    },
+    {
+      "topicId": "fr-fr-4e-the-01",
+      "prerequisiteId": "fr-fr-4e-oeu-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer texte et mise en scène aide à prendre en compte la dimension scénique."
+    },
+    {
+      "topicId": "fr-fr-4e-lum-01",
+      "prerequisiteId": "fr-fr-4e-oeu-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comprendre l’héritage des Lumières suppose de situer les œuvres dans leur contexte."
+    },
+    {
+      "topicId": "fr-fr-4e-erm-02",
+      "prerequisiteId": "fr-fr-4e-eco-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prendre des notes organisées s’appuie sur le repérage de l’organisation d’un message oral."
+    },
+    {
+      "topicId": "fr-fr-4e-inv-04",
+      "prerequisiteId": "fr-fr-4e-disc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Écrire un texte avec des paroles rapportées indirectement suppose de savoir les insérer."
+    },
+    {
+      "topicId": "fr-fr-4e-inv-04",
+      "prerequisiteId": "fr-fr-4e-inv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Un texte mêlant plusieurs types de discours se prépare par une planification."
+    },
+    {
+      "topicId": "fr-fr-4e-rev-04",
+      "prerequisiteId": "fr-fr-4e-enr-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Utiliser des dictionnaires pour corriger s’appuie sur la maîtrise de leur consultation."
+    },
+    {
+      "topicId": "fr-fr-4e-eco-02",
+      "prerequisiteId": "fr-fr-4e-cia-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La compréhension de l’implicite à l’écrit aide à la repérer à l’oral."
+    },
+    {
+      "topicId": "fr-fr-4e-eco-03",
+      "prerequisiteId": "fr-fr-4e-eco-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Restituer l’organisation d’un oral suppose d’en avoir retenu les idées principales."
+    },
+    {
+      "topicId": "fr-fr-4e-par-01",
+      "prerequisiteId": "fr-fr-4e-reg-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Un oral construit en classe exige un registre courant ou soutenu."
+    },
+    {
+      "topicId": "fr-fr-4e-par-01",
+      "prerequisiteId": "fr-fr-4e-dlj-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Adapter un oral à la situation suppose de prendre en compte son auditoire."
+    },
+    {
+      "topicId": "fr-fr-4e-par-03",
+      "prerequisiteId": "fr-fr-4e-eco-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Débattre suppose d’écouter et de retenir les idées des autres."
+    },
+    {
+      "topicId": "fr-fr-4e-reg-02",
+      "prerequisiteId": "fr-fr-4e-reg-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Employer le bon registre suppose de savoir identifier les registres."
+    },
+    {
+      "topicId": "fr-fr-4e-jeu-01",
+      "prerequisiteId": "fr-fr-4e-rel-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les glissements de sens préparent l’analyse de la polysémie en contexte."
+    },
+    {
+      "topicId": "fr-fr-4e-jeu-02",
+      "prerequisiteId": "fr-fr-4e-jeu-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Distinguer dénotation et connotation prolonge l’analyse du sens des mots en contexte."
+    },
+    {
+      "topicId": "fr-fr-4e-jeu-03",
+      "prerequisiteId": "fr-fr-4e-enr-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer le vocabulaire de textes d’une même époque s’appuie sur les conditions d’emploi du lexique."
+    },
+    {
+      "topicId": "fr-fr-4e-form-02",
+      "prerequisiteId": "fr-fr-4e-form-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Justifier l’emploi des affixes s’appuie sur la connaissance de la formation des mots."
+    },
+    {
+      "topicId": "fr-fr-4e-orth-01",
+      "prerequisiteId": "fr-fr-4e-form-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Déduire l’orthographe par la morphologie suppose de connaître la formation des mots."
+    },
+    {
+      "topicId": "fr-fr-4e-orth-02",
+      "prerequisiteId": "fr-fr-4e-conj-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’orthographe des radicaux verbaux s’appuie sur la conjugaison selon la variation du radical."
+    },
+    {
+      "topicId": "fr-fr-4e-orth-03",
+      "prerequisiteId": "fr-fr-4e-cons-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Reconnaître une conjonction aide à la distinguer de ses homophones."
+    },
+    {
+      "topicId": "fr-fr-4e-phr-03",
+      "prerequisiteId": "fr-fr-4e-phr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Analyser des subordonnées enchaînées suppose de comprendre la relation principale-subordonnée."
+    },
+    {
+      "topicId": "fr-fr-4e-phr-04",
+      "prerequisiteId": "fr-fr-4e-phr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Identifier la fonction d’une relative suppose de reconnaître une subordonnée."
+    },
+    {
+      "topicId": "fr-fr-4e-phr-04",
+      "prerequisiteId": "fr-fr-4e-cons-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Repérer une relative suppose d’identifier le pronom relatif qui l’introduit."
+    },
+    {
+      "topicId": "fr-fr-4e-phr-05",
+      "prerequisiteId": "fr-fr-4e-phr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Identifier la fonction d’une conjonctive suppose de reconnaître une subordonnée."
+    },
+    {
+      "topicId": "fr-fr-4e-phr-05",
+      "prerequisiteId": "fr-fr-4e-cons-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Repérer une conjonctive suppose d’identifier la conjonction de subordination."
+    },
+    {
+      "topicId": "fr-fr-4e-phr-06",
+      "prerequisiteId": "fr-fr-4e-phr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’interrogative indirecte est une subordonnée : il faut comprendre la subordination."
+    },
+    {
+      "topicId": "fr-fr-4e-cons-02",
+      "prerequisiteId": "fr-fr-4e-phr-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La condition et l’opposition s’expriment souvent par des subordonnées conjonctives."
+    },
+    {
+      "topicId": "fr-fr-4e-cons-03",
+      "prerequisiteId": "fr-fr-4e-cons-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’apposition est une expansion du nom étudiée avec le groupe nominal étendu."
+    },
+    {
+      "topicId": "fr-fr-4e-cons-04",
+      "prerequisiteId": "fr-fr-4e-phr-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le groupe nominal étendu peut comporter une subordonnée relative."
+    },
+    {
+      "topicId": "fr-fr-4e-cons-05",
+      "prerequisiteId": "fr-fr-4e-phr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Organiser un texte avec des subordonnées suppose de maîtriser la subordination."
+    },
+    {
+      "topicId": "fr-fr-4e-disc-01",
+      "prerequisiteId": "fr-fr-4e-phr-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le discours indirect se construit avec une subordonnée conjonctive."
+    },
+    {
+      "topicId": "fr-fr-4e-conj-02",
+      "prerequisiteId": "fr-fr-4e-conj-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Identifier ces temps dans un texte suppose d’en connaître la formation."
+    },
+    {
+      "topicId": "fr-fr-4e-conj-04",
+      "prerequisiteId": "fr-fr-4e-conj-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La voix passive se forme avec le participe passé, qu’il faut savoir orthographier."
+    },
+    {
+      "topicId": "fr-fr-4e-temp-02",
+      "prerequisiteId": "fr-fr-4e-conj-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La valeur d’accompli s’appuie sur la connaissance des temps composés."
+    },
+    {
+      "topicId": "fr-fr-4e-acc-02",
+      "prerequisiteId": "fr-fr-4e-phr-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Accorder le verbe avec « qui » suppose de repérer l’antécédent du pronom relatif."
+    },
+    {
+      "topicId": "fr-fr-4e-acc-03",
+      "prerequisiteId": "fr-fr-4e-conj-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’accord du participe passé des verbes pronominaux suppose d’en connaître l’orthographe."
+    }
+  ],
+  "extractedAt": "2026-10-22"
+}

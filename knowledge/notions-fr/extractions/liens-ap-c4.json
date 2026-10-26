@@ -1,0 +1,314 @@
+{
+  "programme": "ap-c4",
+  "prerequisites": [
+    {
+      "topicId": "fr-ap-c4-exp-01",
+      "prerequisiteId": "fr-ap-c3-exp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Choisir gestes, outils et matériaux selon l’effet recherché » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-exp-03",
+      "prerequisiteId": "fr-ap-c3-exp-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les outils numériques au service de la pratique plastique » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-exp-04",
+      "prerequisiteId": "fr-ap-c3-exp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Représenter le monde ou son imaginaire dans divers domaines » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-exp-05",
+      "prerequisiteId": "fr-ap-c3-proj-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Adapter son projet aux contraintes et au spectateur » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-exp-05",
+      "prerequisiteId": "fr-ap-c3-rpd-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Penser la présentation en fonction du spectateur » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-exp-06",
+      "prerequisiteId": "fr-ap-c3-exp-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les outils numériques au service de la pratique plastique » (Cycle 3) : rechercher des images et des informations utiles à un projet"
+    },
+    {
+      "topicId": "fr-ap-c4-proj-01",
+      "prerequisiteId": "fr-ap-c3-proj-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier les outils et compétences nécessaires à un projet » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-proj-03",
+      "prerequisiteId": "fr-ap-c3-proj-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se repérer dans les étapes d’une réalisation et anticiper les difficultés » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-proj-04",
+      "prerequisiteId": "fr-ap-c3-proj-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Assumer sa part dans une création collective » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-proj-05",
+      "prerequisiteId": "fr-ap-c3-expr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Justifier ses choix, de l’intention à la réalisation » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-proj-05",
+      "prerequisiteId": "fr-ap-c3-proj-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Réorienter un projet prolonge l’adaptation du projet aux contraintes (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-anal-01",
+      "prerequisiteId": "fr-ap-c3-expr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décrire et interroger productions et œuvres avec un vocabulaire précis » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-anal-02",
+      "prerequisiteId": "fr-ap-c3-rep-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Rapprocher sa production d’œuvres d’artistes suppose de savoir décrire et comprendre ces œuvres (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-anal-03",
+      "prerequisiteId": "fr-ap-c3-expr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Justifier ses choix, de l’intention à la réalisation » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-cult-01",
+      "prerequisiteId": "fr-ap-c3-rep-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Connaître des œuvres du patrimoine s’appuie sur les repères d’aire culturelle et d’époque (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-cult-02",
+      "prerequisiteId": "fr-ap-c3-rep-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer une œuvre dans une aire culturelle et une époque » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-cult-03",
+      "prerequisiteId": "fr-ap-c3-rep-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décrire une œuvre et en proposer une compréhension argumentée » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-cult-05",
+      "prerequisiteId": "fr-ap-c3-rep-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Débattre de « est-ce de l’art ? » prolonge le repérage des a priori sur l’art (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-repr-01",
+      "prerequisiteId": "fr-ap-c3-rpd-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « La ressemblance et la valeur expressive de l’écart au réel » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-repr-04",
+      "prerequisiteId": "fr-ap-c3-fab-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Travailler en volume : modelage, assemblage, construction, installation » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-repr-04",
+      "prerequisiteId": "fr-ap-c3-fab-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Structure et enveloppe font partie des notions de l’espace en volume vues au cycle 3"
+    },
+    {
+      "topicId": "fr-ap-c4-repr-05",
+      "prerequisiteId": "fr-ap-c3-rpd-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Raconter ou témoigner par des compositions et des suites d’images » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-repr-07",
+      "prerequisiteId": "fr-ap-c3-rpd-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Distinguer les catégories d’images et leurs procédés de fabrication » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-repr-08",
+      "prerequisiteId": "fr-ap-c3-exp-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les outils numériques au service de la pratique plastique » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-mat-01",
+      "prerequisiteId": "fr-ap-c3-mat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « La matérialité de l’œuvre ; l’objet ou l’image devenus matériau » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-mat-01",
+      "prerequisiteId": "fr-ap-c3-mat-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Les effets du geste et de l’outil » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-mat-02",
+      "prerequisiteId": "fr-ap-c3-mat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Les qualités physiques des matériaux et leurs effets » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-mat-03",
+      "prerequisiteId": "fr-ap-c3-mat-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « La matière colorée et ses usages (jus, glacis, empâtement, aplat…) » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-mat-03",
+      "prerequisiteId": "fr-ap-c3-mat-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Les dimensions sensorielles de la couleur : quantité et qualité » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-mat-04",
+      "prerequisiteId": "fr-ap-c3-fab-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Créer, transformer ou détourner des objets » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-mat-05",
+      "prerequisiteId": "fr-ap-c3-fab-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Les statuts de l’objet et la relation entre forme et fonction » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-esp-01",
+      "prerequisiteId": "fr-ap-c3-mat-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Les effets du geste et de l’outil » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-esp-01",
+      "prerequisiteId": "fr-ap-c3-rpd-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S’appuie sur l’idée, vue au cycle 3, que la trace du geste compte dans l’œuvre"
+    },
+    {
+      "topicId": "fr-ap-c4-esp-03",
+      "prerequisiteId": "fr-ap-c3-rpd-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter une production : cadre, socle, lieux et contextes » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-ap-c4-esp-04",
+      "prerequisiteId": "fr-ap-c3-fab-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Travailler en volume : modelage, assemblage, construction, installation » (Cycle 3) : déploiement de volumes dans l’espace, en lien avec l’architecture"
+    },
+    {
+      "topicId": "fr-ap-c4-esp-04",
+      "prerequisiteId": "fr-ap-c3-fab-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Intérieur et extérieur, vide et plein, passage : notions de l’espace en volume utiles en architecture"
+    },
+    {
+      "topicId": "fr-ap-c4-esp-05",
+      "prerequisiteId": "fr-ap-c3-fab-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Les notions de l’espace en volume : ouvert et fermé, vide et plein… » (Cycle 3) : l’œuvre qui fait entrer le spectateur dans son espace"
+    },
+    {
+      "topicId": "fr-ap-c4-esp-05",
+      "prerequisiteId": "fr-ap-c3-rpd-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La participation du spectateur a été abordée avec la présentation des productions (Cycle 3)"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "ap-c3": "2026-10-23",
+    "ap-c4": "2026-10-23"
+  }
+}

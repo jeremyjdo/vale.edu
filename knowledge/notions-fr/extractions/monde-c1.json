@@ -1,0 +1,1786 @@
+{
+  "programme": "monde-c1",
+  "level": "multiple",
+  "themeCodes": {
+    "viv": "Découvrir les animaux et les végétaux",
+    "corps": "Découvrir le corps humain et la santé",
+    "obj": "Découvrir les objets et les matériaux",
+    "mat": "Découvrir les états de la matière et les mélanges"
+  },
+  "notions": [
+    {
+      "id": "fr-mon-ps-viv-01",
+      "programme": "monde-c1",
+      "type": "LANGUAGE",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir les animaux et les végétaux",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Repérer et nommer les parties des animaux et des plantes",
+      "description": "Observer les animaux et les plantes de la classe et nommer leurs parties : tête, bec, pattes, ailes, plumes, écailles ; racine, tige, feuille, fleur.",
+      "officialObjectives": [
+        "Repérer et nommer les caractéristiques morphologiques générales des plantes et des animaux observés avec la classe."
+      ],
+      "evidence": [
+        "Identifie et nomme des caractéristiques des animaux : tête, bouche, bec, yeux, pattes, nageoires, ailes, plumes, poils et écailles.",
+        "Identifie et nomme des caractéristiques des plantes : racine, tige, feuille, fleur, tronc et branche."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer et nommer le bec, les ailes et les plumes d’un oiseau, ou la tige, les feuilles et la fleur d’une plante ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-viv-02",
+      "programme": "monde-c1",
+      "type": "LANGUAGE",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir les animaux et les végétaux",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Reconnaître et nommer le mâle, la femelle, le petit et l’adulte",
+      "description": "Associer un petit animal à ses parents et connaître leurs noms, par exemple le chevreau, la chèvre et le bouc.",
+      "officialObjectives": [
+        "Reconnaitre et nommer le mâle et la femelle, le jeune et l'adulte pour plusieurs espèces animales."
+      ],
+      "evidence": [
+        "Associe des photographies représentant le petit et l’adulte d’une même espèce animale.",
+        "Utilise le lexique adapté : le chevreau, la chèvre et le bouc, le chiot, la chienne et le chien, etc."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait associer un petit animal à ses parents et les nommer, par exemple le chevreau, la chèvre et le bouc ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-viv-03",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir les animaux et les végétaux",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Prendre soin des élevages et des cultures de la classe",
+      "description": "Participer aux soins des plantes et des animaux de la classe, par exemple arroser régulièrement et en bonne quantité.",
+      "officialObjectives": [
+        "Prodiguer des soins nécessaires aux élevages et aux cultures."
+      ],
+      "evidence": [
+        "Assure l’arrosage de plantations, en quantité adaptée et régulière, à l’invitation des professeurs."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait arroser une plante régulièrement, avec la bonne quantité d’eau ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-viv-01",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir les animaux et les végétaux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Reconnaître des étapes du cycle de vie",
+      "description": "Observer qu’une plante pousse et change, que certains animaux pondent des œufs et que d’autres portent leur petit : les plantes comme les animaux sont des êtres vivants qui naissent, grandissent et se reproduisent.",
+      "officialObjectives": [
+        "Reconnaitre une ou plusieurs étapes d’un cycle de vie à partir de l’observation d’animaux et de plantes."
+      ],
+      "evidence": [
+        "Constate et décrit des changements liés à la croissance d’une plante à partir d’un suivi d’observation (photographies régulières).",
+        "Cite plusieurs espèces d’animaux qui pondent des œufs et d’autres espèces qui portent leur petit."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer des animaux qui pondent des œufs et d’autres qui portent leur petit, ou décrire comment une plante a grandi ?",
+      "priorKnowledge": [
+        "Reconnaître et nommer le mâle, la femelle, le petit et l’adulte (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-viv-02",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir les animaux et les végétaux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Identifier les besoins essentiels des animaux et des plantes",
+      "description": "Comprendre, en s’occupant d’un élevage ou de plantations, ce dont les animaux et les plantes ont besoin pour vivre, par exemple ce que mangent les animaux de la classe.",
+      "officialObjectives": [
+        "Identifier et décrire les besoins essentiels de quelques animaux et de végétaux à partir d'observations d'élevage, de cultures de plantes, et des soins prodigués."
+      ],
+      "evidence": [
+        "Connaît les préférences alimentaires des animaux élevés ou étudiés en classe."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce que mange un animal élevé ou observé en classe, et ce dont une plante a besoin pour pousser ?",
+      "priorKnowledge": [
+        "Prendre soin des élevages et des cultures de la classe (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-viv-03",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir les animaux et les végétaux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Observer et nommer la façon dont se déplacent les animaux",
+      "description": "Dire comment un animal se déplace (voler, ramper, nager, grimper…) en lien avec son milieu de vie.",
+      "officialObjectives": [
+        "Observer et nommer le mode de déplacement de quelques animaux en relation avec leur milieu de vie."
+      ],
+      "evidence": [
+        "Dit si un animal vole, marche, rampe, saute, grimpe, court ou nage."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si un animal vole, marche, rampe, saute, grimpe, court ou nage ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-viv-04",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir les animaux et les végétaux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Respecter la vie sous toutes ses formes",
+      "description": "Faire attention aux petites bêtes et aux plantes que l’on rencontre, pour ne pas les abîmer.",
+      "officialObjectives": [
+        "Respecter la vie sous toutes ses formes."
+      ],
+      "evidence": [
+        "Évite d’écraser les petits animaux de la cour de l’école afin de les préserver."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} fait attention à ne pas écraser les petites bêtes (fourmis, escargots) dans la cour ou au jardin ?",
+      "priorKnowledge": [
+        "Prendre soin des élevages et des cultures de la classe (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-viv-01",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir les animaux et les végétaux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Identifier les éléments propres à une espèce",
+      "description": "Reconnaître ce qui caractérise une espèce (poils, plumes, écailles, ailes, nageoires) pour légender un dessin et classer des animaux.",
+      "officialObjectives": [
+        "Identifier des éléments morphologiques spécifiques à une espèce végétale ou animale."
+      ],
+      "evidence": [
+        "Légende, avec l’aide de l’adulte, un dessin ou une photographie d’un animal ou d’une plante.",
+        "Classe des animaux en fonction de leurs caractéristiques (poils, plumes, écailles, etc.).",
+        "Associe à chaque mode de déplacement des éléments anatomiques spécifiques (ailes, griffes, pattes, nageoires, etc.)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait classer des animaux en trois groupes : à poils, à plumes ou à écailles ?",
+      "priorKnowledge": [
+        "Repérer et nommer les parties des animaux et des plantes (PS)",
+        "Observer et nommer la façon dont se déplacent les animaux (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-viv-02",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir les animaux et les végétaux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Reconnaître les étapes de la vie d’un animal ou d’une plante",
+      "description": "Nommer et remettre dans l’ordre les étapes de la vie d’un être vivant observé en classe, par exemple la graine qui germe, ou la chenille qui devient chrysalide puis papillon.",
+      "officialObjectives": [
+        "Reconnaitre les étapes de la vie d'un animal ou d'une plante."
+      ],
+      "evidence": [
+        "Nomme et ordonne les étapes du cycle de vie d’une plante ou d’un animal observées avec la classe (naissance, éclosion, germination – larve, nymphe, métamorphose, etc.)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait remettre dans l’ordre les étapes de la vie d’un papillon (œuf, chenille, chrysalide, papillon) ou d’une plante (graine, germination, fleur) ?",
+      "priorKnowledge": [
+        "Reconnaître des étapes du cycle de vie (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-viv-03",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir les animaux et les végétaux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Décrire les besoins essentiels des animaux et des végétaux",
+      "description": "Expliquer ce dont un animal ou une plante a besoin pour vivre (alimentation, milieu de vie), par exemple après une visite à la ferme.",
+      "officialObjectives": [
+        "Décrire les besoins essentiels de quelques animaux ou de végétaux."
+      ],
+      "evidence": [
+        "Réalise une affiche ou un carnet de voyage pour réinvestir les connaissances acquises (étapes de la vie, morphologie, locomotion, alimentation, milieu de vie) après une sortie (visite d’une ferme, sortie « nature », etc.)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Après une visite à la ferme ou une sortie nature, est-ce que {{prenom}} sait expliquer ce que mange un animal et dans quel milieu cet animal vit ?",
+      "priorKnowledge": [
+        "Identifier les besoins essentiels des animaux et des plantes (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-viv-04",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir les animaux et les végétaux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Agir avec la classe pour préserver la biodiversité",
+      "description": "Participer à un projet collectif qui protège la diversité des plantes et des animaux près de l’école, comme la création d’un potager.",
+      "officialObjectives": [
+        "Contribuer à une action collective favorable à la préservation de la biodiversité dans un milieu proche de l’école."
+      ],
+      "evidence": [
+        "Participe avec la classe à la mise en place d’un potager dans l’école ou dans un jardin collectif."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} participe à un projet collectif pour la nature, comme planter et entretenir un potager ?",
+      "priorKnowledge": [
+        "Respecter la vie sous toutes ses formes (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-corps-01",
+      "programme": "monde-c1",
+      "type": "LANGUAGE",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir le corps humain et la santé",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Nommer quelques parties du corps",
+      "description": "Montrer et nommer quelques parties du corps, sur soi ou sur une poupée.",
+      "officialObjectives": [
+        "Nommer et représenter quelques parties du corps humain."
+      ],
+      "evidence": [
+        "Désigne différentes parties du corps de la poupée en rangeant ses vêtements dans le coin d’imitation."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "En habillant une poupée, est-ce que {{prenom}} sait montrer et nommer la tête, les bras, les jambes ou les pieds ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-corps-02",
+      "programme": "monde-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir le corps humain et la santé",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Représenter le corps humain par le dessin",
+      "description": "Dessiner un bonhomme de plus en plus complet et aux proportions de plus en plus justes.",
+      "officialObjectives": [
+        "Nommer et représenter quelques parties du corps humain."
+      ],
+      "evidence": [
+        "Évolue dans la représentation du corps humain, vers un dessin plus complet et proportionné."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Quand {{prenom}} dessine un bonhomme, est-ce que le dessin devient plus complet (tête, corps, bras, jambes) ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 60,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-corps-03",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir le corps humain et la santé",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Découvrir les sens",
+      "description": "Explorer ce que l’on perçoit en touchant, en regardant, en écoutant, en sentant ou en goûtant, par exemple reconnaître un objet caché au toucher.",
+      "officialObjectives": [
+        "Découvrir les sens utilisés lors d’expériences sensorielles variées."
+      ],
+      "evidence": [
+        "Identifie parmi d’autres un objet connu et caché dans un sac ou dans une boîte, par le toucher."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître, juste en le touchant, un objet connu caché dans un sac ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 61,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-corps-04",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir le corps humain et la santé",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Respecter quelques règles d’hygiène de vie",
+      "description": "Prendre, avec l’aide de l’adulte, de bonnes habitudes : se laver les mains, se moucher, demander de l’aide pour aller aux toilettes. Cette éducation à la santé comprend aussi une première approche de l’alimentation, en lien avec l’éducation au goût.",
+      "officialObjectives": [
+        "Respecter quelques règles d’hygiène de vie, à l’invitation de l’adulte."
+      ],
+      "evidence": [
+        "Demande de l’aide pour répondre à ses besoins physiologiques.",
+        "Se lave les mains après le passage aux toilettes, avant et après les repas, se mouche, etc., avec l’aide de l’adulte."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} se lave les mains après les toilettes et avant les repas, avec votre aide ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 61,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-corps-01",
+      "programme": "monde-c1",
+      "type": "LANGUAGE",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir le corps humain et la santé",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Identifier et nommer les parties du corps",
+      "description": "Nommer les principales parties du corps : la tête, le cou, le tronc, les bras, les mains, les jambes.",
+      "officialObjectives": [
+        "Identifier et nommer les parties du corps humain."
+      ],
+      "evidence": [
+        "Place les pièces d’un puzzle représentant le corps humain en nommant les bras, les mains, les jambes, la tête, le cou, le tronc, etc."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer le cou, le tronc, les bras, les mains et les jambes, par exemple en faisant un puzzle du corps humain ?",
+      "priorKnowledge": [
+        "Nommer quelques parties du corps (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 61,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-corps-02",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir le corps humain et la santé",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Associer les organes des sens et les perceptions",
+      "description": "Savoir quel organe sert à quel sens : les yeux pour voir, les oreilles pour entendre, le nez pour sentir, la langue pour goûter, la peau pour toucher.",
+      "officialObjectives": [
+        "Identifier et nommer des organes sensoriels et les modalités de perception associées."
+      ],
+      "evidence": [
+        "Associe les yeux et la vue, le nez et l’odorat, la langue et le goût, la peau et le toucher, l’oreille et l’audition."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire avec quelle partie du corps on voit, on entend, on sent une odeur, on goûte et on touche ?",
+      "priorKnowledge": [
+        "Découvrir les sens (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 61,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-corps-03",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir le corps humain et la santé",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Observer les changements liés à sa croissance",
+      "description": "Constater que l’on grandit, à partir d’indices concrets : vêtements et chaussures devenus trop petits, photos, toise.",
+      "officialObjectives": [
+        "Observer des changements liés à sa croissance."
+      ],
+      "evidence": [
+        "Constate des changements physiques liés à sa croissance en s’appuyant sur des éléments concrets (vêtements, chaussures, photographies fournies par la famille, toise personnelle)."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} remarque avoir grandi, par exemple quand des chaussures ou des vêtements deviennent trop petits ?",
+      "priorKnowledge": [
+        "Reconnaître et nommer le mâle, la femelle, le petit et l’adulte (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 61,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-corps-04",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir le corps humain et la santé",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Connaître quelques règles d’hygiène corporelle",
+      "description": "Connaître les règles de propreté et faire sans aide les gestes de base, comme se laver les mains et se moucher.",
+      "officialObjectives": [
+        "Connaitre quelques règles d’hygiène corporelle et de propreté."
+      ],
+      "evidence": [
+        "Réalise en autonomie les premiers gestes qui garantissent son hygiène corporelle (se laver les mains, se moucher, etc.)."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} se lave les mains et se mouche sans aide et sans rappel ?",
+      "priorKnowledge": [
+        "Respecter quelques règles d’hygiène de vie (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 61,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-corps-01",
+      "programme": "monde-c1",
+      "type": "LANGUAGE",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir le corps humain et la santé",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Nommer quelques articulations et les segments des membres",
+      "description": "Montrer sur soi et nommer les articulations (cheville, genou, coude, épaule, poignet) et les parties des bras et des jambes (cuisse, avant-bras).",
+      "officialObjectives": [
+        "Identifier et nommer quelques articulations et la segmentation des membres."
+      ],
+      "evidence": [
+        "Situe sur soi et nomme la cheville, le genou, le coude, la hanche, l’épaule, la cuisse, la jambe, le pied, le bras, l’avant-bras, le poignet, la main, etc."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sur son corps et nommer le genou, le coude, la cheville, le poignet et l’épaule ?",
+      "priorKnowledge": [
+        "Identifier et nommer les parties du corps (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 61,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-corps-02",
+      "programme": "monde-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir le corps humain et la santé",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Se représenter avec un corps articulé en mouvement",
+      "description": "Dessiner un personnage qui court ou qui saute, avec des bras et des jambes qui se plient, en s’aidant d’un mannequin articulé.",
+      "officialObjectives": [
+        "Se représenter avec un corps articulé en mouvement."
+      ],
+      "evidence": [
+        "Réalise un dessin de plus en plus réaliste d’un personnage en train de courir ou de sauter, en s’aidant d’un mannequin articulé en bois."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dessiner un personnage en train de courir ou de sauter, avec des bras et des jambes pliés ?",
+      "priorKnowledge": [
+        "Représenter le corps humain par le dessin (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 61,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-corps-03",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde du vivant",
+      "subdomain": "Découvrir le corps humain et la santé",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Connaître quelques étapes de la vie d’un enfant jusqu’à six ans",
+      "description": "Retracer, à partir de photos de famille, comment on a grandi depuis la naissance jusqu’à six ans.",
+      "officialObjectives": [
+        "Connaitre quelques étapes de la vie d’un enfant jusqu’à six ans."
+      ],
+      "evidence": [
+        "Classe et commente quatre photographies fournies par sa famille, montrant les caractéristiques de son développement physique."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Avec quatre photos de {{prenom}} à différents âges, est-ce que {{prenom}} sait les ranger de la plus ancienne à la plus récente et dire ce qui a changé ?",
+      "priorKnowledge": [
+        "Observer les changements liés à sa croissance (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 61,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-obj-01",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Reconnaître et comparer des matériaux par les sens",
+      "description": "Toucher, regarder et comparer des matériaux de tous les jours (papier, carton, plastique, métal) et décrire ce que l’on sent au toucher : doux, dur, lisse ou rugueux.",
+      "officialObjectives": [
+        "Reconnaitre et comparer des matériaux usuels à partir de perceptions sensorielles."
+      ],
+      "evidence": [
+        "Identifie et nomme, parmi une collection d’objets, ceux qui sont constitués de papier, de carton, de plastique, de métal, etc.",
+        "Trie différents objets et échantillons de matières selon des propriétés perceptibles par les sens (doux, piquant, mou, dur, lisse, rugueux, etc.)."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trier des objets par matière (papier, plastique, métal) ou par toucher (doux, rugueux) ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 62,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-obj-02",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Repérer les transformations d’un matériau avec les mains ou des outils",
+      "description": "Constater qu’un matériau change de forme quand on le modèle, le déchire, le froisse, le découpe ou le presse.",
+      "officialObjectives": [
+        "Repérer des transformations de matériaux sous l’effet d’actions mécaniques avec les mains ou avec des outils."
+      ],
+      "evidence": [
+        "Modèle de la pâte à sel, déchire et froisse du papier, découpe de la pâte à modeler, presse des fruits et filtre pour faire du jus, etc."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait modeler de la pâte, déchirer ou froisser du papier, et dire ce qui a changé ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 62,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-obj-03",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Utiliser des objets et connaître leur nom et leur fonction",
+      "description": "Se servir d’objets du quotidien (spatule, ciseaux, pelle, fermeture éclair), connaître leur nom et leur usage.",
+      "officialObjectives": [
+        "Utiliser des objets, connaitre leur nom et leur fonction."
+      ],
+      "evidence": [
+        "Mélange avec une spatule, découpe avec des ciseaux adaptés, verse de l’eau dans les gobelets, etc.",
+        "Remonte la fermeture éclair de son manteau, fait un trou avec une pelle dans la jardinière."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait se servir de ciseaux adaptés, d’une spatule ou d’une pelle, et dire à quoi sert chacun de ces objets ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 62,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-obj-04",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Construire ou fabriquer librement ou pas à pas",
+      "description": "Réaliser une construction ou fabriquer un objet, librement ou en suivant les étapes indiquées une à une par l’adulte.",
+      "officialObjectives": [
+        "Réaliser une construction, fabriquer un objet librement ou par un guidage pas à pas."
+      ],
+      "evidence": [
+        "Construit une tour la plus haute possible avec des planchettes en bois.",
+        "Fabrique un personnage articulé à l’aide d’attaches parisiennes."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait construire une tour la plus haute possible avec des planchettes en bois ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 62,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-obj-01",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Différencier les matériaux selon leurs propriétés",
+      "description": "Tester les matériaux (attirés ou non par un aimant, laissant passer l’eau ou la lumière) et comprendre qu’un même objet peut être fait de matériaux différents, comme une cuillère en bois ou en métal.",
+      "officialObjectives": [
+        "Différencier des matériaux en fonction de leurs propriétés et différencier un objet du matériau qui le constitue."
+      ],
+      "evidence": [
+        "Classe des objets ou des échantillons de matériaux à partir de tests de leurs propriétés (magnétisme, perméabilité, opacité, transparence, etc.).",
+        "Explique par exemple : « La cuillère en fer ou en acier est attirée par l’aimant mais pas la cuillère en bois. »"
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire pourquoi la cuillère en fer est attirée par l’aimant et pas la cuillère en bois ?",
+      "priorKnowledge": [
+        "Reconnaître et comparer des matériaux par les sens (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 62,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-obj-02",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Choisir et utiliser l’outil adapté",
+      "description": "Choisir, parmi plusieurs outils, celui qui convient le mieux à ce que l’on veut faire, puis l’utiliser.",
+      "officialObjectives": [
+        "Désigner et utiliser des outils ou des objets adaptés à une situation et à une action technique."
+      ],
+      "evidence": [
+        "Choisit parmi l’emporte-pièce, les ciseaux ou un couteau en bois ce qui convient le mieux pour réaliser des sablés identiques pendant l’atelier cuisine."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Pour découper des biscuits tous identiques, est-ce que {{prenom}} sait choisir l’emporte-pièce plutôt que des ciseaux ou un couteau ?",
+      "priorKnowledge": [
+        "Utiliser des objets et connaître leur nom et leur fonction (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 62,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-obj-03",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Construire ou fabriquer à partir d’un modèle",
+      "description": "Fabriquer un objet en suivant des étapes dessinées ou photographiées.",
+      "officialObjectives": [
+        "Réaliser une construction, fabriquer un objet à partir d’un modèle."
+      ],
+      "evidence": [
+        "Construit un moulinet à vent en respectant les étapes de réalisation photographiées ou dessinées."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait fabriquer un objet simple, comme un moulinet à vent, en suivant des étapes dessinées ou photographiées ?",
+      "priorKnowledge": [
+        "Construire ou fabriquer librement ou pas à pas (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 62,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-obj-04",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Reproduire des gestes respectueux de l’environnement",
+      "description": "Refaire les gestes montrés par l’adulte pour protéger l’environnement, comme trier ses déchets.",
+      "officialObjectives": [
+        "Reproduire quelques gestes respectueux de l’environnement montrés par l’adulte."
+      ],
+      "evidence": [
+        "Trie et jette les déchets dans la poubelle appropriée."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait jeter un déchet dans la bonne poubelle de tri ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 62,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-obj-01",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Associer une solution technique à une fonction",
+      "description": "Comprendre à quoi sert chaque partie d’un objet : la poignée d’un arrosoir pour le porter, le réservoir pour contenir l’eau, la pomme pour bien répartir l’eau.",
+      "officialObjectives": [
+        "Associer une solution technique à une fonction technique."
+      ],
+      "evidence": [
+        "Identifie et comprend que la poignée de l’arrosoir sert à le transporter, que le réservoir sert à contenir l’eau et que la pomme sert à mieux répartir l’eau."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer à quoi servent la poignée, le réservoir et la pomme d’un arrosoir ?",
+      "priorKnowledge": [
+        "Choisir et utiliser l’outil adapté (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 62,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-obj-02",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Fabriquer un objet qui répond à un besoin",
+      "description": "Fabriquer un objet utile en se servant des propriétés des matériaux ou de phénomènes comme l’équilibre et le magnétisme (l’attraction des aimants).",
+      "officialObjectives": [
+        "Fabriquer un objet en réponse à un besoin en exploitant des propriétés de matériaux ou des phénomènes physiques (équilibre, magnétisme, perméabilité, opacité ou transparence)."
+      ],
+      "evidence": [
+        "Fabrique le support d’un labyrinthe pour déplacer un objet en fer ou en acier à l’aide d’un aimant placé en dessous.",
+        "Construit une bascule avec un pivot et une planche, et place des objets de part et d’autre pour établir un équilibre."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait construire une bascule avec une planche et un appui, puis placer des objets de chaque côté pour obtenir l’équilibre ?",
+      "priorKnowledge": [
+        "Construire ou fabriquer à partir d’un modèle (MS)",
+        "Différencier les matériaux selon leurs propriétés (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 62,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-obj-03",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Explorer la flottabilité d’objets pleins",
+      "description": "Découvrir, en plongeant dans l’eau des objets pleins d’une seule matière, que tous ceux d’une même matière flottent (bois, cire) ou coulent (fer, verre).",
+      "officialObjectives": [
+        "Explorer la notion de flottabilité avec des objets pleins constitués d’une seule et même matière : observer que, plongés dans l’eau, ils flottent tous ou coulent tous."
+      ],
+      "evidence": [
+        "Plonge dans l’eau des objets pleins (sans creux, sans trous) d’une même matière (bois, fer, cire de bougie, polystyrène, verre) et observe leur comportement.",
+        "Constate que les objets d’une même matière coulent tous (fer, verre) ou flottent tous (cire, polystyrène, bois)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait prévoir qu’un objet plein en bois va flotter et qu’un objet plein en fer va couler ?",
+      "priorKnowledge": [
+        "Différencier les matériaux selon leurs propriétés (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 62,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-obj-04",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Réaliser en suivant une recette ou une fiche technique",
+      "description": "Suivre une recette ou une fiche de fabrication : rassembler le nécessaire, puis faire les étapes dans l’ordre.",
+      "officialObjectives": [
+        "Construire, fabriquer, réaliser en suivant une recette ou une fiche technique."
+      ],
+      "evidence": [
+        "Rassemble les éléments nécessaires et respecte la chronologie des étapes pour réaliser une soupe froide."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait suivre une recette simple : rassembler les ingrédients, puis faire les étapes dans l’ordre ?",
+      "priorKnowledge": [
+        "Construire ou fabriquer à partir d’un modèle (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-obj-05",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Élaborer une suite d’instructions",
+      "description": "Préparer dans le bon ordre quelques instructions simples (avancer, tourner) pour amener un robot ou un pion sur une case : une première approche de la programmation.",
+      "officialObjectives": [
+        "Élaborer une suite d’instructions pour réaliser une tâche simple."
+      ],
+      "evidence": [
+        "Choisit et organise 3 à 5 instructions simples (avancer, tourner) dans le bon ordre pour conduire un objet ou un robot jusqu’à une case cible sur un quadrillage."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait donner dans le bon ordre 3 à 5 instructions (avancer, tourner) pour amener un pion ou un petit robot jusqu’à une case ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-obj-06",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les objets et les matériaux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Identifier et prévenir les risques liés à certains objets",
+      "description": "Savoir que certains objets sont dangereux (outils qui pincent ou coupent, petits objets que l’on peut avaler) et adopter les bons gestes pour éviter de se blesser.",
+      "officialObjectives": [
+        "Identifier et prévenir les risques liés à certains objets."
+      ],
+      "evidence": [
+        "Repère les outils qui pincent ou qui coupent et évite de les utiliser de façon inappropriée.",
+        "Sait que de petits objets avalés présentent un risque d’étouffement.",
+        "Repère les risques liés à certaines activités, comme le risque de chute en manipulant de l’eau ou de la glace."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi il faut faire attention avec des ciseaux et ne pas mettre de petits objets dans la bouche ?",
+      "priorKnowledge": [
+        "Choisir et utiliser l’outil adapté (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-mat-01",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les états de la matière et les mélanges",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Explorer les solides et les liquides",
+      "description": "Transporter, verser, transvaser de l’eau, du sable ou des cailloux, pour sentir que la matière pèse et découvrir que liquides et solides ne se comportent pas de la même façon.",
+      "officialObjectives": [
+        "Explorer quelques caractéristiques des solides et des liquides."
+      ],
+      "evidence": [
+        "Choisit une méthode adaptée, avec et sans ustensiles, pour transporter des liquides et des solides.",
+        "Constate que les ustensiles avec des trous (passoire, filtre à café) laissent passer l’eau et que, pour les solides (sable, cailloux), cela dépend de la taille des trous."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir un récipient adapté pour transporter de l’eau ou du sable, et voit que l’eau passe à travers une passoire mais pas les cailloux ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-mat-02",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les états de la matière et les mélanges",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Constater les effets d’un déplacement d’air",
+      "description": "Sentir l’air qui bouge (éventail, vent) et voir ses effets sur les objets : un premier pas pour comprendre que l’air existe même si on ne le voit pas.",
+      "officialObjectives": [
+        "Constater les effets d’un déplacement d’air sur des objets ou sur soi-même."
+      ],
+      "evidence": [
+        "Décrit l’effet de l’air sur soi : « Je sens l’air sur ma joue quand on agite un éventail. »",
+        "Décrit l’effet du vent sur les objets : « Quand il y a du vent, les feuilles volent dans la cour et le moulinet tourne vite. »"
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} remarque l’air sur sa joue quand on agite un éventail, ou que le vent fait voler les feuilles ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-mat-03",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les états de la matière et les mélanges",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Réaliser et observer des mélanges",
+      "description": "Mélanger des matières (riz et lentilles, sable et eau, sirop et eau) et observer le résultat : une première approche de ce que devient la matière dans un mélange.",
+      "officialObjectives": [
+        "Réaliser et observer des mélanges."
+      ],
+      "evidence": [
+        "Fabrique de la pâte à sel, du sirop à l’eau.",
+        "Mélange du riz et des lentilles, du sable et de l’eau."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Après avoir mélangé du sable et de l’eau, ou du sirop et de l’eau, est-ce que {{prenom}} sait décrire ce qu’on observe ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ps-mat-04",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les états de la matière et les mélanges",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Observer la fusion et la solidification de l’eau",
+      "description": "Voir que l’eau devient de la glace quand il fait très froid et que la glace redevient de l’eau en fondant.",
+      "officialObjectives": [
+        "Découvrir et observer la fusion et la solidification de l’eau."
+      ],
+      "evidence": [
+        "Observe, manipule et fabrique de la glace (dehors ou en utilisant un mélange réfrigérant).",
+        "Fait fondre la glace."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que l’eau laissée dehors quand il gèle devient de la glace, et que la glace fond quand il fait plus chaud ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-mat-01",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les états de la matière et les mélanges",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Identifier une condition qui fait fondre la glace",
+      "description": "Chercher et tester différentes façons de faire fondre un glaçon, pour découvrir ce qui favorise la fonte, comme la chaleur.",
+      "officialObjectives": [
+        "Identifier une condition favorable à la fusion de la glace."
+      ],
+      "evidence": [
+        "Recherche avec d’autres différentes manières de faire fondre des glaçons, par exemple pour libérer un personnage pris à l’intérieur.",
+        "Teste ces manières et garde trace des observations."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait proposer une façon de faire fondre un glaçon plus vite, par exemple pour libérer un petit jouet pris dedans ?",
+      "priorKnowledge": [
+        "Observer la fusion et la solidification de l’eau (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-mat-02",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les états de la matière et les mélanges",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Mettre en évidence la présence d’air",
+      "description": "Montrer que l’air existe en le faisant bouger : souffler, agiter la main ou un carton, utiliser une pompe ou un ventilateur.",
+      "officialObjectives": [
+        "Mettre en évidence la présence d’air en le mettant en mouvement."
+      ],
+      "evidence": [
+        "Fait bouger une plume en produisant du vent avec son corps (souffler doucement, agiter la main).",
+        "Fait bouger une plume avec des objets (feuille cartonnée, pompe à vélo, petit ventilateur, etc.)."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire bouger une plume sans la toucher, en soufflant ou en agitant une feuille cartonnée ?",
+      "priorKnowledge": [
+        "Constater les effets d’un déplacement d’air (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-ms-mat-03",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les états de la matière et les mélanges",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Distinguer les solides qui se dissolvent dans l’eau",
+      "description": "Observer que certains solides « disparaissent » dans l’eau (le sel) alors que d’autres restent visibles (le riz, le sable).",
+      "officialObjectives": [
+        "Distinguer les solides qui se dissolvent dans l’eau de ceux qui ne se dissolvent pas."
+      ],
+      "evidence": [
+        "Observe que certains solides, comme le sel, se dissolvent dans l’eau, tandis que d’autres, comme le riz, le sable ou les morceaux d’écorce, ne se dissolvent pas."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire que le sel « disparaît » dans l’eau alors que le sable ou le riz restent visibles ?",
+      "priorKnowledge": [
+        "Réaliser et observer des mélanges (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-mat-01",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les états de la matière et les mélanges",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Identifier et nommer les états de l’eau",
+      "description": "Reconnaître l’eau liquide (pluie, flaque, mer) et l’eau solide (neige, glacier, givre) et nommer son état.",
+      "officialObjectives": [
+        "Identifier et nommer l’état de l’eau dans différentes situations."
+      ],
+      "evidence": [
+        "Observe les manifestations naturelles de l’eau au fil des saisons.",
+        "Commente des photographies représentant différents états de l’eau (pluie, flaque, mer, glacier, neige, givre, etc.)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Devant des photos de pluie, de neige, de flaque ou de givre, est-ce que {{prenom}} sait dire si l’eau est liquide ou solide ?",
+      "priorKnowledge": [
+        "Identifier une condition qui fait fondre la glace (MS)",
+        "Explorer les solides et les liquides (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-mat-02",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les états de la matière et les mélanges",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Identifier la présence de l’air par les sens",
+      "description": "Comprendre que l’air est présent même invisible, parce qu’on le sent ou qu’on voit ses effets, comme un ballon gonflé que l’on lâche.",
+      "officialObjectives": [
+        "Identifier la présence de l’air quand il est perceptible par les sens."
+      ],
+      "evidence": [
+        "Observe le mouvement du ballon de baudruche lorsqu’on le lâche après l’avoir rempli d’air avec un gonfleur."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend que c’est l’air qui fait partir un ballon de baudruche gonflé quand on le lâche ?",
+      "priorKnowledge": [
+        "Mettre en évidence la présence d’air (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-mat-03",
+      "programme": "monde-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les états de la matière et les mélanges",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Tester quels solides se dissolvent dans l’eau",
+      "description": "Tester plusieurs solides dans l’eau, noter les résultats dans un tableau et récupérer avec un filtre ceux qui ne se sont pas dissous.",
+      "officialObjectives": [
+        "Distinguer, parmi quelques solides, ceux qui peuvent se dissoudre dans l’eau."
+      ],
+      "evidence": [
+        "Mélange différents solides à de l’eau (sucre, sel, sable, etc.) et note les effets obtenus dans un tableau à double entrée.",
+        "Récupère à l’aide d’un filtre les solides non dissous."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait prévoir que le sucre et le sel vont se dissoudre dans l’eau, mais pas le sable ?",
+      "priorKnowledge": [
+        "Distinguer les solides qui se dissolvent dans l’eau (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-mat-04",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les états de la matière et les mélanges",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Agir de manière autonome pour l’environnement",
+      "description": "Penser sans rappel aux gestes qui évitent le gaspillage : éteindre la lumière, fermer le robinet, économiser le papier.",
+      "officialObjectives": [
+        "Commencer à agir de manière autonome pour le respect de l’environnement."
+      ],
+      "evidence": [
+        "Éteint la lumière en sortant d’une salle vide.",
+        "Ferme correctement le robinet après utilisation.",
+        "Évite le gaspillage de papier, etc."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} pense, sans rappel, à éteindre la lumière en sortant d’une pièce vide et à bien fermer le robinet ?",
+      "priorKnowledge": [
+        "Reproduire des gestes respectueux de l’environnement (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-mon-gs-mat-05",
+      "programme": "monde-c1",
+      "type": "PROCEDURAL",
+      "subject": "Découvrir le monde du vivant, de la matière et des objets",
+      "domain": "Découvrir le monde de la matière et des objets",
+      "subdomain": "Découvrir les états de la matière et les mélanges",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Prendre en compte les risques de l’environnement familier",
+      "description": "Reconnaître les signes de danger, comme les pictogrammes sur les produits toxiques, et savoir prévenir un adulte en cas de danger.",
+      "officialObjectives": [
+        "Prendre en compte les risques de l’environnement familier."
+      ],
+      "evidence": [
+        "Reconnaît les pictogrammes présents sur les contenants pour identifier certains produits toxiques ou dangereux.",
+        "Alerte un adulte en cas de danger pour soi ou pour un camarade."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} reconnaît les pictogrammes de danger sur les produits ménagers et sait qu’il faut prévenir un adulte en cas de danger ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 63,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-mon-ms-viv-01",
+      "prerequisiteId": "fr-mon-ps-viv-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Reconnaître le jeune et l’adulte (PS) prépare la notion de cycle de vie.",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-mon-ms-viv-02",
+      "prerequisiteId": "fr-mon-ps-viv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Prendre soin des élevages et des cultures de la classe » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-ms-viv-04",
+      "prerequisiteId": "fr-mon-ps-viv-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Respecter le vivant prolonge les soins apportés aux élevages et aux cultures (PS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-mon-gs-viv-01",
+      "prerequisiteId": "fr-mon-ps-viv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Repérer et nommer les parties des animaux et des plantes » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-viv-01",
+      "prerequisiteId": "fr-mon-ms-viv-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Associer un mode de déplacement à des éléments anatomiques suppose de connaître ces modes de déplacement (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-mon-gs-viv-02",
+      "prerequisiteId": "fr-mon-ms-viv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Reconnaître des étapes du cycle de vie » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-viv-03",
+      "prerequisiteId": "fr-mon-ms-viv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Identifier les besoins essentiels des animaux et des plantes » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-viv-04",
+      "prerequisiteId": "fr-mon-ms-viv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Respecter la vie sous toutes ses formes » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-ps-corps-02",
+      "prerequisiteId": "fr-mon-ps-corps-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Représenter le corps s’appuie sur la connaissance de ses parties."
+    },
+    {
+      "topicId": "fr-mon-ms-corps-01",
+      "prerequisiteId": "fr-mon-ps-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Nommer quelques parties du corps » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-ms-corps-02",
+      "prerequisiteId": "fr-mon-ps-corps-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Découvrir les sens » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-ms-corps-02",
+      "prerequisiteId": "fr-mon-ms-corps-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Nommer les organes des sens s’appuie sur le nom des parties du corps."
+    },
+    {
+      "topicId": "fr-mon-ms-corps-03",
+      "prerequisiteId": "fr-mon-ps-viv-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Savoir que le petit devient adulte (PS) aide à comprendre sa propre croissance.",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-mon-ms-corps-04",
+      "prerequisiteId": "fr-mon-ps-corps-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Respecter quelques règles d’hygiène de vie » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-corps-01",
+      "prerequisiteId": "fr-mon-ms-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Identifier et nommer les parties du corps » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-corps-02",
+      "prerequisiteId": "fr-mon-ps-corps-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Représenter le corps humain par le dessin » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-corps-02",
+      "prerequisiteId": "fr-mon-gs-corps-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Dessiner un corps articulé s’appuie sur la connaissance des articulations."
+    },
+    {
+      "topicId": "fr-mon-gs-corps-03",
+      "prerequisiteId": "fr-mon-ms-corps-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Observer les changements liés à sa croissance » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-ps-obj-01",
+      "prerequisiteId": "fr-mon-ps-corps-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer des matériaux par les sens s’appuie sur la découverte des sens."
+    },
+    {
+      "topicId": "fr-mon-ps-obj-04",
+      "prerequisiteId": "fr-mon-ps-obj-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Fabriquer un objet mobilise l’usage d’objets et d’outils simples."
+    },
+    {
+      "topicId": "fr-mon-ms-obj-01",
+      "prerequisiteId": "fr-mon-ps-obj-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Reconnaître et comparer des matériaux par les sens » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-ms-obj-02",
+      "prerequisiteId": "fr-mon-ps-obj-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Utiliser des objets et connaître leur nom et leur fonction » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-ms-obj-03",
+      "prerequisiteId": "fr-mon-ps-obj-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Construire ou fabriquer librement ou pas à pas » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-obj-01",
+      "prerequisiteId": "fr-mon-ms-obj-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Choisir et utiliser l’outil adapté » (MS) : relier un objet à sa fonction.",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-obj-02",
+      "prerequisiteId": "fr-mon-ms-obj-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Construire ou fabriquer à partir d’un modèle » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-obj-02",
+      "prerequisiteId": "fr-mon-ms-obj-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Exploiter les propriétés des matériaux suppose de les avoir testées (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-mon-gs-obj-03",
+      "prerequisiteId": "fr-mon-ms-obj-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Explorer la flottabilité prolonge le classement des matériaux selon leurs propriétés (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-mon-gs-obj-04",
+      "prerequisiteId": "fr-mon-ms-obj-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge la fabrication à partir d’un modèle (MS) vers le suivi d’une recette ou d’une fiche.",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-obj-05",
+      "prerequisiteId": "fr-mon-gs-obj-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Organiser des instructions dans l’ordre s’appuie sur le respect de la chronologie des étapes."
+    },
+    {
+      "topicId": "fr-mon-gs-obj-06",
+      "prerequisiteId": "fr-mon-ms-obj-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prévenir les risques des outils s’appuie sur leur bon usage (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-mon-ps-mat-03",
+      "prerequisiteId": "fr-mon-ps-mat-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Mélanger des matières s’appuie sur la manipulation des solides et des liquides."
+    },
+    {
+      "topicId": "fr-mon-ms-mat-01",
+      "prerequisiteId": "fr-mon-ps-mat-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Observer la fusion et la solidification de l’eau » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-ms-mat-02",
+      "prerequisiteId": "fr-mon-ps-mat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Constater les effets d’un déplacement d’air » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-ms-mat-03",
+      "prerequisiteId": "fr-mon-ps-mat-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Réaliser et observer des mélanges » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-mat-01",
+      "prerequisiteId": "fr-mon-ms-mat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge le travail sur la fusion de la glace (MS) vers les états de l’eau.",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-mat-01",
+      "prerequisiteId": "fr-mon-ps-mat-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Nommer l’état de l’eau s’appuie sur la distinction entre solides et liquides (PS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-mon-gs-mat-02",
+      "prerequisiteId": "fr-mon-ms-mat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Mettre en évidence la présence d’air » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-mat-03",
+      "prerequisiteId": "fr-mon-ms-mat-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Distinguer les solides qui se dissolvent dans l’eau » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-mat-04",
+      "prerequisiteId": "fr-mon-ms-obj-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Reproduire des gestes respectueux de l’environnement » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-mon-gs-mat-05",
+      "prerequisiteId": "fr-mon-gs-obj-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prendre en compte les risques de l’environnement prolonge la prévention des risques liés aux objets."
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

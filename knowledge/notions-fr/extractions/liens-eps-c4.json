@@ -1,0 +1,410 @@
+{
+  "programme": "eps-c4",
+  "prerequisites": [
+    {
+      "topicId": "fr-eps-c4-mot-01",
+      "prerequisiteId": "fr-eps-6e-perf-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire des appuis efficaces pour être plus performant » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-mot-01",
+      "prerequisiteId": "fr-eps-6e-perf-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Aligner son corps pour créer et transmettre des forces » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-mot-01",
+      "prerequisiteId": "fr-eps-6e-perf-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Coordonner ses actions pour un déplacement continu » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-mot-02",
+      "prerequisiteId": "fr-eps-6e-mexp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Oser des formes corporelles expressives et acrobatiques » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-mot-03",
+      "prerequisiteId": "fr-eps-6e-eff-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et mémoriser ses sensations pendant l’effort » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-mot-03",
+      "prerequisiteId": "fr-eps-6e-prog-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et réguler ses émotions pour s’engager » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-mot-03",
+      "prerequisiteId": "fr-eps-6e-mexp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître les sensations liées aux postures » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-mot-04",
+      "prerequisiteId": "fr-eps-6e-carts-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Observer une prestation avec des indicateurs simples » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-meth-01",
+      "prerequisiteId": "fr-eps-6e-itin-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prévoir et réaliser un itinéraire » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-meth-02",
+      "prerequisiteId": "fr-eps-6e-comp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Mémoriser et reproduire une suite de formes corporelles » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-meth-04",
+      "prerequisiteId": "fr-eps-6e-csci-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Recueillir des informations pour améliorer des performances » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-regl-01",
+      "prerequisiteId": "fr-eps-6e-cit-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître, respecter et faire respecter les règles » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-regl-02",
+      "prerequisiteId": "fr-eps-6e-cit-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître, respecter et faire respecter les règles » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-regl-03",
+      "prerequisiteId": "fr-eps-6e-cit-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Coopérer au sein d’un collectif » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-regl-04",
+      "prerequisiteId": "fr-eps-6e-cit-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Coopérer au sein d’un collectif » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-regl-04",
+      "prerequisiteId": "fr-eps-6e-comp-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Coopérer en proposant une aide (parer, observer) » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-sante-02",
+      "prerequisiteId": "fr-eps-6e-csci-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître ses performances » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-sante-02",
+      "prerequisiteId": "fr-eps-6e-eff-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Confronter son ressenti à des mesures objectives suppose de savoir reconnaître ses sensations d’effort (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-sante-04",
+      "prerequisiteId": "fr-eps-6e-eff-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Adapter son engagement au type d’effort » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-cult-01",
+      "prerequisiteId": "fr-eps-6e-perf-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Expliquer l’efficacité d’un geste suppose d’avoir construit l’alignement du corps qui transmet les forces (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-cult-04",
+      "prerequisiteId": "fr-eps-6e-carts-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Découvrir des courants artistiques et des performances gymniques » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-perf-01",
+      "prerequisiteId": "fr-eps-6e-eff-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Adapter son engagement au type d’effort » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-perf-01",
+      "prerequisiteId": "fr-eps-6e-csci-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Viser sa meilleure performance suppose de connaître ses résultats chiffrés (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-perf-01",
+      "prerequisiteId": "fr-eps-6e-perf-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Des appuis efficaces sont une des clés de la performance en course et en natation (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-perf-02",
+      "prerequisiteId": "fr-eps-6e-csci-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Recueillir des informations pour améliorer des performances » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-perf-04",
+      "prerequisiteId": "fr-eps-6e-eff-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’échauffer en appliquant les phases d’un échauffement » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-perf-05",
+      "prerequisiteId": "fr-eps-6e-csci-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Recueillir des informations pour améliorer des performances » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-perf-05",
+      "prerequisiteId": "fr-eps-6e-cit-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Tenir les rôles d’une compétition s’appuie sur l’habitude de tenir des rôles utiles au groupe (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-depl-01",
+      "prerequisiteId": "fr-eps-6e-itin-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Ajuster son déplacement pour assurer son retour en sécurité » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-depl-01",
+      "prerequisiteId": "fr-eps-6e-prog-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Choisir et justifier son itinéraire s’appuie sur le repérage de ce qui, dans le milieu, facilite le déplacement (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-depl-02",
+      "prerequisiteId": "fr-eps-6e-prog-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Progresser avec des techniques simples en milieu inhabituel » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-depl-02",
+      "prerequisiteId": "fr-eps-6e-prog-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Aller au bout d’un parcours de plus en plus incertain suppose de réguler ses émotions face au milieu (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-depl-03",
+      "prerequisiteId": "fr-eps-6e-eco-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Évoluer collectivement en sécurité » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-depl-04",
+      "prerequisiteId": "fr-eps-6e-csci-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Appliquer les règles de pratique, d’hygiène et de sécurité » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-depl-04",
+      "prerequisiteId": "fr-eps-6e-eco-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Limiter l’impact de son déplacement sur l’environnement » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-depl-04",
+      "prerequisiteId": "fr-eps-6e-prog-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les activités nautiques de pleine nature supposent l’attestation du savoir nager en sécurité (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-expr-01",
+      "prerequisiteId": "fr-eps-6e-comp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Composer une prestation structurée avec des procédés simples » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-expr-01",
+      "prerequisiteId": "fr-eps-6e-mexp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Oser des formes corporelles expressives et acrobatiques » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-expr-01",
+      "prerequisiteId": "fr-eps-6e-comp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Maîtriser les risques de sa séquence suppose de choisir des figures adaptées à ses capacités (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-expr-02",
+      "prerequisiteId": "fr-eps-6e-comp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Composer une prestation structurée avec des procédés simples » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-expr-03",
+      "prerequisiteId": "fr-eps-6e-carts-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Observer une prestation avec des indicateurs simples » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-aff-01",
+      "prerequisiteId": "fr-eps-6e-tact-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exploiter les déséquilibres de l’adversaire » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-aff-01",
+      "prerequisiteId": "fr-eps-6e-tact-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Un projet de jeu qui fait basculer le rapport de force s’appuie sur ses points forts (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-aff-01",
+      "prerequisiteId": "fr-eps-6e-tech-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Marquer ou gagner le point suppose d’enchaîner des actions au service d’une intention tactique (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-aff-02",
+      "prerequisiteId": "fr-eps-6e-eff-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Adapter son engagement au type d’effort » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-aff-02",
+      "prerequisiteId": "fr-eps-6e-tech-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Juger le rapport de force suppose de lire les trajectoires et les déplacements adverses (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-aff-02",
+      "prerequisiteId": "fr-eps-6e-tech-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Passer vite de l’attaque à la défense s’appuie sur le placement en position favorable (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-aff-03",
+      "prerequisiteId": "fr-eps-6e-cit-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Coopérer au sein d’un collectif » (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-aff-03",
+      "prerequisiteId": "fr-eps-6e-cit-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Respecter adversaires et arbitre suppose de connaître et de respecter le règlement (6e)"
+    },
+    {
+      "topicId": "fr-eps-c4-aff-04",
+      "prerequisiteId": "fr-eps-6e-cit-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître, respecter et faire respecter les règles » (6e)"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "eps-c3": "2026-10-23",
+    "eps-c4": "2026-10-23"
+  }
+}

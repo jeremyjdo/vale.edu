@@ -1,0 +1,801 @@
+=== PAGE 1 ===
+Programme d’histoire-géographie pour le cycle 3
+Sommaire
+Principes
+Histoire
+Cours moyen première année
+ Thème 1 : La vie quotidienne au Moyen Âge (XIe - XIIIe siècles) (première et deuxième période)
+ Thème 2 : La monarchie en France (XVIe – XVIIe siècles) (deuxième et troisième périodes)
+ Thème 3 : Explorations et conquêtes par les Européens du XVe au XVIIe siècle (quatrième période)
+ Thème 4 : 1789, une année révolutionnaire en France (cinquième période)
+Cours moyen deuxième année
+ Thème 1 : De la République à l’Empire (1792-1815) (première période)
+ Thème 2 : Vers une France républicaine : la IIe République (1848-1852) et la IIIe République de 1870 à 1914 (deuxième période)
+ Thème 3 : L’âge industriel en France au XIXe siècle (deuxième période)
+ Thème 4 : La France dans la Première Guerre mondiale (1914-1918) (troisième période)
+ Thème 5 : La France pendant la Seconde Guerre mondiale (1939-1945) (quatrième période)
+ Thème 6 : la France depuis 1945 : 80 ans de transformations (cinquième période)
+Sixième : premiers humains, premières sociétés et premiers États, du Paléolithique au Ier siècle avant J.-C. (45 heures)
+ Thème introductif : Se repérer dans le temps : (2 à 3 heures)
+ Thème 1 : Du Paléolithique au Néolithique : des chasseurs-cueilleurs aux premiers cultivateurs-éleveurs de l’humanité (7 à 9
+ heures)
+ Thème 2 : Des sociétés, des États, des dieux (IVe-Ier millénaire av. J.-C.) : Proche-Orient et Égypte pharaonique (12 à 14 heures)
+ Thème 3 : Le monde grec : des cités-États aux conquêtes d’Alexandre le Grand (Ve siècle av. J.-C. – 323 av. J.-C.) (11 à 13 heures)
+ Thème 4 : Les mondes celtes, des sociétés en relation avec les mondes méditerranéens (VIIIe- milieu du Ier siècle av. J.-C.) (6 à 8
+ heures)
+Géographie
+Cours moyen première année : la diversité des modes de vie dans le monde
+ Thème 1 : Se nourrir (1 ou 2 périodes au choix)
+ Thème 2 : Les inégalités dans le monde (1 ou 2 périodes au choix)
+ Thème 3 : Se déplacer (1 période)
+ Thème 4 : Communiquer dans le monde avec Internet (1 période)
+Cours moyen deuxième année : la France, l’Union européenne
+ Thème 1 : L’organisation du territoire français (2 périodes)
+ Thème 2 : Les usages de l’eau douce en France (2 périodes)
+ Thème 3 : l’Union européenne (1 période)
+Sixième : habiter le monde (45 heures)
+ Thème introductif : Je me repère à la surface de la Terre (2 à 3 heures)
+ Thème 1 : Le peuplement de la Terre (9 à 12 heures)
+ Thème 2 : Habiter une métropole (9 à 12 heures)
+ Thème 3 : Habiter un espace soumis à des contraintes naturelles (9 à 12 heures)
+ Thème 4 : Habiter un espace exposé aux risques dans le contexte du dérèglement climatique (9 à 12 heures)
+Principes
+Au cycle 3, l’enseignement d’histoire-géographie permet la poursuite de la construction des repères essentiels à la culture de
+l’élève. Il s’appuie sur ce qui a été vu au cycle 2 et prépare le cycle 4. L’enseignement d’histoire-géographie inscrit l’élève dans
+une trame historique et géographique partagée, fondement d’une culture commune. En confrontant l’élève à l’altérité – du
+présent comme du passé –, en apprenant à questionner les évidences, en exerçant son esprit critique, l’enseignement
+d’histoire-géographie contribue à la construction de la citoyenneté et des compétences cognitives, émotionnelles et sociales.
+L’histoire et la géographie contribuent pleinement à l’ensemble des éducations transversales.
+Les notions et compétences travaillées sont à mettre en lien avec les apprentissages des autres enseignements,
+particulièrement en Enseignement moral et civique, pour développer une compréhension du monde et des enjeux
+contemporains.
+L’enseignement d’histoire-géographie vise à développer trois compétences principales : se repérer dans le temps et l’espace,
+s’initier à la démarche historique et géographique, maitriser différentes manières de décrire et d’expliquer la réalité du passé et
+du présent. Les élèves pratiquent les démarches et méthodes propres à l’histoire-géographie.
+
+=== PAGE 2 ===
+À l’issue du cycle, en histoire, l’élève a acquis les bases du savoir historique : différencier les récits fictionnels des récits
+historiques, questionner les traces du passé et les contextualiser en apprenant à interroger la fiabilité des sources (notamment
+numériques).
+À l’issue du cycle, en géographie, l’élève a acquis les bases du savoir géographique et une vision d’ensemble de la géographie
+du monde. Il est capable de localiser, de nommer et de décrire les principaux repères physiques et humains à l’échelle du globe
+et de la France, en ayant conscience des grands facteurs de différenciation. Il a acquis les bases de la lecture et de la
+représentation de cartes et de schémas.
+L’élève est confronté à une diversité de démarches complémentaires qui peuvent être articulées autour de trois modalités
+pédagogiques complémentaires :
+  − L’étude de documents historiques et géographiques permet à l’élève d’analyser et de comprendre un document en
+     prélevant des informations, en émettant des hypothèses, en mettant en relation le contenu du document et les
+     connaissances acquises, en développant son esprit critique.
+  − L'étude d'un sujet ou d’une question est conduite et analysée par le professeur qui prend appui sur quelques sources ou
+     documents majeurs. Cette modalité d’enseignement implique un encadrement de l’élève par le professeur afin de clarifier
+     et d’approfondir la compréhension des phénomènes étudiés. Elle permet notamment de comprendre que les savoirs sont
+     constamment nourris et modifiés par de nouvelles découvertes scientifiques et des lectures renouvelées.
+  − Des temps de récit peuvent être utilisés pour restituer les caractéristiques de certaines périodes historiques ou de
+     différents espaces à l’échelle du monde, la réalité quotidienne de sociétés passées et contemporaines proches ou
+     éloignées du vécu des élèves. Ils rendent ainsi les connaissances plus vivantes, incarnées et accessibles à l’élève. Le récit
+     peut être oral, écrit ou graphique.
+La parole du professeur a une place importante pour la transmission des connaissances ou encore dans la conduite du travail
+sur document(s). Les temps de mise en activité de l’élève doivent être variés pour s’assurer que les élèves ont compris et acquis
+les connaissances et les compétences attendues. Dans la mesure du possible, il est important de s’appuyer sur la sensibilité, le
+vécu et l’environnement des élèves (évolution des modes de vie, grandes figures de l’histoire, patrimoine, milieu géographique,
+espace de vie, lecture, etc.) pour donner du sens à l’enseignement par sa contextualisation dans le territoire local et régional de
+l’établissement.
+Au cycle 3, l’expression écrite et orale fait l’objet de toutes les attentions : écrire en cours d’histoire et de géographie est une
+activité quotidienne que ce soit sous la forme de résumés ou d’écrits personnels. Le cahier (ou le classeur) doit rendre compte
+du travail accompli en classe, comporter la trace des écrits de l’élève et différencier les écrits de travail des écrits validés. Il
+rassemble les documents et supports utilisés. Outre la structuration des apprentissages, le cahier (ou le classeur) permet de
+stabiliser les savoirs et les compétences, et d’aider l’élève à mémoriser et à réactiver les connaissances apprises en classe.
+Les outils de travail, communs à l’ensemble de la classe, jouent un rôle essentiel dans les apprentissages. La frise chronologique
+aide l’élève à visualiser le temps long, à organiser les évènements les uns par rapport aux autres et à mémoriser les faits et
+périodes historiques en comprenant leur enchainement. Le planisphère (sur lequel la France – hexagonale et ultramarine – est
+matérialisée) et les cartes et plans à différentes échelles, notamment de la France, lui permettent de localiser, puis de situer les
+lieux étudiés, d’acquérir des repères géographiques et de mieux comprendre les relations entre les territoires à différentes
+échelles. Les repères sont positionnés au fur et à mesure des apprentissages effectués en vue de leur mémorisation, dans la
+continuité du cycle 2, tout comme doivent l’être les paysages et les exemples mobilisés. Dans la mesure du possible,
+planisphère(s) et carte(s) de la France, frise chronologique(s) et carte(s) historique(s) suivent la classe d’un niveau à l’autre, du
+cycle 2 au cycle 3 ce qui permet de consolider et de remobiliser les repères acquis et de les approfondir.
+L’enseignement d’histoire-géographie contribue au développement des connaissances et des compétences numériques des
+élèves telles que définies dans le Cadre de référence des compétences numériques (CRCN) et conformément au Règlement
+général sur la protection des données (RGPD). Les objectifs d’apprentissage disciplinaires et la plus-value des usages
+déterminent le choix des outils numériques les plus adaptés et leurs modalités d’utilisation (individuelle ou collective, en classe
+ou hors la classe, durée d’utilisation).
+L’écriture du thème
+Dans son rôle de transition entre les cycles 2 et 4, le format des programmes s’adapte au fil du cycle 3 pour garantir une
+cohérence interne à l’école élémentaire et au collège, en tenant compte des différences de contexte d’enseignement. La
+« question » formule l’axe de traitement du thème. La séquence doit apporter une réponse à cette interrogation.
+Les trois colonnes du tableau précisent les modalités de traitement du thème :
+ − La première colonne « objectifs d’apprentissage » identifie le cœur des apprentissages. Ces objectifs sont structurés
+    autour de verbes, notamment « connaitre » et « comprendre », auxquels s’ajoute « identifier » en géographie. Ils énoncent
+    avec précision les connaissances que l’élève doit acquérir et s’approprier, de manière à être capable de les articuler les
+    unes aux autres.
+ − La deuxième colonne « attendus (connaissances et compétences) » précise ce que l’élève est en mesure de réaliser au
+    terme de la séquence. Définis par des verbes qui en précisent le contenu (cf. le tableau ci-dessous), ces attendus
+    permettent à l’élève de se familiariser avec le questionnement et les démarches de l’historien et du géographe en
+    s’appuyant sur les grands champs de compétences suivants :
+
+=== PAGE 3 ===
+    Verbes de spatialisation
+     Localiser et nommer Positionner un lieu ou un espace identifié sur une carte, ce qui implique d’être capable de les repérer
+                         dans l’espace et de mémoriser leur positionnement. L’acte de nommer s’inscrit dans une progression :
+                         de l’explicitation à l’oral à la reconnaissance de mots puis à la capacité d’associer l’écriture d’un
+                         toponyme à une localisation. Cette capacité relève des objectifs « connaitre » et « identifier ».
+     Situer et nommer        Positionner un lieu, un territoire, une période ou un évènement identifiés par rapport à un autre, ce
+                             qui implique d’être capable de les contextualiser. Cette capacité relève de l’objectif
+                             « comprendre ».
+    Verbes d’énonciation
+     Décrire (à l’écrit ou à Énoncer de manière ordonnée et hiérarchisée les composantes d’une situation ou d’un paysage
+     l’oral)                 pour en faire ressortir les caractéristiques principales. La description peut se faire à l’oral, à l’écrit
+                             ou sous forme graphique. Elle peut s’appuyer sur des documents.
+     Identifier              Observer, prendre conscience et relever les traits principaux d’un territoire, d’un phénomène ou
+                             d’une situation.
+     Reconnaitre             Être capable de mobiliser des éléments de définition pour qualifier une situation, un paysage ou un
+                             phénomène (démarche déductive).
+                             Être capable de repérer les éléments caractéristiques d’une situation, d’un paysage ou d’un
+                             phénomène pour les qualifier (démarche inductive).
+     Définir (à l’écrit ou à Formuler et énoncer les caractéristiques d’une notion, d’une idée, d’un mot-clé, selon une
+     l’oral)                 progression au cours du cycle entre l’école élémentaire (langage commun) et la classe de 6e
+                             (introduction du langage académique). « Définir » nécessite une mémorisation dont la portée
+                             s’inscrit également dans une progression au cours du cycle, depuis « reconnaitre » (à l’école
+                             élémentaire) jusqu’à « reformuler avec mes mots » (fin du cycle 3-début du cycle 4), en vue de
+                             « mobiliser dans un raisonnement ou une analyse » (cycle 4).
+    Verbes de combinaison
+     Comparer/Mettre en Distinguer les points communs et les différences entre au moins deux cas ou situations afin
+     relation et comparer d’observer les traits principaux d’un territoire ou d’un phénomène, en prendre conscience, puis les
+     (à l’écrit ou à l’oral) reconnaitre et les relier dans des contextes ou environnements variés.
+     Analyser (à l’écrit ou Décomposer un processus, un phénomène, une situation pour en faire ressortir les principales
+     à l’oral)              composantes, repérer les principaux éléments d’un document (identifier et caractériser).
+     Expliquer ou           Rendre compte d’une situation ou d’une organisation (composantes, articulations), sous la forme
+     raconter (à l’écrit ou d’un discours, d’un récit ou d’une représentation graphique, pour démontrer sa compréhension
+     à l’oral)              d’un phénomène ou d’un processus et son aptitude à changer de perspective.
+    Les fonds de carte constituent des supports d’activité qui permettent aux professeurs de concevoir et d’adapter leur
+    enseignement, en présentant, par exemple, les délimitations des grandes aires à identifier, les tracés des fleuves, ou encore
+    les localisations des villes.
+ − La troisième colonne « repères » indique les repères que l’élève doit maitriser à l’issue de la séquence et qu’il doit
+   mémoriser sur le long terme, ce qui nécessite une remobilisation fréquente de la part des professeurs.
+Le tableau est complété par des « mots-clés » qui contribuent à l’enrichissement du lexique. Ces mots-clés (ordonnés de
+manière alphabétique) permettent de nourrir les écrits et les prises de parole de l’élève.
+En classe de 6e, le tableau comporte une ligne supplémentaire, principalement destinée aux professeurs. Cette ligne est
+présente aussi dans les programmes du cycle 4 :
+ − En histoire, la rubrique « patrimoine et œuvre d’art » introduit l’idée de continuité et de filiation entre les générations, que
+    le lien soit matériel ou immatériel, intellectuel, spirituel ou culturel. La rubrique peut être utilisée pour introduire le thème,
+    souligner la portée d’une question, les permanences de longue durée, sans pour autant alourdir le traitement du thème.
+    Ces éléments peuvent enrichir la culture générale de l’élève et lui donner du sens et relèvent notamment de
+    l’enseignement d’histoire des arts.
+ − En géographie, la rubrique « fil directeur », également destinée aux professeurs, apparait en classe de 6e. Elle précise une
+    entrée définissant un support ou un objet d’étude commun à l’ensemble de l’année (exemple : en 6e, l’entrée paysagère),
+    tout en laissant aux professeurs le choix de son expression.
+
+=== PAGE 4 ===
+L’enseignement d’histoire-géographie respecte la parité horaire entre les deux disciplines. Pour tenir compte des pratiques, la
+durée est indiquée :
+ − soit en période, pour l’école élémentaire. En histoire, le respect de la chronologie conduit à préconiser l’ordre et la durée
+   dévolus à chacun des thèmes alors qu’en géographie, il est possible, notamment dans le cas de classes à plusieurs niveaux,
+   de les organiser de manière libre au cours de l’année, tout en respectant la durée de chacun. Pour certains thèmes, la
+   durée indiquée offre un choix pour tenir compte des contextes locaux ;
+ − soit en heures, pour la classe de sixième, en laissant, pour chacun des thèmes une marge de manœuvre aux professeurs
+   dans le respect du volume annuel total.
+Conditions favorables aux apprentissages des élèves
+ − Les élèves organisent leurs connaissances historiques et géographiques en s’appuyant sur des repères temporels et spatiaux
+   qu’ils mémorisent et réactivent régulièrement dans différents contextes, et en prenant appui sur les acquis du cycle 2 ;
+ − les élèves s’approprient les contenus et objectifs dans le cadre d’activités diversifiées, vivantes et attractives (enquête
+   documentaire, démarche inductive, étude de cas, usage d’exemples, productions graphiques, usage du numérique, etc.) ;
+ − les élèves découvrent des situations et des exemples précis, des références à l’histoire et à la géographie locales, à
+   l’évolution des modes de vie, à la vie quotidienne des élèves et au territoire de proximité qui incarnent et contextualisent
+   l’enseignement.
+Histoire
+Au CM1 et CM2, les élèves poursuivent leur découverte de l’histoire en parcourant la période du Moyen Âge au XXe siècle. Ils
+découvrent différents régimes politiques (monarchie, république, par exemple), différentes organisations sociales, l’action de
+quelques figures historiques illustres (rois, reines, artistes, navigateurs, inventeurs, etc.), le rôle des hommes et des femmes dans
+les transformations des sociétés passées (invention, révolution), ce qui permet de comprendre que le monde d’aujourd’hui et
+la société contemporaine sont les héritiers de longs processus et de ruptures. Ils acquièrent ainsi les principaux repères
+chronologiques de l’histoire de France. En 6e, le programme réactive, enrichit et approfondit la connaissance des mondes
+anciens étudiés au cycle 2 en élargissant les repères au continent européen, au bassin méditerranéen et au Proche-Orient. Les
+élèves découvrent des mondes anciens pluriels et une grande diversité de cultures. Ils étudient comment l’humanité s’est
+adaptée à son environnement et l’a transformé. Ils appréhendent la diversité des manières de vivre en communauté, des
+modes d’organisation des sociétés anciennes et la pluralité des croyances. Le temps long de l’histoire des sociétés permet de
+commencer à s’interroger sur les continuités, les transformations et les ruptures dans la vie de celles et ceux qui nous ont
+précédés. Le programme permet également d’appréhender l’espace des sociétés dans leur profondeur historique. Il met les
+élèves au contact des traces du passé (objets, documents par exemple) qui sont étudiés par les scientifiques (archéologues,
+historiens, etc.) : ces traces et leur analyse permettent aux élèves de différencier les récits fictionnels des évènements
+historiques. Les élèves apprennent également à commencer à questionner et à contextualiser ces traces grâce à leur maitrise
+des repères historiques et ils identifient le rôle des acteurs, racontent leurs actions et cherche à les comprendre.
+Chaque thème fait une place aux actrices et acteurs de l’histoire, qu’ils soient individuels ou collectifs, célèbres ou peu connus.
+Une attention particulière est portée aux femmes pour visibiliser leur place et leur rôle dans l’histoire. Certaines sont citées
+nommément, d’autres mentionnées dans des collectifs (paysannes ou ouvrières, par exemple) ce qui n’interdit pas, quand cela
+est possible, de s’appuyer sur d’autres exemples concrets notamment liés à l’histoire locale.
+Cours moyen première année
+Thème 1 : La vie quotidienne au Moyen Âge (XIe - XIIIe siècles) (première et deuxième période)
+Question : Comment les femmes et les hommes vivaient-ils au Moyen Âge ?
+ Objectifs d’apprentissage                    Attendus (connaissances et                 Repères
+                                              compétences)
+ Connaitre et comprendre :                    - Décrire les fonctions d’un château       Situer le Moyen Âge sur une frise
+ - Les cadres de la vie des femmes et           (lieu de protection, lieu de vie du      chronologique (476-1492) et identifier la
+   des hommes : la seigneurie (la               seigneur, symbole de la puissance        période du XIe au XIIIe siècle.
+   domination d’un seigneur sur un              du seigneur)                             Une abbaye dans l’espace proche des
+   territoire et les hommes qui y vivent)       ou                                       élèves ou l’abbaye de Cluny.
+   et la paroisse (l’encadrement par            Décrire le fonctionnement d’une          Une cathédrale dans l’espace proche
+   l’Église de la vie des femmes et des         seigneurie.                              des élèves ou Notre-Dame de Paris.
+   hommes de leur naissance à leur            - Raconter la vie quotidienne des
+   mort).                                       paysannes et des paysans
+ - Les modes de vie des seigneurs, des          (calendrier annuel des travaux,
+   paysannes et des paysans et des              obligations envers le seigneur,
+   habitants des villes                         l’Église, etc.).
+ - Le rôle de l’Église.                         ou
+
+=== PAGE 5 ===
+                                                Décrire les activités des villes au
+                                                Moyen Âge (marché et foire,
+                                                artisanat, etc.).
+                                              - Décrire le rôle social de l’Église
+                                                (assistance aux pauvres et malades,
+                                                enseignement).
+                                              - Différencier l’art roman de l’art
+                                                gothique.
+Mots-clés : abbaye, art gothique, art roman, cathédrale, château, clergé, corvée, dime, Église/églises, paroisse, paysanne et
+paysan, seigneur, seigneurie.
+Thème 2 : La monarchie en France (XVIe – XVIIe siècles) (deuxième et troisième périodes)
+Question : Comment le roi incarne-t-il le pouvoir aux XVIe et XVIIe siècles ?
+       Objectifs d’apprentissage                   Attendus (connaissances et                            Repères
+                                                         compétences)
+Connaitre et comprendre :                    - Situer sur une frise chronologique les   1515 : début du séjour de Léonard de
+- Un roi mécène de la Renaissance,             règnes de François Ier, Henri IV et      Vinci en France jusqu’à sa mort en 1519.
+  François Ier (1515-1547).                    Louis XIV.                               1598 : édit de Nantes.
+- Un roi pacificateur du royaume,            - Expliquer avec l’exemple de              1643-1715 : règne de Louis XIV.
+  Henri IV (1589-1610).                        François Ier et de Léonard de Vinci le
+- Un roi qui affirme son pouvoir absolu,       rôle d’un roi dans la diffusion de la
+  Louis XIV (1643-1715).                       Renaissance.
+- Une société d’Ancien Régime divisée        - Expliquer comment Henri IV pacifie le
+  en trois ordres (clergé, noblesse, tiers     royaume de France dans le contexte
+  état).                                       des guerres de religion.
+                                             - Expliquer comment le château de
+                                               Versailles exprime le pouvoir absolu
+                                               du roi.
+                                             - Décrire le rôle des femmes à la Cour
+                                               de Versailles.
+                                             - Décrire l’organisation de la société
+                                               d’ordres majoritairement composée
+                                               de paysans.
+Mots-clés : artiste, catholique, guerres de religion, mécène, monarchie absolue, noblesse, protestant, société d’ordres.
+Thème 3 : Explorations et conquêtes par les Européens du XVe au XVIIe siècle (quatrième période)
+Question : Pourquoi les Européens explorent-ils le monde et comment cela mène-t-il à la première colonisation ?
+       Objectifs d’apprentissage                   Attendus (connaissances et                            Repères
+                                                         compétences)
+Connaitre et comprendre :                    - Mémoriser le nom de plusieurs          1492 : Christophe Colomb débarque en
+- Les progrès techniques qui ont permis        inventions permettant la navigation au Amérique.
+  aux Européens de s’aventurer vers de         grand large.                           1519-1522 : l’expédition de Magellan fait
+  nouveaux territoires.                      - Localiser les grands empires coloniaux le tour du monde.
+- La constitution des premiers empires         sur une carte.                         1685 : Édit royal de Louis XIV dit le
+  coloniaux en Amérique.                     - Citer des conséquences de ces            « Code noir ».
+- La traite des esclaves entre l’Afrique et   conquêtes sur les populations
+  l’Amérique et la vie des esclaves dans      amérindiennes.
+  les plantations.                          - Décrire les conditions de vie des
+- Les échanges commerciaux avec les           esclaves dans une plantation.
+  colonies.                                  - Nommer quelques denrées issues de
+                                               ces colonies (tomate, chocolat,
+                                               haricot, pomme de terre, sucre de
+                                               canne, etc.).
+Mots-clés : boussole, caravelle, carte, commerce triangulaire, empire colonial, esclavage, plantation, traite.
+
+=== PAGE 6 ===
+Thème 4 : 1789, une année révolutionnaire en France (cinquième période)
+Question : Comment l’année 1789 met-elle fin à la monarchie absolue et à la société d’ordres ?
+       Objectifs d’apprentissage                    Attendus (connaissances et                                   Repères
+                                                          compétences)
+Connaitre et comprendre :                     - Décrire le contexte social,                   Un ou une philosophe des Lumières.
+- Le contexte social, économique et             économique et intellectuel du                 Printemps 1789 : rédaction des cahiers
+  intellectuel du royaume de France en          royaume en 1789.                              de doléances et réunion des États-
+  1789.                                       - Citer des idées des Lumières.                 Généraux.
+- 1789, fin de la monarchie absolue et        - Compléter une frise chronologique             14 juillet : prise de la Bastille.
+  de l’Ancien Régime.                           avec les évènements marquants de              Nuit du 4 aout : abolition des privilèges.
+- L’affirmation des nouveaux principes          l’année 1789.                                 26 aout : Déclaration des Droits de
+  d’organisation de la société.               - Raconter la vie et l’action d’une             l’Homme et du Citoyen.
+                                                femme ou de femmes au cours de                5-6 octobre 1789 : marche des femmes à
+                                                l’année 1789.                                 Versailles.
+                                              - Citer les principaux droits énoncés
+                                                dans la Déclaration des Droits de
+                                                l’Homme et du Citoyen.
+Mots-clés : Ancien Régime, citoyenneté, constitution, droits de l’Homme, égalité, l’Encyclopédie, liberté, les Lumières,
+Révolution, souveraineté nationale.
+Cours moyen deuxième année
+Thème 1 : De la République à l’Empire (1792-1815) (première période)
+Question : Comment la République et l’Empire ont-ils transformé la vie des Français et des Françaises ?
+       Objectifs d’apprentissage                    Attendus (connaissances et                                   Repères
+                                                          compétences)
+Connaitre et comprendre :                     - Raconter comment les Français et les          Mars 1792 : Pétition de 319 femmes
+- La chute du roi et l’avènement de la          Françaises participent à la vie               (Pauline Léon) pour s’organiser en garde
+  République dans un contexte de                politique depuis 1789.                        nationale.
+  guerre.                               - Raconter la chute du roi et la         Avril 1792 : composition de La
+- Les étapes qui conduisent Bonaparte à   naissance  de la République.           Marseillaise.
+  devenir empereur et à dominer une     - Raconter le combat pour l’abolition de Septembre 1792 : naissance de la
+  partie de l’Europe.                     l’esclavage.                           République.
+- Les grandes réformes de la période          - Expliquer comment Bonaparte devient 1794 : première abolition de l’esclavage.
+  napoléonienne et la remise en cause           empereur.                           1802 : rétablissement de l’esclavage.
+  de certains acquis de la Révolution.        - Nommer des réformes menées par                2 décembre 1804 : sacre de Napoléon
+                                                Napoléon Bonaparte (Code civil,               Bonaparte qui devient Napoléon Ier.
+                                                lycées, rétablissement de l’esclavage,
+                                                etc.).
+Mots-clés : empereur/empire, esclavage, le Code civil, liberté de la presse, lycée, préfet.
+Thème 2 : Vers une France républicaine : la IIe République (1848-1852) et la IIIe République de 1870 à 1914
+(deuxième période)
+Question : Comment la France est-elle devenue une République ?
+       Objectifs d’apprentissage                    Attendus (connaissances et                                   Repères
+                                                          compétences)
+Connaitre et comprendre :                    - Nommer de grandes lois fondatrices             1848 : suffrage universel masculin et
+- Les lois protectrices des droits et          de la République : le suffrage universel       abolition définitive de l’esclavage.
+  libertés.                                    masculin, l’abolition de l’esclavage, la       1882-1886 : lois Ferry sur l’École.
+- Les lieux, les symboles et les rites de la   liberté de la presse, les lois scolaires, la   9 décembre 1905 : séparation des Églises
+  République (en remobilisant les acquis       laïcité.                                       et de l’État.
+  de l’enseignement moral et civique).       - Nommer les symboles de la
+- La constitution d’un empire colonial.        République : le drapeau tricolore, le 14
+                                               juillet, Marianne, la Marseillaise, la
+                                               devise.
+
+=== PAGE 7 ===
+                                              - Localiser sur un planisphère les
+                                                territoires de l’empire colonial français
+                                                au début du XXe siècle.
+Mots-clés : abolition de l’esclavage, colonisation, démocratie, laïcité, république, suffrage universel masculin.
+Thème 3 : L’âge industriel en France au XIXe siècle (deuxième période)
+Question : Quelles sont les transformations économiques et sociales en France au XIXe siècle ?
+        Objectifs d’apprentissage                   Attendus (connaissances et                                   Repères
+                                                          compétences)
+Connaitre et comprendre :                 - Expliquer les transformations de la vie             Début XIXe siècle : invention de la
+- Les progrès techniques et scientifiques   quotidienne en lien avec les progrès                locomotive (Stephenson).
+  (sources d’énergie, chemin de fer,        techniques et scientifiques.                        Fin du XIXe siècle : invention du vaccin
+  usines, progrès de la médecine) et      - Nommer quelques progrès de la                       contre la rage par Pasteur.
+  leurs conséquences sur les modes de       médecine.                                           Seconde moitié du XIXe siècle : droit de
+  vie.                                    - Décrire les conditions de vie et les                grève et loi relative à la liberté syndicale.
+- Les transformations de la société :           luttes sociales des ouvrières et des
+  bourgeois et ouvriers dans une société        ouvriers (à la mine, à l’atelier, à l’usine),
+  qui reste très majoritairement rurale.        la vie quotidienne des bourgeoises et
+                                                des bourgeois.
+Mots-clés : atelier, bourgeois, grève, industrialisation, mine, ouvrier, syndicat, urbanisation, usine, vaccin.
+Thème 4 : La France dans la Première Guerre mondiale (1914-1918) (troisième période)
+Question : Comment la Première Guerre mondiale a-t-elle bouleversé la société française ?
+        Objectifs d’apprentissage                   Attendus (connaissances et                                   Repères
+                                                          compétences)
+Connaitre et comprendre :                     - Situer sur une frise chronologique la           1914-1918 : Première Guerre mondiale.
+- Le nord et l’est de la France, lieu des       Première Guerre mondiale.                       Une grande bataille de la Première
+  principaux combats sur le front             - Raconter la vie sur le front : combats          Guerre mondiale en France.
+  occidental.                                   et conditions de vie.                           11 novembre 1918 : armistice.
+- La vie des soldats sur le front.            - Expliquer la mobilisation humaine -
+- Une guerre qui mobilise toute la              notamment le rôle des femmes -,
+  population et l’économie de la                économique, industrielle et culturelle.
+  métropole et des colonies.                  - Mémoriser quelques éléments du bilan
+- Le bilan humain de la Première Guerre         humain de la guerre, dont le nombre
+  mondiale.                                     total de morts au combat (10 millions
+                                                dont 1,4 millions de Français).
+Mots-clés : armistice, guerre de mouvement / guerre de position, poilus.
+Thème 5 : La France pendant la Seconde Guerre mondiale (1939-1945) (quatrième période)
+Question : Comment la France a-t-elle vécu la défaite, l’Occupation puis la Libération ?
+        Objectifs d’apprentissage                   Attendus (connaissances et                                   Repères
+                                                          compétences)
+ Connaitre et comprendre :                    - Mémoriser les étapes de la Seconde              1939-1945 : Seconde Guerre mondiale.
+ - Les principales phases de la Seconde         Guerre mondiale en France : « drôle             18 juin 1940 : appel du général de
+   Guerre mondiale en France.                   de guerre », défaite de juin 1940,              Gaulle.
+ - Les conditions de vie sous                   occupation et collaboration,                    1942 : rafle du Vel d’Hiv’.
+   l’Occupation.                                libération.
+                                                                                                6 juin 1944 : débarquement des Alliés
+ - La résistance à l’occupant.                - Décrire les difficultés de la vie sous          en Normandie.
+                                                l’Occupation.
+ - Le rôle du régime de Vichy dans                                                              8 mai 1945 : capitulation de
+   l’extermination des Juifs et les           - Identifier le rôle du général de Gaulle         l’Allemagne nazie.
+   persécutions des Tsiganes.                   ou de Jean Moulin dans la Résistance.
+ - Le bilan humain de la Seconde              - Décrire le rôle de Philippe Pétain et la
+   Guerre mondiale.                             politique antisémite du régime de
+                                                Vichy, expliquer sa participation au
+                                                processus d’extermination des Juifs
+
+=== PAGE 8 ===
+                                                ou
+                                                Expliquer, à partir d’un exemple,
+                                                l’action des « Justes parmi les
+                                                Nations ».
+                                              - Mémoriser quelques éléments du
+                                                bilan humain de la guerre : entre 60
+                                                et 70 millions de morts dans le
+                                                monde, dont 6 millions de Juifs (60 %
+                                                des Juifs d’Europe).
+Mots-clés : antisémitisme, collaboration, nazisme, régime de Vichy, résistance.
+Thème 6 : la France depuis 1945 : 80 ans de transformations (cinquième période)
+Question : Comment expliquer la longue période de paix et de transformation depuis 1945 ?
+        Objectifs d’apprentissage                             Attendus                                     Repères
+Connaitre et comprendre :                    - Citer un exemple de réforme sociale        1944 : droit de vote des femmes.
+- Une République démocratique et               et un exemple de droit des femmes.         1957 : traité de Rome créant la CEE.
+  sociale depuis 1946.                       - Citer la date de la fondation de la        1958 : fondation de la Ve République
+- Une société profondément                     Ve République.                             avec le général de Gaulle.
+  transformée depuis 1945 (transports,       - Décrire les transformations de la          1965 : les Françaises peuvent travailler
+  modes de vie, etc.).                         société française depuis 1945.             sans l’autorisation de leur époux et
+- La France, actrice de la construction      - Raconter les grandes étapes de la          ouvrir un compte bancaire.
+  européenne.                                  construction européenne.                   2000 : l’euro remplace le franc.
+Mots-clés : innovation, loisir, Sécurité sociale, société de consommation, traité.
+Sixième : premiers humains, premières sociétés et premiers États, du Paléolithique au Ier siècle
+avant J.-C. (45 heures)
+Thème introductif : Se repérer dans le temps : (2 à 3 heures)
+Questions : Comment les humains se repèrent-ils dans le temps ?
+Comment les historiens découpent-ils le temps ?
+        Objectifs d’apprentissage                    Attendus (connaissances et                            Repères
+                                                           compétences)
+Connaitre et comprendre :                     - Écrire les siècles en caractères          IVe millénaire avant notre ère : début de
+- Le découpage du temps (seconde,               romains.                                  l’Antiquité avec la naissance de l’écriture
+  minute, heure, jour, semaine, mois,         - Situer sur une frise chronologique les    395/476 av. J.-C : fin de l’Antiquité.
+  année, siècle, millénaire).                   grandes périodes étudiées au primaire     1453/1492 : fin du Moyen Âge/début des
+- Les instruments de mesure du temps            et au collège.                            Temps modernes.
+  (horloge solaire, clepsydre, sablier,                                                   1789/1815 : fin des Temps modernes /
+  horloge mécanique, horloge à quartz,                                                    début de l’époque contemporaine
+  horloge atomique).                                                                      (jusqu’à aujourd’hui).
+- Le découpage du temps historique est
+  le produit de convention et est sujet à
+  débats.
+Thème 1 : Du Paléolithique au Néolithique : des chasseurs-cueilleurs aux premiers cultivateurs-éleveurs de
+l’humanité (7 à 9 heures)
+Questions : Comment les hommes et les femmes du Néolithique ont-ils transformé leur environnement par la pratique et la
+diffusion de l’agriculture ?
+Quelles sont les caractéristiques et les conséquences de l’invention de l’agriculture ?
+        Objectifs d’apprentissage                    Attendus (connaissances et                            Repères
+                                                           compétences)
+Connaitre et comprendre :                    - Expliquer comment l’invention, la         Vers 400000 av. J.-C. : domestication du
+- Une humanité plurielle : l’apparition        pratique et la diffusion de l’agriculture feu.
+  des premiers humains en Afrique, les         favorisent l’émergence des premiers
+
+=== PAGE 9 ===
+  premières migrations, Néandertal et          villages et la croissance                  Vers 300000 av. J.-C. : traces les plus
+  Homo Sapiens                                 démographique.                             anciennes des Homo sapiens (Maroc
+- La vie des hommes et des femmes au       - Localiser et nommer les foyers               actuel).
+  Paléolithique : des chasseurs-             primaires néolithiques, leur diversité et Vers 10000/9000 av. J.-C. : début du
+  cueilleurs.                                les courants de néolithisation de         Néolithique au Proche-Orient.
+- Les caractéristiques du Néolithique : la   l’Europe.                                 Vers 4000 av. J.-C. : invention de la roue.
+  domestication des animaux et des         - Décrire quelques aspects de la vie
+  plantes, la diffusion de sociétés          quotidienne ou quelques objets du
+  sédentarisées.                             Néolithique.
+- L’apparition des sanctuaires et des
+  nécropoles.
+Mots-clés : agriculteur, archéologie, croissance démographique, domestication, migration, nécropole, Néolithique,
+Paléolithique.
+Patrimoine et œuvre d’art : Lascaux / Chauvet, l’invention de la culture et de l’élevage, l’invention du sacré, etc.
+Thème 2 : Des sociétés, des États, des dieux (IVe-Ier millénaire av. J.-C.) : Proche-Orient et Égypte
+pharaonique (12 à 14 heures)
+Questions : Quelles sont les transformations politiques et religieuses fondatrices apparaissant au Proche-Orient et en Égypte
+entre le IVe et le Ier millénaire av. J.-C. ?
+Quelles sont caractéristiques des premières cités-États, des premiers empires et des premiers royaumes ?
+Dans quel contexte les Judéens font- ils le choix d’un dieu unique et quelles sont les caractéristiques de ce monothéisme ?
+        Objectifs d’apprentissage                   Attendus (connaissances et                             Repères
+                                                          compétences)
+Connaitre et comprendre :                    - Localiser :                                Vers 3000 av. J.-C. : invention de
+- Les caractéristiques des premières            sur une carte du Proche-Orient : la      l’écriture cunéiforme, apparition des
+  cités-États en Mésopotamie, à partir           Mésopotamie, le Croissant fertile, le    premières cités-États en Mésopotamie et
+  de l’exemple d’Ur ou d’Uruk au IIIe            Tigre, l’Euphrate, la cité-État          du premier royaume unifié d’Égypte.
+  millénaire ou les caractéristiques du          étudiée ;                                IXe siècle av. J.-C. : début de la rédaction
+  royaume d’Égypte unifié et organisé           sur une carte de l’Égypte : le Nil,      de la Bible hébraïque.
+  autour du Nil.                                 Memphis, Thèbes et Abou Simbel, le
+- La fonction du roi conquérant et               royaume d’Égypte ;
+  bâtisseur à la tête d’un empire (néo-    les royaumes d’Israël et de Juda.
+  assyrien, néo-babylonien par exemple) - Expliquer le rôle de l’écriture.
+  au Ier millénaire ou du pharaon dans
+                                        - Décrire les pouvoirs d’un roi néo-
+  l’Égypte pharaonique.
+                                          assyrien, néo-babylonien comme
+- La naissance du judaïsme, un premier    Nabuchodonosor II,
+  monothéisme dans un monde
+                                          ou
+  polythéiste.
+                                          d’un pharaon comme Ramsès II, par
+                                          exemple.
+                                             - Expliquer le rôle des temples en
+                                               Mésopotamie,
+                                               ou
+                                               en Égypte.
+                                             - Raconter un épisode de la Bible
+                                               significatif des croyances du judaïsme.
+Mots-clés (en fonction du choix opéré par les professeurs entre le Proche-Orient et l’Égypte pharaonique) : cité-État, écriture
+cunéiforme, empire, exil, hiéroglyphe, monothéisme, nécropole royale, pharaon, polythéisme, royaume, scribe, temple, Torah,
+Yahvé.
+Patrimoine et œuvre d’art : Babylone, écriture, L’épopée de Gilgamesh, Nabucco de Verdi, hypogée de Ramsès II dans la vallée
+des Rois, Ramesseum, temple d’Abou Simbel, etc.
+
+=== PAGE 10 ===
+Thème 3 : Le monde grec : des cités-États aux conquêtes d’Alexandre le Grand (Ve siècle av. J.-C. –
+323 av. J.-C.) (11 à 13 heures)
+Questions : Quelles sont les caractéristiques du monde grec ?
+Comment les Grecs ont-ils inventé la citoyenneté ?
+Comment s’est réalisée l’expansion du monde grec à l’époque d’Alexandre le Grand ?
+        Objectifs d’apprentissage                      Attendus (connaissances et                            Repères
+                                                             compétences)
+Connaitre et comprendre :                       - Localiser, sur une carte du bassin       VIIIe s av. J.-C. : mise à l’écrit des poèmes
+- L’unité et la diversité du monde grec :         méditerranéen : le monde grec au Ve      homériques (L’Iliade et L’Odyssée).
+  des cités-États perpétuellement en              siècle, la mer Méditerranée, la mer      Ve siècle av. J.-C. : puissance d’Athènes
+  guerre, un univers culturel commun,             Égée, un sanctuaire panhellénique,       sous Périclès.
+  des sociétés esclavagistes.                     Athènes et l’Attique.                    336-323 av. J.-C. : règne d’Alexandre le
+- La puissance d’Athènes au Ve siècle : le - Identifier les droits et devoirs du           Grand.
+  citoyen, la démocratie et ses limites,     citoyen à Athènes et la place des
+  l’impérialisme.                            femmes.
+- Les conquêtes d’Alexandre le Grand.      - Identifier les lieux de la démocratie
+                                             athénienne.
+                                                - Expliquer le rôle civique et religieux
+                                                  d’une fête à l’aide de représentations
+                                                  et de récits.
+                                                - Localiser les conquêtes et l’empire
+                                                  d’Alexandre le Grand sur une carte du
+                                                  bassin méditerranéen et de l’Asie au
+                                                  IVe siècle avant J.-C.
+Mots-clés : cité-État, colonie, citoyen, démocratie, esclavage, mythe, sanctuaire.
+Patrimoine et œuvre d’art : l’Acropole d’Athènes, l’architecture classique, la Guerre du Péloponnèse de Thucydide, la
+géographie, l’histoire, L’Iliade et l’Odyssée d’Homère, les Jeux olympiques, Olympie, la philosophie, le théâtre, etc.
+Thème 4 : Les mondes celtes, des sociétés en relation avec les mondes méditerranéens (VIII e- milieu du Ier
+siècle av. J.-C.) (6 à 8 heures)
+Questions : Qui sont les Celtes ?
+Quelles sont les caractéristiques des mondes celtes ?
+Quelles relations les Celtes ont-ils tissé avec leurs voisins ?
+        Objectifs d’apprentissage                      Attendus (connaissances et                           Repères
+                                                             compétences)
+Connaitre et comprendre :                  - Localiser sur une carte de l’Europe les       650-550 av. J.-C. : tombes « princières »
+- La localisation des peuples celtes : une   mondes celtes, les sites de Bibracte, La      de Vix (Côte-d’Or) et Lavau (Aube).
+  mosaïque de peuples indépendants           Tène et de Manching, deux peuples de          600 av. J.-C. : fondation de Massalia
+  dans l’Europe tempérée à l’âge du fer,     la Gaule, Massalia.                           (Marseille) par des colons grecs.
+  dont les Celtes des Gaules, appelés      - Décrire quelques caractéristiques des         450-50 av. J.-C. : Second âge du fer dite
+  Gaulois par les Romains.                   mondes celtes (oppidum, techniques            « culture de la Tène ».
+- Les principales caractéristiques des       agricoles et artisanales, lieux de culte      52 av. J.-C. : fin de la guerre des Gaules ;
+  mondes celtes (à partir du III siècle
+                                e            et divinités, etc.).                          Jules César vainqueur de Vercingétorix.
+   av. J.-C.) mises en évidence par             - Expliquer le long processus
+   l’archéologie.                                 d’intégration des Gaules aux mondes
+- Le long processus d’intégration des             méditerranéens (le commerce, la
+  Gaules aux mondes méditerranéens.               guerre, etc.).
+Mots-clés : artisanat, commerce, druide, ferme, Gaules, oppidum, romanisation.
+Patrimoine et œuvre d’art : les noms de régions (Arvernes d’Auvergne, Pictons du Poitou) et de villes (Amiens (cité des
+Ambiens), Reims (cité des Rèmes), Paris (cité des Parisii)), les paysages agraires avec la mise en valeur des terroirs (défrichement
+des sols, sélection des forêts), etc.
+
+=== PAGE 11 ===
+Géographie
+En géographie, les élèves poursuivent et approfondissent l’acquisition des repères spatiaux, à l’échelle de la France et du
+monde, en élargissant progressivement leur horizon et leur compréhension de la diversité des sociétés. Dans la continuité du
+cycle 2, dont les acquis sont régulièrement remobilisés, l’enseignement de la géographie repose sur l’acquisition de grands
+repères à l’échelle mondiale, l’observation et la caractérisation de l’environnement familier des élèves, la mobilisation de récits
+ou d’images (qui sont localisés sur une carte, notamment un planisphère). En répondant aux questions : « où ? », « qui ? »,
+« comment ? », « pourquoi ici et pas ailleurs ? », ils acquièrent une vision d’ensemble de la géographie du monde, en ayant
+conscience des grandes caractéristiques paysagères et de peuplement, et en étant capables d’identifier des contrastes majeurs
+et de comprendre des éléments de différenciation des sociétés.
+Au cours du cycle 3, les élèves acquièrent des repères à une échelle toujours plus précise : sur un planisphère, de l’échelle
+continentale à celle de l’aire régionale ; sur la carte de la France, de l’échelle nationale à l’échelle du territoire d’inscription de
+l’établissement en passant par l’échelle régionale. Le cycle 3 est l’occasion, en s’appuyant sur des éléments concrets, comme
+l’étude de l’eau douce en France, d’initier les élèves à la géographie du développement durable et à la transition écologique
+dans le contexte du dérèglement climatique, ainsi qu’aux réalités de ses causes anthropiques, et à son atténuation, avec une
+approche par les acteurs et incarnée dans les territoires. En fin de cycle, avec l’introduction explicite de la notion d’ « habiter »
+en classe de 6e, les élèves maitrisent des repères plus abstraits. Le cycle 3 permet d’approfondir l’aptitude à lire et à réaliser
+une représentation graphique (cartes et schémas). À cette fin, au cours de chaque année, au moins un thème est l’occasion de
+réaliser une production graphique avec les élèves. La mobilisation des repères spatiaux repose sur des rituels de localisation,
+des lectures et des activités qui permettent d’inscrire les apports spécifiques de la géographie dans l’environnement
+pluridisciplinaire de la classe.
+Cours moyen première année : la diversité des modes de vie dans le monde
+Thème 1 : Se nourrir (1 ou 2 périodes au choix)
+Question : Comment se nourrit-on dans le monde ?
+          Objectifs d’apprentissage                   Attendus (connaissances et                              Repères
+                                                            compétences)
+Connaitre et comprendre :                        Décrire :                                  Deux pays à ration alimentaire très
+- La diversité des pratiques alimentaires        - Les différences des pratiques            riche situés sur deux continents
+  dans le monde.                                   alimentaires entre un pays riche et      différents.
+- La provenance des principaux aliments            un pays en développement.                Deux pays à ration alimentaire
+  que les élèves consomment.                     - La différence entre produits             insuffisante situés sur deux continents
+                                                   agricoles et produits transformés.       différents.
+                                                 - La chaine de production d’un
+                                                   aliment consommé (yaourt, biscuit,
+                                                   fruit, etc.).
+Mots-clés : malnutrition/sous-nutrition, produit agricole/produit alimentaire transformé.
+Thème 2 : Les inégalités dans le monde (1 ou 2 périodes au choix)
+Question : Comment décrire les inégalités de niveau de vie dans le monde ?
+        Objectifs d’apprentissage                   Attendus (connaissances et                                Repères
+                                                          compétences)
+Connaitre et comprendre :                     - Identifier les manifestations des          Afrique
+- L’inégal accès :                              inégalités de niveau de vie dans le        - Afrique subsaharienne.
+    à l’eau ;                                  monde.                                     - Maghreb.
+     ou                                       - Localiser et nommer sur un                 Amérique
+    à la santé ;                               planisphère les aires régionales.
+                                                                                           - Amérique du Nord.
+     ou
+                                                                                           - Amérique du Sud.
+    à l’éducation.
+                                                                                           Asie
+                                                                                           - Asie du Sud-Est.
+                                                                                           - Asie de l’Est.
+                                                                                           Europe.
+                                                                                           Océanie.
+Mots-clés : inégalités.
+
+=== PAGE 12 ===
+Thème 3 : Se déplacer (1 période)
+Question : Comment se déplace-t-on dans le monde ?
+        Objectifs d’apprentissage                   Attendus (connaissances et                               Repères
+                                                          compétences)
+Connaitre et comprendre :                     - Identifier la diversité des modalités de     Deux unités de mesure des
+- Les modalités de déplacement des              déplacement au cours de différentes          déplacements :
+  élèves de la classe (dont la marche) à        périodes de temps (par exemple               - Distance kilométrique.
+  différentes échelles de temps (par            journée, semaine, etc.), en les              - Distance en temps.
+  exemple, journée, semaine, etc.).             associant à la distance à parcourir.
+- Les principaux modes de transport de
+  personnes et les infrastructures
+  associées (avion/aéroport ;
+  bateau/port ; train/gare ;
+  voiture/route ; métro/station ;
+  vélo/voie cyclable).
+Mots clés : avion/aéroport, bateau/port, marche, métro/station, train/gare, vélo/voie cyclable, voiture/route.
+Thème 4 : Communiquer dans le monde avec Internet (1 période)
+Question : Comment communique-t-on avec Internet dans le monde ?
+        Objectifs d’apprentissage                   Attendus (connaissances et                               Repères
+                                                          compétences)
+Connaitre et comprendre :                     - Expliquer qu’Internet repose sur un          Les principales concentrations de câbles
+- La diversité des usages d’Internet à          réseau de câbles continentaux et sous-       sous-marin.
+  partir des pratiques des élèves.              marins reliant les aires régionales, ainsi   Une aire régionale très bien reliée à
+                                                que sur des satellites.                      Internet.
+- Le fonctionnement d’Internet grâce à
+                                                                                             Une aire régionale faiblement reliée à
+  un réseau de câbles et de satellites qui - Décrire les inégalités d’accès à
+                                             internet :                                      Internet.
+  connectent les espaces à l’échelle
+  mondiale.                                   à l’échelle mondiale à partir de la
+- L’inégal accès à Internet à l’échelle        carte du taux d’accès de la
+  mondiale et à l’échelle de la France.        population ayant accès à Internet,
+                                               par pays ;
+                                                 à l’échelle nationale à partir de la
+                                                  carte du déploiement de la 5G en
+                                                  France.
+Mots-clés : câble sous-marins, internet, réseau, satellite.
+Cours moyen deuxième année : la France, l’Union européenne
+Thème 1 : L’organisation du territoire français (2 périodes)
+Question : Comment est organisé le territoire français ?
+        Objectifs d’apprentissage                   Attendus (connaissances et                               Repères
+                                                          compétences)
+Connaitre et comprendre :                     - Localiser et nommer sur un fond de           Les cinq principales agglomérations
+- La localisation des centres urbains et        carte les repères du thème.                  françaises.
+  des axes de transport les plus                                                             Les principaux axes de transports
+  importants en France.                                                                      autoroutiers et ferroviaires.
+- Le découpage administratif du                                                              Les dix-huit Régions administratives et
+  territoire français.                                                                       leur capitale régionale.
+- Les principales caractéristiques d’au                                                      Le département où vit l’élève.
+  moins deux Régions dont celle de
+  l’école.
+Mots-clés : commune, département, région, TGV.
+
+=== PAGE 13 ===
+Thème 2 : Les usages de l’eau douce en France (2 périodes)
+Question : Pourquoi gérer l’eau douce en France ?
+        Objectifs d’apprentissage                  Attendus (connaissances et                               Repères
+                                                         compétences)
+Connaitre et comprendre :                    - Décrire les différents usages de l’eau      Les grands fleuves français (Garonne,
+- Que l’eau est une ressource limitée.         en France.                                  Loire, Maroni, Rhin, Rhône, Seine).
+- Les différents usages de l’eau en          - À partir d’un exemple précis, expliquer Les principaux massifs de montagne
+  France.                                      que l’eau est une ressource convoitée français (Alpes, Corse, Jura, Massif
+- Les concurrences entre les usages de         faisant l’objet de conflits d’usages.   central, Pyrénées, Vosges).
+  l’eau en France.                                                                         Deux grands lacs français dont un lac
+                                                                                           naturel.
+Mots-clés : conflit d’usages, nappe phréatique.
+Thème 3 : l’Union européenne (1 période)
+Question : Qu’est-ce que l’Union européenne ?
+        Objectifs d’apprentissage                   Attendus (connaissances et                              Repères
+                                                          compétences)
+Connaitre et comprendre :                    - Expliquer la différence entre le            L’UE sur un fond de carte représentant
+- La différence entre Europe et Union          continent (Europe) et la construction       l’Europe dans ses limites
+  européenne.                                  politique (Union européenne).               conventionnelles.
+- Un aménagement réalisé avec le             - Localiser et nommer dix pays                1957 : Traité de Rome.
+  soutien de l’UE dans la région de            membres de l’UE (dont les six pays          1992 : Traité de Maastricht.
+  l’école.                                     fondateurs).
+Mots-clés : Europe, Union européenne.
+Sixième : habiter le monde (45 heures)
+Thème introductif : Je me repère à la surface de la Terre (2 à 3 heures)
+Questions : Comment représenter le monde et se situer sur un planisphère ?
+Quelles sont les principales projections cartographiques ?
+Quels sont les grands repères qui permettent de se situer sur un planisphère ?
+        Objectifs d’apprentissage                  Attendus (connaissances et                               Repères
+                                                         compétences)
+Comparer différentes projections en          - Expliquer que la représentation de la       Quatre projections :
+mettant en évidence les déformations           Terre implique une déformation.             - Mercator.
+liées aux projections à partir d’au moins    - Situer sur un planisphère, en variant       - Peters.
+trois exemples.                                les projections, les principaux             - Lambert.
+Connaitre :                                    parallèles, les continents, la France, et   - Equal Earth.
+- Les principaux parallèles et méridiens.      les océans.                                 L’équateur, les tropiques du Cancer et
+- Les continents.                                                                          du Capricorne, les cercles polaires nord
+- Les océans.                                                                              et sud, le méridien de Greenwich.
+Thème 1 : Le peuplement de la Terre (9 à 12 heures)
+Questions : Où sont les femmes et les hommes sur la Terre ?
+Où se situent les principales concentrations de population et les principaux flux migratoires à l’échelle mondiale ?
+Quelles sont les principales dynamiques démographiques de ces foyers de peuplement ?
+        Objectifs d’apprentissage                  Attendus (connaissances et                               Repères
+                                                         compétences)
+Connaitre les grands foyers de               - Localiser et nommer sur un                  À l’échelle mondiale :
+peuplement dans le monde en mettant            planisphère les grands foyers de            - Les principaux foyers de peuplement.
+en évidence les dynamiques migratoires         peuplement et les principaux flux           - Les principaux flux migratoires
+à l’échelle mondiale.                          migratoires (les limites des différentes      contemporains.
+                                               zones figurent sur le fond de carte).
+
+=== PAGE 14 ===
+Comprendre les dynamiques                   - Définir les notions suivantes :
+démographiques contemporaines de              croissance démographique, taux de
+deux foyers de peuplement :                   natalité, taux de mortalité, solde
+- un foyer de peuplement caractérisé          naturel, solde migratoire, espérance
+  par un fort taux de natalité ;              de vie à la naissance.
+- un foyer de peuplement caractérisé
+  par un fort vieillissement.
+Mots-clés : croissance démographique, espérance de vie à la naissance, solde migratoire, solde naturel, taux de natalité, taux de
+mortalité, vieillissement.
+Thème 2 : Habiter une métropole (9 à 12 heures)
+Questions : Comment habite-t-on une métropole ?
+Quelles sont les fonctions d’une métropole ?
+Habite-t-on de la même manière toutes les métropoles ?
+         Objectifs d’apprentissage                    Attendus (connaissances et                           Repères
+                                                            compétences)
+Comprendre, à partir de l’exemple de deux - Définir la notion de métropole.                Un paysage de quartier d’affaires avec
+métropoles, l’une située dans un pays     - Décrire un paysage manifestant la              des gratte-ciels.
+développé, la seconde située dans un pays   diversité des fonctions d’une                  Un paysage d’habitat informel.
+émergent :                                  métropole.                                     Un paysage de centre-ville historique.
+- La diversité des fonctions supérieures  - Analyser une scène de vie dans une             Les cinq premières métropoles
+  (politique, économique, culturelle) ;     rue au sein d’une métropole.                   mondiales.
+- La diversité des populations ;               - Localiser et nommer les cinq
+- La diversité des pratiques quotidiennes        principales métropoles à l’échelle
+  (résidentielles, travail, récréatives).        mondiale sur un planisphère en
+Connaitre les cinq premières métropoles          précisant pour trois d’entre-elles les
+mondiales.                                       fonctions qui leur permettent de
+                                                 rayonner à l’échelle mondiale.
+Mot-clé : métropole.
+Fil directeur : Des paysages diversifiés représentatifs de la diversité des fonctions, des populations et des pratiques
+quotidiennes dans les métropoles.
+Thème 3 : Habiter un espace soumis à des contraintes naturelles (9 à 12 heures)
+Questions : Comment habite-t-on un espace soumis à des contraintes naturelles ?
+Qu’est-ce qu’une contrainte naturelle ?
+Comment les sociétés s’adaptent-elles aux contraintes naturelles ?
+        Objectifs d’apprentissage                  Attendus (connaissances et                             Repères
+                                                         compétences)
+Connaitre et comprendre :                   - Définir ce qu’est une contrainte            Les principaux déserts chauds (Atacama,
+- Ce qu’est une contrainte naturelle.         naturelle et en donner des exemples.        Gobi, Sahara) et froids (Antarctique,
+                                            - Analyser le paysage d’un espace             Arctique).
+- Les différentes formes de contraintes
+                                              soumis à de fortes contraintes              Les principales forêts tropicales
+  naturelles.
+                                              naturelles.                                 (Amazonie, bassin du Congo, Indonésie).
+- Identifier les espaces soumis à de                                                      Selon le choix opéré :
+  fortes contraintes naturelles.            - Localiser et nommer sur un
+                                              planisphère les espaces soumis à de    - Des espaces de haute-montagne
+Connaitre et comprendre, dans le                                                       (Alpes, Andes, Atlas, Himalaya,
+contexte du dérèglement climatique :          fortes contraintes naturelles.
+                                                                                       Rocheuses) ;
+- Les adaptations mises en place par les    - Décrire les adaptations mises en place
+                                                                                       ou
+  sociétés sur un littoral menacé de          par les sociétés dans un espace soumis
+                                              à des contraintes naturelles de forte  - Des littoraux menacés de submersion
+  submersion marine en s’appuyant sur                                                  (archipels des océans Indien et
+  au moins un exemple.                        intensité en s’appuyant sur au moins
+                                              un exemple précis.                       Pacifique , delta du Gange, Floride,
+  ou                                                                                   Pays-Bas).
+- Les adaptations mises en place par les
+  sociétés dans les espaces de haute-
+  montagne en s’appuyant sur au moins
+  un exemple.
+
+=== PAGE 15 ===
+Mots-clés : adaptation, atténuation, contrainte naturelle.
+Fil directeur : un paysage de haute-montagne habitée ou de littoral habité menacé de submersion.
+Thème 4 : Habiter un espace exposé aux risques dans le contexte du dérèglement climatique (9 à 12 heures)
+Questions : Comment les sociétés vivent-elles avec le risque dans le contexte du dérèglement climatique ?
+Qu’est-ce qu’un risque ?
+Vit-on de la même manière face au risque dans le monde ?
+        Objectifs d’apprentissage                  Attendus (connaissances et                           Repères
+                                                         compétences)
+Connaitre et comprendre :                    - Expliquer ce qu’est un risque.           Les principales aires soumises à des
+- Ce qu’est un risque.                      - Décrire au moins un risque naturel et     risques :
+- Ce qui distingue les risques « naturels »   un type de risque anthropique.            - sismiques ;
+  des risques « anthropiques ».             - Localiser sur un planisphère :            - cycloniques – typhon, ouragan.
+- L’aggravation des risques naturels par        Les principales aires soumises à des   Une catastrophe d’origine anthropique
+  un dérèglement climatique d’origine            risques :
+  anthropique.                                ▪ sismiques ;
+- Pour un même type de risque, les            ▪ cycloniques.
+  différences de réponse (prévention,      Deux catastrophes « anthropiques »
+  gestion, atténuation) apportée par        en les nommant.
+  une société d’un pays développé et
+                                        - Expliquer l’inégale vulnérabilité des
+  par une société d’un pays émergent ou
+                                          sociétés à l’échelle mondiale.
+  en développement.
+Mots clés : aléa, risque, vulnérabilité.
+Fil directeur : images de dispositifs de prévention des risques.
+
+=== PAGE 16 ===
+

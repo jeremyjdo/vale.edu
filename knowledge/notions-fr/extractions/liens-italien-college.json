@@ -1,0 +1,722 @@
+{
+  "programme": "italien-college",
+  "prerequisites": [
+    {
+      "topicId": "fr-ita-6e-cult-01",
+      "prerequisiteId": "fr-lv-cm2-cult-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer une ressemblance ou une différence culturelle » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-cult-02",
+      "prerequisiteId": "fr-lv-cm2-cult-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer une ressemblance ou une différence culturelle » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-comp-01",
+      "prerequisiteId": "fr-lv-cm2-comsg-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer des mots familiers pour trouver le thème d’un message oral » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-comp-01",
+      "prerequisiteId": "fr-lv-cm2-ctex-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un texte grâce aux mots familiers et en trouver le thème » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-coagi-01",
+      "prerequisiteId": "fr-lv-cm2-coagi-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et suivre des consignes à l’impératif » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-coagi-01",
+      "prerequisiteId": "fr-lv-cm2-ceagi-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et suivre des consignes écrites courtes et simples » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-strc-01",
+      "prerequisiteId": "fr-lv-cm2-cohis-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’appuyer sur les images, les sons et le titre pour comprendre l’oral » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-strc-01",
+      "prerequisiteId": "fr-lv-cm2-ctex-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « S’appuyer sur les images et le titre pour comprendre un texte » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-strc-02",
+      "prerequisiteId": "fr-lv-cm2-ctex-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un texte grâce aux mots familiers et en trouver le thème » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-strc-02",
+      "prerequisiteId": "fr-lv-cm2-comsg-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer des mots familiers pour trouver le thème d’un message oral » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-strc-03",
+      "prerequisiteId": "fr-lv-cm2-comsg-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître l’humeur et les sentiments à la voix et aux gestes » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-strc-04",
+      "prerequisiteId": "fr-lv-cm2-ctex-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier un document grâce au titre, à l’auteur et à la date (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-strc-05",
+      "prerequisiteId": "fr-lv-cm2-ctex-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître le type d’un texte à sa présentation » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-strc-06",
+      "prerequisiteId": "fr-lv-cm2-trame-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer les étapes d’un récit grâce aux répétitions (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-strc-07",
+      "prerequisiteId": "fr-lv-cm2-ctex-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre un texte grâce aux mots familiers et en trouver le thème » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-stex-01",
+      "prerequisiteId": "fr-lv-cm2-phon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer correctement les mots appris » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-stex-02",
+      "prerequisiteId": "fr-lv-cm2-copie-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Copier ou prendre en note des éléments écrits » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-stex-02",
+      "prerequisiteId": "fr-lv-cm2-copie-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire sous la dictée des mots et des expressions connus » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-decr-01",
+      "prerequisiteId": "fr-lv-cm2-decr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter et décrire son environnement proche » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-decr-01",
+      "prerequisiteId": "fr-lv-cm2-erac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire pour nommer et décrire des personnes, des objets et des lieux » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-pres-01",
+      "prerequisiteId": "fr-lv-cm2-pres-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se présenter et présenter un camarade à l’oral » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-pres-01",
+      "prerequisiteId": "fr-lv-cm2-erac-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se présenter brièvement par écrit » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-rac-01",
+      "prerequisiteId": "fr-lv-cm2-rac-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Redire une histoire répétitive en suivant sa trame » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-rac-01",
+      "prerequisiteId": "fr-lv-cm2-rac-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résumer les moments clés d’une histoire lue en classe (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-situ-01",
+      "prerequisiteId": "fr-lv-cm2-rac-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans l’espace des personnes, des objets et des lieux » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-situ-02",
+      "prerequisiteId": "fr-lv-cm2-rac-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans le temps : dire une date et des repères simples » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-situ-02",
+      "prerequisiteId": "fr-lv-cm2-pres-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nommer les moments de la journée » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-opin-01",
+      "prerequisiteId": "fr-lv-cm2-decr-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer une préférence avec des verbes et des expressions toutes faites » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-org-01",
+      "prerequisiteId": "fr-lv-cm2-decr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier deux phrases simples avec « et » ou « ou » » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-org-01",
+      "prerequisiteId": "fr-lv-cm2-struc-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier des phrases simples à l’écrit avec des connecteurs (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-emo-01",
+      "prerequisiteId": "fr-lv-cm2-emo-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réagir aux propos de l’autre pour dire ce qu’on ressent ou souhaite (A2) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-emo-01",
+      "prerequisiteId": "fr-lv-cm2-pres-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Parler au passé et au futur (A2) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-coop-01",
+      "prerequisiteId": "fr-lv-cm2-cult-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Signaler une incompréhension culturelle pour quelqu’un (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-coop-01",
+      "prerequisiteId": "fr-lv-cm2-coop-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander de l’aide ou signaler qu’un autre en a besoin (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-stin-01",
+      "prerequisiteId": "fr-lv-cm2-clar-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire si l’on a compris ou non, demander de répéter » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-stin-02",
+      "prerequisiteId": "fr-lv-cm2-coop-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander de l’aide ou signaler qu’un autre en a besoin (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-stin-03",
+      "prerequisiteId": "fr-lv-cm2-expl-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Joindre le geste à la parole pour montrer une information » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-stin-07",
+      "prerequisiteId": "fr-lv-cm2-cont-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relancer ou ponctuer un échange avec des formules toutes faites » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-stin-08",
+      "prerequisiteId": "fr-lv-cm2-phon-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Faire entendre l’intonation d’une affirmation et d’une question (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-ech-01",
+      "prerequisiteId": "fr-lv-cm2-ech-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser des questions simples avec les mots interrogatifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-ech-01",
+      "prerequisiteId": "fr-lv-cm2-ech-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Répondre par des réponses courtes » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-ech-02",
+      "prerequisiteId": "fr-lv-cm2-ech-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Donner des consignes ou des ordres simples à l’impératif » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-ech-02",
+      "prerequisiteId": "fr-lv-cm2-ech-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réagir à des consignes simples de la classe » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-cont-01",
+      "prerequisiteId": "fr-lv-cm2-cont-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Saluer et ouvrir un échange » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-ech-03",
+      "prerequisiteId": "fr-lv-cm2-ech-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander ou donner une permission, dire une interdiction » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-opin-02",
+      "prerequisiteId": "fr-lv-cm2-emo-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire ses goûts, son accord ou son désaccord avec des formules (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-clar-01",
+      "prerequisiteId": "fr-lv-cm2-clar-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer les lettres de l’alphabet pour épeler » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-clar-01",
+      "prerequisiteId": "fr-lv-cm2-rac-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Compter au-delà de 100 » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-clar-02",
+      "prerequisiteId": "fr-lv-cm2-clar-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire si l’on a compris ou non, demander de répéter » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-clar-02",
+      "prerequisiteId": "fr-lv-cm2-clar-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Demander le sens d’un mot » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-cont-02",
+      "prerequisiteId": "fr-lv-cm2-cont-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les formules de politesse de base » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-cont-02",
+      "prerequisiteId": "fr-lv-cm2-struc-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un court courrier à un proche » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-expl-01",
+      "prerequisiteId": "fr-lv-cm2-expl-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des verbes de perception (voir, entendre, regarder…) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-expl-02",
+      "prerequisiteId": "fr-lv-cm2-expl-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer une information sur un document (ici, en haut, en bas…) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-expl-03",
+      "prerequisiteId": "fr-lv-cm2-notes-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer les besoins d’une autre personne ou y répondre (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-expl-04",
+      "prerequisiteId": "fr-lv-cm2-notes-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Transmettre les informations d’un prospectus ou d’une invitation (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-phon-01",
+      "prerequisiteId": "fr-lv-cm2-phon-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer les sons et accents propres à la langue apprise » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-phon-02",
+      "prerequisiteId": "fr-lv-cm2-phon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer correctement les mots appris » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-phon-03",
+      "prerequisiteId": "fr-lv-cm2-phon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Prononcer correctement les mots appris » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-lex-01",
+      "prerequisiteId": "fr-lv-cm2-rac-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Employer des adjectifs, leurs contraires et leurs synonymes » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-lex-02",
+      "prerequisiteId": "fr-lv-cm2-trame-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître à l’écrit les mots de la famille, des relations et du caractère » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-lex-03",
+      "prerequisiteId": "fr-lv-cm2-erac-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire sa ville et son pays d’origine (A1+) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-lex-04",
+      "prerequisiteId": "fr-lv-cm2-trame-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître à l’écrit les mots de la famille, des relations et du caractère » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-lex-05",
+      "prerequisiteId": "fr-lv-cm2-decr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter et décrire son environnement proche » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-lex-06",
+      "prerequisiteId": "fr-lv-cm2-rac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nommer des personnes, objets et lieux avec le vocabulaire des thèmes étudiés » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-lex-07",
+      "prerequisiteId": "fr-lv-cm2-pres-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nommer les moments de la journée » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-lex-08",
+      "prerequisiteId": "fr-lv-cm2-pres-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Parler de ses activités quotidiennes et de ses habitudes » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-lex-09",
+      "prerequisiteId": "fr-lv-cm2-pres-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Parler de ses activités quotidiennes et de ses habitudes » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-lex-10",
+      "prerequisiteId": "fr-lv-cm2-ceagi-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre à l’écrit le vocabulaire des fournitures et de la cuisine » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-lex-11",
+      "prerequisiteId": "fr-lv-cm2-rac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nommer des personnes, objets et lieux avec le vocabulaire des thèmes étudiés » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-lex-14",
+      "prerequisiteId": "fr-lv-cm2-emo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer ses sentiments et émotions dans des situations ritualisées » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gnom-01",
+      "prerequisiteId": "fr-lv-cm2-rac-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Appliquer les règles d’accord élémentaires à l’oral » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gnom-02",
+      "prerequisiteId": "fr-lv-cm2-decr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les articles et les démonstratifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gnom-03",
+      "prerequisiteId": "fr-lv-cm2-comsg-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre de qui on parle grâce aux pronoms et aux possessifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gnom-04",
+      "prerequisiteId": "fr-lv-cm2-decr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les articles et les démonstratifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gverb-01",
+      "prerequisiteId": "fr-lv-cm2-decr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le présent simple avec je, tu, il ou elle » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gverb-02",
+      "prerequisiteId": "fr-lv-cm2-pres-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se présenter et présenter un camarade à l’oral » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gverb-03",
+      "prerequisiteId": "fr-lv-cm2-pres-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Parler au passé et au futur (A2) » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gpro-01",
+      "prerequisiteId": "fr-lv-cm2-comsg-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre de qui on parle grâce aux pronoms et aux possessifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gadv-01",
+      "prerequisiteId": "fr-lv-cm2-pres-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser les marqueurs de temps pour parler de ses habitudes » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gadv-01",
+      "prerequisiteId": "fr-lv-cm2-rac-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer dans l’espace des personnes, des objets et des lieux » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gadv-02",
+      "prerequisiteId": "fr-lv-cm2-coagi-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se repérer dans l’espace grâce aux prépositions et verbes d’action entendus » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gphr-01",
+      "prerequisiteId": "fr-lv-cm2-comsg-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître les mots interrogatifs dans des questions simples » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gtour-01",
+      "prerequisiteId": "fr-lv-cm2-decr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter et décrire son environnement proche » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gtour-02",
+      "prerequisiteId": "fr-lv-cm2-decr-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dire ce qu’on aime de façon simple » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gphr-02",
+      "prerequisiteId": "fr-lv-cm2-trame-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer les connecteurs de coordination dans un texte » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gphr-03",
+      "prerequisiteId": "fr-lv-cm2-struc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire des phrases au présent simple sur soi et les autres » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gphr-04",
+      "prerequisiteId": "fr-lv-cm2-trame-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer une phrase affirmative, négative ou interrogative » (CM2)"
+    },
+    {
+      "topicId": "fr-ita-6e-gphr-05",
+      "prerequisiteId": "fr-lv-cm2-trame-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Repérer une phrase affirmative, négative ou interrogative » (CM2)"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "italien-college": "2026-10-23",
+    "lv-cm": "2026-10-23"
+  }
+}

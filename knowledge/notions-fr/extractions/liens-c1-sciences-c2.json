@@ -1,0 +1,147 @@
+{
+  "programme": "sciences-c2",
+  "prerequisites": [
+    {
+      "topicId": "fr-sc-cp-masvt-01",
+      "prerequisiteId": "fr-mon-ps-mat-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Transporter et transvaser des matières (PS) fait sentir que la matière pèse, avant de soupeser pour comparer"
+    },
+    {
+      "topicId": "fr-sc-cp-etat-01",
+      "prerequisiteId": "fr-mon-gs-mat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier et nommer les états de l’eau » (GS)"
+    },
+    {
+      "topicId": "fr-sc-cp-viv-01",
+      "prerequisiteId": "fr-mon-gs-viv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître les étapes de la vie d’un animal ou d’une plante » (GS) : naître, grandir, se reproduire sont des critères du vivant"
+    },
+    {
+      "topicId": "fr-sc-cp-viv-01",
+      "prerequisiteId": "fr-mon-gs-viv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le critère « se nourrit » s’appuie sur les besoins essentiels des animaux et des végétaux (GS)"
+    },
+    {
+      "topicId": "fr-sc-cp-env-01",
+      "prerequisiteId": "fr-mon-gs-viv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier les éléments propres à une espèce » (GS)"
+    },
+    {
+      "topicId": "fr-sc-cp-env-02",
+      "prerequisiteId": "fr-mon-gs-viv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décrire les besoins essentiels des animaux et des végétaux » (GS), dont le milieu de vie"
+    },
+    {
+      "topicId": "fr-sc-cp-env-02",
+      "prerequisiteId": "fr-mon-ms-viv-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Relier le déplacement d’un animal à son milieu de vie (MS)"
+    },
+    {
+      "topicId": "fr-sc-cp-env-03",
+      "prerequisiteId": "fr-rep-gs-rpr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Représenter l’environnement proche » (GS)"
+    },
+    {
+      "topicId": "fr-sc-cp-env-03",
+      "prerequisiteId": "fr-rep-gs-rpr-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Placer divers éléments sur un plan de la classe ou de la cour (GS)"
+    },
+    {
+      "topicId": "fr-sc-cp-edd-02",
+      "prerequisiteId": "fr-mon-gs-mat-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Agir de manière autonome pour l’environnement » (GS)"
+    },
+    {
+      "topicId": "fr-sc-cp-crois-01",
+      "prerequisiteId": "fr-mon-gs-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nommer quelques articulations et les segments des membres » (GS)"
+    },
+    {
+      "topicId": "fr-sc-cp-crois-02",
+      "prerequisiteId": "fr-mon-gs-corps-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se représenter avec un corps articulé en mouvement » (GS)"
+    },
+    {
+      "topicId": "fr-sc-cp-sante-02",
+      "prerequisiteId": "fr-mon-ms-corps-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître quelques règles d’hygiène corporelle » (MS)"
+    },
+    {
+      "topicId": "fr-sc-cp-obj-01",
+      "prerequisiteId": "fr-mon-ps-obj-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser des objets et connaître leur nom et leur fonction » (PS)"
+    },
+    {
+      "topicId": "fr-sc-cp-obj-02",
+      "prerequisiteId": "fr-mon-ms-obj-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Différencier les matériaux selon leurs propriétés » (MS) : un objet est fait d’un ou de plusieurs matériaux"
+    },
+    {
+      "topicId": "fr-sc-cp-obj-02",
+      "prerequisiteId": "fr-mon-ps-obj-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Transformer un matériau en le modelant ou en le découpant (PS) prépare l’idée de fabrication"
+    },
+    {
+      "topicId": "fr-sc-cp-obj-03",
+      "prerequisiteId": "fr-mon-gs-obj-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Associer une solution technique à une fonction » (GS)"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "monde-c1": "2026-10-23",
+    "reperes-c1": "2026-10-23",
+    "sciences-c2": "2026-10-23"
+  }
+}

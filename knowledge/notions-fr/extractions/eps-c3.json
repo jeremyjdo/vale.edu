@@ -1,0 +1,2028 @@
+{
+  "programme": "eps-c3",
+  "level": "multiple",
+  "themeCodes": {
+    "cour": "Se déplacer le plus vite ou le plus longtemps possible",
+    "saut": "Se déplacer pour sauter le plus haut ou le plus loin possible",
+    "lanc": "Se déplacer pour lancer le plus loin possible",
+    "orie": "Se déplacer pour s’orienter dans l’espace",
+    "res": "Recueillir et apprécier des résultats",
+    "terr": "Construire des équilibres dans des environnements terrestres",
+    "loco": "Construire des équilibres avec un moyen de locomotion",
+    "nat": "Construire des équilibres dans un environnement aquatique",
+    "secu": "Agir en toute sécurité",
+    "art": "Développer une motricité à visée artistique",
+    "ench": "Créer des enchainements simples et mémorisés",
+    "emo": "Éprouver et exprimer des émotions",
+    "opp": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+    "marq": "Faire des choix pour marquer",
+    "regl": "Respecter les règles du jeu, les partenaires et les adversaires",
+    "perf": "Acquérir des habiletés techniques efficientes pour produire une performance",
+    "eff": "Se préparer, répéter et réguler un effort pour produire une performance",
+    "csci": "S’approprier une culture sportive ouverte sur les sciences",
+    "prog": "Acquérir des techniques de progression adaptées pour s’engager dans un environnement inhabituel",
+    "itin": "Conduire et réguler un itinéraire pour exploiter ses ressources et les opportunités offertes par l’environnement",
+    "eco": "S’approprier une culture sportive ouverte sur une approche écoresponsable",
+    "mexp": "Acquérir une motricité expressive et une motricité acrobatique pour produire un effet sur un public ou un juge",
+    "comp": "Imaginer et présenter une composition artistique et une composition acrobatique pour exprimer, communiquer et produire un effet",
+    "carts": "S’approprier une culture sportive ouverte sur le monde des arts",
+    "tech": "Acquérir des habiletés technicotactiques pour prendre l’avantage dans le rapport de force",
+    "tact": "Concevoir et mettre en œuvre des projets tactiques pour prendre l’avantage dans un rapport de force",
+    "cit": "S’approprier une culture sportive ouverte sur une citoyenneté en actes"
+  },
+  "notions": [
+    {
+      "id": "fr-eps-cm-cour-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Courir vite du départ jusqu’à l’arrivée",
+      "description": "Maintenir sa vitesse maximale sur toute la course de vitesse, du signal de départ jusqu’à la ligne d’arrivée, sans ralentir avant la fin.",
+      "officialObjectives": [
+        "Courir vite du départ jusqu’à l’arrivée."
+      ],
+      "evidence": [
+        "Court vite sur toute la distance, du départ jusqu’à l’arrivée, sans ralentir avant la ligne.",
+        "S’appuie sur des repères de temps et de distance pour mobiliser au maximum ses ressources."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait courir un sprint en gardant toute sa vitesse jusqu’à la ligne d’arrivée, sans ralentir avant ?",
+      "priorKnowledge": [
+        "Réagir vite au signal de départ (CE2)",
+        "Courir vite et de façon coordonnée en adaptant sa foulée, sans ralentir (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-cour-02",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Se relayer en gardant sa vitesse",
+      "description": "Dans une course de relais, transmettre ou recevoir le relais à un coéquipier sans perdre de vitesse.",
+      "officialObjectives": [
+        "Se relayer avec de la vitesse."
+      ],
+      "evidence": [
+        "Transmet le relais à un partenaire en pleine course, sans perte de vitesse.",
+        "Reçoit le relais en courant, sans ralentir l’équipe."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait passer le relais à un coéquipier dans une course de relais, sans que l’équipe perde de la vitesse ?",
+      "priorKnowledge": [
+        "Courir vite et de façon coordonnée en adaptant sa foulée, sans ralentir (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-cour-03",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Franchir sans ralentir des obstacles bas et au sol",
+      "description": "Courir vite en franchissant aussi bien des obstacles posés au sol que des obstacles en hauteur (petites haies), sans perdre de vitesse.",
+      "officialObjectives": [
+        "Courir et franchir sans ralentir des obstacles horizontaux et verticaux."
+      ],
+      "evidence": [
+        "Franchit en courant des obstacles horizontaux et des obstacles verticaux sans ralentir sa course.",
+        "Enchaîne course et franchissement sur un même parcours."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait enchaîner en courant des lattes posées au sol et de petites haies, sans ralentir ?",
+      "priorKnowledge": [
+        "Courir et franchir sans ralentir plusieurs obstacles verticaux placés en deçà de la hauteur du genou, en alternant le pied d’impulsion (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-cour-04",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer le plus vite ou le plus longtemps possible",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Courir longtemps en s’aidant de repères",
+      "description": "Courir longtemps en gérant son effort grâce à des repères extérieurs à soi (par exemple des plots le long du parcours ou le temps annoncé), pour tenir la durée.",
+      "officialObjectives": [
+        "Courir longtemps à l’aide de repères externes."
+      ],
+      "evidence": [
+        "Court longtemps en s’appuyant sur des repères externes de temps et de distance.",
+        "Utilise ces repères pour mobiliser au mieux ses ressources sur la durée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait courir longtemps en se servant des plots placés le long du parcours pour garder un rythme régulier ?",
+      "priorKnowledge": [
+        "Courir sans s’arrêter sur une durée de course de plus en plus longue et choisir un « contrat de course » adapté à ses capacités (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-saut-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer pour sauter le plus haut ou le plus loin possible",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Sauter loin ou haut avec une course d’élan réduite",
+      "description": "Prendre une petite course d’élan, puis décoller sur son pied d’appel pour sauter le plus loin ou le plus haut possible.",
+      "officialObjectives": [
+        "Construire une course d’élan réduite et une impulsion sur le pied d’appel pour sauter loin ou haut."
+      ],
+      "evidence": [
+        "Prend une course d’élan réduite avant de sauter.",
+        "Enchaîne la course d’élan et l’impulsion sur son pied d’appel.",
+        "Saute loin ou haut grâce à cet enchaînement."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait prendre quelques pas d’élan et décoller sur son pied d’appel pour sauter loin ?",
+      "priorKnowledge": [
+        "Identifier son pied d’appel, sauter exclusivement avec lui et mobiliser ses bras pour sauter plus loin ou plus haut (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-lanc-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer pour lancer le plus loin possible",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Lancer loin avec une course d’élan réduite",
+      "description": "Prendre une petite course d’élan avant de lancer pour envoyer différents objets (balle, vortex, javelot en mousse) le plus loin possible.",
+      "officialObjectives": [
+        "Construire une course d’élan réduite pour lancer loin différents objets."
+      ],
+      "evidence": [
+        "Prend une course d’élan réduite avant de lancer.",
+        "Lance loin différents objets en enchaînant la course d’élan et le lancer."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lancer un vortex loin en prenant quelques pas d’élan juste avant le lancer ?",
+      "priorKnowledge": [
+        "Lancer loin et dans l’axe différents objets : poussée à deux mains d’un ballon lesté, lancer « à bras cassé » (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-orie-01",
+      "programme": "eps-c3",
+      "type": "REPRESENTATIONAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Se déplacer pour s’orienter dans l’espace",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "S’orienter dans un lieu partiellement connu",
+      "description": "Se repérer et trouver son chemin dans un lieu que l’on ne connaît qu’en partie, à l’aide de repères simples et variés comme un plan ou des éléments remarquables du terrain.",
+      "officialObjectives": [
+        "S’orienter dans un espace partiellement connu à l’aide de repères simples et variés."
+      ],
+      "evidence": [
+        "S’oriente dans un espace partiellement connu à l’aide de repères simples et variés.",
+        "Se situe pour s’orienter dans des environnements de moins en moins connus."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver des balises dans un lieu peu connu (un parc par exemple) à l’aide d’un plan et de repères visibles sur le terrain ?",
+      "priorKnowledge": [
+        "Repérer des éléments visibles pour s’orienter dans un espace connu : trouver à l’aide d’un plan deux balises à moins de vingt mètres (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-res-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Se déplacer pour agir dans l’espace et sur une durée",
+      "subdomain": "Recueillir et apprécier des résultats",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Mesurer précisément une performance sans juger",
+      "description": "Mesurer avec précision un temps ou une distance, pour soi ou pour un camarade, et annoncer le résultat sans moquerie ni jugement sur la personne.",
+      "officialObjectives": [
+        "Mesurer avec précision une action motrice sans porter de jugement de valeur."
+      ],
+      "evidence": [
+        "Mesure avec précision le résultat d’une action motrice (temps, distance), pour lui-même ou pour un camarade.",
+        "Relève et communique les résultats sans porter de jugement de valeur.",
+        "Apprécie ses résultats au regard des performances sportives de référence."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait chronométrer la course d’un camarade ou mesurer la longueur de son saut, puis annoncer le résultat sans commentaire désobligeant ?",
+      "priorKnowledge": [
+        "Identifier la mesure d’un résultat pour progresser : relever, communiquer et comparer ses résultats d’un essai à l’autre (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 3,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-terr-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Faire une roulade arrière",
+      "description": "Apprendre à rouler vers l’arrière (roulade arrière) et retrouver son équilibre à la fin du mouvement.",
+      "officialObjectives": [
+        "Construire un nouvel équilibre avec le corps qui roule vers l’arrière."
+      ],
+      "evidence": [
+        "Roule vers l’arrière (roulade arrière).",
+        "Retrouve son équilibre à la fin de la roulade."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire une roulade arrière sur un tapis et se retrouver en équilibre à la fin ?",
+      "priorKnowledge": [
+        "Effectuer une roulade avant en variant ses positions de départ et d’arrivée (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-terr-02",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Sauter en variant les positions du corps en l’air",
+      "description": "Pendant un saut gymnique, prendre différentes positions en l’air (et plus seulement le corps droit) tout en restant équilibré jusqu’à la réception.",
+      "officialObjectives": [
+        "Conserver un équilibre de suspension en l’air en variant les positions du corps."
+      ],
+      "evidence": [
+        "Varie les positions de son corps pendant la phase de suspension en l’air.",
+        "Conserve son équilibre pendant le saut et à la réception."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait sauter d’un tremplin en prenant en l’air une autre position que le corps droit, puis retomber en équilibre ?",
+      "priorKnowledge": [
+        "Sauter le corps droit, bras vers le haut, après une course d’élan réduite et une impulsion à deux pieds sur un tremplin, et se réceptionner en équilibre (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-terr-03",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Se déplacer en position renversée",
+      "description": "Se déplacer le corps renversé (mains en appui, bassin au-dessus des épaules) en gardant son équilibre.",
+      "officialObjectives": [
+        "Construire son équilibre avec le déplacement du corps en position renversée."
+      ],
+      "evidence": [
+        "Se déplace en position renversée, en appui sur les mains, en gardant son équilibre."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait se déplacer en appui sur les mains, le bassin au-dessus des épaules, sans perdre l’équilibre ?",
+      "priorKnowledge": [
+        "Tenir la position « à l’équerre » (mains, épaules et bassin alignés) et se déplacer en « saut de lapin » (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-terr-04",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Se suspendre et trouver son équilibre suspendu",
+      "description": "Construire un nouvel équilibre le corps suspendu par les mains (à un espalier, à une corde…), en contrôlant son corps.",
+      "officialObjectives": [
+        "Construire un nouvel équilibre avec le corps suspendu."
+      ],
+      "evidence": [
+        "Se maintient le corps suspendu en gardant le contrôle de son équilibre."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait rester suspendu par les mains à un espalier en contrôlant son corps, sans se balancer dans tous les sens ?",
+      "priorKnowledge": [
+        "Grimper en traversée d’un point A à un point B sur des prises plus petites et plus espacées, en déplaçant les pieds avant les mains (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-terr-05",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans des environnements terrestres",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Grimper de façon coordonnée sur une paroi",
+      "description": "Sur un mur d’escalade, se déplacer en coordonnant bras et jambes et en gardant un équilibre stable, sans appréhension et en toute sécurité.",
+      "officialObjectives": [
+        "Stabiliser son équilibre vertical en se déplaçant de manière coordonnée sur une paroi verticale."
+      ],
+      "evidence": [
+        "Se déplace sur une paroi verticale en coordonnant les actions des bras et des jambes.",
+        "Stabilise son équilibre pendant le déplacement, sans appréhension et en toute sécurité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait se déplacer sur un mur d’escalade en coordonnant bras et jambes, en restant stable sur ses appuis ?",
+      "priorKnowledge": [
+        "Grimper en traversée d’un point A à un point B sur des prises plus petites et plus espacées, en déplaçant les pieds avant les mains (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-loco-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres avec un moyen de locomotion",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Circuler à vélo ou en rollers, seul et en groupe",
+      "description": "Circuler et glisser avec un moyen de locomotion (vélo, rollers, patinette), seul puis en groupe, en gardant son équilibre et en tenant compte des autres. Cela contribue au « savoir rouler à vélo », savoir sportif fondamental.",
+      "officialObjectives": [
+        "Savoir circuler, glisser, avec un moyen de locomotion, seul et en groupe."
+      ],
+      "evidence": [
+        "Circule ou glisse seul avec un moyen de locomotion en maîtrisant son équilibre.",
+        "Circule ou glisse en groupe, en assurant sa sécurité et celle des autres."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait circuler à vélo au sein d’un petit groupe, en gardant sa place et sans gêner les autres ?",
+      "priorKnowledge": [
+        "Rouler ou glisser en suivant un autre élève sans le dépasser et en contournant des obstacles sans tomber (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-nat-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Construire des équilibres dans un environnement aquatique",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Accepter le déséquilibre et se déplacer à l’horizontale dans l’eau",
+      "description": "Accepter de quitter la position debout pour s’allonger dans l’eau, et se déplacer de différentes façons dans cette position horizontale. C’est une étape vers l’attestation du « savoir nager » en sécurité, qui doit être validée au plus tard en fin de 6e.",
+      "officialObjectives": [
+        "Accepter le déséquilibre et se déplacer de différentes façons grâce à un nouvel équilibre horizontal"
+      ],
+      "evidence": [
+        "Accepte le déséquilibre pour passer à un équilibre horizontal dans l’eau.",
+        "Se déplace de différentes façons dans l’eau en position horizontale."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait s’allonger dans l’eau et se déplacer de plusieurs façons, sur le ventre puis sur le dos ?",
+      "priorKnowledge": [
+        "Flotter sur le ventre puis sur le dos et se déplacer sur quelques mètres, bras et tête dans le prolongement de l’axe du corps (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-secu-01",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Construire des équilibres pour s’adapter à des environnements inhabituels",
+      "subdomain": "Agir en toute sécurité",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Agir en sécurité pour soi et pour les autres",
+      "description": "Dans des situations simples, faire attention à sa propre sécurité et à celle des autres, et participer à l’installation du matériel.",
+      "officialObjectives": [
+        "Agir en sécurité pour soi et pour les autres dans des situations simples."
+      ],
+      "evidence": [
+        "Agit en sécurité pour lui-même et pour les autres dans des situations simples.",
+        "Participe à l’aménagement de l’espace à l’aide du matériel.",
+        "Reste attentif à sa sécurité et à celle des autres."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait aider à installer les tapis d’un parcours et vérifier qu’aucun camarade n’est en danger avant de s’y engager ?",
+      "priorKnowledge": [
+        "Identifier les dangers propres à l’activité, savoir renoncer et préciser la nature du danger (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 4,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-art-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps, pour éprouver et partager des émotions",
+      "subdomain": "Développer une motricité à visée artistique",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Enrichir ses gestes de danse, de cirque ou de gymnastique",
+      "description": "Rendre ses mouvements plus riches et plus expressifs en jouant sur le temps (vite, lent), l’espace, l’énergie et la relation aux autres.",
+      "officialObjectives": [
+        "Enrichir ses actions à visée artistique."
+      ],
+      "evidence": [
+        "Enrichit ses actions en jouant sur les paramètres du mouvement : temps, espace, énergie et relation aux autres.",
+        "Utilise son corps comme moyen d’expression artistique en danse, en gymnastique ou en arts du cirque."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait refaire un même geste de danse de plusieurs façons : très lentement, très vite, avec beaucoup puis peu d’énergie ?",
+      "priorKnowledge": [
+        "Reproduire des actions à visée artistique en variant ses mouvements et leur vitesse selon le monde sonore (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-art-02",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps, pour éprouver et partager des émotions",
+      "subdomain": "Développer une motricité à visée artistique",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Coordonner ses actions dans l’espace scénique",
+      "description": "Organiser ses mouvements dans l’espace de présentation, seul ou avec d’autres, en s’appropriant cet espace et la musique.",
+      "officialObjectives": [
+        "Coordonner ses actions dans l’espace scénique."
+      ],
+      "evidence": [
+        "Coordonne ses actions dans l’espace scénique, seul ou avec d’autres.",
+        "S’approprie l’espace scénique et le monde sonore.",
+        "Exploite pleinement les différents espaces proposés."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait danser avec un groupe en se déplaçant au bon moment et au bon endroit de la scène, en suivant la musique ?",
+      "priorKnowledge": [
+        "Utiliser la largeur, la hauteur et la profondeur de l’espace pour occuper l’espace et prendre en compte le public (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-ench-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps, pour éprouver et partager des émotions",
+      "subdomain": "Créer des enchainements simples et mémorisés",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Enrichir un enchaînement fluide et mémorisé",
+      "description": "Retenir un enchaînement de danse, de gymnastique ou de cirque et l’enrichir, en gardant des mouvements fluides et esthétiques, pour le présenter aux autres.",
+      "officialObjectives": [
+        "Enrichir un enchainement artistique fluide et mémorisé."
+      ],
+      "evidence": [
+        "Mémorise un enchaînement artistique et le présente devant les autres.",
+        "Enrichit cet enchaînement en le gardant fluide et esthétique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait présenter de mémoire un enchaînement de gymnastique enrichi d’un nouvel élément, sans arrêt entre les mouvements ?",
+      "priorKnowledge": [
+        "S’approprier un enchaînement artistique structuré (début, milieu, fin) et enchaîner les éléments de manière fluide (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-emo-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps, pour éprouver et partager des émotions",
+      "subdomain": "Éprouver et exprimer des émotions",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Se présenter en tant qu’artiste",
+      "description": "Oser se montrer devant les autres en artiste : se présenter, assumer son rôle (danseur, acrobate, chorégraphe) et faire partager des émotions.",
+      "officialObjectives": [
+        "Se présenter en tant qu’artiste."
+      ],
+      "evidence": [
+        "Ose s’exposer au regard des autres.",
+        "Se présente devant un public en adoptant une posture d’artiste.",
+        "Assure différents rôles : danseur, acrobate, chorégraphe."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait se présenter devant la classe au début de sa prestation et la mener jusqu’au bout en tant qu’artiste ?",
+      "priorKnowledge": [
+        "Construire une posture d’artiste : prendre en compte le public, se présenter, jouer un personnage (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-emo-02",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "S'exprimer avec son corps, pour éprouver et partager des émotions",
+      "subdomain": "Éprouver et exprimer des émotions",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Apprécier une prestation avec précision et donner des conseils",
+      "description": "Observer précisément la prestation d’un camarade, dire ce que l’on a ressenti sans juger la personne, et lui donner des conseils pour progresser.",
+      "officialObjectives": [
+        "Apprécier une prestation avec précision et donner des conseils."
+      ],
+      "evidence": [
+        "Apprécie une prestation avec précision.",
+        "Donne des conseils au camarade qui a présenté.",
+        "S’exprime sans porter de jugement de valeur et partage son ressenti."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire précisément ce qui était réussi dans la danse d’un camarade et lui donner un conseil pour l’améliorer, sans se moquer ?",
+      "priorKnowledge": [
+        "Apprécier une prestation selon deux ou trois critères : justifier son appréciation et proposer une amélioration (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 5,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-opp-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Enchaîner plusieurs actions d’opposition",
+      "description": "Dans un jeu collectif, de raquettes ou de combat, enchaîner plusieurs actions à la suite (par exemple recevoir puis passer, pousser puis tirer) au lieu d’une seule action isolée.",
+      "officialObjectives": [
+        "Coordonner plusieurs actions d’opposition."
+      ],
+      "evidence": [
+        "Coordonne plusieurs actions d’opposition à la suite (pousser ou tirer, passer ou dribbler).",
+        "Coordonne ses actions dans les espaces réglementés du jeu."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, dans un jeu de ballon, recevoir une passe puis dribbler ou passer aussitôt, sans s’arrêter ?",
+      "priorKnowledge": [
+        "Maîtriser et contrôler des actions d’opposition simples : échanger une balle de part et d’autre d’un filet, être actif au sol en jeu de combat (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 6,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-opp-02",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Développer des habiletés motrices dans des situations d’opposition individuelles et collectives",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Orienter ses déplacements vers la cible",
+      "description": "Se déplacer en direction de la cible à atteindre (but, zone à marquer) pour se rapprocher du point.",
+      "officialObjectives": [
+        "Orienter ses déplacements vers la cible."
+      ],
+      "evidence": [
+        "Oriente ses déplacements vers la cible pour se rapprocher de la marque.",
+        "Se déplace dans les espaces réglementés du jeu en direction de la cible."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, quand son équipe a le ballon, avancer vers le but adverse plutôt que de rester sur place ?",
+      "priorKnowledge": [
+        "Réaliser avec un partenaire une « montée de balle » pour se rapprocher de la cible (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 6,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-marq-01",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Faire des choix pour marquer",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Mener un projet d’action seul ou en équipe",
+      "description": "Faire des choix tactiques simples (passer ou dribbler, pousser ou tirer) au service d’un plan d’action, seul ou avec son équipe, pour gagner.",
+      "officialObjectives": [
+        "Mener un projet d’action individuel ou collectif."
+      ],
+      "evidence": [
+        "Fait des choix tactiques simples (pousser ou tirer, passer ou dribbler) au service d’un projet d’action individuel ou collectif pour gagner.",
+        "Prend des informations et des décisions pour agir seul ou avec ses partenaires."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer le plan choisi avec son équipe avant un match (par exemple « on fait des passes pour avancer ») et l’appliquer pendant le jeu ?",
+      "priorKnowledge": [
+        "Prendre des repères au service d’un projet d’action : identifier et exploiter un espace libre pour offrir une solution de passe (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 6,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-regl-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Respecter les règles du jeu, les partenaires et les adversaires",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Faire respecter les règles du jeu en arbitrant",
+      "description": "Tenir le rôle d’arbitre et faire respecter les règles du jeu, en maîtrisant ses émotions dans la victoire comme dans la défaite.",
+      "officialObjectives": [
+        "Faire respecter les règles du jeu."
+      ],
+      "evidence": [
+        "Assume le rôle d’arbitre et fait respecter les règles du jeu.",
+        "S’approprie les règles d’arbitrage et le vocabulaire spécifique.",
+        "Maîtrise ses émotions dans la victoire comme dans la défaite."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait arbitrer une partie entre camarades en signalant les fautes et en faisant respecter les règles ?",
+      "priorKnowledge": [
+        "Comprendre et respecter les règles du jeu : arbitrer et attribuer des points (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 6,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-cm-regl-02",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Coopérer et s’opposer pour apprendre à jouer en respectant les règles et les autres",
+      "subdomain": "Respecter les règles du jeu, les partenaires et les adversaires",
+      "level": "CM1-CM2",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "name": "Coopérer dans l’organisation du jeu",
+      "description": "Participer avec les autres à l’organisation d’un jeu ou d’une rencontre, en assumant tour à tour les rôles de joueur, d’arbitre et d’organisateur.",
+      "officialObjectives": [
+        "Coopérer dans l’organisation du jeu."
+      ],
+      "evidence": [
+        "Prend part à l’organisation du jeu avec ses camarades.",
+        "Assume lors des rencontres les différents rôles de joueur, d’arbitre et d’organisateur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, avec d’autres élèves, organiser une rencontre en se répartissant les rôles de joueur, d’arbitre et d’organisateur ?",
+      "priorKnowledge": [
+        "Accepter l’opposition tout en respectant l’autre : encourager, féliciter, jouer en autoarbitrage (CE2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 6,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-perf-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Produire une performance optimale mesurable",
+      "subdomain": "Acquérir des habiletés techniques efficientes pour produire une performance",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Construire des appuis efficaces pour être plus performant",
+      "description": "En athlétisme ou en natation, poser ses appuis (pieds, mains) de façon efficace pour se déplacer mieux et améliorer sa performance.",
+      "officialObjectives": [
+        "Construire des appuis efficaces pour se déplacer de façon adaptée et être plus performant."
+      ],
+      "evidence": [
+        "Construit des appuis efficaces pour se déplacer de façon adaptée à l’épreuve.",
+        "Améliore ainsi sa performance mesurée dans le temps ou dans l’espace."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, en course de haies, placer ses appuis entre les haies pour garder sa vitesse ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-perf-02",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Produire une performance optimale mesurable",
+      "subdomain": "Acquérir des habiletés techniques efficientes pour produire une performance",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Aligner son corps pour créer et transmettre des forces",
+      "description": "Placer les différentes parties de son corps dans le bon alignement pour que la force produite (par exemple par les jambes) se transmette jusqu’à l’objet lancé ou jusqu’au saut.",
+      "officialObjectives": [
+        "Construire des alignements corporels pour créer et transmettre des forces."
+      ],
+      "evidence": [
+        "Construit des alignements corporels pour créer des forces.",
+        "Transmet ces forces jusqu’à l’action finale (lancer, impulsion)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lancer un poids ou un vortex en poussant des jambes jusqu’au bras, le corps bien aligné ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-perf-03",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Produire une performance optimale mesurable",
+      "subdomain": "Acquérir des habiletés techniques efficientes pour produire une performance",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Coordonner ses actions pour un déplacement continu",
+      "description": "Enchaîner ses gestes sans à-coups pour que le déplacement ne s’interrompt pas (par exemple entre la course et le franchissement d’une haie, ou entre l’élan et l’impulsion).",
+      "officialObjectives": [
+        "Coordonner ses actions pour assurer la continuité du déplacement."
+      ],
+      "evidence": [
+        "Coordonne ses actions pour assurer la continuité de son déplacement.",
+        "Enchaîne les phases de son déplacement sans rupture (par exemple course et franchissement de haies, élan et impulsion)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait franchir une série de haies en gardant une course continue, sans piétiner devant chaque haie ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-eff-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Produire une performance optimale mesurable",
+      "subdomain": "Se préparer, répéter et réguler un effort pour produire une performance",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "S’échauffer en appliquant les phases d’un échauffement",
+      "description": "Comprendre à quoi sert l’échauffement (préparer le corps à l’effort) et en réaliser les différentes phases, en soignant la qualité des gestes dès le début.",
+      "officialObjectives": [
+        "Comprendre et appliquer les différents principes et phases d’un échauffement."
+      ],
+      "evidence": [
+        "Explique le rôle de l’échauffement dans la préparation du corps à l’effort.",
+        "Applique les principes et les différentes phases d’un échauffement.",
+        "Est attentif à la qualité de son exécution motrice dès l’échauffement."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi on s’échauffe avant une course et citer les étapes d’un échauffement ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-eff-02",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Produire une performance optimale mesurable",
+      "subdomain": "Se préparer, répéter et réguler un effort pour produire une performance",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Adapter son engagement au type d’effort",
+      "description": "Doser son effort selon l’épreuve : un effort très intense et court (vitesse) ou un effort plus long (endurance), pour produire sa meilleure performance.",
+      "officialObjectives": [
+        "Adapter son engagement au type d’effort demandé."
+      ],
+      "evidence": [
+        "Produit des efforts de plus en plus intenses ou de plus en plus longs selon l’épreuve.",
+        "Adapte avec justesse l’intensité de son engagement physique au type d’effort demandé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer qu’on ne court pas de la même façon un sprint et une course longue, et adapter son allure en conséquence ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-eff-03",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Produire une performance optimale mesurable",
+      "subdomain": "Se préparer, répéter et réguler un effort pour produire une performance",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Reconnaître et mémoriser ses sensations pendant l’effort",
+      "description": "Être attentif à ce que l’on ressent pendant l’effort, associer ces sensations à des actions ou des types d’effort, et s’en souvenir pour régler son action.",
+      "officialObjectives": [
+        "Identifier, associer et mémoriser des sensations liées à des actions ou à des types d’effort."
+      ],
+      "evidence": [
+        "Identifie les sensations corporelles éprouvées lors d’un effort.",
+        "Associe et mémorise des sensations liées à des actions ou à des types d’effort.",
+        "Reconnaît et anticipe ces sensations pour réguler ses actions."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire ce qu’on ressent dans son corps pendant une course longue et dire à quel moment il faut ralentir ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-csci-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Produire une performance optimale mesurable",
+      "subdomain": "S’approprier une culture sportive ouverte sur les sciences",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Appliquer les règles de pratique, d’hygiène et de sécurité",
+      "description": "Connaître et suivre les règles propres à la pratique de l’activité (règlement de l’épreuve), à l’hygiène et à la sécurité.",
+      "officialObjectives": [
+        "Connaitre et appliquer les règles relatives à la pratique, l’hygiène et la sécurité."
+      ],
+      "evidence": [
+        "Connaît les règles relatives à la pratique, à l’hygiène et à la sécurité.",
+        "Applique ces règles pendant la pratique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer une règle de sécurité à respecter sur une aire de lancer, et la respecter pendant la séance ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-csci-02",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Produire une performance optimale mesurable",
+      "subdomain": "S’approprier une culture sportive ouverte sur les sciences",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Recueillir des informations pour améliorer des performances",
+      "description": "Relever des informations (temps, distances, observations) sur sa performance ou celle d’un camarade et s’en servir pour comprendre comment progresser.",
+      "officialObjectives": [
+        "Recueillir et utiliser des informations pour comprendre et améliorer ses performances ou celles de ses camarades."
+      ],
+      "evidence": [
+        "Recueille des informations sur ses performances ou sur celles de ses camarades.",
+        "Utilise ces informations pour comprendre et améliorer une performance."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait relever les temps d’un camarade sur plusieurs essais et lui dire ce qui a changé lors de son essai le plus rapide ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-csci-03",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Produire une performance optimale mesurable",
+      "subdomain": "S’approprier une culture sportive ouverte sur les sciences",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Connaître ses performances",
+      "description": "Connaître ses propres résultats chiffrés (temps, distances) dans les épreuves pratiquées, pour savoir où l’on en est et chercher à progresser.",
+      "officialObjectives": [
+        "Connaitre ses performances."
+      ],
+      "evidence": [
+        "Connaît ses performances, mesurées dans le temps et dans l’espace.",
+        "Cherche à se dépasser pour améliorer ses performances."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait donner son meilleur temps sur une course de vitesse ou sa meilleure distance au saut en longueur ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-prog-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S’engager en sécurité et adapter son déplacement aux caractéristiques d’un environnement inhabituel",
+      "subdomain": "Acquérir des techniques de progression adaptées pour s’engager dans un environnement inhabituel",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Progresser avec des techniques simples en milieu inhabituel",
+      "description": "Dans un milieu inhabituel rendu facile (mur d’escalade, plan d’eau, parcours d’orientation…), utiliser des techniques simples pour se déplacer et apprivoiser les nouvelles sensations.",
+      "officialObjectives": [
+        "Construire des techniques simples de déplacement et appréhender de nouvelles sensations pour progresser dans un contexte de pratique facilitant."
+      ],
+      "evidence": [
+        "Utilise des techniques simples de déplacement adaptées au milieu, dans un contexte de pratique facilitant.",
+        "Ose s’engager dans un environnement inhabituel et déstabilisant.",
+        "Appréhende les nouvelles sensations liées à cet environnement."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait se déplacer en kayak ou sur un mur d’escalade facile en utilisant les gestes de base appris en séance ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-prog-02",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S’engager en sécurité et adapter son déplacement aux caractéristiques d’un environnement inhabituel",
+      "subdomain": "Acquérir des techniques de progression adaptées pour s’engager dans un environnement inhabituel",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Repérer ce qui, dans l’environnement, facilite le déplacement",
+      "description": "Observer l’environnement (prises d’un mur, relief, plan d’eau…) et choisir ce qui aide à se déplacer, dans un contexte rendu facile.",
+      "officialObjectives": [
+        "Dans un contexte de pratique facilitant, reconnaitre et sélectionner les caractéristiques principales de l'environnement favorisant le déplacement."
+      ],
+      "evidence": [
+        "Reconnaît les caractéristiques principales de l’environnement qui favorisent le déplacement.",
+        "Sélectionne celles qui l’aident à progresser."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer, avant de grimper, les prises les plus faciles d’une voie d’escalade et s’en servir pour monter ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-prog-03",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "S’engager en sécurité et adapter son déplacement aux caractéristiques d’un environnement inhabituel",
+      "subdomain": "Acquérir des techniques de progression adaptées pour s’engager dans un environnement inhabituel",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Reconnaître et réguler ses émotions pour s’engager",
+      "description": "Reconnaître les émotions fortes ressenties dans un milieu inhabituel (hauteur, eau, nature) et les gérer pour oser s’engager, dans un cadre sécurisé.",
+      "officialObjectives": [
+        "Reconnaitre et réguler ses émotions en contexte de pratique sécurisé pour s’engager dans l’activité."
+      ],
+      "evidence": [
+        "Reconnaît les émotions intenses ressenties dans un environnement inhabituel.",
+        "Régule ses émotions pour s’engager dans l’activité, en contexte de pratique sécurisé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qu’on ressent en haut d’un mur d’escalade, et se calmer pour continuer la voie en sécurité ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-prog-04",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S’engager en sécurité et adapter son déplacement aux caractéristiques d’un environnement inhabituel",
+      "subdomain": "Acquérir des techniques de progression adaptées pour s’engager dans un environnement inhabituel",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Valider l’attestation du savoir nager en sécurité (ASNS)",
+      "description": "Le « savoir nager » est un savoir sportif fondamental : à la fin de la 6e, chaque élève doit avoir validé l’attestation du savoir nager en sécurité (ASNS), qui atteste qu’il sait évoluer dans l’eau en assurant sa propre sécurité.",
+      "officialObjectives": [
+        "En fin de sixième les élèves doivent avoir validé l’attestation du savoir nager en sécurité (ASNS).",
+        "À la fin du cycle 3, l’attestation du « savoir nager » en sécurité fait l’objet d’une attention particulière."
+      ],
+      "evidence": [
+        "Valide l’attestation du savoir nager en sécurité (ASNS) au plus tard en fin de 6e.",
+        "S’engage dans le milieu aquatique en mobilisant des techniques de progression adaptées.",
+        "Assure son retour en sécurité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} a validé l’attestation du savoir nager en sécurité (ASNS), ou sait-on ce qu’il reste à travailler pour l’obtenir avant la fin de la 6e ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 8,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-itin-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S’engager en sécurité et adapter son déplacement aux caractéristiques d’un environnement inhabituel",
+      "subdomain": "Conduire et réguler un itinéraire pour exploiter ses ressources et les opportunités offertes par l’environnement",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Prévoir et réaliser un itinéraire",
+      "description": "Préparer un parcours (en course d’orientation, en randonnée, en VTT…) en tenant compte du terrain et de ses propres capacités, puis le réaliser.",
+      "officialObjectives": [
+        "Pour réaliser un itinéraire, prévoir et effectuer un déplacement en fonction du contexte de pratique et de ses ressources."
+      ],
+      "evidence": [
+        "Prévoit un déplacement en fonction du contexte de pratique et de ses ressources.",
+        "Effectue l’itinéraire prévu en prenant des décisions lucides et pertinentes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir sur une carte de course d’orientation un itinéraire adapté à ses capacités, puis le suivre ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-itin-02",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "S’engager en sécurité et adapter son déplacement aux caractéristiques d’un environnement inhabituel",
+      "subdomain": "Conduire et réguler un itinéraire pour exploiter ses ressources et les opportunités offertes par l’environnement",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Ajuster son déplacement pour assurer son retour en sécurité",
+      "description": "Modifier son déplacement en cours de route si nécessaire, pour rester en sécurité et toujours pouvoir revenir au point de départ.",
+      "officialObjectives": [
+        "Ajuster son déplacement pour respecter les conditions de sécurité et assurer son retour."
+      ],
+      "evidence": [
+        "Ajuste son déplacement pour respecter les conditions de sécurité.",
+        "Intègre le retour au point de départ comme un élément essentiel de sa sécurité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait renoncer à une balise trop lointaine en course d’orientation pour revenir à l’heure au point de départ ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-eco-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S’engager en sécurité et adapter son déplacement aux caractéristiques d’un environnement inhabituel",
+      "subdomain": "S’approprier une culture sportive ouverte sur une approche écoresponsable",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Évoluer collectivement en sécurité",
+      "description": "Connaître et appliquer les attitudes et les techniques qui permettent à un groupe d’évoluer en sécurité en pleine nature, en étant solidaire (par exemple au sein d’une cordée en escalade).",
+      "officialObjectives": [
+        "Acquérir des connaissances, des attitudes et des techniques pour évoluer collectivement en sécurité."
+      ],
+      "evidence": [
+        "Connaît et applique les attitudes et les techniques permettant d’évoluer collectivement en sécurité.",
+        "Coopère avec ses camarades, par exemple au sein d’une cordée, pour assurer la sécurité de tous."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, en escalade, coopérer avec son partenaire de cordée pour que chacun grimpe en sécurité ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-eco-02",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "S’engager en sécurité et adapter son déplacement aux caractéristiques d’un environnement inhabituel",
+      "subdomain": "S’approprier une culture sportive ouverte sur une approche écoresponsable",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Limiter l’impact de son déplacement sur l’environnement",
+      "description": "Se déplacer en pleine nature en préservant l’environnement : réduire les traces de son passage, respecter les lieux et la biodiversité.",
+      "officialObjectives": [
+        "Agir de manière à limiter l'empreinte de son déplacement sur l'environnement."
+      ],
+      "evidence": [
+        "Agit de manière à limiter l’empreinte de son déplacement sur l’environnement.",
+        "S’inscrit dans une démarche responsable et active de préservation de l’environnement."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer comment limiter la trace de son passage dans la nature lors d’une randonnée ou d’une course d’orientation ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-mexp-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Composer et réaliser une prestation corporelle destinée à être jugée ou appréciée",
+      "subdomain": "Acquérir une motricité expressive et une motricité acrobatique pour produire un effet sur un public ou un juge",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Tenir des postures pour créer des formes corporelles variées",
+      "description": "En acrosport, gymnastique, danse ou cirque, stabiliser des actions et des postures simples pour composer des formes corporelles inhabituelles et variées.",
+      "officialObjectives": [
+        "Stabiliser des actions et postures simples pour construire des formes corporelles inhabituelles et variées."
+      ],
+      "evidence": [
+        "Stabilise des actions et des postures simples.",
+        "Construit des formes corporelles inhabituelles et variées."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tenir immobile une posture d’acrosport à deux pendant quelques secondes ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-mexp-02",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Composer et réaliser une prestation corporelle destinée à être jugée ou appréciée",
+      "subdomain": "Acquérir une motricité expressive et une motricité acrobatique pour produire un effet sur un public ou un juge",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Oser des formes corporelles expressives et acrobatiques",
+      "description": "Oser, physiquement et émotionnellement, essayer de nouvelles formes expressives ou acrobatiques, dans un cadre sécurisé, et se produire devant un public.",
+      "officialObjectives": [
+        "Oser (physiquement et émotionnellement) expérimenter des formes corporelles expressives et acrobatiques dans un contexte sécurisé et sécurisant."
+      ],
+      "evidence": [
+        "Ose expérimenter, physiquement et émotionnellement, des formes corporelles expressives et acrobatiques.",
+        "Se produit devant un public en acceptant le regard d’autrui."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} ose essayer une nouvelle figure acrobatique avec l’aide d’un pareur, puis la montrer devant le groupe ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-mexp-03",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Composer et réaliser une prestation corporelle destinée à être jugée ou appréciée",
+      "subdomain": "Acquérir une motricité expressive et une motricité acrobatique pour produire un effet sur un public ou un juge",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Reconnaître les sensations liées aux postures",
+      "description": "Identifier ce que l’on ressent dans son corps selon la posture ou l’état de corps (tendu, relâché, en équilibre…) pour enrichir sa façon de bouger.",
+      "officialObjectives": [
+        "Identifier et reconnaitre des sensations associées à des postures ou des états de corps particuliers pour enrichir sa motricité."
+      ],
+      "evidence": [
+        "Identifie et reconnaît les sensations associées à des postures ou à des états de corps particuliers.",
+        "S’appuie sur ces sensations pour enrichir sa motricité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire la différence ressentie entre un corps gainé et un corps relâché lors d’un équilibre ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-comp-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Composer et réaliser une prestation corporelle destinée à être jugée ou appréciée",
+      "subdomain": "Imaginer et présenter une composition artistique et une composition acrobatique pour exprimer, communiquer et produire un effet",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Composer une prestation structurée avec des procédés simples",
+      "description": "Créer et refaire, seul ou en groupe, une composition artistique et acrobatique organisée, en utilisant des procédés de composition simples (comme la répétition, l’unisson ou la cascade déjà vus à l’école).",
+      "officialObjectives": [
+        "Produire et reproduire, individuellement ou collectivement, une composition artistique et acrobatique structurée utilisant des procédés de composition simples."
+      ],
+      "evidence": [
+        "Produit, individuellement ou collectivement, une composition artistique et acrobatique structurée.",
+        "Utilise des procédés de composition simples.",
+        "Reproduit la composition, seul ou avec ses partenaires.",
+        "Présente une prestation corporelle assumée et maîtrisée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait créer avec son groupe un court enchaînement d’acrosport ou de danse utilisant un procédé simple, comme l’unisson ou la cascade, et le refaire à l’identique ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-comp-02",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Composer et réaliser une prestation corporelle destinée à être jugée ou appréciée",
+      "subdomain": "Imaginer et présenter une composition artistique et une composition acrobatique pour exprimer, communiquer et produire un effet",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Mémoriser et reproduire une suite de formes corporelles",
+      "description": "Retenir une suite de formes corporelles simples placées dans l’espace et la refaire, seul ou avec ses partenaires.",
+      "officialObjectives": [
+        "Mémoriser une succession de formes corporelles simples dans l’espace et la reproduire, individuellement ou avec ses partenaires."
+      ],
+      "evidence": [
+        "Mémorise une succession de formes corporelles simples dans l’espace.",
+        "Reproduit cette succession, individuellement ou avec ses partenaires."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait refaire de mémoire, avec ses partenaires, une suite de figures d’acrosport dans le bon ordre ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-comp-03",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Composer et réaliser une prestation corporelle destinée à être jugée ou appréciée",
+      "subdomain": "Imaginer et présenter une composition artistique et une composition acrobatique pour exprimer, communiquer et produire un effet",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Choisir des figures adaptées à ses capacités",
+      "description": "Choisir, dans un code commun ou parmi des mouvements travaillés ensemble, des figures simples qui correspondent à ses capacités, pour pratiquer en sécurité.",
+      "officialObjectives": [
+        "Choisir et présenter, parmi un code commun ou des mouvements explorés collectivement, des formes corporelles simples en adéquation avec ses ressources pour une pratique sécurisée."
+      ],
+      "evidence": [
+        "Choisit, dans un code commun ou parmi des mouvements explorés collectivement, des formes corporelles simples adaptées à ses ressources.",
+        "Présente ces formes en assurant une pratique sécurisée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir dans la fiche de figures d’acrosport celles qui sont à sa portée, et expliquer pourquoi ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-comp-04",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Composer et réaliser une prestation corporelle destinée à être jugée ou appréciée",
+      "subdomain": "Imaginer et présenter une composition artistique et une composition acrobatique pour exprimer, communiquer et produire un effet",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Coopérer en proposant une aide (parer, observer)",
+      "description": "Aider ses camarades pendant la création ou la réalisation : parer (sécuriser une figure), observer, conseiller.",
+      "officialObjectives": [
+        "Coopérer avec ses pairs en leur proposant une aide."
+      ],
+      "evidence": [
+        "Propose une aide à ses partenaires pendant la composition ou la réalisation.",
+        "Assume des rôles au service du groupe : pareur, observateur, juge."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait parer un camarade pendant une figure acrobatique pour la sécuriser ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-carts-01",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Composer et réaliser une prestation corporelle destinée à être jugée ou appréciée",
+      "subdomain": "S’approprier une culture sportive ouverte sur le monde des arts",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Observer une prestation avec des indicateurs simples",
+      "description": "Regarder une prestation de façon attentive et respectueuse, en s’appuyant sur quelques critères précis, puis rendre compte de ce que l’on a observé.",
+      "officialObjectives": [
+        "Observer les prestations en s’appuyant sur des indicateurs simples et ciblés en étant attentif et respectueux pour en rendre compte."
+      ],
+      "evidence": [
+        "Observe une prestation en s’appuyant sur des indicateurs simples et ciblés.",
+        "Reste attentif et respectueux pendant la prestation.",
+        "Rend compte de ses observations."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait observer un enchaînement de gymnastique avec une grille de deux ou trois critères et rendre compte de ses observations ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-carts-02",
+      "programme": "eps-c3",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Composer et réaliser une prestation corporelle destinée à être jugée ou appréciée",
+      "subdomain": "S’approprier une culture sportive ouverte sur le monde des arts",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Découvrir des courants artistiques et des performances gymniques",
+      "description": "Découvrir des œuvres et des artistes (danse, cirque) ainsi que des performances gymniques et acrobatiques, pour enrichir sa culture.",
+      "officialObjectives": [
+        "Découvrir des courants artistiques et des performances gymniques acrobatiques pour développer sa culture."
+      ],
+      "evidence": [
+        "Découvre des courants artistiques et des performances gymniques acrobatiques.",
+        "S’appuie sur ces découvertes pour développer sa culture."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait présenter un spectacle de danse, de cirque ou une performance de gymnastique découverts en classe ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 9,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-tech-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Conduire et maitriser une confrontation collective ou interindividuelle pour coopérer et rechercher la victoire",
+      "subdomain": "Acquérir des habiletés technicotactiques pour prendre l’avantage dans le rapport de force",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Lire une trajectoire ou le déplacement adverse et s’y adapter",
+      "description": "Anticiper où va arriver la balle ou le volant et où va se déplacer l’adversaire, et s’y adapter quand on a encore un peu de temps pour réagir.",
+      "officialObjectives": [
+        "Lire et s’adapter à une trajectoire et à un déplacement de l’adversaire sous faible pression temporelle."
+      ],
+      "evidence": [
+        "Lit la trajectoire d’un projectile et s’y adapte.",
+        "Lit le déplacement de l’adversaire et s’y adapte.",
+        "Agit ainsi dans des situations sous faible pression temporelle."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, au badminton, se déplacer à l’avance vers l’endroit où le volant va retomber ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 10,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-tech-02",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Conduire et maitriser une confrontation collective ou interindividuelle pour coopérer et rechercher la victoire",
+      "subdomain": "Acquérir des habiletés technicotactiques pour prendre l’avantage dans le rapport de force",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Se placer en position favorable pour agir",
+      "description": "Se placer et se déplacer pour être au bon endroit et dans la bonne position avant d’agir (frapper, recevoir, attaquer).",
+      "officialObjectives": [
+        "Se placer et se déplacer pour être en position favorable pour agir."
+      ],
+      "evidence": [
+        "Se place et se déplace pour être en position favorable pour agir."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, au tennis de table, se déplacer pour être bien placé avant de frapper la balle ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 10,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-tech-03",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Conduire et maitriser une confrontation collective ou interindividuelle pour coopérer et rechercher la victoire",
+      "subdomain": "Acquérir des habiletés technicotactiques pour prendre l’avantage dans le rapport de force",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Enchaîner des actions pour réaliser une intention tactique",
+      "description": "Réaliser et enchaîner plusieurs actions techniques (passer, dribbler, frapper, saisir) pour mettre en œuvre ce que l’on a décidé de faire.",
+      "officialObjectives": [
+        "Réaliser des actions et les enchainer pour concrétiser des intentions tactiques."
+      ],
+      "evidence": [
+        "Réalise des actions et les enchaîne pour concrétiser une intention tactique.",
+        "Exploite des techniques spécifiques pour être plus précis, plus rapide et créer de l’incertitude pour l’adversaire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, au handball, enchaîner une réception, un dribble et un tir pour aller marquer ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 10,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-tact-01",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Conduire et maitriser une confrontation collective ou interindividuelle pour coopérer et rechercher la victoire",
+      "subdomain": "Concevoir et mettre en œuvre des projets tactiques pour prendre l’avantage dans un rapport de force",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Identifier et exploiter un point fort",
+      "description": "Repérer ce que l’on fait bien (ou ce que son équipe fait bien) et s’en servir pour prendre l’avantage sur l’adversaire.",
+      "officialObjectives": [
+        "Identifier et exploiter un point fort."
+      ],
+      "evidence": [
+        "Identifie un point fort, le sien ou celui de son équipe.",
+        "Exploite ce point fort pour faire basculer le rapport de force en sa faveur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quel est son meilleur coup au badminton ou au tennis de table et l’utiliser pour gagner des points ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 10,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-tact-02",
+      "programme": "eps-c3",
+      "type": "META",
+      "subject": "Éducation physique et sportive",
+      "domain": "Conduire et maitriser une confrontation collective ou interindividuelle pour coopérer et rechercher la victoire",
+      "subdomain": "Concevoir et mettre en œuvre des projets tactiques pour prendre l’avantage dans un rapport de force",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Exploiter les déséquilibres de l’adversaire",
+      "description": "Repérer les moments où l’adversaire est déséquilibré ou mal placé (espace libre, défenseur en retard) et en profiter pour tenter une action décisive.",
+      "officialObjectives": [
+        "Identifier et exploiter les déséquilibres adverses pour rechercher une action décisive."
+      ],
+      "evidence": [
+        "Identifie les déséquilibres adverses.",
+        "Exploite ces déséquilibres pour rechercher une action décisive."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer un espace laissé libre par l’adversaire et y envoyer la balle ou le volant ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 10,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-cit-01",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Conduire et maitriser une confrontation collective ou interindividuelle pour coopérer et rechercher la victoire",
+      "subdomain": "S’approprier une culture sportive ouverte sur une citoyenneté en actes",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Connaître, respecter et faire respecter les règles",
+      "description": "Connaître le règlement, le respecter en tant que joueur et le faire respecter en tant qu’arbitre, en recherchant la victoire tout en acceptant la défaite.",
+      "officialObjectives": [
+        "Connaitre, respecter et faire respecter les règles."
+      ],
+      "evidence": [
+        "Connaît et respecte les règles en tant que joueur.",
+        "Fait respecter les règles dans le rôle d’arbitre.",
+        "Recherche la victoire et accepte la défaite en respectant l’esprit du jeu, ses partenaires, ses adversaires et les arbitres."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait arbitrer un match de sport collectif en appliquant le règlement et en faisant accepter ses décisions ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 10,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    },
+    {
+      "id": "fr-eps-6e-cit-02",
+      "programme": "eps-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation physique et sportive",
+      "domain": "Conduire et maitriser une confrontation collective ou interindividuelle pour coopérer et rechercher la victoire",
+      "subdomain": "S’approprier une culture sportive ouverte sur une citoyenneté en actes",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Coopérer au sein d’un collectif",
+      "description": "Jouer pour son équipe : être solidaire, contribuer au projet collectif et tenir les rôles utiles au groupe (arbitre, observateur, conseiller).",
+      "officialObjectives": [
+        "Coopérer au sein d’un collectif."
+      ],
+      "evidence": [
+        "Coopère au sein d’un collectif pour réaliser un projet commun.",
+        "Fait preuve de solidarité et assume des rôles sociaux au service du groupe (arbitre, observateur, conseiller)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait jouer pour son équipe, par exemple en faisant des passes plutôt qu’en gardant le ballon, et conseiller un coéquipier ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+        "bo": "BO n° 22 du 28 mai 2026",
+        "page": 10,
+        "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-eps-cm-cour-02",
+      "prerequisiteId": "fr-eps-cm-cour-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Se relayer avec de la vitesse suppose de savoir courir vite."
+    },
+    {
+      "topicId": "fr-eps-cm-marq-01",
+      "prerequisiteId": "fr-eps-cm-opp-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Orienter ses déplacements vers la cible sert un projet d’action pour marquer."
+    },
+    {
+      "topicId": "fr-eps-cm-marq-01",
+      "prerequisiteId": "fr-eps-cm-opp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les choix tactiques simples (passer ou dribbler, pousser ou tirer) reposent sur des actions d’opposition maîtrisées."
+    },
+    {
+      "topicId": "fr-eps-cm-regl-02",
+      "prerequisiteId": "fr-eps-cm-regl-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Organiser le jeu avec d’autres suppose de connaître et faire respecter les règles."
+    },
+    {
+      "topicId": "fr-eps-cm-ench-01",
+      "prerequisiteId": "fr-eps-cm-terr-01",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Le programme indique que ce domaine mobilise les habiletés gymniques (rouler, voler, se renverser) construites dans le domaine des équilibres."
+    },
+    {
+      "topicId": "fr-eps-cm-emo-02",
+      "prerequisiteId": "fr-eps-cm-emo-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Avoir soi-même présenté en artiste aide à apprécier et conseiller la prestation d’un autre."
+    },
+    {
+      "topicId": "fr-eps-6e-perf-01",
+      "prerequisiteId": "fr-eps-cm-cour-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Construire des appuis efficaces prolonge la course de vitesse du cours moyen."
+    },
+    {
+      "topicId": "fr-eps-6e-perf-02",
+      "prerequisiteId": "fr-eps-cm-lanc-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Créer et transmettre des forces prolonge le lancer avec course d’élan."
+    },
+    {
+      "topicId": "fr-eps-6e-perf-03",
+      "prerequisiteId": "fr-eps-cm-saut-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Assurer la continuité entre élan et impulsion prolonge le saut avec course d’élan réduite."
+    },
+    {
+      "topicId": "fr-eps-6e-perf-03",
+      "prerequisiteId": "fr-eps-cm-cour-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La continuité du déplacement s’appuie sur la course avec franchissement sans ralentir."
+    },
+    {
+      "topicId": "fr-eps-6e-eff-02",
+      "prerequisiteId": "fr-eps-6e-eff-03",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Le programme précise que l’élève est attentif aux sensations éprouvées pour adapter l’intensité de son engagement."
+    },
+    {
+      "topicId": "fr-eps-6e-eff-02",
+      "prerequisiteId": "fr-eps-cm-cour-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Doser un effort long s’appuie sur la course longue gérée à l’aide de repères."
+    },
+    {
+      "topicId": "fr-eps-6e-csci-02",
+      "prerequisiteId": "fr-eps-cm-res-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Recueillir des informations sur une performance suppose de savoir la mesurer avec précision."
+    },
+    {
+      "topicId": "fr-eps-6e-csci-03",
+      "prerequisiteId": "fr-eps-cm-res-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Connaître ses performances suppose de savoir les mesurer."
+    },
+    {
+      "topicId": "fr-eps-6e-prog-01",
+      "prerequisiteId": "fr-eps-cm-terr-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les techniques de progression en escalade prolongent le déplacement coordonné sur une paroi."
+    },
+    {
+      "topicId": "fr-eps-6e-prog-04",
+      "prerequisiteId": "fr-eps-cm-nat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’attestation du savoir nager suppose d’accepter le déséquilibre et de se déplacer à l’horizontale dans l’eau."
+    },
+    {
+      "topicId": "fr-eps-6e-prog-03",
+      "prerequisiteId": "fr-eps-cm-secu-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Réguler ses émotions pour s’engager en sécurité prolonge l’attention à sa sécurité et à celle des autres."
+    },
+    {
+      "topicId": "fr-eps-6e-itin-01",
+      "prerequisiteId": "fr-eps-cm-orie-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prévoir un itinéraire s’appuie sur la capacité à s’orienter dans un espace partiellement connu."
+    },
+    {
+      "topicId": "fr-eps-6e-itin-02",
+      "prerequisiteId": "fr-eps-6e-itin-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Ajuster un déplacement suppose d’avoir prévu et engagé un itinéraire."
+    },
+    {
+      "topicId": "fr-eps-6e-eco-01",
+      "prerequisiteId": "fr-eps-cm-secu-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Évoluer collectivement en sécurité prolonge le fait d’agir en sécurité pour soi et pour les autres."
+    },
+    {
+      "topicId": "fr-eps-6e-mexp-01",
+      "prerequisiteId": "fr-eps-cm-terr-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les formes corporelles inhabituelles mobilisent des équilibres comme la position renversée."
+    },
+    {
+      "topicId": "fr-eps-6e-mexp-02",
+      "prerequisiteId": "fr-eps-cm-emo-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Oser se produire devant un public prolonge la posture d’artiste du cours moyen."
+    },
+    {
+      "topicId": "fr-eps-6e-comp-02",
+      "prerequisiteId": "fr-eps-cm-ench-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Mémoriser une succession de formes prolonge la mémorisation d’un enchaînement fluide."
+    },
+    {
+      "topicId": "fr-eps-6e-comp-01",
+      "prerequisiteId": "fr-eps-6e-comp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Reproduire une composition structurée suppose d’en mémoriser la succession de formes."
+    },
+    {
+      "topicId": "fr-eps-6e-comp-03",
+      "prerequisiteId": "fr-eps-6e-mexp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Choisir des formes adaptées à ses ressources suppose d’avoir stabilisé des postures simples."
+    },
+    {
+      "topicId": "fr-eps-6e-carts-01",
+      "prerequisiteId": "fr-eps-cm-emo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Observer avec des indicateurs prolonge l’appréciation précise d’une prestation au cours moyen."
+    },
+    {
+      "topicId": "fr-eps-6e-tech-01",
+      "prerequisiteId": "fr-eps-cm-opp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Lire une trajectoire et s’y adapter prolonge la coordination de plusieurs actions d’opposition."
+    },
+    {
+      "topicId": "fr-eps-6e-tech-02",
+      "prerequisiteId": "fr-eps-cm-opp-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Se placer en position favorable prolonge l’orientation de ses déplacements vers la cible."
+    },
+    {
+      "topicId": "fr-eps-6e-tech-03",
+      "prerequisiteId": "fr-eps-cm-opp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Enchaîner des actions au service d’une intention suppose de savoir coordonner plusieurs actions d’opposition."
+    },
+    {
+      "topicId": "fr-eps-6e-tech-03",
+      "prerequisiteId": "fr-eps-6e-tech-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Être en position favorable facilite l’enchaînement des actions."
+    },
+    {
+      "topicId": "fr-eps-6e-tact-01",
+      "prerequisiteId": "fr-eps-cm-marq-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Exploiter un point fort prolonge la conduite d’un projet d’action individuel ou collectif."
+    },
+    {
+      "topicId": "fr-eps-6e-tact-02",
+      "prerequisiteId": "fr-eps-6e-tech-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Repérer les déséquilibres adverses s’appuie sur la lecture des déplacements de l’adversaire."
+    },
+    {
+      "topicId": "fr-eps-6e-tact-02",
+      "prerequisiteId": "fr-eps-6e-tech-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Rechercher une action décisive suppose de savoir enchaîner des actions."
+    },
+    {
+      "topicId": "fr-eps-6e-cit-01",
+      "prerequisiteId": "fr-eps-cm-regl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Faire respecter les règles en 6e prolonge l’arbitrage du cours moyen."
+    },
+    {
+      "topicId": "fr-eps-6e-cit-02",
+      "prerequisiteId": "fr-eps-cm-regl-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Coopérer au sein d’un collectif prolonge la coopération dans l’organisation du jeu."
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

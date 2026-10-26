@@ -1,0 +1,114 @@
+{
+  "programme": "hda-c4",
+  "prerequisites": [
+    {
+      "topicId": "fr-hda-c4-comp-01",
+      "prerequisiteId": "fr-hda-c3-ana-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Spécificités des champs artistiques et lexique correspondant » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-hda-c4-comp-01",
+      "prerequisiteId": "fr-hda-c3-ana-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Décrire une œuvre en tenant compte de son matériau suppose d’identifier les matériaux et leur mise en forme (Cycle 3)"
+    },
+    {
+      "topicId": "fr-hda-c4-comp-02",
+      "prerequisiteId": "fr-hda-c3-sit-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Situer une œuvre dans une période et une aire géographique » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-hda-c4-comp-03",
+      "prerequisiteId": "fr-hda-c3-avis-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer un ressenti et un avis argumenté sur une œuvre » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-hda-c4-comp-03",
+      "prerequisiteId": "fr-hda-c3-ana-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Interpréter une œuvre suppose d’en dégager des éléments de sens (Cycle 3)"
+    },
+    {
+      "topicId": "fr-hda-c4-comp-04",
+      "prerequisiteId": "fr-hda-c3-sit-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Présenter des œuvres et en réaliser le cartel suppose de savoir lire et remplir une fiche signalétique (Cycle 3)"
+    },
+    {
+      "topicId": "fr-hda-c4-comp-05",
+      "prerequisiteId": "fr-hda-c3-rep-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Se repérer dans un musée grâce aux plans et aux indications » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-hda-c4-comp-05",
+      "prerequisiteId": "fr-hda-c3-rep-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « L’organisation d’un musée et ses métiers » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-hda-c4-att-01",
+      "prerequisiteId": "fr-hda-c3-sit-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier des œuvres d’une même époque à l’histoire, la géographie ou un texte » (Cycle 3)"
+    },
+    {
+      "topicId": "fr-hda-c4-att-01",
+      "prerequisiteId": "fr-hda-c3-sit-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer les transpositions d’un même texte à diverses époques prépare la notion de filiation"
+    },
+    {
+      "topicId": "fr-hda-c4-them-01",
+      "prerequisiteId": "fr-hda-c3-avis-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’illustration des mythes fondateurs suppose de connaître ces mythes (Cycle 3)"
+    },
+    {
+      "topicId": "fr-hda-c4-them-02",
+      "prerequisiteId": "fr-hda-c3-sit-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Musique et textes, enluminures : s’appuie sur la mise en relation d’un texte et de ses transpositions (Cycle 3)"
+    },
+    {
+      "topicId": "fr-hda-c4-them-04",
+      "prerequisiteId": "fr-hda-c3-sit-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier œuvres et objets mobiliers aux usages et modes de vie » (Cycle 3) : habitat, décor et mobilier"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "hda-c3": "2026-10-23",
+    "hda-c4": "2026-10-23"
+  }
+}

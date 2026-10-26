@@ -1,0 +1,277 @@
+{
+  "description": "Manifeste des PDF officiels : adresse, date de téléchargement et empreinte SHA-256. Sert à détecter une nouvelle version d'un programme (voir knowledge/notions-fr/outils/verifier_sources.py).",
+  "sources": {
+    "commun/emc-cp-terminale-BO24-2024.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%94%20Programme%20d%E2%80%99enseignement%20moral%20et%20civique%20du%20cours%20pr%C3%A9paratoire%20%C3%A0%20la%20classe%20terminale%20des%20voies%20g%C3%A9n%C3%A9rale%2C%20technologique%20et%20professionnelle%20et%20des%20classes%20pr%C3%A9parant%20au%20CAP-402159.pdf",
+      "bo": "BO n° 24 du 13 juin 2024",
+      "downloadedAt": "2026-10-22",
+      "sha256": "0f28566133a4d9b8a3da3ee5648fd3f2c1915fe25bea4d05aa8b9894a1544761",
+      "bytes": 1219253,
+      "pages": 31
+    },
+    "commun/evar-elementaire-BO6-2025.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Programme%20d%E2%80%99%C3%A9ducation%20%C3%A0%20la%20vie%20affective%20et%20relationnelle%20%C3%A0%20l%E2%80%99%C3%A9cole%20%C3%A9l%C3%A9mentaire-405261.pdf",
+      "bo": "BO n° 6 du 6 février 2025",
+      "downloadedAt": "2026-10-22",
+      "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc",
+      "bytes": 233541,
+      "pages": 18
+    },
+    "commun/evars-college-BO6-2025.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Programme%20d%E2%80%99%C3%A9ducation%20%C3%A0%20la%20vie%20affective%20et%20relationnelle%2C%20et%20%C3%A0%20la%20sexualit%C3%A9%20au%20coll%C3%A8ge-405264.pdf",
+      "bo": "BO n° 6 du 6 février 2025",
+      "downloadedAt": "2026-10-22",
+      "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f",
+      "bytes": 238326,
+      "pages": 19
+    },
+    "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Programme%20d%E2%80%99%C3%A9ducation%20%C3%A0%20la%20vie%20affective%20et%20relationnelle%20%C3%A0%20l%E2%80%99%C3%A9cole%20maternelle-405258.pdf",
+      "bo": "BO n° 6 du 6 février 2025",
+      "downloadedAt": "2026-10-22",
+      "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97",
+      "bytes": 243580,
+      "pages": 16
+    },
+    "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf": {
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-cycle-1-consolide-127565.pdf",
+      "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026 (version consolidée Éduscol)",
+      "downloadedAt": "2026-10-22",
+      "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a",
+      "bytes": 1006174,
+      "pages": 63
+    },
+    "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-1-programme-d-education-physique-et-sportive-cycle-2-516770.pdf",
+      "bo": "BO n° 22 du 28 mai 2026",
+      "downloadedAt": "2026-10-22",
+      "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259",
+      "bytes": 392849,
+      "pages": 16
+    },
+    "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%203%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20du%20cycle%202-403818.pdf",
+      "bo": "BO n° 41 du 31 octobre 2024",
+      "downloadedAt": "2026-10-22",
+      "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a",
+      "bytes": 1126508,
+      "pages": 22
+    },
+    "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-3-programme-d-histoire-geographie-cycle-2-516776.pdf",
+      "bo": "BO n° 22 du 28 mai 2026",
+      "downloadedAt": "2026-10-22",
+      "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762",
+      "bytes": 241461,
+      "pages": 8
+    },
+    "cycle-2-cp-ce1-ce2/langues-vivantes-c2-BO12-2026.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20langues%20vivantes%20%C3%A9trang%C3%A8res%20et%20r%C3%A9gionales%20pour%20le%20cycle%202%20-481187.pdf",
+      "bo": "BO n° 12 du 19 mars 2026",
+      "downloadedAt": "2026-10-22",
+      "sha256": "b3257eda417467b1788ea21e41c06211a7c0f6f9493e2eb8330691ed08f63cb9",
+      "bytes": 807137,
+      "pages": 34
+    },
+    "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%204%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20du%20cycle%202-403821.pdf",
+      "bo": "BO n° 41 du 31 octobre 2024",
+      "downloadedAt": "2026-10-22",
+      "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed",
+      "bytes": 1733229,
+      "pages": 38
+    },
+    "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf": {
+      "url": "https://cache.media.education.gouv.fr/file/31/88/5/ensel714_annexe1_1312885.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "downloadedAt": "2026-10-22",
+      "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881",
+      "bytes": 1113849,
+      "pages": 64
+    },
+    "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-1-programme-de-sciences-et-technologie-du-cycle-2-517289.pdf",
+      "bo": "BO n° 24 du 11 juin 2026",
+      "downloadedAt": "2026-10-22",
+      "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b",
+      "bytes": 7522736,
+      "pages": 12
+    },
+    "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-2-programme-d-education-physique-et-sportive-cycle-3-516773.pdf",
+      "bo": "BO n° 22 du 28 mai 2026",
+      "downloadedAt": "2026-10-22",
+      "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed",
+      "bytes": 306489,
+      "pages": 10
+    },
+    "cycle-3-cm1-cm2-6e/exemples-reussite/exemples-reussite-francais-6e-2025.pdf": {
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/exemplesmiseenoeuvre6e-francaispdf-111534.pdf",
+      "bo": "Éduscol, exemples de réussite 2025 (accompagne le BO n° 16 du 17 avril 2025)",
+      "downloadedAt": "2026-10-22",
+      "sha256": "021dbc47043a9cbc6b6a7fdfdf236a338fc2f616daf188aa5af77d53c5a31886",
+      "bytes": 938103,
+      "pages": 14
+    },
+    "cycle-3-cm1-cm2-6e/exemples-reussite/exemples-reussite-francais-cm1-2025.pdf": {
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/exemplesmiseenoeuvrecm1-francaispdf-111546.pdf",
+      "bo": "Éduscol, exemples de réussite 2025 (accompagne le BO n° 16 du 17 avril 2025)",
+      "downloadedAt": "2026-10-22",
+      "sha256": "fa8591c4a0a4fedc01152cff0ec59f17089ac1ec18b681c518a25f4de081e2ec",
+      "bytes": 894097,
+      "pages": 15
+    },
+    "cycle-3-cm1-cm2-6e/exemples-reussite/exemples-reussite-francais-cm2-2025.pdf": {
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/exemplesmiseenoeuvrecm2francaispdf-111540.pdf",
+      "bo": "Éduscol, exemples de réussite 2025 (accompagne le BO n° 16 du 17 avril 2025)",
+      "downloadedAt": "2026-10-22",
+      "sha256": "de72e0e2b3a59051cd5286f2da71296b54724e56e9b986c0b4f13a0d5025dc37",
+      "bytes": 871136,
+      "pages": 16
+    },
+    "cycle-3-cm1-cm2-6e/exemples-reussite/exemples-reussite-maths-6e-2025.pdf": {
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/exemplesmiseenoeuvre6e-mathpdf-111549.pdf",
+      "bo": "Éduscol, exemples de réussite 2025 (accompagne le BO n° 16 du 17 avril 2025)",
+      "downloadedAt": "2026-10-22",
+      "sha256": "431a72237d00d3e2c77e122b508e65ff1eb82bcd6a271360509b881f0a10648a",
+      "bytes": 1450346,
+      "pages": 21
+    },
+    "cycle-3-cm1-cm2-6e/exemples-reussite/exemples-reussite-maths-cm1-2025.pdf": {
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/exemplesmiseenoeuvrecm1mathspdf-111543.pdf",
+      "bo": "Éduscol, exemples de réussite 2025 (accompagne le BO n° 16 du 17 avril 2025)",
+      "downloadedAt": "2026-10-22",
+      "sha256": "9466d5ac076d2a2d2cafadb070e9df5bf06f76327a393eab160066f4d902fbae",
+      "bytes": 1593146,
+      "pages": 27
+    },
+    "cycle-3-cm1-cm2-6e/exemples-reussite/exemples-reussite-maths-cm2-2025.pdf": {
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/exemplesmiseenoeuvrecm2-mathpdf-111537.pdf",
+      "bo": "Éduscol, exemples de réussite 2025 (accompagne le BO n° 16 du 17 avril 2025)",
+      "downloadedAt": "2026-10-22",
+      "sha256": "fb749de5bcfc91689e75548c6aee8e968aa336de1a84145fc4e1043cd7f36881",
+      "bytes": 1656021,
+      "pages": 26
+    },
+    "cycle-3-cm1-cm2-6e/francais-c3-BO16-2025.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/programme-de-fran-ais-pour-le-cycle-3-439824.pdf",
+      "bo": "BO n° 16 du 17 avril 2025",
+      "downloadedAt": "2026-10-22",
+      "sha256": "e7c27f55c212b5ebb92ba8b60b6b1b0761a2301e7c0d0d780171c4cfb6e121ae",
+      "bytes": 342501,
+      "pages": 21
+    },
+    "cycle-3-cm1-cm2-6e/histoire-geo-c3-BO22-2026.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-4-programme-d-histoire-geographie-cycle-3-516779.pdf",
+      "bo": "BO n° 22 du 28 mai 2026",
+      "downloadedAt": "2026-10-22",
+      "sha256": "da8530cf06ab706f181fd83c524c4a0b30ac765d74955f8ae1102513b207daae",
+      "bytes": 416253,
+      "pages": 15
+    },
+    "cycle-3-cm1-cm2-6e/langues-vivantes-cm-BO12-2026.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20langues%20vivantes%20%C3%A9trang%C3%A8res%20et%20r%C3%A9gionales%20pour%20les%20classes%20de%20cours%20moyen%20%28cycle%203%29-481190.pdf",
+      "bo": "BO n° 12 du 19 mars 2026",
+      "downloadedAt": "2026-10-22",
+      "sha256": "5a2a35ac1ce93df468c52c3b335861a48f5b42c4c49c958dae3fb9b2b5cb4006",
+      "bytes": 312240,
+      "pages": 20
+    },
+    "cycle-3-cm1-cm2-6e/maths-c3-BO16-2025.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/programme-de-math-matiques-pour-le-cycle-3-439827.pdf",
+      "bo": "BO n° 16 du 17 avril 2025",
+      "downloadedAt": "2026-10-22",
+      "sha256": "f3f79a75ca8be7f54409b8b7cee3eafd769c23d12e6c822a253454e2c703b508",
+      "bytes": 527151,
+      "pages": 28
+    },
+    "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf": {
+      "url": "https://cache.media.education.gouv.fr/file/31/88/7/ensel714_annexe2_1312887.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "downloadedAt": "2026-10-22",
+      "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3",
+      "bytes": 1362419,
+      "pages": 98
+    },
+    "cycle-3-cm1-cm2-6e/sciences-techno-c3-BO24-2026.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-2-programme-de-sciences-et-technologie-du-cycle-3-517292.pdf",
+      "bo": "BO n° 24 du 11 juin 2026",
+      "downloadedAt": "2026-10-22",
+      "sha256": "066f97ef190f5f1cbc167773bcb7edf25fbcfe4b40c4b3a6a8aa863f174b1c7e",
+      "bytes": 18663426,
+      "pages": 18
+    },
+    "cycle-3-cm1-cm2-6e/sciences-techno-c3-BO25-2023.pdf": {
+      "url": "https://education.gouv.fr/sites/default/files/ensel-101_annexe_ok.pdf",
+      "bo": "BO n° 25 du 22 juin 2023",
+      "downloadedAt": "2026-10-22",
+      "sha256": "828c6940dd35d0a1d1902a2bc064e6cb368713b05805d8d65c73a4b191f348e4",
+      "bytes": 421461,
+      "pages": 15
+    },
+    "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf",
+      "bo": "BO n° 10 du 5 mars 2026",
+      "downloadedAt": "2026-10-22",
+      "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187",
+      "bytes": 231143,
+      "pages": 19
+    },
+    "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf",
+      "bo": "BO n° 10 du 5 mars 2026",
+      "downloadedAt": "2026-10-22",
+      "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9",
+      "bytes": 405199,
+      "pages": 20
+    },
+    "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf": {
+      "url": "https://cache.media.education.gouv.fr/file/31/89/1/ensel714_annexe3_1312891.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "downloadedAt": "2026-10-22",
+      "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb",
+      "bytes": 1781682,
+      "pages": 138
+    },
+    "cycle-4-5e-4e-3e/technologie-c4-BO9-2024.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%94%20Programme%20de%20technologie%20du%20cycle%204-368016.pdf",
+      "bo": "BO n° 9 du 29 février 2024",
+      "downloadedAt": "2026-10-22",
+      "sha256": "60ed416d187fe449ca2639bc0efe289af61d88a32b618e05f5e5ee7dd08a4086",
+      "bytes": 448106,
+      "pages": 16
+    },
+    "langues-vivantes-college/allemand-college-BO22-2025.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/annexe-1-programme-d-allemand-pour-les-classes-de-coll-ge-440355.pdf",
+      "bo": "BO n° 22 du 29 mai 2025",
+      "downloadedAt": "2026-10-22",
+      "sha256": "0726a63f13daf30debe33e056cc81469fe3ac5aa46da20ecfb2e24ab17f81e4c",
+      "bytes": 1671870,
+      "pages": 44
+    },
+    "langues-vivantes-college/anglais-college-BO22-2025.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/annexe-3-programme-d-anglais-pour-les-classes-de-coll-ge-440358.pdf",
+      "bo": "BO n° 22 du 29 mai 2025",
+      "downloadedAt": "2026-10-22",
+      "sha256": "2484ed439d3dc22aeba62f266f6de69f84d0ae563e64054e4bba2bb2c4735a6f",
+      "bytes": 1539169,
+      "pages": 36
+    },
+    "langues-vivantes-college/espagnol-college-BO22-2025.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/annexe-9-programme-d-espagnol-pour-les-classes-de-coll-ge-440373.pdf",
+      "bo": "BO n° 22 du 29 mai 2025",
+      "downloadedAt": "2026-10-22",
+      "sha256": "fc54fc61547863f03eb1526175bf144eb2fc4dee79190aed3e209b875515c4ff",
+      "bytes": 1402870,
+      "pages": 34
+    },
+    "langues-vivantes-college/italien-college-BO22-2025.pdf": {
+      "url": "https://www.education.gouv.fr/sites/default/files/annexe-13-programme-d-italien-pour-les-classes-de-coll-ge-440385.pdf",
+      "bo": "BO n° 22 du 29 mai 2025",
+      "downloadedAt": "2026-10-22",
+      "sha256": "fae520542860727061f2a32529188cd60c1c32bcc12aa649bfadb8d1207f335d",
+      "bytes": 1591577,
+      "pages": 38
+    }
+  }
+}

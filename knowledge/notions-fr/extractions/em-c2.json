@@ -1,0 +1,808 @@
+{
+  "programme": "em-c2",
+  "level": "multiple",
+  "themeCodes": {
+    "cha": "Chanter",
+    "eco": "Écouter, comparer",
+    "exp": "Explorer et imaginer",
+    "ech": "Échanger, partager"
+  },
+  "notions": [
+    {
+      "id": "fr-em-c2-cha-01",
+      "programme": "em-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Chanter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Reproduire un modèle mélodique ou rythmique",
+      "description": "Le professeur chante une courte mélodie ou propose un rythme ; l’enfant le reproduit le plus fidèlement possible, par imitation. C’est la base pour apprendre des chants et pour chanter juste.",
+      "officialObjectives": [
+        "Reproduire un modèle mélodique, rythmique."
+      ],
+      "evidence": [
+        "Reproduit par imitation un court modèle mélodique.",
+        "Reproduit un motif rythmique simple proposé en modèle.",
+        "Participe à des jeux vocaux d’imitation d’un modèle."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait répéter, juste après l’adulte, une courte phrase chantée, ou refaire un rythme simple frappé dans les mains ?",
+      "priorKnowledge": [
+        "Reproduire un motif mélodique en chantant, après plusieurs écoutes d’un extrait musical (GS, maternelle – Univers sonores)",
+        "Reproduire un rythme simple collectivement (MS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-cha-02",
+      "programme": "em-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Chanter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Chanter juste une mélodie simple",
+      "description": "Chanter juste, c’est retrouver les bonnes hauteurs de notes. Sur des mélodies simples, l’enfant cherche à chanter avec une intonation juste, sans aide ou avec la classe.",
+      "officialObjectives": [
+        "Chanter une mélodie simple avec une intonation juste."
+      ],
+      "evidence": [
+        "Chante une mélodie simple avec une intonation juste.",
+        "Recherche la justesse dans l’interprétation d’un chant."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait chanter sans aide le début d’un chant appris en classe en restant juste, sans « décrocher » de la mélodie ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-cha-03",
+      "programme": "em-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Chanter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Apprendre des comptines et des chants par imitation",
+      "description": "Les chants s’apprennent à l’oreille, en imitant le professeur, phrase après phrase. Chaque année, six à huit chants forment peu à peu le répertoire de la classe : sur le cycle, l’enfant se constitue ainsi un répertoire varié de chansons et de comptines.",
+      "officialObjectives": [
+        "Chanter une comptine, un chant par imitation.",
+        "Un répertoire varié de chansons et de comptines."
+      ],
+      "evidence": [
+        "Apprend une comptine ou un chant par imitation d’un modèle.",
+        "Chante de mémoire les chants du répertoire de la classe (six à huit chants dans l’année).",
+        "Connaît un répertoire varié de chansons et de comptines."
+      ],
+      "period": "chaque année du cycle : six à huit chants forment le répertoire de la classe",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait chanter de mémoire plusieurs chansons ou comptines apprises en classe cette année ?",
+      "priorKnowledge": [
+        "Dire ou chanter au moins dix comptines ou chants, en réinvestissant ceux appris les années antérieures (GS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-cha-04",
+      "programme": "em-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Chanter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Interpréter un chant avec expressivité",
+      "description": "Chanter, ce n’est pas seulement connaître les paroles et l’air : il faut aussi bien articuler le texte, respecter les phrases musicales et donner une intention au chant, joyeuse ou triste, douce ou forte.",
+      "officialObjectives": [
+        "Interpréter un chant avec expressivité (phrasé, articulation du texte) en respectant ses phrases musicales."
+      ],
+      "evidence": [
+        "Articule le texte du chant de façon compréhensible.",
+        "Respecte les phrases musicales du chant (phrasé).",
+        "Joue avec sa voix pour exprimer des sentiments (la tristesse, la joie, etc.) ou évoquer des personnages.",
+        "Mobilise sa voix au bénéfice d’une reproduction expressive."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait chanter un chant connu en articulant bien les paroles, une fois de façon joyeuse et une fois de façon triste ?",
+      "priorKnowledge": [
+        "Chanter avec les autres, en respectant le tempo et les nuances et avec une intention (GS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-cha-05",
+      "programme": "em-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Chanter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Mobiliser son corps pour interpréter un chant",
+      "description": "Gestes, déplacements et mouvements accompagnent le chant et aident à l’interpréter. L’enfant apprend à mettre son corps en mouvement en lien avec la musique.",
+      "officialObjectives": [
+        "Mobiliser son corps pour interpréter."
+      ],
+      "evidence": [
+        "Met son corps en mouvement pour accompagner l’interprétation d’un chant.",
+        "Imite les gestes d’un modèle en chantant."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait accompagner un chant de la classe avec des gestes ou des déplacements qui vont avec la musique ?",
+      "priorKnowledge": [
+        "Explorer des enchainements d’émotions par le corps et la voix (GS, maternelle – Spectacle vivant)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-cha-06",
+      "programme": "em-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Chanter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Respirer, articuler et se tenir pour bien chanter",
+      "description": "Pour bien chanter, il faut une bonne respiration, une articulation nette et une posture adaptée (pieds ancrés dans le sol, épaules détendues, tête droite). Ces habitudes corporelles s’acquièrent peu à peu.",
+      "officialObjectives": [
+        "Éléments constitutifs d’une production vocale : respiration, articulation, posture du corps."
+      ],
+      "evidence": [
+        "Adopte une posture du corps adaptée pour chanter.",
+        "Gère sa respiration en chantant.",
+        "Articule les paroles en chantant.",
+        "Acquiert des habitudes corporelles pour chanter."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait se placer pour chanter (tête droite, épaules détendues), prendre sa respiration avant une phrase et bien articuler les mots ?",
+      "priorKnowledge": [
+        "Adopter progressivement une posture adaptée pour chanter : pieds ancrés dans le sol, genoux débloqués, épaules et bras détendus, tête droite (cycle 1, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-cha-07",
+      "programme": "em-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Chanter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Explorer sa voix : voix parlée et chantée, aigu et grave",
+      "description": "La voix peut parler ou chanter, aller vers l’aigu ou vers le grave. Par des jeux vocaux, l’enfant explore ces possibilités et apprend à les distinguer.",
+      "officialObjectives": [
+        "Les principaux registres vocaux : voix parlée/chantée, aigu, grave."
+      ],
+      "evidence": [
+        "Expérimente sa voix parlée et chantée et explore ses paramètres.",
+        "Distingue la voix parlée et la voix chantée et passe de l’une à l’autre.",
+        "Produit avec sa voix des sons aigus et des sons graves.",
+        "Participe à des jeux vocaux mobilisant les diverses possibilités de la voix."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire une phrase en voix parlée puis la chanter, et faire sa voix la plus aiguë puis la plus grave ?",
+      "priorKnowledge": [
+        "Développer et affirmer son inventivité avec sa voix (GS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-cha-08",
+      "programme": "em-c2",
+      "type": "LANGUAGE",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Chanter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Employer le vocabulaire de la voix : fort, doux, aigu, grave, juste, faux",
+      "description": "Pour parler de la voix et du chant, l’enfant apprend des mots précis : fort ou doux, aigu ou grave, juste ou faux.",
+      "officialObjectives": [
+        "Éléments de vocabulaire concernant l’usage musical de la voix : fort, doux, aigu, grave, faux, juste, etc."
+      ],
+      "evidence": [
+        "Emploie les mots fort, doux, aigu, grave, faux, juste pour décrire une voix ou un chant.",
+        "Qualifie sa production vocale ou celle d’un camarade avec ce vocabulaire."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si une voix entendue chante fort ou doucement, dans l’aigu ou dans le grave, juste ou faux ?",
+      "priorKnowledge": [
+        "Reproduire avec sa voix, par imitation, des sons brefs, tenus, graves, aigus et avec des variations de volume (MS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-eco-01",
+      "programme": "em-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Écouter, comparer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Décrire et comparer des sons, y compris ceux de la nature",
+      "description": "Le vent, un oiseau, un instrument, une voix : l’enfant écoute des sons de toute nature, les décrit, les compare, repère ce qu’ils ont en commun ou ce qui les oppose, et repère aussi des suites musicales. Écouter de façon attentive et précise s’apprend.",
+      "officialObjectives": [
+        "Décrire et comparer des éléments sonores ; repérer, y compris dans la nature, des sons et des suites musicales ; identifier des éléments communs et contrastés."
+      ],
+      "evidence": [
+        "Décrit et compare des éléments sonores de toute nature.",
+        "Repère, y compris dans la nature, des sons et des suites musicales.",
+        "Identifie, caractérise et trie des éléments perçus lors d’écoutes comparées de brefs extraits musicaux.",
+        "Identifie des éléments communs et contrastés entre des sons ou des extraits.",
+        "Met en œuvre les conditions d’une écoute attentive et précise."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, après avoir écouté deux bruits ou deux courts extraits, dire ce qui est pareil et ce qui est différent (plus fort, plus aigu, plus long…) ?",
+      "priorKnowledge": [
+        "Écouter une œuvre musicale patrimoniale pour repérer des éléments musicaux significatifs (GS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-eco-02",
+      "programme": "em-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Écouter, comparer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Repérer une organisation simple dans une musique",
+      "description": "Dans une musique, des éléments reviennent : une mélodie, un motif rythmique, un thème. L’enfant apprend à repérer ces retours, ce qui aide à comprendre comment une musique est construite.",
+      "officialObjectives": [
+        "Repérer une organisation simple : récurrence d’une mélodie, d’un motif rythmique, d’un thème, etc."
+      ],
+      "evidence": [
+        "Repère le retour d’une mélodie, d’un motif rythmique ou d’un thème dans un bref extrait musical.",
+        "Identifie, lors d’écoutes comparées de brefs extraits, les éléments qui reviennent et ceux qui changent."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lever la main chaque fois qu’un même air revient dans un court extrait musical écouté en classe ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-eco-03",
+      "programme": "em-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Écouter, comparer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Comparer des musiques : ressemblances et différences",
+      "description": "En écoutant deux musiques, par exemple de styles ou d’époques différents, l’enfant dit ce qui les rapproche et ce qui les distingue : instruments, vitesse, caractère…",
+      "officialObjectives": [
+        "Comparer des musiques et identifier des ressemblances et des différences."
+      ],
+      "evidence": [
+        "Compare de brefs extraits musicaux lors d’écoutes comparées.",
+        "Identifie des ressemblances et des différences entre deux musiques."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qui se ressemble et ce qui change entre deux musiques écoutées en classe, par exemple la vitesse ou les instruments ?",
+      "priorKnowledge": [
+        "Après plusieurs écoutes d’un extrait musical, décrire le rythme (lent, rapide), identifier les voix, les nuances (GS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-eco-04",
+      "programme": "em-c2",
+      "type": "LANGUAGE",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Écouter, comparer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Utiliser un lexique simple pour décrire la musique",
+      "description": "Timbre (le « son » propre à un instrument ou à une voix), hauteur (aigu ou grave), intensité (fort ou doux), tempo (vitesse), formes simples (ce qui revient, ce qui change) : quelques mots précis suffisent pour décrire une musique.",
+      "officialObjectives": [
+        "Lexique élémentaire pour décrire la musique : timbre, hauteur, formes simples, intensité, tempo."
+      ],
+      "evidence": [
+        "Emploie les mots timbre, hauteur, intensité et tempo pour décrire un extrait musical.",
+        "Caractérise un extrait écouté : rapide ou lent, fort ou doux, aigu ou grave.",
+        "Décrit la forme simple d’un extrait : ce qui revient, ce qui change."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire un court extrait musical avec quelques mots précis, par exemple dire s’il est rapide ou lent (tempo), fort ou doux (intensité) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-eco-05",
+      "programme": "em-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Écouter, comparer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Connaître quelques grandes œuvres du patrimoine musical",
+      "description": "Chaque année, six à huit œuvres écoutées forment peu à peu le répertoire d’écoute de la classe. L’enfant apprend à reconnaître quelques grandes œuvres du patrimoine musical.",
+      "officialObjectives": [
+        "Quelques grandes œuvres du patrimoine."
+      ],
+      "evidence": [
+        "Reconnaît quelques grandes œuvres du patrimoine écoutées en classe.",
+        "Connaît les œuvres qui forment progressivement le répertoire de la classe (six à huit œuvres dans l’année)."
+      ],
+      "period": "chaque année du cycle : six à huit œuvres forment le répertoire de la classe",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître, en l’entendant, une œuvre écoutée plusieurs fois en classe et en dire le titre ou le compositeur ?",
+      "priorKnowledge": [
+        "Connaitre au moins trois œuvres musicales patrimoniales (GS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-eco-06",
+      "programme": "em-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Écouter, comparer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Situer simplement une musique dans l’espace et dans le temps",
+      "description": "Une musique vient d’un lieu et d’une époque. Les œuvres écoutées, choisies dans des styles et des époques variés, donnent de premiers repères : musique d’ici ou d’ailleurs, d’autrefois ou d’aujourd’hui.",
+      "officialObjectives": [
+        "Repères simples dans l’espace et le temps."
+      ],
+      "evidence": [
+        "Situe une œuvre écoutée par des repères simples dans l’espace et dans le temps.",
+        "Distingue des œuvres de styles et d’époques divers."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si une musique écoutée en classe vient plutôt d’autrefois ou d’aujourd’hui, d’ici ou d’un autre pays ?",
+      "priorKnowledge": [
+        "Écouter des contes musicaux, des opéras, des musiques du monde appartenant à différents styles, cultures et époques (GS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-exp-01",
+      "programme": "em-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Explorer et imaginer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Expérimenter et nommer les paramètres du son",
+      "description": "Un son peut être fort ou doux (intensité), aigu ou grave (hauteur), long ou court (durée), et chaque son a un « timbre » qui le rend reconnaissable. Avec la voix, le corps ou de petits instruments, l’enfant fait varier ces paramètres et apprend à les nommer.",
+      "officialObjectives": [
+        "Expérimenter les paramètres du son : intensité, hauteur, timbre, durée.",
+        "Éléments de vocabulaire liés aux paramètres du son (intensité, durée, hauteur, timbre)."
+      ],
+      "evidence": [
+        "Fait varier l’intensité, la hauteur, le timbre et la durée d’un son avec sa voix ou un objet sonore.",
+        "Utilise des objets sonores (petites percussions, lames sonores, etc.) pour explorer les sons.",
+        "Nomme le paramètre qui change entre deux sons : intensité, durée, hauteur ou timbre."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait jouer un même son plus fort puis plus doux, plus long puis plus court sur une petite percussion, et dire ce qui a changé ?",
+      "priorKnowledge": [
+        "Explorer le lien entre le son et le geste (GS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-exp-02",
+      "programme": "em-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Explorer et imaginer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Représenter la musique par un dessin ou par le corps",
+      "description": "Un son long peut devenir un trait, un son bref un point ; une musique douce invite à des gestes lents. L’enfant imagine des façons de représenter la musique par des signes graphiques ou par des mouvements.",
+      "officialObjectives": [
+        "Imaginer des représentations graphiques ou corporelles de la musique."
+      ],
+      "evidence": [
+        "Réalise une représentation graphique d’un passage musical.",
+        "Traduit une musique par des mouvements du corps.",
+        "Invente des signes pour représenter des sons entendus."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, en écoutant un court passage musical, le dessiner avec des traits, des points ou des lignes, ou le traduire par des gestes ?",
+      "priorKnowledge": [
+        "Traduire la musique entendue en dessin (GS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-exp-03",
+      "programme": "em-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Explorer et imaginer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Inventer une organisation simple avec des sons",
+      "description": "À partir de sons déjà explorés, venant de matériaux sonores très divers (voix, corps, objets, petites percussions…), l’enfant invente un petit enchaînement : choisir des sons, décider de leur ordre, les faire se répéter ou alterner.",
+      "officialObjectives": [
+        "Inventer une organisation simple à partir d’éléments sonores travaillés.",
+        "Diversité des matériaux sonores."
+      ],
+      "evidence": [
+        "Imagine une organisation simple de sons et maîtrise leur succession.",
+        "Crée des sons avec des matériaux sonores variés (voix, objets sonores, petites percussions, lames sonores).",
+        "Utilise des objets sonores pour enrichir une réalisation collective."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait inventer une courte suite de sons avec quelques objets ou petites percussions, par exemple pour évoquer un personnage, et la rejouer dans le même ordre ?",
+      "priorKnowledge": [
+        "Créer un paysage sonore en répondant à une consigne simple avec son corps, des objets ou des instruments (GS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-exp-04",
+      "programme": "em-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Explorer et imaginer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Adopter la posture du musicien : écouter, respecter, jouer ensemble",
+      "description": "Faire de la musique à plusieurs demande d’écouter les autres, de respecter chacun et de jouer ensemble, au bon moment.",
+      "officialObjectives": [
+        "Postures du musicien : écouter, respecter l’autre, jouer ensemble."
+      ],
+      "evidence": [
+        "Écoute les autres pendant une réalisation musicale collective.",
+        "Respecte l’autre et joue ensemble avec la classe ou un petit groupe.",
+        "Met en œuvre les conditions d’une écoute attentive et précise."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, dans un petit groupe qui joue de petites percussions, écouter les autres et jouer ensemble sans couvrir les camarades ?",
+      "priorKnowledge": [
+        "Trouver sa place dans un collectif chantant (GS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 33,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-ech-01",
+      "programme": "em-c2",
+      "type": "LANGUAGE",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Échanger, partager",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Exprimer ses émotions et ses préférences musicales",
+      "description": "Après une écoute ou un chant, l’enfant dit ce que la musique fait ressentir, ce qui plaît ou non, et pourquoi, avec des mots adaptés pour donner un avis.",
+      "officialObjectives": [
+        "Exprimer ses émotions, ses sentiments et ses préférences artistiques.",
+        "Vocabulaire adapté à l’expression de son avis."
+      ],
+      "evidence": [
+        "Exprime et partage avec les autres son ressenti, ses émotions, ses sentiments.",
+        "Exprime ses préférences artistiques et exerce son esprit critique en les justifiant.",
+        "Emploie un vocabulaire adapté pour exprimer son avis."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, après l’écoute d’un extrait, si la musique évoque la joie, la tristesse ou la peur, et expliquer ce qui plaît ou non ?",
+      "priorKnowledge": [
+        "Exprimer ses émotions après l’écoute d’un extrait musical (MS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 34,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-ech-02",
+      "programme": "em-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Échanger, partager",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Écouter et respecter l’avis et la sensibilité des autres",
+      "description": "Chacun réagit différemment à une musique. L’enfant apprend à écouter l’avis des autres et à respecter leurs goûts, même quand ils sont différents.",
+      "officialObjectives": [
+        "Écouter et respecter l’avis des autres et l’expression de leur sensibilité."
+      ],
+      "evidence": [
+        "Écoute l’avis des autres lors d’un échange sur une musique.",
+        "Respecte les goûts et les points de vue de chacun, même différents de ses propres goûts."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écouter un camarade qui n’aime pas la même musique, sans se moquer, et reconnaître que chacun peut avoir un avis différent ?",
+      "priorKnowledge": [
+        "Dire ce que l’on a aimé ou pas dans un spectacle et écouter ce que disent les camarades (MS, maternelle – Spectacle vivant)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 34,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-em-c2-ech-03",
+      "programme": "em-c2",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Connaissances et compétences associées",
+      "subdomain": "Échanger, partager",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Respecter les règles d’une production musicale collective",
+      "description": "Chanter ou jouer à plusieurs demande de la concentration, de l’écoute et du respect, et suppose de suivre des règles communes, par exemple commencer et s’arrêter ensemble.",
+      "officialObjectives": [
+        "Respecter les règles et les exigences d’une production musicale collective.",
+        "Conditions d’un travail collectif : concentration, écoute, respect, etc.",
+        "Règles et contraintes du travail collectif."
+      ],
+      "evidence": [
+        "Respecte les règles et les exigences d’une production musicale collective.",
+        "Fait preuve de concentration, d’écoute et de respect pendant un travail collectif.",
+        "Tient compte des contraintes du travail collectif pour contribuer à une production de la classe."
+      ],
+      "period": "chaque année du cycle, par des sollicitations régulières",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, pendant un chant en chœur, garder sa concentration, écouter les autres et respecter les consignes du groupe ?",
+      "priorKnowledge": [
+        "Créer collectivement une production musicale (GS, maternelle – Univers sonores)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 34,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-em-c2-cha-02",
+      "prerequisiteId": "fr-em-c2-cha-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Chanter juste suppose de savoir reproduire un modèle mélodique."
+    },
+    {
+      "topicId": "fr-em-c2-cha-03",
+      "prerequisiteId": "fr-em-c2-cha-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Apprendre un chant par imitation s’appuie sur la reproduction d’un modèle."
+    },
+    {
+      "topicId": "fr-em-c2-cha-04",
+      "prerequisiteId": "fr-em-c2-cha-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "On interprète un chant qu’on connaît."
+    },
+    {
+      "topicId": "fr-em-c2-cha-04",
+      "prerequisiteId": "fr-em-c2-cha-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le phrasé et l’articulation du texte reposent sur la respiration et l’articulation."
+    },
+    {
+      "topicId": "fr-em-c2-cha-05",
+      "prerequisiteId": "fr-em-c2-cha-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Accompagner un chant par le corps suppose de connaître ce chant."
+    },
+    {
+      "topicId": "fr-em-c2-cha-08",
+      "prerequisiteId": "fr-em-c2-cha-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Nommer aigu et grave s’appuie sur l’exploration de ces registres de la voix."
+    },
+    {
+      "topicId": "fr-em-c2-eco-02",
+      "prerequisiteId": "fr-em-c2-eco-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Repérer ce qui revient dans une musique s’appuie sur la description des éléments sonores."
+    },
+    {
+      "topicId": "fr-em-c2-eco-03",
+      "prerequisiteId": "fr-em-c2-eco-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer des musiques prolonge la comparaison d’éléments sonores."
+    },
+    {
+      "topicId": "fr-em-c2-eco-03",
+      "prerequisiteId": "fr-em-c2-eco-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le lexique élémentaire permet de formuler ressemblances et différences."
+    },
+    {
+      "topicId": "fr-em-c2-eco-04",
+      "prerequisiteId": "fr-em-c2-exp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le lexique pour décrire la musique reprend les paramètres du son."
+    },
+    {
+      "topicId": "fr-em-c2-eco-06",
+      "prerequisiteId": "fr-em-c2-eco-05",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme précise que les œuvres écoutées posent de premiers repères dans l’espace et dans le temps."
+    },
+    {
+      "topicId": "fr-em-c2-exp-02",
+      "prerequisiteId": "fr-em-c2-exp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Représenter un son par un signe ou un geste suppose d’en percevoir la durée, la hauteur ou l’intensité."
+    },
+    {
+      "topicId": "fr-em-c2-exp-03",
+      "prerequisiteId": "fr-em-c2-exp-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme parle d’« éléments sonores travaillés » : l’invention part de sons déjà explorés."
+    },
+    {
+      "topicId": "fr-em-c2-exp-03",
+      "prerequisiteId": "fr-em-c2-eco-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Repérer une organisation simple dans une musique aide à en inventer une."
+    },
+    {
+      "topicId": "fr-em-c2-ech-03",
+      "prerequisiteId": "fr-em-c2-exp-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La posture du musicien (écouter, respecter l’autre, jouer ensemble) prépare la production collective."
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

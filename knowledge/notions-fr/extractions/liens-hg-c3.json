@@ -1,0 +1,172 @@
+{
+  "programme": "hg-c3",
+  "prerequisites": [
+    {
+      "topicId": "fr-hg-cm1-moy-01",
+      "prerequisiteId": "fr-qm-ce2-long-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la frise et les repères acquis au cycle 2 suivent la classe au cycle 3 pour être remobilisés et approfondis ; Prolonge « Repérer les grandes périodes de l’histoire » (CE2)"
+    },
+    {
+      "topicId": "fr-hg-cm1-moy-01",
+      "prerequisiteId": "fr-qm-c2-tps-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Repérer la période du XIe au XIIIe siècle suppose de savoir ce qu’est un siècle"
+    },
+    {
+      "topicId": "fr-hg-cm1-moy-01",
+      "prerequisiteId": "fr-ma-ce2-num-09",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Placer 476 et 1492 sur une frise graduée, c’est placer des nombres sur une demi-droite graduée"
+    },
+    {
+      "topicId": "fr-hg-cm1-moy-02",
+      "prerequisiteId": "fr-qm-ce2-mdv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S’appuie sur la découverte de la vie de personnages d’autrefois (paysanne, artisan, soldat…)"
+    },
+    {
+      "topicId": "fr-hg-cm1-moy-03",
+      "prerequisiteId": "fr-qm-ce2-mdv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « La vie des hommes et des femmes à travers l’histoire » (CE2)"
+    },
+    {
+      "topicId": "fr-hg-cm1-mon-01",
+      "prerequisiteId": "fr-qm-ce2-long-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la frise et les repères acquis au cycle 2 suivent la classe au cycle 3 pour être remobilisés et approfondis ; Prolonge « Quelques personnages et dates clés de l’histoire » (CE2)"
+    },
+    {
+      "topicId": "fr-hg-cm1-rev-02",
+      "prerequisiteId": "fr-emc-ce1-symb-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les idées de liberté et d’égalité s’appuient sur le sens des mots de la devise républicaine"
+    },
+    {
+      "topicId": "fr-hg-cm1-exp-01",
+      "prerequisiteId": "fr-qm-ce2-long-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « L’évolution des modes de vie et des techniques à travers les époques » (CE2)"
+    },
+    {
+      "topicId": "fr-hg-cm1-exp-02",
+      "prerequisiteId": "fr-qm-c2-glob-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que le planisphère, les cartes et les repères spatiaux acquis au cycle 2 sont régulièrement remobilisés au cycle 3 ; Prolonge « Situer sa région, la France, l’Europe et les continents » (Cycle 2)"
+    },
+    {
+      "topicId": "fr-hg-cm1-nour-01",
+      "prerequisiteId": "fr-qm-ce2-mdv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Les modes de vie dans des lieux emblématiques du monde » (CE2)"
+    },
+    {
+      "topicId": "fr-hg-cm1-nour-01",
+      "prerequisiteId": "fr-qm-ce2-mdv-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S’appuie sur le lien entre alimentation et milieu de vie vu au CE2"
+    },
+    {
+      "topicId": "fr-hg-cm1-nour-02",
+      "prerequisiteId": "fr-qm-c2-glob-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que le planisphère, les cartes et les repères spatiaux acquis au cycle 2 sont régulièrement remobilisés au cycle 3 ; Prolonge « Situer un lieu étudié sur une carte, un globe ou un écran » (Cycle 2)"
+    },
+    {
+      "topicId": "fr-hg-cm1-nour-02",
+      "prerequisiteId": "fr-qm-c2-glob-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Choisir des pays sur deux continents différents suppose de savoir repérer les continents"
+    },
+    {
+      "topicId": "fr-hg-cm1-nour-03",
+      "prerequisiteId": "fr-qm-c2-sante-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Savoir d’où viennent les aliments (plante, animal) aide à reconnaître un produit agricole"
+    },
+    {
+      "topicId": "fr-hg-cm1-ineg-01",
+      "prerequisiteId": "fr-qm-ce2-mdv-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S’appuie sur la comparaison des modes de vie dans différentes régions du monde"
+    },
+    {
+      "topicId": "fr-hg-cm1-ineg-02",
+      "prerequisiteId": "fr-qm-c2-glob-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que le planisphère, les cartes et les repères spatiaux acquis au cycle 2 sont régulièrement remobilisés au cycle 3 ; Prolonge « Situer sa région, la France, l’Europe et les continents » (Cycle 2)"
+    },
+    {
+      "topicId": "fr-hg-cm1-depl-01",
+      "prerequisiteId": "fr-qm-c2-mdv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer des modes de vie à partir de critères » (Cycle 2)"
+    },
+    {
+      "topicId": "fr-hg-cm1-depl-02",
+      "prerequisiteId": "fr-ma-ce2-lon-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Exprimer la longueur d’un trajet en kilomètres"
+    },
+    {
+      "topicId": "fr-hg-cm1-depl-02",
+      "prerequisiteId": "fr-ma-ce2-tps-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Exprimer un trajet par sa durée suppose de mesurer et comparer des durées"
+    },
+    {
+      "topicId": "fr-hg-cm1-depl-03",
+      "prerequisiteId": "fr-qm-c2-mdv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S’appuie sur la comparaison des modes de vie, dont les façons de se déplacer"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "emc": "2026-10-23",
+    "hg-c3": "2026-10-23",
+    "maths-c2": "2026-10-22",
+    "qlm-c2": "2026-10-23"
+  }
+}

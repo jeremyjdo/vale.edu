@@ -1,0 +1,2178 @@
+{
+  "programme": "maths-c4",
+  "prerequisites": [
+    {
+      "topicId": "fr-ma-5e-ope-01",
+      "prerequisiteId": "fr-ma-6e-num-20",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes avec des multiplications de nombres décimaux » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-01",
+      "prerequisiteId": "fr-ma-6e-num-22",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes de division décimale (valeur d’une part, nombre de parts) » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-02",
+      "prerequisiteId": "fr-ma-6e-num-19",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Contrôler un résultat avec un ordre de grandeur » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-02",
+      "prerequisiteId": "fr-ma-6e-num-15",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Additionner et soustraire des nombres décimaux » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-03",
+      "prerequisiteId": "fr-ma-6e-num-21",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Diviser un nombre décimal par un entier inférieur à 10 » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-03",
+      "prerequisiteId": "fr-ma-6e-num-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "On multiplie dividende et diviseur par 10, 100… pour se ramener à un diviseur entier"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-04",
+      "prerequisiteId": "fr-ma-6e-num-20",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes avec des multiplications de nombres décimaux » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-05",
+      "prerequisiteId": "fr-ma-cm2-alg-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire soi-même un programme de calcul » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-05",
+      "prerequisiteId": "fr-ma-6e-info-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Un programme de calcul se lit comme une suite d’instructions à mettre dans l’ordre"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-07",
+      "prerequisiteId": "fr-ma-cm2-ope-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer une expression avec une ou deux paires de parenthèses » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-08",
+      "prerequisiteId": "fr-ma-cm2-cmp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser la distributivité pour calculer de tête (12 × 42…) » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-08",
+      "prerequisiteId": "fr-ma-6e-num-18",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les exemples numériques de distributivité demandent de calculer des produits de décimaux"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-09",
+      "prerequisiteId": "fr-ma-cm2-num-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver des diviseurs d’un nombre jusqu’à 100 » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-09",
+      "prerequisiteId": "fr-ma-6e-num-23",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Un diviseur se reconnaît à un reste nul dans la division euclidienne"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-09",
+      "prerequisiteId": "fr-ma-cm2-num-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les critères de divisibilité par 2, 5 et 10 servent à repérer des diviseurs"
+    },
+    {
+      "topicId": "fr-ma-5e-ope-11",
+      "prerequisiteId": "fr-ma-6e-info-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exécuter une séquence d’instructions » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-rel-01",
+      "prerequisiteId": "fr-ma-6e-num-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les nombres relatifs étendent les nombres décimaux connus en 6e"
+    },
+    {
+      "topicId": "fr-ma-5e-rel-05",
+      "prerequisiteId": "fr-ma-6e-num-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer un nombre décimal sur une demi-droite graduée » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-rel-05",
+      "prerequisiteId": "fr-ma-6e-num-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire l’abscisse décimale d’un point d’une demi-droite graduée » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-rel-06",
+      "prerequisiteId": "fr-ma-6e-num-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Ranger une liste de nombres décimaux » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-rel-07",
+      "prerequisiteId": "fr-ma-6e-num-15",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Additionner et soustraire des nombres décimaux » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-rat-01",
+      "prerequisiteId": "fr-ma-6e-fra-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer et encadrer des fractions » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-rat-02",
+      "prerequisiteId": "fr-ma-6e-fra-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Additionner et soustraire des fractions » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-rat-03",
+      "prerequisiteId": "fr-ma-6e-fra-14",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre des problèmes avec des fractions » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-rat-04",
+      "prerequisiteId": "fr-ma-6e-num-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Passer d’une écriture d’un nombre décimal à une autre » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-pui-01",
+      "prerequisiteId": "fr-ma-6e-num-18",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Un carré ou un cube est un produit de facteurs égaux"
+    },
+    {
+      "topicId": "fr-ma-5e-pui-01",
+      "prerequisiteId": "fr-ma-6e-vol-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le cube d’un nombre s’interprète comme le volume d’un cube"
+    },
+    {
+      "topicId": "fr-ma-5e-lit-01",
+      "prerequisiteId": "fr-ma-6e-alg-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier la structure d’un motif évolutif » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-lit-01",
+      "prerequisiteId": "fr-ma-6e-air-05",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": false,
+      "reason": "Les formules d’aire de 6e sont un premier usage de la lettre comme variable (le BO le rappelle)"
+    },
+    {
+      "topicId": "fr-ma-5e-lit-11",
+      "prerequisiteId": "fr-ma-6e-alg-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre des problèmes avec des modèles pré-algébriques » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-lit-12",
+      "prerequisiteId": "fr-ma-6e-fra-04",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Prolonge « Compléter des égalités à trous multiplicatives » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-lit-13",
+      "prerequisiteId": "fr-ma-6e-fra-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Compléter des égalités à trous multiplicatives » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-rep-01",
+      "prerequisiteId": "fr-ma-6e-num-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer un nombre décimal sur une demi-droite graduée » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-rep-01",
+      "prerequisiteId": "fr-ma-6e-fra-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer une fraction sur une demi-droite graduée » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-esp-01",
+      "prerequisiteId": "fr-ma-6e-esp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître les solides usuels (automatisme) » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-esp-02",
+      "prerequisiteId": "fr-ma-cm2-sol-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître un patron de pavé » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-5e-esp-03",
+      "prerequisiteId": "fr-ma-6e-vol-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Déterminer un volume » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-esp-03",
+      "prerequisiteId": "fr-ma-6e-air-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le volume d’un pavé ou d’un prisme se calcule à partir de l’aire de sa base"
+    },
+    {
+      "topicId": "fr-ma-5e-esp-04",
+      "prerequisiteId": "fr-ma-6e-vol-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître l’unité centimètre cube » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-esp-04",
+      "prerequisiteId": "fr-ma-cm2-gdm-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Convertir des capacités s’appuie sur les relations entre unités de contenance"
+    },
+    {
+      "topicId": "fr-ma-5e-esp-05",
+      "prerequisiteId": "fr-ma-6e-air-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer l’aire d’un carré ou d’un rectangle » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-esp-05",
+      "prerequisiteId": "fr-ma-6e-lon-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La formule de l’aire du disque réutilise π et le rayon, vus avec le périmètre"
+    },
+    {
+      "topicId": "fr-ma-5e-esp-06",
+      "prerequisiteId": "fr-ma-6e-vol-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Déterminer un volume » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-esp-07",
+      "prerequisiteId": "fr-ma-6e-esp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Passer d’un assemblage de cubes à ses représentations planes » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-esp-07",
+      "prerequisiteId": "fr-ma-6e-esp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dénombrer les cubes d’un assemblage » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-tra-01",
+      "prerequisiteId": "fr-ma-6e-geo-23",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Symétrique d’un point par rapport à une droite » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-tra-02",
+      "prerequisiteId": "fr-ma-6e-geo-24",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire des symétriques avec les propriétés de la symétrie axiale » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-tra-03",
+      "prerequisiteId": "fr-ma-6e-geo-24",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire des symétriques avec les propriétés de la symétrie axiale » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-ang-01",
+      "prerequisiteId": "fr-ma-6e-geo-13",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Angles adjacents, opposés par le sommet, supplémentaires » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-ang-01",
+      "prerequisiteId": "fr-ma-6e-geo-16",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Définition de la bissectrice d’un angle » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-tri-01",
+      "prerequisiteId": "fr-ma-6e-geo-20",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Somme des angles d’un triangle (180°) » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-tri-01",
+      "prerequisiteId": "fr-ma-6e-geo-19",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Angles des triangles rectangle, isocèle et équilatéral » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-tri-03",
+      "prerequisiteId": "fr-ma-6e-geo-18",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire des triangles » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-tri-03",
+      "prerequisiteId": "fr-ma-6e-geo-15",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Construire un triangle à partir d’un angle demande de tracer un angle de mesure donnée"
+    },
+    {
+      "topicId": "fr-ma-5e-tri-04",
+      "prerequisiteId": "fr-ma-6e-geo-22",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Cercle circonscrit à un triangle » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-tri-05",
+      "prerequisiteId": "fr-ma-6e-air-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer l’aire d’un carré ou d’un rectangle » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-tri-06",
+      "prerequisiteId": "fr-ma-6e-geo-18",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir construire un triangle pour y tracer ses hauteurs"
+    },
+    {
+      "topicId": "fr-ma-5e-tri-07",
+      "prerequisiteId": "fr-ma-6e-geo-21",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comme les médiatrices, les hauteurs se coupent en un même point"
+    },
+    {
+      "topicId": "fr-ma-5e-tri-08",
+      "prerequisiteId": "fr-ma-6e-geo-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Une médiane joint un sommet au milieu du côté opposé"
+    },
+    {
+      "topicId": "fr-ma-5e-tri-10",
+      "prerequisiteId": "fr-ma-6e-geo-19",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut connaître les triangles isocèle, équilatéral et rectangle et leurs angles"
+    },
+    {
+      "topicId": "fr-ma-5e-para-01",
+      "prerequisiteId": "fr-ma-6e-geo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître un carré, un rectangle, un triangle (automatisme) » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-para-01",
+      "prerequisiteId": "fr-ma-cm2-geo-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La définition du parallélogramme repose sur le parallélisme des côtés opposés"
+    },
+    {
+      "topicId": "fr-ma-5e-para-02",
+      "prerequisiteId": "fr-ma-6e-lon-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le compas sert à reporter les longueurs des côtés"
+    },
+    {
+      "topicId": "fr-ma-5e-para-02",
+      "prerequisiteId": "fr-ma-6e-geo-15",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Construire un parallélogramme à partir d’un angle demande de tracer un angle de mesure donnée"
+    },
+    {
+      "topicId": "fr-ma-5e-para-03",
+      "prerequisiteId": "fr-ma-6e-geo-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les diagonales d’un parallélogramme se coupent en leur milieu"
+    },
+    {
+      "topicId": "fr-ma-5e-para-07",
+      "prerequisiteId": "fr-ma-6e-air-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer l’aire d’un carré ou d’un rectangle » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-para-07",
+      "prerequisiteId": "fr-ma-6e-air-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Découper et recoller transforme un parallélogramme en rectangle de même aire"
+    },
+    {
+      "topicId": "fr-ma-5e-para-08",
+      "prerequisiteId": "fr-ma-6e-lon-08",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Même démarche de décomposition qu’avec les périmètres de figures composées"
+    },
+    {
+      "topicId": "fr-ma-5e-para-09",
+      "prerequisiteId": "fr-ma-6e-air-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Effectuer des conversions d’aire » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-para-09",
+      "prerequisiteId": "fr-ma-6e-lon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Convertir une longueur en mètre et inversement (automatisme) » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-stat-01",
+      "prerequisiteId": "fr-ma-6e-don-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Planifier une enquête et recueillir des données » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-stat-01",
+      "prerequisiteId": "fr-ma-6e-don-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire un tableau simple pour présenter des données » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-stat-02",
+      "prerequisiteId": "fr-ma-6e-pct-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Une fréquence est une proportion, exprimée aussi en pourcentage"
+    },
+    {
+      "topicId": "fr-ma-5e-stat-03",
+      "prerequisiteId": "fr-ma-6e-don-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire un tableau ou un graphique simple (automatisme) » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-stat-04",
+      "prerequisiteId": "fr-ma-6e-don-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire un tableau simple pour présenter des données » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-stat-04",
+      "prerequisiteId": "fr-ma-cm2-don-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter des données en diagramme en barres ou en points dans un repère » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-5e-stat-05",
+      "prerequisiteId": "fr-ma-6e-geo-15",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Chaque secteur se trace comme un angle de mesure donnée"
+    },
+    {
+      "topicId": "fr-ma-5e-stat-07",
+      "prerequisiteId": "fr-ma-6e-num-21",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La moyenne se calcule en divisant la somme par l’effectif"
+    },
+    {
+      "topicId": "fr-ma-5e-prb-01",
+      "prerequisiteId": "fr-ma-6e-prb-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Prolonge « Une probabilité est un nombre entre 0 et 1 » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-prb-03",
+      "prerequisiteId": "fr-ma-6e-prb-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Prolonge « Calculer une probabilité quand toutes les issues ont la même chance » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-prb-04",
+      "prerequisiteId": "fr-ma-6e-prb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer fréquences observées et probabilité calculée » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-prop-01",
+      "prerequisiteId": "fr-ma-6e-pct-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer une proportion et l’exprimer en pourcentage » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-prop-02",
+      "prerequisiteId": "fr-ma-6e-pct-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Appliquer un pourcentage à une grandeur ou à un nombre » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-prop-03",
+      "prerequisiteId": "fr-ma-6e-prop-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître une situation de proportionnalité » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-prop-04",
+      "prerequisiteId": "fr-ma-6e-prop-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Choisir la procédure adaptée pour un problème de proportionnalité » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-prop-04",
+      "prerequisiteId": "fr-ma-6e-prop-09",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Une échelle est un exemple de coefficient de proportionnalité"
+    },
+    {
+      "topicId": "fr-ma-5e-prop-05",
+      "prerequisiteId": "fr-ma-6e-prop-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Représenter une situation de proportionnalité (tableau, flèches) » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-fct-02",
+      "prerequisiteId": "fr-ma-6e-don-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Un tableau de valeurs se construit comme un tableau de données"
+    },
+    {
+      "topicId": "fr-ma-5e-fct-03",
+      "prerequisiteId": "fr-ma-6e-don-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Lire un tableau de valeurs s’appuie sur la lecture de tableaux simples"
+    },
+    {
+      "topicId": "fr-ma-5e-fct-05",
+      "prerequisiteId": "fr-ma-6e-don-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire un tableau ou un graphique simple (automatisme) » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-info-01",
+      "prerequisiteId": "fr-ma-6e-info-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Prolonge « Identifier une instruction ou une séquence d’instructions » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-info-01",
+      "prerequisiteId": "fr-ma-6e-info-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Prolonge « Produire une séquence d’instructions » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-info-02",
+      "prerequisiteId": "fr-ma-6e-info-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Identifier une instruction ou une séquence d’instructions » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-info-07",
+      "prerequisiteId": "fr-ma-6e-info-04",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Prolonge « Répéter une séquence d’instructions à la main » (6e)"
+    },
+    {
+      "topicId": "fr-ma-5e-info-07",
+      "prerequisiteId": "fr-ma-6e-info-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Programmer un chemin simple fait déjà répéter des déplacements"
+    },
+    {
+      "topicId": "fr-ma-4e-rel-01",
+      "prerequisiteId": "fr-ma-5e-rel-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Soustraire deux nombres relatifs » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rel-02",
+      "prerequisiteId": "fr-ma-5e-rel-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Additionner plusieurs nombres relatifs » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rel-02",
+      "prerequisiteId": "fr-ma-5e-ope-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La règle des signes pour deux facteurs négatifs se justifie par la distributivité"
+    },
+    {
+      "topicId": "fr-ma-4e-rel-02",
+      "prerequisiteId": "fr-ma-5e-ope-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les produits s’appuient sur les tables de multiplication entretenues en 5e"
+    },
+    {
+      "topicId": "fr-ma-4e-rel-03",
+      "prerequisiteId": "fr-ma-5e-ope-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Diviser par un nombre décimal » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rel-04",
+      "prerequisiteId": "fr-ma-5e-rel-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Enchaîner additions et soustractions de relatifs » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rel-04",
+      "prerequisiteId": "fr-ma-5e-rel-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir quand les parenthèses sont indispensables"
+    },
+    {
+      "topicId": "fr-ma-4e-rel-05",
+      "prerequisiteId": "fr-ma-5e-ope-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nommer un calcul : somme, produit, termes et facteurs » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rel-05",
+      "prerequisiteId": "fr-ma-5e-ope-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Traduire un problème ou un programme de calcul en une expression » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rat-01",
+      "prerequisiteId": "fr-ma-5e-rat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Additionner et soustraire des fractions de dénominateurs quelconques » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rat-01",
+      "prerequisiteId": "fr-ma-5e-rat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer des fractions » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rat-02",
+      "prerequisiteId": "fr-ma-5e-rat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer des fractions » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rat-02",
+      "prerequisiteId": "fr-ma-5e-ope-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les critères de divisibilité aident à trouver un diviseur commun"
+    },
+    {
+      "topicId": "fr-ma-4e-rat-03",
+      "prerequisiteId": "fr-ma-5e-lit-13",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre ax = c ou x + b = c avec les opérations inverses » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rat-03",
+      "prerequisiteId": "fr-ma-5e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Un rationnel est le quotient de deux entiers relatifs"
+    },
+    {
+      "topicId": "fr-ma-4e-rat-04",
+      "prerequisiteId": "fr-ma-5e-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Opposé et valeur absolue d’un nombre » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rat-05",
+      "prerequisiteId": "fr-ma-5e-prop-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Appliquer une proportion ou un pourcentage » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rat-07",
+      "prerequisiteId": "fr-ma-5e-lit-13",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’inverse de a est le nombre quotient qui complète a × … = 1"
+    },
+    {
+      "topicId": "fr-ma-4e-rat-09",
+      "prerequisiteId": "fr-ma-5e-ope-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Diviser par un nombre décimal » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rat-11",
+      "prerequisiteId": "fr-ma-5e-rat-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes avec additions et soustractions de fractions » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-pui-01",
+      "prerequisiteId": "fr-ma-5e-pui-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Cube de 10 » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-pui-01",
+      "prerequisiteId": "fr-ma-5e-pui-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un nombre sous forme de carré ou de cube » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-pui-04",
+      "prerequisiteId": "fr-ma-5e-pui-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer des expressions numériques avec des puissances » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rac-01",
+      "prerequisiteId": "fr-ma-5e-pui-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La racine carrée de 49 se trouve en connaissant les carrés parfaits"
+    },
+    {
+      "topicId": "fr-ma-4e-rac-01",
+      "prerequisiteId": "fr-ma-5e-pui-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir écrire un nombre sous la forme d’un carré"
+    },
+    {
+      "topicId": "fr-ma-4e-lit-01",
+      "prerequisiteId": "fr-ma-5e-lit-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Réduire une expression de la forme ax + b » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-lit-02",
+      "prerequisiteId": "fr-ma-5e-lit-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Produire des formules » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-lit-02",
+      "prerequisiteId": "fr-ma-5e-lit-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Tester une formule demande de la calculer en remplaçant les lettres"
+    },
+    {
+      "topicId": "fr-ma-4e-lit-03",
+      "prerequisiteId": "fr-ma-5e-lit-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Développer avec k(a + b) = ka + kb » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-lit-03",
+      "prerequisiteId": "fr-ma-5e-lit-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut reconnaître un produit pour savoir quoi développer"
+    },
+    {
+      "topicId": "fr-ma-4e-lit-04",
+      "prerequisiteId": "fr-ma-5e-lit-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Factoriser avec ka + kb = k(a + b) » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-lit-05",
+      "prerequisiteId": "fr-ma-5e-lit-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Démontrer une propriété générale par le calcul littéral » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-lit-05",
+      "prerequisiteId": "fr-ma-5e-lit-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser un contre-exemple pour prouver qu’une affirmation est fausse » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-lit-06",
+      "prerequisiteId": "fr-ma-5e-lit-13",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre ax = c ou x + b = c avec les opérations inverses » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-lit-08",
+      "prerequisiteId": "fr-ma-5e-lit-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Mettre en équation un problème : ax = c ou x + b = c » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-lit-09",
+      "prerequisiteId": "fr-ma-5e-lit-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Formuler des conjectures avec un algorithme ou un tableur » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-lit-09",
+      "prerequisiteId": "fr-ma-5e-lit-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut tester si une valeur rend l’égalité vraie"
+    },
+    {
+      "topicId": "fr-ma-4e-tra-01",
+      "prerequisiteId": "fr-ma-5e-tra-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Propriétés du demi-tour » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rep-01",
+      "prerequisiteId": "fr-ma-5e-rel-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire et placer des nombres relatifs sur une droite graduée » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rep-01",
+      "prerequisiteId": "fr-ma-5e-rep-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire et placer un point sur une droite graduée » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-rep-02",
+      "prerequisiteId": "fr-ma-5e-rep-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire et placer un point dans un repère orthogonal » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-esp-01",
+      "prerequisiteId": "fr-ma-5e-tri-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Aire d’un triangle » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-esp-01",
+      "prerequisiteId": "fr-ma-5e-esp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Aire du disque » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-esp-01",
+      "prerequisiteId": "fr-ma-5e-para-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Aire d’un parallélogramme » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-esp-02",
+      "prerequisiteId": "fr-ma-5e-esp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Volume du cube, du pavé droit et du prisme droit » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-esp-02",
+      "prerequisiteId": "fr-ma-5e-esp-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Volume du cylindre de révolution » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-esp-02",
+      "prerequisiteId": "fr-ma-5e-esp-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Unités de volume et de capacité : connaître et convertir » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-esp-03",
+      "prerequisiteId": "fr-ma-5e-esp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Représenter des solides en perspective cavalière » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-esp-04",
+      "prerequisiteId": "fr-ma-5e-esp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier perspective cavalière et patron d’un solide » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-par-01",
+      "prerequisiteId": "fr-ma-5e-tra-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Définir le demi-tour (symétrie centrale) » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-par-01",
+      "prerequisiteId": "fr-ma-5e-tra-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire le symétrique par symétrie axiale (automatisme) » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-par-02",
+      "prerequisiteId": "fr-ma-5e-para-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Propriétés caractéristiques des parallélogrammes particuliers » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-par-03",
+      "prerequisiteId": "fr-ma-5e-tra-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Définir le demi-tour (symétrie centrale) » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-par-04",
+      "prerequisiteId": "fr-ma-5e-para-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’image d’un segment par translation forme un parallélogramme"
+    },
+    {
+      "topicId": "fr-ma-4e-par-04",
+      "prerequisiteId": "fr-ma-5e-ang-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les angles correspondants et alternes-internes caractérisent le parallélisme"
+    },
+    {
+      "topicId": "fr-ma-4e-par-05",
+      "prerequisiteId": "fr-ma-5e-tra-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Propriétés du demi-tour » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-tri-01",
+      "prerequisiteId": "fr-ma-5e-tri-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Hauteurs d’un triangle : définir et tracer » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-tri-01",
+      "prerequisiteId": "fr-ma-5e-tri-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Médianes d’un triangle : définir et tracer » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-tri-01",
+      "prerequisiteId": "fr-ma-5e-tri-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Médiatrices et cercle circonscrit des triangles particuliers » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-tri-01",
+      "prerequisiteId": "fr-ma-5e-ang-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Vocabulaire et mesures de référence des angles (automatisme) » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-tri-02",
+      "prerequisiteId": "fr-ma-5e-ang-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La démonstration du parallélisme s’appuie sur les angles"
+    },
+    {
+      "topicId": "fr-ma-4e-tri-02",
+      "prerequisiteId": "fr-ma-5e-para-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les preuves passent par les propriétés des diagonales du parallélogramme"
+    },
+    {
+      "topicId": "fr-ma-4e-tri-02",
+      "prerequisiteId": "fr-ma-5e-tra-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les preuves utilisent les propriétés du demi-tour"
+    },
+    {
+      "topicId": "fr-ma-4e-tri-03",
+      "prerequisiteId": "fr-ma-5e-tri-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut reconnaître un triangle rectangle sur un schéma codé"
+    },
+    {
+      "topicId": "fr-ma-4e-tri-05",
+      "prerequisiteId": "fr-ma-5e-lit-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser un contre-exemple pour prouver qu’une affirmation est fausse » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-tri-06",
+      "prerequisiteId": "fr-ma-5e-tri-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Médiatrices et cercle circonscrit des triangles particuliers » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-tri-08",
+      "prerequisiteId": "fr-ma-5e-para-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser une propriété caractéristique pour construire ou reconnaître » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-sta-01",
+      "prerequisiteId": "fr-ma-5e-stat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer des effectifs et des fréquences » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-sta-01",
+      "prerequisiteId": "fr-ma-5e-stat-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer et interpréter une moyenne » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-sta-02",
+      "prerequisiteId": "fr-ma-5e-stat-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les données pondérées sont souvent lues dans un tableau"
+    },
+    {
+      "topicId": "fr-ma-4e-sta-03",
+      "prerequisiteId": "fr-ma-5e-rel-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut ranger les valeurs dans l’ordre croissant"
+    },
+    {
+      "topicId": "fr-ma-4e-sta-04",
+      "prerequisiteId": "fr-ma-5e-stat-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut lire les valeurs extrêmes dans un tableau ou un diagramme"
+    },
+    {
+      "topicId": "fr-ma-4e-sta-08",
+      "prerequisiteId": "fr-ma-5e-stat-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le tableur a déjà servi en 5e à représenter des données"
+    },
+    {
+      "topicId": "fr-ma-4e-prb-01",
+      "prerequisiteId": "fr-ma-5e-prb-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Vocabulaire des probabilités : expérience aléatoire, issue, évènement » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-prb-03",
+      "prerequisiteId": "fr-ma-5e-prb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Attribuer des probabilités en situation d’équiprobabilité » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-prb-05",
+      "prerequisiteId": "fr-ma-5e-prb-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Répéter une expérience aléatoire et noter effectifs et fréquences » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-prb-05",
+      "prerequisiteId": "fr-ma-5e-stat-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les distributions se comparent sur des diagrammes"
+    },
+    {
+      "topicId": "fr-ma-4e-prb-06",
+      "prerequisiteId": "fr-ma-5e-prb-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Répéter une expérience aléatoire et noter effectifs et fréquences » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-prop-01",
+      "prerequisiteId": "fr-ma-5e-prop-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser un coefficient de proportionnalité » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-prop-02",
+      "prerequisiteId": "fr-ma-5e-prop-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer une proportion ou un pourcentage » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-prop-03",
+      "prerequisiteId": "fr-ma-5e-prop-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître la proportionnalité dans un tableau ou un graphique » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-prop-03",
+      "prerequisiteId": "fr-ma-5e-rat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Une égalité de rapports est une égalité de fractions"
+    },
+    {
+      "topicId": "fr-ma-4e-prop-05",
+      "prerequisiteId": "fr-ma-5e-prop-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer une proportion ou un pourcentage » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-prop-05",
+      "prerequisiteId": "fr-ma-5e-prop-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Appliquer une proportion ou un pourcentage » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-prop-07",
+      "prerequisiteId": "fr-ma-5e-prop-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Partager proportionnellement revient à calculer des proportions"
+    },
+    {
+      "topicId": "fr-ma-4e-fct-01",
+      "prerequisiteId": "fr-ma-5e-ope-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Traduire un problème ou un programme de calcul en une expression » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-fct-01",
+      "prerequisiteId": "fr-ma-5e-lit-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Appliquer le programme à une variable puis à un nombre passe par la substitution"
+    },
+    {
+      "topicId": "fr-ma-4e-fct-02",
+      "prerequisiteId": "fr-ma-5e-lit-13",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Remonter un programme utilise les opérations inverses"
+    },
+    {
+      "topicId": "fr-ma-4e-fct-03",
+      "prerequisiteId": "fr-ma-5e-fct-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Produire une formule de dépendance entre deux grandeurs » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-fct-03",
+      "prerequisiteId": "fr-ma-5e-fct-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Passer d’une formule à un tableau de valeurs » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-fct-04",
+      "prerequisiteId": "fr-ma-5e-fct-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut reconnaître graphiquement une situation de proportionnalité"
+    },
+    {
+      "topicId": "fr-ma-4e-fct-05",
+      "prerequisiteId": "fr-ma-5e-fct-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Employer l’expression « en fonction de » » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-fct-05",
+      "prerequisiteId": "fr-ma-5e-fct-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire et interpréter un graphique cartésien » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-fct-05",
+      "prerequisiteId": "fr-ma-5e-fct-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire et interpréter un tableau de valeurs » (5e)"
+    },
+    {
+      "topicId": "fr-ma-4e-info-01",
+      "prerequisiteId": "fr-ma-5e-info-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Une condition s’écrit avec des blocs opérateurs, comme une formule"
+    },
+    {
+      "topicId": "fr-ma-4e-info-02",
+      "prerequisiteId": "fr-ma-5e-info-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut prévoir la valeur d’une expression pour savoir si la condition est vraie"
+    },
+    {
+      "topicId": "fr-ma-4e-info-03",
+      "prerequisiteId": "fr-ma-5e-info-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Une variable stocke une entrée ou une sortie du programme"
+    },
+    {
+      "topicId": "fr-ma-4e-info-03",
+      "prerequisiteId": "fr-ma-5e-info-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les variables évoluent souvent à l’intérieur d’une boucle"
+    },
+    {
+      "topicId": "fr-ma-4e-info-05",
+      "prerequisiteId": "fr-ma-5e-info-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Analyser un programme simple et modifier ses paramètres » (5e)"
+    },
+    {
+      "topicId": "fr-ma-3e-rat-01",
+      "prerequisiteId": "fr-ma-4e-rat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Simplifier une fraction » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-rat-02",
+      "prerequisiteId": "fr-ma-4e-rat-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre des problèmes avec les opérations sur les fractions » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-pui-01",
+      "prerequisiteId": "fr-ma-4e-pui-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Puissances d’exposant positif d’un nombre » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-pui-01",
+      "prerequisiteId": "fr-ma-4e-rat-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "a⁻ⁿ est défini comme l’inverse de aⁿ"
+    },
+    {
+      "topicId": "fr-ma-3e-pui-02",
+      "prerequisiteId": "fr-ma-4e-pui-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Multiplier des puissances d’un même nombre » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-pui-02",
+      "prerequisiteId": "fr-ma-4e-pui-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Multiplier des puissances de même exposant » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-pui-03",
+      "prerequisiteId": "fr-ma-4e-pui-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir compléter 1 200 = 1,2 × … avec une puissance de 10"
+    },
+    {
+      "topicId": "fr-ma-3e-rac-01",
+      "prerequisiteId": "fr-ma-4e-rac-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Racine carrée d’un nombre positif » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-rac-01",
+      "prerequisiteId": "fr-ma-4e-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "x² = a a deux solutions car le carré d’un négatif est positif"
+    },
+    {
+      "topicId": "fr-ma-3e-rac-02",
+      "prerequisiteId": "fr-ma-4e-rac-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Encadrer une racine carrée entre deux entiers consécutifs » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-rac-02",
+      "prerequisiteId": "fr-ma-4e-tri-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les problèmes de racine carrée viennent souvent du théorème de Pythagore"
+    },
+    {
+      "topicId": "fr-ma-3e-mul-01",
+      "prerequisiteId": "fr-ma-5e-ope-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les critères de divisibilité aident à trouver les facteurs"
+    },
+    {
+      "topicId": "fr-ma-3e-mul-01",
+      "prerequisiteId": "fr-ma-4e-pui-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La décomposition s’écrit avec des puissances, comme 2³ × 3"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-01",
+      "prerequisiteId": "fr-ma-4e-lit-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire et réduire des expressions littérales simples (automatisme) » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-01",
+      "prerequisiteId": "fr-ma-4e-rat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Simplifier un quotient ressemble à simplifier une fraction"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-02",
+      "prerequisiteId": "fr-ma-4e-lit-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Développer avec la distributivité simple » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-02",
+      "prerequisiteId": "fr-ma-4e-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les signes des produits suivent la règle des signes"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-03",
+      "prerequisiteId": "fr-ma-4e-lit-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Factoriser avec la distributivité simple » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-04",
+      "prerequisiteId": "fr-ma-4e-lit-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre une équation du type ax + b = c » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-04",
+      "prerequisiteId": "fr-ma-4e-rel-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Diviser par un nombre négatif change le sens de l’inégalité"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-04",
+      "prerequisiteId": "fr-ma-4e-rep-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les solutions se représentent sur une droite graduée"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-05",
+      "prerequisiteId": "fr-ma-4e-lit-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre une équation du type ax + b = c » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-06",
+      "prerequisiteId": "fr-ma-4e-lit-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les identités remarquables se démontrent par le calcul algébrique"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-07",
+      "prerequisiteId": "fr-ma-4e-lit-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Factoriser avec la distributivité simple » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-07",
+      "prerequisiteId": "fr-ma-5e-pui-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut reconnaître les carrés parfaits pour repérer a² – b²"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-08",
+      "prerequisiteId": "fr-ma-4e-lit-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre une équation du type ax + b = c » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-lit-08",
+      "prerequisiteId": "fr-ma-4e-lit-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le raisonnement mobilise le calcul algébrique pour démontrer"
+    },
+    {
+      "topicId": "fr-ma-3e-rep-01",
+      "prerequisiteId": "fr-ma-4e-rep-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer et repérer un nombre relatif sur une droite graduée (automatisme) » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-rep-01",
+      "prerequisiteId": "fr-ma-4e-rep-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire et placer des points dans un repère orthogonal (automatisme) » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-esp-01",
+      "prerequisiteId": "fr-ma-4e-esp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaitre une pyramide et un cône de révolution » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-esp-01",
+      "prerequisiteId": "fr-ma-4e-esp-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Représenter la boule s’appuie sur les représentations des autres solides"
+    },
+    {
+      "topicId": "fr-ma-3e-esp-02",
+      "prerequisiteId": "fr-ma-4e-esp-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Représenter les solides : perspective cavalière et patrons » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-esp-03",
+      "prerequisiteId": "fr-ma-4e-esp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Volume de la pyramide et du cône de révolution » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-esp-03",
+      "prerequisiteId": "fr-ma-4e-pui-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La formule utilise le cube du rayon"
+    },
+    {
+      "topicId": "fr-ma-3e-tri-01",
+      "prerequisiteId": "fr-ma-4e-tri-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Les trois théorèmes de la droite des milieux » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-tri-01",
+      "prerequisiteId": "fr-ma-4e-prop-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le calcul d’une longueur revient à une quatrième proportionnelle"
+    },
+    {
+      "topicId": "fr-ma-3e-tri-02",
+      "prerequisiteId": "fr-ma-4e-tri-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut distinguer réciproque et contraposée"
+    },
+    {
+      "topicId": "fr-ma-3e-tri-02",
+      "prerequisiteId": "fr-ma-4e-rat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut comparer les rapports, écrits en fractions"
+    },
+    {
+      "topicId": "fr-ma-3e-tri-03",
+      "prerequisiteId": "fr-ma-4e-tri-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "On s’appuie sur le vocabulaire du triangle rectangle (hypoténuse) et sur Pythagore"
+    },
+    {
+      "topicId": "fr-ma-3e-tri-03",
+      "prerequisiteId": "fr-ma-4e-prop-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Cosinus, sinus et tangente sont des rapports de longueurs"
+    },
+    {
+      "topicId": "fr-ma-3e-vec-01",
+      "prerequisiteId": "fr-ma-4e-par-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relier translations, parallélogrammes et angles » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-vec-01",
+      "prerequisiteId": "fr-ma-4e-par-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Propriétés de conservation des translations » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-vec-02",
+      "prerequisiteId": "fr-ma-4e-par-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Des vecteurs égaux se repèrent grâce à un parallélogramme"
+    },
+    {
+      "topicId": "fr-ma-3e-sta-01",
+      "prerequisiteId": "fr-ma-4e-sta-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Moyenne simple, effectif manquant et fréquence (automatisme) » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-sta-02",
+      "prerequisiteId": "fr-ma-4e-sta-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Déterminer et interpréter une médiane » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-sta-03",
+      "prerequisiteId": "fr-ma-4e-sta-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La boîte à moustaches sert à comparer des séries"
+    },
+    {
+      "topicId": "fr-ma-3e-sta-04",
+      "prerequisiteId": "fr-ma-4e-sta-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre des problèmes avec les indicateurs statistiques » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-sta-04",
+      "prerequisiteId": "fr-ma-4e-sta-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir l’effet d’une valeur extrême sur moyenne et médiane"
+    },
+    {
+      "topicId": "fr-ma-3e-sta-05",
+      "prerequisiteId": "fr-ma-4e-sta-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer moyenne, médiane et étendue avec un tableur » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-prb-01",
+      "prerequisiteId": "fr-ma-4e-prb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Probabilité d’un évènement et de l’évènement contraire » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-prb-02",
+      "prerequisiteId": "fr-ma-4e-prb-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Expériences aléatoires à deux épreuves » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-prb-02",
+      "prerequisiteId": "fr-ma-4e-prb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut comparer distributions des fréquences et des probabilités"
+    },
+    {
+      "topicId": "fr-ma-3e-prb-03",
+      "prerequisiteId": "fr-ma-4e-prb-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Observer la fluctuation des fréquences » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-prb-03",
+      "prerequisiteId": "fr-ma-4e-prb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "On compare la fréquence stabilisée à la probabilité calculée"
+    },
+    {
+      "topicId": "fr-ma-3e-prop-01",
+      "prerequisiteId": "fr-ma-4e-prop-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Augmentation et diminution en pourcentage : coefficient multiplicateur » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-prop-03",
+      "prerequisiteId": "fr-ma-5e-prop-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser un coefficient de proportionnalité » (5e)"
+    },
+    {
+      "topicId": "fr-ma-3e-prop-03",
+      "prerequisiteId": "fr-ma-4e-prop-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les partages proportionnels donnent des exemples de fonctions linéaires"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-01",
+      "prerequisiteId": "fr-ma-4e-fct-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Représenter une grandeur en fonction d’une autre par un graphique » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-01",
+      "prerequisiteId": "fr-ma-4e-fct-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer une grandeur en fonction d’une autre par une formule » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-01",
+      "prerequisiteId": "fr-ma-4e-fct-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre la dépendance d’une grandeur en fonction d’une autre » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-02",
+      "prerequisiteId": "fr-ma-4e-fct-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Remonter un programme de calcul » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-03",
+      "prerequisiteId": "fr-ma-4e-fct-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Une fonction linéaire est donnée par une formule de dépendance"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-03",
+      "prerequisiteId": "fr-ma-5e-fct-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Sa représentation est une droite passant par l’origine, comme pour la proportionnalité"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-04",
+      "prerequisiteId": "fr-ma-4e-lit-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "On retrouve graphiquement les solutions d’équations du premier degré"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-04",
+      "prerequisiteId": "fr-ma-4e-rep-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut lire les coordonnées d’un point dans un repère"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-05",
+      "prerequisiteId": "fr-ma-4e-lit-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Chercher un antécédent revient à résoudre ax + b = c"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-06",
+      "prerequisiteId": "fr-ma-4e-fct-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut lire un graphique représentant une grandeur en fonction d’une autre"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-07",
+      "prerequisiteId": "fr-ma-4e-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le carré d’un nombre négatif est positif"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-07",
+      "prerequisiteId": "fr-ma-4e-fct-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "On représente la fonction par un graphique à partir d’un tableau de valeurs"
+    },
+    {
+      "topicId": "fr-ma-3e-fct-07",
+      "prerequisiteId": "fr-ma-5e-pui-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les carrés parfaits fournissent les premières valeurs du tableau"
+    },
+    {
+      "topicId": "fr-ma-3e-info-01",
+      "prerequisiteId": "fr-ma-4e-info-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Manipuler une variable informatique » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-info-02",
+      "prerequisiteId": "fr-ma-4e-info-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire des instructions conditionnelles » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-info-03",
+      "prerequisiteId": "fr-ma-5e-info-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser une boucle « répéter n fois » » (5e)"
+    },
+    {
+      "topicId": "fr-ma-3e-info-03",
+      "prerequisiteId": "fr-ma-4e-info-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La boucle s’arrête selon une condition"
+    },
+    {
+      "topicId": "fr-ma-3e-info-04",
+      "prerequisiteId": "fr-ma-4e-info-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un programme simple pour atteindre un objectif » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-info-04",
+      "prerequisiteId": "fr-ma-4e-info-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Modifier un programme donné pour changer son comportement » (4e)"
+    },
+    {
+      "topicId": "fr-ma-3e-info-05",
+      "prerequisiteId": "fr-ma-4e-info-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un programme simple pour atteindre un objectif » (4e)"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "maths-c3": "2026-10-22",
+    "maths-c4": "2026-10-23"
+  }
+}

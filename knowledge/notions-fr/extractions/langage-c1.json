@@ -1,0 +1,3887 @@
+{
+  "programme": "langage-c1",
+  "level": "multiple",
+  "themeCodes": {
+    "voc": "Enrichir son vocabulaire",
+    "syn": "Développer sa syntaxe",
+    "art": "Articuler distinctement",
+    "disc": "Produire des discours variés",
+    "son": "Écouter, identifier, discriminer et reproduire des sons",
+    "syl": "Manipuler des syllabes orales puis des phonèmes",
+    "nlet": "Connaitre le nom des lettres",
+    "slet": "Connaitre le son des lettres",
+    "div": "S’éveiller à la diversité linguistique",
+    "lect": "Initier un parcours de lecteur et une première culture littéraire",
+    "sup": "Découvrir les supports de l’écrit",
+    "comp": "Comprendre des textes lus par le professeur",
+    "gest": "Apprendre le geste d’écriture",
+    "oe": "Passer de l’oral à l’écrit",
+    "prod": "Produire des écrits"
+  },
+  "notions": [
+    {
+      "id": "fr-lan-ps-voc-01",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Comprendre et réutiliser les mots du quotidien appris en classe",
+      "description": "Comprendre, retenir puis réutiliser les mots enseignés en classe (deux séries de mots par période), en commençant par ceux de la vie de famille, des activités de la classe et des relations avec les autres.",
+      "officialObjectives": [
+        "Comprendre, mémoriser, réemployer les mots des corpus enseignés (2 par période)."
+      ],
+      "evidence": [
+        "Comprend et utilise les mots de la vie familiale, des activités récurrentes de la classe (ex. : verbes de mouvement en motricité), des relations avec les autres, des activités scolaires et des albums lus en classe.",
+        "Écoute et échange avec le professeur qui commente ses actions en situation.",
+        "Trouve un objet présent nommé par le professeur en contexte (« Peux-tu me donner la colle ? »).",
+        "Reconnait et nomme un objet présenté sous différentes formes."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} vous tend la colle quand vous la demandez, et sait nommer un même objet montré en vrai ou en image ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 8,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-voc-02",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Ranger les mots et les objets par catégorie",
+      "description": "Commencer à regrouper les mots et les objets qui vont ensemble (les couverts, les vêtements…) et repérer celui qui n’appartient pas au groupe.",
+      "officialObjectives": [
+        "Organiser les mots en catégorie et en réseau."
+      ],
+      "evidence": [
+        "Retrouve un mot jamais entendu.",
+        "Retrouve un intrus.",
+        "Attribue un objet à une catégorie.",
+        "Range des jeux familiers par catégorie (ex. : les couverts de la dinette)."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger ensemble les couverts de la dinette et repérer l’objet qui ne va pas avec les autres ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 8,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-syn-01",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Développer sa syntaxe",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Utiliser les pronoms il, elle, ils, elles, puis je",
+      "description": "Comprendre et employer en parlant les pronoms il, elle, ils, elles, puis, plus tard dans l’année, le pronom je (« Moi, je… »).",
+      "officialObjectives": [
+        "Diversifier les pronoms employés."
+      ],
+      "evidence": [
+        "Comprend et utilise les pronoms il, elle, ils, elles : « Il mange le gâteau », « Elle est partie », « Ils sont sur le toboggan ».",
+        "Plus tard dans l’année, utilise le pronom je : « Moi, je mange le gâteau. »"
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} emploie « il », « elle » ou « je » en parlant, par exemple « Elle est partie » ou « Moi, je mange le gâteau » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 10,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-syn-02",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Développer sa syntaxe",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Parler au présent, au passé composé et au futur proche",
+      "description": "Employer d’abord le présent, puis en fin d’année trois temps : le présent, le passé composé (« j’ai joué ») et le futur proche (« je vais faire »).",
+      "officialObjectives": [
+        "Construire à l’oral un système de temps de plus en plus efficace."
+      ],
+      "evidence": [
+        "Dans la première partie de l’année, utilise le présent : « Il mange le gâteau ».",
+        "En fin d’année, utilise un système à trois temps, présent, passé composé et futur proche (aller) : « Moi, je fais du toboggan. J’ai joué à la balançoire et je vais faire du vélo. »"
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qui se passe, ce qui s’est passé et ce qui va se passer, comme « Je fais du toboggan, j’ai joué à la balançoire et je vais faire du vélo » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 10,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-syn-03",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Développer sa syntaxe",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Relier des actions avec « et », « et puis »",
+      "description": "Commencer à faire des phrases plus longues en reliant plusieurs actions par « et » ou « et puis ».",
+      "officialObjectives": [
+        "Formuler des énoncés de plus en plus complexes."
+      ],
+      "evidence": [
+        "Coordonne des propositions grâce à de premiers connecteurs, et / et puis : « Il monte sur le banc et puis il lance le ballon et puis il saute. »"
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} enchaine plusieurs actions dans une même phrase avec « et puis », comme « Il monte sur le banc et puis il lance le ballon et puis il saute » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 10,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-art-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Articuler distinctement",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Prononcer distinctement t/k, f/s, m/n",
+      "description": "Bien prononcer des sons proches que les jeunes enfants confondent souvent (t et k, f et s, m et n), pour se faire comprendre. Avant 5 ans, le professeur reprend le mot mal prononcé en articulant le bon son.",
+      "officialObjectives": [
+        "Articuler distinctement les couples de consonnes proches suivants : t/k, f/s, m/n."
+      ],
+      "evidence": [
+        "Commence à percevoir les distinctions entre des mots proches phonologiquement.",
+        "À partir d’un imagier composé de paires distinctives, prononce correctement : cour/tour, cube/tube, cassé/café, pouce/pouf, nain/main."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} prononce différemment « cour » et « tour », « cassé » et « café », « nain » et « main » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 11,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-disc-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Produire des discours variés",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Oser parler à un adulte ou à un autre enfant",
+      "description": "Oser prendre la parole pour demander quelque chose, répondre ou participer à la vie de la classe, avec un adulte ou un camarade.",
+      "officialObjectives": [
+        "Entrer en communication verbale avec un adulte ou un autre élève."
+      ],
+      "evidence": [
+        "Ose parler pour exprimer un besoin ou prendre part à la vie de la classe.",
+        "S’exprime en réponse à une sollicitation."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} ose parler à un adulte ou à un autre enfant, par exemple pour demander à boire ou pour répondre à une question ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 12,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-disc-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Produire des discours variés",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Dire ce qu’on est en train de faire",
+      "description": "Mettre des mots sur l’action en cours, au moment où on la fait (« Moi, je fais du toboggan »).",
+      "officialObjectives": [
+        "Dire ce qu’on fait."
+      ],
+      "evidence": [
+        "Dit ce qu’on fait au moment de l’action : « Moi, je fais du toboggan. »"
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Pendant un jeu, est-ce que {{prenom}} sait dire ce qui est en train de se faire, par exemple « Moi, je fais du toboggan » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 12,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-disc-03",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Produire des discours variés",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Dire ce qu’on a fait, puis ce qu’on va faire",
+      "description": "Raconter une action qui vient d’avoir lieu, puis peu à peu annoncer ce qu’on va faire ensuite.",
+      "officialObjectives": [
+        "Dire ce qu’on a fait et, peu à peu, ce qu’on va faire."
+      ],
+      "evidence": [
+        "Dit : « Moi, je fais du toboggan. J’ai joué à la balançoire et je vais faire du vélo. »"
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter ce qui vient d’être fait et annoncer la suite, comme « J’ai joué à la balançoire et je vais faire du vélo » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 12,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-disc-04",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Produire des discours variés",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Dire avec le groupe une comptine apprise par cœur",
+      "description": "Participer, avec le groupe, à la récitation d’une comptine, d’une chanson, d’un petit poème ou d’un court passage d’album appris par cœur.",
+      "officialObjectives": [
+        "Prendre part à l’oralisation d’un court texte mémorisé."
+      ],
+      "evidence": [
+        "Participe à un moment collectif d’oralisation d’une comptine, d’une chanson, d’un court poème ou d’un bref extrait d’un album qui a été mémorisé."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} dit avec les autres une comptine ou une chanson apprise à l’école ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 12,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-son-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Écouter, identifier, discriminer et reproduire des sons",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Reconnaitre, comparer et imiter des sons",
+      "description": "Écouter attentivement pour reconnaitre des bruits familiers et les sons les plus fréquents de la langue, dire d’où vient un son, comparer et imiter des sons.",
+      "officialObjectives": [
+        "Identifier les sons de la langue, lors de situations d’écoute proposées par le professeur."
+      ],
+      "evidence": [
+        "Discrimine et identifie des sons familiers, localise le son (la source).",
+        "Reconnait les sons de la langue les plus fréquents dans une suite.",
+        "Compare, apparie et reproduit les sons."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} reconnait un bruit familier, sait montrer d’où vient le son, puis imiter un son entendu ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 13,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-son-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Écouter, identifier, discriminer et reproduire des sons",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Repérer à l’écoute un mot dans une phrase",
+      "description": "Reconnaitre, en écoutant, un mot donné quand on l’entend dans une phrase ou dans une histoire lue à voix haute. C’est un premier pas pour découper le langage en unités.",
+      "officialObjectives": [
+        "Identifier un mot donné à l’oral dans une phrase, dans un texte."
+      ],
+      "evidence": [
+        "Repère, à l’écoute d’une phrase ou d’un texte, un mot donné à l’oral."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Quand vous lisez une histoire, est-ce que {{prenom}} lève la main en entendant un mot choisi à l’avance, par exemple « loup » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 13,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-syl-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Manipuler des syllabes orales puis des phonèmes",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Scander les syllabes d’un mot",
+      "description": "Découper un mot à l’oral en syllabes, en les prononçant une à une et en frappant le rythme, en commençant par son prénom.",
+      "officialObjectives": [
+        "Scander les syllabes d’un mot."
+      ],
+      "evidence": [
+        "Prononce son prénom, puis une comptine, en scandant les syllabes.",
+        "Frappe les syllabes d’un mot dans les mains, sur les cuisses, éventuellement à l’aide d’un instrument."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire son prénom en frappant dans les mains à chaque syllabe ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 13,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-syl-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Manipuler des syllabes orales puis des phonèmes",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Dire des comptines courtes aux sons proches",
+      "description": "Réciter de petites comptines qui jouent sur des sons proches, pour entrainer l’oreille et la prononciation.",
+      "officialObjectives": [
+        "Dire des comptines courtes comprenant des phonèmes proches."
+      ],
+      "evidence": [
+        "Dit des comptines courtes comprenant des phonèmes proches."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} récite une petite comptine qui joue sur des sons proches sans les mélanger ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 13,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-nlet-01",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Connaitre le nom des lettres",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Reconnaitre son prénom et quelques-unes de ses lettres en capitales",
+      "description": "Reconnaitre son prénom écrit en lettres capitales, parmi d’autres, en s’aidant des lettres, et commencer à nommer certaines de ces lettres.",
+      "officialObjectives": [
+        "Reconnaitre et nommer certaines lettres de son prénom écrit en capitales."
+      ],
+      "evidence": [
+        "Retrouve l’étiquette de son prénom (lettres capitales) parmi d’autres en prenant des indices sur les lettres.",
+        "Utilise l’étiquette de son prénom pour marquer sa présence, évoquer une production."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} reconnait son prénom écrit en capitales parmi d’autres prénoms, et sait nommer quelques-unes de ses lettres ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 14,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-div-01",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "S’éveiller à la diversité linguistique",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Écouter des comptines et des histoires dans une autre langue",
+      "description": "Découvrir qu’on peut communiquer dans d’autres langues que le français (langues étrangères, régionales, langue des signes) en écoutant des chants, des comptines ou des histoires connues dans une autre langue, et prendre plaisir à en répéter des sons ou des mots.",
+      "officialObjectives": [
+        "Écouter des chants, des comptines, des histoires connues dans des versions en français et en langue étrangère."
+      ],
+      "evidence": [
+        "Manifeste de l’intérêt pour d’autres langues que sa propre langue.",
+        "Prend plaisir à s’exercer, à répéter des sons, des mots, voire des phrases très simples."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} écoute avec intérêt une comptine dans une autre langue et s’amuse à en répéter des mots ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 16,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-sup-01",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Découvrir les supports de l’écrit",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Reconnaitre les écrits de la classe et savoir à quoi ils servent",
+      "description": "Repérer les écrits utilisés chaque jour en classe (étiquette du prénom, emploi du temps, affiches) et ceux qu’on y produit (comptines, recettes, carnet de lecteur), et savoir à quoi ils servent.",
+      "officialObjectives": [
+        "Repérer les outils fonctionnels utilisés quotidiennement en classe (étiquette du prénom, emploi du temps, affiches, etc.).",
+        "Reconnaitre quelques écrits utilisés et produits en classe (comptines, recettes, carnet de lecteur)."
+      ],
+      "evidence": [
+        "Associe un écrit connu à son utilisation : « C’est pour chanter, raconter/écouter des histoires, le dire aux parents, faire un gâteau. »",
+        "Repère les outils écrits de la classe : étiquette du prénom, emploi du temps, affiches."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire à quoi sert un écrit connu, par exemple « la recette, c’est pour faire un gâteau » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 17,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-comp-01",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Comprendre des textes lus par le professeur",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Reconnaitre et nommer un personnage dans les images",
+      "description": "Reconnaitre un personnage d’album, dire son nom et le montrer sur les images, y compris quand on le retrouve dans d’autres livres.",
+      "officialObjectives": [
+        "Reconnaitre un personnage, le nommer et le situer dans les illustrations."
+      ],
+      "evidence": [
+        "Identifie les livres dans lesquels se retrouve un même personnage.",
+        "Nomme un personnage et le situe dans les illustrations."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} reconnait le héros d’un album, dit son nom et le montre sur les images, même dans un autre livre où ce héros revient ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 17,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-comp-02",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Comprendre des textes lus par le professeur",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Comprendre une histoire proche de la vie quotidienne",
+      "description": "Comprendre une histoire lue par l’adulte quand les actions s’enchainent comme dans la vie de tous les jours (le bain, le coucher…).",
+      "officialObjectives": [
+        "Comprendre des histoires où l’enchainement des actions peut être rattaché à des expériences connues de la vie quotidienne (le bain, le coucher, etc.)."
+      ],
+      "evidence": [
+        "Utilise une marotte (marionnette sur un bâton) et raconte ce que le personnage fait dans chacun des albums."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Après une histoire sur le bain ou le coucher, est-ce que {{prenom}} sait raconter, avec une marionnette, ce que fait le personnage ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 17,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-gest-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Apprendre le geste d’écriture",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Exercer l’habileté des mains et tracer des formes simples",
+      "description": "Développer l’habileté des mains et des doigts par la motricité, la manipulation (pâte à modeler) et les premiers exercices de graphisme : traits, points, boucles, cercles.",
+      "officialObjectives": [
+        "Participer aux activités de motricité générale, de motricité fine et aux exercices de graphismes ;"
+      ],
+      "evidence": [
+        "Exerce sa dextérité par des activités manuelles (reproduire des formes en pâte à modeler).",
+        "Trace quelques formes de base : traits verticaux, traits horizontaux, points, boucles et cercles."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tracer des traits verticaux et horizontaux, des points et des cercles, et reproduire des formes en pâte à modeler ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 18,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-gest-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Apprendre le geste d’écriture",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Guider son tracé avec les yeux",
+      "description": "Regarder ce que fait sa main pendant qu’on trace, pour contrôler le trait : c’est la coordination entre l’œil et la main.",
+      "officialObjectives": [
+        "Guider son geste par le regard lorsqu’il trace ou écrit ;"
+      ],
+      "evidence": [
+        "Produit librement des tracés continus ou discontinus.",
+        "Suit des yeux le crayon pendant le tracé."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Quand {{prenom}} trace des traits ou des ronds, est-ce que le regard suit bien le crayon pour contrôler le trait ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 18,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-gest-03",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Apprendre le geste d’écriture",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Se repérer sur la feuille pour tracer",
+      "description": "Prendre des repères sur la feuille ou le support (bords, haut, bas) pour placer ses tracés au bon endroit.",
+      "officialObjectives": [
+        "Prendre des repères spatiaux sur le support utilisé pour tracer."
+      ],
+      "evidence": [
+        "Place ses tracés en prenant des repères sur le support utilisé."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer un trait ou un rond à l’endroit demandé de la feuille, par exemple en haut ou près du bord ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 18,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-oe-01",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Passer de l’oral à l’écrit",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Comprendre que l’écrit garde ce qu’on dit",
+      "description": "Percevoir que ce qu’on dit peut être écrit puis relu, et que l’écriture n’est pas un dessin.",
+      "officialObjectives": [
+        "Percevoir que l’écrit encode l’oral."
+      ],
+      "evidence": [
+        "Demande à l’adulte d’écrire, de légender un dessin.",
+        "Comprend que le dessin se distingue de l’écriture."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} vous demande d’écrire quelque chose sous un dessin, en sachant que l’écriture n’est pas un dessin ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-oe-02",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Passer de l’oral à l’écrit",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Reconnaitre l’écrit d’où vient une comptine connue",
+      "description": "Savoir qu’une comptine apprise vient d’un écrit (affiche, cahier de comptines) et reconnaitre ce support.",
+      "officialObjectives": [
+        "Utiliser un support écrit connu."
+      ],
+      "evidence": [
+        "Récite une comptine apprise en identifiant le support écrit dont elle est issue."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} retrouve dans le cahier de comptines la page d’une comptine connue avant de la réciter ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-prod-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Produire des écrits",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Faire semblant d’écrire comme un adulte",
+      "description": "Imiter la façon dont l’adulte écrit (posture, gestes) en produisant des traces qui ressemblent à de l’écriture. Ces premiers essais sont accueillis positivement par le professeur.",
+      "officialObjectives": [
+        "Mimer la posture et les gestes d’écriture de l’adulte lors de la production de traces qui s’apparentent à de l’écriture."
+      ],
+      "evidence": [
+        "Trace des signes sur une feuille en indiquant au professeur qu’on a écrit."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} fait semblant d’écrire, comme un adulte, puis vous annonce « j’ai écrit » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ps-prod-02",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Produire des écrits",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Tracer des signes en sachant que ce sont des lettres, pas des dessins",
+      "description": "Tracer volontairement des signes en comprenant qu’ils représentent des lettres et non des dessins. Le professeur explique que c’est en apprenant les lettres qu’on pourra écrire un message.",
+      "officialObjectives": [
+        "Tracer volontairement des signes abstraits dont on comprend qu’il ne s’agit pas de dessins, mais de lettres."
+      ],
+      "evidence": [
+        "Trace des signes sur une feuille en indiquant au professeur qu’on a écrit.",
+        "Comprend que le dessin se distingue de l’écriture."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} fait la différence entre « écrire » et « dessiner » au moment de tracer des signes sur une feuille ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-voc-01",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Comprendre et réutiliser les mots de l’environnement et des histoires",
+      "description": "Apprendre puis réutiliser deux séries de mots par période : ceux qui décrivent l’environnement proche, ceux des projets et des activités de la classe, et ceux des histoires entendues.",
+      "officialObjectives": [
+        "Comprendre, mémoriser, réemployer les mots des corpus enseignés (2 par période)."
+      ],
+      "evidence": [
+        "Comprend et utilise les mots qui permettent de décrire son environnement immédiat.",
+        "Comprend et utilise les mots spécifiques des projets et des différents domaines travaillés en classe.",
+        "Comprend et utilise les mots des histoires entendues."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} réutilise à la maison des mots appris à l’école, par exemple ceux d’une histoire entendue en classe ou d’un projet de la classe ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 9,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-voc-02",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Classer des mots par catégorie et trouver l’intrus",
+      "description": "Regrouper les mots et les objets par catégorie et repérer celui qui n’appartient pas au groupe.",
+      "officialObjectives": [
+        "Organiser les mots en catégorie et en réseau."
+      ],
+      "evidence": [
+        "Trouve un intrus dans une catégorie.",
+        "Range des jeux familiers par catégorie (ex. : les couverts de la dinette)."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Dans la liste « fourchette, cuillère, couteau, ballon », est-ce que {{prenom}} trouve le mot qui ne va pas avec les autres ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 9,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-voc-03",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "S’appuyer sur un mot connu pour comprendre un mot nouveau",
+      "description": "Se servir d’un mot déjà connu pour comprendre un mot nouveau de la même famille (animal / animalerie).",
+      "officialObjectives": [
+        "Organiser les mots en catégorie et en réseau."
+      ],
+      "evidence": [
+        "S’appuie sur des noms déjà connus pour comprendre un mot nouveau : animal / animalerie."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} devine qu’une animalerie est un magasin d’animaux, grâce au mot « animal » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 9,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-voc-04",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Repérer les mots à plusieurs sens et les synonymes",
+      "description": "Comprendre qu’un même mot peut avoir plusieurs sens (la glace du miroir, la glace qu’on mange) et que des mots différents peuvent vouloir dire la même chose (synonymes).",
+      "officialObjectives": [
+        "Organiser les mots en catégorie et en réseau."
+      ],
+      "evidence": [
+        "Trouve des mots polysémiques : différencie la glace dans laquelle on se regarde et la glace que l’on mange.",
+        "Trouve des synonymes."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer la différence entre la glace dans laquelle on se regarde et la glace que l’on mange ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 9,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-syn-01",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Développer sa syntaxe",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Utiliser les pronoms tu et on",
+      "description": "Employer en parlant les pronoms « tu » et « on », en plus de « il », « elle » et « je ».",
+      "officialObjectives": [
+        "Diversifier les pronoms employés."
+      ],
+      "evidence": [
+        "Utilise le pronom tu : « Toi, tu manges le gâteau ».",
+        "Utilise le pronom on : « On a été chez mamie et on a mangé le gâteau. »"
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} emploie « tu » et « on », par exemple « On a été chez mamie et on a mangé le gâteau » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 10,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-syn-02",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Développer sa syntaxe",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Utiliser l’imparfait, le passé composé et le conditionnel",
+      "description": "Raconter au passé en combinant l’imparfait (« j’étais ») et le passé composé (« j’ai fait »), et utiliser le conditionnel pour inventer un jeu (« je serais un voleur »).",
+      "officialObjectives": [
+        "Construire à l’oral un système de temps de plus en plus efficace."
+      ],
+      "evidence": [
+        "Utilise l’imparfait et le passé composé : « Moi, j’étais dans la cour. J’ai fait du vélo ».",
+        "Utilise le conditionnel : « Moi, je serais un voleur et toi, tu serais un gendarme. »"
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "En jouant, est-ce que {{prenom}} dit des phrases comme « Moi, je serais un voleur et toi, tu serais un gendarme » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 10,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-syn-03",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Développer sa syntaxe",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Relier ses idées avec d’abord, après, parce que, qui",
+      "description": "Construire des phrases plus riches en ordonnant les actions dans le temps et l’espace (d’abord, ensuite, après, pendant) et en reliant les idées entre elles (parce que, que, qui).",
+      "officialObjectives": [
+        "Formuler des énoncés de plus en plus complexes."
+      ],
+      "evidence": [
+        "Utilise de nouveaux connecteurs temporels et spatiaux, d’abord / ensuite / après / pendant : « D’abord j’ai lancé le ballon et après j’ai sauté dans le cerceau ».",
+        "Utilise de nouveaux connecteurs pour subordonner les propositions, parce que / que / qui : « Moi, je n’ai pas mon manteau parce qu’il est resté dans la voiture. »"
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} explique les choses avec « parce que », par exemple « Je n’ai pas mon manteau parce qu’il est resté dans la voiture » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 10,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-art-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Articuler distinctement",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Distinguer et prononcer les voyelles nasales in, an, on",
+      "description": "Entendre et prononcer correctement la différence entre des voyelles proches, dont l’une passe par le nez : é et in, a et an, o et on.",
+      "officialObjectives": [
+        "Distinguer et produire correctement les nasales : é/in, a/an, o/on."
+      ],
+      "evidence": [
+        "À partir d’un imagier composé de paires distinctives, notamment dans une situation de jeu traditionnel, distingue et prononce correctement é/in, a/an, o/on."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "En jouant avec un imagier, est-ce que {{prenom}} fait bien entendre la différence entre « o » et « on », ou entre « a » et « an » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 11,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-art-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Articuler distinctement",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Prononcer distinctement f/v, s/z, p/b, t/d, k/g",
+      "description": "Bien prononcer des consonnes proches qui ne se distinguent que par la vibration de la voix : f/v, s/z, p/b, t/d, k/g.",
+      "officialObjectives": [
+        "Articuler distinctement les couples de consonnes proches suivants : f/v, s/z, p/b, t/d, k/g."
+      ],
+      "evidence": [
+        "À partir d’un imagier composé de paires distinctives, notamment dans une situation de jeu traditionnel, prononce correctement : ville/fil, dessert/désert, poison/poisson, pépé/bébé, doigt/toit, gare/car.",
+        "Prononce correctement les mots à phonèmes proches : boule/poule."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} prononce différemment « poison » et « poisson », « doigt » et « toit », « gare » et « car » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 11,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-disc-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Produire des discours variés",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Annoncer ce qu’on va faire",
+      "description": "Dire à l’avance ce qui va se passer ou ce qu’on va faire, en employant le futur proche (« on va aller »).",
+      "officialObjectives": [
+        "Dire ce qu’on va faire."
+      ],
+      "evidence": [
+        "Dit : « Après la récréation, on va aller dans la salle de motricité et on va rouler sur le tapis. »"
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait annoncer ce qui va suivre, par exemple « Après la récréation, on va aller dans la salle de motricité » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 12,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-disc-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Produire des discours variés",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Expliquer comment on a fait ou comment on va faire",
+      "description": "Raconter dans l’ordre les étapes d’une activité déjà faite, ou expliquer comment on va s’y prendre, sans avoir la situation sous les yeux (langage d’évocation).",
+      "officialObjectives": [
+        "Dire comment on a fait ou comment on va faire."
+      ],
+      "evidence": [
+        "Dit : « Sur la grande affiche, on a collé les papiers et après on a mis la peinture avec les doigts. On a tapoté doucement. Dans l’atelier, on va coller les papiers et après on va mettre la peinture. »"
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait vous expliquer dans l’ordre comment une peinture ou un collage a été fait à l’école ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 12,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-disc-03",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Produire des discours variés",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Réciter un court texte appris par cœur",
+      "description": "Réciter une comptine, une chanson, un petit poème ou un passage d’album appris par cœur. En moyenne et en grande sections, les élèves apprennent un texte par semaine.",
+      "officialObjectives": [
+        "Oraliser un court texte mémorisé."
+      ],
+      "evidence": [
+        "Récite une comptine, une chanson, un court poème ou un bref extrait d’album qui a été mémorisé.",
+        "Mémorise un texte par semaine (en moyenne et en grande sections)."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait réciter une comptine ou une chanson apprise à l’école, sans l’aide du groupe ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 12,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-disc-04",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Produire des discours variés",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Participer à une discussion en restant sur le sujet",
+      "description": "Prendre la parole dans un échange en groupe en restant sur le sujet dont on parle.",
+      "officialObjectives": [
+        "Participer à des échanges en restant dans le propos."
+      ],
+      "evidence": [
+        "Prend part à un échange en restant dans le propos."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Pendant une discussion à table, est-ce que {{prenom}} parle du sujet en cours plutôt que de passer à autre chose ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 12,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-son-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Écouter, identifier, discriminer et reproduire des sons",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Jouer avec sa voix pour produire des sons variés",
+      "description": "Explorer ce que la voix permet de faire en parlant, en chantant et en imitant des bruits (onomatopées comme « boum » ou « miaou »).",
+      "officialObjectives": [
+        "Utiliser la voix parlée, chantée et les possibilités vocales (imitation de sons, onomatopées) afin d’expérimenter différents sons."
+      ],
+      "evidence": [
+        "Reproduit des sons (onomatopées).",
+        "Reproduit des intonations (sirènes vocales ascendantes, descendantes)."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait imiter des bruits avec la voix et faire une « sirène » qui monte puis qui descend ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 14,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-son-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Écouter, identifier, discriminer et reproduire des sons",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Entendre et distinguer les sons de la langue",
+      "description": "Entendre les petits sons qui composent les mots (les phonèmes, comme « f » ou « ou ») et les distinguer les uns des autres.",
+      "officialObjectives": [
+        "Entendre, discriminer des phonèmes."
+      ],
+      "evidence": [
+        "Discrimine et identifie les sons de la langue et les localise dans une suite."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Si vous dites une suite de sons comme « ma, fa, cha, la », est-ce que {{prenom}} repère où se trouve le son « ch » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 14,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-syl-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Manipuler des syllabes orales puis des phonèmes",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Compter et comparer les syllabes des mots",
+      "description": "Découper les mots en syllabes à l’oral, les compter, comparer les mots selon leur nombre de syllabes et repérer une syllabe donnée.",
+      "officialObjectives": [
+        "Scander les syllabes d’un mot."
+      ],
+      "evidence": [
+        "À l’oral et sans support écrit, dénombre les syllabes de mots familiers.",
+        "Compare les mots selon le nombre de syllabes et les classe.",
+        "Discrimine une syllabe cible dans une suite de syllabes énoncées : MA → FA → PA → MA → SA."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire combien de syllabes il y a dans « crocodile » et lequel de deux mots est le plus long à dire ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 14,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-syl-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Manipuler des syllabes orales puis des phonèmes",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Ajouter, enlever ou inverser des syllabes",
+      "description": "Jouer avec les syllabes d’un mot à l’oral : en ajouter, en enlever, les inverser, les répéter, les fusionner ou les remplacer (« lapin » à l’envers donne « pinla »).",
+      "officialObjectives": [
+        "Manipuler les syllabes d’un mot (ajout, suppression, permutation, répétition, fusion, substitution)."
+      ],
+      "evidence": [
+        "Ajoute, supprime, permute, répète, fusionne, substitue les syllabes d’un mot dit à l’oral."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire « lapin » à l’envers (« pinla ») ou enlever la première syllabe de « canard » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 14,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-syl-03",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Manipuler des syllabes orales puis des phonèmes",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Dire de nouvelles comptines courtes aux sons proches",
+      "description": "Continuer à réciter de petites comptines qui jouent sur des sons proches, pour entrainer l’oreille et la prononciation.",
+      "officialObjectives": [
+        "Dire des comptines courtes comprenant des phonèmes proches."
+      ],
+      "evidence": [
+        "Dit des comptines courtes comprenant des phonèmes proches."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} récite une comptine qui joue sur des sons proches en prononçant bien chaque son ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 14,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-nlet-01",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Connaitre le nom des lettres",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Nommer les lettres de son prénom et de mots connus",
+      "description": "Connaitre le nom des lettres de son prénom et de quelques lettres de mots familiers, que le professeur nomme systématiquement.",
+      "officialObjectives": [
+        "Nommer les lettres de son prénom et quelques lettres de mots connus (le professeur nomme systématiquement les lettres)."
+      ],
+      "evidence": [
+        "Épelle son prénom ou un mot connu afin qu’un tiers puisse le composer.",
+        "Compose un mot connu en commençant par la première lettre et en respectant l’ordre des lettres."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait épeler son prénom lettre par lettre pour que vous puissiez l’écrire ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 14,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-nlet-02",
+      "programme": "langage-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Connaitre le nom des lettres",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Associer capitales, scriptes et cursives d’une même lettre",
+      "description": "Savoir qu’une même lettre peut s’écrire de plusieurs façons (A en capitale, a en script, et en lettres attachées) et retrouver les formes qui vont ensemble.",
+      "officialObjectives": [
+        "Connaitre la correspondance entre les lettres scriptes majuscules et minuscules et les lettres cursives minuscules."
+      ],
+      "evidence": [
+        "Compose un mot connu en respectant l’ordre des lettres, avec la même graphie, puis avec des graphies différentes."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver le « a » minuscule qui correspond au « A » capitale, ou reconstituer son prénom avec des lettres d’une autre écriture ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 14,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-slet-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Connaitre le son des lettres",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Connaitre le son de quelques lettres",
+      "description": "Savoir quel son font quelques lettres de mots simples connus, en particulier les voyelles (a, e, i, o, u). Le professeur relie toujours le nom de la lettre et le son qu’elle produit.",
+      "officialObjectives": [
+        "Donner les valeurs sonores de quelques lettres de mots simples connus."
+      ],
+      "evidence": [
+        "Utilise le nom de quelques lettres connues (les voyelles) pour représenter les sons entendus."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait quelle lettre on entend au début de « ami » ou à la fin de « vélo » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 14,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-div-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "S’éveiller à la diversité linguistique",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Jouer et chanter dans une autre langue",
+      "description": "Participer à des jeux de doigts, rondes, jeux dansés, mimes ou jeux de cartes dans une autre langue, et retenir quelques mots, consignes et formules pour saluer et se présenter.",
+      "officialObjectives": [
+        "Participer à des jeux dans une autre langue : jeux de doigts, rondes, jeux dansés, mimes, jeux de cour, jeux de cartes."
+      ],
+      "evidence": [
+        "Mémorise des chants et des comptines dans une autre langue.",
+        "Mémorise quelques mots isolés, des consignes simples permettant de réaliser une activité et des tournures usuelles pour saluer et se présenter."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} connait une comptine, ou une formule pour dire bonjour et se présenter, dans une autre langue ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 16,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-div-02",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "S’éveiller à la diversité linguistique",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Comparer une histoire en français et dans une autre langue",
+      "description": "Écouter une même histoire en français et dans une autre langue, et remarquer ce qui change, notamment des sons qui n’existent pas en français.",
+      "officialObjectives": [
+        "Comparer des histoires lues en français et dans une autre langue."
+      ],
+      "evidence": [
+        "Distingue des sons nouveaux en les comparant avec des sons de la langue française."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Après une histoire entendue en français puis dans une autre langue, est-ce que {{prenom}} remarque des sons qui n’existent pas en français ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 16,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-sup-01",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Découvrir les supports de l’écrit",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Reconnaitre les écrits de la vie courante et leur fonction",
+      "description": "Reconnaitre et nommer différents écrits du quotidien (lettre, étiquette, menu…) et savoir à quoi chacun sert.",
+      "officialObjectives": [
+        "Reconnaitre, nommer et identifier la fonction de différents écrits rencontrés dans la vie courante."
+      ],
+      "evidence": [
+        "Comprend la fonction d’une lettre d’information aux parents, des étiquettes de rangement dans la classe, de l’affichage du menu de la cantine."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire à quoi sert le menu de la cantine affiché, ou un mot de la maitresse dans le cahier de liaison ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 17,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-sup-02",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Découvrir les supports de l’écrit",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Savoir qu’un écrit s’adresse à quelqu’un et transmet une demande",
+      "description": "Comprendre qu’un écrit est destiné à quelqu’un (une lettre aux parents par exemple) et qu’il transmet un message ou une demande, même à une personne absente.",
+      "officialObjectives": [
+        "Prendre conscience de la notion de destinataire et de contenu de la requête adressée par un écrit."
+      ],
+      "evidence": [
+        "Comprend la destination d’une lettre d’information aux parents et ce qu’elle demande."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que le mot glissé dans le cahier de liaison est destiné aux parents, et peut dire à peu près ce qu’il demande ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 17,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-sup-03",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Découvrir les supports de l’écrit",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Utiliser les écrits de la classe pour s’organiser et ranger",
+      "description": "Se servir chaque jour des écrits pratiques de la classe (emploi du temps, étiquettes de rangement, coin livres…) pour se repérer, s’organiser et ranger.",
+      "officialObjectives": [
+        "Identifier et utiliser quotidiennement des outils fonctionnels pour se repérer, s’organiser, ranger."
+      ],
+      "evidence": [
+        "Utilise les étiquettes de rangement de la classe pour ranger.",
+        "Identifie les livres présents dans la classe et leur usage."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger un objet grâce à l’étiquette de son bac, ou retrouver une activité sur l’emploi du temps illustré ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 17,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-comp-01",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Comprendre des textes lus par le professeur",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Identifier et décrire les personnages d’une histoire",
+      "description": "Distinguer le personnage principal d’une histoire des personnages secondaires, et savoir les décrire.",
+      "officialObjectives": [
+        "Identifier et décrire le personnage principal et les personnages secondaires."
+      ],
+      "evidence": [
+        "À l’aide d’un support (marotte, décor, boite à histoires, tapis d’histoires), raconte l’histoire entendue plusieurs fois en structurant son propos selon les caractéristiques des personnages.",
+        "Distingue le personnage principal des personnages secondaires."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Après « Le Petit Chaperon rouge », est-ce que {{prenom}} sait dire qui est le personnage principal et décrire les autres personnages ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 17,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-comp-02",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Comprendre des textes lus par le professeur",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Comprendre une histoire à épisodes répétitifs",
+      "description": "Comprendre une histoire construite sur des épisodes qui se répètent (le héros rencontre successivement plusieurs personnages) et pouvoir la raconter dans l’ordre.",
+      "officialObjectives": [
+        "Comprendre des histoires dont les actions sont organisées autour d’une structure répétitive (rencontres successives) et commencer à comprendre les informations implicites (émotions, états et sentiments des personnages)."
+      ],
+      "evidence": [
+        "À l’aide d’un support (marotte, décor, boite à histoires, tapis d’histoires), raconte l’histoire entendue plusieurs fois en structurant son propos selon l’enchainement des évènements."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Après plusieurs lectures d’une histoire à rencontres successives, est-ce que {{prenom}} sait la raconter dans l’ordre en s’aidant de marionnettes ou d’images ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 17,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-comp-03",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Comprendre des textes lus par le professeur",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Commencer à comprendre ce que ressentent les personnages",
+      "description": "Commencer à comprendre ce que l’histoire ne dit pas directement (l’implicite) : les émotions, les états et les sentiments des personnages.",
+      "officialObjectives": [
+        "Comprendre des histoires dont les actions sont organisées autour d’une structure répétitive (rencontres successives) et commencer à comprendre les informations implicites (émotions, états et sentiments des personnages)."
+      ],
+      "evidence": [
+        "En racontant une histoire entendue plusieurs fois, évoque les émotions, les états et les sentiments des personnages."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Après une histoire, est-ce que {{prenom}} sait dire si un personnage a peur, est triste ou content, même quand le texte ne le dit pas ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 17,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-gest-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Apprendre le geste d’écriture",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Adopter une posture adaptée pour écrire",
+      "description": "Bien s’installer pour écrire (assise stable, buste face à la table, feuille bien placée) afin que le geste soit facile et précis.",
+      "officialObjectives": [
+        "Adopter une posture adaptée au geste d’écriture."
+      ],
+      "evidence": [
+        "Adopte une posture corporelle compatible avec le geste d’écriture au moment d’écrire."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Au moment d’écrire, est-ce que {{prenom}} se tient face à la table, le dos droit et la feuille bien placée ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 19,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-gest-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Apprendre le geste d’écriture",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Tenir correctement son crayon sans le lever",
+      "description": "Tenir le crayon de la bonne façon et s’entrainer à écrire sans lever le crayon, ce qui prépare l’écriture attachée.",
+      "officialObjectives": [
+        "Adopter une préhension correcte du stylo et s’entrainer à ne pas le lever en écrivant."
+      ],
+      "evidence": [
+        "Tient correctement le stylo et s’entraine à ne pas le lever en écrivant."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} tient son crayon correctement, entre les doigts, et peut tracer une ligne sans le lever ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 19,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-gest-03",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Apprendre le geste d’écriture",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Coordonner épaule, coude, poignet et doigts pour écrire",
+      "description": "Faire travailler ensemble l’épaule, le coude, le poignet et les doigts pour tenir et guider le crayon.",
+      "officialObjectives": [
+        "Utiliser de façon coordonnée les quatre articulations qui servent à tenir et guider le crayon (épaule, coude, poignet, doigts)."
+      ],
+      "evidence": [
+        "Utilise de façon coordonnée épaule, coude, poignet et doigts pour tenir et guider le crayon."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} trace des boucles et des lettres d’un geste souple, sans crispation du bras ni du poignet ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 19,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-gest-04",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Apprendre le geste d’écriture",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Tracer les lettres capitales",
+      "description": "Tracer les lettres en capitales (majuscules d’imprimerie) pour copier son prénom et des mots familiers, de gauche à droite.",
+      "officialObjectives": [
+        "Tracer des lettres capitales."
+      ],
+      "evidence": [
+        "Copie en lettres capitales son prénom et/ou d’autres mots du répertoire de mots familiers de la classe.",
+        "Se repère sur un support d’écriture (aller de gauche à droite)."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait copier son prénom en lettres capitales, en allant de gauche à droite ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 19,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-gest-05",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Apprendre le geste d’écriture",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "S’initier au tracé de l’écriture cursive",
+      "description": "Découvrir les premiers tracés de l’écriture attachée (cursive), introduite en moyenne section ou plus tard selon la maturité de l’enfant.",
+      "officialObjectives": [
+        "S’initier aux tracés de l’écriture cursive."
+      ],
+      "evidence": [
+        "S’initie aux premiers tracés de l’écriture cursive."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} commence à tracer quelques lettres attachées (écriture cursive) ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 19,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-oe-01",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Passer de l’oral à l’écrit",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Comprendre qu’un écrit dit toujours la même chose",
+      "description": "Comprendre qu’un texte écrit ne change pas : chaque fois qu’on le relit, ce sont les mêmes mots. C’est ce qui permet de garder un message en mémoire ou de l’adresser à une personne absente.",
+      "officialObjectives": [
+        "Comprendre que lorsque l’adulte lit un même écrit plusieurs fois, ce qu’il lit est toujours identique."
+      ],
+      "evidence": [
+        "Comprend que les écrits sont permanents : ils permettent de garder en mémoire un message ou de s’adresser à une personne absente."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Si vous relisez une histoire connue en changeant un mot, est-ce que {{prenom}} le remarque et vous dit que ce n’est pas ce qui est écrit ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-oe-02",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Passer de l’oral à l’écrit",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Comprendre que l’écrit représente des sons",
+      "description": "Comprendre que les lettres écrites correspondent aux sons qu’on prononce.",
+      "officialObjectives": [
+        "Comprendre que l’écrit code des sons."
+      ],
+      "evidence": [
+        "Utilise le nom de quelques lettres connues pour représenter les sons entendus.",
+        "Recourt aux compétences qui seront nécessaires à l’écriture : reconnait par exemple la syllabe d’attaque d’un mot."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} essaie d’écrire un mot en utilisant des lettres dont on entend le son, par exemple un « o » pour « vélo » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-oe-03",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Passer de l’oral à l’écrit",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Préparer et dicter un court message à l’adulte",
+      "description": "Lors d’une « dictée à l’adulte » (l’enfant dicte, l’adulte écrit), proposer une petite phrase, la redire toujours de la même façon et la retenir pour la dicter au professeur. Les élèves pratiquent la dictée à l’adulte chaque semaine.",
+      "officialObjectives": [
+        "Proposer au professeur, lors d’une activité de dictée à l’adulte, le contenu d’un court message, stabiliser un énoncé oral et le mémoriser pour pouvoir ensuite le dicter au professeur."
+      ],
+      "evidence": [
+        "Participe à l’activité de dictée à l’adulte.",
+        "Propose le contenu d’un court message, le stabilise et le mémorise avant de le dicter."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait vous dicter une petite phrase pour une carte d’anniversaire, en la redisant à l’identique pendant que vous l’écrivez ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-oe-04",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Passer de l’oral à l’écrit",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Relier la longueur d’un texte écrit à sa durée à l’oral",
+      "description": "Comprendre qu’un texte écrit plus long prend plus de temps à lire à voix haute, et inversement.",
+      "officialObjectives": [
+        "Comparer la longueur d’un texte écrit et la durée du texte entendu."
+      ],
+      "evidence": [
+        "Compare la longueur d’un texte écrit et la durée du texte entendu."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} devine que le texte le plus long de la page sera aussi le plus long à lire à voix haute ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-oe-05",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Passer de l’oral à l’écrit",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Savoir qu’on lit de gauche à droite et de haut en bas",
+      "description": "Savoir dans quel sens se lit un texte en français : de gauche à droite sur une ligne, et de haut en bas sur la page.",
+      "officialObjectives": [
+        "Savoir que le sens de la lecture est de gauche à droite et de haut en bas."
+      ],
+      "evidence": [
+        "Indique le sens de la lecture : de gauche à droite et de haut en bas."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer par où commencer pour lire une page et dans quel sens suivre les lignes ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-ms-prod-01",
+      "programme": "langage-c1",
+      "type": "META",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Produire des écrits",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Chercher un modèle pour essayer d’écrire un mot",
+      "description": "Pour essayer d’écrire un mot, aller chercher un modèle dans la classe (affiche, étiquette, imagier) et s’en servir. Les essais d’écriture portent sur des mots « transparents », qui s’écrivent comme ils se prononcent (ex. : moto, vélo).",
+      "officialObjectives": [
+        "Chercher parmi les outils à sa disposition des modèles qui seront réutilisés dans un essai d’écriture."
+      ],
+      "evidence": [
+        "Écrit un mot transparent avec l’appui d’un modèle, sur commande du professeur.",
+        "S’engage dans des essais d’écriture.",
+        "Joue avec la langue en inventant des pseudo-mots."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Pour écrire « moto », est-ce que {{prenom}} pense à chercher un modèle (un livre, une étiquette, une affiche) pour le recopier ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-voc-01",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Comprendre et réutiliser 3 séries de mots par période",
+      "description": "Apprendre et réutiliser trois séries de mots par période : les mots des émotions et des sentiments des personnages, des mots aux sons proches et ceux utiles pour le CP. L’objectif est d’utiliser au moins 2 500 mots à la fin de la grande section.",
+      "officialObjectives": [
+        "Comprendre, mémoriser, réemployer les mots des corpus enseignés (3 par période)."
+      ],
+      "evidence": [
+        "Comprend et utilise les mots des émotions, des sentiments et des états mentaux des personnages de fiction.",
+        "Comprend et utilise les mots qui entretiennent une proximité phonique (poule/roule/boule/moule).",
+        "Comprend et utilise les mots qui permettent de s’emparer des apprentissages du CP.",
+        "Utilise au moins 2 500 mots en fin de grande section."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} emploie des mots précis pour dire ce que ressent un personnage d’histoire, comme « furieux », « inquiet » ou « jaloux » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 9,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-voc-02",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Trouver le mot qui regroupe une catégorie",
+      "description": "Trouver le mot général qui englobe toute une catégorie (véhicule pour voiture, bus, vélo ; animal pour chat, chien, grenouille).",
+      "officialObjectives": [
+        "Organiser les mots en catégorie et en réseau."
+      ],
+      "evidence": [
+        "Cherche des hyperonymes des réseaux étudiés : véhicule pour voiture, bus, vélo ; animal pour chat, chien, grenouille."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver le mot qui regroupe « voiture, bus, vélo » (véhicule) ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 9,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-voc-03",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Construire des mots de la même famille",
+      "description": "Fabriquer et comprendre des mots à partir d’un mot connu (arroser → arrosage ; gentil → gentiment → gentillesse ; jambe → enjamber), sans que les termes de grammaire soient enseignés.",
+      "officialObjectives": [
+        "Organiser les mots en catégorie et en réseau."
+      ],
+      "evidence": [
+        "Construit des dérivations : arroser → arrosage ; gentil → gentiment → gentillesse.",
+        "S’appuie sur des verbes et des noms déjà connus pour comprendre et essayer de construire un nouveau mot : jambe / enjamber."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver des mots de la famille de « gentil », comme « gentiment » ou « gentillesse » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 9,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-voc-04",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Enrichir son vocabulaire",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Comprendre le sens figuré et deviner le sens d’un mot inconnu",
+      "description": "Comprendre qu’une expression peut avoir un sens propre et un sens figuré (dévorer un gâteau / dévorer un livre) et deviner le sens d’un mot nouveau grâce à ce qui l’entoure.",
+      "officialObjectives": [
+        "Organiser les mots en catégorie et en réseau."
+      ],
+      "evidence": [
+        "Distingue le sens propre du sens figuré : comprend le sens de dévorer un gâteau et de dévorer un livre.",
+        "Infère le sens d’un mot inconnu."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend ce que veut dire « dévorer un livre », par rapport à « dévorer un gâteau » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 9,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-syn-01",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Développer sa syntaxe",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Utiliser les pronoms nous et vous",
+      "description": "Employer correctement « nous » et « vous » en parlant, avec les formes de verbe qui vont avec.",
+      "officialObjectives": [
+        "Diversifier les pronoms employés."
+      ],
+      "evidence": [
+        "Utilise les pronoms nous et vous : « Avec les CP, nous avons mangé un gâteau », « Vous, vous mangez un gâteau et pas nous. »"
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} emploie « nous » et « vous », par exemple « Avec les CP, nous avons mangé un gâteau » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 10,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-syn-02",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Développer sa syntaxe",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Utiliser le futur, le plus-que-parfait et le futur antérieur",
+      "description": "Situer les évènements les uns par rapport aux autres avec des temps plus variés : l’imparfait avec le plus-que-parfait (« j’avais fait »), le futur (« on écrira ») et le futur antérieur (« on aura déjà été »).",
+      "officialObjectives": [
+        "Construire à l’oral un système de temps de plus en plus efficace."
+      ],
+      "evidence": [
+        "Utilise un système à trois temps, imparfait / plus-que-parfait / imparfait à valeur de futur dans le passé (aller) : « Moi, j’étais sur un toboggan. J’avais fait de la balançoire et j’allais faire du vélo ».",
+        "Utilise le futur simple : « Quand on écrira aux correspondants ».",
+        "Utilise un système à deux temps, futur / futur antérieur : « Quand on ira chez les correspondants, on aura déjà été au spectacle et on pourra leur raconter l’histoire. »"
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} parle de l’avenir au futur, par exemple « Quand on écrira aux correspondants » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 10,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-syn-03",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Développer sa syntaxe",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Faire des phrases complexes avec où, quand, pour que, si, comme",
+      "description": "Construire des phrases plus élaborées en reliant les idées avec où, quand, pour que, si, comme.",
+      "officialObjectives": [
+        "Formuler des énoncés de plus en plus complexes."
+      ],
+      "evidence": [
+        "Utilise de nouveaux introducteurs de complexité (où / quand / pour que / si / comme) : « Là, c’est la maison où le loup a mangé le petit chaperon rouge. », « Le chevreau s’est caché dans l’horloge pour que le loup ne le voie pas. »",
+        "Dit par exemple : « Quand je vais à la boulangerie, la boulangère me donne un bonbon. », « Comme il fait chaud, elle va boire de l’eau. »"
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} fait des phrases comme « Le chevreau s’est caché dans l’horloge pour que le loup ne le voie pas » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 11,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-art-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Articuler distinctement",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Prononcer correctement ch/s, ch/j, ch/z",
+      "description": "Bien distinguer à l’oral le son « ch » des sons « s », « j » et « z ». À partir de 5 ans, le professeur entraine les élèves à prononcer correctement en reformulant leurs propos.",
+      "officialObjectives": [
+        "Prononcer correctement les couples de consonnes proches suivants : ch/s, ch/j, ch/z."
+      ],
+      "evidence": [
+        "À partir d’un imagier composé de paires distinctives, notamment dans une situation de jeux traditionnels, prononce correctement : chaud/seau ; mouche/mousse ; bijou/bisou ; manche/mange."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} prononce différemment « mouche » et « mousse », « bijou » et « bisou » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 11,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-art-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Articuler distinctement",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Prononcer correctement br, cr, bl, pl, sl",
+      "description": "Prononcer sans les simplifier les groupes de deux consonnes (br, cr, bl, pl, sl), comme dans « bras », « craie », « bleu » ou « pluie ». À la fin de la maternelle, l’enfant prononce correctement les 36 sons du français.",
+      "officialObjectives": [
+        "Prononcer correctement les doubles consonnes : br/cr/bl/pl/sl."
+      ],
+      "evidence": [
+        "Prononce correctement les groupes de consonnes br, cr, bl, pl, sl.",
+        "À l’issue de l’école maternelle, prononce avec exactitude l’ensemble des trente-six phonèmes de la langue française."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} prononce bien « bleu », « pluie » ou « crabe », sans dire « beu » ou « pui » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 11,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-disc-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Produire des discours variés",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Décrire ce qu’a fait un autre enfant",
+      "description": "Décrire une action ou une activité réalisée par un camarade, et non plus seulement ses propres actions.",
+      "officialObjectives": [
+        "Décrire une action ou une activité qui a été menée par un autre élève."
+      ],
+      "evidence": [
+        "Dit : « Peut-être que Corentin a mis la peinture avant de dessiner avec les feutres. »"
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter ce qu’a fait un camarade pendant une activité, par exemple comment Corentin a réalisé son dessin ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 12,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-disc-02",
+      "programme": "langage-c1",
+      "type": "META",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Produire des discours variés",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Se faire comprendre de quelqu’un qui n’était pas là",
+      "description": "Raconter une situation à un adulte qui n’y était pas, en pensant à donner toutes les informations utiles (qui, où, quoi) pour être compris : c’est se mettre à la place de l’autre.",
+      "officialObjectives": [
+        "Se faire comprendre, par le truchement du langage, d’un adulte qui ne connait rien à la situation évoquée."
+      ],
+      "evidence": [
+        "Se décentre suffisamment et identifie les informations à communiquer pour qu’un interlocuteur qui n’a pas vécu la situation évoquée puisse la comprendre."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Quand {{prenom}} vous raconte un moment de la journée d’école, est-ce que vous comprenez sans y avoir assisté, parce que les informations utiles sont données ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 12,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-disc-03",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Produire des discours variés",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Converser et reformuler son propos s’il n’est pas compris",
+      "description": "Participer à une conversation avec un adulte ou d’autres enfants, et redire autrement ce qu’on veut dire quand l’autre n’a pas compris.",
+      "officialObjectives": [
+        "Participer à une conversation avec un adulte ou des pairs et reformuler son propos s’il n’a pas été compris."
+      ],
+      "evidence": [
+        "Participe à une conversation avec un adulte ou des pairs.",
+        "Reformule son propos quand l’interlocuteur montre ne pas avoir compris."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Quand vous n’avez pas compris ce que {{prenom}} vous raconte, est-ce que {{prenom}} essaie de le dire autrement ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 12,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-disc-04",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Acquérir le langage oral",
+      "subdomain": "Produire des discours variés",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Émettre une hypothèse",
+      "description": "Faire des suppositions avec des tournures comme « peut-être que », « si… il faudrait », pour imaginer ou expliquer ce qui pourrait se passer.",
+      "officialObjectives": [
+        "Émettre une hypothèse."
+      ],
+      "evidence": [
+        "Dit : « Pour acheter les fruits du gouter, il faudrait compter les élèves de la classe. »",
+        "Dit : « Si on voulait de la peinture verte, il faudrait mélanger du jaune avec du bleu. »",
+        "Dit : « Peut-être que Corentin a mis la peinture avant de dessiner avec les feutres. »"
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} fait des suppositions comme « Si on voulait de la peinture verte, il faudrait mélanger du jaune avec du bleu » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 12,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-son-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Écouter, identifier, discriminer et reproduire des sons",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Utiliser les possibilités sonores de sa voix",
+      "description": "Se servir de sa voix (hauteur, intensité, articulation) pour produire et faire entendre clairement des sons différents.",
+      "officialObjectives": [
+        "Utiliser les possibilités sonores de la voix."
+      ],
+      "evidence": [
+        "Produit avec la voix des sons proches en les différenciant : on/en/un."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire entendre avec la voix la différence entre « on », « en » et « un » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 14,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-son-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Écouter, identifier, discriminer et reproduire des sons",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Écouter avec attention et mémoriser des sons",
+      "description": "Développer sa mémoire auditive et sa concentration : écouter attentivement, distinguer les sons de la langue, les situer et les retenir.",
+      "officialObjectives": [
+        "Augmenter sa mémoire auditive et sa capacité de concentration."
+      ],
+      "evidence": [
+        "Discrimine et identifie les sons de la langue, les localise dans une suite et les mémorise.",
+        "Différencie les sons proches : on/en/un."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Si vous dites une suite de trois ou quatre syllabes, est-ce que {{prenom}} sait la répéter dans le bon ordre ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 14,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-syl-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Manipuler des syllabes orales puis des phonèmes",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Manipuler les syllabes pour fabriquer de nouveaux mots",
+      "description": "Supprimer, ajouter, remplacer, inverser ou fusionner des syllabes à l’oral pour transformer un mot ou en inventer un.",
+      "officialObjectives": [
+        "Supprimer, ajouter, remplacer, inverser, substituer, fusionner les syllabes d’un mot."
+      ],
+      "evidence": [
+        "Fusionne la syllabe d’attaque de POISSON et la syllabe finale de SOURIS pour obtenir le pseudo-mot POIRIS."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait fabriquer un mot rigolo avec le début de « poisson » et la fin de « souris » (« poiris ») ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 15,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-syl-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Manipuler des syllabes orales puis des phonèmes",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Repérer et trouver des rimes",
+      "description": "Entendre que des mots se terminent par le même son (rime) ou répètent un même son de voyelle (assonance), et en trouver soi-même.",
+      "officialObjectives": [
+        "Repérer et produire des rimes et des assonances."
+      ],
+      "evidence": [
+        "Repère des rimes et des assonances et en produit."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver un mot qui rime avec « bateau » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 15,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-syl-03",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Manipuler des syllabes orales puis des phonèmes",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Entendre et repérer un son dans un mot",
+      "description": "Entendre les plus petits sons de la langue (les phonèmes, comme « f » ou « s »), les comparer et dire où ils se trouvent dans un mot : au début, au milieu ou à la fin.",
+      "officialObjectives": [
+        "Entendre, discriminer, manipuler des phonèmes."
+      ],
+      "evidence": [
+        "Trouve le son /f/ dans une liste de mots.",
+        "Trouve l’intrus à l’initiale entre sac / Sacha / cartable.",
+        "Localise un phonème dans un mot."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire lequel de ces mots ne commence pas par le même son : « sac », « Sacha », « cartable » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 15,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-nlet-01",
+      "programme": "langage-c1",
+      "type": "LANGUAGE",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Connaitre le nom des lettres",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Connaitre le nom de toutes les lettres de l’alphabet",
+      "description": "Connaitre le nom de toutes les lettres de l’alphabet et savoir épeler un mot connu.",
+      "officialObjectives": [
+        "Connaitre le nom des lettres de l’alphabet."
+      ],
+      "evidence": [
+        "Reconnait et nomme toutes les lettres d’un mot écrit.",
+        "Épelle les lettres d’un mot connu afin qu’un tiers puisse l’écrire."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer toutes les lettres d’un mot connu et l’épeler pour que vous puissiez l’écrire ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 15,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-nlet-02",
+      "programme": "langage-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Connaitre le nom des lettres",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Reconnaitre une lettre dans ses trois écritures",
+      "description": "Reconnaitre une même lettre écrite en capitale (A), en script (a) et en cursive (lettres attachées).",
+      "officialObjectives": [
+        "Connaitre les différentes graphies d’une même lettre (majuscule lettre capitale ; minuscules scriptes ; cursives)."
+      ],
+      "evidence": [
+        "Reconnait et nomme toutes les lettres d’un mot écrit dans les trois graphies."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} reconnait le même mot écrit en capitales, en script et en lettres attachées ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 15,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-nlet-03",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Connaitre le nom des lettres",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Distinguer les lettres qui se ressemblent (b/d, p/q)",
+      "description": "Ne plus confondre des lettres qui se ressemblent (b/d, c/e/o, p/q) en s’aidant de leur tracé en écriture attachée, et les nommer correctement.",
+      "officialObjectives": [
+        "Distinguer des lettres visuellement proches (b/d, c/e/o, p/q) grâce à leur écriture cursive et les nommer correctement."
+      ],
+      "evidence": [
+        "Distingue et nomme correctement des lettres visuellement proches (b/d, c/e/o, p/q) en s’appuyant sur leur écriture cursive."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} fait la différence entre un « b » et un « d », ou un « p » et un « q », et les nomme correctement ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 15,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-slet-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Connaitre le son des lettres",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Connaitre le son des lettres, hormis p, t, k, b, d, g",
+      "description": "Connaitre le nom de chaque lettre et le son qu’elle fait, sauf pour les consonnes « explosives » (les occlusives p, t, k, b, d, g), plus difficiles à isoler car on ne peut pas les faire durer.",
+      "officialObjectives": [
+        "Connaitre le nom des lettres de l’alphabet et leur valeur sonore hormis les occlusives."
+      ],
+      "evidence": [
+        "Répète un mot lentement et essaie de prolonger les phonèmes (voyelles, consonnes fricatives s/r/f/v/j/ch et liquide l) pour retrouver les lettres auxquelles ils correspondent."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quelle lettre fait le son « fff » ou « sss », par exemple en étirant le mot « ssssac » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 15,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-slet-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Connaitre le son des lettres",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Distinguer à l’oreille des mots qui se ressemblent",
+      "description": "Entendre la différence entre des mots qui ne changent que d’un son (poule, boule, roule, moule…).",
+      "officialObjectives": [
+        "Discriminer des mots auditivement proches."
+      ],
+      "evidence": [
+        "Discrimine et identifie les mots auditivement proches : poule/boule/roule/moule/coule/foule."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} entend la différence entre « poule », « boule » et « moule », et sait montrer la bonne image ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 15,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-sup-01",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Découvrir les supports de l’écrit",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Différencier les types d’écrits et leur usage",
+      "description": "Distinguer les différents types d’écrits (recette, lettre, conte, documentaire…) et choisir celui qui convient à un projet d’écriture ou de communication.",
+      "officialObjectives": [
+        "Différencier les types d’écrits et associer un écrit à un projet d’écriture ou de communication."
+      ],
+      "evidence": [
+        "Identifie la fonction d’un écrit (ex. : une recette de cuisine), liée aux raisons que l’on peut avoir de l’utiliser."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Pour faire un gâteau ou inviter des amis, est-ce que {{prenom}} sait quel type d’écrit il faut (une recette, une invitation) ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 17,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-sup-02",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Découvrir les supports de l’écrit",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Repérer comment un écrit est organisé sur la page",
+      "description": "Repérer l’organisation des écrits courants de la classe (lettre, recette, conte, documentaire, notice de fabrication) et en parler avec les bons mots : page, ligne, paragraphe, majuscule, ponctuation.",
+      "officialObjectives": [
+        "Repérer et dégager la structure et l’organisation (mise en page, typographie) de formes d’écrits fréquemment utilisés en classe (structure de la lettre, de la recette, du conte, d’un écrit documentaire, d’une notice de fabrication)."
+      ],
+      "evidence": [
+        "Utilise le vocabulaire approprié pour parler des écrits (page, paragraphe, ligne, majuscule, ponctuation).",
+        "Repère la structure de formes d’écrits fréquentes en classe : lettre, recette, conte, écrit documentaire, notice de fabrication."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} reconnait une recette à sa présentation (ingrédients, étapes) et emploie des mots comme « page », « ligne » ou « majuscule » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 17,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-comp-01",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Comprendre des textes lus par le professeur",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Connaitre les personnages typiques des contes",
+      "description": "Savoir ce qui caractérise les personnages typiques des contes (loup, princesse, ogre, sorcière, renard, fée…) : ce qu’ils veulent, ce qu’ils vivent, leurs relations avec les autres.",
+      "officialObjectives": [
+        "Construire les caractéristiques des personnages archétypaux (loup, princesse, ogre, sorcière, renard, fée, etc.)."
+      ],
+      "evidence": [
+        "Explique les motivations des personnages (vouloir grandir, être le plus fort…), les expériences qu’ils vivent et leurs relations avec autrui (l’amitié, l’entraide, la ruse…)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire comment est habituellement le loup ou le renard dans les contes, et ce qu’ils cherchent à faire ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 18,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-comp-02",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Comprendre des textes lus par le professeur",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Comprendre et raconter une histoire aux personnages multiples",
+      "description": "Comprendre une histoire où plusieurs personnages évoluent, se rencontrent et agissent les uns sur les autres dans des lieux différents, et pouvoir la raconter en entier.",
+      "officialObjectives": [
+        "Comprendre des histoires où l’enchainement des actions est lié au destin de personnages centraux ou secondaires qui évoluent et interagissent, dans des lieux diversifiés."
+      ],
+      "evidence": [
+        "Raconte une histoire connue, dans son intégralité et sans support."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter en entier une histoire connue, sans le livre sous les yeux ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 18,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-comp-03",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Comprendre des textes lus par le professeur",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Comprendre les émotions et les intentions des personnages",
+      "description": "Comprendre ce que ressentent les personnages et ce qu’ils cherchent à faire, même quand le texte ne le dit pas directement.",
+      "officialObjectives": [
+        "Comprendre les émotions, les intentions et les sentiments qui animent les personnages."
+      ],
+      "evidence": [
+        "Explique les émotions des personnages (être en colère, avoir peur…) et leurs motivations (vouloir grandir, être le plus fort…)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi un personnage est en colère ou a peur, et ce que ce personnage veut faire ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 18,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-comp-04",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Comprendre des textes lus par le professeur",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Relier une histoire à sa propre expérience",
+      "description": "Faire le lien entre une histoire entendue et ce qu’on a soi-même vécu, notamment les émotions.",
+      "officialObjectives": [
+        "Établir un lien entre la lecture effectuée et sa propre expérience."
+      ],
+      "evidence": [
+        "Transpose les émotions ressenties par les personnages à sa propre expérience."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Après une histoire où un personnage a peur, est-ce que {{prenom}} raconte un moment où {{prenom}} a eu peur aussi ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 18,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-gest-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Apprendre le geste d’écriture",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Tenir son stylo avec la pince des doigts",
+      "description": "Tenir correctement le stylo entre les doigts (la « pince ») et faire travailler ensemble épaule, coude, poignet et doigts pour un geste d’écriture précis.",
+      "officialObjectives": [
+        "Tenir correctement son stylo par la pince des doigts et utiliser de façon coordonnée les quatre articulations (épaule, coude, poignet, doigts)."
+      ],
+      "evidence": [
+        "Tient correctement son stylo par la pince des doigts.",
+        "Utilise de façon coordonnée épaule, coude, poignet et doigts pour écrire."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} tient son stylo correctement entre les doigts, avec un geste souple en écrivant ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 19,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-gest-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Apprendre le geste d’écriture",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Écrire en cursive en reliant les lettres",
+      "description": "Tracer les lettres attachées (écriture cursive) et les relier entre elles (ligature), jusqu’à écrire son prénom sans modèle.",
+      "officialObjectives": [
+        "Travailler la ligature entre deux lettres.",
+        "Tracer des lettres en écriture cursive, les enchainer."
+      ],
+      "evidence": [
+        "Mémorise et automatise le tracé des lettres en cursive et leur enchainement pour écrire son prénom sans modèle.",
+        "Écrit un mot orthographiquement transparent en cursive avec ou sans modèle."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire son prénom en lettres attachées, sans modèle ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 19,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-oe-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Passer de l’oral à l’écrit",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Découper l’oral en mots, en syllabes et en sons",
+      "description": "Découper une phrase entendue en mots, les mots en syllabes et quelques syllabes en sons (phonèmes) : une étape clé pour apprendre à lire et à écrire.",
+      "officialObjectives": [
+        "Segmenter l’oral en mots, les mots en syllabes, quelques syllabes en phonèmes."
+      ],
+      "evidence": [
+        "Repère un mot transparent dans une phrase écrite que le professeur vient de lire.",
+        "Module le débit de sa parole pour l’ajuster au geste d’écriture lors d’une dictée à l’adulte."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire combien de mots compte la phrase « Le chat dort », puis découper « moto » en syllabes ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-oe-02",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Passer de l’oral à l’écrit",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Comprendre que les sons de la langue s’écrivent avec des lettres",
+      "description": "Comprendre que l’écrit transcrit ce qu’on dit et que chaque son de la langue est représenté par des lettres. À l’écrit, la phrase doit aussi être correcte.",
+      "officialObjectives": [
+        "Comprendre que l’écrit encode l’oral et que les sons de la langue sont codés par des lettres."
+      ],
+      "evidence": [
+        "Repère un mot transparent dans une phrase écrite que le professeur vient de lire.",
+        "Reformule son propos afin d’arriver à un message syntaxiquement correct qui sera dicté."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend que pour écrire « vélo », il faut des lettres qui correspondent aux sons « v », « é », « l », « o » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-oe-03",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Passer de l’oral à l’écrit",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Suivre des yeux le texte relu par l’adulte",
+      "description": "Quand l’adulte relit un message que les enfants lui ont dicté, suivre le texte des yeux et vérifier qu’il correspond à ce qui a été dit.",
+      "officialObjectives": [
+        "Suivre la trace écrite des yeux lors d’une relecture par l’adulte d’un message produit lors d’une dictée à l’adulte."
+      ],
+      "evidence": [
+        "Repère un oubli volontaire d’un mot par le professeur lors d’une activité de dictée à l’adulte."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Quand vous relisez une phrase dictée par {{prenom}}, est-ce que {{prenom}} suit le texte des yeux et remarque si vous sautez un mot exprès ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 20,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-prod-01",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Produire des écrits",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Mémoriser l’écriture de mots simples pour les réécrire",
+      "description": "Retenir comment s’écrivent des mots « transparents » (qui s’écrivent comme ils se prononcent, ex. : moto, lune) ou des syllabes connues, en s’aidant des lettres et des sons, pour les réécrire ensuite dans ses propres écrits.",
+      "officialObjectives": [
+        "Mémoriser la graphie d’un mot transparent, en s’appuyant sur la connaissance des lettres et la conscience phonologique et le retranscrire sur un support.",
+        "Mémoriser l’écriture de mots transparents ou de syllabes connues pour les réutiliser dans une production d’écrit."
+      ],
+      "evidence": [
+        "Utilise ses propres ressources mémorisées et celles de la classe pour écrire des mots.",
+        "Écrit de mémoire un mot transparent sur un support, en s’appuyant sur la connaissance des lettres et des sons."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait réécrire de mémoire un mot simple appris à l’école, comme « moto » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 21,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-prod-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Produire des écrits",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Écrire un mot en s’aidant des sons et des lettres",
+      "description": "Essayer d’écrire un mot en écoutant ses sons et en choisissant les lettres qui leur correspondent (le principe alphabétique), puis expliquer comment on s’y est pris. En grande section, le professeur encourage cet « encodage » de mots transparents.",
+      "officialObjectives": [
+        "Réinvestir ses premières connaissances relatives au principe alphabétique pour produire un écrit."
+      ],
+      "evidence": [
+        "Utilise quelques rapports phonie-graphie parmi les plus simples à percevoir : quelques voyelles simples et quelques consonnes fricatives (s, f, v, z, r) et liquides (l) pour produire des écrits.",
+        "Propose l’écriture d’un mot transparent et explicite la stratégie utilisée (copie de morceaux de mots, tracé de lettres connues, recours au principe alphabétique)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} essaie d’écrire un mot comme « vélo » en cherchant les lettres qui correspondent aux sons entendus, et sait expliquer comment ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 21,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-prod-03",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Produire des écrits",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Se servir de l’alphabet pour retrouver une lettre",
+      "description": "Retrouver dans l’alphabet (affiché ou récité) comment s’écrit une lettre dont on a besoin pour écrire.",
+      "officialObjectives": [
+        "Se repérer dans l’alphabet pour retrouver l’écriture d’une lettre nécessaire pour produire un écrit."
+      ],
+      "evidence": [
+        "Utilise les ressources de la classe, comme l’alphabet, pour retrouver l’écriture d’une lettre."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Si {{prenom}} ne se souvient plus comment s’écrit une lettre, est-ce que {{prenom}} pense à la retrouver dans un alphabet affiché ou en récitant l’alphabet ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 21,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-prod-04",
+      "programme": "langage-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Produire des écrits",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Savoir qu’écrire suit des règles (majuscule, point, mise en page)",
+      "description": "Comprendre que l’écrit obéit à des règles : majuscule, ponctuation, disposition sur la page.",
+      "officialObjectives": [
+        "Comprendre qu’il existe une norme pour écrire : ponctuation, majuscules, mise en page, etc."
+      ],
+      "evidence": [
+        "Comprend que la langue écrite est régie par des règles : ponctuation, majuscules, mise en page."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’une phrase écrite commence par une majuscule et se termine par un point ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 21,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-gs-prod-05",
+      "programme": "langage-c1",
+      "type": "META",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire",
+      "subdomain": "Produire des écrits",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Mener un écrit jusqu’au bout : préparer, dicter, relire",
+      "description": "Aller au bout d’un projet d’écriture, souvent en dictée à l’adulte : savoir pourquoi et à qui on écrit, choisir ses idées, formuler et dicter les phrases, puis relire et corriger.",
+      "officialObjectives": [
+        "Persévérer pour mener la production d’écrit à son terme : préparation, énonciation et révision."
+      ],
+      "evidence": [
+        "Définit l’intention d’écriture (but, destinataire) et prépare l’écrit en choisissant les idées.",
+        "Énonce oralement le propos en choisissant et en ordonnant les mots, puis le dicte en respectant les normes syntaxiques.",
+        "Révise l’écrit qui a été produit."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Pour une carte d’invitation, est-ce que {{prenom}} va jusqu’au bout : choisir quoi dire, le dicter, puis vérifier avec vous ce qui a été écrit ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 21,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-c1-lect-01",
+      "programme": "langage-c1",
+      "type": "META",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Initier un parcours de lecteur et une première culture littéraire",
+      "level": "Cycle 1",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 6,
+      "name": "Prendre gout aux livres et choisir un livre selon ses gouts",
+      "description": "Grâce aux lectures quotidiennes faites par l’adulte (contes, légendes, fables, poèmes, albums, recettes, documentaires), se construire une première culture de lecteur et apprendre à choisir un livre selon ses envies et des critères de plus en plus précis.",
+      "officialObjectives": [
+        "L’élève s’acculture ainsi à différents types d’écrits et se forge petit à petit une première culture littéraire ou documentaire qui lui permet de choisir un ouvrage en fonction de critères de plus en plus précis et des gouts qu’il développe."
+      ],
+      "evidence": [
+        "Choisit un ouvrage en fonction de critères de plus en plus précis et de ses gouts.",
+        "Fréquente des écrits variés : contes, légendes, fables, poèmes, littérature de jeunesse, recettes, textes documentaires."
+      ],
+      "period": "tout au long de l’école maternelle",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir un livre et dire pourquoi, par exemple parce que c’est un conte ou un livre sur les animaux ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 16,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-lan-c1-lect-02",
+      "programme": "langage-c1",
+      "type": "PROCEDURAL",
+      "subject": "Langage oral et écrit",
+      "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire",
+      "subdomain": "Initier un parcours de lecteur et une première culture littéraire",
+      "level": "Cycle 1",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 6,
+      "name": "Manipuler un livre et en prendre soin",
+      "description": "Faire du livre un objet familier, à l’école comme à la maison : savoir le tenir, tourner les pages et le ranger avec soin.",
+      "officialObjectives": [
+        "Le livre devient un objet familier pour l’élève dans la classe et dans la famille. Il apprend ainsi à le manipuler, à en prendre soin."
+      ],
+      "evidence": [
+        "Manipule un livre et en prend soin, en classe comme dans la famille."
+      ],
+      "period": "tout au long de l’école maternelle",
+      "assessmentPrompt": "Est-ce que {{prenom}} tourne les pages d’un livre une à une, avec soin, et le range après l’avoir regardé ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 16,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-lan-ps-voc-02",
+      "prerequisiteId": "fr-lan-ps-voc-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Classer des mots suppose d’en connaitre le sens."
+    },
+    {
+      "topicId": "fr-lan-ps-syn-02",
+      "prerequisiteId": "fr-lan-ps-syn-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les premiers temps s’emploient avec les pronoms il, elle, je."
+    },
+    {
+      "topicId": "fr-lan-ps-disc-02",
+      "prerequisiteId": "fr-lan-ps-disc-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Dire ce qu’on fait suppose d’oser entrer en communication."
+    },
+    {
+      "topicId": "fr-lan-ps-disc-03",
+      "prerequisiteId": "fr-lan-ps-disc-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Raconter ce qu’on a fait prolonge le fait de dire ce qu’on fait."
+    },
+    {
+      "topicId": "fr-lan-ps-disc-03",
+      "prerequisiteId": "fr-lan-ps-syn-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Dire ce qu’on a fait et va faire mobilise le passé composé et le futur proche."
+    },
+    {
+      "topicId": "fr-lan-ps-syl-01",
+      "prerequisiteId": "fr-lan-ps-son-02",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Le programme part de la perception du mot pour aller vers celle de la syllabe."
+    },
+    {
+      "topicId": "fr-lan-ps-comp-02",
+      "prerequisiteId": "fr-lan-ps-comp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Raconter ce que fait le personnage suppose de le reconnaitre."
+    },
+    {
+      "topicId": "fr-lan-ps-oe-02",
+      "prerequisiteId": "fr-lan-ps-disc-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Identifier le support d’une comptine suppose de l’avoir mémorisée."
+    },
+    {
+      "topicId": "fr-lan-ps-prod-02",
+      "prerequisiteId": "fr-lan-ps-prod-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Tracer des signes-lettres prolonge l’imitation des gestes d’écriture."
+    },
+    {
+      "topicId": "fr-lan-ps-prod-02",
+      "prerequisiteId": "fr-lan-ps-oe-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Distinguer lettres et dessins s’appuie sur la perception que l’écrit encode l’oral."
+    },
+    {
+      "topicId": "fr-lan-ms-voc-01",
+      "prerequisiteId": "fr-lan-ps-voc-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Comprendre et réutiliser les mots du quotidien appris en classe » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-voc-02",
+      "prerequisiteId": "fr-lan-ps-voc-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Ranger les mots et les objets par catégorie » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-voc-03",
+      "prerequisiteId": "fr-lan-ms-voc-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Relier un mot nouveau à un mot connu suppose un vocabulaire déjà mémorisé."
+    },
+    {
+      "topicId": "fr-lan-ms-voc-04",
+      "prerequisiteId": "fr-lan-ms-voc-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Repérer les sens d’un mot suppose de connaitre ce mot."
+    },
+    {
+      "topicId": "fr-lan-ms-syn-01",
+      "prerequisiteId": "fr-lan-ps-syn-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Utiliser les pronoms il, elle, ils, elles, puis je » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-syn-02",
+      "prerequisiteId": "fr-lan-ps-syn-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Parler au présent, au passé composé et au futur proche » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-syn-03",
+      "prerequisiteId": "fr-lan-ps-syn-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Relier des actions avec « et », « et puis » » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-art-02",
+      "prerequisiteId": "fr-lan-ps-art-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Prononcer distinctement t/k, f/s, m/n » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-art-01",
+      "prerequisiteId": "fr-lan-ps-art-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur la perception des distinctions entre mots proches (PS)."
+    },
+    {
+      "topicId": "fr-lan-ms-disc-01",
+      "prerequisiteId": "fr-lan-ps-disc-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Dire ce qu’on a fait, puis ce qu’on va faire » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-disc-02",
+      "prerequisiteId": "fr-lan-ps-disc-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Dire ce qu’on a fait, puis ce qu’on va faire » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-disc-02",
+      "prerequisiteId": "fr-lan-ms-syn-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Ordonner les étapes mobilise les connecteurs d’abord, après."
+    },
+    {
+      "topicId": "fr-lan-ms-disc-03",
+      "prerequisiteId": "fr-lan-ps-disc-04",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Dire avec le groupe une comptine apprise par cœur » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-disc-04",
+      "prerequisiteId": "fr-lan-ps-disc-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Oser parler à un adulte ou à un autre enfant » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-son-01",
+      "prerequisiteId": "fr-lan-ps-son-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur la reproduction de sons travaillée en PS."
+    },
+    {
+      "topicId": "fr-lan-ms-son-02",
+      "prerequisiteId": "fr-lan-ps-son-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Reconnaitre, comparer et imiter des sons » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-syl-01",
+      "prerequisiteId": "fr-lan-ps-syl-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Scander les syllabes d’un mot » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-syl-02",
+      "prerequisiteId": "fr-lan-ms-syl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Manipuler les syllabes suppose de savoir les isoler et les compter."
+    },
+    {
+      "topicId": "fr-lan-ms-syl-03",
+      "prerequisiteId": "fr-lan-ps-syl-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Dire des comptines courtes aux sons proches » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-nlet-01",
+      "prerequisiteId": "fr-lan-ps-nlet-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Reconnaitre son prénom et quelques-unes de ses lettres en capitales » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-nlet-02",
+      "prerequisiteId": "fr-lan-ms-nlet-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Associer les graphies d’une lettre s’appuie sur la connaissance de son nom."
+    },
+    {
+      "topicId": "fr-lan-ms-slet-01",
+      "prerequisiteId": "fr-lan-ms-nlet-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le son des lettres se relie à leur nom, que le professeur associe systématiquement."
+    },
+    {
+      "topicId": "fr-lan-ms-div-01",
+      "prerequisiteId": "fr-lan-ps-div-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Écouter des comptines et des histoires dans une autre langue » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-div-02",
+      "prerequisiteId": "fr-lan-ps-div-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Écouter des comptines et des histoires dans une autre langue » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-sup-01",
+      "prerequisiteId": "fr-lan-ps-sup-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Reconnaitre les écrits de la classe et savoir à quoi ils servent » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-sup-02",
+      "prerequisiteId": "fr-lan-ms-sup-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comprendre à qui s’adresse un écrit prolonge l’identification de sa fonction."
+    },
+    {
+      "topicId": "fr-lan-ms-sup-03",
+      "prerequisiteId": "fr-lan-ps-sup-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Reconnaitre les écrits de la classe et savoir à quoi ils servent » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-comp-01",
+      "prerequisiteId": "fr-lan-ps-comp-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Reconnaitre et nommer un personnage dans les images » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-comp-02",
+      "prerequisiteId": "fr-lan-ps-comp-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Comprendre une histoire proche de la vie quotidienne » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-comp-03",
+      "prerequisiteId": "fr-lan-ms-comp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comprendre ce que ressentent les personnages suppose de les identifier."
+    },
+    {
+      "topicId": "fr-lan-ms-gest-01",
+      "prerequisiteId": "fr-lan-ps-gest-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La posture d’écriture s’appuie sur la motricité générale exercée en PS."
+    },
+    {
+      "topicId": "fr-lan-ms-gest-02",
+      "prerequisiteId": "fr-lan-ps-gest-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La tenue du crayon s’appuie sur la motricité fine exercée en PS."
+    },
+    {
+      "topicId": "fr-lan-ms-gest-03",
+      "prerequisiteId": "fr-lan-ps-gest-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La coordination des articulations s’appuie sur la motricité exercée en PS."
+    },
+    {
+      "topicId": "fr-lan-ms-gest-04",
+      "prerequisiteId": "fr-lan-ps-gest-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les capitales se composent des formes de base : traits, points, cercles."
+    },
+    {
+      "topicId": "fr-lan-ms-gest-04",
+      "prerequisiteId": "fr-lan-ps-gest-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Se repérer sur la feuille pour tracer » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-gest-04",
+      "prerequisiteId": "fr-lan-ps-gest-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Tracer une lettre suppose de guider son geste par le regard."
+    },
+    {
+      "topicId": "fr-lan-ms-gest-05",
+      "prerequisiteId": "fr-lan-ms-gest-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La cursive demande de ne pas lever le crayon."
+    },
+    {
+      "topicId": "fr-lan-ms-oe-01",
+      "prerequisiteId": "fr-lan-ps-oe-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur la perception que l’écrit encode l’oral (PS)."
+    },
+    {
+      "topicId": "fr-lan-ms-oe-02",
+      "prerequisiteId": "fr-lan-ps-oe-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Comprendre que l’écrit garde ce qu’on dit » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-oe-02",
+      "prerequisiteId": "fr-lan-ms-slet-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Représenter les sons entendus s’appuie sur le son de quelques lettres."
+    },
+    {
+      "topicId": "fr-lan-ms-oe-03",
+      "prerequisiteId": "fr-lan-ps-oe-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La dictée à l’adulte suppose de percevoir que l’écrit encode l’oral."
+    },
+    {
+      "topicId": "fr-lan-ms-oe-04",
+      "prerequisiteId": "fr-lan-ps-oe-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Relier longueur écrite et durée orale suppose de percevoir que l’écrit encode l’oral."
+    },
+    {
+      "topicId": "fr-lan-ms-prod-01",
+      "prerequisiteId": "fr-lan-ps-prod-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Tracer des signes en sachant que ce sont des lettres, pas des dessins » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-ms-prod-01",
+      "prerequisiteId": "fr-lan-ms-gest-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les essais d’écriture se font d’abord en lettres capitales."
+    },
+    {
+      "topicId": "fr-lan-gs-voc-01",
+      "prerequisiteId": "fr-lan-ms-voc-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Comprendre et réutiliser les mots de l’environnement et des histoires » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-voc-02",
+      "prerequisiteId": "fr-lan-ms-voc-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Classer des mots par catégorie et trouver l’intrus » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-voc-03",
+      "prerequisiteId": "fr-lan-ms-voc-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « S’appuyer sur un mot connu pour comprendre un mot nouveau » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-voc-04",
+      "prerequisiteId": "fr-lan-ms-voc-04",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Repérer les mots à plusieurs sens et les synonymes » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-syn-01",
+      "prerequisiteId": "fr-lan-ms-syn-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Utiliser les pronoms tu et on » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-syn-02",
+      "prerequisiteId": "fr-lan-ms-syn-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Utiliser l’imparfait, le passé composé et le conditionnel » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-syn-03",
+      "prerequisiteId": "fr-lan-ms-syn-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Relier ses idées avec d’abord, après, parce que, qui » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-art-01",
+      "prerequisiteId": "fr-lan-ms-art-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Prononcer distinctement f/v, s/z, p/b, t/d, k/g » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-art-02",
+      "prerequisiteId": "fr-lan-ms-art-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Prononcer distinctement f/v, s/z, p/b, t/d, k/g » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-disc-01",
+      "prerequisiteId": "fr-lan-ms-disc-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Expliquer comment on a fait ou comment on va faire » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-disc-02",
+      "prerequisiteId": "fr-lan-ms-disc-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Raconter à quelqu’un d’absent prolonge le récit de ce qu’on a fait (MS)."
+    },
+    {
+      "topicId": "fr-lan-gs-disc-03",
+      "prerequisiteId": "fr-lan-ms-disc-04",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Participer à une discussion en restant sur le sujet » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-disc-04",
+      "prerequisiteId": "fr-lan-ms-syn-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Émettre une hypothèse mobilise le conditionnel (« il faudrait »)."
+    },
+    {
+      "topicId": "fr-lan-gs-disc-04",
+      "prerequisiteId": "fr-lan-gs-syn-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les hypothèses s’expriment avec si, comme, pour que."
+    },
+    {
+      "topicId": "fr-lan-gs-son-01",
+      "prerequisiteId": "fr-lan-ms-son-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Jouer avec sa voix pour produire des sons variés » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-son-02",
+      "prerequisiteId": "fr-lan-ms-son-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Entendre et distinguer les sons de la langue » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-syl-01",
+      "prerequisiteId": "fr-lan-ms-syl-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Ajouter, enlever ou inverser des syllabes » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-syl-02",
+      "prerequisiteId": "fr-lan-ms-syl-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les comptines aux sons proches préparent au repérage des rimes."
+    },
+    {
+      "topicId": "fr-lan-gs-syl-03",
+      "prerequisiteId": "fr-lan-ms-son-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Entendre et distinguer les sons de la langue » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-syl-03",
+      "prerequisiteId": "fr-lan-ms-syl-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme passe de la manipulation des syllabes à celle des phonèmes."
+    },
+    {
+      "topicId": "fr-lan-gs-nlet-01",
+      "prerequisiteId": "fr-lan-ms-nlet-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Nommer les lettres de son prénom et de mots connus » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-nlet-02",
+      "prerequisiteId": "fr-lan-ms-nlet-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Associer capitales, scriptes et cursives d’une même lettre » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-nlet-03",
+      "prerequisiteId": "fr-lan-gs-gest-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Les lettres proches se distinguent « grâce à leur écriture cursive »."
+    },
+    {
+      "topicId": "fr-lan-gs-nlet-03",
+      "prerequisiteId": "fr-lan-gs-nlet-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Nommer correctement les lettres proches suppose de connaitre le nom des lettres."
+    },
+    {
+      "topicId": "fr-lan-gs-slet-01",
+      "prerequisiteId": "fr-lan-ms-slet-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Connaitre le son de quelques lettres » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-slet-01",
+      "prerequisiteId": "fr-lan-gs-nlet-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Associer à chaque lettre sa valeur sonore suppose de connaitre toutes les lettres."
+    },
+    {
+      "topicId": "fr-lan-gs-slet-02",
+      "prerequisiteId": "fr-lan-ms-son-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Distinguer des mots proches suppose d’entendre les phonèmes qui les différencient."
+    },
+    {
+      "topicId": "fr-lan-gs-sup-01",
+      "prerequisiteId": "fr-lan-ms-sup-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Reconnaitre les écrits de la vie courante et leur fonction » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-sup-02",
+      "prerequisiteId": "fr-lan-gs-sup-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Repérer l’organisation d’un écrit s’appuie sur la distinction des types d’écrits."
+    },
+    {
+      "topicId": "fr-lan-gs-comp-01",
+      "prerequisiteId": "fr-lan-ms-comp-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Identifier et décrire les personnages d’une histoire » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-comp-02",
+      "prerequisiteId": "fr-lan-ms-comp-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Comprendre une histoire à épisodes répétitifs » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-comp-03",
+      "prerequisiteId": "fr-lan-ms-comp-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Commencer à comprendre ce que ressentent les personnages » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-comp-03",
+      "prerequisiteId": "fr-lan-gs-voc-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Expliquer les émotions mobilise les mots des émotions et des états mentaux."
+    },
+    {
+      "topicId": "fr-lan-gs-comp-04",
+      "prerequisiteId": "fr-lan-gs-comp-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Transposer les émotions des personnages suppose de les comprendre."
+    },
+    {
+      "topicId": "fr-lan-gs-gest-01",
+      "prerequisiteId": "fr-lan-ms-gest-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Tenir correctement son crayon sans le lever » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-gest-01",
+      "prerequisiteId": "fr-lan-ms-gest-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Coordonner épaule, coude, poignet et doigts pour écrire » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-gest-02",
+      "prerequisiteId": "fr-lan-ms-gest-05",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « S’initier au tracé de l’écriture cursive » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-gest-02",
+      "prerequisiteId": "fr-lan-gs-gest-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’enchainement des lettres cursives demande une tenue correcte du stylo."
+    },
+    {
+      "topicId": "fr-lan-gs-oe-01",
+      "prerequisiteId": "fr-lan-ms-syl-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Segmenter les mots en syllabes prolonge le dénombrement des syllabes (MS)."
+    },
+    {
+      "topicId": "fr-lan-gs-oe-01",
+      "prerequisiteId": "fr-lan-ms-son-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Segmenter en phonèmes suppose de les entendre et les discriminer."
+    },
+    {
+      "topicId": "fr-lan-gs-oe-02",
+      "prerequisiteId": "fr-lan-ms-oe-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Comprendre que l’écrit représente des sons » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-oe-03",
+      "prerequisiteId": "fr-lan-ms-oe-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Préparer et dicter un court message à l’adulte » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-oe-03",
+      "prerequisiteId": "fr-lan-ms-oe-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Suivre un texte des yeux suppose de connaitre le sens de la lecture."
+    },
+    {
+      "topicId": "fr-lan-gs-prod-01",
+      "prerequisiteId": "fr-lan-ms-prod-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Chercher un modèle pour essayer d’écrire un mot » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-prod-01",
+      "prerequisiteId": "fr-lan-gs-nlet-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "L’objectif précise « en s’appuyant sur la connaissance des lettres »."
+    },
+    {
+      "topicId": "fr-lan-gs-prod-01",
+      "prerequisiteId": "fr-lan-gs-syl-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "L’objectif précise « en s’appuyant sur […] la conscience phonologique »."
+    },
+    {
+      "topicId": "fr-lan-gs-prod-02",
+      "prerequisiteId": "fr-lan-gs-slet-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le principe alphabétique suppose de connaitre la valeur sonore des lettres."
+    },
+    {
+      "topicId": "fr-lan-gs-prod-02",
+      "prerequisiteId": "fr-lan-gs-oe-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Encoder un mot suppose de comprendre que les sons sont codés par des lettres."
+    },
+    {
+      "topicId": "fr-lan-gs-prod-03",
+      "prerequisiteId": "fr-lan-gs-nlet-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Se repérer dans l’alphabet suppose d’en connaitre les lettres."
+    },
+    {
+      "topicId": "fr-lan-gs-prod-04",
+      "prerequisiteId": "fr-lan-gs-sup-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La norme écrite s’appuie sur le vocabulaire majuscule, ponctuation, mise en page."
+    },
+    {
+      "topicId": "fr-lan-gs-prod-05",
+      "prerequisiteId": "fr-lan-ms-oe-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Prolonge « Préparer et dicter un court message à l’adulte » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-lan-gs-prod-05",
+      "prerequisiteId": "fr-lan-gs-sup-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Définir l’intention d’écriture suppose d’associer un écrit à un projet."
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

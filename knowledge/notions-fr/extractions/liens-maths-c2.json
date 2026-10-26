@@ -1,0 +1,989 @@
+{
+  "programme": "maths-c2",
+  "prerequisites": [
+    {
+      "topicId": "fr-ma-ce1-num-01",
+      "prerequisiteId": "fr-ma-cp-num-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Dénombrer et comparer des collections en les groupant par dix » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-num-02",
+      "prerequisiteId": "fr-ma-cp-num-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Construire une collection d’un nombre donné d’objets » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-num-03",
+      "prerequisiteId": "fr-ma-cp-num-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut savoir que 10 unités font 1 dizaine avant d'ajouter les centaines"
+    },
+    {
+      "topicId": "fr-ma-ce1-num-04",
+      "prerequisiteId": "fr-ma-cp-num-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Lire et écrire en chiffres les nombres jusqu’à 100 » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-num-04",
+      "prerequisiteId": "fr-ma-cp-num-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L'écriture en lettres jusqu'à 50 prépare celle des nombres jusqu'à 1 000"
+    },
+    {
+      "topicId": "fr-ma-ce1-num-07",
+      "prerequisiteId": "fr-ma-cp-num-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Comparer deux nombres jusqu’à 100 avec les signes =, < et > » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-num-08",
+      "prerequisiteId": "fr-ma-cp-num-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Ranger des nombres dans l’ordre croissant ou décroissant » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-num-09",
+      "prerequisiteId": "fr-ma-cp-num-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Placer des nombres sur une bande numérique et une demi-droite graduée » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-num-10",
+      "prerequisiteId": "fr-ma-cp-num-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Utiliser les nombres ordinaux jusqu’à « vingtième » » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-num-11",
+      "prerequisiteId": "fr-ma-cp-num-14",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Relier le rang d’un élément au nombre d’éléments placés avant lui » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-num-12",
+      "prerequisiteId": "fr-ma-cp-num-15",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Trouver un élément éloigné dans une suite répétitive » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-num-13",
+      "prerequisiteId": "fr-ma-cp-num-15",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les suites répétitives préparent les suites évolutives"
+    },
+    {
+      "topicId": "fr-ma-ce1-fra-01",
+      "prerequisiteId": "fr-ma-cp-cmf-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La moitié est la première fraction rencontrée"
+    },
+    {
+      "topicId": "fr-ma-ce1-fra-01",
+      "prerequisiteId": "fr-ma-cp-pb-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Partager équitablement prépare l'idée de parts égales d'un tout"
+    },
+    {
+      "topicId": "fr-ma-ce1-ope-01",
+      "prerequisiteId": "fr-ma-cp-ope-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Poser et calculer une addition en colonnes » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-ope-02",
+      "prerequisiteId": "fr-ma-cp-ope-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La soustraction posée s'appuie sur le lien entre addition et soustraction"
+    },
+    {
+      "topicId": "fr-ma-ce1-ope-03",
+      "prerequisiteId": "fr-ma-cp-ope-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Comprendre le sens de la multiplication (« fois ») » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-ope-05",
+      "prerequisiteId": "fr-ma-cp-cmf-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Un nombre pair est le double d'un nombre"
+    },
+    {
+      "topicId": "fr-ma-ce1-cmp-01",
+      "prerequisiteId": "fr-ma-cp-cmp-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme demande de réinvestir les procédures de calcul mental du CP"
+    },
+    {
+      "topicId": "fr-ma-ce1-cmf-01",
+      "prerequisiteId": "fr-ma-cp-cmf-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Connaitre les tables d’addition dans les deux sens » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-cmf-03",
+      "prerequisiteId": "fr-ma-cp-cmf-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Connaitre les moitiés des nombres usuels » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-cmn-01",
+      "prerequisiteId": "fr-ma-cp-cmn-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Ajouter ou soustraire des dizaines entières (de 20 à 90) » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-cmn-02",
+      "prerequisiteId": "fr-ma-cp-cmn-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Ajouter des centaines reprend la logique d'ajouter des dizaines"
+    },
+    {
+      "topicId": "fr-ma-ce1-cmp-02",
+      "prerequisiteId": "fr-ma-cp-cmp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Ajouter 9 à un nombre (ajouter 10 puis retirer 1) » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-cmp-04",
+      "prerequisiteId": "fr-ma-cp-cmp-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Soustraire un nombre inférieur à 10 à une dizaine entière » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-cmp-05",
+      "prerequisiteId": "fr-ma-cp-cmp-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Trouver la moitié d’un nombre pair en le décomposant » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-pb-01",
+      "prerequisiteId": "fr-ma-cp-pb-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Résoudre des problèmes additifs en une étape (parties-tout) » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-pb-02",
+      "prerequisiteId": "fr-ma-cp-num-08",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer suppose le vocabulaire « plus que », « moins que »"
+    },
+    {
+      "topicId": "fr-ma-ce1-pb-03",
+      "prerequisiteId": "fr-ma-cp-pb-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Résoudre des problèmes additifs en deux étapes (nombres jusqu’à 30) » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-pb-04",
+      "prerequisiteId": "fr-ma-cp-pb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Problèmes multiplicatifs : trouver le total de parts égales (jusqu’à 30) » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-pb-05",
+      "prerequisiteId": "fr-ma-cp-pb-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Problèmes de partage : trouver le nombre de parts (jusqu’à 30) » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-pb-06",
+      "prerequisiteId": "fr-ma-cp-pb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Problèmes de partage : trouver la valeur d’une part (jusqu’à 30) » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-lon-01",
+      "prerequisiteId": "fr-ma-cp-lon-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Connaitre le mètre et le centimètre (m, cm) et que 1 m = 100 cm » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-lon-03",
+      "prerequisiteId": "fr-ma-cp-lon-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Mesurer et tracer un segment avec une règle graduée » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-lon-04",
+      "prerequisiteId": "fr-ma-cp-lon-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Connaitre des longueurs de référence pour estimer une longueur » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-mas-01",
+      "prerequisiteId": "fr-ma-cp-mas-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Ranger des objets selon leur masse avec une balance à plateaux » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-mon-01",
+      "prerequisiteId": "fr-ma-cp-mon-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Connaître la valeur des pièces en euros avant d'introduire les centimes"
+    },
+    {
+      "topicId": "fr-ma-ce1-mon-03",
+      "prerequisiteId": "fr-ma-cp-mon-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Trouver la valeur d’un ensemble de pièces et de billets » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-mon-04",
+      "prerequisiteId": "fr-ma-cp-mon-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Constituer une somme d’argent donnée avec des pièces et des billets » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-mon-05",
+      "prerequisiteId": "fr-ma-cp-mon-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Simuler des achats et rendre la monnaie » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-tps-01",
+      "prerequisiteId": "fr-ma-cp-tps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Lire une heure entière sur une horloge à aiguilles » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-tps-02",
+      "prerequisiteId": "fr-ma-cp-tps-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Placer les aiguilles d’une horloge pour une heure entière » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-tps-03",
+      "prerequisiteId": "fr-ma-cp-tps-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Associer une heure à un moment de la journée » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-sol-01",
+      "prerequisiteId": "fr-ma-cp-sol-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Nommer un cube, un pavé et une boule » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-sol-02",
+      "prerequisiteId": "fr-ma-cp-sol-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Décrire un cube ou un pavé par ses faces » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-sol-04",
+      "prerequisiteId": "fr-ma-cp-sol-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Construire un cube ou un pavé en assemblant ses faces » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-geo-01",
+      "prerequisiteId": "fr-ma-cp-geo-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Décrire carré, rectangle et triangle avec « côté » et « sommet » » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-geo-04",
+      "prerequisiteId": "fr-ma-cp-geo-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Reproduire et compléter des figures sur papier quadrillé ou pointé » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-geo-05",
+      "prerequisiteId": "fr-ma-cp-geo-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Vérifier un alignement avec la règle » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-geo-07",
+      "prerequisiteId": "fr-ma-cp-geo-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Tracer une droite avec la règle » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-esp-01",
+      "prerequisiteId": "fr-ma-cp-esp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Situer des personnes ou des objets dans la classe » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-esp-02",
+      "prerequisiteId": "fr-ma-cp-esp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Se repérer sur un plan ou une maquette de la classe » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-esp-03",
+      "prerequisiteId": "fr-ma-cp-esp-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Reproduire un assemblage de cubes et de pavés d’après un modèle » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-esp-04",
+      "prerequisiteId": "fr-ma-cp-esp-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Coder un déplacement par une suite d’instructions » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-don-01",
+      "prerequisiteId": "fr-ma-cp-don-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Organiser des données recueillies dans un tableau » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-don-02",
+      "prerequisiteId": "fr-ma-cp-don-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Construire un diagramme en barres » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-don-03",
+      "prerequisiteId": "fr-ma-cp-don-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Lire et commenter des données (le plus, le moins, autant que…) » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce1-don-04",
+      "prerequisiteId": "fr-ma-cp-don-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Construire et compléter un tableau à double entrée » (CP)"
+    },
+    {
+      "topicId": "fr-ma-ce2-num-01",
+      "prerequisiteId": "fr-ma-ce1-num-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Dénombrer une collection organisée en centaines, dizaines et unités » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-num-02",
+      "prerequisiteId": "fr-ma-ce1-num-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Construire une collection d’un nombre donné avec des paquets de cent et de dix » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-num-03",
+      "prerequisiteId": "fr-ma-ce1-num-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Relations entre unités, dizaines et centaines » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-num-04",
+      "prerequisiteId": "fr-ma-ce1-num-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Lire, écrire et dire les nombres jusqu’à 1 000 » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-num-05",
+      "prerequisiteId": "fr-ma-ce1-num-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Passer d’une écriture d’un nombre à une autre » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-num-06",
+      "prerequisiteId": "fr-ma-ce1-num-06",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme dit que la numération de position étudiée depuis le CP se renforce au CE2"
+    },
+    {
+      "topicId": "fr-ma-ce2-num-07",
+      "prerequisiteId": "fr-ma-ce1-num-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Comparer, encadrer et intercaler des nombres jusqu’à 1 000 » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-num-08",
+      "prerequisiteId": "fr-ma-ce1-num-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Ranger des nombres dans l’ordre croissant ou décroissant » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-num-09",
+      "prerequisiteId": "fr-ma-ce1-num-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Placer et lire des nombres sur une demi-droite graduée » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-fra-01",
+      "prerequisiteId": "fr-ma-ce1-fra-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme dit qu'au début du CE2 les élèves réinvestissent les fractions d'un tout du CE1"
+    },
+    {
+      "topicId": "fr-ma-ce2-fra-01",
+      "prerequisiteId": "fr-ma-ce1-fra-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le vocabulaire numérateur / dénominateur aide à expliquer les égalités"
+    },
+    {
+      "topicId": "fr-ma-ce2-fra-02",
+      "prerequisiteId": "fr-ma-ce1-fra-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Partager une unité de longueur prolonge le partage d'un tout en parts égales"
+    },
+    {
+      "topicId": "fr-ma-ce2-fra-03",
+      "prerequisiteId": "fr-ma-ce1-fra-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Mesurer 3/4 d'unité suppose de comprendre les fractions comme 3/8"
+    },
+    {
+      "topicId": "fr-ma-ce2-fra-04",
+      "prerequisiteId": "fr-ma-ce1-geo-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Savoir tracer avec la règle graduée"
+    },
+    {
+      "topicId": "fr-ma-ce2-fra-05",
+      "prerequisiteId": "fr-ma-ce1-fra-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Comparer des fractions de même dénominateur » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-fra-05",
+      "prerequisiteId": "fr-ma-ce1-fra-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Comparer des fractions de numérateur 1 (1/5 et 1/3) » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-fra-07",
+      "prerequisiteId": "fr-ma-ce1-fra-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Additionner et soustraire des fractions de même dénominateur » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-fra-07",
+      "prerequisiteId": "fr-ma-ce1-fra-08",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prolonge « Trouver le complément d’une fraction pour obtenir le tout » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-ope-01",
+      "prerequisiteId": "fr-ma-cp-ope-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Nommer « somme » et « différence » suppose de comprendre l'addition et la soustraction"
+    },
+    {
+      "topicId": "fr-ma-ce2-ope-02",
+      "prerequisiteId": "fr-ma-ce1-ope-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Poser et calculer une addition en colonnes » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-ope-03",
+      "prerequisiteId": "fr-ma-ce1-ope-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Poser et calculer une soustraction en colonnes » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-ope-04",
+      "prerequisiteId": "fr-ma-ce1-ope-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les mots facteur et produit décrivent l'écriture avec ×"
+    },
+    {
+      "topicId": "fr-ma-ce2-ope-04",
+      "prerequisiteId": "fr-ma-ce1-ope-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Un nombre pair est un multiple de 2"
+    },
+    {
+      "topicId": "fr-ma-ce2-ope-05",
+      "prerequisiteId": "fr-ma-ce1-pb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La division donne un nom aux problèmes de partage déjà résolus"
+    },
+    {
+      "topicId": "fr-ma-ce2-ope-05",
+      "prerequisiteId": "fr-ma-ce1-pb-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La division donne un nom aux problèmes de partage déjà résolus"
+    },
+    {
+      "topicId": "fr-ma-ce2-ope-05",
+      "prerequisiteId": "fr-ma-ce1-cmf-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les tables de multiplication servent à diviser"
+    },
+    {
+      "topicId": "fr-ma-ce2-ope-06",
+      "prerequisiteId": "fr-ma-ce1-cmp-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La multiplication posée généralise le calcul de 13 × 7 par décomposition"
+    },
+    {
+      "topicId": "fr-ma-ce2-cmp-01",
+      "prerequisiteId": "fr-ma-ce1-cmp-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme dit que les procédures du CP et du CE1 sont utilisées tout au long du CE2"
+    },
+    {
+      "topicId": "fr-ma-ce2-cmf-01",
+      "prerequisiteId": "fr-ma-ce1-cmf-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Tables d’addition dans les deux sens » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-cmf-02",
+      "prerequisiteId": "fr-ma-ce1-cmf-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme dit que la mémorisation des tables, imparfaite en fin de CE1, est renforcée au CE2"
+    },
+    {
+      "topicId": "fr-ma-ce2-cmf-03",
+      "prerequisiteId": "fr-ma-ce1-cmf-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Doubles et moitiés de nombres usuels » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-cmf-04",
+      "prerequisiteId": "fr-ma-ce1-cmf-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Multiples de 25 : 25, 50, 75, 100 » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-cmn-01",
+      "prerequisiteId": "fr-ma-ce1-cmn-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Multiplier par 10 un nombre inférieur à 100 » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-cmp-02",
+      "prerequisiteId": "fr-ma-ce1-cmp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Ajouter 9, 19 ou 29 (ajouter 10, 20 ou 30 puis retirer 1) » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-cmp-03",
+      "prerequisiteId": "fr-ma-ce1-cmp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Soustraire 9 (retirer 10 puis ajouter 1) » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-cmp-06",
+      "prerequisiteId": "fr-ma-ce1-cmp-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Multiplier un nombre de 11 à 19 par un nombre inférieur à 10 (13 × 7) » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-pb-01",
+      "prerequisiteId": "fr-ma-ce1-pb-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La démarche de résolution a été pratiquée au CE1"
+    },
+    {
+      "topicId": "fr-ma-ce2-pb-03",
+      "prerequisiteId": "fr-ma-ce1-pb-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Problèmes additifs en une étape de type parties-tout (dont ajout et retrait) » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-pb-04",
+      "prerequisiteId": "fr-ma-ce1-pb-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Problèmes additifs de comparaison en une étape » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-pb-05",
+      "prerequisiteId": "fr-ma-ce1-pb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Problèmes additifs en deux étapes » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-pb-06",
+      "prerequisiteId": "fr-ma-ce1-pb-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Problèmes multiplicatifs : chercher le total de plusieurs parts égales » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-pb-07",
+      "prerequisiteId": "fr-ma-ce1-pb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Problèmes de partage : chercher le nombre de parts » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-pb-08",
+      "prerequisiteId": "fr-ma-ce1-pb-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Problèmes de partage : chercher la valeur d’une part » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-pb-09",
+      "prerequisiteId": "fr-ma-ce1-pb-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Problèmes mixtes en deux étapes (additive et multiplicative) » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-pb-10",
+      "prerequisiteId": "fr-ma-ce1-ope-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "« Fois plus » se calcule avec une multiplication"
+    },
+    {
+      "topicId": "fr-ma-ce2-pb-11",
+      "prerequisiteId": "fr-ma-ce1-don-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le tableau à double entrée sert à lister toutes les combinaisons"
+    },
+    {
+      "topicId": "fr-ma-ce2-lon-01",
+      "prerequisiteId": "fr-ma-ce1-lon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Relations entre m, cm et km » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-lon-03",
+      "prerequisiteId": "fr-ma-ce1-lon-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Mesurer et comparer des longueurs avec une règle graduée » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-lon-04",
+      "prerequisiteId": "fr-ma-ce1-lon-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Longueurs de référence et estimation de longueurs » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-lon-05",
+      "prerequisiteId": "fr-ma-ce1-lon-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le périmètre est une longueur qu'on mesure"
+    },
+    {
+      "topicId": "fr-ma-ce2-lon-06",
+      "prerequisiteId": "fr-ma-ce1-geo-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut savoir manier le compas"
+    },
+    {
+      "topicId": "fr-ma-ce2-mas-01",
+      "prerequisiteId": "fr-ma-ce1-mas-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Unités de masse g et kg (1 kg = 1 000 g) » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-mas-02",
+      "prerequisiteId": "fr-ma-ce1-mas-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Comparer et ranger des masses exprimées en g et en kg » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-mas-03",
+      "prerequisiteId": "fr-ma-ce1-mas-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Masses de référence et estimation de masses » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-con-02",
+      "prerequisiteId": "fr-ma-ce1-fra-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le demi-litre utilise la fraction 1/2"
+    },
+    {
+      "topicId": "fr-ma-ce2-con-04",
+      "prerequisiteId": "fr-ma-ce1-num-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "1 L = 100 cL suit la même logique que 1 centaine = 100 unités"
+    },
+    {
+      "topicId": "fr-ma-ce2-mon-01",
+      "prerequisiteId": "fr-ma-ce1-mon-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Constituer une somme d’argent donnée avec des euros et des centimes » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-mon-01",
+      "prerequisiteId": "fr-ma-ce1-mon-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut comprendre l'écriture 2,05 €"
+    },
+    {
+      "topicId": "fr-ma-ce2-mon-02",
+      "prerequisiteId": "fr-ma-ce1-mon-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Simuler des achats et rendre la monnaie » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-mon-03",
+      "prerequisiteId": "fr-ma-ce1-mon-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut comprendre l'écriture à virgule des prix"
+    },
+    {
+      "topicId": "fr-ma-ce2-mon-04",
+      "prerequisiteId": "fr-ma-ce1-mon-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut comprendre l'écriture à virgule des prix"
+    },
+    {
+      "topicId": "fr-ma-ce2-tps-01",
+      "prerequisiteId": "fr-ma-ce1-tps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Lire l’heure : heures entières, demi-heures et quarts d’heure » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-tps-01",
+      "prerequisiteId": "fr-ma-ce1-tps-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Heures du matin et heures de l’après-midi » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-tps-02",
+      "prerequisiteId": "fr-ma-ce1-tps-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Placer les aiguilles d’une horloge pour une heure donnée » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-tps-03",
+      "prerequisiteId": "fr-ma-ce1-tps-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Mesurer une durée entre deux heures et ajouter des durées » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-tps-03",
+      "prerequisiteId": "fr-ma-ce1-tps-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prolonge « Comparer des durées » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-sol-01",
+      "prerequisiteId": "fr-ma-ce1-sol-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Reconnaitre et nommer les solides usuels » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-sol-02",
+      "prerequisiteId": "fr-ma-ce1-sol-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Décrire un solide avec les mots face, sommet et arête » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-sol-03",
+      "prerequisiteId": "fr-ma-ce1-sol-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Nombre et forme des faces du cube et du pavé » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-sol-05",
+      "prerequisiteId": "fr-ma-ce1-sol-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Construire un cube, un pavé ou une pyramide » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-sol-06",
+      "prerequisiteId": "fr-ma-ce1-sol-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Avoir déjà construit un cube aide à imaginer son patron"
+    },
+    {
+      "topicId": "fr-ma-ce2-geo-01",
+      "prerequisiteId": "fr-ma-ce1-geo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Vocabulaire de géométrie (côté, sommet, angle, segment, milieu…) » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-geo-02",
+      "prerequisiteId": "fr-ma-ce1-geo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Reconnaitre, nommer et décrire les figures planes usuelles » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-geo-03",
+      "prerequisiteId": "fr-ma-ce1-geo-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Propriétés du carré et du rectangle (angles droits, longueurs des côtés) » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-geo-04",
+      "prerequisiteId": "fr-ma-ce1-geo-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Reproduire ou tracer carré, rectangle, triangle et cercle » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-geo-05",
+      "prerequisiteId": "fr-ma-ce1-geo-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Tracer avec la règle graduée, l’équerre et le compas » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-geo-06",
+      "prerequisiteId": "fr-ma-ce1-geo-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Coder un angle droit » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-geo-08",
+      "prerequisiteId": "fr-ma-ce1-geo-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Savoir tracer sur quadrillage"
+    },
+    {
+      "topicId": "fr-ma-ce2-don-01",
+      "prerequisiteId": "fr-ma-ce1-don-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Mener une enquête et ranger les données dans un tableau » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-don-02",
+      "prerequisiteId": "fr-ma-ce1-don-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Construire un diagramme en barres » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-don-03",
+      "prerequisiteId": "fr-ma-ce1-don-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Lire et interpréter un diagramme en barres » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-ce2-don-03",
+      "prerequisiteId": "fr-ma-ce1-don-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Lire et interpréter un tableau à double entrée » (CE1)"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "maths-c2": "2026-10-22"
+  }
+}

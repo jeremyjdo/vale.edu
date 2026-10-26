@@ -1,0 +1,2871 @@
+{
+  "programme": "qlm-c2",
+  "level": "multiple",
+  "themeCodes": {
+    "dem": "Pratiquer des démarches scientifiques",
+    "meth": "S’approprier des outils et des méthodes",
+    "lang": "Pratiquer des langages",
+    "eth": "Adopter un comportement éthique et responsable",
+    "etat": "Identifier les trois états de la matière et observer des changements d’états",
+    "eau": "Identifier un changement d’état de l’eau dans un phénomène de la vie quotidienne",
+    "viv": "Connaître des caractéristiques du monde vivant, ses interactions, sa diversité",
+    "sante": "Reconnaître des comportements favorables à sa santé",
+    "obj": "Comprendre la fonction et le fonctionnement d’objets fabriqués",
+    "elec": "Réaliser quelques objets et circuits électriques simples, en respectant des règles élémentaires de sécurité",
+    "num": "Commencer à s’approprier un environnement numérique",
+    "esp": "Se repérer dans l’espace et le représenter",
+    "glob": "Situer un lieu sur une carte ou un globe ou sur un écran informatique",
+    "tps": "Se repérer dans le temps et le mesurer",
+    "long": "Repérer et situer quelques événements dans un temps long",
+    "mdv": "Comparer des modes de vie",
+    "org": "Comprendre qu’un espace est organisé",
+    "pay": "Identifier des paysages"
+  },
+  "notions": [
+    {
+      "id": "fr-qm-c2-dem-01",
+      "programme": "qlm-c2",
+      "type": "META",
+      "subject": "Questionner le monde",
+      "domain": "Compétences travaillées",
+      "subdomain": "Pratiquer des démarches scientifiques",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Mener une petite enquête scientifique avec l’aide du professeur",
+      "description": "Se poser une question sur le monde, observer, faire une expérience simple, décrire ce qu’on voit, réfléchir puis conclure, guidé par le professeur. C’est la « démarche d’investigation », au cœur de Questionner le monde.",
+      "officialObjectives": [
+        "Pratiquer, avec l’aide des professeurs, quelques moments d’une démarche d’investigation : questionnement, observation, expérience, description, raisonnement, conclusion."
+      ],
+      "evidence": [
+        "Formule une question à propos d’un phénomène ou d’un objet observé.",
+        "Observe, manipule ou réalise une expérience simple proposée par le professeur (exploration, observation, manipulation, fabrication).",
+        "Décrit ce qu’il a observé, puis tire une conclusion avec l’aide du professeur.",
+        "Confronte ses idées à celles des autres lors d’une discussion collective et explique son point de vue."
+      ],
+      "period": "tout au long du cycle, avec l’aide du professeur",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, à partir d’une question comme « que devient un glaçon posé dans la classe ? », observer ce qui se passe, le décrire et en tirer une conclusion ?",
+      "priorKnowledge": [
+        "Observer, manipuler et décrire des phénomènes du monde qui l’entoure (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 46,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-meth-01",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Compétences travaillées",
+      "subdomain": "S’approprier des outils et des méthodes",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Choisir le bon matériel et le manipuler avec soin",
+      "description": "Choisir, parmi le matériel proposé, celui qui convient pour observer, mesurer ou faire une expérience (une toise pour la taille, un chronomètre pour une durée, un thermomètre pour la température…), et s’en servir avec précaution.",
+      "officialObjectives": [
+        "Choisir ou utiliser le matériel adapté proposé pour mener une observation, effectuer une mesure, réaliser une expérience.",
+        "Manipuler avec soin."
+      ],
+      "evidence": [
+        "Choisit, parmi le matériel proposé, celui qui permet de mener une observation, d’effectuer une mesure ou de réaliser une expérience.",
+        "Utilise des instruments de mesure (toise, sablier, chronomètre…) pour faire des relevés et les noter.",
+        "Manipule le matériel avec soin."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir l’instrument qui convient pour mesurer sa taille (une toise) ou la durée d’une course (un chronomètre) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 46,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-lang-01",
+      "programme": "qlm-c2",
+      "type": "LANGUAGE",
+      "subject": "Questionner le monde",
+      "domain": "Compétences travaillées",
+      "subdomain": "Pratiquer des langages",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Décrire et expliquer avec des mots précis",
+      "description": "Parler et écrire de façon précise pour décrire un objet, une observation ou une expérience : choisir le mot juste, un verbe d’action précis, et des phrases qui disent quand et pourquoi les choses se passent.",
+      "officialObjectives": [
+        "Communiquer en français, à l’oral et à l’écrit, en cultivant précision, syntaxe et richesse du vocabulaire."
+      ],
+      "evidence": [
+        "Utilise un lexique précis pour décrire et concevoir des objets.",
+        "Désigne une action par un verbe spécifique.",
+        "Emploie une syntaxe adaptée pour situer une action dans le temps et dans la succession des causes et des effets.",
+        "Explique et argumente son idée lors d’une discussion collective."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter une expérience faite en classe avec des mots précis, en disant dans quel ordre les choses se sont passées et pourquoi ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 46,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-lang-02",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Compétences travaillées",
+      "subdomain": "Pratiquer des langages",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Lire un documentaire et y trouver une information",
+      "description": "Lire un texte documentaire illustré (livre, affiche, document numérique) et y chercher la réponse à une question précise.",
+      "officialObjectives": [
+        "Lire et comprendre des textes documentaires illustrés.",
+        "Extraire d’un texte ou d’une ressource documentaire une information qui répond à un besoin, une question."
+      ],
+      "evidence": [
+        "Lit et comprend un texte documentaire illustré.",
+        "Extrait d’un texte ou d’une ressource documentaire l’information qui répond à une question.",
+        "Utilise des documents, des documentaires, des témoignages ou des récits comme éléments d’enquête."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver dans un documentaire sur les animaux ce que mange un animal donné ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 46,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-lang-03",
+      "programme": "qlm-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Questionner le monde",
+      "domain": "Compétences travaillées",
+      "subdomain": "Pratiquer des langages",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Rendre compte de ses observations : oral, notes, listes, dessins, tableaux",
+      "description": "Présenter ce qu’on a observé ou mesuré, à l’oral ou par écrit : quelques notes rapides, une liste, un dessin, voire un tableau. Le professeur aide à rédiger de petits écrits documentaires.",
+      "officialObjectives": [
+        "Restituer les résultats des observations sous forme orale ou d’écrits variés (notes, listes, dessins, voire tableaux)."
+      ],
+      "evidence": [
+        "Restitue oralement les résultats d’une observation.",
+        "Note rapidement ses observations et établit des listes.",
+        "Représente ses observations par un dessin, voire un tableau.",
+        "Lit un tableau, fait des relevés et les note.",
+        "Élabore, avec l’aide du professeur, un court écrit documentaire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait noter dans un petit tableau la taille d’une plante mesurée chaque semaine ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 46,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-eth-01",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Compétences travaillées",
+      "subdomain": "Adopter un comportement éthique et responsable",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Pratiquer des éco-gestes au quotidien",
+      "description": "Agir simplement pour l’environnement, seul ou avec la classe : trier ses déchets, économiser le papier, l’eau et l’énergie (lumière, chauffage), en comprenant pourquoi ces gestes sont utiles.",
+      "officialObjectives": [
+        "Mettre en pratique les premières notions de gestion responsable de l’environnement par des actions simples individuelles ou collectives (« éco-gestes ») : gestion de déchets, du papier, économies d’eau et d’énergie (éclairage, chauffage, etc.).",
+        "Développer un comportement responsable vis-à-vis de l’environnement et de la santé grâce à une attitude raisonnée fondée sur la connaissance."
+      ],
+      "evidence": [
+        "Participe à la gestion des déchets et du papier dans la classe.",
+        "Applique des gestes d’économie d’eau et d’énergie (éclairage, chauffage).",
+        "Participe à une action collective de la classe ou de l’école en faveur de l’environnement.",
+        "Explique, avec ce qu’il a appris, pourquoi un geste protège l’environnement ou la santé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} pense à éteindre la lumière en quittant une pièce vide et sait expliquer pourquoi ?",
+      "priorKnowledge": [
+        "Adopter des gestes simples pour l’environnement, comme éteindre la lumière en sortant d’une salle vide (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 46,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-etat-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Qu’est-ce que la matière ?",
+      "subdomain": "Identifier les trois états de la matière et observer des changements d’états",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Distinguer un solide d’un liquide",
+      "description": "Reconnaître quelques propriétés des solides et des liquides en les manipulant : par exemple, un solide garde sa forme, un liquide coule et prend la forme de son récipient. Tout ce qui concerne l’état gazeux est réservé au CE2.",
+      "officialObjectives": [
+        "Quelques propriétés des solides, des liquides et des gaz."
+      ],
+      "evidence": [
+        "Décrit quelques propriétés d’un solide et d’un liquide observées en manipulant.",
+        "Classe des matières de son environnement en solides et en liquides.",
+        "Reconnaît que l’eau peut être liquide ou solide (glace)."
+      ],
+      "period": "solides et liquides au cours du cycle ; l’état gazeux est abordé en CE2",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si un glaçon, du lait et un caillou sont des solides ou des liquides, et pourquoi ?",
+      "priorKnowledge": [
+        "Explorer quelques caractéristiques des solides et des liquides (maternelle, PS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 47,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-etat-02",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Qu’est-ce que la matière ?",
+      "subdomain": "Identifier les trois états de la matière et observer des changements d’états",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Observer la solidification et la fusion de l’eau",
+      "description": "Comprendre qu’une même matière peut changer d’état : l’eau liquide qui gèle devient de la glace (solidification), la glace qui fond redevient liquide (fusion).",
+      "officialObjectives": [
+        "Les changements d’états de la matière, notamment solidification, condensation et fusion."
+      ],
+      "evidence": [
+        "Observe des processus de solidification et de fusion de l’eau.",
+        "Nomme la solidification (passage de l’état liquide à l’état solide) et la fusion (passage de l’état solide à l’état liquide).",
+        "Identifie un changement d’état de l’eau dans un phénomène de la vie quotidienne."
+      ],
+      "period": "solidification et fusion au cours du cycle ; la condensation, liée à l’état gazeux, est abordée en CE2",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qui arrive à un glaçon sorti du congélateur et comment s’appelle ce changement (la fusion) ?",
+      "priorKnowledge": [
+        "Découvrir et observer la fusion et la solidification de l’eau (maternelle, PS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 47,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce2-etat-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Qu’est-ce que la matière ?",
+      "subdomain": "Identifier les trois états de la matière et observer des changements d’états",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Les trois états de la matière : solide, liquide et gazeux",
+      "description": "Savoir que la matière existe sous trois états : solide, liquide et gazeux. L’air et la vapeur d’eau sont des gaz : on ne les voit pas, mais ce sont bien de la matière. Tout ce qui est lié à l’état gazeux est abordé en CE2.",
+      "officialObjectives": [
+        "Quelques propriétés des solides, des liquides et des gaz."
+      ],
+      "evidence": [
+        "Identifie les trois états de la matière : solide, liquide et gazeux.",
+        "Cite quelques propriétés des solides, des liquides et des gaz.",
+        "Donne l’air comme exemple de gaz."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer les trois états de la matière et donner un exemple de chacun (un caillou, de l’eau, l’air) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 47,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce2-etat-02",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Qu’est-ce que la matière ?",
+      "subdomain": "Identifier les trois états de la matière et observer des changements d’états",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Prendre conscience de l’existence de l’air",
+      "description": "Découvrir que l’air, qu’on ne voit pas, existe bien : quand il est en mouvement (le vent, le souffle), il peut faire bouger des objets.",
+      "officialObjectives": [
+        "Existence, effet et quelques propriétés de l’air (matérialité et compressibilité de l’air).",
+        "Mettre en œuvre des expériences simples impliquant l’eau et/ou l’air."
+      ],
+      "evidence": [
+        "Met en mouvement différents objets avec le vent pour prendre conscience de l’existence de l’air.",
+        "Décrit l’effet de l’air en mouvement sur un objet.",
+        "Met en œuvre une expérience simple impliquant l’air."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer, avec un éventail ou en soufflant, que l’air existe même si on ne le voit pas ?",
+      "priorKnowledge": [
+        "Mettre en évidence la présence d’air en le mettant en mouvement (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 47,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce2-etat-03",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Qu’est-ce que la matière ?",
+      "subdomain": "Identifier les trois états de la matière et observer des changements d’états",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "L’air est de la matière : il occupe de la place et se comprime",
+      "description": "Montrer par des expériences que l’air est une vraie matière : il occupe de la place (dans un ballon, dans un récipient qui semble vide) et on peut le comprimer (dans une seringue bouchée, une pompe à vélo).",
+      "officialObjectives": [
+        "Existence, effet et quelques propriétés de l’air (matérialité et compressibilité de l’air).",
+        "Mettre en œuvre des expériences simples impliquant l’eau et/ou l’air."
+      ],
+      "evidence": [
+        "Met en œuvre des dispositifs simples (seringues, ballons, pompes à vélo, récipients de formes variées, etc.) visant à éprouver la matérialité de l’air.",
+        "Montre, avec une seringue ou une pompe à vélo, que l’air peut être comprimé.",
+        "Explique qu’un ballon gonflé ou un récipient qui semble vide contient de l’air."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi on sent une résistance quand on bouche le bout d’une seringue et qu’on appuie sur le piston ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 47,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-eau-01",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Qu’est-ce que la matière ?",
+      "subdomain": "Identifier un changement d’état de l’eau dans un phénomène de la vie quotidienne",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Comparer et mesurer l’eau liquide et la glace",
+      "description": "Comparer une même quantité d’eau à l’état liquide et à l’état solide (glace) en mesurant sa température, son volume et sa masse, avec un thermomètre, un récipient gradué et une balance.",
+      "officialObjectives": [
+        "Comparer et mesurer la température, le volume, la masse de l’eau à l’état liquide et à l’état solide.",
+        "Mettre en œuvre des expériences simples impliquant l’eau et/ou l’air."
+      ],
+      "evidence": [
+        "Compare et mesure la température, le volume et la masse de l’eau à l’état liquide et à l’état solide.",
+        "Observe des processus de solidification et de fusion de l’eau.",
+        "Met en œuvre une expérience simple impliquant l’eau et note ses mesures."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comparer, en les mesurant, le volume et la masse d’une même quantité d’eau avant et après un passage au congélateur ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 47,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-eau-02",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Qu’est-ce que la matière ?",
+      "subdomain": "Identifier un changement d’état de l’eau dans un phénomène de la vie quotidienne",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Reconnaître l’eau liquide et la glace dans la nature et la météo",
+      "description": "Relier ce qu’on observe dans la nature (nuages, pluie, neige, grêle, glace, océans, rivières, glaciers, banquise) aux états de l’eau, liquide ou solide.",
+      "officialObjectives": [
+        "Reconnaître les états de l’eau et leur manifestation dans divers phénomènes naturels.",
+        "Les états de l’eau (liquide, glace, vapeur d’eau)."
+      ],
+      "evidence": [
+        "Relie les phénomènes météorologiques observables (nuages, pluie, neige, grêle, glace) aux états liquide et solide de l’eau.",
+        "Identifie l’état physique de l’eau dans différents contextes (océans, cours d’eau, glaciers, banquise, etc.)."
+      ],
+      "period": "eau liquide et glace au cours du cycle ; la vapeur d’eau est étudiée en CE2",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire sous quel état se trouve l’eau dans la pluie, la neige, une rivière ou un glacier ?",
+      "priorKnowledge": [
+        "Identifier et nommer l’état de l’eau dans différentes situations (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 47,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce2-eau-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Qu’est-ce que la matière ?",
+      "subdomain": "Identifier un changement d’état de l’eau dans un phénomène de la vie quotidienne",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "La vapeur d’eau et la condensation",
+      "description": "Savoir que l’eau existe aussi à l’état gazeux, la vapeur d’eau, et que la vapeur peut redevenir de l’eau liquide : c’est la condensation (par exemple la buée sur une vitre froide).",
+      "officialObjectives": [
+        "Les états de l’eau (liquide, glace, vapeur d’eau).",
+        "Les changements d’états de la matière, notamment solidification, condensation et fusion."
+      ],
+      "evidence": [
+        "Nomme les trois états de l’eau : liquide, glace et vapeur d’eau.",
+        "Reconnaît la vapeur d’eau comme de l’eau à l’état gazeux.",
+        "Nomme la condensation, passage de la vapeur d’eau à l’état liquide.",
+        "Identifie un changement d’état de l’eau dans un phénomène de la vie quotidienne."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer d’où viennent les gouttes d’eau sous le couvercle d’une casserole d’eau chaude, et nommer ce changement d’état (la condensation) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 47,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-viv-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Connaître des caractéristiques du monde vivant, ses interactions, sa diversité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Distinguer animal, végétal, minéral et ce qui est produit par le vivant",
+      "description": "Classer ce qui nous entoure : ce qui est animal, végétal, minéral (un caillou, du sable…) ou élaboré par des êtres vivants (du miel, une coquille…), en observant les manifestations de la vie.",
+      "officialObjectives": [
+        "Identifier ce qui est animal, végétal, minéral ou élaboré par des êtres vivants."
+      ],
+      "evidence": [
+        "Observe, comme en maternelle, des manifestations de la vie sur soi, sur les animaux et sur les végétaux.",
+        "Observe des animaux et des végétaux de l’environnement proche, puis plus lointain.",
+        "Classe des éléments de son environnement en animal, végétal, minéral ou élaboré par des êtres vivants."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger un caillou, une fleur, un escargot et du miel dans les bonnes catégories (animal, végétal, minéral, élaboré par un être vivant) ?",
+      "priorKnowledge": [
+        "Observer des manifestations de la vie sur soi, sur les animaux et sur les végétaux (maternelle)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-viv-02",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Connaître des caractéristiques du monde vivant, ses interactions, sa diversité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Suivre le développement d’un animal ou d’un végétal",
+      "description": "Observer comment un animal ou une plante grandit et se transforme, grâce à un élevage ou une culture en classe, au jardin ou à la mare de l’école.",
+      "officialObjectives": [
+        "Identifier ce qui est animal, végétal, minéral ou élaboré par des êtres vivants.",
+        "Développement d’animaux et de végétaux."
+      ],
+      "evidence": [
+        "Réalise de petits écosystèmes (élevages, cultures) en classe, dans un jardin d’école ou une mare d’école.",
+        "Observe et décrit le développement d’un animal ou d’un végétal élevé ou cultivé en classe."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire comment une graine de haricot plantée en classe se transforme au fil des semaines ?",
+      "priorKnowledge": [
+        "Prodiguer les soins nécessaires aux élevages et aux plantations de la classe (maternelle, PS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-viv-03",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Connaître des caractéristiques du monde vivant, ses interactions, sa diversité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Le cycle de vie des êtres vivants",
+      "description": "Comprendre que tout être vivant naît, grandit, peut se reproduire et meurt, et retrouver ces étapes chez un animal ou une plante observés en classe.",
+      "officialObjectives": [
+        "Le cycle de vie des êtres vivants."
+      ],
+      "evidence": [
+        "Décrit les étapes du cycle de vie d’un animal ou d’un végétal observé en classe.",
+        "Ordonne les étapes du cycle de vie d’un être vivant."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait remettre dans l’ordre les étapes de la vie d’une poule, de l’œuf à l’adulte qui pond à son tour ?",
+      "priorKnowledge": [
+        "Reconnaître les étapes de la vie d’un animal ou d’une plante (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-viv-04",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Connaître des caractéristiques du monde vivant, ses interactions, sa diversité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Ce que mangent quelques animaux : les régimes alimentaires",
+      "description": "Savoir ce que mangent quelques animaux : des végétaux, d’autres animaux, ou les deux.",
+      "officialObjectives": [
+        "Régimes alimentaires de quelques animaux."
+      ],
+      "evidence": [
+        "Indique ce que mangent quelques animaux observés dans l’environnement proche ou en élevage.",
+        "Classe quelques animaux selon leur régime alimentaire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce que mange un lapin, puis ce que mange un renard ?",
+      "priorKnowledge": [
+        "Décrire les besoins essentiels de quelques animaux (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-viv-05",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Connaître des caractéristiques du monde vivant, ses interactions, sa diversité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Les besoins vitaux des plantes",
+      "description": "Savoir de quoi une plante a besoin pour vivre et se développer (par exemple de l’eau et de la lumière), en le vérifiant grâce aux cultures faites en classe.",
+      "officialObjectives": [
+        "Quelques besoins vitaux des végétaux."
+      ],
+      "evidence": [
+        "Réalise des cultures en classe ou au jardin d’école et observe ce dont un végétal a besoin pour se développer.",
+        "Cite quelques besoins vitaux des végétaux."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qui arrive à une plante qu’on n’arrose plus ou qu’on laisse dans le noir, et pourquoi ?",
+      "priorKnowledge": [
+        "Identifier et décrire les besoins essentiels de quelques végétaux (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-viv-06",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Connaître des caractéristiques du monde vivant, ses interactions, sa diversité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "La diversité des êtres vivants d’un milieu et leur interdépendance",
+      "description": "Découvrir que, dans un même milieu (une mare, un jardin), vivent des êtres vivants très divers qui dépendent les uns des autres et de leur milieu.",
+      "officialObjectives": [
+        "Identifier les interactions des êtres vivants entre eux et avec leur milieu",
+        "Diversité des organismes vivants présents dans un milieu et leur interdépendance."
+      ],
+      "evidence": [
+        "Observe la diversité des êtres vivants présents dans un milieu proche (jardin, mare d’école).",
+        "Réalise des schémas simples des relations entre organismes vivants et avec le milieu."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer plusieurs êtres vivants d’une mare et expliquer ce que chacun apporte aux autres ou en reçoit ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-viv-07",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Connaître des caractéristiques du monde vivant, ses interactions, sa diversité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Les relations alimentaires et les chaînes de prédation",
+      "description": "Comprendre « qui mange qui » dans la nature et le représenter par une chaîne alimentaire simple (par exemple : salade, escargot, hérisson).",
+      "officialObjectives": [
+        "Identifier les interactions des êtres vivants entre eux et avec leur milieu",
+        "Relations alimentaires entre les organismes vivants.",
+        "Chaînes de prédation."
+      ],
+      "evidence": [
+        "Réalise des schémas simples des relations alimentaires entre organismes vivants.",
+        "Construit une chaîne de prédation simple à partir d’êtres vivants d’un milieu observé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait construire une petite chaîne alimentaire avec une salade, un escargot et un hérisson, en disant qui mange qui ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-viv-08",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Connaître des caractéristiques du monde vivant, ses interactions, sa diversité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Repérer ce qui entre et sort de la classe et de la cantine",
+      "description": "Identifier quelques échanges entre l’école et son environnement : le papier qu’on utilise et qu’on recycle, les aliments et l’eau de la cantine, et ce que deviennent les déchets.",
+      "officialObjectives": [
+        "Identifier quelques interactions dans l’école."
+      ],
+      "evidence": [
+        "Suit ce qui entre et sort de la classe (papier, recyclage).",
+        "Suit ce qui entre et sort de la cantine (aliments, eau, devenir des déchets)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce que deviennent les restes du repas de la cantine ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-sante-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Reconnaître des comportements favorables à sa santé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Ce qui permet de bouger : os, muscles et tendons",
+      "description": "Repérer les éléments du corps qui permettent de réaliser un mouvement : les os, les muscles et les tendons. Ce travail est mené en lien avec l’éducation physique et sportive.",
+      "officialObjectives": [
+        "Repérer les éléments permettant la réalisation d’un mouvement corporel."
+      ],
+      "evidence": [
+        "Repère le rôle des muscles, des tendons et des os dans la production d’un mouvement.",
+        "Décrit, en éducation physique et sportive, les parties du corps mobilisées pour réaliser un mouvement."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qui, dans son bras, lui permet de plier le coude (les os, les muscles, les tendons) ?",
+      "priorKnowledge": [
+        "Identifier et nommer quelques articulations (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-sante-02",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Reconnaître des comportements favorables à sa santé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Mesurer et suivre sa croissance",
+      "description": "Mesurer régulièrement sa taille, sa masse (son « poids ») et sa pointure pour voir comment son corps grandit, et noter les résultats dans un tableau ou un graphique.",
+      "officialObjectives": [
+        "Mesurer et observer la croissance de son corps.",
+        "Croissance (taille, masse, pointure)."
+      ],
+      "evidence": [
+        "Utilise des toises et des instruments de mesure pour suivre sa croissance (taille, masse, pointure).",
+        "Note ses mesures dans un tableau ou un graphique et les compare dans le temps."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait se mesurer avec une toise et noter sa taille dans un tableau pour voir de combien il a grandi depuis la rentrée ?",
+      "priorKnowledge": [
+        "Observer des changements liés à sa croissance (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-sante-03",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Reconnaître des comportements favorables à sa santé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Les changements de la dentition",
+      "description": "Observer que les dents changent en grandissant : les dents de lait tombent et sont remplacées par les dents définitives.",
+      "officialObjectives": [
+        "Mesurer et observer la croissance de son corps.",
+        "Modifications de la dentition."
+      ],
+      "evidence": [
+        "Observe et décrit les modifications de sa dentition.",
+        "Relie les modifications de sa dentition à la croissance de son corps."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi ses dents de lait tombent et ce qui les remplace ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-sante-04",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Reconnaître des comportements favorables à sa santé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Les catégories d’aliments et leur origine",
+      "description": "Ranger les aliments par familles et savoir d’où ils viennent (d’une plante, d’un animal…) : c’est la base d’une alimentation variée.",
+      "officialObjectives": [
+        "Mettre en œuvre et apprécier quelques règles d’hygiène de vie : variété alimentaire, activité physique, capacité à se relaxer et mise en relation de son âge et de ses besoins en sommeil, habitudes quotidiennes de propreté (dents, mains, corps).",
+        "Catégories d’aliments, leur origine."
+      ],
+      "evidence": [
+        "Classe des aliments par catégories.",
+        "Indique l’origine de quelques aliments."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire d’où viennent le lait, le pain et le fromage ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-sante-05",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Reconnaître des comportements favorables à sa santé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Manger pour bouger : l’énergie apportée par les aliments",
+      "description": "Comprendre que les aliments apportent au corps l’énergie dont il a besoin pour bouger et être actif.",
+      "officialObjectives": [
+        "Mettre en œuvre et apprécier quelques règles d’hygiène de vie : variété alimentaire, activité physique, capacité à se relaxer et mise en relation de son âge et de ses besoins en sommeil, habitudes quotidiennes de propreté (dents, mains, corps).",
+        "Les apports spécifiques des aliments (apport d’énergie : manger pour bouger)."
+      ],
+      "evidence": [
+        "Explique que les aliments apportent l’énergie nécessaire pour bouger (manger pour bouger).",
+        "Met en relation ce qu’il mange et l’activité physique qu’il pratique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi il est important de prendre un petit-déjeuner avant une matinée de sport ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-sante-06",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Reconnaître des comportements favorables à sa santé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "L’équilibre alimentaire sur un repas, une journée, une semaine",
+      "description": "Savoir ce qu’est une alimentation équilibrée et variée, et l’apprécier sur un repas, sur une journée ou sur une semaine.",
+      "officialObjectives": [
+        "Mettre en œuvre et apprécier quelques règles d’hygiène de vie : variété alimentaire, activité physique, capacité à se relaxer et mise en relation de son âge et de ses besoins en sommeil, habitudes quotidiennes de propreté (dents, mains, corps).",
+        "La notion d’équilibre alimentaire (sur un repas, sur une journée, sur la semaine)."
+      ],
+      "evidence": [
+        "Détermine les principes d’une alimentation équilibrée et variée.",
+        "Apprécie l’équilibre d’un repas, d’une journée ou d’une semaine de menus."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, en lisant les menus de la cantine de la semaine, si les repas sont variés et équilibrés ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-sante-07",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Reconnaître des comportements favorables à sa santé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Les bienfaits d’une activité physique régulière",
+      "description": "Comprendre qu’une activité physique pratiquée régulièrement est bonne pour le corps. Ce travail est mené en lien avec l’éducation physique et sportive.",
+      "officialObjectives": [
+        "Mettre en œuvre et apprécier quelques règles d’hygiène de vie : variété alimentaire, activité physique, capacité à se relaxer et mise en relation de son âge et de ses besoins en sommeil, habitudes quotidiennes de propreté (dents, mains, corps).",
+        "Effets positifs d’une pratique physique régulière sur l’organisme."
+      ],
+      "evidence": [
+        "Cite des effets positifs d’une pratique physique régulière sur l’organisme.",
+        "Pratique régulièrement une activité physique et en apprécie les bénéfices."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait donner une raison pour laquelle faire du sport régulièrement est bon pour la santé ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-sante-08",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Reconnaître des comportements favorables à sa santé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Sommeil, activité, repos : les rythmes de la journée",
+      "description": "Comprendre que la journée alterne des moments d’activité, de repos et de sommeil, savoir se relaxer, et relier son âge à ses besoins en sommeil.",
+      "officialObjectives": [
+        "Mettre en œuvre et apprécier quelques règles d’hygiène de vie : variété alimentaire, activité physique, capacité à se relaxer et mise en relation de son âge et de ses besoins en sommeil, habitudes quotidiennes de propreté (dents, mains, corps).",
+        "Changements des rythmes d’activité quotidiens (sommeil, activité, repos, etc.)."
+      ],
+      "evidence": [
+        "Met en relation son âge et ses besoins en sommeil.",
+        "Repère les changements de rythme d’activité dans sa journée (sommeil, activité, repos).",
+        "Utilise un moyen simple pour se relaxer."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi un enfant de son âge a besoin de dormir plus longtemps qu’un adulte ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-sante-09",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Comment reconnaître le monde vivant ?",
+      "subdomain": "Reconnaître des comportements favorables à sa santé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Les règles d’hygiène au quotidien : dents, mains, corps",
+      "description": "Prendre l’habitude de se laver les mains, de se brosser les dents et de prendre soin de son corps, et savoir pourquoi c’est important pour sa santé.",
+      "officialObjectives": [
+        "Mettre en œuvre et apprécier quelques règles d’hygiène de vie : variété alimentaire, activité physique, capacité à se relaxer et mise en relation de son âge et de ses besoins en sommeil, habitudes quotidiennes de propreté (dents, mains, corps)."
+      ],
+      "evidence": [
+        "Applique des habitudes quotidiennes de propreté (dents, mains, corps).",
+        "Élabore et intègre quelques règles d’hygiène de vie et de sécurité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire à quels moments de la journée il faut se laver les mains, et pourquoi ?",
+      "priorKnowledge": [
+        "Connaître quelques règles d’hygiène corporelle (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-obj-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Les objets techniques. Qu’est-ce que c’est ? À quels besoins répondent-ils ? Comment fonctionnent-ils ?",
+      "subdomain": "Comprendre la fonction et le fonctionnement d’objets fabriqués",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Dire à quoi sert un objet technique et comment l’utiliser",
+      "description": "Observer et utiliser des objets techniques de la vie quotidienne, actuels ou anciens (un taille-crayon, une lampe de poche…), pour dire à quoi ils servent et comment on s’en sert.",
+      "officialObjectives": [
+        "Observer et utiliser des objets techniques et identifier leur fonction."
+      ],
+      "evidence": [
+        "Identifie, par l’usage de quelques objets techniques actuels ou anciens, leur domaine, leur mode d’emploi et leurs fonctions.",
+        "Observe des objets simples de la vie quotidienne et décrit leur usage."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire à quoi sert un taille-crayon et expliquer comment on l’utilise ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-obj-02",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Les objets techniques. Qu’est-ce que c’est ? À quels besoins répondent-ils ? Comment fonctionnent-ils ?",
+      "subdomain": "Comprendre la fonction et le fonctionnement d’objets fabriqués",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Démonter et tester un objet pour comprendre son fonctionnement",
+      "description": "Comprendre comment marche un objet simple en l’observant, en le démontant puis en le remontant, et en faisant des tests et des essais.",
+      "officialObjectives": [
+        "Observer et utiliser des objets techniques et identifier leur fonction."
+      ],
+      "evidence": [
+        "Démonte et remonte un objet technique simple, dans une démarche d’observation.",
+        "Procède à des tests et des essais pour comprendre le fonctionnement d’un objet."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait démonter un stylo à ressort, nommer ses pièces et expliquer comment il fonctionne ?",
+      "priorKnowledge": [
+        "Associer une solution technique à une fonction, par exemple la poignée d’un arrosoir (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-obj-03",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Les objets techniques. Qu’est-ce que c’est ? À quels besoins répondent-ils ? Comment fonctionnent-ils ?",
+      "subdomain": "Comprendre la fonction et le fonctionnement d’objets fabriqués",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Les outils et objets techniques au quotidien et dans les métiers",
+      "description": "Repérer les activités de tous les jours ou du travail qui utilisent des outils, des objets techniques ou des machines, et découvrir des métiers courants.",
+      "officialObjectives": [
+        "Identifier des activités de la vie quotidienne ou professionnelle faisant appel à des outils et objets techniques."
+      ],
+      "evidence": [
+        "Identifie des activités de la vie quotidienne ou professionnelle qui font appel à des outils et objets techniques.",
+        "Découvre une certaine diversité de métiers courants.",
+        "Interroge des hommes et des femmes au travail sur les techniques, outils et machines qu’ils utilisent."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer deux outils ou machines utilisés par un boulanger et dire à quoi ils servent ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-elec-01",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Les objets techniques. Qu’est-ce que c’est ? À quels besoins répondent-ils ? Comment fonctionnent-ils ?",
+      "subdomain": "Réaliser quelques objets et circuits électriques simples, en respectant des règles élémentaires de sécurité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Fabriquer un objet en suivant un schéma de montage",
+      "description": "Réaliser un objet simple en assemblant des éléments existants et en suivant un schéma de montage (une maquette, un treuil…), en respectant les règles de sécurité. On peut aussi imaginer et réaliser de petits montages.",
+      "officialObjectives": [
+        "Réaliser des objets techniques par association d’éléments existants en suivant un schéma de montage."
+      ],
+      "evidence": [
+        "Réalise un objet technique par association d’éléments existants en suivant un schéma de montage.",
+        "Réalise par exemple une maquette de maison de poupée, un treuil ou un quizz simple.",
+        "Respecte les règles élémentaires de sécurité travaillées avec le professeur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait fabriquer un petit treuil en suivant pas à pas un schéma de montage ?",
+      "priorKnowledge": [
+        "Construire, fabriquer, réaliser en suivant une recette ou une fiche technique (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-elec-02",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Les objets techniques. Qu’est-ce que c’est ? À quels besoins répondent-ils ? Comment fonctionnent-ils ?",
+      "subdomain": "Réaliser quelques objets et circuits électriques simples, en respectant des règles élémentaires de sécurité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Réaliser un circuit électrique simple",
+      "description": "Construire un circuit électrique simple (par exemple avec une pile, des fils et une petite ampoule), en connaître les éléments et comprendre comment il fonctionne.",
+      "officialObjectives": [
+        "Constituants et fonctionnement d’un circuit électrique simple."
+      ],
+      "evidence": [
+        "Nomme les constituants d’un circuit électrique simple et explique son fonctionnement.",
+        "Réalise un circuit électrique simple en respectant des règles élémentaires de sécurité.",
+        "Réalise un montage électrique, par exemple un jeu d’adresse électrique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait allumer une petite ampoule avec une pile et des fils, et expliquer pourquoi elle s’éteint si on débranche un fil ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-elec-03",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Les objets techniques. Qu’est-ce que c’est ? À quels besoins répondent-ils ? Comment fonctionnent-ils ?",
+      "subdomain": "Réaliser quelques objets et circuits électriques simples, en respectant des règles élémentaires de sécurité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Distinguer les bons conducteurs et les isolants",
+      "description": "Tester des matériaux dans un circuit pour savoir s’ils laissent passer le courant électrique (bons conducteurs, comme les métaux) ou non (isolants, comme le plastique ou le bois).",
+      "officialObjectives": [
+        "Identifier les propriétés de la matière vis-à-vis du courant électrique.",
+        "Exemples de bon conducteurs et d’isolants."
+      ],
+      "evidence": [
+        "Réalise des montages permettant de différencier des matériaux en deux catégories : bons conducteurs et isolants.",
+        "Donne des exemples de bons conducteurs et d’isolants."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait prévoir, puis vérifier avec un circuit, si une cuillère en métal et une règle en plastique laissent passer le courant ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-elec-04",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Les objets techniques. Qu’est-ce que c’est ? À quels besoins répondent-ils ? Comment fonctionnent-ils ?",
+      "subdomain": "Réaliser quelques objets et circuits électriques simples, en respectant des règles élémentaires de sécurité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Le rôle de l’interrupteur",
+      "description": "Comprendre qu’un interrupteur sert à ouvrir ou fermer un circuit électrique, donc à allumer ou éteindre un appareil.",
+      "officialObjectives": [
+        "Rôle de l’interrupteur."
+      ],
+      "evidence": [
+        "Explique le rôle de l’interrupteur : ouvrir ou fermer le circuit.",
+        "Place un interrupteur dans un circuit électrique simple pour allumer et éteindre."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qui se passe dans le circuit quand on appuie sur l’interrupteur d’une lampe de poche ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-elec-05",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Les objets techniques. Qu’est-ce que c’est ? À quels besoins répondent-ils ? Comment fonctionnent-ils ?",
+      "subdomain": "Réaliser quelques objets et circuits électriques simples, en respectant des règles élémentaires de sécurité",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Piles ou prise de courant : les règles de sécurité électrique",
+      "description": "Distinguer les objets qui fonctionnent avec des piles de ceux qui se branchent sur le courant du secteur (la prise), et connaître les règles de sécurité : le courant du secteur est dangereux.",
+      "officialObjectives": [
+        "Différencier des objets selon qu’ils sont alimentés avec des piles ou avec le courant du secteur.",
+        "Règles élémentaires de sécurité."
+      ],
+      "evidence": [
+        "Classe des objets selon qu’ils sont alimentés avec des piles ou avec le courant du secteur.",
+        "Énonce quelques règles élémentaires de sécurité liées à l’électricité.",
+        "Applique les règles élémentaires de sécurité travaillées avec le professeur lors des réalisations."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trier une télécommande, un grille-pain et une lampe de poche selon qu’ils fonctionnent avec des piles ou sur une prise, et dire pourquoi on ne joue jamais avec une prise ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-num-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Les objets techniques. Qu’est-ce que c’est ? À quels besoins répondent-ils ? Comment fonctionnent-ils ?",
+      "subdomain": "Commencer à s’approprier un environnement numérique",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Décrire les éléments d’un ordinateur et leurs connexions",
+      "description": "Nommer les principaux éléments d’un dispositif informatique (écran, clavier, souris, imprimante…) et observer comment ils sont reliés entre eux.",
+      "officialObjectives": [
+        "Décrire l’architecture simple d’un dispositif informatique."
+      ],
+      "evidence": [
+        "Observe les connexions entre les différents matériels.",
+        "Décrit l’architecture simple d’un dispositif informatique en nommant ses principaux éléments."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer à quoi sont branchés le clavier, la souris et l’écran d’un ordinateur ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-num-02",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Les objets techniques. Qu’est-ce que c’est ? À quels besoins répondent-ils ? Comment fonctionnent-ils ?",
+      "subdomain": "Commencer à s’approprier un environnement numérique",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Utiliser un traitement de texte",
+      "description": "Taper un court texte à l’ordinateur, le mettre en forme, le corriger avec le correcteur orthographique, l’enregistrer et l’imprimer, en lien avec le français. Plus largement, découvrir des outils numériques pour dessiner, communiquer, rechercher et restituer des informations simples.",
+      "officialObjectives": [
+        "Avoir acquis une familiarisation suffisante avec le traitement de texte et en faire un usage rationnel (en lien avec le français)."
+      ],
+      "evidence": [
+        "Saisit un texte, le traite, le sauvegarde et le restitue.",
+        "Met en page et met en forme des paragraphes.",
+        "Supprime, déplace et duplique des éléments de texte.",
+        "Utilise le correcteur orthographique."
+      ],
+      "period": "familiarisation progressive par la pratique, tout au long du cycle",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait taper trois phrases dans un traitement de texte, corriger une faute signalée par le correcteur et enregistrer son document ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-esp-01",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans l’espace",
+      "subdomain": "Se repérer dans l’espace et le représenter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Se repérer dans son environnement proche",
+      "description": "S’orienter et retrouver son chemin dans les lieux qu’on connaît (la classe, l’école, le quartier), puis dans des lieux nouveaux. Ce travail est mené en lien avec les mathématiques.",
+      "officialObjectives": [
+        "Se repérer dans son environnement proche."
+      ],
+      "evidence": [
+        "Se repère dans un espace proche et connu (classe, école, quartier).",
+        "Passe, dans les activités, de l’espace proche et connu à un espace inconnu."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait aller seul de sa classe à la bibliothèque de l’école et expliquer par où il passe ?",
+      "priorKnowledge": [
+        "Réaliser un trajet, un parcours dans l’école (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 50,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-esp-02",
+      "programme": "qlm-c2",
+      "type": "LANGUAGE",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans l’espace",
+      "subdomain": "Se repérer dans l’espace et le représenter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Situer objets et personnes avec le vocabulaire des positions",
+      "description": "Dire où se trouve un objet ou une personne par rapport à un autre ou à un repère, avec des mots précis : gauche, droite, devant, derrière, sur, sous, près, loin, mais aussi premier plan, second plan, nord, sud, est, ouest.",
+      "officialObjectives": [
+        "Situer des objets ou des personnes les uns par rapport aux autres ou par rapport à d’autres repères.",
+        "Vocabulaire permettant de définir des positions (gauche, droite, au-dessus, en dessous, sur, sous, devant, derrière, près, loin, premier plan, second plan, nord, sud, est, ouest, etc.)."
+      ],
+      "evidence": [
+        "Situe des objets ou des personnes les uns par rapport aux autres ou par rapport à d’autres repères.",
+        "Utilise le vocabulaire des positions : gauche, droite, au-dessus, en dessous, sur, sous, devant, derrière, près, loin, premier plan, second plan, nord, sud, est, ouest.",
+        "Emploie ce vocabulaire à l’oral, puis à l’écrit, dans des mises en situation."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire, sur une photo, ce qui est au premier plan et au second plan, et ce qui se trouve à gauche ou à droite de la maison ?",
+      "priorKnowledge": [
+        "Situer des objets par rapport à soi et entre eux en employant les marqueurs spatiaux (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 50,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-esp-03",
+      "programme": "qlm-c2",
+      "type": "LANGUAGE",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans l’espace",
+      "subdomain": "Se repérer dans l’espace et le représenter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Décrire un déplacement avec les mots justes",
+      "description": "Expliquer ou suivre un déplacement avec le vocabulaire adapté : avancer, reculer, tourner à droite ou à gauche, monter, descendre.",
+      "officialObjectives": [
+        "Vocabulaire permettant de définir des déplacements (avancer, reculer, tourner à droite/à gauche, monter, descendre, etc.)."
+      ],
+      "evidence": [
+        "Décrit un déplacement avec le vocabulaire adapté (avancer, reculer, tourner à droite/à gauche, monter, descendre).",
+        "Suit un déplacement décrit oralement ou par écrit."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait guider quelqu’un de la porte jusqu’à son bureau en disant « avance, tourne à gauche, recule » ?",
+      "priorKnowledge": [
+        "Restituer oralement un déplacement (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 50,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-esp-04",
+      "programme": "qlm-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans l’espace",
+      "subdomain": "Se repérer dans l’espace et le représenter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Représenter un espace familier : dessin, plan, maquette",
+      "description": "Connaître quelques façons de représenter un lieu (maquette, plan, photo) et en produire : dessiner l’école, faire le plan du quartier ou d’un lieu visité en sortie. Ce travail est mené en lien avec les mathématiques.",
+      "officialObjectives": [
+        "Produire des représentations des espaces familiers (les espaces scolaires extérieurs proches, le village, le quartier) et moins familiers (vécus lors de sorties).",
+        "Quelques modes de représentation de l’espace."
+      ],
+      "evidence": [
+        "Étudie des représentations de l’espace environnant (maquettes, plans, photos) et en produit.",
+        "Dessine l’espace de l’école.",
+        "Produit une représentation d’un espace moins familier, vécu lors d’une sortie."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dessiner un plan simple de la cour de l’école en y plaçant les principaux éléments ?",
+      "priorKnowledge": [
+        "Représenter l’environnement proche, par exemple l’espace de la classe ou de la cour par une maquette ou un plan (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 50,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-esp-05",
+      "programme": "qlm-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans l’espace",
+      "subdomain": "Se repérer dans l’espace et le représenter",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Lire un plan ou une carte : titre, échelle, orientation, légende",
+      "description": "Lire un plan et se repérer sur une carte en s’aidant de ses éléments : le titre (ce que montre la carte), l’échelle, l’orientation (où est le nord) et la légende (ce que veulent dire les couleurs et les symboles).",
+      "officialObjectives": [
+        "Lire des plans, se repérer sur des cartes.",
+        "Éléments constitutifs d’une carte : titre, échelle, orientation, légende."
+      ],
+      "evidence": [
+        "Prélève des informations sur une carte.",
+        "Repère le titre, l’échelle, l’orientation et la légende d’une carte.",
+        "Lit un plan pour se repérer."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver, grâce à la légende du plan de la ville, où se trouvent la mairie et la gare ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 50,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-glob-01",
+      "programme": "qlm-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans l’espace",
+      "subdomain": "Situer un lieu sur une carte ou un globe ou sur un écran informatique",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Globe et planisphère : représenter la Terre entière",
+      "description": "Reconnaître les représentations de la Terre entière (globe, planisphère, cartes numériques) et y repérer les océans, les mers, les continents, l’équateur et les pôles.",
+      "officialObjectives": [
+        "Identifier des représentations globales de la Terre et du monde."
+      ],
+      "evidence": [
+        "Utilise cartes, cartes numériques, planisphères et globe comme instruments de visualisation de la planète.",
+        "Repère la présence des océans, des mers, des continents, de l’équateur et des pôles."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sur un globe l’équateur, un pôle et un océan, puis les retrouver sur un planisphère ?",
+      "priorKnowledge": [
+        "Découvrir l’utilisation d’un globe (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 51,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-glob-02",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans l’espace",
+      "subdomain": "Situer un lieu sur une carte ou un globe ou sur un écran informatique",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Situer un lieu étudié sur une carte, un globe ou un écran",
+      "description": "Retrouver et montrer sur une carte, un globe ou une carte numérique un lieu étudié en classe.",
+      "officialObjectives": [
+        "Situer les espaces étudiés sur une carte ou un globe."
+      ],
+      "evidence": [
+        "Situe les espaces étudiés sur une carte ou un globe.",
+        "Situe un lieu sur une carte numérique, sur un écran informatique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver sur un globe, puis sur une carte numérique, un pays étudié en classe ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 51,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-glob-03",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans l’espace",
+      "subdomain": "Situer un lieu sur une carte ou un globe ou sur un écran informatique",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Situer sa région, la France, l’Europe et les continents",
+      "description": "Repérer sur une carte ou un globe sa région, la France, l’Europe et les autres continents, ainsi que quelques pays et les océans, en allant de l’espace connu vers l’espace lointain.",
+      "officialObjectives": [
+        "Repérer la position de sa région, de la France, de l’Europe et des autres continents.",
+        "De l'espace connu à l'espace lointain : les pays, les continents, les océans ; la Terre et les astres (la Lune, le Soleil, etc.)."
+      ],
+      "evidence": [
+        "Repère la position de sa région, de la France et de l’Europe sur une carte ou un globe.",
+        "Repère les autres continents, quelques pays et les océans sur un planisphère ou un globe."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sa région, la France, l’Europe et l’Afrique sur un planisphère, et nommer l’océan qui borde la France à l’ouest ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 51,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-glob-04",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans l’espace",
+      "subdomain": "Situer un lieu sur une carte ou un globe ou sur un écran informatique",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "La Terre dans l’univers : le Soleil, la Lune et les autres astres",
+      "description": "Savoir que la Terre est un astre parmi d’autres dans un univers très vaste, situer la Terre par rapport au Soleil, et approcher les saisons et les lunaisons (les phases de la Lune) avec des maquettes de boules éclairées.",
+      "officialObjectives": [
+        "Savoir que la Terre fait partie d’un univers très vaste composé de différents types d’astres.",
+        "De l'espace connu à l'espace lointain : les pays, les continents, les océans ; la Terre et les astres (la Lune, le Soleil, etc.)."
+      ],
+      "evidence": [
+        "Repère la position de la Terre par rapport au Soleil sur une carte du système solaire.",
+        "Utilise des modèles réduits (boules éclairées) pour représenter les saisons et les lunaisons.",
+        "Cite quelques astres : la Terre, la Lune, le Soleil."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer la Terre et le Soleil sur une carte du système solaire, et expliquer avec une lampe et une balle pourquoi la Lune change d’aspect ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 51,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-cp-tps-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Se repérer dans le temps et le mesurer",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "L’alternance du jour et de la nuit",
+      "description": "Comprendre que le jour et la nuit se succèdent sans cesse : c’est le premier rythme qui revient. Les rythmes cycliques sont étudiés dès le CP, dans la continuité de la maternelle.",
+      "officialObjectives": [
+        "Identifier les rythmes cycliques du temps.",
+        "L’alternance jour/nuit."
+      ],
+      "evidence": [
+        "Identifie l’alternance jour/nuit comme un rythme cyclique du temps.",
+        "Situe les moments de sa journée par rapport au jour et à la nuit, à l’aide de l’emploi du temps d’une journée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer que le jour et la nuit reviennent toujours l’un après l’autre, et citer ce qu’il fait le jour et la nuit ?",
+      "priorKnowledge": [
+        "Différencier le matin et le soir, le jour et la nuit (maternelle, PS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 51,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-cp-tps-02",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Se repérer dans le temps et le mesurer",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Les rythmes cycliques : jours, semaines, mois, saisons",
+      "description": "Comprendre que les jours de la semaine, les mois et les saisons reviennent toujours dans le même ordre, et que la semaine est divisée en jours. Étudié dès le CP, avec la « roue des jours » et le calendrier.",
+      "officialObjectives": [
+        "Identifier les rythmes cycliques du temps.",
+        "Le caractère cyclique des jours, des semaines, des mois, des saisons.",
+        "La semaine est divisée en jours."
+      ],
+      "evidence": [
+        "Utilise la « roue des jours » pour mettre en évidence le caractère cyclique des jours de la semaine.",
+        "Marque sur un calendrier les repères temporels : année, mois, semaine, jour.",
+        "Explique qu’après le dernier jour de la semaine revient le premier, et qu’après décembre revient janvier."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quel jour vient après dimanche et quel mois vient après décembre, et expliquer pourquoi on parle de « roue des jours » ?",
+      "priorKnowledge": [
+        "Savoir que la semaine est une suite de sept jours et nommer les jours de la semaine (maternelle, MS)",
+        "Nommer la plupart des mois de l’année et connaître les saisons (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 51,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-tps-01",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Se repérer dans le temps et le mesurer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Lire l’heure",
+      "description": "Savoir que la journée est divisée en heures et lire l’heure sur une horloge, une pendule ou une montre, à aiguilles ou à affichage digital. Ce travail est mené en lien avec les mathématiques.",
+      "officialObjectives": [
+        "Lire l’heure et les dates.",
+        "La journée est divisée en heures."
+      ],
+      "evidence": [
+        "Utilise une horloge, une pendule pour appréhender quelques repères de codification du temps.",
+        "Lit l’heure sur des horloges et des montres à aiguilles et à affichage digital.",
+        "Découvre d’autres instruments de repérage du temps, comme le cadran solaire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lire l’heure sur l’horloge de la classe, puis sur une montre à affichage digital ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 51,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-tps-02",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Se repérer dans le temps et le mesurer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Lire une date et se repérer sur un calendrier",
+      "description": "Lire et écrire la date du jour, et utiliser un calendrier pour se repérer dans la semaine, le mois et l’année.",
+      "officialObjectives": [
+        "Lire l’heure et les dates."
+      ],
+      "evidence": [
+        "Utilise des calendriers pour marquer les repères temporels (année, mois, semaine, jour).",
+        "Lit une date sur un calendrier."
+      ],
+      "period": "les outils de représentation du temps (calendrier, frise…) sont utilisés tout au long du cycle",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lire la date du jour sur le calendrier de la classe et trouver quel jour de la semaine tombera le 1er du mois prochain ?",
+      "priorKnowledge": [
+        "Énoncer la date (jour et mois) avec les outils de la classe (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 51,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-tps-03",
+      "programme": "qlm-c2",
+      "type": "PROCEDURAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Se repérer dans le temps et le mesurer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Comparer, estimer et mesurer des durées",
+      "description": "Dire ce qui dure le plus longtemps, estimer une durée, puis la mesurer avec un sablier, une horloge, une montre ou un chronomètre. Ce travail est mené en lien avec les mathématiques.",
+      "officialObjectives": [
+        "Comparer, estimer, mesurer des durées."
+      ],
+      "evidence": [
+        "Compare et estime des durées.",
+        "Mesure une durée avec un sablier, des horloges et des montres à aiguilles et à affichage digital, un chronomètre."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait estimer combien de temps dure le trajet de la maison à l’école, puis le mesurer avec une montre ?",
+      "priorKnowledge": [
+        "Comparer des durées (maternelle, GS)",
+        "Découvrir la fonction et l’utilisation du sablier (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 51,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-tps-04",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Se repérer dans le temps et le mesurer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Les unités de durée, de la seconde au millénaire",
+      "description": "Connaître les unités usuelles de durée (seconde, minute, heure, jour, semaine, mois, année, siècle, millénaire) et les relations entre elles (par exemple : une heure, c’est 60 minutes ; une semaine, c’est 7 jours).",
+      "officialObjectives": [
+        "Unités de mesure usuelles de durées : jour, semaine, heure, minute, seconde, mois, année, siècle, millénaire.",
+        "Relations entre ces unités."
+      ],
+      "evidence": [
+        "Utilise les unités de mesure usuelles de durées : jour, semaine, heure, minute, seconde, mois, année, siècle, millénaire.",
+        "Utilise les relations entre ces unités pour passer de l’une à l’autre.",
+        "Choisit l’unité adaptée pour exprimer une durée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire combien il y a de jours dans une semaine, de minutes dans une heure et d’années dans un siècle ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 51,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-tps-05",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Se repérer dans le temps et le mesurer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Situer les événements quotidiens et réguliers les uns par rapport aux autres",
+      "description": "Ordonner les événements de la journée, de la semaine ou qui reviennent régulièrement, et repérer sur un calendrier des dates importantes, personnelles ou historiques.",
+      "officialObjectives": [
+        "Situer des événements les uns par rapport aux autres.",
+        "Les événements quotidiens, hebdomadaires, récurrents, et leur positionnement les uns par rapport aux autres."
+      ],
+      "evidence": [
+        "Situe les uns par rapport aux autres des événements quotidiens, hebdomadaires ou récurrents.",
+        "Utilise des calendriers pour repérer et situer sur le mois puis l’année des dates particulières personnelles ou historiques."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer sur le calendrier de l’année son anniversaire, les vacances d’été et le 14 Juillet, et dire lequel vient en premier ?",
+      "priorKnowledge": [
+        "Situer un événement dans la semaine (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 52,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-tps-06",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Se repérer dans le temps et le mesurer",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Avant, après, pendant : succession et simultanéité",
+      "description": "Comprendre et employer les notions de succession (avant, après), de simultanéité (en même temps, pendant) et de continuité, pour situer des événements réels ou ceux d’une histoire, notamment sur une frise chronologique.",
+      "officialObjectives": [
+        "Situer des événements les uns par rapport aux autres.",
+        "Continuité et succession, antériorité et postériorité, simultanéité."
+      ],
+      "evidence": [
+        "Utilise une frise chronologique pour repérer et situer des événements sur un temps donné (avant, après, pendant, au fil du temps, il y a tant de jours, de mois, d’années).",
+        "Situe dans le temps les événements d’un récit."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer sur une frise trois moments de sa vie (sa naissance, son entrée au CP, ses dernières vacances) et dire ce qui s’est passé avant ou après ?",
+      "priorKnowledge": [
+        "Repérer l’antériorité d’une action et ordonner des événements passés les uns par rapport aux autres (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 52,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-long-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Repérer et situer quelques événements dans un temps long",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Comprendre que le temps qui passe ne revient pas",
+      "description": "Prendre conscience que le temps qui passe est irréversible : contrairement aux jours de la semaine qui reviennent, un jour passé ne reviendra jamais. On l’approche avec l’éphéméride, les calendriers et les frises.",
+      "officialObjectives": [
+        "Prendre conscience que le temps qui passe est irréversible."
+      ],
+      "evidence": [
+        "Utilise une éphéméride pour appréhender l’irréversibilité du temps.",
+        "Élabore et utilise des calendriers et/ou des frises à différentes échelles temporelles (chronologiques, générationnelles, historiques).",
+        "Situe sur une frise chronologique simple des événements vécus ou non dans la classe, l’école, le quartier, la ville, le pays, le monde."
+      ],
+      "period": "calendriers et frises utilisés tout au long du cycle ; le temps long est abordé à partir du CE2",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi on arrache chaque jour une page de l’éphéméride et pourquoi on ne pourra jamais revivre ce jour-là ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 52,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-cp-long-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Repérer et situer quelques événements dans un temps long",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Le temps des parents",
+      "description": "Découvrir qu’avant sa naissance, ses parents et ses grands-parents ont vécu à une autre époque, et comparer leur façon de vivre avec la sienne (travail du CP).",
+      "officialObjectives": [
+        "Prendre conscience que le temps qui passe est irréversible.",
+        "Le temps des parents."
+      ],
+      "evidence": [
+        "Observe et compare son mode de vie à celui de ses parents et de ses grands-parents.",
+        "Situe sur une frise générationnelle quelques événements vécus par ses parents.",
+        "S’appuie sur des récits et des témoignages comme éléments d’enquête."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter une différence entre l’enfance de ses parents et la sienne (les jeux, l’école, le téléphone…) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 52,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce1-long-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Repérer et situer quelques événements dans un temps long",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Les générations et la mémoire familiale",
+      "description": "Situer les générations vivantes de sa famille (enfants, parents, grands-parents, arrière-grands-parents) et découvrir, par leurs souvenirs, comment les modes de vie ont évolué sur trois à quatre générations (travail du CE1).",
+      "officialObjectives": [
+        "Prendre conscience que le temps qui passe est irréversible.",
+        "Les générations vivantes et la mémoire familiale."
+      ],
+      "evidence": [
+        "Étudie l’évolution des modes de vie et des événements remarquables à l’échelle de trois à quatre générations.",
+        "Élabore et utilise une frise générationnelle.",
+        "Recueille des récits et des témoignages comme éléments d’enquête."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer sur une frise sa génération, celle de ses parents, de ses grands-parents et de ses arrière-grands-parents ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 52,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce2-long-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Repérer et situer quelques événements dans un temps long",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "L’évolution des modes de vie et des techniques à travers les époques",
+      "description": "Découvrir qu’à différentes époques, on ne mangeait, ne s’habillait, ne se logeait, ne se déplaçait et ne faisait pas la guerre de la même façon, et que les techniques ont changé. Au CE2 commence l’étude du temps long.",
+      "officialObjectives": [
+        "Prendre conscience que le temps qui passe est irréversible.",
+        "L'évolution des sociétés à travers des modes de vie (alimentation, habitat, vêtements, outils, guerre, déplacements, etc.) et des techniques à diverses époques."
+      ],
+      "evidence": [
+        "Décrit l’évolution des modes de vie (alimentation, habitat, vêtements, outils, guerre, déplacements) et des techniques à diverses époques.",
+        "Associe quelques modes de vie caractéristiques aux principales périodes de l’histoire de la France et du monde occidental.",
+        "Utilise des ressources locales (monuments, architecture), des récits, des témoignages ou des films comme éléments d’enquête."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comparer la façon de se déplacer ou de s’éclairer au temps des châteaux forts et aujourd’hui ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 52,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce2-long-02",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Repérer et situer quelques événements dans un temps long",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Repérer les grandes périodes de l’histoire",
+      "description": "Repérer les grandes périodes de l’histoire de la France et du monde occidental (par exemple la Préhistoire, l’Antiquité, le Moyen Âge…) et les placer dans l’ordre sur une frise chronologique. Ce repérage se travaille au CE2.",
+      "officialObjectives": [
+        "Repérer des périodes de l'histoire du monde occidental et de la France en particulier, quelques grandes dates et personnages clés."
+      ],
+      "evidence": [
+        "Repère des périodes de l’histoire du monde occidental et de la France en particulier.",
+        "Place quelques grandes périodes historiques dans l’ordre sur une frise chronologique.",
+        "Utilise des ressources locales (monuments, architecture, etc.), des récits, des témoignages, des films comme éléments d’enquête."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait remettre dans l’ordre, sur une frise, la Préhistoire, le Moyen Âge et l’époque actuelle ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 52,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce2-long-03",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Se situer dans le temps",
+      "subdomain": "Repérer et situer quelques événements dans un temps long",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Quelques personnages et dates clés de l’histoire",
+      "description": "Connaître quelques grands personnages et quelques grandes dates de l’histoire de France, et les situer dans leur période.",
+      "officialObjectives": [
+        "Repérer des périodes de l'histoire du monde occidental et de la France en particulier, quelques grandes dates et personnages clés.",
+        "Quelques personnages et dates."
+      ],
+      "evidence": [
+        "Cite quelques grandes dates et quelques personnages clés de l’histoire de la France.",
+        "Situe un personnage ou une date dans la période historique correspondante.",
+        "Mémorise quelques repères chronologiques."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer un personnage célèbre de l’histoire de France et dire à quelle période il a vécu ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 52,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-mdv-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Comparer des modes de vie",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Comparer des modes de vie à partir de critères",
+      "description": "Comparer la façon de vivre de personnes d’époques ou de cultures différentes à partir de critères précis : alimentation, habitat, vêtements, outils, guerre, déplacements.",
+      "officialObjectives": [
+        "Comparer des modes de vie (alimentation, habitat, vêtements, outils, guerre, déplacements...) à différentes époques ou de différentes cultures.",
+        "Quelques éléments permettant de comparer des modes de vie : alimentation, habitat, vêtements, outils, guerre, déplacements, etc."
+      ],
+      "evidence": [
+        "Compare des modes de vie à partir de critères : alimentation, habitat, vêtements, outils, guerre, déplacements.",
+        "S’appuie sur des documents, documents numériques, documentaires, témoignages et récits, écoutés ou lus."
+      ],
+      "period": "CP : son mode de vie comparé à celui de ses parents et grands-parents ; CE1 : sur trois à quatre générations ; CE2 : personnages d’autres époques et autres sociétés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comparer, critère par critère (alimentation, habitat, vêtements), la vie de ses grands-parents quand ils étaient enfants et la sienne ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce2-mdv-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Comparer des modes de vie",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "La vie des hommes et des femmes à travers l’histoire",
+      "description": "Découvrir et comparer la vie de quelques personnages d’autrefois, célèbres ou anonymes, hommes et femmes (une paysanne, un artisan, une ouvrière, un soldat, une savante…), et leur façon de voir le monde.",
+      "officialObjectives": [
+        "Comparer des modes de vie (alimentation, habitat, vêtements, outils, guerre, déplacements...) à différentes époques ou de différentes cultures.",
+        "Quelques modes de vie des hommes et des femmes et quelques représentations du monde à travers le temps historique."
+      ],
+      "evidence": [
+        "Découvre et compare les modes de vie de quelques personnages, grands et petits, femmes et hommes (une paysanne, un artisan, une ouvrière, un soldat, un écrivain, une savante, un musicien, une puissante…).",
+        "Appréhende quelques grands faits de quelques périodes historiques.",
+        "S’appuie sur des documents, des documentaires, l’écoute et la lecture de témoignages et de récits."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comparer la journée d’une paysanne et celle d’une ouvrière d’autrefois : ce qu’elles mangeaient, où elles vivaient, leur travail ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce2-mdv-02",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Comparer des modes de vie",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Les modes de vie dans des lieux emblématiques du monde",
+      "description": "Découvrir comment vivent des sociétés dans quelques lieux très typiques de la planète (un désert, une grande ville, une montagne…), à partir de critères de comparaison : habitat, alimentation, vêtements, coutumes.",
+      "officialObjectives": [
+        "Comparer des modes de vie (alimentation, habitat, vêtements, outils, guerre, déplacements...) à différentes époques ou de différentes cultures.",
+        "Les modes de vie caractéristiques dans quelques espaces très emblématiques."
+      ],
+      "evidence": [
+        "Découvre, à partir de critères de comparaison, comment d’autres sociétés vivent (habitat, alimentation, vêtements, coutumes).",
+        "Compare au sien un mode de vie caractéristique d’un espace très emblématique.",
+        "S’appuie sur des documents, documents numériques, documentaires, témoignages."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire comment on se loge et on s’habille dans un désert chaud, et comparer avec sa propre vie ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce2-mdv-03",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Comparer des modes de vie",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Les liens entre mode de vie et environnement",
+      "description": "Comprendre, à partir d’un exemple (l’alimentation, l’habitat, le vêtement ou les déplacements), comment la façon de vivre d’une société dépend de son milieu : climat, relief, localisation.",
+      "officialObjectives": [
+        "Identifier et comprendre des interactions simples entre modes de vie et environnement à partir d‘un exemple (l’alimentation, l’habitat, le vêtement ou les déplacements)."
+      ],
+      "evidence": [
+        "Identifie, à partir d’un exemple (alimentation, habitat, vêtement ou déplacements), une interaction simple entre un mode de vie et son environnement.",
+        "Explique les relations d’une société à son milieu en tenant compte de l’importance du climat, du relief, de la localisation."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi les maisons ne sont pas construites de la même façon en montagne et dans un désert ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-org-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Comprendre qu’un espace est organisé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Découvrir les espaces proches, du quartier au village ou à la ville",
+      "description": "Observer et décrire les espaces très proches (école, parc, trajet habituel), puis le quartier, le village ou le centre-ville, et apprendre à les représenter avec une légende.",
+      "officialObjectives": [
+        "Découvrir le quartier, le village, la ville : ses principaux espaces et ses principales fonctions.",
+        "Des espaces très proches (école, parc, parcours régulier, etc.) puis proches et plus complexes (quartier, village, centre-ville, centre commercial, etc.), en construisant progressivement des légendes."
+      ],
+      "evidence": [
+        "Décrit des espaces très proches (école, parc, parcours régulier), puis proches et plus complexes (quartier, village, centre-ville, centre commercial).",
+        "Construit progressivement des légendes pour représenter ces espaces.",
+        "Utilise des photographies prises sur le terrain et des dessins."
+      ],
+      "period": "CP : observer et décrire des milieux proches ; CE1 : extraire les principales caractéristiques des milieux humanisés proches (comment habite-t-on, comment circule-t-on ?) pour les comparer à des milieux plus lointains ; CE2 : étude d’un milieu urbain proche",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire les principaux lieux de son quartier (école, commerces, parc, mairie) et les placer sur un plan avec une légende ?",
+      "priorKnowledge": [
+        "Reconnaître les espaces proches de l’école et leurs usages (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce2-org-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Comprendre qu’un espace est organisé",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Comment une ville organise ses espaces selon ses activités",
+      "description": "À partir d’une ville proche, comprendre que l’espace est organisé selon les activités : quartiers où l’on habite, commerces, zones d’industrie, bâtiments administratifs comme la mairie.",
+      "officialObjectives": [
+        "Découvrir le quartier, le village, la ville : ses principaux espaces et ses principales fonctions."
+      ],
+      "evidence": [
+        "Étudie, à partir de l’exemple d’un milieu urbain proche, comment les sociétés humaines organisent leur espace pour exercer leurs activités : résidentielles, commerciales, industrielles, administratives.",
+        "Identifie les principaux espaces d’une ville et leurs principales fonctions.",
+        "Rencontre des acteurs de la ville."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer, dans une ville proche, un lieu où l’on habite, un lieu où l’on fait ses courses, un lieu où l’on fabrique des choses et un lieu administratif ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-org-02",
+      "programme": "qlm-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Comprendre qu’un espace est organisé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Lire l’organisation d’un espace sur des photos aériennes et des cartes",
+      "description": "Observer comment un espace est organisé à partir de photos de paysage, de photos aériennes (prises de biais, puis vues du dessus) et de cartes, et le schématiser.",
+      "officialObjectives": [
+        "Des organisations spatiales, à partir de photographies paysagères de terrain et aériennes ; à partir de documents cartographiques."
+      ],
+      "evidence": [
+        "Utilise des photographies paysagères de terrain et des photographies aériennes obliques, puis verticales, et les schématise.",
+        "Lit des plans et des cartes topographiques sous forme de schématisations."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver, sur une photo aérienne de sa commune, l’école, les routes et les champs, et les reporter sur un schéma ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-org-03",
+      "programme": "qlm-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Comprendre qu’un espace est organisé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Lire une carte thématique simple des villes de France",
+      "description": "Lire une carte simple qui montre les villes de France (par exemple selon leur nombre d’habitants), en s’aidant d’un tableau de chiffres.",
+      "officialObjectives": [
+        "Une carte thématique simple des villes en France."
+      ],
+      "evidence": [
+        "Lit une carte thématique simple des villes en France.",
+        "Lit un tableau de chiffres (population des grandes villes)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver sur une carte des villes de France les trois plus grandes villes, et vérifier dans un tableau leur nombre d’habitants ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-org-04",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Comprendre qu’un espace est organisé",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Le rôle des acteurs de la commune pour l’environnement",
+      "description": "Découvrir ce que font la mairie, les habitants ou les commerçants pour l’environnement, à partir d’un exemple : traitement des déchets, nature en ville, déplacements ou qualité de l’air.",
+      "officialObjectives": [
+        "Le rôle joué par certains acteurs urbains ou du village (la municipalité, les habitants, les commerçants, etc.) dans l’environnement, à partir d’un exemple lié au traitement des déchets, à la place de la nature en ville, aux déplacements ou à la qualité de l’air."
+      ],
+      "evidence": [
+        "Explique, à partir d’un exemple (traitement des déchets, place de la nature en ville, déplacements ou qualité de l’air), le rôle d’un acteur urbain ou du village dans l’environnement.",
+        "Rencontre des acteurs (municipalité, habitants, commerçants)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer qui ramasse les poubelles dans sa commune et ce que deviennent les déchets triés ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-pay-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Identifier des paysages",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Reconnaître différents types de paysages",
+      "description": "Reconnaître, sur des photos ou des films, différents paysages : littoral (bord de mer), montagne, campagne, ville, désert…",
+      "officialObjectives": [
+        "Reconnaître différents paysages : les littoraux, les massifs montagneux, les campagnes, les villes, les déserts, etc."
+      ],
+      "evidence": [
+        "Reconnaît différents paysages (littoraux, massifs montagneux, campagnes, villes, déserts) sur des photographies paysagères, de terrain ou des vues aériennes.",
+        "Identifie des paysages dans des films documentaires."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, devant plusieurs photos, laquelle montre un littoral, une montagne, une campagne, une ville ou un désert ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-pay-02",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Identifier des paysages",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Les principaux paysages français",
+      "description": "Connaître les principaux paysages de France (littoraux, montagnes, campagnes, villes) en partant de lieux de vie connus.",
+      "officialObjectives": [
+        "Reconnaître différents paysages : les littoraux, les massifs montagneux, les campagnes, les villes, les déserts, etc.",
+        "Les principaux paysages français en s'appuyant sur des lieux de vie."
+      ],
+      "evidence": [
+        "Décrit les principaux paysages français en s’appuyant sur des lieux de vie.",
+        "Identifie le type de paysage de son propre lieu de vie."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire le paysage de l’endroit où il vit et le comparer à un autre paysage français, par exemple la montagne ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-ce2-pay-01",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Identifier des paysages",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Quelques paysages de la planète et leurs caractéristiques",
+      "description": "Découvrir quelques paysages et milieux caractéristiques de la planète (un désert, une grande ville, une haute montagne…) et ce qui les caractérise. C’est au CE2 que commence l’étude de l’espace géographique terrestre.",
+      "officialObjectives": [
+        "Reconnaître différents paysages : les littoraux, les massifs montagneux, les campagnes, les villes, les déserts, etc.",
+        "Quelques paysages de la planète et leurs caractéristiques."
+      ],
+      "evidence": [
+        "Décrit les caractéristiques de quelques paysages de la planète à partir de photographies, de vues aériennes ou de films documentaires.",
+        "Situe ces paysages sur un globe terrestre ou un planisphère."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire un paysage de désert et le situer sur un planisphère ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    },
+    {
+      "id": "fr-qm-c2-pay-03",
+      "programme": "qlm-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Questionner le monde",
+      "domain": "Explorer les organisations du monde",
+      "subdomain": "Identifier des paysages",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Comparer un paysage d’aujourd’hui et du passé",
+      "description": "Comparer des images d’un même lieu à différentes époques pour repérer ce qui a changé (nouvelles routes, maisons, champs devenus quartiers…).",
+      "officialObjectives": [
+        "Comparer des paysages d’aujourd’hui et du passé pour mettre en évidence quelques transformations."
+      ],
+      "evidence": [
+        "Compare des paysages d’aujourd’hui et du passé pour mettre en évidence quelques transformations.",
+        "Repère, sur des documents montrant un même lieu à deux époques, ce qui a changé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer trois changements entre une vieille carte postale de sa ville et une photo d’aujourd’hui ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 53,
+        "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-qm-c2-lang-03",
+      "prerequisiteId": "fr-qm-c2-lang-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Rendre compte de ses observations demande de les décrire avec des mots précis."
+    },
+    {
+      "topicId": "fr-qm-c2-eth-01",
+      "prerequisiteId": "fr-qm-c2-viv-08",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Savoir ce que deviennent le papier et les déchets de l’école donne du sens au tri et aux économies."
+    },
+    {
+      "topicId": "fr-qm-c2-etat-02",
+      "prerequisiteId": "fr-qm-c2-etat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Un changement d’état est le passage d’un état à un autre : il faut d’abord distinguer solide et liquide."
+    },
+    {
+      "topicId": "fr-qm-c2-eau-01",
+      "prerequisiteId": "fr-qm-c2-etat-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer l’eau liquide et la glace s’appuie sur l’observation de la solidification et de la fusion."
+    },
+    {
+      "topicId": "fr-qm-c2-eau-01",
+      "prerequisiteId": "fr-qm-c2-meth-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Mesurer une température, un volume ou une masse demande de choisir et d’utiliser le bon instrument."
+    },
+    {
+      "topicId": "fr-qm-c2-eau-02",
+      "prerequisiteId": "fr-qm-c2-etat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Reconnaître l’état de l’eau dans la nature suppose de distinguer un solide d’un liquide."
+    },
+    {
+      "topicId": "fr-qm-ce2-etat-01",
+      "prerequisiteId": "fr-qm-c2-etat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’état gazeux, abordé en CE2, complète les états solide et liquide étudiés auparavant."
+    },
+    {
+      "topicId": "fr-qm-ce2-etat-01",
+      "prerequisiteId": "fr-qm-ce2-etat-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’air, dont on a montré qu’il est de la matière, est l’exemple de gaz le plus accessible."
+    },
+    {
+      "topicId": "fr-qm-ce2-etat-03",
+      "prerequisiteId": "fr-qm-ce2-etat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut avoir pris conscience que l’air existe avant d’éprouver sa matérialité et sa compressibilité."
+    },
+    {
+      "topicId": "fr-qm-ce2-etat-02",
+      "prerequisiteId": "fr-qm-c2-dem-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Mettre l’air en évidence passe par de petites expériences menées en démarche d’investigation."
+    },
+    {
+      "topicId": "fr-qm-ce2-eau-01",
+      "prerequisiteId": "fr-qm-ce2-etat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La vapeur d’eau est de l’eau à l’état gazeux."
+    },
+    {
+      "topicId": "fr-qm-ce2-eau-01",
+      "prerequisiteId": "fr-qm-c2-etat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La condensation est un changement d’état, comme la solidification et la fusion déjà observées."
+    },
+    {
+      "topicId": "fr-qm-ce2-eau-01",
+      "prerequisiteId": "fr-qm-c2-eau-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La vapeur complète les états liquide et solide de l’eau déjà reconnus dans la nature."
+    },
+    {
+      "topicId": "fr-qm-c2-viv-02",
+      "prerequisiteId": "fr-qm-c2-viv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Suivre le développement d’un être vivant s’appuie sur la distinction entre animaux et végétaux."
+    },
+    {
+      "topicId": "fr-qm-c2-viv-03",
+      "prerequisiteId": "fr-qm-c2-viv-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le cycle de vie se construit à partir de l’observation du développement d’animaux et de végétaux."
+    },
+    {
+      "topicId": "fr-qm-c2-viv-04",
+      "prerequisiteId": "fr-qm-c2-viv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Décrire un régime alimentaire suppose de distinguer ce qui est animal et ce qui est végétal."
+    },
+    {
+      "topicId": "fr-qm-c2-viv-05",
+      "prerequisiteId": "fr-qm-c2-viv-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les besoins vitaux des plantes s’observent lors des cultures réalisées en classe."
+    },
+    {
+      "topicId": "fr-qm-c2-viv-06",
+      "prerequisiteId": "fr-qm-c2-viv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Décrire la diversité des êtres vivants d’un milieu demande de les identifier."
+    },
+    {
+      "topicId": "fr-qm-c2-viv-07",
+      "prerequisiteId": "fr-qm-c2-viv-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Une chaîne de prédation se construit à partir de ce que mangent les animaux."
+    },
+    {
+      "topicId": "fr-qm-c2-viv-07",
+      "prerequisiteId": "fr-qm-c2-viv-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les relations alimentaires sont une forme d’interdépendance entre les êtres vivants d’un milieu."
+    },
+    {
+      "topicId": "fr-qm-c2-viv-08",
+      "prerequisiteId": "fr-qm-c2-viv-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les échanges de l’école avec son environnement prolongent l’étude des interactions avec le milieu."
+    },
+    {
+      "topicId": "fr-qm-c2-sante-02",
+      "prerequisiteId": "fr-qm-c2-meth-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Suivre sa croissance demande d’utiliser correctement une toise et des instruments de mesure."
+    },
+    {
+      "topicId": "fr-qm-c2-sante-02",
+      "prerequisiteId": "fr-qm-c2-lang-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les mesures de croissance sont notées dans des tableaux et des graphiques."
+    },
+    {
+      "topicId": "fr-qm-c2-sante-06",
+      "prerequisiteId": "fr-qm-c2-sante-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Équilibrer un repas suppose de connaître les catégories d’aliments."
+    },
+    {
+      "topicId": "fr-qm-c2-sante-06",
+      "prerequisiteId": "fr-qm-c2-sante-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’équilibre alimentaire tient compte de l’énergie apportée par les aliments."
+    },
+    {
+      "topicId": "fr-qm-c2-sante-07",
+      "prerequisiteId": "fr-qm-c2-sante-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les effets de l’activité physique se comprennent mieux quand on sait ce qui permet un mouvement."
+    },
+    {
+      "topicId": "fr-qm-c2-obj-02",
+      "prerequisiteId": "fr-qm-c2-obj-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Pour comprendre comment un objet fonctionne, on commence par savoir à quoi il sert."
+    },
+    {
+      "topicId": "fr-qm-c2-obj-03",
+      "prerequisiteId": "fr-qm-c2-obj-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Repérer les outils d’un métier suppose de savoir identifier la fonction d’un objet."
+    },
+    {
+      "topicId": "fr-qm-c2-elec-01",
+      "prerequisiteId": "fr-qm-c2-obj-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Démonter et remonter des objets prépare à assembler des éléments en suivant un schéma."
+    },
+    {
+      "topicId": "fr-qm-c2-elec-02",
+      "prerequisiteId": "fr-qm-c2-elec-05",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Le programme demande de réaliser les circuits électriques en respectant des règles élémentaires de sécurité."
+    },
+    {
+      "topicId": "fr-qm-c2-elec-03",
+      "prerequisiteId": "fr-qm-c2-elec-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "On teste si un matériau conduit le courant en l’insérant dans un circuit simple."
+    },
+    {
+      "topicId": "fr-qm-c2-elec-03",
+      "prerequisiteId": "fr-qm-c2-dem-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Classer les matériaux en conducteurs et isolants passe par des tests organisés en démarche d’investigation."
+    },
+    {
+      "topicId": "fr-qm-c2-elec-04",
+      "prerequisiteId": "fr-qm-c2-elec-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’interrupteur ouvre ou ferme un circuit électrique simple."
+    },
+    {
+      "topicId": "fr-qm-c2-num-02",
+      "prerequisiteId": "fr-qm-c2-num-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Utiliser un traitement de texte suppose de connaître les éléments de l’ordinateur (clavier, souris, écran)."
+    },
+    {
+      "topicId": "fr-qm-c2-esp-01",
+      "prerequisiteId": "fr-qm-c2-esp-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Se repérer dans un lieu s’appuie sur la capacité à situer les choses par rapport à des repères."
+    },
+    {
+      "topicId": "fr-qm-c2-esp-03",
+      "prerequisiteId": "fr-qm-c2-esp-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Décrire un déplacement réutilise le vocabulaire des positions (gauche, droite…)."
+    },
+    {
+      "topicId": "fr-qm-c2-esp-04",
+      "prerequisiteId": "fr-qm-c2-esp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "On représente d’abord des espaces familiers, où l’on sait se repérer."
+    },
+    {
+      "topicId": "fr-qm-c2-esp-05",
+      "prerequisiteId": "fr-qm-c2-esp-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Avoir produit des plans et des maquettes aide à comprendre comment un plan ou une carte représente un lieu."
+    },
+    {
+      "topicId": "fr-qm-c2-glob-01",
+      "prerequisiteId": "fr-qm-c2-esp-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Lire un planisphère s’appuie sur la lecture de cartes (titre, légende, orientation)."
+    },
+    {
+      "topicId": "fr-qm-c2-glob-02",
+      "prerequisiteId": "fr-qm-c2-glob-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Situer un lieu sur un globe ou une carte suppose de savoir ce que ces représentations montrent."
+    },
+    {
+      "topicId": "fr-qm-c2-glob-03",
+      "prerequisiteId": "fr-qm-c2-glob-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les continents et les océans se repèrent sur un globe ou un planisphère."
+    },
+    {
+      "topicId": "fr-qm-c2-glob-04",
+      "prerequisiteId": "fr-qm-c2-glob-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le globe aide à se représenter la Terre comme un astre."
+    },
+    {
+      "topicId": "fr-qm-cp-tps-02",
+      "prerequisiteId": "fr-qm-cp-tps-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’alternance jour/nuit est le premier rythme cyclique, base de la succession des jours."
+    },
+    {
+      "topicId": "fr-qm-c2-tps-02",
+      "prerequisiteId": "fr-qm-cp-tps-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Se repérer sur un calendrier suppose de connaître l’ordre des jours, des semaines et des mois."
+    },
+    {
+      "topicId": "fr-qm-c2-tps-03",
+      "prerequisiteId": "fr-qm-c2-tps-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Mesurer une durée avec une horloge ou une montre demande de savoir lire l’heure."
+    },
+    {
+      "topicId": "fr-qm-c2-tps-04",
+      "prerequisiteId": "fr-qm-c2-tps-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les unités donnent un nom et une mesure aux durées que l’on compare et estime."
+    },
+    {
+      "topicId": "fr-qm-c2-tps-04",
+      "prerequisiteId": "fr-qm-cp-tps-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les relations entre jour, semaine, mois et année s’appuient sur leur caractère cyclique."
+    },
+    {
+      "topicId": "fr-qm-c2-tps-05",
+      "prerequisiteId": "fr-qm-cp-tps-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Situer des événements hebdomadaires ou récurrents suppose de connaître le rythme des jours, des semaines et des mois."
+    },
+    {
+      "topicId": "fr-qm-c2-tps-06",
+      "prerequisiteId": "fr-qm-c2-tps-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les notions d’avant, après, pendant s’exercent d’abord sur les événements de la vie quotidienne."
+    },
+    {
+      "topicId": "fr-qm-c2-long-01",
+      "prerequisiteId": "fr-qm-c2-tps-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comprendre que le temps ne revient pas s’appuie sur la succession et l’antériorité."
+    },
+    {
+      "topicId": "fr-qm-cp-long-01",
+      "prerequisiteId": "fr-qm-c2-tps-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le temps des parents, c’est avant sa naissance : il faut maîtriser l’antériorité."
+    },
+    {
+      "topicId": "fr-qm-ce1-long-01",
+      "prerequisiteId": "fr-qm-cp-long-01",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Les repères de progressivité vont du mode de vie des parents et grands-parents (CP) à trois ou quatre générations (CE1)."
+    },
+    {
+      "topicId": "fr-qm-ce2-long-01",
+      "prerequisiteId": "fr-qm-ce1-long-01",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Le programme passe de l’échelle de quelques générations au temps long, abordé en fin de cycle."
+    },
+    {
+      "topicId": "fr-qm-ce2-long-01",
+      "prerequisiteId": "fr-qm-c2-mdv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Décrire l’évolution des modes de vie s’appuie sur des critères de comparaison (alimentation, habitat…)."
+    },
+    {
+      "topicId": "fr-qm-ce2-long-02",
+      "prerequisiteId": "fr-qm-c2-long-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Situer des périodes historiques sur une frise suppose d’avoir compris l’irréversibilité du temps et l’usage des frises."
+    },
+    {
+      "topicId": "fr-qm-ce2-long-02",
+      "prerequisiteId": "fr-qm-c2-tps-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les périodes historiques se mesurent en siècles et en millénaires."
+    },
+    {
+      "topicId": "fr-qm-ce2-long-03",
+      "prerequisiteId": "fr-qm-ce2-long-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Un personnage ou une date se situe dans une période historique."
+    },
+    {
+      "topicId": "fr-qm-ce2-mdv-01",
+      "prerequisiteId": "fr-qm-c2-mdv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Comparer la vie de personnages d’autrefois demande des critères de comparaison."
+    },
+    {
+      "topicId": "fr-qm-ce2-mdv-01",
+      "prerequisiteId": "fr-qm-ce2-long-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les personnages étudiés appartiennent à des périodes historiques qu’il faut savoir situer."
+    },
+    {
+      "topicId": "fr-qm-ce2-mdv-02",
+      "prerequisiteId": "fr-qm-c2-mdv-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Les repères du CE2 précisent que les élèves découvrent comment d’autres sociétés vivent « à partir de critères de comparaison »."
+    },
+    {
+      "topicId": "fr-qm-ce2-mdv-02",
+      "prerequisiteId": "fr-qm-ce2-pay-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les espaces emblématiques étudiés sont aussi des paysages caractéristiques de la planète."
+    },
+    {
+      "topicId": "fr-qm-ce2-mdv-03",
+      "prerequisiteId": "fr-qm-ce2-mdv-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les relations d’une société à son milieu s’observent à partir des modes de vie étudiés."
+    },
+    {
+      "topicId": "fr-qm-c2-org-01",
+      "prerequisiteId": "fr-qm-c2-esp-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Représenter le quartier avec une légende prolonge la production de représentations d’espaces familiers."
+    },
+    {
+      "topicId": "fr-qm-ce2-org-01",
+      "prerequisiteId": "fr-qm-c2-org-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Étudier les fonctions d’un milieu urbain suppose d’en avoir découvert les principaux espaces."
+    },
+    {
+      "topicId": "fr-qm-c2-org-02",
+      "prerequisiteId": "fr-qm-c2-esp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Lire l’organisation d’un espace sur une carte demande de savoir lire une carte."
+    },
+    {
+      "topicId": "fr-qm-c2-org-02",
+      "prerequisiteId": "fr-qm-c2-org-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "On analyse plus facilement sur photo aérienne un espace déjà découvert sur le terrain."
+    },
+    {
+      "topicId": "fr-qm-c2-org-03",
+      "prerequisiteId": "fr-qm-c2-esp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Une carte thématique se lit grâce à son titre et à sa légende."
+    },
+    {
+      "topicId": "fr-qm-c2-org-04",
+      "prerequisiteId": "fr-qm-c2-org-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le rôle des acteurs s’étudie dans le quartier ou le village découvert."
+    },
+    {
+      "topicId": "fr-qm-c2-pay-02",
+      "prerequisiteId": "fr-qm-c2-pay-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Décrire les paysages français suppose de reconnaître les types de paysages."
+    },
+    {
+      "topicId": "fr-qm-ce2-pay-01",
+      "prerequisiteId": "fr-qm-c2-pay-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les paysages de la planète se décrivent avec les mêmes catégories (littoraux, montagnes, déserts…)."
+    },
+    {
+      "topicId": "fr-qm-ce2-pay-01",
+      "prerequisiteId": "fr-qm-c2-glob-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Un paysage lointain se situe sur un globe ou un planisphère."
+    },
+    {
+      "topicId": "fr-qm-c2-pay-03",
+      "prerequisiteId": "fr-qm-c2-pay-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer un paysage à deux époques suppose de savoir le décrire."
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

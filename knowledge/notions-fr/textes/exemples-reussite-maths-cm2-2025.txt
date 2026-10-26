@@ -1,0 +1,1262 @@
+=== PAGE 1 ===
+Exemples pour la mise en œuvre
+des programmes
+                             CM2
+     Mathématiques
+Exemples de réussite
+                           2025
+
+=== PAGE 2 ===
+ Exemples pour la mise en œuvre du programme de mathématiques
+                            en CM2
+                                             Exemples de réussite
+      Sommaire
+Nombres, calcul et résolution de problèmes                                                     1
+  •    Les nombres entiers                                                                     1
+  •    Les fractions                                                                           3
+  •    Les nombres décimaux                                                                    5
+  •    Le calcul mental                                                                        6
+  •    Les quatre opérations                                                                   9
+  •    La résolution de problèmes                                                             10
+  •    Algèbre                                                                                13
+Grandeurs et mesures                                                                         15
+  •    Les aires                                                                              15
+  •    Les angles                                                                             16
+  •    Le repérage dans le temps et les durées                                                17
+Espace et géométrie                                                                          18
+  •    La géométrie plane                                                                     18
+  •    Les solides                                                                            20
+  •    Déplacements dans l’espace                                                             20
+Organisation et gestion de données et probabilités                                           21
+  •    Organisation et gestion de données                                                     21
+  •    Les probabilités                                                                       22
+La proportionnalité                                                                          24
+Initiation à la pensée informatique                                                          25
+Nombres, calcul et résolution de problèmes
+Les nombres entiers
+Objectifs d’apprentissage                    Exemples de réussite
+• Connaitre et utiliser les relations entre L’élève comprend et utilise différentes désignations possibles pour
+ les unités de numération.                   un même nombre, notamment :
+• Connaitre la suite écrite et la suite          ►   Exemples pour la mise en œuvre du programme de
+ orale des nombres jusqu’à                           mathématiques en CM1 l’écriture en chiffres (3 425 000) ;
+ 999 999 999.                                    ►   des décompositions en unités de numération (3 millions et
+• Connaitre et utiliser diverses                     4 centaines de milliers et 2 dizaines de milliers et 5 milliers ou
+ représentations d’un nombre et                      3 millions et 425 milliers, mais aussi d’autres décompositions
+ passer de l’une à l’autre.                          comme 32 centaines de milliers et 21 dizaines de milliers et
+                                                     15 milliers) ;
+                                                               1
+
+=== PAGE 3 ===
+• Connaitre la valeur des chiffres en      ► le nom à l’oral (« trois-millions-quatre-cent-vingt-cinq-mille ») ;
+ fonction de leur position dans un         ► la décomposition du type :
+ nombre.                                     (3 × 1 000 000) + (4 × 100 000) + (2 × 10 000) + (5 × 1 000) ;
+                                           ► la décomposition additive sous la forme
+                                             3 000 000 + 400 000 + 20 000 + 5 000 ;
+                                           ►   l’écriture en lettres (trois-millions-quatre-cent-vingt-cinq-mille).
+                                          L’élève sait écrire en chiffres un nombre dicté. Il sait également lire
+                                          un nombre écrit en chiffres et l’écrire en lettres.
+                                           ► Quand il écrit un nombre avec plus de quatre chiffres, l’élève
+                                             laisse un espace entre chaque groupe de trois chiffres en
+                                             partant de la droite.
+                                          L’élève sait résoudre un problème comme le suivant :
+                                           ► « Une entreprise a produit 12 342 320 pailles en une semaine. Les
+                                             pailles sont conditionnées et vendues dans des cartons de cent
+                                             boites contenant chacune cent pailles. Combien l’entreprise
+                                             va-t-elle pouvoir livrer de cartons à l’issue de cette semaine de
+                                             production ? »
+• Comparer, encadrer, intercaler des      L’élève sait ordonner cinq nombres entiers dans l’ordre croissant
+ nombres entiers en utilisant les         ou décroissant.
+ symboles =, < et >.                      L’élève sait placer un nombre ou déterminer le nombre
+• Ordonner des nombres dans l’ordre       correspondant à un point sur une portion de demi-droite pouvant
+ croissant ou décroissant.                être graduée de un en un, de dix en dix, de cent en cent, etc.
+• Placer des nombres et repérer des
+ points sur une demi-droite graduée.
+• Déterminer si un nombre entier          L’élève sait, par exemple, trouver au moins six diviseurs de 72.
+ inférieur ou égal à 10 est un diviseur L’élève sait utiliser ses connaissances sur les multiples et les
+ d’un nombre entier donné ou si un      diviseurs pour résoudre des problèmes comme les suivants :
+ nombre entier donné est un multiple     ► Les côtés d’un rectangle ont pour longueurs des nombres
+ d’un nombre entier inférieur ou égal      entiers de centimètres. Son aire est de 100 cm². Trouve plusieurs
+ à 10.                                     dimensions possibles pour ce rectangle.
+• Déterminer des diviseurs d’un nombre   ► Adidja a 10 baguettes de bois mesurant chacune 8 cm. Béatrice
+  entier inférieur ou égal à 100.          a 10 baguettes de bois mesurant chacune 12 cm. Adidja et
+                                           Béatrice ont construit chacune un chemin en mettant bout à
+• Déterminer tous les diviseurs d’un
+                                           bout certaines de leurs baguettes. Elles ont obtenu deux
+  nombre entier inférieur ou égal à 30.
+                                           chemins de la même longueur. Trouve une longueur possible
+• Déterminer les diviseurs communs à       pour les chemins construits par Adidja et Béatrice. Trouve
+  deux nombres entiers inférieurs ou
+                                           toutes les longueurs possibles.
+  égaux à 30.
+                                         ► Lou et Léo ont devant eux une boite contenant 100 jetons. Ils
+• Déterminer des multiples communs à       prennent chacun le même nombre de jetons dans cette boite.
+  deux nombres entiers inférieurs à 15.    Lou décide d’organiser ses jetons en paquets de 6 et Léo fait de
+                                           même avec des paquets de 8. Pour les deux enfants, cela tombe
+                                           juste et il ne leur reste aucun jeton. Combien chacun des
+                                           enfants a-t-il pris de jetons dans la boite ? Trouve toutes les
+                                           solutions possibles.
+                                          L’élève sait organiser sa recherche de façon à pouvoir affirmer qu’il
+                                          n’y a pas d’autres diviseurs que ceux qu’il a trouvés pour un
+                                          nombre inférieur ou égal à 30. L’élève peut ainsi trouver et affirmer
+                                          que les seuls diviseurs de 28 sont 1, 2, 4, 7, 14 et 28.
+                                          L’élève sait résoudre un problème comme le suivant : « Les côtés
+                                          d’un rectangle ont pour longueurs des nombres entiers de
+                                          centimètres. Son aire est de 24 cm². Trouve toutes les dimensions
+                                          possibles pour ce rectangle. »
+                                                         2
+
+=== PAGE 4 ===
+Les fractions
+Objectifs d’apprentissage                    Exemples de réussite
+                                                                                              7           1       1           1       1           1        1       1             1
+• Interpréter, représenter, écrire et lire   L’élève comprend que
+                                                                                              4
+                                                                                                      =
+                                                                                                          4
+                                                                                                              +
+                                                                                                                  4
+                                                                                                                          +
+                                                                                                                              4
+                                                                                                                                  +
+                                                                                                                                      4
+                                                                                                                                          +
+                                                                                                                                                  4
+                                                                                                                                                       +
+                                                                                                                                                           4
+                                                                                                                                                               +
+                                                                                                                                                                   4
+                                                                                                                                                                       = 7 × . La
+                                                                                                                                                                                 4
+ des fractions.                      verbalisation contribue à donner du sens au produit. Des
+• Écrire une fraction supérieure à 1 représentations par des grandeurs (longueur ou aire), en utilisant du
+ comme la somme d’un entier et d’une matériel tangible ou une représentation sur papier, peuvent
+ fraction inférieure à 1.            également contribuer à renforcer la compréhension du produit.
+                                                                                                                                                                                       5
+• Écrire la somme d’un entier et d’une       L’élève sait représenter une fraction inférieure à 1, comme
+                                                                                                                                                                                       8
+                                                                                                                                                                                           , par
+ fraction inférieure à 1 comme une           une figure géométrique où la partie correspondant à la fraction du
+ unique fraction.                            tout est identifiée.
+• Encadrer une fraction entre deux           Une unité de longueur étant donnée, l’élève sait construire une
+                                                                              3
+ nombres entiers consécutifs.                bande de papier de longueur 5 u + u.
+                                                                                                                                  4
+                                                                                                                                          58
+                                             L’élève sait écrire une fraction comme                                                            comme la somme d’un
+                                                                                                                                          7
+                                             entier et d’une fraction inférieure à 1 en s’appuyant sur sa
+                                                                          7
+                                             connaissance de la relation = 1 et de la table de la multiplication
+                                                                                                              7
+                                                               58       56          2         2
+                                             par 7 :                =           +       =8+       .
+                                                               7        7           7         7
+                                                                                                                      43
+                                             L’élève sait encadrer la fraction                                                entre deux entiers consécutifs en
+                                                                                                                          8
+                                                                                                                                                           8
+                                             s’appuyant sur sa connaissance de la relation = 1 et de la table de
+                                                                                                                                                           8
+                                                                                              43                  8           3               3                        43
+                                             la multiplication par 8 :                                =5× + =5+                                       donc 5 <                 < 6.
+                                                                                                  8               8           8               8                            8
+• Placer une fraction ou la somme d’un       L’élève sait placer une fraction sur une demi-droite graduée lorsque
+ nombre entier et d’une fraction             les graduations de la demi-droite permettent de placer ce nombre
+ inférieure à un sur une demi-droite         avec précision.
+                                                                                                                  5
+ graduée.                                     ►       Placer le point A d’abscisse sur la demi-droite graduée
+                                                                                                                  3
+• Repérer un point d’une demi-droite                  ci-dessous.
+ graduée par une fraction ou par la
+ somme d’un nombre entier et d’une
+                                                                                         7
+ fraction.                                    ►       Écrire la fraction à l’endroit qui convient sur la demi-droite
+                                                                                         3
+                                                      graduée ci-dessous.
+                                             L’élève sait déterminer l’abscisse d’un point placé sur une demi-
+                                             droite graduée.
+                                              ►       Parmi les nombres inscrits dans le tableau ci-dessous, entourer
+                                                      celui ou ceux qui sont égaux à l’abscisse du point B.
+                                                                            20                    2               10                               2                   2
+                                                       5                                 3+                                               3+                   4-                     3,2
+                                                                            3                 10                      3                            6                   3
+                                                                                                                      8                        16
+• Comparer des fractions.                    L’élève sait expliquer pourquoi est égal
+                                                                                                                      3                        6
+                                                                                                                                                      , en s’appuyant sur des
+                                             représentations des deux fractions par des grandeurs (longueur ou
+                                             aire), en utilisant du matériel tangible ou une représentation sur
+                                             papier.
+                                                                                                                                                                                                   6
+                                             L’élève sait répondre à la question suivante : « Parmi les fractions ,
+                                                                                                                                                                                                   5
+                                             11       15       50       2                                                                                      5
+                                                  ,        ,        et , quelles sont les fractions égales à ? ».
+                                             12       18       60       3                                                                                      6
+                                             L’élève sait déterminer le dénominateur manquant dans une
+                                                             21  7
+                                             égalité comme = et il sait justifier sa réponse.
+                                                                                    ?    3
+                                                                            3
+
+=== PAGE 5 ===
+                                       L’élève sait comparer deux fractions ayant le même numérateur et
+                                                                        17   17
+                                       justifier sa réponse : « Comparer et ».
+                                                                                                           12       8
+                                       L’élève sait comparer deux fractions de même dénominateur ou de
+                                       dénominateurs différents
+                                       (uniquement pour des cas simples et avec des dénominateurs
+                                                                                                    7
+                                       ayant un multiple commun inférieur ou égal à 60) : « Comparer et
+                                                                                                                                              4
+                                       17                                         13        20
+                                            » ou « Comparer                            et           ». Il justifie sa réponse en utilisant des
+                                       10                                         2             3
+                                       égalités de fractions avec des fractions ayant le même
+                                       dénominateur, multiple commun des deux dénominateurs, par
+                                                    7  35   17 34        35  34      7   17
+                                       exemple : « = et + , on a            > donc > . »
+                                                                     4       20    10       20            20       20   4       10
+• Additionner et soustraire des        L’élève sait additionner et soustraire des fractions ayant le même
+ fractions.                            dénominateur.
+                                       L’élève sait additionner et soustraire des fractions ayant des
+                                       dénominateurs différents, avec l’un des dénominateurs multiple de
+                                                                                                      3 7
+                                       l’autre (résultats des tables de multiplication), par exemple : + ;
+                                                                                                                                          2   8
+                                       5       1           11    1
+                                           -           ;        - . Les changements de dénominateurs sont
+                                       6       12          40    8
+                                       systématiquement accompagnés de verbalisation justifiant les
+                                       égalités de fractions et si nécessaire, de manipulations ou de
+                                       représentations correspondant aux fractions en jeu.
+                                       L’élève sait résoudre des problèmes additifs dans lesquels les
+                                       données numériques sont des fractions simples. Par exemple :
+                                                                                     1
+                                       « Johanna a tracé un triangle de périmètre 7 + unités. L’un des
+                                                                                                                            4
+                                                                                                    1
+                                       côtés a pour longueur (2 + ) unités et un autre a pour longueur
+                                                                                                    8
+                                                   1
+                                       (1 + ) unités. Quelle est la longueur du troisième côté ? »
+                                                   2
+• Calculer le produit d’un entier et   L’élève comprend que le produit d’un entier et d’une fraction
+ d’une fraction.                       correspond à une addition itérée de la fraction. La verbalisation
+                                       permet de donner du sens au produit : « Trois fois cinq quarts, c’est
+                                       cinq quarts plus cinq quarts plus cinq quarts, cela fait quinze
+                                                      5 5  5  5   15
+                                       quarts. » : 3 × = + + = .
+                                                                         4    4    4        4       4
+• Déterminer une fraction d’une        L’élève sait déterminer la fraction d’une quantité ou d’une
+ quantité ou d’une grandeur.           grandeur.
+                                                                         2
+                                       Par exemple de douze œufs. L’élève sait justifier sa réponse
+                                                                         3
+                                       oralement, en produisant une phrase comme : « Pour trouver un
+                                       tiers de douze œufs, je partage en trois parts égales, comme douze
+                                       c’est trois fois quatre, cela fait quatre œufs. Deux tiers de douze
+                                       œufs, c’est donc deux fois quatre œufs, cela fait huit œufs. »,
+                                               3
+                                           ►           de 500 g de farine ;
+                                               10
+                                               2
+                                           ►        de 60 kg de sable.
+                                               5
+                                       Si cela lui est utile, l’élève sait prendre appui sur un schéma pour
+                                       guider ses calculs.
+                                                                                                               1
+                                       Chaque rectangle gris représente de 60 kg.
+                                                                                                            5
+                                                                                                                                              2
+                                       « 60 = 5 × 12, donc chaque rectangle représente 12 kg de sable. de
+                                                                                                                                              5
+                                       60 kg de sable c’est donc 2 fois 12 kg de sable, c’est-dire 24 kg de
+                                       sable. »
+                                                                         4
+
+=== PAGE 6 ===
+Les nombres décimaux
+Objectifs d’apprentissage                    Exemples de réussite
+                                                                            10       100       1 000       1        10        100          1         10
+• Interpréter, représenter, écrire et lire   L’élève sait que 1 =
+                                                                            10
+                                                                                 =
+                                                                                     100
+                                                                                           =
+                                                                                               1 000
+                                                                                                       ;
+                                                                                                           10
+                                                                                                                =
+                                                                                                                    100
+                                                                                                                          =
+                                                                                                                              1 000
+                                                                                                                                      ;
+                                                                                                                                          100
+                                                                                                                                                =
+                                                                                                                                                    1 000
+                                                                                                                                                            .
+ des fractions décimales.                    L’élève sait passer d’une écriture à une autre pour les trois écritures
+• Connaitre et utiliser les relations entre suivantes du même nombre : 4 107 ; 1 + 107 ; 4 + 1 +   7
+                                                                                                       .
+                                                                                                 1 000               1 000            10        1 000
+  unités simples, dixièmes, centièmes et                                               143
+                                         L’élève sait représenter une fraction comme       en utilisant du
+  millièmes.                                                                           100
+                                         matériel tangible ou des représentations introduites au CM1.
+• Placer une fraction décimale sur une
+  demi-droite graduée et repérer un      L’élève sait placer une fraction décimale sur une demi-droite
+  point d’une demi-droite graduée par graduée et repérer un point d’une demi-droite graduée par une
+  une fraction décimale.                 fraction décimale.
+• Écrire une fraction décimale
+ supérieure à 1 comme la somme d’un
+ nombre entier et d’une fraction
+ décimale inférieure à 1.
+• Écrire une fraction décimale
+ supérieure à 1 comme la somme d’un
+ nombre entier et de fractions
+ décimales ayant un numérateur
+ inférieur à 10.
+                                                                                                                                                 7 103
+• Comparer, encadrer, intercaler des         L’élève sait encadrer une fraction décimale comme
+                                                                                                                                                 1 000
+                                                                                                                                                          par deux
+ fractions décimales en utilisant les        nombres entiers consécutifs.
+ symboles =, < et >.                                                                                                                                            67
+                                             L’élève sait comparer deux fractions décimales, par exemple                                                              et
+                                                                                                                                                                100
+• Ordonner des fractions décimales           607
+                                                     .
+ dans l’ordre croissant ou décroissant.      1 000
+                                             L’élève sait ranger par ordre croissant les quatre nombres suivants :
+                                                140 1 200 9
+                                             2;    ;     ; .
+                                                100      1 000   10
+                                             L’élève sait intercaler une fraction décimale entre deux fractions
+                                             décimales données. Par exemple, il sait compléter une expression
+                                                      43       44
+                                             comme       <…<
+                                                          100         100
+• Passer d’une écriture sous forme           L’élève sait que, dans l’écriture à virgule d’un nombre, la virgule sert
+ d’une fraction décimale ou de la            à repérer le chiffre des unités. Il sait que le chiffre qui suit la virgule
+ somme de fractions décimales à une          est le chiffre des dixièmes, que le suivant est le chiffre des
+ écriture à virgule et réciproquement.       centièmes et que le troisième chiffre après la virgule est le chiffre
+• Interpréter, représenter, écrire et lire   des millièmes.
+ des nombres décimaux (écriture à            L’élève sait passer d’une écriture à une autre pour les quatre
+                                                                                             4 107     107
+ virgule).                                   écritures suivantes du même nombre : 4,107 ;          ;4+     ;
+                                                                                                                                    1 000               1 000
+                                                     1     7
+• Placer un nombre décimal en écriture 4 + 10 + 1 000 . Il sait que 4,107 peut se lire « quatre et cent-sept
+ à virgule sur une demi-droite graduée       millièmes », ou « quatre unités et cent-sept millièmes » ou encore «
+ et repérer un point d’une demi-droite       quatre unités, un dixième et sept millièmes ».
+ graduée par un nombre en écriture à         À l’écrit et à l’oral, l’élève sait produire des suites de nombres de 0,1
+ virgule.                                    en 0,1, de 0,01 en 0,01 et de 0,001 en 0,001 à partir d’un nombre
+• Savoir donner la partie entière et         donné.
+ l’arrondi à l’entier d’un nombre            L’élève sait placer 2,812 sur une demi-droite graduée en millième.
+ décimal.
+                                                                 5
+
+=== PAGE 7 ===
+                                   L’élève sait qu’il faut écrire 33,916 dans le rectangle sur les zooms de la
+                                   demi-droite graduée ci-dessous.
+                                   L’élève sait donner la partie entière de 105,78.
+                                   L’élève sait que l’arrondi à l’entier de 5,78 est 6 et que l’arrondi à l’entier de
+                                   3,5 est 4.
+• Comparer, encadrer,              L’élève sait repérer par un nombre décimal un point d’une demi-droite
+ intercaler, ordonner par          graduée en dixième, en centième ou en millième.
+ ordre croissant ou                L’élève sait comparer deux nombres décimaux, par exemple 4,592 et 4,71.
+ décroissant des nombres           L’élève sait encadrer 17,995 par deux nombres entiers consécutifs : 17 <
+ décimaux donnés par leur          17,995 < 18.
+ écriture à virgule en utilisant   L’élève sait encadrer 17,995 au dixième : 17,9 < 17,995 < 18.
+ les symboles =, < et >.
+                                   L’élève sait encadrer 17,995 au centième : 17,99 < 17,995 < 18.
+                                   L’élève sait compléter l’inégalité suivante par un nombre qui convient : 1,99
+                                   < … < 2.
+                                   L’élève sait ranger par ordre croissant ou décroissant jusqu’à cinq nombres
+                                                                      12 324
+                                   décimaux, par exemple : 12,082 ;          ; 14 ; 12,09 ; 12,6.
+                                                                        1 000
+Le calcul mental
+Mémoriser des faits numériques
+Objectifs d’apprentissage          Exemples de réussite
+• Connaitre des faits              L’élève renforce sa maitrise des faits numériques avec des entiers appris au
+ numériques usuels avec des        cycle 2.
+ entiers.                          L’élève connait les tables d’addition et de multiplication. Il sait compléter
+                                   des « égalités à trou » du type : 4 + … = 12 ; 5 + 3 = … ; 10 = 7 + … ; 7 × … = 42 ;
+                                   9 × 6 = … ; 70 = 7 × …
+                                   L’élève sait donner oralement et par écrit :
+                                    ►   les doubles des nombres de 1 à 20 ;
+                                    ►   les doubles des nombres 20, 25, 30, 35, 40, 45, 50, 60 et 75 ;
+                                    ►   les doubles des nombres 100, 150, 200, 250, 300, 400, 500 et 600 ;
+                                    ►   les moitiés des nombres pairs de 2 à 40 ;
+                                    ►   les moitiés des dizaines entières 40, 50, 60, 70, 80, 90, 100, 120 et 150 ;
+                                    ►   les moitiés des centaines entières 200, 300, 400, 500, 600, 800, 1 000 et
+                                        1 200.
+                                   L’élève connait les multiples de 25 suivants : 1 × 25 = 25, 2 × 25 = 50,
+                                   3 × 25 = 75 et 4 × 25 = 100.
+                                   L’élève connait les décompositions multiplicatives de 60 : 1 × 60, 2 × 30,
+                                   3 × 20, 4 × 15, 5 × 12 et 6 × 10.
+                                                           6
+
+=== PAGE 8 ===
+                                 L’élève peut ainsi compléter des « égalités à trou » du type : 2 × … = 12 ;
+                                 2 × 16 = … ; 2 × … = 70 ; 2 × 25 = … ; 1000 = 2 × … ; 2 × 150 = … ; 3 × 25 = … ;
+                                 60 = 4 × … .
+• Connaitre la moitié des        L’élève sait que la moitié de 1 est 0,5.
+ nombres impairs jusqu’à 15.     L’élève sait, par exemple, que la moitié de 9 est 4,5 et sait ainsi compléter
+                                 l’égalité 2 × … = 9.
+                                                                                                                   1       1           3
+• Connaitre quelques relations L’élève connait des relations entre 4 , 2 , 4 et 1. Il peut ainsi compléter sans
+ entre des fractions usuelles.   effectuer de calculs des « égalités à trou » du type : + = … ; + = … ;
+                                                                                                                                                                     1       1                   1   1
+                                                                                                                                                                     2       2                4      4
+                                       1           1     1                      1           3        1                 1           1                   3    1                1       …       …
+                                 1 – = … ; + = … ; 1 – = … ; + = … ; – = … ; – = … ; = ; = 1.
+                                       4           2     4                  2               4     4                 2              4                   4    4                2       4       4
+                                                                                                                   1                   1           1
+                                 L’élève connait les relations entre                                                           ,               ,       et 1. Il peut ainsi compléter
+                                                                                                               1 000 100                           10
+                                                                                                          1        …                                 …                   …
+                                 des « égalités à trou » du type :                                             =                       ;1=                 ;1=                   .
+                                                                                                         100           1 000                        10           1 000
+                                                                    1       1           3
+                                 L’élève sait écrire , et sous forme de fractions décimales. Il peut ainsi
+                                                                   4        2           4
+                                                                                                                                                                                                         1   …
+                                 compléter sans effectuer de calculs des « égalités à trou » du type : =                                                                                                          ;
+                                                                                                                                                                                                         2   10
+                                  …        1   1         …     1        …           …       3    1             …
+                                       = ; =                  ; =               ;         = ; =                        .
+                                 100       2   2       1000    4    100             100     4    4        1000
+• Connaitre l’écriture décimale L’élève sait passer d’une écriture fractionnaire à une écriture décimale et
+ de fractions usuelles.          d’une écriture décimale à une écriture fractionnaire pour les nombres
+                                           1        1          1           1        1       3       3
+                                 suivants : = 0,1 ;   = 0,01 ;   = 0,001 ; = 0,25 ; = 0,5 ; = 0,75 ; = 1,5 ;
+                                                    10              100                         1 000                                      4                     2                       4               2
+                                  4            5
+                                      =2;          = 2,5.
+                                  2            2
+Utiliser ses connaissances en numération pour calculer mentalement
+Objectifs d’apprentissage        Exemples de réussite
+• Ajouter ou soustraire un       À partir d’opérations données à l’écrit, l’élève sait identifier le chiffre sur
+ nombre entier à un nombre lequel agir lorsqu’il doit effectuer une addition ou une soustraction, quelle
+ décimal, lorsqu’il n’y a pas de que soit la façon dont les nombres sont désignés. Il sait, par exemple,
+ retenue.                        trouver le résultat des opérations suivantes :
+                                   ►   4,452 + 0,03 ;
+                                                         3
+                                   ►   0,457 –                 ;
+                                                       1 000
+                                   ►   21 462 + 3 000.
+• Ajouter un nombre entier à     À partir d’opérations données à l’écrit, l’élève sait identifier le chiffre sur
+ un nombre décimal, lorsqu’il    lequel agir lorsqu’il doit effectuer une addition, quelle que soit la façon dont
+ y a une retenue.                les nombres sont désignés. Il sait, par exemple, trouver le résultat des
+                                 opérations suivantes :
+                                   ►   4,45 + 0,8 ;
+                                                         7
+                                   ►   0,457 +                 ;
+                                                       1 000
+                                   ►   47 530 + 6 000.
+• Multiplier un nombre décimal L’élève sait que, lors de la multiplication d’un nombre décimal par 10, un
+ par 10, 100 ou 1 000.           dixième devient une unité, un centième devient un dixième et un millième
+                                 devient un centième. Ainsi, chaque chiffre du nombre initial prend une
+                                 valeur 10 fois plus grande : le chiffre des millièmes devient le chiffre des
+                                 centièmes, le chiffre des centièmes devient le chiffre des dixièmes et le
+                                 chiffre des dixièmes devient le chiffre des unités.
+                                 Un outil de type « glisse-nombres » peut être utilisé pour accompagner les
+                                 multiplications par 10, 100 ou 1 000 d’un nombre décimal en complément
+                                 de la verbalisation de la procédure en termes d’unités de numération.
+                                                                                7
+
+=== PAGE 9 ===
+                                     Exemple : multiplication de 72,4 par 100 :
+                                     100 × 72,4 = 7 240
+• Diviser un nombre décimal          L’élève sait que, lors d’une division par 1 000, une unité devient un millième,
+ par 10, 100 ou 1 000.               une dizaine devient un centième, une centaine devient un dixième et un
+                                     millier devient une unité. Ainsi, chaque chiffre du nombre initial prend une
+                                     valeur 1 000 fois plus petite.
+                                     Un outil du type « glisse-nombres » peut être utilisé pour accompagner les
+                                     divisions par 10, 100 ou 1 000 en complément de la verbalisation de la
+                                     procédure en termes d’unités de numération.
+Apprendre des procédures de calcul mental
+Objectifs d’apprentissage            Exemples de réussite
+• Ajouter deux nombres               L’élève sait calculer mentalement des sommes comme les suivantes :
+ décimaux inférieurs à dix           2,3 + 4 ; 4,5 + 1,2 ; 3,5 + 2,5 ; 1,8 + 0,2 ; 2,7 + 3,7 ; 8,6 + 7,8. Par exemple, pour
+ s’écrivant avec au plus un          calculer 8,6 + 7,8, l’élève sait qu’il peut procéder de la façon suivante :
+ chiffre après la virgule.           8,6 + 7,8 = (8 + 7) + (0,6 + 0,8) = 15 + 1,4 = 16,4. Il sait verbaliser la somme
+                                     0,6 + 0,8 sous la forme « Six dixièmes plus huit dixièmes font quatorze
+                                     dixièmes, c’est-à-dire une unité et quatre dixièmes. ».
+• Ajouter ou soustraire 8, 9, 18, L’élève sait, par exemple, que pour ajouter 98 à un nombre, il peut lui
+ 19, 28, 29, …, 98 ou 99, à un       ajouter 100 puis retrancher 2.
+ nombre.
+• Multiplier un nombre entier,       L’élève sait que pour effectuer une multiplication comme 900 × 700, il peut
+ inférieur à 10, de dizaines, de     décomposer chacun des facteurs sous la forme d’un produit, puis changer
+ centaines ou de milliers par        l’ordre des facteurs pour faire apparaitre un produit mémorisé dans les
+ un nombre entier, inférieur à       tables de multiplication.
+ 10, de dizaines, de centaines       900 × 700 = (9 × 100) × (7 × 100) = (9 × 7) × (100 × 100) = 63 × 10 000 =
+ ou de milliers.                     630 000.
+• Utiliser la distributivité de la   L’élève sait verbaliser « 12 fois 42, c’est 10 fois 42 plus 2 fois 42. ».
+ multiplication par rapport à        12 × 42 = (10 + 2) × 42 = (10 × 42) + (2 × 42) = 420 + 84 = 504
+ l’addition dans des cas             L’élève utilise aussi la décomposition dans l’autre sens :
+ simples.                            « 42 fois 12, c’est 42 fois 10 plus 42 fois 2. ».
+• Calculer le double d’un    L’élève sait que le double de 13,6 est le double de 136 dixièmes c’est donc
+ nombre décimal dans des cas 272 dixièmes, donc 27,2.
+ simples.                            L’élève sait aussi s’appuyer sur les fractions décimales et la multiplication
+                                     par 2 sur les entiers :
+                                                      136       272                             435       870
+                                     2 × 13,6 = 2 ×         =         = 27,2 ; 2 × 4,35 = 2 ×         =         = 8,7.
+                                                      10        10                              100       100
+                                                                      8
+
+=== PAGE 10 ===
+• Calculer la moitié d’un    L’élève sait que la moitié d’un nombre décimal est égale à la somme de la
+ nombre décimal dans des cas moitié de sa partie entière et de la moitié de sa partie décimale :
+ simples.                        13,6  2 = (13  2) + (0,6  2) = 6,5 + 0,3 = 6,8 ;
+                                 1,22  2 = (1  2) + (0,22  2) = 0,5 + 0,11 = 0,61.
+                                 L’élève sait aussi s’appuyer sur les fractions décimales et la division par 2 sur
+                                 les entiers :
+                                              136          68
+                                 13,6  2 =         2=         = 6,8 ;
+                                               10          10
+                                              122          61
+                                 1,22  2 =         2=         = 0,61.
+                                              100         100
+• Diviser un nombre entier par L’élève sait que diviser par 4 revient à diviser par 2 et encore par 2.
+ 4 ou par 8.                     140  4 ?
+                                 140  2 = 70 et 70  2 = 35. Donc 140  4 = 35.
+                                 L’élève sait que diviser par 8 = 2 × 2 × 2 revient à diviser par 2, puis encore
+                                 par 2 et une troisième fois par 2.
+                                 260  8 ?
+                                 260  2 = 130 ; 130  2 = 65 et 65  2 = 32,5. Donc 260  8 = 32,5.
+                                 Lors d’une séance de calcul mental, si l’élève doit calculer 260  8, il peut
+                                 écrire : « 130 », puis « 65 », puis « 32,5 », qu’il entoure pour indiquer qu’il
+                                 s’agit du résultat cherché. Les écrits intermédiaires « 130 » et « 65 » lui
+                                 permettent de soulager sa mémoire de travail.
+• Multiplier un nombre décimal L’élève sait que multiplier par 5 revient à multiplier par 10 puis à calculer la
+ par 5.                          moitié du résultat obtenu. Il utilise cette procédure pour multiplier par 5 un
+                                 nombre décimal s’écrivant avec au plus trois chiffres.
+                                 Par exemple, pour calculer 5 × 1,46 :
+                                 10 × 1,46 = 14,6 et 14,6  2 = 7,3. Donc 5 × 1,46 = 7,3.
+• Multiplier un nombre décimal L’élève sait que multiplier par 50 revient à multiplier par 100 puis à diviser
+ par 50.                         par 2. Il utilise cette procédure pour multiplier par 50 un nombre inférieur à
+                                 20 s’écrivant avec au plus trois chiffres et pour lequel le dernier chiffre est
+                                 pair.
+                                 50 × 12,4 ?
+                                 100 × 12,4 = 1 240 et 1 240  2 = 620. Donc 50 × 12,4 = 620.
+Les quatre opérations
+Objectifs d’apprentissage        Exemples de réussite
+• Estimer le résultat d’une      L’élève sait estimer le résultat d’une opération dans des cas simples. Par
+ opération.                      exemple, il sait dire que :
+                                  ►   1 212 L – 496 L est proche de 700 L, car 1 200 L – 500 L = 700 L ;
+                                  ►   724 × 68 est proche de 50 000, car
+                                      700 × 70 = 7 × 100 × 7 × 10 = (7 × 7) × (100 × 10) = 49 × 1000 ;
+                                  ►   59 437 kg ÷ 6 est proche de 10 000 kg, car 6 × 10 000 kg = 60 000 kg.
+                                 L’élève connait et utilise le symbole ≈. Il écrit 764 × 68 ≈ 50 000.
+                                 L’élève sait dire, parmi les nombres suivants, lequel est la meilleure
+                                 estimation du résultat de 32 × 3 182,5 :
+                                   1 000            10 000          100 000    1 000 000
+• Savoir réaliser un calcul      L’élève comprend que les parenthèses renseignent sur les calculs à effectuer
+ contenant une ou deux           en premier. L’élève sait effectuer un calcul en respectant l’ordre des
+ paires de parenthèses.          opérations indiqué par les parenthèses, comme, par exemple :
+                                  ►   (15 – 7) × (6 + 3)
+                                  ►   37 – (3 × (14 – 6))
+                                                                9
+
+=== PAGE 11 ===
+• Poser et effectuer la         L’élève sait déterminer, en posant l’opération, des produits comme
+ multiplication d’un nombre     876 × 20,8 ou 8,76 × 208.
+ décimal par un nombre
+ entier.
+• Poser et effectuer des        L’élève sait effectuer, en la posant, la division décimale d’un nombre entier
+ divisions décimales avec un    dont l’écriture contient jusqu’à cinq chiffres par un nombre entier à un
+ dividende entier et un         chiffre, par exemple, 785 ÷ 4.
+ diviseur à un chiffre.         L’élève sait effectuer des divisions décimales d’un nombre décimal dont
+• Poser et effectuer des        l’écriture contient jusqu’à cinq chiffres par un entier à un chiffre, par
+ divisions décimales avec un    exemple, 148,2 ÷ 5.
+ dividende décimal et un        Les divisions décimales proposées au CM2 s’arrêtent au plus tard au
+ diviseur à un chiffre.         centième avec un reste nul comme, par exemple 9 855 ÷ 6 ; 7 854 ÷ 8 ;
+                                986,3 ÷ 5.
+                                L’élève comprend et utilise les mots usuels rencontrés dans le cadre des
+                                opérations.
+La résolution de problèmes
+Objectifs d’apprentissage       Exemples de réussite
+• Résoudre des problèmes        Dans la continuité de ce qui a été mené au CM1, l’élève résout des
+ additifs en une ou plusieurs   problèmes additifs (parties-tout) en une ou plusieurs étapes en s’appuyant,
+ étapes.                        si nécessaire, sur des schémas en barre ou des schémas avec un
+                                déplacement sur un axe.
+                                 ►   « Qassim a acheté un reblochon à 9 €, une tranche de Beaufort à 13,85 €
+                                     et un camembert. Il a donné un billet de 50 € au fromager qui lui a rendu
+                                     21,45 €. Quel est le prix du camembert ? ».
+                                D’autres schémas sont possibles comme par exemple :
+                                ou encore un schéma par étape :
+                                 ►   Côme est allé faire des courses ce matin. Il est d’abord passé devant la
+                                     banque où il a retiré 40 € au distributeur automatique. Il est ensuite
+                                     passé à la boucherie où il a acheté un rôti coutant 17,80 €. Quand il
+                                     rentré chez lui, il a constaté qu’il lui restait 31,40 €. Quelle somme
+                                     d’argent Côme avait-il sur lui en sortant ce matin ?
+                                                       10
+
+=== PAGE 12 ===
+                               L’axe peut être chronologique, c’est-à-dire qu’on se déplace vers la droite au
+                               fur et à mesure des actions :
+                               ou numérique, c’est-à-dire qu’on va vers la droite quand la somme d’argent
+                               que Côme a sur lui augmente, et vers la gauche quand elle diminue :
+                                                                                                     5
+                                ►   Yseult partage une pizza avec son frère et sa sœur. Elle donne        de la
+                                                                                                     12
+                                                                1
+                                    pizza à sa grande sœur et de la pizza à son petit frère. Quelle fraction
+                                                                4
+                                    de la pizza Yseult a-t-elle gardée pour elle ? »
+                               L’élève résout des problèmes de comparaison de quantités ou de grandeurs
+                               qui se traitent en deux étapes. Il peut, par exemple, s’agir de problèmes
+                               impliquant la valeur de la réunion des deux quantités ou grandeurs réunies
+                               et nécessitant donc une étape supplémentaire, comme :
+                                ►   Léo et Lucie ont 43,40 € à eux deux. Lucie a 7,80 € de plus que Léo.
+                                    Combien chaque enfant a-t-il d’euros ?
+• Résoudre des problèmes        L’élève sait résoudre des problèmes multiplicatifs similaires à ceux
+ multiplicatifs de type         rencontrés au CM1, mais dont le champ numérique est plus étendu. Les
+ « parties-tout » en une étape. problèmes mettant en jeu des divisions concernent, dans un partage
+                                équitable, la recherche de la valeur d’une part, mais aussi celle de la
+                                recherche du nombre de parts lorsque la valeur d’une part est un nombre
+                                entier inférieur ou égal à 10.
+                               L’élève sait, pour faciliter la modélisation mathématique du problème,
+                               s’appuyer sur un schéma.
+                                ►   Pour trouver la valeur d’une part dans un problème comme le suivant :
+                                    « La maitresse de CM2 a acheté six dictionnaires pour la classe. Elle a
+                                    payé 73,20 €. Quel est le prix d’un dictionnaire ? », l’élève peut, par
+                                    exemple, réaliser le schéma suivant :
+                                ►   Pour trouver le nombre de parts dans un problème comme le suivant :
+                                    « Lors d’une fête de village, monsieur Dupin vend des sandwichs. Chaque
+                                    sandwich est vendu avec une boisson pour un montant total de 7 €. À la
+                                    fin de la journée, la recette de monsieur Dupin est de 2 611 €. Combien
+                                                       11
+
+=== PAGE 13 ===
+                                    de sandwichs monsieur Dupin a-t-il vendus ? », l’élève peut, par exemple,
+                                    réaliser le schéma suivant :
+• Résoudre des problèmes       L’élève sait résoudre des problèmes engageant des additions, des
+ mixtes en plusieurs étapes.   soustractions, des multiplications et des divisions, comme le suivant : Romy
+                               achète trois pains aux raisins à 1,35 euros l’un et sept chaussons aux
+                               pommes. Elle donne un billet de 20 € au boulanger qui lui rend 7,90 €. Quel
+                               est le prix d’un chausson aux pommes ?
+• Résoudre des problèmes de    L’élève comprend le sens des locutions « fois plus » et « fois moins » et les
+ comparaison multiplicative.   distingue des locutions « de plus » et « de moins » qui apparaissent dans les
+                               problèmes de comparaison additive.
+                               L’élève sait résoudre des problèmes de comparaison multiplicative
+                               nécessitant plusieurs étapes, comme le suivant : « Axel achète une
+                               trottinette et un casque. La trottinette coute quatre fois plus cher que le
+                               casque. Axel paie 161,25 €. Combien coute la trottinette ?
+• Résoudre des problèmes de    L’élève sait résoudre des problèmes consistant à déterminer le nombre
+ dénombrement.                 d’éléments d’un ensemble et qui ne se résolvent pas immédiatement par
+                               l’une des quatre opérations. Pour y parvenir, il présente les éléments à
+                               dénombrer selon une organisation permettant de les compter tous, une et
+                               une seule fois, sans oubli ni redondance.
+                               Ainsi l’élève sait avoir recours à un tableau, un arbre ou une liste organisée
+                               pour résoudre des problèmes de dénombrement comme les suivants :
+                                ►   Telma a lancé une pièce de monnaie trois fois de suite. Elle a obtenu les
+                                    résultats suivants :
+                                                    1er lancer     2e lancer      3e lancer
+                                                    Face           Face           Pile
+                               Trouve tous les résultats qu’elle aurait pu obtenir.
+                                ►   Arthur veut fabriquer un jeu de dominos. Dans ce jeu chaque domino
+                                    doit être composé de deux nombres de points compris entre 0 et 6 et il
+                                    ne peut pas y avoir deux dominos identiques. Quel est le nombre
+                                    maximum de dominos que peut contenir ce jeu ?
+                                    Attention : le domino        est le même que le domino           .
+• Résoudre des problèmes       L’élève sait résoudre des problèmes consistant à trouver une solution
+ d’optimisation.               optimale parmi plusieurs solutions respectant plusieurs contraintes, comme
+                               les problèmes suivants.
+                                ►   Madame Lidon souhaite réaliser des étagères. Pour une étagère, il lui faut
+                                    une planche de deux mètres, deux équerres et neuf vis.
+                                    Elle dispose de :
+                                     o   6 planches de cinq mètres ;
+                                     o   40 équerres ;
+                                     o   120 vis.
+                                    Quel est le nombre maximal d’étagères que peut fabriquer madame
+                                    Lidon ?
+                                                      12
+
+=== PAGE 14 ===
+                               ►   Azmar veut fabriquer des torchons avec un reste de tissu et un reste de
+                                   ruban.
+                                   Il veut fabriquer des torchons rectangulaires de 80 cm de longueur et
+                                   50 cm de largeur autour desquels il souhaite coudre du ruban.
+                                   Le reste de tissu dont dispose Azmar est un rectangle qui mesure 3 m de
+                                   longueur et 2,40 m de largeur et il a 50 m de ruban.
+                                   Quel est le nombre maximum de torchons que peut fabriquer Azmar ?
+• Résoudre des problèmes      L’élève sait résoudre un problème consistant à rechercher toutes les
+ préparant à l’utilisation    solutions vérifiant certaines conditions parmi un ensemble de cas possibles.
+ d’algorithmes.               Il sait organiser sa recherche de façon à assurer l’exhaustivité de sa réponse.
+                              L’élève sait par exemple résoudre des problèmes comme les suivants.
+                               ►   Trouver toutes les dimensions possibles pour les rectangles ayant des
+                                   côtés mesurant un nombre entier de centimètres et ayant une aire égale à
+                                   60 cm².
+                               ►   Alice a 100 œufs qu’elle veut ranger dans des boites. Elle a vingt boites de
+                                   6 œufs et vingt boites de 10 œufs. Elle veut que tous les œufs soient dans
+                                   des boites et que toutes les boites soient pleines. Quelles sont toutes les
+                                   solutions possibles ?
+                               ►   Il y a 30 élèves dans une classe de CM2. Le maitre veut faire des groupes
+                                   comportant tous le même nombre d’élèves. Il souhaite qu’il y ait un
+                                   nombre impair d’élèves dans chaque groupe. Quelles sont toutes les
+                                   solutions possibles ?
+Algèbre
+Objectifs d’apprentissage     Exemples de réussite
+• Trouver le nombre manquant Dans des cas simples, l’élève sait trouver mentalement le nombre manquant
+ dans une égalité à trou.     dans une égalité, par exemple à partir d’égalités comme les suivantes :
+                              347 = 20 + … ; 5 760 – … = 5 360 ; … – 1 = 3 999 ; 2 × 137 × 5 = 137 × … ;
+                              24 × 5 = … × 10 ; 24 × 5 = 20 × 5 + … × 5 ; 144 + 237 = … + 239 ; 142 – 54 = … – 57.
+                              L’élève sait trouver le nombre manquant dans une égalité à trou comme
+                              (2 × …) – 5 = 23 en utilisant ses connaissances en calcul et les propriétés des
+                              opérations. Les membres des égalités proposées contiennent au plus deux
+                              opérations comme 8 + (2 × …) = 11 ou 18 = 10 + (…  5).
+• Résoudre des problèmes      L’élève comprend que des nombres inconnus peuvent être représentés par
+ algébriques.                 des lettres ou des symboles.
+                              L’élève sait résoudre des problèmes où des nombres sont représentés par
+                              des symboles. Par exemple :
+                               ►   On dispose de paires de ciseaux toutes identiques et de crayons tous
+                                   identiques. On dispose des résultats suivants issus de deux pesées :
+                                   Quelle est la masse d’une paire de ciseaux ? Quelle est la masse d’un
+                                   crayon ? »
+                                                     13
+
+=== PAGE 15 ===
+                               L’élève sait s’appuyer sur des schémas pour représenter des relations entre
+                               les inconnues d’un problème. Par exemple l’élève sait résoudre un problème
+                               comme le suivant.
+                                ►   Dans un paquet de billes rouges, vertes et bleues, il y a 179 billes. Il y a
+                                    quatre fois plus de billes rouges que de billes vertes et il y a 17 billes
+                                    vertes de moins que de billes bleues.
+                                    Combien y a-t-il de billes de chaque couleur ?
+                               Pour cela l’élève sait s’appuyer sur un schéma comme celui-ci :
+• Exécuter ou produire un      L’élève sait déterminer le nombre obtenu quand on applique à un nombre
+ programme de calcul.          donné, par exemple 9, un programme de calcul comme le suivant :
+                                ►   Choisir un nombre entier.
+                                ►   Ajouter 2 au nombre choisi.
+                                ►   Multiplier le résultat trouvé à l’étape précédente par 4.
+                                ►   Retirer 3 au nombre obtenu à l’étape précédente.
+                                ►   Écrire le nombre obtenu.
+                               Les programmes comprennent au plus trois étapes de calcul.
+                               Les programmes de calcul utilisés peuvent être codés avec un logiciel de
+                               programmation par bloc comme Scratch ou sur une feuille d’un tableur en
+                               faisant apparaitre les différentes étapes, de manière à vérifier les résultats
+                               obtenus.
+• Identifier et formuler une   L’élève sait déterminer comment va se poursuivre une suite de nombres
+ règle de calcul pour          dans des cas simples et donner les trois termes suivants, par exemple pour
+ poursuivre une suite de       les suites :
+ nombres.                       ►   3 ; 7 ; 11 ; 15 ; etc.
+                                ►   4 ; 12 ; 36 ; 108 ; etc.
+                                ►   3 ; 7 ; 12 ; 18 ; etc.
+                                ►   7 ; 12 ; 22 ; 42 ; etc.
+                                ►   7 ; 15 ; 31 ; 63 ; 127, etc.
+                               Pour certaines suites, plusieurs « règles » de calcul peuvent être trouvées,
+                               par exemple, pour la suite 7 ; 15 ; 31 ; 63 ; 127, etc., les élèves peuvent
+                               proposer comme règles de calcul :
+                                ►   prendre le double du nombre et ajouter 1 pour trouver le nombre au
+                                    rang suivant :
+                                ►   ajouter successivement 8, puis le double de 8, puis le double du double
+                                    de 8, etc. :
+                                                             14
+
+=== PAGE 16 ===
+                                  Dans le cas d’une suite pour laquelle un même nombre est ajouté à chaque
+                                  étape, l’élève sait déterminer la valeur d’un terme de rang éloigné. Par
+                                  exemple, pour la suite « 5 ; 8 ; 11 ; 14 ; 17 ; etc. », l’élève sait déterminer le
+                                  100e nombre de la suite en reconnaissant une relation entre le rang d’un
+                                  terme et sa valeur, par exemple en organisant ses calculs comme dans le
+                                  tableau ci-dessous :
+                                                     Place           Valeur
+                                                     1               5=2+1×3
+                                                     2               8=2+2×3
+                                                     3               11 = 2 + 3 × 3
+                                                     4               14 = 2 + 4 × 3
+                                                     …               …
+                                                     100             2 + 100 × 3 = 302
+• Identifier des régularités et   L’élève sait, par exemple, déterminer le nombre d’éléments des motifs que
+ poursuivre une suite de          l’on trouvera aux trois étapes suivantes des suites dont les premiers motifs
+ motifs évolutive.                sont :
+• Trouver le nombre
+ d’éléments pour une étape
+ donnée dans une suite de
+ motifs évolutive.
+                                  Pour cela, l’élève sait formuler une relation, soit entre le nombre d’éléments
+                                  à une étape donnée et le nombre d’éléments à l’étape précédente, soit,
+                                  directement, entre le nombre d’éléments à une étape donnée et le rang de
+                                  l’étape.
+Grandeurs et mesures
+Les aires
+Objectifs d’apprentissage         Exemples de réussite
+• Comparer les aires de           L’élève sait déterminer l’aire d’une surface à partir d’un pavage simple dans
+  différentes figures planes.     une unité fournie (carreau d’un quadrillage). L’élève sait déterminer l’aire
+• Déterminer des aires.           d’une surface composée de carreaux entiers et de demi-carreaux.
+                                  L’élève sait encadrer l’aire d’une surface quelconque en s’appuyant sur un
+                                  quadrillage et en utilisant des demi-carreaux si nécessaire. Par exemple, il
+                                  sait dire, au moins, que l’aire de la figure ci-dessous est comprise entre
+                                  20,5 carreaux et 32 carreaux en comptant les carreaux complets et les
+                                                           15
+
+=== PAGE 17 ===
+                                   demi-carreaux situés à l’intérieur de la surface et les carreaux complets et
+                                   les demi-carreaux permettant de recouvrir toute la surface.
+                                   L’élève sait différencier le périmètre et l’aire d’une figure. Il sait qu’une
+                                   figure A peut avoir une aire plus grande qu’une figure B, alors que le
+                                   périmètre de la figure A est plus petit que celui de la figure B.
+• Connaitre et utiliser les        L’élève sait que 1 cm² est l’aire d’un carré de 1 cm de côté.
+ unités centimètre carré,          Dans des cas simples, l’élève sait déterminer l’aire d’une surface à en
+ décimètre carré et mètre          s’appuyant sur un quadrillage composé de carreaux dont les côtés
+ carré pour exprimer des           mesurent 1 cm.
+ aires.                            L’élève sait justifier les égalités 1 m² = 100 dm² et 1 dm² = 100 cm², en
+• Convertir des aires entre        s’appuyant, par exemple, sur le découpage d’un carré de côtés mesurant
+ différentes unités.               1 m en cent carrés de 1 dm².
+                                   L’élève sait convertir 3,7 dm² en centimètre carré en s’appuyant sur
+                                   l’égalité 1 dm² = 100 cm².
+• Déterminer l’aire d’un carré     L’élève sait déterminer l’aire d’un carré ou d’un rectangle dont les mesures
+ ou d’un rectangle.                des longueurs des côtés, exprimées en centimètre, sont des nombres
+                                   entiers. Il sait justifier sa réponse en s’appuyant sur un pavage de la figure
+                                   en carrés de côté 1 cm.
+                                   L’élève connait et utilise la formule de l’aire pour un carré et celle de l’aire
+                                   pour un rectangle.
+Les angles
+Objectifs d’apprentissage          Exemples de réussite
+• Utiliser le lexique spécifique   L’élève comprend et utilise le lexique associé aux angles : sommet de
+ associé aux angles.               l’angle, côtés de l’angle, angle droit, angle aigu et angle obtus.
+• Comprendre et utiliser les       L’élève sait désigner un angle par une lettre minuscule, par exemple
+ notations des angles.             « l’angle 𝑎̂ », ou par trois lettres majuscules, par exemple « l’angle 𝐴𝐵𝐶
+                                                                                                          ̂ »,
+                                   lorsque l’angle est défini par trois points, le point 𝐵 étant le sommet de
+                                   l’angle et les demi-droites [𝐵𝐴) et [𝐵𝐶) étant les côtés de l’angle, ou encore
+                                   par une lettre majuscule correspondant au sommet de l’angle, « l’angle 𝐴̂ »,
+                                   lorsqu’il n’y a pas d’ambiguïté.
+• Comparer des angles.             Quand il n’y a aucun doute, l’élève sait dire qu’un angle donné n’est pas
+                                   droit, est aigu ou est obtus, sans utiliser de matériel.
+                                   Quand il n’y a aucun doute, l’élève sait dire qu’un angle donné est plus
+                                   grand qu’un autre, sans utiliser de matériel.
+                                   L’élève sait utiliser une équerre pour dire si un angle est aigu, droit ou obtus.
+                                   L’élève sait comparer des angles en utilisant ou en fabriquant un gabarit
+                                   correspondant à un angle pour effectuer une comparaison avec le ou les
+                                   autres angles.
+                                   L’élève sait qu’on ne change pas la grandeur d’un angle en prolongeant ses
+                                   côtés.
+                                                         16
+
+=== PAGE 18 ===
+• Construire un angle égal à la   L’élève sait construire l’angle 𝑐̂ à partir des angles 𝑎̂ et 𝑏̂ tel que 𝑐̂ = 𝑎̂ + 𝑏̂ en
+ somme de deux angles             utilisant des gabarits.
+ donnés ou un angle multiple      L’élève sait construire un angle deux ou trois fois plus grand qu’un angle
+ d’un angle donné.                donné en utilisant un gabarit.
+• Construire par pliage la        L’élève sait construire un angle deux fois plus petit qu’un angle donné en
+ moitié d’un angle donné.         pliant la feuille.
+• Savoir qu’un angle droit        L’élève sait qu’une unité conventionnelle de mesure d’angle est le degré. Il
+ mesure 90°.                      sait que l’angle droit mesure 90°.
+                                  L’élève comprend qu’en construisant un angle deux fois plus petit qu’un
+                                  angle droit, il obtient un angle mesurant 45°.
+                                  L’élève peut réinvestir sa connaissance de la mesure en degré de l’angle
+                                  droit en utilisant l’instruction « tourner vers la gauche de 90° » lors de la
+                                  programmation du déplacement d’un robot ou du déplacement d’un lutin
+                                  sur un écran avec un logiciel de programmation par blocs comme Scratch.
+Le repérage dans le temps et les durées
+Objectifs d’apprentissage         Exemples de réussite
+• Lire l’heure sur une horloge    L’élève identifie les aiguilles d’une horloge : « petite aiguille », « grande
+ à aiguilles.                     aiguille » et « trotteuse ».
+• Positionner les aiguilles       L’élève lit l’heure sur un cadran à aiguilles ou sur un affichage digital
+ d’une horloge                    (heures, minutes et secondes).
+ correspondant à une heure        L’élève sait placer les aiguilles pour qu’une horloge indique une heure
+ donnée en heure, minute et       donnée.
+ seconde.
+• Comparer et mesurer des         L’élève sait déterminer la durée qui s’écoule entre 8 h 52 min 27 s et
+ durées écoulées entre deux       11 h 37 min 18 s.
+ instants affichés sur une
+ horloge (instants et durées
+ sont exprimés en heure,
+ minute et seconde).
+• Résoudre des problèmes à        L’élève connait les unités de mesure de durées usuelles et leurs relations :
+ une ou plusieurs étapes          jour, heure, minute et seconde.
+ impliquant des durées.           L’élève sait, par exemple, déterminer le nombre de secondes qu’il y a dans
+                                  deux heures et vingt minutes.
+                                  L’élève sait résoudre des problèmes en une ou deux étapes, en exploitant
+                                  des ressources variées (horaires de transport, horaires de marées,
+                                  programmes de cinéma ou de télévision, etc.).
+                                  L’élève sait utiliser un axe chronologiquement orienté pour positionner des
+                                  instants ou représenter une durée, exprimés en heures, minutes et
+                                  secondes. L’élève effectue les calculs mentalement, en introduisant si
+                                  besoin des étapes et des instants intermédiaires ; aucune connaissance
+                                  d’un algorithme posé en base soixante n’est attendue.
+                                   ►   Lors d’un marathon, Anaïs est partie à 8 h 30 min 27 s. Elle a franchi la
+                                       ligne d’arrivée à 12 h 27 min 48 s Combien de temps Anaïs a-t-elle mis
+                                       pour parcourir ce marathon ?
+                                                         17
+
+=== PAGE 19 ===
+                                 ►   Lucie a mis 1 h 17 min 32 s pour parcourir la première étape d’une course
+                                     cycliste. Elle a franchi la ligne d’arrivée à 12 h 10 min 43 s. À quelle heure
+                                     a-t-elle commencé cette étape ?
+                                 ►   Un triathlon est constitué de la façon suivante : 1,5 km de natation, 40
+                                     km de cyclisme et 10 km de course à pied.
+                                     Karnish s’est élancé à 7 h 12 min 34 s pour son triathlon. Il a mis
+                                     37 min 13 s pour la partie de natation, 1 h 24 min 42 s pour la course
+                                     cycliste et 10 min 52 s pour les transitions entre chaque épreuve. Il a
+                                     franchi la ligne d’arrivée à 10 h 33 min 5 s.
+                                     Combien de temps Karnish a-t-il mis pour parcourir les 10 km de course
+                                     à pied ?
+Espace et géométrie
+La géométrie plane
+Objectifs d’apprentissage       Exemples de réussite
+• Utiliser le vocabulaire       Dans le cadre des activités géométriques menées et de la résolution de
+ géométrique approprié          problèmes, l’élève utilise à bon escient le vocabulaire géométrique usuel :
+ dans le contexte                ►   point, droite, segment, demi-droite, milieu d’un segment ;
+ d’apprentissage des notions     ►   droite sécantes, droites perpendiculaires, droites parallèles ;
+ correspondantes.                ►   angle droit, angle aigu, angle obtus.
+• Utiliser les outils           L’élève connait et utilise les codes apposés sur une figure pour indiquer des
+ géométriques usuels : règle,   angles droits, des angles de même mesure ou des longueurs égales.
+ règle graduée, équerre et      L’élève connait les symboles ⊥ ; // ; ∈ et ∉.
+ compas.
+• Connaitre les notations et
+ les codes usuels utilisés en
+ géométrie.
+• Reconnaitre et utiliser la
+ notion de perpendicularité.
+• Reconnaitre et utiliser la
+ notion de parallélisme.
+• Décrire et reconnaitre un     Dans le cadre des activités géométriques menées et de la résolution de
+ cercle et un disque comme      problèmes, l’élève utilise à bon escient le vocabulaire géométrique usuel :
+ un ensemble de points           ►   disque, cercle, centre, rayon, diamètre, corde et arc de cercle ;
+ caractérisés par leur           ►   polygone, triangle, quadrilatère, pentagone et hexagone ;
+ distance à un point donné.      ►   triangle rectangle, triangle isocèle, triangle équilatéral ;
+• Reconnaitre et nommer les      ►   carré, rectangle, losange, trapèze et trapèze rectangle ;
+ figures suivantes en
+                                 ►   côté, sommet et angle d’un polygone ;
+ s’appuyant sur leur
+                                                        18
+
+=== PAGE 20 ===
+ définition : triangle, triangle    ►   diagonale (pour un quadrilatère), longueur du rectangle, largeur du
+ rectangle, triangle isocèle,           rectangle ;
+ triangle équilatéral,             L’élève comprend la différence entre une définition et une propriété. Il sait
+ quadrilatère, carré,              qu’une définition lui permet d’affirmer qu’une figure donnée est de la
+ rectangle, losange, trapèze,      nature envisagée. Par exemple, « un rectangle est un quadrilatère qui a
+ trapèze rectangle,                quatre angles droits » est une définition du rectangle. Il sait aussi qu’une
+ pentagone et hexagone.            propriété précise un certain nombre d’éléments vérifiés par une figure,
+• Connaitre les propriétés de      mais que ces éléments peuvent être insuffisants pour caractériser la figure
+ parallélisme des côtés            en question. Ainsi, une propriété du rectangle est « que ses côtés opposés
+ opposés, des égalités de          sont de même longueur », mais cela ne suffit pas pour affirmer qu’il s’agit
+ longueurs et d’angles pour        d’un rectangle : un quadrilatère dont les côtés opposés sont de même
+ les figures usuelles : triangle   longueur n’est pas nécessairement un rectangle.
+ rectangle, triangle isocèle,      Un triangle rectangle, un triangle isocèle, un triangle équilatéral, un carré, un
+ triangle équilatéral, carré,      rectangle, un losange, un trapèze ou un trapèze rectangle lui étant donné,
+ rectangle, losange, trapèze       l’élève sait le nommer et justifier sa réponse en s’appuyant simultanément :
+ et trapèze rectangle.              ►   sur les propriétés de la figure qu’il prélève en utilisant ses outils (équerre,
+                                        compas et règle graduée) ou grâce au codage de la figure ;
+                                    ►   sur les définitions des figures usuelles.
+                                   Par exemple, l’élève sait dire « cette figure est un rectangle, car c’est un
+                                   quadrilatère qui a quatre angles droits ».
+                                   L’élève sait dire qu’une figure qui lui est donnée n’est pas d’une certaine
+                                   nature en s’appuyant sur les propriétés des figures planes. Par exemple, il
+                                   sait dire « ce n’est pas un carré, car ses côtés n’ont pas tous la même
+                                   longueur ; or, un carré a quatre côtés de même longueur ».
+                                   L’élève sait dire si chacun des angles d’un polygone est ou non un angle
+                                   droit en utilisant l’équerre si la réponse n’est pas évidente ou si la figure
+                                   n’est pas codée.
+• Reproduire ou construire un      L’élève sait, par exemple, construire sur papier uni les figures suivantes :
+ carré, un rectangle, un            ►   un triangle ABC, rectangle en A tel que le segment [AB] a pour longueur
+ triangle, un triangle                  7 cm et le segment [BC] a pour longueur 10 cm ;
+ rectangle ou un cercle ou          ►   un losange KLMN dont les côtés ont pour longueur 10 cm et la diagonale
+ des assemblages de ces                 [KM] a pour longueur 8 cm ; puis le cercle de centre L et rayon 6 cm ;
+ figures sur tout support           ►   un triangle RST, isocèle et rectangle en R, tel que RS = 7,4 cm.
+ (papier quadrillé, pointé ou
+                                   L’élève indique sur les figures produites, à main levée ou avec la règle, les
+ uni), avec une règle graduée,
+                                   codes pour les angles droits et des codes signalant les égalités de
+ une équerre ou un compas.
+                                   longueurs.
+• Construire une figure            L’élève sait construire une figure à partir d’un programme de construction.
+ géométrique composée de           Ces instructions peuvent porter, par exemple, sur la construction de
+ segments, de droites, de          segments ou de droites, de droites parallèles ou perpendiculaires à une
+ polygones usuels et de            droite donnée et passant par un point donné, de cercles de centre donné et
+ cercles.                          passant par un point donné ou ayant un rayon donné, de polygones usuels.
+• Élaborer un programme de         Dans des cas simples, l’élève sait écrire un programme de construction
+ construction.                     permettant de construire une figure qui lui est fournie.
+                                   L’élève sait construire une figure à partir d’un programme de construction
+                                   en utilisant un logiciel de géométrie dynamique.
+• Construire, sur papier           L’élève sait construire, sur papier quadrillé, la figure symétrique d’une
+ quadrillé, la figure              figure quelconque par rapport à une droite donnée, dans le cas où la
+ symétrique d’une figure           droite ne coupe pas la figure initiale.
+ donnée par rapport à une          L’élève vérifie qu’il a bien construit le symétrique attendu en pliant la
+ droite verticale, horizontale     feuille selon la droite.
+ ou une diagonale du
+ quadrillage.
+                                                           19
+
+=== PAGE 21 ===
+Les solides
+Objectifs d’apprentissage      Exemples de réussite
+• Nommer un cube, une          Un ensemble de solides étant donné, l’élève sait dire lesquels sont des
+  boule, un pavé, un cône,     pyramides, des boules, des cubes, des cylindres, des pavés, des cônes ou des
+  une pyramide, un cylindre    prismes droits en justifiant sa réponse avec le vocabulaire approprié.
+  ou un prisme droit.          L’élève sait que les faces d’un prisme droit sont de deux types : d’une part
+• Décrire un cube, un pavé,    les « bases du prisme droit » qui sont deux polygones superposables et
+  une pyramide ou un           d’autre part les « faces latérales du prisme droit » qui sont des rectangles.
+  prisme droit en faisant      À travers des activités telles que des recherches d’intrus, des jeux de Kim ou
+  référence à des propriétés   des jeux du portrait, l’élève reconnait, décrit avec le vocabulaire approprié,
+  et en utilisant le           compare et nomme les solides.
+  vocabulaire approprié.
+• Reconnaitre un patron        L’élève sait dire si un assemblage de polygones donné est ou non un patron
+  d’un cube.                   de cube. Il sait justifier sa réponse lorsqu’elle est négative.
+• Construire un patron d’un    L’élève sait construire un patron d’un cube d’une longueur d’arête donnée
+  cube.                        sur papier quadrillé.
+• Reconnaitre un patron        L’élève sait dire si un assemblage de polygones donné est ou non un patron
+  d’un pavé.                   de pavé. Il sait justifier sa réponse lorsqu’elle est négative, en argumentant
+                               sur le nombre de faces, la nature des faces et la position des faces les unes
+                               par rapport aux autres.
+                               Un patron de pavé lui étant fourni, l’élève sait identifier les paires de
+                               rectangles qui représentent des faces opposées, par exemple en coloriant
+                               les rectangles sur le patron pour qu’ensuite les faces opposées du pavé aient
+                               la même couleur.
+Déplacements dans l’espace
+Objectifs d’apprentissage      Exemples de réussite
+• Connaitre et utiliser le     L’élève comprend et utilise le vocabulaire suivant :
+ vocabulaire lié aux            ►   avancer, reculer ;
+ déplacements.                  ►   tourner d’un quart de tour à gauche, pivoter d’un quart de tout à droite,
+                                    tourner de 90° à droite, faire demi-tour.
+• Comprendre, utiliser et      L’élève sait représenter sur un quadrillage un déplacement correspondant à
+ produire une suite           des instructions énoncées en langage naturel ou de manière codée.
+ d’instructions qui décrivent Si un robot est disponible, l’élève sait programmer un déplacement que le
+ un déplacement en utilisant robot doit effectuer.
+ un vocabulaire spatial       Un point de départ et un point d’arrivée étant fixés, l’élève sait décrire un
+ précis.                      déplacement, sur un quadrillage ou sur un plan, sur papier ou sur écran, en
+                               produisant des instructions en langage naturel ou de manière codée, en
+                               prenant en compte d’éventuelles contraintes intermédiaires sur le trajet.
+• Résoudre des problèmes       L’élève sait résoudre des problèmes de
+ portant sur des               dénombrement, comme le suivant :
+ assemblages de cubes.         « Combien de petits cubes a-t-on retirés du
+                               gros cube ? »
+                                             Un assemblage de quelques cubes, comme celui représenté
+                                             ci-contre, étant posé devant lui et quatre vues lui étant fournies,
+                                             comme celles ci-dessous, l’élève sait identifier la vue de face, la
+                                             vue de dessus, la vue de droite et la vue de gauche.
+                                                         20
+
+=== PAGE 22 ===
+                              Une vue de face, une vue de droite, une vue de gauche et une vue de dessus
+                              lui étant données, l’élève sait identifier à quel assemblage de quelques cubes
+                              elles correspondent parmi un ensemble de deux ou trois assemblages qui
+                              sont posés devant lui.
+                              Une représentation d’un assemblage de cubes comme, par exemple,
+                              l’assemblage ci-contre, lui étant fourni, l’élève sait tracer à main
+                              levée ou sur papier quadrillé différentes vues de cet assemblage :
+                              vue de dessus, vue de face, vue de gauche, vue de droite.
+                              Dans des cas simples, l’élève sait construire, avec des cubes, l’assemblage
+                              correspondant à différentes vues qui lui sont fournies comme celles ci-
+                              dessous.
+Organisation et gestion de données et probabilités
+Organisation et gestion de données
+Objectifs d’apprentissage     Exemples de réussite
+• Recueillir des données et   L’élève mène une enquête relative à la répartition d’un caractère dans une
+ produire un tableau, un      population (moyen de transport utilisé, sport pratiqué, etc.) ou effectue des
+ diagramme en barres ou       relevés expérimentaux pour étudier l’évolution d’une grandeur au cours du
+ un ensemble de points        temps (température, longueur, masse, etc.).
+ dans un repère pour          L’élève compile dans un tableau les données issues d’une enquête qu’il a
+ présenter des données        menée ou d’un document qui lui a été fourni. Il produit un diagramme en
+ recueillies.                 barres ou un ensemble de points dans un repère, éventuellement reliés par
+• Lire et interpréter les     une courbe pour les représenter. Pour graduer les axes des représentations
+ données d’un tableau,        graphiques, l’élève utilise une échelle adaptée aux données.
+ d’un diagramme en barres,    L’élève sait lire des données présentées dans un tableau ou représentées sur
+ d’un diagramme circulaire    un diagramme en barres, sur un diagramme circulaire ou sur une courbe.
+ ou d’une courbe.             L’élève sait interpréter les données pour identifier un caractère plus ou
+                              moins fréquent, comparer des évolutions dans le temps, etc. Il sait par
+                              exemple répondre à la question suivante en justifiant les raisons pour
+                              lesquelles les trois autres graphiques sont rejetés :
+                               ►   Sabine a relevé les couleurs des voitures sur un parking. Les résultats sont
+                                   fournis dans le tableau suivant :
+                                    Couleur            Blanche     Bleue     Noire     Verte      TOTAL
+                                    Nombre de
+                                                           30       15         10         5         60
+                                    voitures
+                                                      21
+
+=== PAGE 23 ===
+                                      Parmi les quatre graphiques ci-dessous, lequel correspond aux données
+                                      relevées par Sabine ?
+                                 L’élève sait utiliser une légende pour lire et interpréter un diagramme
+                                 circulaire ou un document avec plusieurs courbes dans le même repère.
+• Résoudre des problèmes         L’élève sait résoudre des problèmes en une ou plusieurs étapes dont les
+  en une ou deux étapes en       données sont disponibles dans un tableau ou sur une représentation
+  utilisant les données d’un     graphique (diagramme en barres, diagramme circulaire ou courbe).
+  tableau, d’un diagramme        L’élève sait résoudre des problèmes en une étape ou deux étapes dont les
+  en barres, d’un diagramme      données sont à recueillir à la fois dans un énoncé et sur une représentation
+  circulaire ou d’une courbe.    graphique, comme le problème
+                                 suivant :
+                                  ►   Un verre contient 250 mL d’un                1
+                                                                                   5       3
+                                      cocktail réalisé avec la recette                     10
+                                      fournie par le diagramme ci-
+                                      contre.                                          2
+                                      Quel volume de jus de litchi y                   5
+                                      a-t-il dans ce verre ?
+Les probabilités
+Objectifs d’apprentissage        Exemples de réussite
+• Identifier toutes les issues   Dans l’expérience qui consiste à tirer une carte dans un jeu de 52 cartes,
+  possibles lors d’une           l’élève sait donner la liste de toutes les issues qui réalisent chacun des
+  expérience aléatoire           évènements suivants :
+  simple.                         ►   « tirer un roi » ;
+• Identifier toutes les issues    ►   « tirer une figure » ;
+  réalisant un évènement          ►   « tirer un as rouge » ;
+  dans une expérience             ►   « tirer le neuf de trèfle ».
+  aléatoire simple.
+                                 Dans l’expérience qui consiste à lancer un dé à six faces, l’élève identifie
+                                 toutes les issues qui réalisent chacun des évènements suivants :
+                                  ►   « obtenir un nombre pair » ;
+                                  ►   « obtenir un multiple de 3 » ;
+                                  ►   « obtenir un diviseur de 10 ».
+                                                           22
+
+=== PAGE 24 ===
+• Dans une situation           L’élève sait qu’il y a « une chance sur six » d’obtenir un « 4 » en lançant un dé
+ d’équiprobabilité, lors       classique.
+ d’une expérience aléatoire    L’élève sait qu’il y a autant de chances d’obtenir un « 6 » qu’un « 4 » en
+ simple, exprimer la           lançant un dé classique et que cette probabilité est égale à « une chance sur
+ probabilité d’un              six ».
+ évènement sous la forme       L’élève sait dire et justifier qu’il y a « treize chances sur cinquante-deux »
+ « a chances sur b ».          d’obtenir un pique en tirant une carte au hasard dans un jeu de 52 cartes et
+• Comparer des probabilités    « quatre chances sur cinquante-deux » d’obtenir un as.
+ dans des cas simples.         L’élève sait dire qu’il y a plus de chances d’obtenir un pique que d’obtenir un
+                               as en tirant une carte dans un jeu de 52 cartes.
+                               L’élève sait dire si une probabilité donnée sous la forme « a chances sur b »
+                               est supérieure, égale ou inférieure à « une chance sur deux », et justifier sa
+                               réponse en comparant a avec la moitié de b.
+                               L’élève sait colorier chacune des billes du sac ci-contre, soit
+                               en rouge, soit en vert, de façon à ce qu’il y ait une chance
+                               sur deux d’obtenir une bille verte lorsque l’on tire au
+                               hasard, sans regarder, une bille du sac.
+• Comprendre la notion         L’élève sait que, lorsqu’il répète une même expérience dans des conditions
+ d’indépendance lors de la     identiques, les résultats antérieurs n’ont aucune incidence sur la probabilité
+ répétition de la même         d’obtenir un résultat donné. Par exemple, il sait que lorsqu’il lance une pièce
+ expérience aléatoire.         de monnaie non truquée, s’il a obtenu trois fois « face » lors des trois
+                               premiers lancers, alors au quatrième lancer, il y a toujours exactement une
+                               chance sur deux qu’il obtienne « face » et une chance sur deux qu’il
+                               obtienne « pile ».
+                               L’élève sait résoudre un exercice comme le suivant : « Anissa jette trois fois
+                               de suite la même pièce. Elle obtient dans l’ordre les résultats suivants : FACE
+                               – PILE – FACE. Elle jette la pièce une quatrième fois. Penses-tu que le
+                               quatrième résultat a plus de chances d’être PILE que FACE, a plus de
+                               chances d’être FACE que PILE, ou, a autant de chances d’être PILE que
+                               FACE ? Explique ta réponse. »
+• Dans des situations          Dans le cas d’expériences aléatoires en deux étapes aux issues
+ d’équiprobabilité, recenser   équiprobables, l’élève sait recenser toutes les issues possibles en utilisant un
+ toutes les issues possibles   tableau à double entrée ou un arbre pour
+ d’une expérience aléatoire    être certain de n’en oublier aucune et de ne          1er lancer     2e lancer
+ en deux étapes dans un        pas en comptabiliser certaines deux fois.                                  F
+ tableau ou dans un arbre      L’élève sait, par exemple, déterminer, en                   F
+ afin de déterminer des        utilisant un arbre, l’ensemble des issues                                  P
+ probabilités.                 possibles lorsqu’on lance deux fois une pièce
+                               de monnaie :                                                              F
+                               Il identifie ainsi quatre issues : (F;F), (F;P), (P;F)      P
+                               et (P;P) et distingue les issues (F;P) et (P;F).                          P
+                               L’élève sait dire qu’il y a une chance sur quatre d’obtenir chacune des issues.
+                               L’élève sait dire qu’il y a autant de chances d’obtenir
+                               chacun des quatre résultats possibles en faisant tourner
+                               une fois la roue ci-contre. Il sait, par exemple, dire qu’il y
+                               a une chance sur quatre d’obtenir le nombre 2 en faisant
+                               tourner la roue.
+                               L’élève sait justifier ses affirmations en s’appuyant sur le
+                               partage de la roue en 4 secteurs superposables et donc
+                               ayant autant de chance d’être obtenus à chaque tour de
+                               roue.
+                                                         23
+
+=== PAGE 25 ===
+                                L’élève sait déterminer la probabilité d’obtenir (2;3) en tournant deux fois la
+                                roue ci-contre, c’est-à-dire d’obtenir 2 au premier tour de roue et 3 au
+                                second tour de roue. Pour cela il peut réaliser un tableau pour recenser les
+                                différents couples pouvant être obtenus.
+                                                      2e tour     1         2        3         4
+                                            1 tour
+                                             er
+                                                  1              (1;1)    (1;2)     (1;3)    (1;4)
+                                                  2              (2;1)    (2;2)     (2;3)    (2;4)
+                                                  3              (3;1)    (3;2)     (3;3)    (3;4)
+                                                  4              (4;1)    (4;2)     (4;3)    (4;4)
+                                En s’appuyant sur le tableau, l’élève sait dire qu’il y a 1 chance sur 16
+                                d’obtenir (2;3), c’est-à-dire 2 au premier tour de roue puis 3 au second tour
+                                de roue en tournant deux fois la roue.
+La proportionnalité
+Objectifs d’apprentissage       Exemples de réussite
+• Identifier une situation de   Dans une situation faisant intervenir deux grandeurs, l’élève sait dire et
+ proportionnalité.              justifier si celles-ci sont proportionnelles ou non. Il sait, par exemple,
+                                expliquer que l’âge et la taille d’une personne ne sont pas proportionnels :
+                                « À quarante ans, on n’est pas deux fois plus grand qu’à vingt ans. ». Il sait
+                                également dire : « Ces manuels sont tous identiques, donc ils ont tous la
+                                même masse. La masse d’une pile de manuels est proportionnelle au
+                                nombre de manuels : s’il y a trois fois plus de manuels dans la pile, alors elle
+                                est trois fois plus lourde. ».
+• Savoir résoudre un            L’élève sait résoudre un problème de proportionnalité en utilisant une ou
+ problème de                    deux fois la propriété de linéarité pour la multiplication. Il sait, par exemple,
+ proportionnalité.              résoudre le problème « 200 feuilles d’un certain papier ont une épaisseur de
+                                24 mm. Quelle est l’épaisseur de 250 feuilles de ce papier ? » en
+                                commençant par chercher l’épaisseur de 50 feuilles (quatre fois moins que
+                                200 feuilles), puis en multipliant le résultat par cinq.
+                                L’élève sait résoudre un problème de proportionnalité en utilisant une fois la
+                                propriété de linéarité pour la multiplication, puis la propriété de linéarité
+                                pour l’addition. Il sait par exemple résoudre le problème « 200 feuilles d’un
+                                certain papier ont une épaisseur de 24 mm. Quelle est l’épaisseur de 250
+                                feuilles de ce papier ? » en commençant par chercher l’épaisseur de 50
+                                feuilles (quatre fois moins que 200 feuilles), puis en ajoutant l’épaisseur de
+                                200 feuilles et celle de 50 feuilles pour trouver l’épaisseur de 250 feuilles.
+                                L’élève sait résoudre un problème de proportionnalité en choisissant une
+                                procédure adaptée aux nombres présents dans l’énoncé et aux faits
+                                numériques qu’il connait. Par exemple, il comprend qu’il n’a pas besoin de
+                                chercher l’épaisseur d’une feuille de papier pour résoudre le problème
+                                précédent.
+                                Quand il ne reconnait pas de relations multiplicatives simples entre les
+                                nombres de l’énoncé, l’élève sait qu’il peut « passer par l’unité ». Il sait par
+                                exemple résoudre le problème : « 3 plaques d’un certain carton ont une
+                                épaisseur de 24 mm. Quelle est l’épaisseur de 5 plaques de ce carton ? » en
+                                commençant par chercher l’épaisseur d’une plaque.
+                                                       24
+
+=== PAGE 26 ===
+Initiation à la pensée informatique
+Au cycle 2, dans la continuité du cycle 1, l’élève a déjà développé des raisonnements qui relèvent de la
+pensée informatique. Dès le CP, l’élève a appris à réaliser un déplacement dans l’espace à partir d’un codage
+ou à coder de tels déplacements, notamment pour programmer un robot se déplaçant sur un quadrillage ou
+un personnage se déplaçant dans un quadrillage sur un écran de tablette ou d’ordinateur. L’apprentissage des
+algorithmes des opérations posées tout au long du cycle 2, contribue également à l’initiation à la pensée
+informatique. À partir du CE1, l’élève a aussi appris à poursuivre des suites évolutives comme « 1, 2, 4, 7, 11, 16,
+etc. » ou « 1, 2, 4, 8, 16, etc. ».
+Ces premiers apprentissages qui contribuent au développement de la pensée informatique se poursuivent au
+cours moyen : algorithmes des opérations posées, programmes de constructions géométriques, programmes
+de calcul, suites évolutives. Ces éléments, abordés dans les autres domaines de ce programme, sont résumés
+dans les paragraphes ci-après.
+Les activités menées au CM1 qui contribuent au développement de la pensée informatique se poursuivent au
+CM2 en se complexifiant.
+L’élève continue d’utiliser et de produire des codages de déplacements en élargissant les environnements
+dans lesquels ces déplacements ont lieu (quartier, ville, etc.) et en augmentant le nombre d’instructions des
+programmes utilisés ou produits. La programmation de robots est également toujours envisagée lorsque
+l’école en est équipée.
+Dans le cadre de l’initiation à la pensée algébrique, l’élève continue de travailler sur des suites évolutives de
+nombres ou de motifs qui s’appuient sur des algorithmes de plus en plus complexes comme « 7 ; 15 ; 31 ; 63 ;
+127, etc. » ou
+                                                                       
+                                                                      
+                                                                      
+                                                                        
+                                                                         
+                                                                          
+                                                                          
+                        étape 1        étape 2         étape 3        étape 4
+et il peut utiliser des logiciels de programmation par blocs ou un tableur pour déterminer des termes éloignés.
+Il exécute également des programmes de calcul ayant jusqu’à trois instructions comme le suivant :
+              Choisir un nombre entier.
+              Ajouter 2 au nombre choisi.
+              Multiplier le résultat trouvé à l’étape précédente par 4.
+              Retirer 3 au nombre obtenu à l’étape précédente.
+              Écrire le nombre obtenu.
+Ces programmes peuvent aussi être codés avec un logiciel de programmation par bloc comme Scratch ou sur
+une feuille d’un tableur en faisant apparaitre les différentes étapes, de manière à vérifier les résultats obtenus.
+La réalisation de figures géométriques s’appuyant sur des programmes de construction contribue également
+au développement de la pensée informatique. Au CM2, l’élève apprend à produire des programmes de
+construction dans des cas simples.
+                                                        25
+
+=== PAGE 27 ===
+

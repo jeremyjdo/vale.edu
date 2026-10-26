@@ -1,0 +1,1036 @@
+{
+  "programme": "evar-c1",
+  "level": "multiple",
+  "themeCodes": {
+    "corps": "Se connaître, vivre et grandir avec son corps",
+    "rel": "Rencontrer les autres et construire des relations, s’y épanouir",
+    "soc": "Trouver sa place dans la société, y être libre et responsable"
+  },
+  "notions": [
+    {
+      "id": "fr-eva-ps-corps-01",
+      "programme": "evar-c1",
+      "type": "LANGUAGE",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Connaître son corps et comprendre ce qu’est l’intimité",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Nommer les différentes parties du corps",
+      "description": "Connaître le nom des parties de son corps, en partant des mots que l’enfant utilise spontanément pour aller peu à peu vers les mots justes.",
+      "officialObjectives": [
+        "Nommer les différentes parties du corps."
+      ],
+      "evidence": [
+        "Nomme les différentes parties du corps à partir d’un album ou d’un jouet.",
+        "Remplace peu à peu ses mots spontanés par un vocabulaire plus précis, proche du vocabulaire scientifique."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer les différentes parties du corps quand vous regardez ensemble un album ou une poupée ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 10,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ps-corps-02",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Connaître son corps et comprendre ce qu’est l’intimité",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Comprendre ce qu’est l’intimité",
+      "description": "Commencer à comprendre que certaines parties du corps sont intimes, qu’il existe des moments et des lieux d’intimité (toilette, habillage, consultation médicale), avec des mots et des gestes qui leur sont propres.",
+      "officialObjectives": [
+        "Prendre conscience de ce qu’est l’intimité : les parties intimes du corps ; les espaces d’intimité ; les mots, les gestes et les conduites associés."
+      ],
+      "evidence": [
+        "Reconnaît les parties intimes du corps.",
+        "Repère, dans des situations de la vie quotidienne (toilette, habillage-déshabillage, consultation médicale, école), ce qui relève de l’intimité.",
+        "Associe à ces moments d’intimité les mots, les gestes et les conduites qui conviennent.",
+        "Parle de l’intimité à partir d’un album traitant de ces situations."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend que certaines parties du corps sont intimes, et que la toilette ou l’habillage sont des moments d’intimité ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 10,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ps-corps-03",
+      "programme": "evar-c1",
+      "type": "META",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Connaître son corps et comprendre ce qu’est l’intimité",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Développer sa connaissance de soi",
+      "description": "Commencer à se connaître soi-même : son corps, ce que l’on aime ou non, ce que l’on ressent dans les situations du quotidien.",
+      "officialObjectives": [
+        "Développer sa connaissance de soi."
+      ],
+      "evidence": [
+        "Parle de soi et de son corps avec ses propres mots.",
+        "Dit ce qui lui convient ou non dans des situations du quotidien (habillage, toilette)."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} arrive à parler de soi, de son corps et de ce qui lui plaît ou ne lui plaît pas ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 10,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ps-corps-04",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Connaître son corps et comprendre ce qu’est l’intimité",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Repérer les espaces où chacun a droit à son intimité",
+      "description": "Savoir qu’il existe des lieux et des moments (toilettes, habillage, consultation médicale) où chacun a droit à son intimité, face aux adultes comme face aux autres enfants.",
+      "officialObjectives": [
+        "Identifier les espaces où chacune et chacun a droit à son intimité par rapport aux adultes et aux autres élèves."
+      ],
+      "evidence": [
+        "Identifie les espaces où chacun a droit à son intimité, par exemple les toilettes ou le moment de l’habillage.",
+        "Distingue ce droit à l’intimité par rapport aux adultes et par rapport aux autres élèves.",
+        "S’appuie sur une situation vécue ou un album (toilette, consultation médicale, école) pour en parler."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que les toilettes ou le moment où l’on se change sont des moments où l’on a droit à son intimité, à l’école comme ailleurs ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 10,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ps-rel-01",
+      "programme": "evar-c1",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Apprendre à exprimer son accord ou son refus, apprendre à envisager et à respecter un refus",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Dire oui ou non : exprimer son accord ou son refus",
+      "description": "Apprendre à dire « oui », « d’accord », « non » ou « stop », avec un mot et un geste, en particulier quand quelqu’un propose un contact physique (s’asseoir à côté, prendre la main).",
+      "officialObjectives": [
+        "Développer la capacité de s’affirmer par le consentement et le refus."
+      ],
+      "evidence": [
+        "Associe un geste à un mot simple : « non », « oui », « d’accord », « stop ».",
+        "Exprime son accord ou son refus quand on lui demande « Est-ce que je peux m’assoir à côté de toi ? » ou « Est-ce que je peux te prendre la main ? ».",
+        "Exprime l’accord ou le désaccord par le geste et le déplacement dans des rondes et des jeux chantés et dansés.",
+        "Effectue une suite de mouvements sur le thème consentement/refus, avec ou sans musique."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Quand quelqu’un demande à {{prenom}} « Est-ce que je peux te prendre la main ? », est-ce que {{prenom}} sait répondre « oui » ou « non », avec un mot ou un geste ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 11,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ps-rel-02",
+      "programme": "evar-c1",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Apprendre à exprimer son accord ou son refus, apprendre à envisager et à respecter un refus",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Respecter le refus de l’autre",
+      "description": "Apprendre à demander avant un contact (« Est-ce que je peux te prendre dans mes bras pour te consoler ? ») et à accepter la réponse quand l’autre dit non.",
+      "officialObjectives": [
+        "Développer la capacité de respecter le refus de l’autre"
+      ],
+      "evidence": [
+        "Demande avant un contact physique : « Est-ce que je peux m’assoir à côté de toi ? », « Est-ce que je peux te prendre dans mes bras pour te consoler ? ».",
+        "Accepte le refus de l’autre, adulte ou enfant.",
+        "Arrête son geste quand l’autre dit « non » ou « stop »."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} demande avant de prendre un camarade dans ses bras, et accepte sa réponse quand il ou elle dit non ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 11,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ps-soc-01",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Appréhender et comprendre l’égalité entre les filles et les garçons et la liberté d’être soi-même",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Activités et métiers ne sont pas réservés aux filles ou aux garçons",
+      "description": "Comprendre que l’on choisit un jeu, une activité ou un métier selon ses goûts et ce que l’on sait faire, et non parce qu’on est une fille ou un garçon.",
+      "officialObjectives": [
+        "Comprendre qu’une activité ou un métier peuvent être choisis indifféremment par les filles ou les garçons, en fonction des compétences requises et de l’envie de l’exercer."
+      ],
+      "evidence": [
+        "Choisit parmi des illustrations de métiers, d’activités ou de sports ceux qu’on aime ou qu’on voudrait faire, et explique ses choix à l’oral.",
+        "Exprime ses goûts (« j’aime », « je n’aime pas ») dans des activités de classement et des jeux de la classe.",
+        "Dit que les jeux préférés de la classe ne sont réservés ni aux filles ni aux garçons.",
+        "Repère, dans un album ou un imagier, un rôle attribué d’office aux filles ou aux garçons (stéréotype)."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’un jeu, un sport ou un métier peut être choisi aussi bien par une fille que par un garçon, selon ses envies ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 11,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-corps-01",
+      "programme": "evar-c1",
+      "type": "LANGUAGE",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Connaître son corps et identifier des émotions",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Repérer et nommer les parties du corps sur un imagier",
+      "description": "Continuer à apprendre le nom des parties du corps à partir d’imagiers ou de dessins, et remarquer les ressemblances et les différences physiques entre filles et garçons.",
+      "officialObjectives": [
+        "Nommer les différentes parties du corps."
+      ],
+      "evidence": [
+        "Repère et nomme les différentes parties du corps sur un imagier ou une planche dessinée.",
+        "Décrit des ressemblances et des différences physiques entre les filles et les garçons."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer et nommer les parties du corps sur un imagier ou un dessin ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-corps-02",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Connaître son corps et identifier des émotions",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Découvrir ce qu’est une grossesse et la naissance",
+      "description": "Découvrir, avec des mots simples, ce qu’est une grossesse (le temps pendant lequel un bébé grandit dans le ventre avant de naître) et ce qu’est une naissance, souvent à l’occasion d’une naissance dans l’entourage de la classe.",
+      "officialObjectives": [
+        "Découvrir ce qu’est une grossesse et la naissance."
+      ],
+      "evidence": [
+        "Dit avec ses mots ce qu’est une grossesse et ce qu’est une naissance.",
+        "Exprime ses représentations à l’occasion de la naissance d’un enfant dans l’entourage de la classe."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire avec ses mots ce qu’est une grossesse et ce qu’est une naissance, par exemple à l’arrivée d’un bébé dans l’entourage ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-corps-03",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Connaître son corps et identifier des émotions",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Identifier quatre émotions de base : joie, tristesse, peur, colère",
+      "description": "Reconnaître la joie, la tristesse, la peur et la colère, chez soi quand on les ressent et chez les personnages d’une histoire, et commencer à parler de ses sentiments.",
+      "officialObjectives": [
+        "Découvrir et identifier ses émotions (quatre des émotions de base : joie, tristesse, peur, colère), ses sentiments et les reconnaître quand on les ressent."
+      ],
+      "evidence": [
+        "Nomme quatre émotions de base : joie, tristesse, peur, colère.",
+        "Reconnaît ces émotions quand on les ressent, par exemple la peur de monter ou de descendre et la joie de réussir lors d’un parcours de motricité.",
+        "Nomme et décrit les émotions des personnages d’un album ou d’une saynète d’après l’expression de leur visage."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait mettre un mot sur son émotion du moment : joie, tristesse, peur ou colère ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-rel-01",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Identifier une personne de confiance (adulte, enfant), apprendre à faire appel à eux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Comprendre ce qu’est la confiance",
+      "description": "Comprendre ce que veut dire « avoir confiance » en quelqu’un : pouvoir lui parler, compter sur son aide et se sentir bien avec lui.",
+      "officialObjectives": [
+        "Définir la notion de confiance."
+      ],
+      "evidence": [
+        "Dit avec ses mots ce que signifie avoir confiance en quelqu’un.",
+        "Repère, dans une histoire, ce qui pourrait troubler la confiance et provoquer un sentiment de malaise ou de peur."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire avec ses mots ce que veut dire « avoir confiance » en quelqu’un ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-rel-02",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Identifier une personne de confiance (adulte, enfant), apprendre à faire appel à eux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Savoir ce qu’est un adulte de confiance",
+      "description": "Un adulte de confiance est un adulte à qui l’on peut parler, qui peut aider et avec qui l’on se sent bien : à l’école, dans la famille, chez le médecin, au sport…",
+      "officialObjectives": [
+        "Définir un adulte de confiance comme étant un adulte à qui on peut parler et qui est susceptible d’apporter une aide et avec qui on se sent bien (école, famille, environnement médical, sportif, etc.)."
+      ],
+      "evidence": [
+        "Explique qu’un adulte de confiance est un adulte à qui on peut parler, qui peut aider et avec qui on se sent bien.",
+        "Cite des lieux où trouver un adulte de confiance : école, famille, environnement médical, sportif."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qu’est un adulte de confiance : quelqu’un à qui on peut parler, qui peut aider et avec qui on se sent bien ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-rel-03",
+      "programme": "evar-c1",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Identifier une personne de confiance (adulte, enfant), apprendre à faire appel à eux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Identifier ses adultes de confiance",
+      "description": "Savoir dire qui sont, pour soi, les adultes à qui l’on peut confier ses joies et ses peines et demander de l’aide en cas de difficulté (la « marguerite des adultes de confiance »).",
+      "officialObjectives": [
+        "Identifier un adulte de confiance."
+      ],
+      "evidence": [
+        "Nomme des adultes de son entourage à qui il est possible d’exprimer ses joies et ses peines.",
+        "Complète sa « marguerite des adultes de confiance » et participe à la marguerite collective de la classe."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire à quels adultes parler en cas de souci, à l’école comme à la maison ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-rel-04",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Identifier une personne de confiance (adulte, enfant), apprendre à faire appel à eux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Certains comportements restent interdits, même avec un adulte de confiance",
+      "description": "Comprendre que la confiance n’autorise pas tout : certains gestes ou comportements restent interdits, même de la part d’un adulte que l’on connaît bien, et si quelque chose met mal à l’aise, on peut changer de personne de confiance.",
+      "officialObjectives": [
+        "Savoir qu’il existe des comportements interdits même avec un adulte de confiance."
+      ],
+      "evidence": [
+        "Explique que certains comportements sont interdits, même avec un adulte de confiance.",
+        "Repère ce qui pourrait troubler la confiance et provoquer un sentiment de malaise ou de peur.",
+        "Explique qu’on peut changer de personne de confiance si quelque chose fait peur ou met mal à l’aise dans la relation."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que, même avec un adulte que l’on connaît bien, certains gestes sont interdits, et qu’on peut en parler à quelqu’un d’autre si quelque chose met mal à l’aise ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-rel-05",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Identifier une personne de confiance (adulte, enfant), apprendre à faire appel à eux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Distinguer un secret d’une situation qu’il faut confier",
+      "description": "Comprendre qu’un secret ne doit pas faire de mal : une surprise comme un cadeau peut rester secrète, mais une situation de malaise, de souffrance, de danger ou de violence doit être racontée à un adulte de confiance.",
+      "officialObjectives": [
+        "Distinguer ce que l’on peut garder pour soi ou entre enfants (un secret), d’une situation de danger ou de violence qu’il est important de partager avec un adulte de confiance."
+      ],
+      "evidence": [
+        "Décrit, à partir d’un album sur les secrets, les émotions des personnages face au secret reçu.",
+        "Donne un exemple de secret positif : un poème, la fabrication d’un cadeau ou d’une carte.",
+        "Explique qu’une situation de malaise, de souffrance ou de danger ne doit pas rester un secret et doit être partagée avec un adulte de confiance."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire la différence entre un « bon secret », comme un cadeau surprise, et un secret qui fait mal et qu’il faut raconter à un adulte de confiance ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-rel-06",
+      "programme": "evar-c1",
+      "type": "META",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Identifier une personne de confiance (adulte, enfant), apprendre à faire appel à eux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Être attentif à ses sensations",
+      "description": "Apprendre à remarquer ce que l’on ressent dans son corps pendant différentes activités, puis à le dire.",
+      "officialObjectives": [
+        "Renforcer son attention à ses sensations."
+      ],
+      "evidence": [
+        "Porte attention à ses sensations lors d’activités variées.",
+        "Exprime ensuite son ressenti, à l’oral ou à l’écrit."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Après une activité, est-ce que {{prenom}} sait dire ce que son corps a ressenti (chaud, fatigué, bien, mal à l’aise…) ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-rel-07",
+      "programme": "evar-c1",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Identifier une personne de confiance (adulte, enfant), apprendre à faire appel à eux",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Savoir demander de l’aide pour soi ou pour les autres",
+      "description": "En cas de difficulté, de conflit ou de douleur, savoir demander de l’aide, pour soi ou pour un camarade, avec une formule ou un signe appris en classe.",
+      "officialObjectives": [
+        "Savoir demander de l’aide pour soi ou pour les autres."
+      ],
+      "evidence": [
+        "Utilise une formule ou un outil proposé par l’enseignant pour demander de l’aide : dire « j’ai besoin d’aide », lever une carte avec un symbole.",
+        "Demande de l’aide face à une tâche difficile, un conflit avec un autre élève ou une douleur.",
+        "Se rend au « coin de l’aide » de la classe en cas de besoin.",
+        "Demande de l’aide pour un camarade en difficulté."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} ose dire « j’ai besoin d’aide » à un adulte quand ça ne va pas, ou quand un camarade a un souci ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-soc-01",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Vivre l’égalité entre les filles et les garçons. Découvrir les différentes structures familiales et les respecter",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Développer toutes sortes de compétences, qu’on soit fille ou garçon",
+      "description": "Comprendre qu’on peut tout apprendre et tout essayer, quel que soit son sexe : tous les coins jeux (cuisine, garage, bricolage, déguisement) et toutes les activités sont ouverts à tous.",
+      "officialObjectives": [
+        "Prendre conscience qu’il est possible d’acquérir et de développer des compétences diversifiées, quel que soit son sexe."
+      ],
+      "evidence": [
+        "Utilise tous les espaces de jeux de la classe (coin cuisine, garage, bricolage, déguisement), sans les réserver aux filles ou aux garçons.",
+        "Participe aux activités artistiques et physiques proposées à tous.",
+        "Dit qu’une fille ou un garçon peut apprendre et développer les mêmes compétences."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} joue volontiers à tous les jeux de la classe (cuisine, garage, bricolage, déguisement), en sachant qu’ils sont pour tout le monde ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-soc-02",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Vivre l’égalité entre les filles et les garçons. Découvrir les différentes structures familiales et les respecter",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Découvrir et respecter les différentes structures familiales",
+      "description": "À partir de ce que l’enfant observe autour de lui, découvrir que les familles ne sont pas toutes composées de la même façon, et les respecter toutes.",
+      "officialObjectives": [
+        "Appréhender, comprendre et respecter les différentes structures familiales à partir de ce que l’élève a observé dans son environnement proche à cet âge."
+      ],
+      "evidence": [
+        "Décrit sa famille et son environnement proche, par exemple avec son cahier de vie.",
+        "Observe différents types de familles sur des images, des photographies ou dans des récits.",
+        "Dit, à partir d’albums, ce qu’est une famille.",
+        "Parle de sa famille avec d’autres élèves et écoute les autres parler de la leur."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire sa famille et comprend que les familles des copains peuvent être différentes et sont toutes à respecter ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-ms-soc-03",
+      "programme": "evar-c1",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Vivre l’égalité entre les filles et les garçons. Découvrir les différentes structures familiales et les respecter",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Aller vers les autres et créer des liens",
+      "description": "Apprendre à aller vers l’autre et à entrer en relation avec ses camarades, par exemple en jouant ensemble ou en parlant de sa famille.",
+      "officialObjectives": [
+        "Développer des liens sociaux (aller vers l’autre, entrer en relation, etc.)."
+      ],
+      "evidence": [
+        "Va vers un autre enfant pour jouer ou échanger.",
+        "Partage les espaces de jeux et les activités avec des camarades variés.",
+        "Parle de sa famille avec d’autres élèves."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} va facilement vers d’autres enfants pour jouer ou discuter ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-gs-corps-01",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Connaître son corps, ses sensations et ses émotions",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Identifier ses émotions et celles des autres",
+      "description": "Reconnaître ce que l’on ressent et ce que ressentent les autres, notamment grâce aux signes visibles sur le corps et le visage.",
+      "officialObjectives": [
+        "Identifier ses émotions et sentiments et celles des autres."
+      ],
+      "evidence": [
+        "Reconnaît ou dessine un personnage joyeux ou triste à partir d’une photo ou d’un tableau.",
+        "Identifie les manifestations physiques des émotions.",
+        "Mime ou recrée les expressions d’un camarade en lien avec une émotion."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "En regardant une photo ou un tableau, est-ce que {{prenom}} sait dire si une personne est joyeuse ou triste, et à quoi on le voit ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-gs-corps-02",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Connaître son corps, ses sensations et ses émotions",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Comprendre qu’on ne ressent pas tous la même chose",
+      "description": "Prendre conscience qu’un même goût, un même bruit ou un même événement ne provoque pas les mêmes sensations ni les mêmes réactions chez tout le monde.",
+      "officialObjectives": [
+        "Prendre conscience de la différence de sensations selon les personnes et du fait qu’un même évènement n’engendre pas la même réaction chez tous."
+      ],
+      "evidence": [
+        "Nomme son ressenti en découvrant les différents sens (voir, entendre, goûter, sentir, toucher), à l’oral ou à l’écrit.",
+        "Observe que les réactions peuvent ne pas être les mêmes chez tous.",
+        "Explique qu’un même évènement n’engendre pas la même réaction chez tout le monde."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend qu’un même goût, un même bruit ou une même situation peut plaire à l’un et déplaire à l’autre ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-gs-corps-03",
+      "programme": "evar-c1",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Connaître son corps, ses sensations et ses émotions",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Exprimer clairement ce que l’on ressent",
+      "description": "Apprendre à dire clairement ce que l’on ressent, en particulier lors d’un conflit, dans le respect de l’autre, et savoir vers quel adulte se tourner en cas de difficulté.",
+      "officialObjectives": [
+        "Communiquer de façon efficace et constructive."
+      ],
+      "evidence": [
+        "S’exprime par des messages clairs, en particulier pour dire ses émotions.",
+        "Exprime clairement ses émotions, dans le respect de l’autre, lors d’un temps prévu après un conflit.",
+        "Repère les adultes capables d’apporter de l’aide en cas de difficulté."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Lors d’une dispute, est-ce que {{prenom}} arrive à dire clairement ce qui ne va pas et ce que cela fait ressentir, en respectant l’autre ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-gs-rel-01",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Identifier différents types de sentiments dans sa relation à l’autre",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Identifier différents types de sentiments : l’amitié, l’amour",
+      "description": "Comprendre qu’on n’éprouve pas la même chose pour tout le monde : il y a les personnes qu’on aime bien, avec qui on est à l’aise, qui nous écoutent ou nous aident.",
+      "officialObjectives": [
+        "Identifier différents types de sentiments (par exemple, l’amitié, l’amour)."
+      ],
+      "evidence": [
+        "Distingue différents types de sentiments, par exemple l’amitié et l’amour.",
+        "Décrit ses relations : « une personne que j’aime bien », « avec qui je suis à l’aise », « qui m’écoute quand je parle », « qui va toujours essayer de m’aider ».",
+        "Exprime les émotions que procure une relation."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire la différence entre l’amitié et l’amour, et dire ce qu’on ressent pour une personne qu’on aime bien ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-gs-rel-02",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Identifier différents types de sentiments dans sa relation à l’autre",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Comprendre ce qu’est l’amitié",
+      "description": "Comprendre ce qui fait une amitié (la confiance, l’échange, le respect, le soutien, l’entraide) et savoir qu’on peut dire non à un ami sans que cela abîme l’amitié.",
+      "officialObjectives": [
+        "Définir et prendre conscience de ce qu’est l’amitié."
+      ],
+      "evidence": [
+        "Décrit les composantes positives d’une relation (confiance, échange, respect, soutien, empathie, entraide) et comment les exprimer.",
+        "Exprime ses ressentis après un jeu de confiance de type colin-maillard (choix du partenaire, émotions).",
+        "Explique qu’on peut refuser une proposition sans remettre en question une amitié."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qu’est un ami et comprend qu’on peut dire non à un ami sans cesser d’être amis ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-gs-rel-03",
+      "programme": "evar-c1",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Identifier différents types de sentiments dans sa relation à l’autre",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Créer des liens positifs et nouer des amitiés",
+      "description": "Aller vers les autres, y compris en dehors de son groupe d’amis, coopérer dans des jeux et des activités, et régler les désaccords avec un « message clair ».",
+      "officialObjectives": [
+        "Développer des liens sociaux positifs (par exemple, aller vers l’autre, entrer en relation, nouer des amitiés)."
+      ],
+      "evidence": [
+        "Participe à des activités coopératives avec d’autres élèves, y compris hors de son groupe d’amis (parcours de motricité, jeux de société collaboratifs).",
+        "Exprime ce que l’on ressent quand on va demander quelque chose à quelqu’un qu’on connaît ou non.",
+        "Utilise un « message clair » lors d’un conflit pour exprimer à l’autre la contrariété vécue face à son comportement."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait jouer et coopérer avec des enfants qui ne sont pas ses amis habituels ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-gs-soc-01",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Découvrir les ressemblances et les différences entre les autres et soi, respecter les autres dans leur différence ; être respecté par eux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Ressemblances et différences physiques entre filles et garçons",
+      "description": "Observer ce qui rapproche et ce qui distingue physiquement les filles et les garçons, et plus largement les personnes entre elles.",
+      "officialObjectives": [
+        "Identifier les ressemblances et les différences physiques entre les filles et les garçons."
+      ],
+      "evidence": [
+        "Identifie les ressemblances et les différences physiques entre les filles et les garçons.",
+        "Identifie des ressemblances et des différences entre les personnages d’un album.",
+        "Décrit ces ressemblances et ces différences sous la forme d’un texte."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, avec des mots simples, ce qui est pareil et ce qui est différent dans le corps des filles et des garçons ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-gs-soc-02",
+      "programme": "evar-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Découvrir les ressemblances et les différences entre les autres et soi, respecter les autres dans leur différence ; être respecté par eux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Traiter l’autre avec respect et mesurer l’effet de ses paroles",
+      "description": "Comprendre ce que veut dire respecter quelqu’un, et que nos mots et nos gestes ont des effets sur ce que ressentent les autres.",
+      "officialObjectives": [
+        "Décrire ce que signifie traiter quelqu’un avec respect et identifier les effets de ses paroles et de ses actes sur les autres."
+      ],
+      "evidence": [
+        "Décrit ce que signifie traiter quelqu’un avec respect.",
+        "Décrit ce que ressentent les personnages d’une image ou d’une photographie.",
+        "Imagine un dialogue entre des personnages exprimant leurs pensées et leurs émotions.",
+        "Propose et pratique des actions qui favorisent l’égalité entre les filles et les garçons, par exemple pour se répartir les espaces de la cour."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} se rend compte qu’une parole ou un geste peut faire de la peine, et sait dire ce que veut dire « respecter » un camarade ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    },
+    {
+      "id": "fr-eva-gs-soc-03",
+      "programme": "evar-c1",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Découvrir les ressemblances et les différences entre les autres et soi, respecter les autres dans leur différence ; être respecté par eux",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Développer l’empathie, la coopération et l’entraide",
+      "description": "Se mettre à la place de l’autre et agir avec lui : collaborer, coopérer, s’entraider dans les jeux et les activités de la classe.",
+      "officialObjectives": [
+        "Développer l’empathie et des relations sociales constructives (comportements tels que la collaboration, la coopération, l’entraide)."
+      ],
+      "evidence": [
+        "Participe à des jeux et activités collaboratifs ou coopératifs (jeux de société, co-construction).",
+        "Tient compte de ce que ressent l’autre dans le jeu.",
+        "S’entraide avec ses camarades pour réaliser une tâche commune."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} aime les jeux où l’on gagne ensemble, et pense à aider un camarade en difficulté ?",
+      "source": {
+        "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-eva-ps-corps-02",
+      "prerequisiteId": "fr-eva-ps-corps-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Reconnaître les parties intimes suppose de connaître le nom des parties du corps."
+    },
+    {
+      "topicId": "fr-eva-ps-corps-04",
+      "prerequisiteId": "fr-eva-ps-corps-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Repérer les espaces d’intimité suppose de comprendre ce qu’est l’intimité."
+    },
+    {
+      "topicId": "fr-eva-ps-rel-02",
+      "prerequisiteId": "fr-eva-ps-rel-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Respecter un refus s’appuie sur l’expérience de dire soi-même oui ou non."
+    },
+    {
+      "topicId": "fr-eva-ms-corps-01",
+      "prerequisiteId": "fr-eva-ps-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Nommer les différentes parties du corps » (PS)."
+    },
+    {
+      "topicId": "fr-eva-ms-rel-02",
+      "prerequisiteId": "fr-eva-ms-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Définir un adulte de confiance suppose de comprendre la notion de confiance."
+    },
+    {
+      "topicId": "fr-eva-ms-rel-03",
+      "prerequisiteId": "fr-eva-ms-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Identifier ses adultes de confiance suppose de savoir ce qu’est un adulte de confiance."
+    },
+    {
+      "topicId": "fr-eva-ms-rel-04",
+      "prerequisiteId": "fr-eva-ms-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les limites de la confiance s’appuient sur la définition de l’adulte de confiance."
+    },
+    {
+      "topicId": "fr-eva-ms-rel-04",
+      "prerequisiteId": "fr-eva-ps-corps-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Savoir que certains gestes sont interdits s’appuie sur la notion d’intimité (PS)."
+    },
+    {
+      "topicId": "fr-eva-ms-rel-05",
+      "prerequisiteId": "fr-eva-ms-rel-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Partager une situation de danger suppose de savoir à quel adulte de confiance s’adresser."
+    },
+    {
+      "topicId": "fr-eva-ms-rel-07",
+      "prerequisiteId": "fr-eva-ms-rel-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Demander de l’aide est plus facile quand on sait à qui s’adresser."
+    },
+    {
+      "topicId": "fr-eva-ms-soc-01",
+      "prerequisiteId": "fr-eva-ps-soc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Activités et métiers ne sont pas réservés aux filles ou aux garçons » (PS)."
+    },
+    {
+      "topicId": "fr-eva-gs-corps-01",
+      "prerequisiteId": "fr-eva-ms-corps-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Identifier quatre émotions de base » (MS)."
+    },
+    {
+      "topicId": "fr-eva-gs-corps-02",
+      "prerequisiteId": "fr-eva-ms-rel-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer les sensations suppose d’être attentif aux siennes (MS)."
+    },
+    {
+      "topicId": "fr-eva-gs-corps-03",
+      "prerequisiteId": "fr-eva-gs-corps-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Exprimer clairement ses émotions suppose de les identifier."
+    },
+    {
+      "topicId": "fr-eva-gs-rel-01",
+      "prerequisiteId": "fr-eva-ms-corps-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Distinguer des sentiments s’appuie sur la reconnaissance des émotions (MS)."
+    },
+    {
+      "topicId": "fr-eva-gs-rel-02",
+      "prerequisiteId": "fr-eva-gs-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Définir l’amitié suppose de la distinguer des autres sentiments."
+    },
+    {
+      "topicId": "fr-eva-gs-rel-02",
+      "prerequisiteId": "fr-eva-ms-rel-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La confiance est une composante de l’amitié (MS)."
+    },
+    {
+      "topicId": "fr-eva-gs-rel-03",
+      "prerequisiteId": "fr-eva-ms-soc-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Aller vers les autres et créer des liens » (MS)."
+    },
+    {
+      "topicId": "fr-eva-gs-rel-03",
+      "prerequisiteId": "fr-eva-gs-corps-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le « message clair » est utilisé pour régler les conflits."
+    },
+    {
+      "topicId": "fr-eva-gs-soc-01",
+      "prerequisiteId": "fr-eva-ms-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge le repérage des ressemblances et différences physiques entre filles et garçons (MS)."
+    },
+    {
+      "topicId": "fr-eva-gs-soc-02",
+      "prerequisiteId": "fr-eva-gs-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Mesurer l’effet de ses paroles suppose d’identifier les émotions des autres."
+    },
+    {
+      "topicId": "fr-eva-gs-soc-03",
+      "prerequisiteId": "fr-eva-gs-soc-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’empathie s’appuie sur l’attention aux effets de ses actes sur les autres."
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

@@ -1,0 +1,3162 @@
+{
+  "programme": "maths-c3",
+  "prerequisites": [
+    {
+      "topicId": "fr-ma-cm1-num-01",
+      "prerequisiteId": "fr-ma-ce2-num-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Dénombrer une collection en faisant des groupes de dix, cent ou mille » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-02",
+      "prerequisiteId": "fr-ma-ce2-num-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire une collection d’un nombre donné d’objets » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-03",
+      "prerequisiteId": "fr-ma-ce2-num-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relations entre unités, dizaines, centaines et milliers » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-04",
+      "prerequisiteId": "fr-ma-ce2-num-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire, écrire et dire les nombres jusqu’à 10 000 » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-05",
+      "prerequisiteId": "fr-ma-ce2-num-06",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la numération de position étudiée depuis le CP se renforce et s’étend au CM1"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-06",
+      "prerequisiteId": "fr-ma-ce2-num-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Passer d’une représentation d’un nombre à une autre » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-07",
+      "prerequisiteId": "fr-ma-ce2-num-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer, encadrer et intercaler des nombres (=, <, >) » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-08",
+      "prerequisiteId": "fr-ma-ce2-num-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer, encadrer et intercaler des nombres (=, <, >) » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-09",
+      "prerequisiteId": "fr-ma-ce2-num-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Ranger des nombres dans l’ordre croissant ou décroissant » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-10",
+      "prerequisiteId": "fr-ma-ce2-num-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer et lire des nombres sur une demi-droite graduée » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-11",
+      "prerequisiteId": "fr-ma-ce2-ope-04",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la notion de multiple, introduite au cycle 2, est réactivée au CM1"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-11",
+      "prerequisiteId": "fr-ma-ce1-ope-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les multiples de 2 sont les nombres pairs vus au CE1"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-12",
+      "prerequisiteId": "fr-ma-ce2-ope-04",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la notion de multiple, introduite au cycle 2, est réactivée au CM1"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-12",
+      "prerequisiteId": "fr-ma-ce2-cmf-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": false,
+      "reason": "Le programme dit que, hors critères de divisibilité, les élèves s’appuient sur les tables de multiplication"
+    },
+    {
+      "topicId": "fr-ma-cm1-num-13",
+      "prerequisiteId": "fr-ma-ce2-ope-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Savoir si 7 divise 42, c’est savoir si le partage de 42 en 7 tombe juste"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-01",
+      "prerequisiteId": "fr-ma-ce1-fra-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que, comme au CE1, les fractions représentent une partie d’un tout partagé en parts égales"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-01",
+      "prerequisiteId": "fr-ma-ce2-fra-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": false,
+      "reason": "Le programme dit que, dans la continuité du CE2, les fractions servent à mesurer des grandeurs"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-02",
+      "prerequisiteId": "fr-ma-ce2-fra-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Écrire 7/4 = 4/4 + 3/4 demande d’additionner des fractions de même dénominateur"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-03",
+      "prerequisiteId": "fr-ma-ce2-fra-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Écrire 1 + 3/4 = 7/4 demande d’additionner des fractions de même dénominateur"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-04",
+      "prerequisiteId": "fr-ma-ce2-num-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Encadrer 7/4 entre 1 et 2 reprend l’encadrement des nombres entiers"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-05",
+      "prerequisiteId": "fr-ma-ce2-fra-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Tracer un segment de longueur fractionnaire grâce aux fractions égales » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-05",
+      "prerequisiteId": "fr-ma-ce2-num-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir placer des entiers sur une demi-droite graduée"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-06",
+      "prerequisiteId": "fr-ma-ce2-num-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir lire des entiers sur une demi-droite graduée"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-07",
+      "prerequisiteId": "fr-ma-ce2-fra-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer des fractions quand un dénominateur est multiple de l’autre » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-08",
+      "prerequisiteId": "fr-ma-ce2-fra-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Ajouter ou soustraire des fractions dont un dénominateur est multiple de l’autre » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-09",
+      "prerequisiteId": "fr-ma-ce2-pb-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Un tiers de 12 billes, c’est la valeur d’une part quand on partage 12 en 3"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-09",
+      "prerequisiteId": "fr-ma-ce1-fra-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut connaître les fractions unitaires d’un tout"
+    },
+    {
+      "topicId": "fr-ma-cm1-fra-09",
+      "prerequisiteId": "fr-ma-ce2-cmf-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Prendre la moitié d’une quantité s’appuie sur les moitiés connues"
+    },
+    {
+      "topicId": "fr-ma-cm1-dec-02",
+      "prerequisiteId": "fr-ma-ce2-num-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Dix d’un rang font un du rang suivant, comme entre unités, dizaines et centaines"
+    },
+    {
+      "topicId": "fr-ma-cm1-dec-02",
+      "prerequisiteId": "fr-ma-ce2-fra-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Voir que 10/100 = 1/10 utilise les fractions égales"
+    },
+    {
+      "topicId": "fr-ma-cm1-dec-04",
+      "prerequisiteId": "fr-ma-ce2-fra-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Écrire 23/10 = 2 + 3/10 demande d’additionner des fractions de même dénominateur"
+    },
+    {
+      "topicId": "fr-ma-cm1-dec-05",
+      "prerequisiteId": "fr-ma-ce2-num-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Reprend les décompositions selon la valeur des chiffres, comme (4 × 1 000) + (6 × 100)"
+    },
+    {
+      "topicId": "fr-ma-cm1-dec-06",
+      "prerequisiteId": "fr-ma-ce2-fra-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer 3/10 et 25/100 revient à comparer des fractions dont un dénominateur est multiple de l’autre"
+    },
+    {
+      "topicId": "fr-ma-cm1-dec-07",
+      "prerequisiteId": "fr-ma-ce2-num-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Reprend le rangement des nombres entiers"
+    },
+    {
+      "topicId": "fr-ma-cm1-dec-08",
+      "prerequisiteId": "fr-ma-ce2-mon-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’écriture à virgule des prix (2,05 €) prépare le passage à la virgule"
+    },
+    {
+      "topicId": "fr-ma-cm1-dec-09",
+      "prerequisiteId": "fr-ma-ce2-mon-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que les nombres décimaux, abordés au cycle 2 par l’écriture à virgule des prix, sont réintroduits au CM1"
+    },
+    {
+      "topicId": "fr-ma-cm1-dec-10",
+      "prerequisiteId": "fr-ma-ce2-num-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir placer des entiers sur une demi-droite graduée"
+    },
+    {
+      "topicId": "fr-ma-cm1-dec-12",
+      "prerequisiteId": "fr-ma-ce2-num-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Arrondir, c’est encadrer entre deux entiers consécutifs et choisir le plus proche"
+    },
+    {
+      "topicId": "fr-ma-cm1-dec-13",
+      "prerequisiteId": "fr-ma-ce2-num-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Reprend le rangement des nombres entiers"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmf-01",
+      "prerequisiteId": "fr-ma-ce2-cmf-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la mémorisation des tables d’addition et de multiplication se poursuit au cours moyen"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmf-01",
+      "prerequisiteId": "fr-ma-ce2-cmf-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la mémorisation des tables d’addition et de multiplication se poursuit au cours moyen"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmf-01",
+      "prerequisiteId": "fr-ma-ce2-cmf-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Doubles et moitiés des nombres usuels » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmf-01",
+      "prerequisiteId": "fr-ma-ce2-cmf-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Multiples de 25 et décompositions multiplicatives de 60 » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmf-02",
+      "prerequisiteId": "fr-ma-ce2-fra-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître des fractions égales (par exemple 6/8 = 3/4) » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmn-01",
+      "prerequisiteId": "fr-ma-ce2-cmp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Automatiser ses procédures de calcul mental (15 résultats en 3 minutes) » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmn-02",
+      "prerequisiteId": "fr-ma-ce2-cmn-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Multiplier un nombre entier par 10 ou par 100 » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmn-03",
+      "prerequisiteId": "fr-ma-ce2-cmn-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Multiplier 3,5 par 10 étend la multiplication d’un entier par 10"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmn-04",
+      "prerequisiteId": "fr-ma-ce2-cmn-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Diviser par 10 est l’opération inverse de la multiplication par 10"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmn-04",
+      "prerequisiteId": "fr-ma-ce2-ope-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut comprendre le sens de la division"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmp-01",
+      "prerequisiteId": "fr-ma-ce2-cmp-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que les procédures de calcul mental du cycle 2 sont utilisées tout au long du CM1"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmp-01",
+      "prerequisiteId": "fr-ma-ce2-cmp-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que les procédures de calcul mental du cycle 2 sont utilisées tout au long du CM1"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmp-02",
+      "prerequisiteId": "fr-ma-ce2-cmp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Multiplier un nombre inférieur à 10 par un nombre entier de dizaines » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmp-03",
+      "prerequisiteId": "fr-ma-ce2-cmp-04",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que les procédures de calcul mental du cycle 2 sont utilisées tout au long du CM1"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmp-04",
+      "prerequisiteId": "fr-ma-ce2-cmf-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Multiplier par 5, c’est multiplier par 10 puis prendre la moitié"
+    },
+    {
+      "topicId": "fr-ma-cm1-cmp-05",
+      "prerequisiteId": "fr-ma-ce2-cmp-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Multiplier un nombre de 11 à 99 par un nombre inférieur à 10 (distributivité) » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-ope-01",
+      "prerequisiteId": "fr-ma-ce2-num-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Estimer demande d’encadrer un nombre entre deux dizaines, centaines ou milliers"
+    },
+    {
+      "topicId": "fr-ma-cm1-ope-02",
+      "prerequisiteId": "fr-ma-ce2-num-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les décompositions comme (4 × 1 000) + (6 × 100) utilisent déjà des parenthèses"
+    },
+    {
+      "topicId": "fr-ma-cm1-ope-03",
+      "prerequisiteId": "fr-ma-ce2-mon-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser et calculer une addition de montants en euros » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-ope-04",
+      "prerequisiteId": "fr-ma-ce2-mon-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser et calculer une soustraction de montants en euros » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-ope-05",
+      "prerequisiteId": "fr-ma-ce2-ope-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser et calculer une multiplication (par exemple 16 × 548) » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-ope-06",
+      "prerequisiteId": "fr-ma-ce2-ope-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Reprend la technique de la multiplication posée des nombres entiers"
+    },
+    {
+      "topicId": "fr-ma-cm1-ope-07",
+      "prerequisiteId": "fr-ma-ce2-ope-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut comprendre le sens de la division (partage, groupements)"
+    },
+    {
+      "topicId": "fr-ma-cm1-ope-07",
+      "prerequisiteId": "fr-ma-ce2-pb-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La division posée calcule la valeur d’une part dans un partage"
+    },
+    {
+      "topicId": "fr-ma-cm1-pb-01",
+      "prerequisiteId": "fr-ma-ce2-pb-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et reformuler l’énoncé d’un problème » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-pb-02",
+      "prerequisiteId": "fr-ma-ce2-pb-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Rédiger une réponse et vérifier si le résultat est possible » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-pb-03",
+      "prerequisiteId": "fr-ma-ce2-pb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes additifs en une étape de type parties-tout » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-pb-04",
+      "prerequisiteId": "fr-ma-ce2-pb-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes additifs de comparaison en une étape » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-pb-05",
+      "prerequisiteId": "fr-ma-ce2-pb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes additifs en deux étapes » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-pb-06",
+      "prerequisiteId": "fr-ma-ce2-pb-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes multiplicatifs : chercher la valeur du tout » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-pb-07",
+      "prerequisiteId": "fr-ma-ce2-pb-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes de partage : chercher le nombre de parts » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-pb-08",
+      "prerequisiteId": "fr-ma-ce2-pb-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes de partage : chercher la valeur d’une part » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-pb-09",
+      "prerequisiteId": "fr-ma-ce2-pb-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes de comparaison multiplicative (« fois plus », « fois moins ») » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-pb-10",
+      "prerequisiteId": "fr-ma-ce2-pb-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes mixtes en deux ou trois étapes » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-pb-11",
+      "prerequisiteId": "fr-ma-ce2-pb-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes de combinaisons (produits cartésiens) avec un tableau ou un arbre » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-pb-12",
+      "prerequisiteId": "fr-ma-ce2-num-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le problème des lots de cent (combien de lots pour 1 235 filtres ?) est un premier problème d’optimisation"
+    },
+    {
+      "topicId": "fr-ma-cm1-alg-01",
+      "prerequisiteId": "fr-ma-ce2-cmf-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les égalités à trous des tables, comme 4 + … = 12, sont un premier cas"
+    },
+    {
+      "topicId": "fr-ma-cm1-alg-01",
+      "prerequisiteId": "fr-ma-ce2-cmf-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les égalités à trous des tables, comme 7 × … = 42, sont un premier cas"
+    },
+    {
+      "topicId": "fr-ma-cm1-alg-02",
+      "prerequisiteId": "fr-ma-ce2-pb-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le schéma en barre représente déjà la quantité inconnue"
+    },
+    {
+      "topicId": "fr-ma-cm1-alg-03",
+      "prerequisiteId": "fr-ma-ce2-pb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le schéma en barre des problèmes additifs sert à modéliser le nombre inconnu"
+    },
+    {
+      "topicId": "fr-ma-cm1-alg-03",
+      "prerequisiteId": "fr-ma-ce2-pb-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le schéma en barre des problèmes multiplicatifs sert à modéliser le nombre inconnu"
+    },
+    {
+      "topicId": "fr-ma-cm1-alg-04",
+      "prerequisiteId": "fr-ma-ce2-cmp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Exécuter un programme de calcul enchaîne des calculs mentaux simples"
+    },
+    {
+      "topicId": "fr-ma-cm1-alg-05",
+      "prerequisiteId": "fr-ma-ce1-num-13",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit qu’à partir du CE1 l’élève a appris à poursuivre des suites évolutives comme 1, 2, 4, 7, 11, 16"
+    },
+    {
+      "topicId": "fr-ma-cm1-alg-06",
+      "prerequisiteId": "fr-ma-ce1-num-13",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver un élément dans une suite évolutive » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-cm1-alg-06",
+      "prerequisiteId": "fr-ma-ce1-num-12",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Repérer le motif qui se répète prépare les suites de motifs évolutives"
+    },
+    {
+      "topicId": "fr-ma-cm1-lon-01",
+      "prerequisiteId": "fr-ma-ce2-lon-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Unités de longueur (km, m, dm, cm, mm) et conversions » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-lon-03",
+      "prerequisiteId": "fr-ma-ce2-lon-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Longueurs de référence, estimation et choix de l’unité » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-lon-04",
+      "prerequisiteId": "fr-ma-ce2-lon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer et comparer des longueurs exprimées dans des unités différentes » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-lon-05",
+      "prerequisiteId": "fr-ma-ce2-lon-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Longueurs de référence, estimation et choix de l’unité » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-lon-07",
+      "prerequisiteId": "fr-ma-ce2-lon-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre ce qu’est le périmètre d’une figure » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-lon-08",
+      "prerequisiteId": "fr-ma-ce2-lon-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer le périmètre d’un polygone avec une règle graduée » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-mas-01",
+      "prerequisiteId": "fr-ma-ce2-mas-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Unités de masse (g, kg, t) et conversions » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-mas-03",
+      "prerequisiteId": "fr-ma-ce2-mas-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Masses de référence, estimation et choix de l’unité » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-mas-04",
+      "prerequisiteId": "fr-ma-ce2-mas-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer et ranger des masses » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-mas-05",
+      "prerequisiteId": "fr-ma-ce2-mas-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Masses de référence, estimation et choix de l’unité » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-con-01",
+      "prerequisiteId": "fr-ma-ce2-con-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Mesurer des contenances en L, dL et cL » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-con-02",
+      "prerequisiteId": "fr-ma-ce2-con-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relations entre litre, décilitre et centilitre ; conversions » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-con-03",
+      "prerequisiteId": "fr-ma-ce2-con-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Estimer la contenance d’un récipient courant » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-con-04",
+      "prerequisiteId": "fr-ma-ce2-con-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer des contenances (à l’œil, par transvasement, avec un étalon) » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-air-01",
+      "prerequisiteId": "fr-ma-ce2-con-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer sans mesurer, comme pour les contenances au CE2"
+    },
+    {
+      "topicId": "fr-ma-cm1-air-01",
+      "prerequisiteId": "fr-ma-ce2-lon-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer des grandeurs sans les mesurer, comme les périmètres au compas"
+    },
+    {
+      "topicId": "fr-ma-cm1-air-02",
+      "prerequisiteId": "fr-ma-ce2-fra-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Mesurer en reportant une unité, comme avec la bande-unité du CE2"
+    },
+    {
+      "topicId": "fr-ma-cm1-air-03",
+      "prerequisiteId": "fr-ma-ce2-lon-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le centimètre carré est l’aire d’un carré de 1 cm de côté"
+    },
+    {
+      "topicId": "fr-ma-cm1-ang-01",
+      "prerequisiteId": "fr-ma-ce2-geo-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit qu’au cycle 2 les élèves ont commencé à évoquer les angles en parlant d’angle droit"
+    },
+    {
+      "topicId": "fr-ma-cm1-ang-02",
+      "prerequisiteId": "fr-ma-ce2-geo-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La notation des angles prolonge le codage de l’angle droit"
+    },
+    {
+      "topicId": "fr-ma-cm1-ang-03",
+      "prerequisiteId": "fr-ma-ce1-geo-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Angle droit avec l’équerre ; angles aigus et obtus » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-cm1-tps-01",
+      "prerequisiteId": "fr-ma-ce2-tps-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que le travail sur l’heure et les durées s’appuie sur ce qui a été mené au cycle 2"
+    },
+    {
+      "topicId": "fr-ma-cm1-tps-02",
+      "prerequisiteId": "fr-ma-ce2-tps-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que le travail sur l’heure et les durées s’appuie sur ce qui a été mené au cycle 2"
+    },
+    {
+      "topicId": "fr-ma-cm1-tps-03",
+      "prerequisiteId": "fr-ma-ce2-tps-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que le travail sur l’heure et les durées s’appuie sur ce qui a été mené au cycle 2"
+    },
+    {
+      "topicId": "fr-ma-cm1-tps-04",
+      "prerequisiteId": "fr-ma-ce2-tps-04",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que le travail sur l’heure et les durées s’appuie sur ce qui a été mené au cycle 2"
+    },
+    {
+      "topicId": "fr-ma-cm1-geo-01",
+      "prerequisiteId": "fr-ma-ce2-geo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le vocabulaire géométrique (polygone, rayon, diagonale…) » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-geo-02",
+      "prerequisiteId": "fr-ma-ce2-geo-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire des figures sur papier uni avec règle, équerre et compas » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-geo-03",
+      "prerequisiteId": "fr-ma-ce2-geo-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Coder un angle droit et des côtés de même longueur » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-geo-04",
+      "prerequisiteId": "fr-ma-ce2-geo-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir tracer un cercle au compas"
+    },
+    {
+      "topicId": "fr-ma-cm1-geo-07",
+      "prerequisiteId": "fr-ma-ce2-geo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et nommer carré, rectangle, losange et triangles » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-geo-09",
+      "prerequisiteId": "fr-ma-ce2-geo-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reproduire une figure sur papier quadrillé » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-geo-12",
+      "prerequisiteId": "fr-ma-ce2-geo-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et tracer les axes de symétrie d’une figure » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-geo-13",
+      "prerequisiteId": "fr-ma-ce2-geo-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Compléter une figure par symétrie sur quadrillage » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-sol-01",
+      "prerequisiteId": "fr-ma-ce2-sol-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et nommer les solides usuels, y compris en perspective » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-sol-02",
+      "prerequisiteId": "fr-ma-ce2-sol-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décrire un solide avec les mots face, sommet et arête » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-sol-03",
+      "prerequisiteId": "fr-ma-ce2-sol-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nombre et nature des faces du cube et du pavé » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-sol-04",
+      "prerequisiteId": "fr-ma-ce2-sol-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nature des faces d’une pyramide » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-sol-05",
+      "prerequisiteId": "fr-ma-ce2-sol-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les faces rectangulaires du prisme droit se reconnaissent comme celles du pavé"
+    },
+    {
+      "topicId": "fr-ma-cm1-sol-06",
+      "prerequisiteId": "fr-ma-ce2-sol-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire un cube, un pavé ou une pyramide » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-sol-07",
+      "prerequisiteId": "fr-ma-ce2-sol-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître un patron de cube et le plier » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-esp-01",
+      "prerequisiteId": "fr-ma-ce1-esp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Vocabulaire des positions et situer des objets ou des personnes » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-cm1-esp-02",
+      "prerequisiteId": "fr-ma-ce1-esp-04",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit qu’au CM1 l’élève continue d’utiliser et de produire des codages de déplacements"
+    },
+    {
+      "topicId": "fr-ma-cm1-esp-03",
+      "prerequisiteId": "fr-ma-ce1-esp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire des assemblages de cubes et de pavés d’après un modèle » (CE1)"
+    },
+    {
+      "topicId": "fr-ma-cm1-don-01",
+      "prerequisiteId": "fr-ma-ce2-don-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Recueillir des données et les organiser dans un tableau » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-don-01",
+      "prerequisiteId": "fr-ma-ce2-don-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire un diagramme en barres avec une échelle adaptée » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-don-02",
+      "prerequisiteId": "fr-ma-ce2-don-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Graduer l’axe vertical d’un diagramme prépare le repère à deux axes"
+    },
+    {
+      "topicId": "fr-ma-cm1-don-02",
+      "prerequisiteId": "fr-ma-ce2-num-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Placer un point demande de lire des graduations sur chaque axe"
+    },
+    {
+      "topicId": "fr-ma-cm1-don-03",
+      "prerequisiteId": "fr-ma-ce2-don-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire un tableau à double entrée ou un diagramme en barres » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-don-04",
+      "prerequisiteId": "fr-ma-ce2-don-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Lire une courbe prolonge la lecture d’un diagramme en barres"
+    },
+    {
+      "topicId": "fr-ma-cm1-don-05",
+      "prerequisiteId": "fr-ma-ce2-don-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre des problèmes avec les données d’un tableau ou d’un diagramme » (CE2)"
+    },
+    {
+      "topicId": "fr-ma-cm1-prb-02",
+      "prerequisiteId": "fr-ma-ce2-pb-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Lister les issues s’organise dans un tableau ou un arbre, comme les combinaisons du CE2"
+    },
+    {
+      "topicId": "fr-ma-cm1-prop-01",
+      "prerequisiteId": "fr-ma-ce2-pb-06",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la proportionnalité au CM1 prolonge les problèmes multiplicatifs du cycle 2 (prix de 6 tee-shirts à 13 €)"
+    },
+    {
+      "topicId": "fr-ma-cm1-prop-01",
+      "prerequisiteId": "fr-ma-ce2-pb-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Reconnaître « 2 fois plus d’objets, 2 fois plus cher » s’appuie sur la comparaison multiplicative"
+    },
+    {
+      "topicId": "fr-ma-cm2-num-01",
+      "prerequisiteId": "fr-ma-cm1-num-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relations entre unités de numération, jusqu’aux centaines de milliers » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-num-02",
+      "prerequisiteId": "fr-ma-cm1-num-04",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit qu’en début de CM2 on travaille sur les nombres jusqu’à six chiffres étudiés au CM1"
+    },
+    {
+      "topicId": "fr-ma-cm2-num-03",
+      "prerequisiteId": "fr-ma-cm1-num-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Passer d’une représentation d’un nombre à une autre » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-num-04",
+      "prerequisiteId": "fr-ma-cm1-num-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Valeur d’un chiffre selon sa position, jusqu’aux centaines de milliers » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-num-05",
+      "prerequisiteId": "fr-ma-cm1-num-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer, encadrer et intercaler des nombres entiers (=, <, >) » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-num-05",
+      "prerequisiteId": "fr-ma-cm1-num-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser « égal à », « supérieur à », « inférieur à », « compris entre » » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-num-06",
+      "prerequisiteId": "fr-ma-cm1-num-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Ranger des nombres dans l’ordre croissant ou décroissant » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-num-07",
+      "prerequisiteId": "fr-ma-cm1-num-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer des nombres et repérer des points sur une demi-droite graduée » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-num-08",
+      "prerequisiteId": "fr-ma-cm1-num-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître les multiples de 2, de 5 et de 10 (critères de divisibilité) » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-num-09",
+      "prerequisiteId": "fr-ma-cm1-num-12",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la connaissance des notions de diviseur et de multiple est renforcée au CM2"
+    },
+    {
+      "topicId": "fr-ma-cm2-num-09",
+      "prerequisiteId": "fr-ma-cm1-num-13",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la connaissance des notions de diviseur et de multiple est renforcée au CM2"
+    },
+    {
+      "topicId": "fr-ma-cm2-fra-01",
+      "prerequisiteId": "fr-ma-cm1-fra-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire, écrire et représenter des fractions, y compris supérieures à 1 » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-fra-02",
+      "prerequisiteId": "fr-ma-cm1-fra-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire une fraction supérieure à 1 comme un entier plus une fraction » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-fra-03",
+      "prerequisiteId": "fr-ma-cm1-fra-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire un entier plus une fraction comme une seule fraction » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-fra-04",
+      "prerequisiteId": "fr-ma-cm1-fra-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Encadrer une fraction entre deux nombres entiers consécutifs » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-fra-05",
+      "prerequisiteId": "fr-ma-cm1-fra-05",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que, comme au CM1, les fractions servent à repérer des points sur une demi-droite graduée"
+    },
+    {
+      "topicId": "fr-ma-cm2-fra-06",
+      "prerequisiteId": "fr-ma-cm1-fra-06",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que, comme au CM1, les fractions servent à repérer des points sur une demi-droite graduée"
+    },
+    {
+      "topicId": "fr-ma-cm2-fra-07",
+      "prerequisiteId": "fr-ma-cm1-fra-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer des fractions et reconnaître des fractions égales » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-fra-09",
+      "prerequisiteId": "fr-ma-cm1-fra-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Additionner et soustraire des fractions » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-fra-11",
+      "prerequisiteId": "fr-ma-cm1-fra-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer une fraction d’une quantité ou d’une grandeur » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-dec-01",
+      "prerequisiteId": "fr-ma-cm1-dec-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire, écrire et représenter des fractions décimales (dixièmes, centièmes) » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-dec-02",
+      "prerequisiteId": "fr-ma-cm1-dec-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relations entre unités, dixièmes et centièmes » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-dec-03",
+      "prerequisiteId": "fr-ma-cm1-dec-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer et lire une fraction décimale sur une demi-droite graduée » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-dec-04",
+      "prerequisiteId": "fr-ma-cm1-dec-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écrire une fraction décimale comme un entier plus une fraction décimale » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-dec-05",
+      "prerequisiteId": "fr-ma-cm1-dec-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décomposer une fraction décimale en entier, dixièmes et centièmes » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-dec-06",
+      "prerequisiteId": "fr-ma-cm1-dec-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer, encadrer et intercaler des fractions décimales » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-dec-07",
+      "prerequisiteId": "fr-ma-cm1-dec-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Ranger des fractions décimales dans l’ordre croissant ou décroissant » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-dec-08",
+      "prerequisiteId": "fr-ma-cm1-dec-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Passer d’une fraction décimale à l’écriture à virgule et réciproquement » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-dec-09",
+      "prerequisiteId": "fr-ma-cm1-dec-09",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit qu’au CM2 les nombres décimaux sont travaillés dès la période 1 dans la continuité du CM1"
+    },
+    {
+      "topicId": "fr-ma-cm2-dec-10",
+      "prerequisiteId": "fr-ma-cm1-dec-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer et lire un nombre décimal sur une demi-droite graduée » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-dec-11",
+      "prerequisiteId": "fr-ma-cm1-dec-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Arrondir un nombre décimal à l’unité » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-dec-12",
+      "prerequisiteId": "fr-ma-cm1-dec-13",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer, encadrer, intercaler et ranger des nombres décimaux » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmp-01",
+      "prerequisiteId": "fr-ma-cm1-cmp-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que les procédures de calcul mental du cycle 2 et du CM1 sont utilisées tout au long du CM2"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmp-01",
+      "prerequisiteId": "fr-ma-cm1-cmp-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que les procédures de calcul mental du cycle 2 et du CM1 sont utilisées tout au long du CM2"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmp-01",
+      "prerequisiteId": "fr-ma-cm1-cmp-04",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que les procédures de calcul mental du cycle 2 et du CM1 sont utilisées tout au long du CM2"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmp-01",
+      "prerequisiteId": "fr-ma-cm1-cmn-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que les procédures de calcul mental du cycle 2 et du CM1 sont utilisées tout au long du CM2"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmp-01",
+      "prerequisiteId": "fr-ma-cm1-cmp-05",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que les procédures de calcul mental du cycle 2 et du CM1 sont utilisées tout au long du CM2"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmf-01",
+      "prerequisiteId": "fr-ma-cm1-cmf-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la mémorisation des tables d’addition et de multiplication se poursuit au cours moyen"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmf-02",
+      "prerequisiteId": "fr-ma-cm1-cmf-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la mémorisation des tables d’addition et de multiplication se poursuit au cours moyen"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmf-03",
+      "prerequisiteId": "fr-ma-cm1-cmf-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Faits numériques usuels : tables, doubles et moitiés, multiples de 25 » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmf-04",
+      "prerequisiteId": "fr-ma-cm1-cmf-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Faits numériques usuels : tables, doubles et moitiés, multiples de 25 » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmf-05",
+      "prerequisiteId": "fr-ma-cm1-cmf-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La moitié de 9 est 4,5 : il faut savoir qu’un demi s’écrit 0,5"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmf-05",
+      "prerequisiteId": "fr-ma-cm1-cmf-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S’appuie sur les moitiés des nombres pairs déjà connues"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmf-06",
+      "prerequisiteId": "fr-ma-cm1-cmf-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relations entre fractions usuelles » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmf-07",
+      "prerequisiteId": "fr-ma-cm1-cmf-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Écriture décimale des fractions usuelles (1/10 = 0,1 ; 1/100 = 0,01) » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmn-01",
+      "prerequisiteId": "fr-ma-cm1-cmn-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Ajouter ou soustraire des unités, dizaines, dixièmes… sans retenue » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmn-03",
+      "prerequisiteId": "fr-ma-cm1-cmn-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Multiplier un nombre décimal par 10 » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmn-03",
+      "prerequisiteId": "fr-ma-cm1-cmn-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Multiplier un nombre entier par 10, 100 ou 1 000 » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmn-04",
+      "prerequisiteId": "fr-ma-cm1-cmn-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Diviser un nombre décimal par 10 » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmp-03",
+      "prerequisiteId": "fr-ma-cm1-cmp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Ajouter ou soustraire 8, 9, 18, 19, 28, 29, 38 ou 39 » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmp-04",
+      "prerequisiteId": "fr-ma-cm1-cmp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Multiplier un nombre inférieur à 10 par des dizaines ou des centaines » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmp-05",
+      "prerequisiteId": "fr-ma-cm1-cmp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser la distributivité dans des cas simples » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmp-08",
+      "prerequisiteId": "fr-ma-cm1-cmp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Diviser par 4 ou 8, c’est prendre la moitié plusieurs fois, l’inverse de doubler"
+    },
+    {
+      "topicId": "fr-ma-cm2-cmp-09",
+      "prerequisiteId": "fr-ma-cm1-cmp-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Multiplier un nombre entier par 5 » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-ope-01",
+      "prerequisiteId": "fr-ma-cm1-ope-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Estimer le résultat d’une opération (ordre de grandeur) » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-ope-01",
+      "prerequisiteId": "fr-ma-cm1-dec-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Estimer avec des décimaux demande d’arrondir à l’unité"
+    },
+    {
+      "topicId": "fr-ma-cm2-ope-02",
+      "prerequisiteId": "fr-ma-cm1-ope-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Effectuer un calcul contenant des parenthèses » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-ope-03",
+      "prerequisiteId": "fr-ma-cm1-ope-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser une multiplication d’un nombre décimal par un nombre inférieur à 10 » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-ope-03",
+      "prerequisiteId": "fr-ma-cm1-ope-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser et calculer une multiplication de deux nombres entiers » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-ope-04",
+      "prerequisiteId": "fr-ma-cm1-ope-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser une division euclidienne par un nombre à un chiffre » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-01",
+      "prerequisiteId": "fr-ma-cm1-pb-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre et reformuler l’énoncé d’un problème » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-02",
+      "prerequisiteId": "fr-ma-cm1-pb-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Répondre au problème et vérifier que le résultat est vraisemblable » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-03",
+      "prerequisiteId": "fr-ma-cm1-pb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes additifs en une étape de type parties-tout » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-03",
+      "prerequisiteId": "fr-ma-cm1-pb-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes additifs de comparaison en une étape » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-04",
+      "prerequisiteId": "fr-ma-cm1-pb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes additifs en deux ou trois étapes » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-05",
+      "prerequisiteId": "fr-ma-cm1-pb-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes multiplicatifs : chercher le tout » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-05",
+      "prerequisiteId": "fr-ma-cm1-pb-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes multiplicatifs : chercher le nombre de parts » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-05",
+      "prerequisiteId": "fr-ma-cm1-pb-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes multiplicatifs : chercher la valeur d’une part » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-06",
+      "prerequisiteId": "fr-ma-cm1-pb-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes mixtes en deux ou trois étapes » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-07",
+      "prerequisiteId": "fr-ma-cm1-pb-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes de comparaison multiplicative (« fois plus », « fois moins ») » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-08",
+      "prerequisiteId": "fr-ma-cm1-pb-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes de dénombrement » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-09",
+      "prerequisiteId": "fr-ma-cm1-pb-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes d’optimisation » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-10",
+      "prerequisiteId": "fr-ma-cm1-pb-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Organiser sa recherche pour n’oublier aucun cas, comme dans les problèmes de dénombrement"
+    },
+    {
+      "topicId": "fr-ma-cm2-pb-10",
+      "prerequisiteId": "fr-ma-cm1-ope-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les algorithmes des opérations posées sont un premier contact avec les algorithmes"
+    },
+    {
+      "topicId": "fr-ma-cm2-alg-01",
+      "prerequisiteId": "fr-ma-cm1-alg-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver le nombre manquant dans une égalité à trous » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-alg-02",
+      "prerequisiteId": "fr-ma-cm1-alg-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre des problèmes algébriques » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-alg-03",
+      "prerequisiteId": "fr-ma-cm1-alg-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exécuter un programme de calcul » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-alg-04",
+      "prerequisiteId": "fr-ma-cm1-ope-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Traduire un programme en une seule expression demande des parenthèses"
+    },
+    {
+      "topicId": "fr-ma-cm2-alg-05",
+      "prerequisiteId": "fr-ma-cm1-alg-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver et formuler la règle d’une suite de nombres » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-alg-06",
+      "prerequisiteId": "fr-ma-cm1-alg-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poursuivre une suite de motifs évolutive » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-gdm-01",
+      "prerequisiteId": "fr-ma-cm1-lon-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Estimer une longueur ou une distance » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-gdm-01",
+      "prerequisiteId": "fr-ma-cm1-mas-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Estimer la masse d’un objet » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-gdm-01",
+      "prerequisiteId": "fr-ma-cm1-con-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Estimer une contenance demande de choisir l’unité adaptée"
+    },
+    {
+      "topicId": "fr-ma-cm2-gdm-02",
+      "prerequisiteId": "fr-ma-cm1-lon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relations entre unités de longueur et conversions » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-gdm-02",
+      "prerequisiteId": "fr-ma-cm1-mas-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relations entre unités de masse et conversions » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-gdm-02",
+      "prerequisiteId": "fr-ma-cm1-con-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relations entre unités de contenance et conversions » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-gdm-03",
+      "prerequisiteId": "fr-ma-cm1-lon-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes sur les côtés d’un polygone et son périmètre » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-air-01",
+      "prerequisiteId": "fr-ma-cm1-air-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer des aires sans les mesurer » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-air-01",
+      "prerequisiteId": "fr-ma-cm1-lon-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Ne pas confondre aire et périmètre suppose de savoir ce qu’est le périmètre"
+    },
+    {
+      "topicId": "fr-ma-cm2-air-02",
+      "prerequisiteId": "fr-ma-cm1-air-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Déterminer une aire avec une unité et un quadrillage » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-air-03",
+      "prerequisiteId": "fr-ma-cm1-air-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le centimètre carré pour exprimer une aire » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-air-04",
+      "prerequisiteId": "fr-ma-cm1-lon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "1 dm² = 100 cm² découle de 1 dm = 10 cm"
+    },
+    {
+      "topicId": "fr-ma-cm2-ang-01",
+      "prerequisiteId": "fr-ma-cm1-ang-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que le travail sur les angles, amorcé au CM1, se poursuit au CM2"
+    },
+    {
+      "topicId": "fr-ma-cm2-ang-02",
+      "prerequisiteId": "fr-ma-cm1-ang-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que le travail sur les angles, amorcé au CM1, se poursuit au CM2"
+    },
+    {
+      "topicId": "fr-ma-cm2-ang-03",
+      "prerequisiteId": "fr-ma-cm1-ang-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que le travail sur les angles, amorcé au CM1, se poursuit au CM2"
+    },
+    {
+      "topicId": "fr-ma-cm2-ang-05",
+      "prerequisiteId": "fr-ma-cm1-geo-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Plier un angle en deux repose sur la symétrie par pliage"
+    },
+    {
+      "topicId": "fr-ma-cm2-ang-06",
+      "prerequisiteId": "fr-ma-cm1-geo-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir reconnaître et tracer un angle droit avec l’équerre"
+    },
+    {
+      "topicId": "fr-ma-cm2-tps-01",
+      "prerequisiteId": "fr-ma-cm1-tps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire l’heure sur une horloge à aiguilles » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-tps-02",
+      "prerequisiteId": "fr-ma-cm1-tps-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer les aiguilles d’une horloge pour une heure donnée » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-tps-03",
+      "prerequisiteId": "fr-ma-cm1-tps-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Mesurer et comparer des durées en heures et minutes » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-tps-04",
+      "prerequisiteId": "fr-ma-cm1-tps-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes de durées à une ou deux étapes » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-01",
+      "prerequisiteId": "fr-ma-cm1-geo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le vocabulaire géométrique approprié » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-02",
+      "prerequisiteId": "fr-ma-cm1-geo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser la règle, l’équerre et le compas » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-03",
+      "prerequisiteId": "fr-ma-cm1-geo-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître les codages usuels en géométrie » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-03",
+      "prerequisiteId": "fr-ma-cm1-ang-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les notations des angles font partie des notations d’une figure"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-04",
+      "prerequisiteId": "fr-ma-cm1-geo-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et utiliser la perpendicularité » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-05",
+      "prerequisiteId": "fr-ma-cm1-geo-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et utiliser le parallélisme » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-06",
+      "prerequisiteId": "fr-ma-cm1-geo-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Cercle et disque : des points à une même distance du centre » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-07",
+      "prerequisiteId": "fr-ma-cm1-geo-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et nommer triangles et quadrilatères d’après leur définition » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-08",
+      "prerequisiteId": "fr-ma-cm1-geo-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Propriétés des figures usuelles : côtés parallèles, longueurs, angles » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-09",
+      "prerequisiteId": "fr-ma-cm1-geo-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reproduire des figures sur papier quadrillé ou pointé » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-09",
+      "prerequisiteId": "fr-ma-cm1-geo-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire des figures sur papier uni avec règle, équerre et compas » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-10",
+      "prerequisiteId": "fr-ma-cm1-geo-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire une figure composée en suivant un programme de construction » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-11",
+      "prerequisiteId": "fr-ma-cm1-geo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Rédiger un programme demande un vocabulaire géométrique précis"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-12",
+      "prerequisiteId": "fr-ma-cm1-geo-14",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire le symétrique d’une figure sur papier quadrillé » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-geo-12",
+      "prerequisiteId": "fr-ma-cm1-geo-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut reconnaître un axe de symétrie"
+    },
+    {
+      "topicId": "fr-ma-cm2-sol-01",
+      "prerequisiteId": "fr-ma-cm1-sol-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Nommer les solides usuels, dont le prisme droit » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-sol-02",
+      "prerequisiteId": "fr-ma-cm1-sol-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décrire un cube, un pavé, une pyramide ou un prisme droit » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-sol-02",
+      "prerequisiteId": "fr-ma-cm1-sol-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Décrire un cube ou un pavé suppose de connaître le nombre et la nature de ses faces"
+    },
+    {
+      "topicId": "fr-ma-cm2-sol-02",
+      "prerequisiteId": "fr-ma-cm1-sol-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Décrire un prisme droit suppose de connaître la nature de ses faces"
+    },
+    {
+      "topicId": "fr-ma-cm2-sol-03",
+      "prerequisiteId": "fr-ma-cm1-sol-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître un patron de cube » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-sol-04",
+      "prerequisiteId": "fr-ma-cm1-sol-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire un patron de cube » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-sol-05",
+      "prerequisiteId": "fr-ma-cm1-sol-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Reconnaître un patron de pavé prolonge le travail sur les patrons de cube"
+    },
+    {
+      "topicId": "fr-ma-cm2-dep-01",
+      "prerequisiteId": "fr-ma-cm1-esp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Vocabulaire des déplacements » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-dep-02",
+      "prerequisiteId": "fr-ma-cm1-esp-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que les codages de déplacements du CM1 se poursuivent au CM2 avec plus d’instructions"
+    },
+    {
+      "topicId": "fr-ma-cm2-dep-03",
+      "prerequisiteId": "fr-ma-cm1-esp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes sur des assemblages de cubes » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-don-01",
+      "prerequisiteId": "fr-ma-cm1-don-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Recueillir des données et les présenter en tableau ou en diagramme en barres » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-don-02",
+      "prerequisiteId": "fr-ma-cm1-don-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Recueillir des données et les présenter en tableau ou en diagramme en barres » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-don-02",
+      "prerequisiteId": "fr-ma-cm1-don-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Représenter des données par des points dans un repère » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-don-03",
+      "prerequisiteId": "fr-ma-cm1-don-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire et interpréter un tableau ou un diagramme en barres » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-don-03",
+      "prerequisiteId": "fr-ma-cm1-don-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire et interpréter une courbe » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-don-04",
+      "prerequisiteId": "fr-ma-cm1-don-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre des problèmes avec un tableau, un diagramme ou une courbe » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-proba-01",
+      "prerequisiteId": "fr-ma-cm1-prb-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit qu’au CM2 les élèves renforcent les apprentissages du CM1 en probabilités"
+    },
+    {
+      "topicId": "fr-ma-cm2-proba-03",
+      "prerequisiteId": "fr-ma-cm1-prb-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "« a chances sur b » suppose des issues qui ont toutes les mêmes chances"
+    },
+    {
+      "topicId": "fr-ma-cm2-proba-03",
+      "prerequisiteId": "fr-ma-cm1-prb-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Prolonge le vocabulaire « une chance sur deux », « probable »…"
+    },
+    {
+      "topicId": "fr-ma-cm2-proba-04",
+      "prerequisiteId": "fr-ma-cm1-prb-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer des évènements selon leurs chances de se réaliser » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-cm2-proba-05",
+      "prerequisiteId": "fr-ma-cm1-prb-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut reconnaître une expérience aléatoire"
+    },
+    {
+      "topicId": "fr-ma-cm2-proba-06",
+      "prerequisiteId": "fr-ma-cm1-pb-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le tableau et l’arbre servent déjà dans les problèmes de dénombrement"
+    },
+    {
+      "topicId": "fr-ma-cm2-prop-01",
+      "prerequisiteId": "fr-ma-cm1-prop-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la proportionnalité au CM2 s’inscrit dans la continuité du travail mené au CM1"
+    },
+    {
+      "topicId": "fr-ma-cm2-prop-02",
+      "prerequisiteId": "fr-ma-cm1-prop-02",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la proportionnalité au CM2 s’inscrit dans la continuité du travail mené au CM1"
+    },
+    {
+      "topicId": "fr-ma-cm2-prop-03",
+      "prerequisiteId": "fr-ma-cm1-pb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir enchaîner plusieurs étapes de calcul"
+    },
+    {
+      "topicId": "fr-ma-6e-num-01",
+      "prerequisiteId": "fr-ma-cm2-cmn-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Multiplier de tête un nombre décimal par 10, 100 ou 1 000 » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-01",
+      "prerequisiteId": "fr-ma-cm2-cmn-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Diviser de tête un nombre décimal par 10, 100 ou 1 000 » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-02",
+      "prerequisiteId": "fr-ma-cm2-num-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Valeur d’un chiffre selon sa position dans un grand nombre » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-03",
+      "prerequisiteId": "fr-ma-cm2-dec-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relations entre unités, dixièmes, centièmes et millièmes » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-03",
+      "prerequisiteId": "fr-ma-cm2-num-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relations entre les unités de numération jusqu’aux centaines de millions » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-04",
+      "prerequisiteId": "fr-ma-cm2-num-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire, écrire et dire les nombres jusqu’à 999 999 999 » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-05",
+      "prerequisiteId": "fr-ma-cm2-dec-09",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit qu’en 6e l’élève consolide les nombres décimaux et leurs écritures apprises au cours moyen"
+    },
+    {
+      "topicId": "fr-ma-6e-num-06",
+      "prerequisiteId": "fr-ma-cm2-dec-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Un pourcentage s’écrit comme une fraction décimale de dénominateur 100"
+    },
+    {
+      "topicId": "fr-ma-6e-num-07",
+      "prerequisiteId": "fr-ma-cm2-dec-08",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit qu’en 6e l’élève utilise les différentes écritures des décimaux apprises au cours moyen"
+    },
+    {
+      "topicId": "fr-ma-6e-num-07",
+      "prerequisiteId": "fr-ma-cm2-fra-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Écrire 37/10 = 3 + 7/10 sert à passer d’une écriture à l’autre"
+    },
+    {
+      "topicId": "fr-ma-6e-num-07",
+      "prerequisiteId": "fr-ma-cm2-cmf-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut connaître l’écriture décimale des fractions usuelles"
+    },
+    {
+      "topicId": "fr-ma-6e-num-08",
+      "prerequisiteId": "fr-ma-cm2-dec-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer et repérer des nombres à virgule sur une demi-droite graduée » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-09",
+      "prerequisiteId": "fr-ma-cm2-dec-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer et repérer des nombres à virgule sur une demi-droite graduée » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-10",
+      "prerequisiteId": "fr-ma-cm2-dec-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer, encadrer, intercaler et ranger des nombres à virgule » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-12",
+      "prerequisiteId": "fr-ma-cm2-dec-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Donner la partie entière et l’arrondi à l’unité d’un nombre décimal » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-13",
+      "prerequisiteId": "fr-ma-cm2-ope-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "La division décimale de 10 par 3 produit un nombre non décimal à arrondir"
+    },
+    {
+      "topicId": "fr-ma-6e-num-15",
+      "prerequisiteId": "fr-ma-cm1-ope-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser et calculer une addition de nombres décimaux » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-15",
+      "prerequisiteId": "fr-ma-cm1-ope-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser et calculer une soustraction de nombres décimaux » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-15",
+      "prerequisiteId": "fr-ma-cm2-cmp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le calcul mental de sommes de décimaux simples prépare le calcul réfléchi"
+    },
+    {
+      "topicId": "fr-ma-6e-num-17",
+      "prerequisiteId": "fr-ma-cm2-ope-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le produit d’un décimal par un entier est le premier cas de produit avec un décimal"
+    },
+    {
+      "topicId": "fr-ma-6e-num-17",
+      "prerequisiteId": "fr-ma-cm2-air-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "L’aire d’un rectangle de 2,5 cm sur 3,2 cm donne du sens au produit de deux décimaux"
+    },
+    {
+      "topicId": "fr-ma-6e-num-18",
+      "prerequisiteId": "fr-ma-cm2-ope-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser la multiplication d’un nombre décimal par un nombre entier » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-19",
+      "prerequisiteId": "fr-ma-cm2-ope-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Estimer l’ordre de grandeur du résultat d’une opération » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-20",
+      "prerequisiteId": "fr-ma-cm2-pb-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes mixtes en plusieurs étapes » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-21",
+      "prerequisiteId": "fr-ma-cm2-ope-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser une division décimale d’un nombre décimal par un nombre à un chiffre » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-22",
+      "prerequisiteId": "fr-ma-cm2-pb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes multiplicatifs « parties-tout » en une étape » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-23",
+      "prerequisiteId": "fr-ma-cm1-ope-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Poser une division euclidienne par un nombre à un chiffre » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-6e-num-23",
+      "prerequisiteId": "fr-ma-cm2-cmf-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Chaque étape de la division utilise les tables de multiplication"
+    },
+    {
+      "topicId": "fr-ma-6e-num-24",
+      "prerequisiteId": "fr-ma-cm2-pb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes multiplicatifs « parties-tout » en une étape » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-01",
+      "prerequisiteId": "fr-ma-cm2-fra-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comprendre, représenter, lire et écrire des fractions (dénominateur ≤ 60) » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-02",
+      "prerequisiteId": "fr-ma-cm2-ope-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "3 ÷ 4 = 0,75 se calcule par une division décimale"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-03",
+      "prerequisiteId": "fr-ma-cm2-alg-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le quotient est le nombre qui complète 6 × … = 42"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-05",
+      "prerequisiteId": "fr-ma-cm2-fra-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer une fraction sur une demi-droite graduée » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-06",
+      "prerequisiteId": "fr-ma-cm2-geo-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Partager un segment en parts égales utilise des droites parallèles"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-07",
+      "prerequisiteId": "fr-ma-cm2-cmf-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut connaître l’écriture décimale des fractions usuelles"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-08",
+      "prerequisiteId": "fr-ma-cm2-fra-11",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la fraction opérateur a déjà été abordée au cours moyen, où elle opérait sur une quantité"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-09",
+      "prerequisiteId": "fr-ma-cm2-fra-07",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que, dans la continuité du cours moyen, les élèves comparent des fractions, notamment en termes d’égalité"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-09",
+      "prerequisiteId": "fr-ma-cm2-num-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Simplifier une fraction demande de trouver des diviseurs"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-09",
+      "prerequisiteId": "fr-ma-cm2-num-13",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Mettre au même dénominateur demande de trouver un multiple commun"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-10",
+      "prerequisiteId": "fr-ma-cm2-fra-08",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que, dans la continuité du cours moyen, les élèves comparent des fractions"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-10",
+      "prerequisiteId": "fr-ma-cm2-fra-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Encadrer une fraction entre deux nombres entiers consécutifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-11",
+      "prerequisiteId": "fr-ma-cm2-fra-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Ranger des nombres mixtes demande de passer de 1 + 3/4 à 7/4"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-12",
+      "prerequisiteId": "fr-ma-cm2-fra-09",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que les techniques opératoires sur les fractions du cours moyen sont entretenues en 6e"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-12",
+      "prerequisiteId": "fr-ma-cm2-cmf-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les égalités entre fractions usuelles servent à calculer des sommes"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-13",
+      "prerequisiteId": "fr-ma-cm2-fra-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Multiplier une fraction par un nombre entier » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-14",
+      "prerequisiteId": "fr-ma-cm2-fra-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir calculer une fraction d’une quantité"
+    },
+    {
+      "topicId": "fr-ma-6e-fra-14",
+      "prerequisiteId": "fr-ma-cm2-pb-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir résoudre des problèmes en plusieurs étapes"
+    },
+    {
+      "topicId": "fr-ma-6e-alg-01",
+      "prerequisiteId": "fr-ma-cm2-alg-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre des problèmes avec un nombre inconnu (problèmes algébriques) » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-alg-01",
+      "prerequisiteId": "fr-ma-cm2-alg-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir trouver le nombre manquant d’une égalité à trous"
+    },
+    {
+      "topicId": "fr-ma-6e-alg-02",
+      "prerequisiteId": "fr-ma-cm2-alg-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Trouver le nombre d’éléments à une étape donnée d’une suite de motifs » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-lon-01",
+      "prerequisiteId": "fr-ma-cm1-lon-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Relations entre unités de longueur et conversions » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-6e-lon-02",
+      "prerequisiteId": "fr-ma-cm2-gdm-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Convertir des longueurs, masses et contenances sans tableau » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-lon-03",
+      "prerequisiteId": "fr-ma-cm2-geo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser la règle, l’équerre et le compas » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-lon-04",
+      "prerequisiteId": "fr-ma-cm2-gdm-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer un périmètre en comprenant ce qu’il mesure » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-lon-05",
+      "prerequisiteId": "fr-ma-cm2-prop-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut reconnaître une situation de proportionnalité"
+    },
+    {
+      "topicId": "fr-ma-6e-lon-06",
+      "prerequisiteId": "fr-ma-cm2-gdm-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir ce que mesure un périmètre"
+    },
+    {
+      "topicId": "fr-ma-6e-lon-07",
+      "prerequisiteId": "fr-ma-cm2-ope-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Calculer 3,14 × 5 demande de multiplier un décimal par un entier"
+    },
+    {
+      "topicId": "fr-ma-6e-lon-09",
+      "prerequisiteId": "fr-ma-cm2-gdm-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer un périmètre en comprenant ce qu’il mesure » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-air-01",
+      "prerequisiteId": "fr-ma-cm2-air-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer les aires de figures planes (et ne pas confondre avec le périmètre) » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-air-02",
+      "prerequisiteId": "fr-ma-cm2-air-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le cm², le dm² et le m² pour exprimer des aires » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-air-04",
+      "prerequisiteId": "fr-ma-cm2-air-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Convertir des aires (cm², dm², m²) » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-air-05",
+      "prerequisiteId": "fr-ma-cm2-air-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Calculer l’aire d’un carré ou d’un rectangle » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-vol-01",
+      "prerequisiteId": "fr-ma-cm2-sol-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le centimètre cube est le volume d’un cube de 1 cm d’arête"
+    },
+    {
+      "topicId": "fr-ma-6e-vol-01",
+      "prerequisiteId": "fr-ma-cm1-con-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les unités de contenance préparent le lien entre cm³ et mL"
+    },
+    {
+      "topicId": "fr-ma-6e-vol-02",
+      "prerequisiteId": "fr-ma-cm1-con-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Comparer des contenances » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-6e-tps-01",
+      "prerequisiteId": "fr-ma-cm2-tps-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Placer les aiguilles d’une horloge à l’heure, la minute et la seconde » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-tps-03",
+      "prerequisiteId": "fr-ma-cm2-tps-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre des problèmes de durées en une ou plusieurs étapes » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-tps-04",
+      "prerequisiteId": "fr-ma-cm2-tps-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Convertir des durées s’appuie sur les relations entre heure, minute et seconde"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-01",
+      "prerequisiteId": "fr-ma-cm2-geo-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Connaître les notations et les codages d’une figure » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-01",
+      "prerequisiteId": "fr-ma-cm2-geo-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Utiliser le vocabulaire géométrique approprié » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-02",
+      "prerequisiteId": "fr-ma-cm2-geo-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître et nommer triangles, quadrilatères, pentagone et hexagone » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-03",
+      "prerequisiteId": "fr-ma-cm1-geo-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître les axes de symétrie d’une figure » (CM1)"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-04",
+      "prerequisiteId": "fr-ma-cm2-geo-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Mesurer ou reporter une distance utilise la règle graduée et le compas"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-05",
+      "prerequisiteId": "fr-ma-cm2-geo-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les programmes de construction du cours moyen utilisent déjà le milieu d’un segment"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-06",
+      "prerequisiteId": "fr-ma-cm2-geo-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Le cercle et le disque : des points à la même distance du centre » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-06",
+      "prerequisiteId": "fr-ma-cm2-geo-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Rayon et diamètre font partie du vocabulaire géométrique du cours moyen"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-08",
+      "prerequisiteId": "fr-ma-cm2-geo-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir construire une figure avec des cercles"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-12",
+      "prerequisiteId": "fr-ma-cm2-ang-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir noter un angle"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-12",
+      "prerequisiteId": "fr-ma-cm2-ang-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir qu’un angle droit mesure 90°"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-14",
+      "prerequisiteId": "fr-ma-cm2-ang-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Le degré a été introduit à partir de l’angle droit de 90°"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-14",
+      "prerequisiteId": "fr-ma-cm2-ang-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Mesurer un angle prolonge la comparaison des angles"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-15",
+      "prerequisiteId": "fr-ma-cm2-ang-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire un angle somme de deux angles ou multiple d’un angle » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-16",
+      "prerequisiteId": "fr-ma-cm2-ang-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Construire par pliage la moitié d’un angle » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-18",
+      "prerequisiteId": "fr-ma-cm2-geo-09",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit qu’en 6e les travaux de reproduction et de construction du cours moyen se poursuivent"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-19",
+      "prerequisiteId": "fr-ma-cm2-geo-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Propriétés des figures usuelles (côtés parallèles, longueurs, angles) » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-20",
+      "prerequisiteId": "fr-ma-cm2-ang-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir qu’un angle droit mesure 90°"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-23",
+      "prerequisiteId": "fr-ma-cm2-geo-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Construire le symétrique d’une figure sur quadrillage prépare le symétrique d’un point"
+    },
+    {
+      "topicId": "fr-ma-6e-geo-24",
+      "prerequisiteId": "fr-ma-cm2-geo-12",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que le travail de construction de symétriques réalisé au cours moyen se poursuit en 6e"
+    },
+    {
+      "topicId": "fr-ma-6e-esp-01",
+      "prerequisiteId": "fr-ma-cm2-sol-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit que la connaissance des solides étudiés au cours moyen est entretenue en 6e sous forme d’automatismes"
+    },
+    {
+      "topicId": "fr-ma-6e-esp-01",
+      "prerequisiteId": "fr-ma-cm2-sol-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Décrire cube, pavé, pyramide et prisme droit (faces, arêtes, sommets) » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-esp-02",
+      "prerequisiteId": "fr-ma-cm2-dep-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre des problèmes sur des assemblages de cubes » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-esp-02",
+      "prerequisiteId": "fr-ma-cm2-sol-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut reconnaître un solide dessiné en perspective"
+    },
+    {
+      "topicId": "fr-ma-6e-esp-03",
+      "prerequisiteId": "fr-ma-cm2-dep-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre des problèmes sur des assemblages de cubes » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-don-01",
+      "prerequisiteId": "fr-ma-cm2-don-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Lire un tableau, un diagramme en barres ou circulaire, ou une courbe » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-don-02",
+      "prerequisiteId": "fr-ma-cm2-don-01",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit qu’en 6e l’élève consolide ces notions en menant lui-même les phases d’une enquête"
+    },
+    {
+      "topicId": "fr-ma-6e-don-02",
+      "prerequisiteId": "fr-ma-cm2-don-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Présenter des données en diagramme en barres ou en points dans un repère » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-don-03",
+      "prerequisiteId": "fr-ma-cm2-don-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Recueillir des données et les présenter dans un tableau » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-don-04",
+      "prerequisiteId": "fr-ma-cm2-don-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Recueillir des données et les présenter dans un tableau » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-don-05",
+      "prerequisiteId": "fr-ma-cm2-don-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Résoudre des problèmes à partir de données (tableau, diagramme, courbe) » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-prb-01",
+      "prerequisiteId": "fr-ma-cm2-proba-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Exprimer une probabilité sous la forme « a chances sur b » » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-prb-02",
+      "prerequisiteId": "fr-ma-cm2-proba-03",
+      "strength": "hard",
+      "origin": "texte",
+      "continuation": true,
+      "reason": "Le programme dit qu’au CM2 les élèves ont appris à dénombrer les issues et à exprimer une probabilité en « a chances sur b »"
+    },
+    {
+      "topicId": "fr-ma-6e-prb-02",
+      "prerequisiteId": "fr-ma-cm2-proba-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir lister les issues d’une expérience en deux étapes"
+    },
+    {
+      "topicId": "fr-ma-6e-prb-03",
+      "prerequisiteId": "fr-ma-cm2-proba-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Comparer fréquences et probabilité suppose de répéter une expérience dont les tirages sont indépendants"
+    },
+    {
+      "topicId": "fr-ma-6e-prop-01",
+      "prerequisiteId": "fr-ma-cm2-cmf-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Repérer que 24 est 3 fois 8 s’appuie sur les tables"
+    },
+    {
+      "topicId": "fr-ma-6e-prop-01",
+      "prerequisiteId": "fr-ma-cm2-cmp-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Repérer des doubles s’appuie sur le calcul du double d’un décimal"
+    },
+    {
+      "topicId": "fr-ma-6e-prop-01",
+      "prerequisiteId": "fr-ma-cm2-cmp-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Repérer des moitiés s’appuie sur le calcul de la moitié d’un décimal"
+    },
+    {
+      "topicId": "fr-ma-6e-prop-02",
+      "prerequisiteId": "fr-ma-cm2-pb-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes de comparaison multiplicative (« fois plus », « fois moins ») » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-prop-03",
+      "prerequisiteId": "fr-ma-cm2-prop-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Reconnaître une situation de proportionnalité » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-prop-05",
+      "prerequisiteId": "fr-ma-cm2-prop-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": true,
+      "reason": "Prolonge « Problèmes de proportionnalité en plusieurs étapes (linéarité additive) » (CM2)"
+    },
+    {
+      "topicId": "fr-ma-6e-prop-06",
+      "prerequisiteId": "fr-ma-cm2-pb-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Passer par l’unité, c’est chercher la valeur d’une part"
+    },
+    {
+      "topicId": "fr-ma-6e-prop-08",
+      "prerequisiteId": "fr-ma-cm2-prop-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Il faut savoir raisonner sur la proportionnalité en langage naturel avant de la représenter"
+    },
+    {
+      "topicId": "fr-ma-6e-prop-09",
+      "prerequisiteId": "fr-ma-cm2-gdm-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Une échelle demande de convertir des longueurs"
+    },
+    {
+      "topicId": "fr-ma-6e-prop-09",
+      "prerequisiteId": "fr-ma-cm2-prop-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Une échelle est une situation de proportionnalité"
+    },
+    {
+      "topicId": "fr-ma-6e-info-01",
+      "prerequisiteId": "fr-ma-cm2-dep-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Les suites d’instructions de déplacement sont des séquences d’instructions"
+    },
+    {
+      "topicId": "fr-ma-6e-info-01",
+      "prerequisiteId": "fr-ma-cm2-alg-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Un programme de calcul est une séquence d’instructions"
+    },
+    {
+      "topicId": "fr-ma-6e-info-03",
+      "prerequisiteId": "fr-ma-cm2-geo-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "Rédiger un programme de construction est une première production d’instructions"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "maths-c2": "2026-10-22",
+    "maths-c3": "2026-10-22"
+  }
+}

@@ -1,0 +1,956 @@
+{
+  "programme": "emi-c4",
+  "level": "multiple",
+  "themeCodes": {
+    "intro": "Introduction du programme",
+    "auto": "Utiliser les médias et les informations de manière autonome",
+    "rais": "Exploiter l’information de manière raisonnée",
+    "resp": "Utiliser les médias de manière responsable",
+    "prod": "Produire, communiquer, partager des informations"
+  },
+  "notions": [
+    {
+      "id": "fr-emi-c4-intro-01",
+      "programme": "emi-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Éducation aux médias et à l’information",
+      "subdomain": "Introduction du programme",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Connaître quelques étapes de l’histoire de l’écrit et de sa diffusion",
+      "description": "Connaître quelques repères sur l’histoire de l’écrit, ses différents supports et les grandes étapes de sa diffusion, pour mieux comprendre la place de l’écrit dans la société d’aujourd’hui.",
+      "officialObjectives": [
+        "Quelques connaissances sur l’histoire de l’écrit, des différentes étapes de sa diffusion et de ses supports mettent en perspective sa place dans la société contemporaine."
+      ],
+      "evidence": [
+        "Cite quelques étapes de l’histoire de l’écrit et de sa diffusion.",
+        "Cite différents supports de l’écrit.",
+        "Met en perspective la place de l’écrit dans la société contemporaine."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer quelques supports de l’écrit utilisés au cours de l’histoire et expliquer ce que chacun a changé dans la diffusion des textes ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 137,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-auto-01",
+      "programme": "emi-c4",
+      "type": "PROCEDURAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias et les informations de manière autonome",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Utiliser des dictionnaires et encyclopédies sur tous supports",
+      "description": "Chercher une définition ou une information dans un dictionnaire ou une encyclopédie, qu’ils soient imprimés ou numériques.",
+      "officialObjectives": [
+        "Utiliser des dictionnaires et encyclopédies sur tous supports."
+      ],
+      "evidence": [
+        "Utilise un dictionnaire ou une encyclopédie imprimés pour chercher une information.",
+        "Utilise un dictionnaire ou une encyclopédie numériques pour chercher une information."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver une information sur un sujet dans une encyclopédie, en version papier comme en version numérique ?",
+      "priorKnowledge": [
+        "Choisir seul la bonne stratégie pour comprendre un mot inconnu (6e, français)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 137,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-auto-02",
+      "programme": "emi-c4",
+      "type": "PROCEDURAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias et les informations de manière autonome",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Utiliser des documents de vulgarisation scientifique",
+      "description": "Lire et exploiter des documents de vulgarisation scientifique, c’est-à-dire des documents qui expliquent la science de façon accessible au grand public.",
+      "officialObjectives": [
+        "Utiliser des documents de vulgarisation scientifique."
+      ],
+      "evidence": [
+        "Utilise des documents de vulgarisation scientifique pour s’informer sur un sujet.",
+        "Prélève dans ces documents les informations utiles à une recherche."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver, dans un document de vulgarisation scientifique, une information utile pour un exposé de sciences ?",
+      "priorKnowledge": [
+        "Relier les informations d’un document composite (6e, français)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 137,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-auto-03",
+      "programme": "emi-c4",
+      "type": "PROCEDURAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias et les informations de manière autonome",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Utiliser le CDI pour rechercher de l’information",
+      "description": "Se servir du centre de ressources du collège, le CDI (centre de documentation et d’information), et de ses outils pour mener une recherche, avec l’appui des professeurs, dont le professeur documentaliste.",
+      "officialObjectives": [
+        "Exploiter le centre de ressources comme outil de recherche de l'information."
+      ],
+      "evidence": [
+        "Exploite le centre de ressources (CDI) comme outil de recherche de l’information.",
+        "Mène une recherche documentaire au CDI avec l’appui du professeur documentaliste."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver au CDI du collège des documents utiles pour un sujet de recherche ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 137,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-auto-04",
+      "programme": "emi-c4",
+      "type": "PROCEDURAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias et les informations de manière autonome",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Connaître et utiliser les ouvrages en langue étrangère ou régionale du CDI",
+      "description": "Savoir quels livres et documents en langue étrangère ou régionale le CDI propose et les lire régulièrement ; le programme encourage aussi la lecture régulière de la presse en langues vivantes.",
+      "officialObjectives": [
+        "Avoir connaissance du fonds d’ouvrages en langue étrangère ou régionale disponible au CDI et les utiliser régulièrement."
+      ],
+      "evidence": [
+        "Repère au CDI les ouvrages disponibles en langue étrangère ou régionale.",
+        "Utilise régulièrement ces ouvrages.",
+        "Lit régulièrement la presse en langues vivantes."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver au CDI des livres ou des journaux dans une langue étrangère étudiée, et les consulter régulièrement ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 137,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-auto-05",
+      "programme": "emi-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias et les informations de manière autonome",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Se familiariser avec les modes d’expression des médias",
+      "description": "Découvrir comment s’expriment les différents médias (presse, médias en ligne, réseaux…) en les consultant sur leurs propres canaux de diffusion, notamment par une lecture régulière de la presse.",
+      "officialObjectives": [
+        "Se familiariser avec les différents modes d’expression des médias en utilisant leurs canaux de diffusion."
+      ],
+      "evidence": [
+        "Consulte des médias variés sur leurs canaux de diffusion.",
+        "Reconnaît les différents modes d’expression des médias.",
+        "Lit régulièrement la presse en français et en langues vivantes."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire en quoi une même information est présentée différemment dans un journal papier, à la radio et sur un site d’information ?",
+      "priorKnowledge": [
+        "Comprendre une interview ou un reportage (6e, français)",
+        "Lire des documents variés : images, tableaux, schémas, articles (6e, français)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 137,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-auto-06",
+      "programme": "emi-c4",
+      "type": "PROCEDURAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias et les informations de manière autonome",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Choisir les genres et outils d’information adaptés à sa recherche",
+      "description": "Choisir, parmi les ressources disponibles (dictionnaire, encyclopédie, livre documentaire, périodique, site, moteur de recherche), celles qui conviennent à la question posée.",
+      "officialObjectives": [
+        "Utiliser les genres et les outils d'information à disposition adaptés à ses recherches."
+      ],
+      "evidence": [
+        "Choisit le genre de document adapté à sa recherche : dictionnaire, encyclopédie, livre documentaire, périodique, site.",
+        "Utilise les outils d’information à disposition adaptés à sa recherche."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire s’il vaut mieux chercher dans un dictionnaire, un livre documentaire ou un site pour répondre à une question donnée ?",
+      "priorKnowledge": [
+        "Identifier la nature et la source d’un document (6e, français)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 137,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-auto-07",
+      "programme": "emi-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias et les informations de manière autonome",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Comprendre comment l’information est indexée et hiérarchisée",
+      "description": "Comprendre comment les informations sont repérées par des mots-clés (indexation) et classées par ordre d’importance (hiérarchisation) pour pouvoir être retrouvées, et connaître les principaux mots techniques qui s’y rapportent.",
+      "officialObjectives": [
+        "Découvrir comment l’information est indexée et hiérarchisée, comprendre les principaux termes techniques associés."
+      ],
+      "evidence": [
+        "Explique comment l’information est indexée.",
+        "Explique comment l’information est hiérarchisée.",
+        "Emploie à bon escient les principaux termes techniques associés."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi certains résultats apparaissent en premier dans un moteur de recherche ou dans le catalogue du CDI ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 137,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-auto-08",
+      "programme": "emi-c4",
+      "type": "PROCEDURAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias et les informations de manière autonome",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Se repérer dans l’organisation d’un livre, d’un périodique ou d’un site",
+      "description": "Utiliser la façon dont un ensemble de documents est organisé pour y trouver vite une information : clés du livre documentaire (sommaire, index…), rubriques d’un journal ou d’un magazine, arborescence (menus et pages) d’un site.",
+      "officialObjectives": [
+        "Exploiter les modes d’organisation de l’information dans un corpus documentaire (clés du livre documentaire, rubriquage d'un périodique, arborescence d’un site)."
+      ],
+      "evidence": [
+        "Utilise les clés du livre documentaire pour trouver une information.",
+        "Se repère dans le rubriquage d’un périodique.",
+        "Navigue dans l’arborescence d’un site."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait utiliser l’index d’un livre documentaire ou les rubriques d’un journal pour trouver rapidement une information précise ?",
+      "priorKnowledge": [
+        "Relier les informations d’un document composite (6e, français)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 137,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-auto-09",
+      "programme": "emi-c4",
+      "type": "PROCEDURAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias et les informations de manière autonome",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Classer ses documents numériques et organiser des portefeuilles thématiques",
+      "description": "Ranger ses propres fichiers de façon organisée, sur une tablette, un espace personnel, une application mobile ou un service de stockage en ligne (le « nuage »), au collège comme à la maison, et les regrouper par thème.",
+      "officialObjectives": [
+        "Classer ses propres documents sur sa tablette, son espace personnel, au collège ou chez soi sur des applications mobiles ou dans le « nuage ». Organiser des portefeuilles thématiques."
+      ],
+      "evidence": [
+        "Classe ses propres documents sur une tablette, un espace personnel, au collège ou à la maison, sur des applications mobiles ou dans le « nuage ».",
+        "Organise des portefeuilles thématiques."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger les documents d’un exposé dans des dossiers bien nommés, sur l’espace personnel du collège ou dans le « nuage », et les retrouver ensuite ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 137,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-auto-10",
+      "programme": "emi-c4",
+      "type": "PROCEDURAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias et les informations de manière autonome",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Utiliser les moteurs de recherche de façon avancée",
+      "description": "Aller au-delà d’une recherche rapide : explorer méthodiquement les résultats d’un moteur de recherche en utilisant ses fonctions avancées, puis exploiter les informations trouvées.",
+      "officialObjectives": [
+        "Acquérir une méthode de recherche exploratoire d’informations et de leur exploitation par l’utilisation avancée des moteurs de recherche."
+      ],
+      "evidence": [
+        "Applique une méthode de recherche exploratoire d’informations.",
+        "Utilise les fonctions avancées d’un moteur de recherche.",
+        "Exploite les informations trouvées."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait formuler une recherche précise dans un moteur de recherche, puis trier les résultats pour garder les plus utiles ?",
+      "priorKnowledge": [
+        "Rechercher et produire de l’information en ligne (CM1, EMC)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 137,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-auto-11",
+      "programme": "emi-c4",
+      "type": "META",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias et les informations de manière autonome",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Adopter une démarche raisonnée de recherche d’informations",
+      "description": "Mener une recherche avec méthode plutôt qu’au hasard, et maîtriser peu à peu sa démarche d’information et de documentation au fil du cycle.",
+      "officialObjectives": [
+        "Adopter progressivement une démarche raisonnée dans la recherche d’informations."
+      ],
+      "evidence": [
+        "Conduit une recherche d’informations de façon raisonnée.",
+        "Maîtrise progressivement sa démarche d’information et de documentation."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, avant de chercher sur un sujet, préciser la question posée et choisir où chercher, plutôt que de taper le premier mot venu ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 137,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-rais-01",
+      "programme": "emi-c4",
+      "type": "META",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Exploiter l’information de manière raisonnée",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Distinguer les sources et évaluer la fiabilité d’une information",
+      "description": "Repérer d’où vient une information et se demander si elle est valide, fiable et pertinente, c’est-à-dire utile pour la question posée.",
+      "officialObjectives": [
+        "Distinguer les sources d’information, s’interroger sur la validité et sur la fiabilité d’une information, son degré de pertinence."
+      ],
+      "evidence": [
+        "Distingue les sources d’information.",
+        "S’interroge sur la validité et la fiabilité d’une information.",
+        "Évalue le degré de pertinence d’une information."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, devant une information trouvée sur internet, chercher qui l’a publiée et se demander si elle est fiable ?",
+      "priorKnowledge": [
+        "Identifier la nature et la source d’un document (6e, français)",
+        "Comprendre l’importance d’une information fiable (CM2, EMC)",
+        "Rechercher et produire de l’information en ligne (CM1, EMC)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-rais-02",
+      "programme": "emi-c4",
+      "type": "META",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Exploiter l’information de manière raisonnée",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Distinguer information scientifique vulgarisée et pseudo-science",
+      "description": "Faire la différence entre une information scientifique expliquée au grand public et une information qui se donne l’air scientifique sans l’être, grâce à des indices dans le texte et autour du texte (paratexte : titre, auteur, date…) et en vérifiant la source.",
+      "officialObjectives": [
+        "S’entraîner à distinguer une information scientifique vulgarisée d’une information pseudo-scientifique grâce à des indices textuels ou paratextuels et à la validation de la source."
+      ],
+      "evidence": [
+        "Distingue une information scientifique vulgarisée d’une information pseudo-scientifique.",
+        "S’appuie pour cela sur des indices textuels ou paratextuels.",
+        "Vérifie la validité de la source."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer, dans un article sur la santé, des indices qui montrent qu’il ne s’agit pas d’une information scientifique sérieuse ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-rais-03",
+      "programme": "emi-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Exploiter l’information de manière raisonnée",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Distinguer subjectivité et objectivité dans un objet médiatique",
+      "description": "Faire la différence, dans un objet médiatique (article, reportage, émission…), entre ce qui relève des faits et ce qui relève d’une opinion ou d’un point de vue.",
+      "officialObjectives": [
+        "Apprendre à distinguer subjectivité et objectivité dans l’étude d’un objet médiatique."
+      ],
+      "evidence": [
+        "Distingue ce qui relève de la subjectivité et ce qui relève de l’objectivité dans un objet médiatique.",
+        "Pratique une lecture critique et distanciée des contenus et des formes médiatiques."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer, dans un article de presse, les phrases qui rapportent un fait et celles qui donnent une opinion ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-rais-04",
+      "programme": "emi-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Exploiter l’information de manière raisonnée",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Découvrir les représentations du monde véhiculées par les médias",
+      "description": "Prendre conscience que les médias transmettent une certaine image du monde, à travers les sujets qu’ils choisissent et la façon de les présenter.",
+      "officialObjectives": [
+        "Découvrir des représentations du monde véhiculées par les médias."
+      ],
+      "evidence": [
+        "Identifie une représentation du monde véhiculée par un média.",
+        "Explique que les médias donnent une certaine image du monde."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quelle image d’un pays ou d’un groupe de personnes est donnée par un reportage ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-rais-05",
+      "programme": "emi-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Exploiter l’information de manière raisonnée",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "S’interroger sur l’influence des médias sur la consommation et la démocratie",
+      "description": "Réfléchir à la façon dont les médias peuvent influencer ce que l’on achète et la vie démocratique, en tenant compte de leurs dimensions économique, sociétale, technique et éthique.",
+      "officialObjectives": [
+        "S’interroger sur l’influence des médias sur la consommation et la vie démocratique."
+      ],
+      "evidence": [
+        "S’interroge sur l’influence des médias sur la consommation.",
+        "S’interroge sur l’influence des médias sur la vie démocratique.",
+        "Prend en compte les dimensions économique, sociétale, technique et éthique des médias."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer comment une publicité cherche à influencer les choix d’achat ?",
+      "priorKnowledge": [
+        "Comprendre l’importance d’une information fiable (CM2, EMC)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-resp-01",
+      "programme": "emi-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias de manière responsable",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Comprendre l’identité et la trace numériques",
+      "description": "Savoir que ce qui est publié ou fait en ligne construit une identité numérique et laisse des traces qui peuvent rester longtemps.",
+      "officialObjectives": [
+        "Comprendre ce que sont l’identité et la trace numériques."
+      ],
+      "evidence": [
+        "Explique ce qu’est l’identité numérique.",
+        "Explique ce qu’est une trace numérique."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi une photo publiée sur un réseau social peut encore être retrouvée des années plus tard ?",
+      "priorKnowledge": [
+        "Protéger sa vie privée en ligne : données et traces numériques (6e, EMC)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-resp-02",
+      "programme": "emi-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias de manière responsable",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Distinguer espace privé et espace public",
+      "description": "Comprendre la différence entre ce qui relève de la sphère privée et ce qui est public, en particulier en ligne, où une publication peut devenir publique.",
+      "officialObjectives": [
+        "Se familiariser avec les notions d’espace privé et d’espace public."
+      ],
+      "evidence": [
+        "Distingue l’espace privé de l’espace public.",
+        "Situe une publication en ligne dans l’espace privé ou dans l’espace public."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si un message posté sur un réseau social relève de l’espace privé ou de l’espace public ?",
+      "priorKnowledge": [
+        "Savoir que chacun a droit au respect de sa vie privée (6e, EMC)",
+        "Comprendre le droit à l’intimité et le droit à l’image (6e, EMC)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-resp-03",
+      "programme": "emi-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias de manière responsable",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Connaître les règles de base du droit d’expression et de publication",
+      "description": "Savoir ce qu’il est permis de dire et de publier, notamment sur les réseaux sociaux, et les limites que fixe la loi.",
+      "officialObjectives": [
+        "Pouvoir se référer aux règles de base du droit d'expression et de publication en particulier sur les réseaux."
+      ],
+      "evidence": [
+        "Se réfère aux règles de base du droit d’expression.",
+        "Se réfère aux règles de base du droit de publication, en particulier sur les réseaux."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si l’on a le droit de publier sur un réseau social la photo d’un camarade sans son accord ?",
+      "priorKnowledge": [
+        "Comprendre que les libertés s’exercent dans le cadre de la loi (CM2, EMC)",
+        "Comprendre le droit à l’intimité et le droit à l’image (6e, EMC)",
+        "Comprendre la majorité numérique à 15 ans (6e, EMC)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-resp-04",
+      "programme": "emi-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias de manière responsable",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "S’interroger sur les enjeux démocratiques de l’information",
+      "description": "Réfléchir au rôle de l’information en démocratie, qu’elle soit produite par des journalistes ou de façon participative par le public (contributions en ligne, sites collaboratifs…).",
+      "officialObjectives": [
+        "Se questionner sur les enjeux démocratiques liés à la production participative d’informations et à l’information journalistique."
+      ],
+      "evidence": [
+        "S’interroge sur les enjeux démocratiques de l’information journalistique.",
+        "S’interroge sur les enjeux démocratiques de la production participative d’informations."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer une différence entre une information écrite par un journaliste et une information publiée par n’importe quel internaute ?",
+      "priorKnowledge": [
+        "Comprendre l’importance d’une information fiable (CM2, EMC)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-resp-05",
+      "programme": "emi-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Utiliser les médias de manière responsable",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "S’initier à la déontologie des journalistes",
+      "description": "Découvrir la déontologie des journalistes, c’est-à-dire les règles et devoirs que ces professionnels s’engagent à respecter dans leur métier.",
+      "officialObjectives": [
+        "S’initier à la déontologie des journalistes."
+      ],
+      "evidence": [
+        "Cite des règles de la déontologie des journalistes."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer une règle que les journalistes doivent respecter dans leur métier ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-prod-01",
+      "programme": "emi-c4",
+      "type": "PROCEDURAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Produire, communiquer, partager des informations",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Coopérer grâce aux plateformes collaboratives numériques",
+      "description": "Travailler avec d’autres à l’aide d’outils numériques partagés (documents partagés, espaces de travail en ligne…).",
+      "officialObjectives": [
+        "Utiliser les plates-formes collaboratives numériques pour coopérer avec les autres."
+      ],
+      "evidence": [
+        "Utilise une plate-forme collaborative numérique pour coopérer avec d’autres."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait travailler à plusieurs sur un document partagé en ligne, en respectant le travail des autres ?",
+      "priorKnowledge": [
+        "Reconnaître des comportements civiques, y compris en ligne (CM1, EMC)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-prod-02",
+      "programme": "emi-c4",
+      "type": "PROCEDURAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Produire, communiquer, partager des informations",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Participer à une production multimédia en tenant compte des destinataires",
+      "description": "Contribuer, avec d’autres, à une production qui mêle textes, images, sons ou vidéos, en pensant au public à qui elle s’adresse ; le programme invite aussi à produire et à diffuser de l’information.",
+      "officialObjectives": [
+        "Participer à une production coopérative multimédia en prenant en compte les destinataires."
+      ],
+      "evidence": [
+        "Participe à une production coopérative multimédia.",
+        "Adapte la production à ses destinataires.",
+        "Produit et diffuse de l’information."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, dans un projet de groupe (vidéo, diaporama…), adapter le contenu au public visé ?",
+      "priorKnowledge": [
+        "Rechercher et produire de l’information en ligne (CM1, EMC)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-prod-03",
+      "programme": "emi-c4",
+      "type": "PROCEDURAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Produire, communiquer, partager des informations",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Mener un projet de publication utile, respectueux du droit et de l’éthique",
+      "description": "Participer à la création et à la publication d’un contenu, sur papier ou en ligne, utile à d’autres personnes, au collège ou en dehors, en respectant le droit et l’éthique de l’information : c’est l’usage sûr, légal et éthique de la publication visé par le programme.",
+      "officialObjectives": [
+        "S'engager dans un projet de création et publication sur papier ou en ligne utile à une communauté d’utilisateurs dans ou hors de l’établissement qui respecte droit et éthique de l’information."
+      ],
+      "evidence": [
+        "S’engage dans un projet de création et de publication, sur papier ou en ligne.",
+        "Rend la publication utile à une communauté d’utilisateurs, dans ou hors de l’établissement.",
+        "Respecte le droit et l’éthique de l’information dans la publication."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait participer à la réalisation d’un journal du collège en vérifiant que les textes et les photos publiés respectent le droit, notamment le droit à l’image ?",
+      "priorKnowledge": [
+        "Comprendre le droit à l’intimité et le droit à l’image (6e, EMC)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-prod-04",
+      "programme": "emi-c4",
+      "type": "PROCEDURAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Produire, communiquer, partager des informations",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Développer des pratiques culturelles avec des outils de production numérique",
+      "description": "Se servir d’outils de production numérique (pour créer des images, des sons, des vidéos ou des textes) afin de développer ses propres pratiques culturelles.",
+      "officialObjectives": [
+        "Développer des pratiques culturelles à partir d'outils de production numérique."
+      ],
+      "evidence": [
+        "Utilise des outils de production numérique dans une pratique culturelle."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait utiliser un outil numérique pour réaliser une création personnelle, par exemple un court montage vidéo ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-prod-05",
+      "programme": "emi-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Produire, communiquer, partager des informations",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Distinguer la citation du plagiat",
+      "description": "Savoir qu’on peut reprendre les mots d’un autre à condition de le citer (en indiquant l’auteur et la source), et que les copier en les faisant passer pour les siens est du plagiat.",
+      "officialObjectives": [
+        "Distinguer la citation du plagiat."
+      ],
+      "evidence": [
+        "Distingue la citation, qui reprend un passage en indiquant d’où il vient, du plagiat."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer la différence entre citer un passage d’un article dans un exposé et le recopier en le faisant passer pour son propre texte ?",
+      "priorKnowledge": [
+        "Identifier la nature et la source d’un document (6e, français)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    },
+    {
+      "id": "fr-emi-c4-prod-06",
+      "programme": "emi-c4",
+      "type": "META",
+      "subject": "Éducation aux médias et à l'information",
+      "domain": "Compétences travaillées",
+      "subdomain": "Produire, communiquer, partager des informations",
+      "level": "Cycle 4",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "name": "Distinguer collecte d’informations et structuration des connaissances",
+      "description": "Comprendre que rassembler des informations ne suffit pas : il faut ensuite les trier, les organiser et les relier pour construire de vraies connaissances.",
+      "officialObjectives": [
+        "Distinguer la simple collecte d’informations de la structuration des connaissances."
+      ],
+      "evidence": [
+        "Distingue la simple collecte d’informations de la structuration des connaissances.",
+        "Organise les informations recueillies pour structurer ses connaissances."
+      ],
+      "period": "tout au long du cycle 4, selon les projets",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, après une recherche, organiser les informations trouvées en un plan ou un schéma, au lieu de simplement les recopier les unes après les autres ?",
+      "priorKnowledge": [
+        "Hiérarchiser des idées (6e, français)",
+        "Résumer ou synthétiser un texte (6e, français)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 138,
+        "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-emi-c4-rais-02",
+      "prerequisiteId": "fr-emi-c4-rais-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Distinguer une information pseudo-scientifique suppose de savoir évaluer une source et la fiabilité d’une information."
+    },
+    {
+      "topicId": "fr-emi-c4-rais-02",
+      "prerequisiteId": "fr-emi-c4-auto-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Reconnaître une information scientifique vulgarisée suppose d’avoir utilisé des documents de vulgarisation."
+    },
+    {
+      "topicId": "fr-emi-c4-auto-10",
+      "prerequisiteId": "fr-emi-c4-auto-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Utiliser un moteur de recherche de façon avancée s’appuie sur la compréhension de l’indexation et de la hiérarchisation de l’information."
+    },
+    {
+      "topicId": "fr-emi-c4-auto-11",
+      "prerequisiteId": "fr-emi-c4-auto-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Une démarche de recherche raisonnée suppose de savoir choisir les genres et outils d’information adaptés."
+    },
+    {
+      "topicId": "fr-emi-c4-auto-04",
+      "prerequisiteId": "fr-emi-c4-auto-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Connaître le fonds en langue étrangère du CDI suppose de savoir exploiter le CDI."
+    },
+    {
+      "topicId": "fr-emi-c4-resp-03",
+      "prerequisiteId": "fr-emi-c4-resp-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les règles de publication s’appuient sur la distinction entre espace privé et espace public."
+    },
+    {
+      "topicId": "fr-emi-c4-resp-04",
+      "prerequisiteId": "fr-emi-c4-resp-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Réfléchir aux enjeux de l’information journalistique s’appuie sur la connaissance de la déontologie des journalistes."
+    },
+    {
+      "topicId": "fr-emi-c4-prod-03",
+      "prerequisiteId": "fr-emi-c4-resp-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Publier dans le respect du droit suppose de connaître les règles de base du droit d’expression et de publication."
+    },
+    {
+      "topicId": "fr-emi-c4-prod-03",
+      "prerequisiteId": "fr-emi-c4-prod-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Respecter le droit de l’information dans une publication suppose de distinguer citation et plagiat."
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

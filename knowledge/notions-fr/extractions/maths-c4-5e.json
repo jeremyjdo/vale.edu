@@ -1,0 +1,4412 @@
+{
+  "programme": "maths-c4",
+  "level": "5e",
+  "themeCodes": {
+    "ope": "Opérations",
+    "rel": "Nombres relatifs",
+    "rat": "Nombres rationnels",
+    "pui": "Puissances",
+    "lit": "Calcul littéral et algébrique",
+    "rep": "Repérage sur une droite et dans le plan",
+    "esp": "Représentation de l’espace",
+    "tra": "Transformations",
+    "ang": "Angles",
+    "tri": "Triangles",
+    "para": "Parallélogrammes",
+    "stat": "Statistiques",
+    "prb": "Probabilités",
+    "prop": "Proportionnalité",
+    "fct": "Fonctions",
+    "info": "La pensée informatique"
+  },
+  "notions": [
+    {
+      "id": "fr-ma-5e-ope-01",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Opérations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Sens des quatre opérations et situations d’emploi",
+      "description": "Savoir reconnaître, dans un problème, s’il faut additionner, soustraire, multiplier ou diviser : ajouter ou retirer, comparer, répéter une même quantité, partager.",
+      "officialObjectives": [
+        "Connaitre le sens et les situations d’emploi de ces opérations."
+      ],
+      "evidence": [
+        "Reconnaît dans un énoncé une situation d’ajout, de retrait ou d’écart (addition, soustraction).",
+        "Reconnaît une situation de répétition d’une même quantité (multiplication) ou de partage (division).",
+        "Choisit l’opération adaptée et justifie son choix par le sens de l’énoncé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quelle opération utiliser pour trouver le prix d’un cahier quand 4 cahiers identiques coûtent 6 € ?",
+      "priorKnowledge": [
+        "Résoudre des problèmes mettant en jeu des multiplications entre des nombres décimaux (6e)",
+        "Résoudre des problèmes mettant en jeu des divisions décimales (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ope-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Opérations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Résoudre des problèmes avec les quatre opérations et vérifier",
+      "description": "Résoudre des problèmes en calculant avec des nombres entiers et décimaux, puis vérifier que le résultat est vraisemblable (ordre de grandeur). Les calculs simples sur les décimaux doivent devenir automatiques.",
+      "officialObjectives": [
+        "Additionner, soustraire, multiplier et diviser pour résoudre des problèmes et contrôler la vraisemblance de son résultat."
+      ],
+      "evidence": [
+        "Résout des problèmes en additionnant, soustrayant, multipliant ou divisant des nombres entiers et décimaux.",
+        "Contrôle la vraisemblance de son résultat, notamment à l’aide d’un ordre de grandeur.",
+        "Additionne et soustrait mentalement des décimaux, par exemple 2,7 + 1,4 ; 3,4 – 0,8 (automatisme).",
+        "Calcule des produits en lien avec les tables : 0,6 × 7 ; 40 × 0,03 (automatisme)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer de tête 0,6 × 7 et 3,4 – 0,8, puis vérifier qu’un résultat de problème est plausible ?",
+      "priorKnowledge": [
+        "Additionner et soustraire des nombres décimaux (6e)",
+        "Calculer le produit de deux nombres décimaux (6e)",
+        "Contrôler les résultats à l’aide d’ordres de grandeur (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ope-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Opérations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Diviser par un nombre décimal",
+      "description": "Effectuer une division dont le diviseur est un nombre à virgule, par exemple 7,2 ÷ 0,3, en se ramenant à une division par un nombre entier (on multiplie les deux nombres par 10, 100…).",
+      "officialObjectives": [
+        "Diviser par un nombre décimal."
+      ],
+      "evidence": [
+        "Divise un nombre par un nombre décimal, par exemple 7,2 ÷ 0,3 = 72 ÷ 3 = 24.",
+        "Multiplie et divise de manière automatique par 10, 100, 1 000 (automatisme).",
+        "Utilise une division par un décimal pour résoudre un problème."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 7,2 ÷ 0,3 ?",
+      "priorKnowledge": [
+        "Diviser un nombre décimal par un nombre entier non nul inférieur à 10 (6e)",
+        "Multiplier et diviser un décimal par 10, 100 ou 1 000 (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ope-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Opérations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Enchaîner des opérations",
+      "description": "Effectuer plusieurs calculs à la suite pour arriver à un résultat, par exemple appliquer un programme de calcul ou résoudre un problème en plusieurs étapes.",
+      "officialObjectives": [
+        "Enchainer des opérations."
+      ],
+      "evidence": [
+        "Effectue une suite d’opérations pour résoudre un problème à plusieurs étapes.",
+        "Applique à un nombre donné un programme de calcul à plusieurs étapes, par exemple « choisir 5, ajouter 4, multiplier par 3 » donne 27."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait appliquer le programme « choisir un nombre, ajouter 4, puis multiplier par 3 » au nombre 5 ?",
+      "priorKnowledge": [
+        "Résoudre des problèmes mettant en jeu des multiplications entre des nombres décimaux (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ope-05",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Opérations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Traduire un problème ou un programme de calcul en une expression",
+      "description": "Écrire en une seule ligne de calcul une suite d’opérations ou un problème, en ajoutant des parenthèses quand c’est nécessaire : « ajouter 4 à 7 puis multiplier par 3 » s’écrit (7 + 4) × 3.",
+      "officialObjectives": [
+        "Traduire un problème, une succession donnée d’opérations, un programme de calcul, en une seule expression, en faisant appel ou non à des parenthèses."
+      ],
+      "evidence": [
+        "Écrit une succession d’opérations en une seule expression, par exemple « ajouter 4 à 7 puis multiplier par 3 » s’écrit (7 + 4) × 3.",
+        "Traduit un problème à étapes ou un programme de calcul par une seule expression.",
+        "Décide si des parenthèses sont nécessaires ou non dans l’expression écrite."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire en une seule expression « ajouter 4 à 7, puis multiplier le résultat par 3 » ?",
+      "priorKnowledge": [
+        "Produire et exécuter une séquence d’instructions (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ope-06",
+      "programme": "maths-c4",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Opérations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Nommer un calcul : somme, produit, termes et facteurs",
+      "description": "Utiliser le bon vocabulaire pour un calcul : une somme (addition) a des termes, un produit (multiplication) a des facteurs. On nomme un calcul d’après la dernière opération effectuée.",
+      "officialObjectives": [
+        "Nommer un calcul, distinguer sommes et produits, termes et facteurs."
+      ],
+      "evidence": [
+        "Nomme un calcul : somme, différence, produit ou quotient.",
+        "Distingue sommes et produits, par exemple 3 + 4 × 5 est une somme et (3 + 4) × 5 est un produit.",
+        "Désigne les termes d’une somme et les facteurs d’un produit."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si 3 + 4 × 5 est une somme ou un produit, et pourquoi ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ope-07",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Opérations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Priorités opératoires",
+      "description": "Savoir dans quel ordre effectuer les calculs : d’abord ce qui est entre parenthèses, puis les multiplications et divisions, enfin les additions et soustractions. Ainsi 3 + 4 × 5 = 23.",
+      "officialObjectives": [
+        "Connaitre et utiliser les priorités opératoires."
+      ],
+      "evidence": [
+        "Calcule une expression sans parenthèses en effectuant d’abord multiplications et divisions : 3 + 4 × 5 = 23 ; 20 – 6 ÷ 2 = 17.",
+        "Calcule une expression avec parenthèses en commençant par celles-ci : (3 + 4) × 5 = 35.",
+        "Utilise les priorités pour calculer une expression comportant plusieurs opérations."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que 3 + 4 × 5 vaut 23 et non 35 ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ope-08",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Opérations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Distributivité simple sur des exemples numériques",
+      "description": "Utiliser la règle k × (a + b) = k × a + k × b pour calculer plus facilement, par exemple 7 × 102 = 7 × 100 + 7 × 2.",
+      "officialObjectives": [
+        "Connaitre et utiliser la distributivité simple sur des exemples numériques."
+      ],
+      "evidence": [
+        "Utilise la distributivité pour calculer astucieusement, par exemple 7 × 102 = 7 × 100 + 7 × 2 = 714.",
+        "Regroupe un facteur commun, par exemple 13 × 7 + 13 × 3 = 13 × 10 = 130."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 7 × 102 de tête en décomposant 102 en 100 + 2 ?",
+      "priorKnowledge": [
+        "Calculer le produit de deux nombres décimaux (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ope-09",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Opérations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Multiples et diviseurs",
+      "description": "Comprendre et utiliser les mots « multiple » et « diviseur » : 35 est un multiple de 7 et 7 est un diviseur de 35, car la division de 35 par 7 tombe juste. Ces notions servent notamment avec les fractions.",
+      "officialObjectives": [
+        "Utiliser les notions de multiples et diviseurs."
+      ],
+      "evidence": [
+        "Reconnaît qu’un nombre est multiple ou diviseur d’un autre quand le reste de la division euclidienne est nul.",
+        "Détermine le quotient et le reste dans une division euclidienne, par exemple 17 = 3 × 5 + 2 (automatisme).",
+        "Utilise les tables de multiplication pour écrire un nombre entier comme produit de deux nombres différents de 1, par exemple 21 = 3 × 7 (automatisme).",
+        "Mobilise les critères de divisibilité par 2, 5 et 10 (automatisme).",
+        "Utilise multiples et diviseurs pour résoudre des problèmes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si 7 est un diviseur de 35 et si 48 est un multiple de 5 ?",
+      "priorKnowledge": [
+        "Effectuer la division euclidienne d’un nombre entier par un nombre entier inférieur à 100 (6e)",
+        "Critères de divisibilité par 2, 5 et 10 (CM1, CM2)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ope-10",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Opérations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Critères de divisibilité par 3 et par 9",
+      "description": "Savoir reconnaître sans poser la division qu’un nombre est divisible par 3 (ou par 9) : c’est le cas si la somme de ses chiffres est divisible par 3 (ou par 9).",
+      "officialObjectives": [
+        "Connaitre les critères de divisibilité par 3 et par 9."
+      ],
+      "evidence": [
+        "Énonce les critères : un nombre est divisible par 3 (par 9) si la somme de ses chiffres est divisible par 3 (par 9).",
+        "Applique le critère, par exemple 471 est divisible par 3 car 4 + 7 + 1 = 12 ; 4 518 est divisible par 9 car 4 + 5 + 1 + 8 = 18."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, sans poser la division, si 471 est divisible par 3 ?",
+      "priorKnowledge": [
+        "Critères de divisibilité par 2, 5 et 10 (CM1, CM2)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ope-11",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Opérations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Utiliser un algorithme pour calculer",
+      "description": "Suivre ou utiliser une méthode en étapes bien définies (un algorithme) pour mener un calcul, par exemple pour chercher tous les diviseurs d’un nombre.",
+      "officialObjectives": [
+        "Mobiliser un algorithme dans le cadre du calcul numérique."
+      ],
+      "evidence": [
+        "Exécute pas à pas un algorithme de calcul donné, par exemple un programme de calcul.",
+        "Utilise une démarche systématique pour un calcul numérique, par exemple chercher tous les diviseurs d’un nombre en testant les divisions une à une."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver tous les diviseurs de 24 en testant méthodiquement les divisions par 1, 2, 3, 4… ?",
+      "priorKnowledge": [
+        "Produire et exécuter une séquence d’instructions (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-01",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Définir les nombres relatifs",
+      "description": "Découvrir les nombres négatifs (–3 ; –2,5…) qui, avec les nombres positifs, forment les nombres relatifs. Ils permettent de faire toutes les soustractions, par exemple 3 – 5 = –2.",
+      "officialObjectives": [
+        "Définir les nombres relatifs."
+      ],
+      "evidence": [
+        "Reconnaît des nombres relatifs écrits avec un signe + ou – : –4 ; +2,5 ; 7.",
+        "Explique que les nombres relatifs rendent possibles toutes les soustractions, par exemple 3 – 5 = –2."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce que représente le nombre –4 et donner le résultat de 3 – 5 ?",
+      "priorKnowledge": [
+        "Reconnaître un nombre décimal (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-02",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Opposé et valeur absolue d’un nombre",
+      "description": "L’opposé de 3,5 est –3,5 : deux nombres opposés sont à la même distance de zéro, de part et d’autre. La valeur absolue d’un nombre est sa distance à zéro (la valeur absolue de –7 est 7).",
+      "officialObjectives": [
+        "Définir l’opposé et la valeur absolue d’un nombre."
+      ],
+      "evidence": [
+        "Donne l’opposé d’un nombre : l’opposé de 3,5 est –3,5 ; l’opposé de –2 est 2.",
+        "Donne la valeur absolue d’un nombre comme sa distance à zéro : la valeur absolue de –7 est 7.",
+        "Sait que deux nombres opposés sont à la même distance de zéro sur une droite graduée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait donner l’opposé de –2 et la valeur absolue de –7 ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-03",
+      "programme": "maths-c4",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Nombres positifs, négatifs, strictement positifs ou négatifs",
+      "description": "Employer correctement les mots « positif », « négatif », « strictement positif », « strictement négatif ». Le nombre 0 est à la fois positif et négatif ; « strictement » exclut 0.",
+      "officialObjectives": [
+        "Définir la notion de nombre positif, strictement positif, négatif, strictement négatif."
+      ],
+      "evidence": [
+        "Classe des nombres en positifs et négatifs.",
+        "Distingue « positif » et « strictement positif », « négatif » et « strictement négatif », en particulier pour le nombre 0."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si 0 est positif, négatif ou strictement positif ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-04",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Représenter des grandeurs par des nombres relatifs",
+      "description": "Utiliser les nombres négatifs pour décrire des situations réelles : une température en dessous de zéro, une altitude sous le niveau de la mer, une date avant une date de référence.",
+      "officialObjectives": [
+        "Utiliser les nombres relatifs pour représenter des grandeurs observables qui peuvent prendre des valeurs inférieures à zéro (température, temps, altitude, etc.), en particulier dans le cadre de la résolution de problèmes."
+      ],
+      "evidence": [
+        "Utilise un nombre négatif pour une grandeur inférieure à zéro : température (–5 °C), altitude sous le niveau de la mer, temps.",
+        "Interprète un nombre relatif dans un contexte, par exemple passer de –3 °C à 8 °C correspond à une hausse de 11 °C.",
+        "Mobilise les nombres relatifs dans la résolution de problèmes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait de combien la température a augmenté quand elle passe de –3 °C le matin à 8 °C l’après-midi ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 7,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-05",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Lire et placer des nombres relatifs sur une droite graduée",
+      "description": "Sur une droite graduée qui se prolonge à gauche de zéro, lire l’abscisse d’un point (par exemple –1,5) et placer un point dont l’abscisse est un nombre relatif.",
+      "officialObjectives": [
+        "Lire l’abscisse d’un nombre relatif sur une droite graduée et placer un nombre relatif d’abscisse donnée."
+      ],
+      "evidence": [
+        "Lit l’abscisse d’un point d’une droite graduée, positive ou négative, par exemple –1,5.",
+        "Place sur une droite graduée un point d’abscisse donnée, positive ou négative."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer les points d’abscisses –3, –1,5 et 2 sur une droite graduée ?",
+      "priorKnowledge": [
+        "Placer sur une demi-droite graduée un point dont l’abscisse est un nombre décimal (6e)",
+        "Repérer un nombre décimal sur une demi-droite graduée (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-06",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Comparer et ranger des nombres relatifs",
+      "description": "Comparer des nombres positifs et négatifs : –3 est plus petit que –2, et tout nombre négatif est plus petit que tout nombre positif. Ranger une liste dans l’ordre croissant ou décroissant.",
+      "officialObjectives": [
+        "Comparer et ranger dans l’ordre croissant et décroissant des nombres décimaux relatifs."
+      ],
+      "evidence": [
+        "Compare deux nombres décimaux relatifs, par exemple –3 < –2 ; –4,5 < 1.",
+        "Range des nombres relatifs dans l’ordre croissant et décroissant, par exemple –2,5 < –0,5 < 0 < 1.",
+        "S’appuie sur la droite graduée pour justifier une comparaison."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger dans l’ordre croissant les nombres 1 ; –2,5 ; 0 ; –0,5 ?",
+      "priorKnowledge": [
+        "Comparer deux nombres décimaux (6e)",
+        "Ordonner une liste de nombres décimaux (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-07",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Additionner deux nombres relatifs",
+      "description": "Calculer la somme de deux nombres relatifs, de même signe ou de signes contraires : (–3) + (–4,5) = –7,5 ; (–7) + 4 = –3.",
+      "officialObjectives": [
+        "Additionner deux nombres décimaux relatifs."
+      ],
+      "evidence": [
+        "Additionne deux nombres relatifs de même signe, par exemple (–3) + (–4,5) = –7,5.",
+        "Additionne deux nombres relatifs de signes contraires, par exemple (–7) + 4 = –3.",
+        "Calcule avec des nombres décimaux à une ou deux décimales (automatisme)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer (–7) + 4 et (–3) + (–4,5) ?",
+      "priorKnowledge": [
+        "Additionner et soustraire des nombres décimaux (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-08",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Additionner plusieurs nombres relatifs",
+      "description": "Calculer une somme de plusieurs nombres relatifs, en regroupant astucieusement les nombres positifs, les nombres négatifs ou les nombres opposés.",
+      "officialObjectives": [
+        "Additionner plusieurs nombres décimaux relatifs."
+      ],
+      "evidence": [
+        "Calcule une somme de plusieurs nombres relatifs, par exemple (–5) + 3 + (+5) + (–2) = 1.",
+        "Regroupe les termes positifs, les termes négatifs ou les nombres opposés pour simplifier le calcul."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer (–5) + 3 + (+5) + (–2) ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-09",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Soustraire deux nombres relatifs",
+      "description": "Soustraire un nombre relatif revient à ajouter son opposé : 3 – (–4) = 3 + 4 = 7. Cela s’appuie sur l’idée que pour compléter 2 + … = 7, on calcule 7 – 2.",
+      "officialObjectives": [
+        "Soustraire deux nombres décimaux relatifs."
+      ],
+      "evidence": [
+        "Transforme une soustraction en addition de l’opposé, par exemple 3 – (–4) = 3 + 4 = 7.",
+        "Calcule la différence de deux nombres relatifs, par exemple 5 – 8 = –3.",
+        "Sait que pour compléter une addition à trou, on utilise une soustraction : 2 + … = 7 se complète en calculant 7 – 2 (automatisme)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 3 – (–4) et 5 – 8 ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-10",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Savoir quand les parenthèses sont indispensables",
+      "description": "Comprendre dans quels cas les parenthèses changent le sens d’une écriture : pour séparer deux signes, comme dans 2 – (–7), ou pour regrouper des termes, car 8 – (3 + 2) n’est pas égal à 8 – 3 + 2.",
+      "officialObjectives": [
+        "Connaitre et justifier les situations dans lesquelles des parenthèses sont indispensables au sens des écritures."
+      ],
+      "evidence": [
+        "Repère les écritures où les parenthèses sont indispensables, par exemple pour séparer deux signes : 5 + (–3) ; 2 – (–7).",
+        "Justifie l’utilité des parenthèses en comparant deux écritures : 8 – (3 + 2) = 3 alors que 8 – 3 + 2 = 7."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi 8 – (3 + 2) et 8 – 3 + 2 ne donnent pas le même résultat ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-11",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Simplifier l’écriture d’une somme avec parenthèses",
+      "description": "Alléger l’écriture d’un calcul avec des nombres relatifs en supprimant des parenthèses et des signes inutiles : (+3) + (–5) + (+2) s’écrit 3 – 5 + 2.",
+      "officialObjectives": [
+        "Simplifier l’écriture de sommes comportant des parenthèses."
+      ],
+      "evidence": [
+        "Simplifie l’écriture d’une somme, par exemple (+3) + (–5) + (+2) s’écrit 3 – 5 + 2.",
+        "Transforme les soustractions en additions avant de simplifier, par exemple 7 – (+2) + (–4) = 7 – 2 – 4."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire plus simplement (+3) + (–5) + (+2) ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-12",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Enchaîner additions et soustractions de relatifs",
+      "description": "Calculer une expression qui mélange plusieurs additions et soustractions de nombres relatifs, comme –3 + 7 – 10 + 2,5.",
+      "officialObjectives": [
+        "Enchainer additions et soustractions de décimaux relatifs."
+      ],
+      "evidence": [
+        "Calcule une suite d’additions et de soustractions de décimaux relatifs, par exemple –3 + 7 – 10 + 2,5 = –3,5.",
+        "Organise son calcul de gauche à droite ou en regroupant les termes de même signe."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer –3 + 7 – 10 + 2,5 ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rel-13",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres relatifs",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Problèmes avec additions et soustractions de relatifs",
+      "description": "Résoudre des problèmes concrets (températures, altitudes, dates, gains et pertes) qui demandent d’additionner ou de soustraire des nombres positifs et négatifs.",
+      "officialObjectives": [
+        "Résoudre des problèmes mobilisant addition et soustraction de nombres décimaux relatifs."
+      ],
+      "evidence": [
+        "Résout un problème d’écart, par exemple l’écart entre –4 °C et 9 °C est 9 – (–4) = 13 °C.",
+        "Résout un problème d’évolution, par exemple un plongeur à –12 m qui remonte de 5 m se trouve à –7 m.",
+        "Contrôle la vraisemblance du résultat dans le contexte."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver l’écart entre une température de –4 °C et une température de 9 °C ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rat-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres rationnels",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Comparer des fractions",
+      "description": "Dire laquelle de deux fractions est la plus grande, en utilisant la méthode adaptée : même dénominateur, même numérateur, comparaison à 1/2 ou à 1, ou mise au même dénominateur.",
+      "officialObjectives": [
+        "Comparer des fractions."
+      ],
+      "evidence": [
+        "Compare deux fractions : 2/7 et 5/7 ; 8/12 et 8/21 ; 3/4 et 7/18 ; 8/3 et 6/7 (automatisme).",
+        "Reconnaît des fractions égales et complète : 2/3 = …/15 ; 4/7 = …/14 (automatisme).",
+        "Compare des fractions de dénominateurs quelconques en les écrivant avec un même dénominateur.",
+        "S’appuie sur les tables de multiplication pour trouver un dénominateur commun (automatisme)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire laquelle est la plus grande entre 3/4 et 7/18, puis entre 8/3 et 6/7 ?",
+      "priorKnowledge": [
+        "Établir des égalités de fractions (6e)",
+        "Comparer et encadrer des fractions (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rat-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres rationnels",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Additionner et soustraire des fractions de dénominateurs quelconques",
+      "description": "Ajouter ou soustraire des fractions qui n’ont pas le même dénominateur, en les écrivant d’abord avec un dénominateur commun : 2/5 + 1/4 = 8/20 + 5/20 = 13/20.",
+      "officialObjectives": [
+        "Additionner et soustraire des fractions de dénominateurs quelconques."
+      ],
+      "evidence": [
+        "Calcule des sommes et différences de fractions simples : 3/5 + 4/5 ; 1 – 2/3 ; 4/7 – 2/21 ; 3 + 2/5 ; 2/5 + 1/4 (automatisme).",
+        "Écrit les fractions avec un dénominateur commun avant de les additionner ou de les soustraire, par exemple 2/5 + 1/4 = 8/20 + 5/20 = 13/20.",
+        "S’appuie sur les multiples et sur les tables de multiplication pour trouver un dénominateur commun."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 2/5 + 1/4 et 1 – 2/3 ?",
+      "priorKnowledge": [
+        "Additionner et soustraire des fractions (6e)",
+        "Établir des égalités de fractions (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rat-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres rationnels",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Problèmes avec additions et soustractions de fractions",
+      "description": "Résoudre des problèmes où il faut ajouter ou retirer des fractions d’un même tout, par exemple trouver la part restante quand on connaît les autres parts.",
+      "officialObjectives": [
+        "Résoudre des problèmes avec des additions et soustractions de fractions."
+      ],
+      "evidence": [
+        "Résout un problème de parts d’un tout, par exemple si 1/4 des élèves font du théâtre et 2/5 du sport (sans faire les deux), la fraction des élèves qui ne font ni l’un ni l’autre est 1 – 1/4 – 2/5 = 7/20.",
+        "Choisit entre addition et soustraction de fractions selon le sens de l’énoncé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver la fraction des élèves sans activité si 1/4 font du théâtre et 2/5 font du sport ?",
+      "priorKnowledge": [
+        "Résoudre des problèmes mettant en jeu des fractions (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rat-04",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Nombres rationnels – Automatismes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Passer d’une écriture d’un nombre à une autre (automatisme)",
+      "description": "Savoir écrire un même nombre de plusieurs façons : en écriture décimale, en fraction, en nombre entier plus une fraction, en pourcentage. Par exemple 1,2 = 12/10 = 6/5 = 1 + 1/5 = 120 %.",
+      "officialObjectives": [
+        "Entretenir l’écriture décimale des fractions simples comme 1/2 ; 1/4 ; 3/4 ; 3/2 ; 4/2 ; 5/2 ; 1/10 ; 100/100 ; 7/1.",
+        "Écrire une fraction sous la forme d’une somme d’un nombre entier et d’une fraction inférieure à 1 : 17/5 = 3 + 2/5.",
+        "Écrire un même nombre sous de multiples formes, par exemple dire que 1,2 = 12/10 = 6/5 = 1 + 1/5 = 120 % = 120/100 etc."
+      ],
+      "evidence": [
+        "Donne l’écriture décimale des fractions simples : 1/2 = 0,5 ; 1/4 = 0,25 ; 3/4 = 0,75 ; 3/2 = 1,5 ; 4/2 = 2 ; 5/2 = 2,5 ; 1/10 = 0,1 ; 100/100 = 1 ; 7/1 = 7.",
+        "Écrit une fraction comme la somme d’un entier et d’une fraction inférieure à 1 : 17/5 = 3 + 2/5.",
+        "Écrit un même nombre sous de multiples formes : 1,2 = 12/10 = 6/5 = 1 + 1/5 = 120 % = 120/100."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire 17/5 sous la forme 3 + 2/5, et 1,2 sous forme de fraction et de pourcentage ?",
+      "priorKnowledge": [
+        "Associer et utiliser différentes écritures d’un nombre décimal : écriture à virgule, fraction, nombre mixte, pourcentage (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-pui-01",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Puissances",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Notion de puissance : carré et cube d’un nombre",
+      "description": "Découvrir qu’un produit d’un nombre par lui-même s’écrit en abrégé : 5 × 5 = 5² (« 5 au carré ») et 4 × 4 × 4 = 4³ (« 4 au cube »). C’est la même notation que dans cm² et cm³.",
+      "officialObjectives": [
+        "Découvrir la notion de puissance d’un nombre et sa notation dans le cas du carré et du cube."
+      ],
+      "evidence": [
+        "Écrit un produit itéré avec la notation puissance : 5 × 5 = 5² ; 4 × 4 × 4 = 4³.",
+        "Lit correctement « 5 au carré », « 4 au cube ».",
+        "Relie la notation aux unités d’aire et de volume (cm², cm³) (automatisme)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que 4³ signifie 4 × 4 × 4 et combien cela fait ?",
+      "priorKnowledge": [
+        "Calculer l’aire d’un carré ou d’un rectangle (6e)",
+        "Connaître l’unité centimètre cube (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-pui-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Puissances",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Carrés des entiers de 0 à 12",
+      "description": "Connaître par cœur les carrés des nombres entiers de 0 à 12 : 7² = 49, 9² = 81, 12² = 144…",
+      "officialObjectives": [
+        "Connaitre les carrés des entiers de 0 à 12."
+      ],
+      "evidence": [
+        "Donne de mémoire le carré d’un entier de 0 à 12, par exemple 7² = 49 ; 12² = 144.",
+        "S’appuie sur les tables de multiplication (automatisme)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait donner de tête 7², 9² et 12² ?",
+      "priorKnowledge": [
+        "Connaître des faits numériques usuels avec des entiers, dont les tables de multiplication (CM2)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-pui-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Puissances",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Cube de 10",
+      "description": "Savoir que 10³ = 10 × 10 × 10 = 1 000, ce qui explique par exemple qu’un cube de 10 cm de côté a un volume de 1 000 cm³.",
+      "officialObjectives": [
+        "Connaitre le cube de 10."
+      ],
+      "evidence": [
+        "Sait que 10³ = 1 000.",
+        "Relie 10³ = 1 000 au volume d’un cube de 10 cm de côté : 1 dm³ = 1 000 cm³."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait combien vaut 10³ ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-pui-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Puissances",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Écrire un nombre sous forme de carré ou de cube",
+      "description": "Reconnaître qu’un nombre est le carré ou le cube d’un entier et l’écrire ainsi : 49 = 7², 8 = 2³, 1 000 = 10³.",
+      "officialObjectives": [
+        "Savoir écrire un nombre sous la forme d’une puissance 2 ou 3."
+      ],
+      "evidence": [
+        "Écrit un nombre sous la forme d’un carré, par exemple 49 = 7² ; 81 = 9².",
+        "Écrit un nombre sous la forme d’un cube, par exemple 8 = 2³ ; 27 = 3³ ; 1 000 = 10³."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire 81 sous la forme d’un carré et 1 000 sous la forme d’un cube ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-pui-05",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Puissances",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Calculer des expressions numériques avec des puissances",
+      "description": "Calculer une expression qui contient des carrés ou des cubes ainsi que des additions, soustractions et multiplications, en calculant d’abord les puissances : 3 + 4² = 3 + 16 = 19.",
+      "officialObjectives": [
+        "Calculer la valeur numérique d’expressions contenant des puissances simples, additions, soustractions et produits."
+      ],
+      "evidence": [
+        "Calcule une expression avec une puissance simple, par exemple 3 + 4² = 19 ; 2 × 5² = 50 ; 10³ – 6² = 964.",
+        "Calcule les puissances avant les produits, les sommes et les différences."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 2 × 5² ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-pui-06",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Puissances",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Calculer une expression littérale avec une puissance",
+      "description": "Remplacer la lettre par un nombre dans une expression qui contient un carré ou un cube, puis calculer : pour x = 4, x² + 3 = 16 + 3 = 19.",
+      "officialObjectives": [
+        "Calculer la valeur d’une expression littérale contenant une puissance simple."
+      ],
+      "evidence": [
+        "Calcule une expression littérale contenant une puissance pour une valeur donnée, par exemple x² + 3 pour x = 4 donne 19.",
+        "Calcule une aire avec la formule c² pour une valeur donnée du côté c."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer x² + 3 lorsque x = 4 ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-01",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Produire des formules",
+      "description": "Écrire avec une lettre une formule qui marche dans tous les cas : le double d’un nombre n est 2 × n, son successeur n + 1, le périmètre d’un carré de côté c est 4 × c. On s’entraîne aussi avec des suites de motifs qui grandissent.",
+      "officialObjectives": [
+        "Produire des formules (double, triple, carré, successeur, prédécesseur, aire, périmètre, etc.)."
+      ],
+      "evidence": [
+        "Écrit avec une lettre le double, le triple, le carré, le successeur et le prédécesseur d’un nombre : 2 × n ; 3 × n ; n² ; n + 1 ; n – 1.",
+        "Écrit une formule d’aire ou de périmètre, par exemple P = 4 × c pour un carré.",
+        "Identifie des régularités et poursuit une suite de motifs évolutive (automatisme).",
+        "Identifie la structure d’un motif évolutif en repérant une régularité (automatisme), par exemple une rangée de n carrés en allumettes utilise 3 × n + 1 allumettes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire une formule donnant le périmètre d’un carré de côté c ?",
+      "priorKnowledge": [
+        "Identifier la structure d’un motif évolutif en repérant une régularité et en identifiant une structure (6e)",
+        "Connaître la formule de l’aire d’un carré ou d’un rectangle (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Calculer une expression littérale par substitution",
+      "description": "Remplacer la lettre par un nombre dans une expression puis effectuer le calcul : pour x = 2, 3x + 5 = 3 × 2 + 5 = 11.",
+      "officialObjectives": [
+        "Calculer la valeur d’une expression littérale par substitution."
+      ],
+      "evidence": [
+        "Remplace la lettre par une valeur et calcule, par exemple 3x + 5 pour x = 2 donne 11.",
+        "Trouve le nombre d’éléments pour une étape donnée dans une suite de motifs évolutive (automatisme), par exemple 3 × 10 + 1 = 31 allumettes à l’étape 10.",
+        "Rétablit le signe × sous-entendu : 3x signifie 3 × x."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 3x + 5 lorsque x = 2 ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 8,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Tester si une égalité est vraie ou fausse",
+      "description": "Vérifier, pour une valeur donnée de la lettre, si les deux côtés d’une égalité donnent le même résultat : 2x + 3 = 5x – 3 est vraie pour x = 2 (7 = 7) mais fausse pour x = 1.",
+      "officialObjectives": [
+        "Tester si une égalité entre expressions algébriques comportant une variable est vraie ou fausse."
+      ],
+      "evidence": [
+        "Calcule séparément les deux membres d’une égalité pour une valeur donnée et conclut, par exemple 2x + 3 = 5x – 3 est vraie pour x = 2 et fausse pour x = 1.",
+        "Teste si un nombre vérifie une égalité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait vérifier si l’égalité 2x + 3 = 5x – 3 est vraie pour x = 2, puis pour x = 1 ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 9,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-04",
+      "programme": "maths-c4",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Reconnaître si une expression littérale est une somme ou un produit",
+      "description": "Dire si une expression avec une lettre est une somme ou un produit, selon la dernière opération à effectuer : 3x + 2 est une somme, 5(x + 4) est un produit.",
+      "officialObjectives": [
+        "Déterminer si une expression littérale est une somme ou un produit."
+      ],
+      "evidence": [
+        "Donne la nature d’une expression littérale : 3x + 2 est une somme, 5(x + 4) est un produit.",
+        "Justifie sa réponse par la dernière opération effectuée selon les priorités."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si 5(x + 4) est une somme ou un produit ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 9,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-05",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Développer avec k(a + b) = ka + kb",
+      "description": "Transformer un produit en somme en distribuant le facteur : 3(x + 4) = 3x + 12 ; 5(2 – x) = 10 – 5x.",
+      "officialObjectives": [
+        "Exploiter les relations k(a + b) = ka + kb ou k(a – b) = ka – kb pour factoriser, ou développer une expression littérale."
+      ],
+      "evidence": [
+        "Développe une expression avec k(a + b) = ka + kb, par exemple 3(x + 4) = 3x + 12.",
+        "Développe une expression avec k(a – b) = ka – kb, par exemple 5(2 – x) = 10 – 5x."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait développer 3(x + 4) ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 9,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-06",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Factoriser avec ka + kb = k(a + b)",
+      "description": "Transformer une somme en produit en repérant un facteur commun : 7x + 21 = 7(x + 3) ; 4x – 8 = 4(x – 2).",
+      "officialObjectives": [
+        "Exploiter les relations k(a + b) = ka + kb ou k(a – b) = ka – kb pour factoriser, ou développer une expression littérale."
+      ],
+      "evidence": [
+        "Repère un facteur commun dans une somme ou une différence.",
+        "Factorise une expression, par exemple 7x + 21 = 7(x + 3) ; 4x – 8 = 4(x – 2)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait factoriser 4x – 8 ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 9,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-07",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Réduire une expression de la forme ax + b",
+      "description": "Simplifier une expression en regroupant les termes en x et les nombres seuls : 2,5x + 4 + 1,5x – 1 = 4x + 3.",
+      "officialObjectives": [
+        "Réduire une expression littérale de la forme a𝑥 + b, où a et b sont des nombres décimaux."
+      ],
+      "evidence": [
+        "Regroupe les termes en x : x + x = 2x ; 3x + 2x = 5x ; 1 × x = x.",
+        "Réduit une expression sous la forme ax + b avec des décimaux, par exemple 2,5x + 4 + 1,5x – 1 = 4x + 3.",
+        "Écrit 3 × x sous la forme 3x."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait réduire 2,5x + 4 + 1,5x – 1 ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 9,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-08",
+      "programme": "maths-c4",
+      "type": "META",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Démontrer une propriété générale par le calcul littéral",
+      "description": "Utiliser une lettre pour prouver qu’une propriété est vraie pour tous les nombres, et pas seulement sur quelques exemples. Par exemple, la somme de trois entiers consécutifs est toujours un multiple de 3.",
+      "officialObjectives": [
+        "Démontrer une propriété générale par le calcul littéral."
+      ],
+      "evidence": [
+        "Démontre une propriété à l’aide d’une lettre, par exemple n + (n + 1) + (n + 2) = 3n + 3 = 3(n + 1) prouve que la somme de trois entiers consécutifs est un multiple de 3.",
+        "Distingue une vérification sur des exemples d’une preuve valable dans tous les cas."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer, avec une lettre, pourquoi la somme de trois nombres entiers qui se suivent est toujours dans la table de 3 ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 9,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-09",
+      "programme": "maths-c4",
+      "type": "META",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Utiliser un contre-exemple pour prouver qu’une affirmation est fausse",
+      "description": "Comprendre qu’un seul exemple qui ne marche pas suffit à prouver qu’une affirmation générale est fausse.",
+      "officialObjectives": [
+        "Utiliser un contre-exemple pour démontrer qu’une assertion est fausse."
+      ],
+      "evidence": [
+        "Trouve un contre-exemple à une affirmation générale, par exemple « le double d’un nombre est toujours plus grand que ce nombre » est faux pour 0.",
+        "Sait qu’un seul contre-exemple suffit à prouver qu’une affirmation est fausse, alors que des exemples ne suffisent pas à prouver qu’elle est vraie."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait prouver que l’affirmation « le double d’un nombre est toujours plus grand que ce nombre » est fausse ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 9,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-10",
+      "programme": "maths-c4",
+      "type": "META",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Formuler des conjectures avec un algorithme ou un tableur",
+      "description": "Utiliser un tableur ou un petit programme pour faire de nombreux essais, observer un résultat qui semble toujours vrai et l’énoncer comme une conjecture (une supposition à prouver).",
+      "officialObjectives": [
+        "Formuler des conjectures en s’appuyant sur un langage algorithmique ou un tableur."
+      ],
+      "evidence": [
+        "Calcule une expression pour de nombreuses valeurs avec un tableur ou un programme et observe les résultats.",
+        "Formule une conjecture à partir de ces essais, par exemple « la somme de trois entiers consécutifs semble toujours être un multiple de 3 ».",
+        "Distingue une conjecture d’une propriété démontrée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait utiliser un tableur pour calculer des sommes de trois entiers consécutifs et énoncer ce qu’il ou elle remarque ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 9,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-11",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "La lettre comme inconnue",
+      "description": "Comprendre qu’une lettre peut désigner un nombre qu’on ne connaît pas encore et qu’on cherche (une inconnue), et pas seulement une valeur qui varie dans une formule.",
+      "officialObjectives": [
+        "Donner à la lettre le statut d’inconnue."
+      ],
+      "evidence": [
+        "Désigne par une lettre un nombre inconnu dans un problème.",
+        "Distingue la lettre qui désigne une inconnue de la lettre qui désigne une variable dans une formule."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce que représente x dans « 3 × x = 7 » ?",
+      "priorKnowledge": [
+        "Utiliser des modèles pré-algébriques pour résoudre des problèmes algébriques (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 9,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-12",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Mettre en équation un problème : ax = c ou x + b = c",
+      "description": "Traduire un problème « à trou » par une équation : « 3 × … = 7 » s’écrit 3x = 7 ; « … + 4,5 = 12 » s’écrit x + 4,5 = 12.",
+      "officialObjectives": [
+        "Modéliser des problèmes relevant des opérations à trous par des équations du type a𝑥 = c ou 𝑥 + b = c ."
+      ],
+      "evidence": [
+        "Traduit une opération à trou par une équation : 3 × … = 7 devient 3x = 7 ; … + 4,5 = 12 devient x + 4,5 = 12.",
+        "Modélise un problème par une équation, par exemple 5 cahiers identiques coûtent 7,50 € : 5x = 7,5."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire une équation pour trouver le prix d’un cahier si 5 cahiers coûtent 7,50 € ?",
+      "priorKnowledge": [
+        "Compléter des égalités à trous multiplicatives (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 9,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-lit-13",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Nombres et calculs",
+      "subdomain": "Calcul littéral et algébrique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Résoudre ax = c ou x + b = c avec les opérations inverses",
+      "description": "Trouver la valeur de l’inconnue en faisant l’opération inverse : pour x + 4,5 = 12 on calcule 12 – 4,5 = 7,5 ; pour 3x = 7 on calcule 7 ÷ 3, c’est-à-dire 7/3.",
+      "officialObjectives": [
+        "Résoudre des équations du type a𝑥 = c ou 𝑥 + b = c par des méthodes arithmétiques s'appuyant sur les opérations inverses."
+      ],
+      "evidence": [
+        "Résout une équation x + b = c par une soustraction : 2 + … = 7 se complète en calculant 7 – 2 (automatisme).",
+        "Résout une équation ax = c par une division et donne la solution sous forme de quotient : 3 × … = 7 donne 7/3, puis vérifie que 3 × 7/3 = 7 (automatisme nombre quotient).",
+        "Vérifie la solution en la remplaçant dans l’équation."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait résoudre 3x = 7 et x + 4,5 = 12 ?",
+      "priorKnowledge": [
+        "Comprendre et connaître la définition du quotient d’un entier a par un entier b non nul (6e)",
+        "Compléter des égalités à trous multiplicatives (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 9,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rep-01",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Repérage sur une droite et dans le plan",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Lire et placer un point sur une droite graduée",
+      "description": "Sur une droite graduée, lire le nombre (l’abscisse) qui repère un point et placer un point repéré par un nombre donné, qu’il soit décimal, fractionnaire ou négatif.",
+      "officialObjectives": [
+        "Sur une droite graduée : lire l’abscisse d’un point donné ; placer un point d’abscisse donnée."
+      ],
+      "evidence": [
+        "Place sur une demi-droite graduée un point dont l’abscisse est un nombre décimal (automatisme).",
+        "Repère un nombre décimal sur une demi-droite graduée (automatisme).",
+        "Lit l’abscisse d’un point sur une droite graduée en tiers, en quarts, en moitiés, en dixièmes (automatisme).",
+        "Lit l’abscisse d’un point donné et place un point d’abscisse donnée sur une droite graduée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lire l’abscisse d’un point sur une droite graduée en quarts et placer le point d’abscisse 2,7 ?",
+      "priorKnowledge": [
+        "Placer sur une demi-droite graduée un point dont l’abscisse est un nombre décimal (6e)",
+        "Placer une fraction sur une demi-droite graduée dans des cas simples (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-rep-02",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Repérage sur une droite et dans le plan",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Lire et placer un point dans un repère orthogonal",
+      "description": "Dans un plan muni de deux axes gradués perpendiculaires, lire les coordonnées d’un point (abscisse puis ordonnée) et placer un point de coordonnées données, par exemple A(3 ; –2).",
+      "officialObjectives": [
+        "Dans le plan muni d’un repère orthogonal : lire les coordonnées d’un point donné ; placer un point de coordonnées données."
+      ],
+      "evidence": [
+        "Lit les coordonnées d’un point donné, en commençant par l’abscisse (axe horizontal) puis l’ordonnée (axe vertical).",
+        "Place un point de coordonnées données, y compris négatives, par exemple A(3 ; –2)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer le point A(3 ; –2) dans un repère ?",
+      "priorKnowledge": [
+        "Repérer un nombre décimal sur une demi-droite graduée (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-esp-01",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Représentation de l’espace",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Représenter des solides en perspective cavalière",
+      "description": "Dessiner en perspective cavalière (dessin qui donne l’illusion du relief) un pavé, un cube, un cylindre ou un prisme droit, et relier différents dessins d’un même solide.",
+      "officialObjectives": [
+        "Construire et mettre en relation différentes représentations en perspectives cavalières des solides suivants : pavé droit, cube, cylindre de révolution, prisme droit."
+      ],
+      "evidence": [
+        "Reconnaît un cube, un pavé représenté en perspective cavalière (automatisme).",
+        "Construit en perspective cavalière un pavé droit, un cube, un cylindre de révolution, un prisme droit.",
+        "Met en relation différentes représentations en perspective cavalière d’un même solide."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dessiner un pavé droit en perspective cavalière ?",
+      "priorKnowledge": [
+        "L’élève identifie dans un ensemble de solides lesquels sont des pyramides, des boules, des cubes, des cylindres, des pavés, des cônes ou des prismes droits (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-esp-02",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Représentation de l’espace",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Relier perspective cavalière et patron d’un solide",
+      "description": "Associer le dessin en perspective d’un solide et son patron (la figure à plat qu’on plie pour fabriquer le solide), pour un pavé, un prisme droit ou un cylindre.",
+      "officialObjectives": [
+        "Savoir mettre en relation une représentation en perspective cavalière et un patron d’un pavé, d’un prisme droit ou d’un cylindre de révolution."
+      ],
+      "evidence": [
+        "Reconnaît un patron d’un cube (automatisme).",
+        "Associe une représentation en perspective cavalière et un patron d’un pavé, d’un prisme droit ou d’un cylindre de révolution.",
+        "Repère sur le patron les faces et les arêtes qui se correspondent sur le solide."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver, parmi plusieurs dessins, le patron d’un prisme droit représenté en perspective ?",
+      "priorKnowledge": [
+        "L’élève identifie dans un ensemble de solides lesquels sont des pyramides, des boules, des cubes, des cylindres, des pavés, des cônes ou des prismes droits (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-esp-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Représentation de l’espace",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Volume du cube, du pavé droit et du prisme droit",
+      "description": "Calculer le volume d’un cube (côté × côté × côté), d’un pavé (longueur × largeur × hauteur) et d’un prisme droit (aire de la base × hauteur).",
+      "officialObjectives": [
+        "Calculer le volume du cube, du pavé droit, du prisme droit."
+      ],
+      "evidence": [
+        "Calcule le volume d’un pavé droit, par exemple 5 cm × 3 cm × 2 cm = 30 cm³.",
+        "Calcule le volume d’un cube, par exemple un cube de 4 cm de côté a un volume de 64 cm³.",
+        "Calcule le volume d’un prisme droit comme aire de la base × hauteur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer le volume d’un pavé de 5 cm de long, 3 cm de large et 2 cm de haut ?",
+      "priorKnowledge": [
+        "Déterminer un volume (6e)",
+        "Connaître l’unité centimètre cube (6e)",
+        "Calculer l’aire d’un carré ou d’un rectangle (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-esp-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Représentation de l’espace",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Unités de volume et de capacité : connaître et convertir",
+      "description": "Connaître les unités de volume (cm³, dm³, m³) et de capacité (L, cL, mL) et passer de l’une à l’autre : 1 L = 1 dm³ = 1 000 cm³.",
+      "officialObjectives": [
+        "Connaitre et convertir des unités usuelles (volume et capacité)."
+      ],
+      "evidence": [
+        "Connaît les unités d’aire et de volume (automatisme).",
+        "Convertit des volumes et des capacités, en sachant que 1 L = 1 dm³ = 1 000 cm³ et 1 mL = 1 cm³.",
+        "Utilise les conversions dans un problème, par exemple 2,5 L = 2 500 cm³."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait combien de cm³ contient une bouteille de 2,5 L ?",
+      "priorKnowledge": [
+        "Connaître l’unité centimètre cube (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-esp-05",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Représentation de l’espace",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Aire du disque",
+      "description": "Calculer l’aire d’un disque avec la formule π × rayon × rayon : un disque de rayon 3 cm a une aire de 9π cm², soit environ 28,3 cm².",
+      "officialObjectives": [
+        "Calculer l’aire du disque, le volume du cylindre de révolution."
+      ],
+      "evidence": [
+        "Calcule l’aire d’un disque de rayon donné avec π × r × r.",
+        "Donne une valeur exacte (9π cm² pour un rayon de 3 cm) ou une valeur approchée (environ 28,3 cm²)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer l’aire d’un disque de 3 cm de rayon ?",
+      "priorKnowledge": [
+        "Connaître la formule du périmètre d’un disque (6e)",
+        "Calculer l’aire d’un carré ou d’un rectangle (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-esp-06",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Représentation de l’espace",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Volume du cylindre de révolution",
+      "description": "Calculer le volume d’un cylindre (comme une boîte de conserve) : aire du disque de base × hauteur.",
+      "officialObjectives": [
+        "Calculer l’aire du disque, le volume du cylindre de révolution."
+      ],
+      "evidence": [
+        "Calcule le volume d’un cylindre comme aire du disque de base × hauteur, par exemple r = 2 cm et h = 5 cm donnent 20π cm³, soit environ 62,8 cm³.",
+        "Exprime le résultat dans une unité de volume ou de capacité adaptée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer le volume d’un cylindre de rayon 2 cm et de hauteur 5 cm ?",
+      "priorKnowledge": [
+        "Déterminer un volume (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-esp-07",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Représentation de l’espace – Automatismes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Empilements de cubes : vues et dénombrement (automatisme)",
+      "description": "Reconnaître comment on voit un empilement de cubes de dessus, de dessous ou de face, et compter rapidement les cubes qui le composent, y compris ceux qu’on ne voit pas.",
+      "officialObjectives": [
+        "Reconnaitre des vues (de dessus, dessous…) d’empilements de cubes.",
+        "Dénombrer des cubes dans des empilements."
+      ],
+      "evidence": [
+        "Reconnaît les vues (de dessus, de dessous…) d’un empilement de cubes.",
+        "Dénombre les cubes d’un empilement, y compris les cubes cachés."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait compter les cubes d’un empilement dessiné et reconnaître sa vue de dessus ?",
+      "priorKnowledge": [
+        "Voir dans l’espace des assemblages de cubes (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tra-01",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Transformations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Définir le demi-tour (symétrie centrale)",
+      "description": "Découvrir la symétrie centrale : faire faire un demi-tour à une figure autour d’un point O. Le symétrique d’un point M est le point M’ tel que O soit le milieu du segment [MM’].",
+      "officialObjectives": [
+        "Définir le demi-tour, ou symétrie centrale."
+      ],
+      "evidence": [
+        "Sait que le symétrique de M par le demi-tour de centre O est le point M’ tel que O est le milieu de [MM’].",
+        "Construit le symétrique d’un point par demi-tour.",
+        "Reconnaît qu’une figure et son image se superposent par un demi-tour autour du centre."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait construire le symétrique d’un point M par rapport à un point O ?",
+      "priorKnowledge": [
+        "Connaître et utiliser la définition du milieu d’un segment (6e)",
+        "Connaître la définition du symétrique d’un point par rapport à une droite (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tra-02",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Transformations",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Propriétés du demi-tour",
+      "description": "Savoir que le demi-tour ne déforme pas les figures : il conserve les longueurs, les angles, les aires et l’alignement, et transforme une droite en une droite parallèle.",
+      "officialObjectives": [
+        "Connaitre les propriétés du demi-tour."
+      ],
+      "evidence": [
+        "Sait que le demi-tour conserve les longueurs, les angles, les aires et l’alignement.",
+        "Sait que l’image d’une droite par un demi-tour est une droite parallèle.",
+        "Utilise ces propriétés pour construire l’image d’un segment, d’un cercle ou d’une figure.",
+        "Dit si deux figures sont images l’une de l’autre par un demi-tour et identifie le centre."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait construire l’image d’un triangle par un demi-tour et dire ce qui est conservé ?",
+      "priorKnowledge": [
+        "Connaître et utiliser les propriétés de la symétrie axiale pour effectuer des constructions (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tra-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Transformations – Automatismes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Construire le symétrique par symétrie axiale (automatisme)",
+      "description": "Construire rapidement et sûrement l’image d’une figure par une symétrie axiale (effet miroir), sur quadrillage ou sur feuille blanche. C’est un acquis de 6e entretenu en 5e.",
+      "officialObjectives": [
+        "Reconnaitre et construire le symétrique d’une figure par symétrie axiale, dont l’axe est vertical, horizontal, ou en diagonale sur quadrillage.",
+        "Construire le symétrique, par rapport à un axe, d’un point, d’une figure, sur feuille blanche."
+      ],
+      "evidence": [
+        "Reconnaît et construit sur quadrillage le symétrique d’une figure par rapport à un axe vertical, horizontal ou en diagonale.",
+        "Construit sur feuille blanche le symétrique d’un point, d’une figure par rapport à un axe."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait construire sur papier blanc le symétrique d’un triangle par rapport à une droite ?",
+      "priorKnowledge": [
+        "Connaître la définition du symétrique d’un point par rapport à une droite (6e)",
+        "Connaître et utiliser les propriétés de la symétrie axiale pour effectuer des constructions (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 12,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ang-01",
+      "programme": "maths-c4",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Angles – Automatismes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Vocabulaire et mesures de référence des angles (automatisme)",
+      "description": "Reconnaître et nommer rapidement les différents angles d’une figure (droit, plat, aigu, obtus, adjacents, opposés par le sommet, supplémentaires…), connaître leurs mesures de référence et reconnaître une bissectrice.",
+      "officialObjectives": [
+        "Reconnaitre et citer sur une configuration géométrique des angles : angle plein, plat, nul, droit ; angles opposés par le sommet, adjacents, supplémentaires, aigus, obtus.",
+        "Savoir qu’un angle droit mesure 90°, qu’un angle plat mesure 180°.",
+        "Reconnaitre une bissectrice.",
+        "Connaitre les mesures des angles de l’équerre dont dispose l’élève (30° 60° 90° ou 45° 45° 90°)."
+      ],
+      "evidence": [
+        "Reconnaît et cite sur une figure des angles plein, plat, nul, droit, aigus, obtus.",
+        "Reconnaît des angles opposés par le sommet, adjacents, supplémentaires.",
+        "Sait qu’un angle droit mesure 90° et qu’un angle plat mesure 180°.",
+        "Reconnaît une bissectrice.",
+        "Connaît les mesures des angles de son équerre (30°, 60°, 90° ou 45°, 45°, 90°)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer sur une figure deux angles opposés par le sommet et deux angles supplémentaires ?",
+      "priorKnowledge": [
+        "Connaître et utiliser les angles ainsi que le lexique et les notations qui s’y rapportent : angle droit, angle plat, angle plein, angle nul, angle aigu, angle obtus, angles opposés par le sommet, angles adjacents, angles supplémentaires (6e)",
+        "Connaître la définition de la bissectrice d’un angle saillant (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ang-02",
+      "programme": "maths-c4",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Angles",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Reconnaître des angles alternes-internes et correspondants",
+      "description": "Quand deux droites sont coupées par une troisième (une sécante), repérer les paires d’angles « alternes-internes » (de part et d’autre de la sécante, entre les deux droites) et « correspondants » (du même côté, à la même place).",
+      "officialObjectives": [
+        "Caractériser le parallélisme par les angles : angles alternes internes, angles correspondants."
+      ],
+      "evidence": [
+        "Identifie, dans une figure formée de deux droites coupées par une sécante, des angles alternes-internes.",
+        "Identifie, dans la même configuration, des angles correspondants."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait colorier deux angles alternes-internes sur une figure formée de deux droites et d’une sécante ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-ang-03",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Angles",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Caractériser le parallélisme par les angles",
+      "description": "Savoir que deux droites coupées par une sécante sont parallèles exactement quand les angles alternes-internes (ou correspondants) sont égaux, et s’en servir pour calculer un angle ou prouver que des droites sont parallèles, sans se fier à la mesure.",
+      "officialObjectives": [
+        "Caractériser le parallélisme par les angles : angles alternes internes, angles correspondants."
+      ],
+      "evidence": [
+        "Sait que si deux droites parallèles sont coupées par une sécante, les angles alternes-internes et les angles correspondants sont égaux.",
+        "Utilise cette propriété pour calculer la mesure d’un angle.",
+        "Démontre que deux droites sont parallèles en montrant que des angles alternes-internes ou correspondants sont égaux.",
+        "Justifie par une propriété et non par une mesure faite sur le dessin."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait prouver que deux droites sont parallèles en utilisant des angles alternes-internes égaux ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tri-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Somme des angles d’un triangle : l’utiliser",
+      "description": "Savoir que les trois angles d’un triangle font toujours 180° au total, et s’en servir pour calculer un angle manquant, y compris dans les triangles isocèles, équilatéraux ou rectangles.",
+      "officialObjectives": [
+        "Connaitre la somme des angles d’un triangle et savoir la démontrer."
+      ],
+      "evidence": [
+        "Sait que la somme des angles d’un triangle est 180°.",
+        "Calcule le 3e angle d’un triangle connaissant les mesures des deux autres, par exemple 35° et 85° donnent 60° (automatisme).",
+        "Reconnaît un triangle isocèle, équilatéral ou rectangle à partir d’un schéma codé (automatisme) et en déduit des angles, par exemple 70° et 70° pour un triangle isocèle dont l’angle principal mesure 40°."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver les deux autres angles d’un triangle isocèle dont l’angle au sommet principal mesure 40° ?",
+      "priorKnowledge": [
+        "Connaître la valeur de la somme des mesures des angles d’un triangle (6e)",
+        "Connaître et utiliser les propriétés angulaires des triangles particuliers : triangle rectangle, triangle isocèle, triangle équilatéral (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tri-02",
+      "programme": "maths-c4",
+      "type": "META",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Démontrer que la somme des angles d’un triangle vaut 180°",
+      "description": "Comprendre pourquoi la somme des angles d’un triangle vaut toujours 180°, en traçant une parallèle à un côté et en utilisant les angles alternes-internes : c’est une démonstration, valable pour tous les triangles.",
+      "officialObjectives": [
+        "Connaitre la somme des angles d’un triangle et savoir la démontrer."
+      ],
+      "evidence": [
+        "Explique la démonstration à l’aide d’une parallèle à un côté passant par le sommet opposé et des angles alternes-internes.",
+        "Distingue une vérification par la mesure sur quelques triangles d’une démonstration valable pour tous les triangles."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi la somme des angles de n’importe quel triangle vaut 180° ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tri-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Construire des triangles à partir de données partielles",
+      "description": "Construire un triangle quand on ne connaît qu’une partie de ses mesures (trois longueurs, deux longueurs et un angle, un côté et deux angles), en choisissant les bons instruments.",
+      "officialObjectives": [
+        "Construire des triangles à partir de données partielles."
+      ],
+      "evidence": [
+        "Construit un triangle connaissant trois longueurs, à la règle et au compas.",
+        "Construit un triangle connaissant deux longueurs et l’angle compris, ou une longueur et deux angles, au rapporteur.",
+        "Réalise d’abord une figure à main levée codée avec les données.",
+        "Calcule si besoin un angle manquant avant de construire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait construire un triangle ABC avec AB = 6 cm, l’angle en A de 40° et l’angle en B de 70° ?",
+      "priorKnowledge": [
+        "Construire des triangles (6e)",
+        "Construire un angle de mesure donnée (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tri-04",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Médiatrices et cercle circonscrit des triangles particuliers",
+      "description": "Le cercle circonscrit passe par les trois sommets d’un triangle ; son centre est le point où se coupent les médiatrices. Dans un triangle isocèle ou équilatéral, ces droites ont des propriétés particulières.",
+      "officialObjectives": [
+        "Connaitre les propriétés des médiatrices et du cercle circonscrit dans le cas de triangles particuliers."
+      ],
+      "evidence": [
+        "Connaît la notion de médiatrice et de cercle circonscrit (automatisme).",
+        "Sait que le centre du cercle circonscrit est le point de concours des médiatrices.",
+        "Utilise que, dans un triangle isocèle, la médiatrice de la base passe par le sommet principal.",
+        "Utilise que, dans un triangle équilatéral, chaque médiatrice passe par un sommet."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi, dans un triangle isocèle, la médiatrice de la base passe par le sommet principal ?",
+      "priorKnowledge": [
+        "Savoir que les médiatrices d’un triangle sont concourantes (6e)",
+        "Connaître et construire le cercle circonscrit à un triangle (6e)",
+        "Comprendre et utiliser la propriété caractéristique de la médiatrice d’un segment (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tri-05",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Aire d’un triangle",
+      "description": "Calculer l’aire d’un triangle avec la formule base × hauteur ÷ 2 : un triangle de base 6 cm et de hauteur 4 cm a une aire de 12 cm².",
+      "officialObjectives": [
+        "Calculer l’aire d’un triangle."
+      ],
+      "evidence": [
+        "Calcule l’aire d’un triangle avec base × hauteur ÷ 2, par exemple base 6 cm et hauteur 4 cm donnent 12 cm².",
+        "Associe correctement une base et la hauteur relative à cette base."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer l’aire d’un triangle de base 6 cm et de hauteur 4 cm ?",
+      "priorKnowledge": [
+        "Calculer l’aire d’un carré ou d’un rectangle (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tri-06",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Hauteurs d’un triangle : définir et tracer",
+      "description": "Une hauteur d’un triangle est la droite qui passe par un sommet et qui est perpendiculaire au côté opposé. Savoir la tracer à l’équerre, même quand elle sort du triangle.",
+      "officialObjectives": [
+        "Définir et tracer les hauteurs dans un triangle."
+      ],
+      "evidence": [
+        "Définit une hauteur comme la droite passant par un sommet et perpendiculaire au côté opposé.",
+        "Trace les trois hauteurs d’un triangle à l’équerre, y compris lorsqu’une hauteur est à l’extérieur du triangle."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tracer la hauteur issue d’un sommet d’un triangle qui a un angle obtus ?",
+      "priorKnowledge": [
+        "Construire des triangles (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tri-07",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Les hauteurs d’un triangle sont concourantes",
+      "description": "Savoir que les trois hauteurs d’un triangle se coupent toujours en un même point.",
+      "officialObjectives": [
+        "Savoir que les hauteurs d’un triangle sont concourantes."
+      ],
+      "evidence": [
+        "Sait que les trois hauteurs d’un triangle se coupent en un même point.",
+        "Utilise cette propriété pour tracer la troisième hauteur à partir des deux autres."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ce que l’on observe quand on trace les trois hauteurs d’un triangle ?",
+      "priorKnowledge": [
+        "Savoir que les médiatrices d’un triangle sont concourantes (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tri-08",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Médianes d’un triangle : définir et tracer",
+      "description": "Une médiane d’un triangle est la droite qui relie un sommet au milieu du côté opposé. Savoir la tracer en construisant d’abord ce milieu.",
+      "officialObjectives": [
+        "Définir et tracer les médianes dans un triangle."
+      ],
+      "evidence": [
+        "Définit une médiane comme la droite passant par un sommet et par le milieu du côté opposé.",
+        "Trace les médianes d’un triangle en construisant les milieux des côtés."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tracer la médiane issue du sommet A d’un triangle ABC ?",
+      "priorKnowledge": [
+        "Connaître et utiliser la définition du milieu d’un segment (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tri-09",
+      "programme": "maths-c4",
+      "type": "META",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Démontrer qu’une médiane partage un triangle en deux aires égales",
+      "description": "Prouver qu’une médiane coupe un triangle en deux triangles de même aire : les deux triangles ont des bases de même longueur et la même hauteur.",
+      "officialObjectives": [
+        "Démontrer qu’une médiane partage un triangle en deux triangles d’aires égales."
+      ],
+      "evidence": [
+        "Démontre que les deux triangles obtenus ont des bases de même longueur (les deux moitiés du côté) et la même hauteur, donc la même aire.",
+        "Explique que la propriété est vraie pour tous les triangles, quelle que soit leur forme."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi une médiane partage un triangle en deux triangles de même aire ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-tri-10",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Triangles",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Hauteurs et médianes dans les triangles particuliers",
+      "description": "Utiliser les propriétés des hauteurs et des médianes dans les triangles isocèles, équilatéraux et rectangles, où certaines de ces droites sont confondues.",
+      "officialObjectives": [
+        "Utiliser ces propriétés dans le cas de triangles particuliers."
+      ],
+      "evidence": [
+        "Utilise que, dans un triangle isocèle, la médiane issue du sommet principal est aussi une hauteur.",
+        "Utilise que, dans un triangle rectangle, deux des hauteurs sont les côtés de l’angle droit.",
+        "Utilise que, dans un triangle équilatéral, médianes, hauteurs et médiatrices sont confondues."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, dans un triangle rectangle, où se trouvent deux de ses hauteurs ?",
+      "priorKnowledge": [
+        "Connaître et utiliser les propriétés angulaires des triangles particuliers : triangle rectangle, triangle isocèle, triangle équilatéral (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-para-01",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Parallélogrammes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Définir le parallélogramme",
+      "description": "Un parallélogramme est un quadrilatère dont les côtés opposés sont parallèles deux à deux.",
+      "officialObjectives": [
+        "Définir le parallélogramme."
+      ],
+      "evidence": [
+        "Énonce la définition : un parallélogramme est un quadrilatère dont les côtés opposés sont parallèles deux à deux.",
+        "Reconnaît un parallélogramme à l’aide de sa définition."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait donner la définition d’un parallélogramme ?",
+      "priorKnowledge": [
+        "Il reconnaît un carré, un rectangle, un triangle (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-para-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Parallélogrammes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Construire des parallélogrammes",
+      "description": "Construire avec les instruments un parallélogramme à partir de quelques données, par exemple trois de ses sommets, ou deux côtés consécutifs et l’angle qu’ils forment.",
+      "officialObjectives": [
+        "Construire des parallélogrammes."
+      ],
+      "evidence": [
+        "Construit un parallélogramme connaissant trois de ses sommets.",
+        "Construit un parallélogramme connaissant les longueurs de deux côtés consécutifs et l’angle qu’ils forment.",
+        "Réalise d’abord une figure à main levée codée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait construire un parallélogramme ABCD à partir des trois points A, B et C ?",
+      "priorKnowledge": [
+        "L’élève sait utiliser le compas comme outil de report de longueurs (6e)",
+        "Construire un angle de mesure donnée (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-para-03",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Parallélogrammes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Propriétés caractéristiques du parallélogramme",
+      "description": "Savoir qu’un quadrilatère (non croisé) est un parallélogramme exactement quand ses diagonales se coupent en leur milieu, ou quand ses côtés opposés ont deux à deux la même longueur.",
+      "officialObjectives": [
+        "Connaitre les propriétés caractéristiques des côtés opposés et des diagonales."
+      ],
+      "evidence": [
+        "Sait qu’un quadrilatère est un parallélogramme si et seulement si ses diagonales se coupent en leur milieu.",
+        "Sait qu’un quadrilatère non croisé est un parallélogramme si et seulement si ses côtés opposés ont deux à deux la même longueur.",
+        "Distingue définition, propriété et propriété caractéristique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce que l’on sait des diagonales d’un parallélogramme ?",
+      "priorKnowledge": [
+        "Connaître et utiliser la définition du milieu d’un segment (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-para-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Parallélogrammes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Utiliser une propriété caractéristique pour construire ou reconnaître",
+      "description": "Se servir des propriétés des côtés ou des diagonales pour construire un parallélogramme ou prouver qu’un quadrilatère en est un.",
+      "officialObjectives": [
+        "Utiliser une propriété caractéristique sur les diagonales ou les côtés pour les construire ou donner la nature du quadrilatère."
+      ],
+      "evidence": [
+        "Construit un parallélogramme à partir de ses diagonales, en utilisant qu’elles se coupent en leur milieu.",
+        "Démontre qu’un quadrilatère est un parallélogramme à l’aide d’une propriété caractéristique.",
+        "Reconnaît en justifiant un parallélogramme dans une figure complexe (automatisme)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait prouver que ABCD est un parallélogramme quand ses diagonales [AC] et [BD] ont le même milieu ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-para-05",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Parallélogrammes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Définir rectangle, losange et carré",
+      "description": "Connaître la définition des parallélogrammes particuliers : le rectangle (quatre angles droits), le losange (quatre côtés de même longueur) et le carré (à la fois rectangle et losange).",
+      "officialObjectives": [
+        "Définir les parallélogrammes particuliers (rectangle, losange, carré)."
+      ],
+      "evidence": [
+        "Définit le rectangle, le losange et le carré.",
+        "Sait que le rectangle, le losange et le carré sont des parallélogrammes particuliers, et que le carré est à la fois un rectangle et un losange."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi un carré est à la fois un rectangle et un losange ?",
+      "priorKnowledge": [
+        "Il reconnaît un carré, un rectangle, un triangle (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-para-06",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Parallélogrammes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Propriétés caractéristiques des parallélogrammes particuliers",
+      "description": "Savoir reconnaître un rectangle, un losange ou un carré par ses propriétés : par exemple, un parallélogramme dont les diagonales ont la même longueur est un rectangle, et celui dont les diagonales sont perpendiculaires est un losange.",
+      "officialObjectives": [
+        "Connaitre les propriétés caractéristiques."
+      ],
+      "evidence": [
+        "Sait qu’un parallélogramme qui a un angle droit, ou des diagonales de même longueur, est un rectangle.",
+        "Sait qu’un parallélogramme qui a deux côtés consécutifs de même longueur, ou des diagonales perpendiculaires, est un losange.",
+        "Exploite le codage d’une figure pour identifier des parallélogrammes particuliers (automatisme).",
+        "Reconnaît en justifiant un rectangle, un losange, un carré dans des figures complexes (automatisme)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quelle est la nature d’un parallélogramme dont les diagonales sont perpendiculaires ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-para-07",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Parallélogrammes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Aire d’un parallélogramme",
+      "description": "Calculer l’aire d’un parallélogramme avec la formule base × hauteur, en comprenant qu’on peut le découper et le recoller en un rectangle.",
+      "officialObjectives": [
+        "Savoir calculer l’aire d’un parallélogramme et de figures complexes."
+      ],
+      "evidence": [
+        "Calcule l’aire d’un parallélogramme avec base × hauteur, par exemple base 5 cm et hauteur 3 cm donnent 15 cm².",
+        "Explique la formule par découpage et recollement en un rectangle de même aire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer l’aire d’un parallélogramme de base 5 cm et de hauteur 3 cm ?",
+      "priorKnowledge": [
+        "Calculer l’aire d’un carré ou d’un rectangle (6e)",
+        "L’élève sait comparer des aires sans avoir recours à la mesure, par superposition ou par découpage et recollement de surfaces (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-para-08",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Parallélogrammes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Aire de figures complexes",
+      "description": "Calculer l’aire d’une figure composée en la découpant en figures connues (rectangles, triangles, parallélogrammes, disques…) puis en additionnant ou en soustrayant leurs aires.",
+      "officialObjectives": [
+        "Savoir calculer l’aire d’un parallélogramme et de figures complexes."
+      ],
+      "evidence": [
+        "Décompose une figure complexe en figures usuelles (rectangle, triangle, parallélogramme, disque ou demi-disque).",
+        "Additionne ou soustrait les aires des figures usuelles pour obtenir l’aire cherchée.",
+        "Reconnaît en justifiant un quadrilatère, un trapèze, un pentagone, un hexagone dans une figure complexe (automatisme)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer l’aire d’une figure formée d’un rectangle surmonté d’un triangle ?",
+      "priorKnowledge": [
+        "Calculer des périmètres de figures composées (6e)",
+        "Calculer l’aire d’un carré ou d’un rectangle (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-para-09",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Espace et géométrie",
+      "subdomain": "Parallélogrammes",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Problèmes avec conversions de longueurs et d’aires",
+      "description": "Résoudre des problèmes où il faut changer d’unité de longueur ou d’aire, par exemple calculer en m² l’aire d’une pièce mesurée en m et en cm. Attention : 1 m² = 10 000 cm².",
+      "officialObjectives": [
+        "Résoudre des problèmes faisant appel à des conversions d’unités de longueur et d’unités d’aires."
+      ],
+      "evidence": [
+        "Convertit des longueurs dans l’unité adaptée avant de calculer, par exemple une pièce de 4,5 m sur 300 cm a une aire de 13,5 m².",
+        "Convertit des aires, en sachant par exemple que 1 m² = 10 000 cm².",
+        "Choisit l’unité adaptée pour exprimer le résultat."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer en m² l’aire d’une pièce de 4,5 m sur 300 cm ?",
+      "priorKnowledge": [
+        "Effectuer des conversions d’aire (6e)",
+        "L’élève sait convertir en mètre une longueur donnée dans une autre unité, multiple ou sous-multiple du mètre (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 13,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-stat-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Statistiques",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Recueillir et organiser des données",
+      "description": "Collecter des informations (enquête, mesures) et les ranger de façon claire, par exemple dans un tableau d’effectifs, sur papier ou avec un tableur.",
+      "officialObjectives": [
+        "Recueillir et organiser des données."
+      ],
+      "evidence": [
+        "Recueille des données lors d’une enquête ou de mesures.",
+        "Organise les données dans un tableau, par exemple le nombre d’élèves de la classe par moyen de transport.",
+        "Utilise un tableur pour organiser des données."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait organiser dans un tableau les moyens de transport des élèves de sa classe ?",
+      "priorKnowledge": [
+        "Planifier une enquête et recueillir des données (6e)",
+        "Construire un tableau simple pour présenter des données (observations, caractères) (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 16,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-stat-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Statistiques",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Calculer des effectifs et des fréquences",
+      "description": "L’effectif est le nombre de fois qu’une valeur apparaît ; la fréquence est l’effectif divisé par l’effectif total, écrite en fraction, en décimal ou en pourcentage : 6 sur 24 = 6/24 = 0,25 = 25 %.",
+      "officialObjectives": [
+        "Calculer des effectifs et des fréquences (exprimées sous forme décimale, fractionnaire ou de pourcentage)."
+      ],
+      "evidence": [
+        "Calcule l’effectif d’une valeur et l’effectif total.",
+        "Calcule un effectif manquant dans un tableau.",
+        "Calcule une fréquence et l’exprime sous forme fractionnaire, décimale ou de pourcentage, par exemple 6 sur 24 donne 6/24 = 0,25 = 25 %."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer la fréquence d’un résultat obtenu 6 fois sur 24 et l’écrire en pourcentage ?",
+      "priorKnowledge": [
+        "Calculer une proportion (rapport entre une partie et le tout) et l’exprimer sous forme de pourcentage dans des cas simples (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 16,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-stat-03",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Statistiques",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Lire et interpréter tableaux, diagrammes et graphiques",
+      "description": "Lire des informations dans un tableau, un diagramme ou un graphique, les comparer et en tirer des conclusions, en gardant un esprit critique face aux présentations trompeuses.",
+      "officialObjectives": [
+        "Lire et interpréter des informations présentées sous forme de tableaux, de diagrammes et de graphiques."
+      ],
+      "evidence": [
+        "Lit une information dans un tableau, un diagramme en barres, un diagramme circulaire ou un graphique.",
+        "Compare des données et dégage des informations pertinentes.",
+        "Repère une présentation trompeuse, par exemple un axe gradué qui ne commence pas à zéro."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lire sur un diagramme en barres quelle activité est la plus pratiquée et de combien elle dépasse la suivante ?",
+      "priorKnowledge": [
+        "L’élève sait lire un tableau, un diagramme en barres, un diagramme circulaire ou une courbe dans des cas adaptés à une lecture immédiate (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 16,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-stat-04",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Statistiques",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Représenter des données : tableau, diagramme en barres, graphique cartésien",
+      "description": "Construire, sur papier ou avec un tableur-grapheur, un tableau, un diagramme en barres ou un graphique cartésien (une courbe dans un repère) à partir de données.",
+      "officialObjectives": [
+        "Représenter, sur papier ou à l’aide d’un tableur-grapheur, des données sous la forme d’un tableau, d’un diagramme (diagramme en barres, diagramme circulaire) ou d’un graphique cartésien."
+      ],
+      "evidence": [
+        "Construit un diagramme en barres à partir d’un tableau d’effectifs.",
+        "Construit un graphique cartésien, par exemple l’évolution d’une température au cours d’une journée.",
+        "Réalise ces représentations sur son cahier et à l’aide d’un tableur-grapheur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tracer un diagramme en barres à partir d’un tableau d’effectifs ?",
+      "priorKnowledge": [
+        "Construire un tableau simple pour présenter des données (observations, caractères) (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 16,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-stat-05",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Statistiques",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Construire un diagramme circulaire",
+      "description": "Représenter la répartition d’un tout par un disque partagé en secteurs : chaque secteur a un angle proportionnel à l’effectif (le tout correspond à 360°).",
+      "officialObjectives": [
+        "Représenter, sur papier ou à l’aide d’un tableur-grapheur, des données sous la forme d’un tableau, d’un diagramme (diagramme en barres, diagramme circulaire) ou d’un graphique cartésien."
+      ],
+      "evidence": [
+        "Calcule les angles des secteurs proportionnellement aux effectifs, l’effectif total correspondant à 360°, par exemple 6 sur 24 donne 90°.",
+        "Trace le diagramme circulaire au rapporteur.",
+        "Construit un diagramme circulaire à l’aide d’un tableur-grapheur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer l’angle du secteur qui représente 6 élèves sur 24 dans un diagramme circulaire ?",
+      "priorKnowledge": [
+        "Mesurer un angle (6e)",
+        "Construire un angle de mesure donnée (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 16,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-stat-06",
+      "programme": "maths-c4",
+      "type": "META",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Statistiques",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Choisir une représentation adaptée",
+      "description": "Choisir le type de graphique le plus utile selon ce qu’on veut montrer : une répartition (diagramme circulaire), une comparaison (diagramme en barres) ou une évolution (graphique cartésien).",
+      "officialObjectives": [
+        "Choisir une représentation adaptée à ce qu’il convient de mettre en avant."
+      ],
+      "evidence": [
+        "Choisit un diagramme circulaire pour montrer la répartition d’un tout, un diagramme en barres pour comparer des effectifs, un graphique cartésien pour montrer une évolution.",
+        "Justifie son choix de représentation."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quel graphique choisir pour montrer l’évolution de la température au cours d’une journée ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 16,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-stat-07",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Statistiques",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Calculer et interpréter une moyenne",
+      "description": "Calculer la moyenne d’une série de valeurs (somme des valeurs divisée par leur nombre) et comprendre ce qu’elle représente : 12, 15, 9 et 14 ont pour moyenne 12,5.",
+      "officialObjectives": [
+        "Calculer et interpréter la moyenne simple d’une série de données."
+      ],
+      "evidence": [
+        "Calcule la moyenne simple d’une série en divisant la somme des valeurs par le nombre de valeurs, par exemple 12, 15, 9 et 14 ont pour moyenne 12,5.",
+        "Interprète la moyenne comme la valeur commune qu’auraient les données si elles étaient toutes égales.",
+        "Calcule de tête une moyenne pour un très petit nombre de valeurs."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer la moyenne des notes 12, 15, 9 et 14 ?",
+      "priorKnowledge": [
+        "Diviser un nombre décimal par un nombre entier non nul inférieur à 10 (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 16,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-prb-01",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Probabilités",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Aborder les questions de hasard",
+      "description": "Réfléchir à des situations de hasard simples et situer des évènements entre « impossible » (0) et « certain » (1) : obtenir pile, obtenir un 6 avec un dé, gagner au loto…",
+      "officialObjectives": [
+        "Aborder les questions relatives au hasard à partir de problèmes simples."
+      ],
+      "evidence": [
+        "Distingue une situation dont le résultat dépend du hasard d’une situation prévisible.",
+        "Positionne sur une échelle de probabilité (de 0 à 1) des évènements : impossible, certain, obtenir pile avec une pièce équilibrée, obtenir une valeur donnée avec un dé équilibré, obtenir une couleur lors d’un tirage dans une urne (automatisme).",
+        "Situe aussi sur l’échelle « ne pas obtenir la bonne combinaison au loto » (presque certain) et « obtenir 10 fois de suite la valeur 1 avec un dé à six faces » (presque impossible) (automatisme)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer « obtenir pile » et « obtenir 10 fois de suite un 1 avec un dé » sur une échelle allant de impossible à certain ?",
+      "priorKnowledge": [
+        "Savoir que la probabilité d’un évènement est un nombre compris entre 0 et 1 (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-prb-02",
+      "programme": "maths-c4",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Probabilités",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Vocabulaire des probabilités : expérience aléatoire, issue, évènement",
+      "description": "Utiliser les mots justes : lancer un dé est une expérience aléatoire ; ses issues sont 1, 2, 3, 4, 5, 6 ; « obtenir un nombre pair » est un évènement.",
+      "officialObjectives": [
+        "Utiliser le vocabulaire des probabilités dans des contextes concrets : expérience aléatoire, issue, évènement."
+      ],
+      "evidence": [
+        "Reconnaît une expérience aléatoire et liste ses issues, par exemple 1, 2, 3, 4, 5, 6 pour un dé.",
+        "Décrit un évènement et les issues qui le réalisent, par exemple « obtenir un nombre pair » est réalisé par 2, 4 et 6.",
+        "Utilise ce vocabulaire dans des contextes concrets."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait donner les issues qui réalisent l’évènement « obtenir un nombre pair » quand on lance un dé ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-prb-03",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Probabilités",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Attribuer des probabilités en situation d’équiprobabilité",
+      "description": "Calculer une probabilité quand toutes les issues ont la même chance (dé ou pièce équilibrés) : nombre d’issues favorables divisé par nombre d’issues. « Une chance sur quatre », c’est une probabilité de 1/4.",
+      "officialObjectives": [
+        "Attribuer des probabilités dans des cas simples (équiprobabilité)."
+      ],
+      "evidence": [
+        "Calcule la probabilité d’un évènement quand les issues sont équiprobables, par exemple 3/6 pour « obtenir un nombre pair » avec un dé.",
+        "Donne une probabilité sous forme de fraction, d’écriture décimale ou de pourcentage, par exemple pour obtenir pile : 1/2 = 0,5 = 50 % (automatisme).",
+        "Relie l’expression « une chance sur quatre » à la probabilité 1/4 (automatisme).",
+        "Justifie l’équiprobabilité par la symétrie de l’objet (pièce, dé équilibré)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait donner la probabilité d’obtenir un nombre pair en lançant un dé équilibré, en fraction et en pourcentage ?",
+      "priorKnowledge": [
+        "Calculer des probabilités dans des situations simples d’équiprobabilité (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-prb-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Organisation et gestion de données et probabilités",
+      "subdomain": "Probabilités",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Répéter une expérience aléatoire et noter effectifs et fréquences",
+      "description": "Réaliser vraiment une expérience de hasard plusieurs fois (lancer un dé 50 fois par exemple), noter les résultats dans un tableau et calculer les fréquences obtenues.",
+      "officialObjectives": [
+        "Répéter matériellement une expérience aléatoire simple. Enregistrer les résultats observés dans un tableau d’effectifs et de fréquences."
+      ],
+      "evidence": [
+        "Répète matériellement une expérience aléatoire simple, par exemple 50 lancers d’un dé.",
+        "Enregistre les résultats observés dans un tableau d’effectifs et de fréquences.",
+        "Distingue les résultats observés lors de l’expérience réelle du modèle probabiliste."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lancer un dé 50 fois, noter les résultats dans un tableau et calculer la fréquence du 6 ?",
+      "priorKnowledge": [
+        "Comparer des résultats d’une expérience aléatoire répétée à une probabilité calculée (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 17,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-prop-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Proportionnalité",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Calculer une proportion ou un pourcentage",
+      "description": "Calculer quelle part d’un tout représente une quantité et l’écrire en fraction, en décimal ou en pourcentage : 6 voix sur 24 = 1/4 = 25 %.",
+      "officialObjectives": [
+        "Utiliser des proportions, des pourcentages.",
+        "Calculer, appliquer des proportions, des pourcentages."
+      ],
+      "evidence": [
+        "Calcule le pourcentage de voix de chaque candidat à partir des résultats d’une élection : Alexis 6, Chloé 12, Salma 3, Djibril 3, total 24 (automatisme).",
+        "Exprime une proportion sous forme de fraction, d’écriture décimale ou de pourcentage, par exemple 6/24 = 1/4 = 0,25 = 25 %."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer le pourcentage de voix obtenu par un candidat qui a eu 6 voix sur 24 ?",
+      "priorKnowledge": [
+        "Calculer une proportion (rapport entre une partie et le tout) et l’exprimer sous forme de pourcentage dans des cas simples (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-prop-02",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Proportionnalité",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Appliquer une proportion ou un pourcentage",
+      "description": "Calculer une fraction ou un pourcentage d’une quantité : 1/3 de 18 = 6 ; 10 % de 80 = 8 ; 50 % de 36 = 18.",
+      "officialObjectives": [
+        "Utiliser des proportions, des pourcentages.",
+        "Calculer, appliquer des proportions, des pourcentages."
+      ],
+      "evidence": [
+        "Prend 1 %, 10 % ou 50 % d’un nombre, en lien avec la proportionnalité (automatisme).",
+        "Prend une fraction simple d’un nombre : 1/3 de 18 ; 1/4 de 12 (automatisme).",
+        "Applique un pourcentage à une quantité, par exemple 20 % de 120 = 24."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 10 % de 80 et 1/3 de 18 ?",
+      "priorKnowledge": [
+        "Appliquer un pourcentage à une grandeur ou à un nombre (6e)",
+        "Utiliser une multiplication pour appliquer une fraction à un nombre entier (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-prop-03",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Proportionnalité",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Identifier des situations de proportionnalité",
+      "description": "Reconnaître dans la vie courante si deux grandeurs sont proportionnelles (le prix et la masse de tomates) ou non (l’âge et la taille d’un enfant).",
+      "officialObjectives": [
+        "Identifier des situations de proportionnalité dans des contextes concrets (prix, recettes, distances, échelles)."
+      ],
+      "evidence": [
+        "Reconnaît si une situation donnée entre dans le cadre de la proportionnalité ou non (automatisme).",
+        "Identifie des situations de proportionnalité dans des contextes de prix, de recettes, de distances, d’échelles.",
+        "Justifie qu’une situation n’est pas proportionnelle, par exemple la taille d’un enfant et son âge."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si le prix payé est proportionnel à la masse de tomates achetée, et si la taille d’un enfant est proportionnelle à son âge ?",
+      "priorKnowledge": [
+        "Identifier si une situation relève du « modèle » de la proportionnalité (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-prop-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Proportionnalité",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Utiliser un coefficient de proportionnalité",
+      "description": "Trouver et utiliser le nombre par lequel on multiplie une grandeur pour obtenir l’autre : le prix d’un kilogramme, une vitesse moyenne, une échelle.",
+      "officialObjectives": [
+        "Utiliser un coefficient de proportionnalité dans des contextes concrets (prix unitaire, vitesse moyenne, échelle, etc.)."
+      ],
+      "evidence": [
+        "Utilise un prix unitaire comme coefficient : connaissant le prix d’un kilogramme de tomates, calcule le prix de 3 kg ou de 4,3 kg (automatisme).",
+        "Utilise une vitesse moyenne comme coefficient, par exemple 150 km en 2 h correspondent à 75 km/h.",
+        "Utilise une échelle comme coefficient pour passer des distances sur un plan aux distances réelles.",
+        "Choisit une procédure adaptée (linéarité, retour à l’unité) : à partir d’une recette pour 4 personnes, donne les quantités pour 2, 8 ou 6 personnes (automatisme)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait calculer le prix de 4,3 kg de tomates à 3 € le kilogramme ?",
+      "priorKnowledge": [
+        "Résoudre un problème de proportionnalité en choisissant une procédure adaptée : propriété de linéarité pour la multiplication ou l’addition, retour à l’unité (6e)",
+        "S’initier à la résolution de problèmes d’échelles (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-prop-05",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Proportionnalité",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Représenter une situation de proportionnalité par un tableau ou un graphique",
+      "description": "Présenter une situation de proportionnalité dans un tableau de valeurs ou par des points dans un repère (par exemple quantité achetée et prix payé).",
+      "officialObjectives": [
+        "Représenter une situation de proportionnalité par un tableau ou un graphique."
+      ],
+      "evidence": [
+        "Complète un tableau de proportionnalité à partir d’une situation.",
+        "Représente une situation de proportionnalité par des points dans un repère, par exemple (masse ; prix)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait représenter dans un repère le prix payé en fonction du nombre de kilogrammes de tomates achetés ?",
+      "priorKnowledge": [
+        "Représenter une situation de proportionnalité à l’aide d’un tableau ou de notations symboliques (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-prop-06",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Proportionnalité",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Reconnaître la proportionnalité dans un tableau ou un graphique",
+      "description": "Vérifier dans un tableau si l’on passe toujours d’une ligne à l’autre en multipliant par le même nombre, ou sur un graphique si les points sont alignés avec l’origine.",
+      "officialObjectives": [
+        "Reconnaitre une situation de proportionnalité à partir d’un tableau ou d’un graphique."
+      ],
+      "evidence": [
+        "Vérifie dans un tableau si l’on passe d’une ligne à l’autre en multipliant toujours par le même nombre.",
+        "Reconnaît sur un graphique une situation de proportionnalité par des points alignés avec l’origine du repère."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si un tableau donné est un tableau de proportionnalité, en justifiant ?",
+      "priorKnowledge": [
+        "Identifier si une situation relève du « modèle » de la proportionnalité (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-prop-07",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Proportionnalité",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Nuage de points et proportionnalité",
+      "description": "Regarder un ensemble de points placés dans un repère et dire s’ils traduisent une situation de proportionnalité : il faut qu’ils soient alignés avec l’origine du repère.",
+      "officialObjectives": [
+        "Reconnaitre graphiquement qu’un nuage de points est ou n’est pas associé à une situation de proportionnalité entre données discrètes."
+      ],
+      "evidence": [
+        "Reconnaît graphiquement si un nuage de points est aligné avec l’origine du repère.",
+        "Justifie qu’un nuage de points non aligné, ou aligné sur une droite qui ne passe pas par l’origine, ne correspond pas à une situation de proportionnalité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si un nuage de points correspond à une situation de proportionnalité, et pourquoi ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 18,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-fct-01",
+      "programme": "maths-c4",
+      "type": "LANGUAGE",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Employer l’expression « en fonction de »",
+      "description": "Utiliser l’expression « en fonction de » pour dire qu’une grandeur dépend d’une autre : le prix à payer en fonction du nombre de places, le périmètre d’un carré en fonction de son côté.",
+      "officialObjectives": [
+        "Introduire l’expression : « en fonction de » dans des contextes concrets ou mathématiques."
+      ],
+      "evidence": [
+        "Emploie « en fonction de » dans un contexte concret, par exemple le prix à payer en fonction du nombre de places.",
+        "Emploie « en fonction de » dans un contexte mathématique, par exemple le périmètre d’un carré en fonction de la longueur de son côté.",
+        "Identifie quelle grandeur dépend de l’autre."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce que veut dire « le prix à payer en fonction du nombre de places » ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-fct-02",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Produire un tableau de valeurs",
+      "description": "Construire un tableau qui donne, pour plusieurs valeurs d’une grandeur, les valeurs correspondantes de l’autre, par exemple les résultats d’un programme de calcul pour 0, 1, 2, 3.",
+      "officialObjectives": [
+        "Produire un tableau de valeurs."
+      ],
+      "evidence": [
+        "Construit un tableau de valeurs à partir d’une situation ou d’un programme de calcul, par exemple « multiplier par 2 puis ajouter 3 » donne 3, 5, 7, 9 pour 0, 1, 2, 3.",
+        "Choisit et organise les valeurs dans le tableau."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait remplir un tableau donnant le résultat du programme « multiplier par 2 puis ajouter 3 » pour 0, 1, 2 et 3 ?",
+      "priorKnowledge": [
+        "Construire un tableau simple pour présenter des données (observations, caractères) (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-fct-03",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Lire et interpréter un tableau de valeurs",
+      "description": "Trouver dans un tableau de valeurs la valeur qui correspond à une valeur donnée, et en tirer des informations (par exemple quand une température augmente ou diminue).",
+      "officialObjectives": [
+        "Lire et interpréter un tableau de valeurs."
+      ],
+      "evidence": [
+        "Lit dans un tableau la valeur d’une grandeur correspondant à une valeur donnée de l’autre grandeur.",
+        "Interprète les variations lues dans le tableau, par exemple l’heure à laquelle la température est la plus élevée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lire dans un tableau de températures l’heure où il a fait le plus chaud ?",
+      "priorKnowledge": [
+        "L’élève sait lire un tableau, un diagramme en barres, un diagramme circulaire ou une courbe dans des cas adaptés à une lecture immédiate (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-fct-04",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Placer dans un repère les points d’un tableau de valeurs",
+      "description": "Transformer un tableau de valeurs en points dans un repère déjà tracé : chaque colonne du tableau donne les coordonnées d’un point.",
+      "officialObjectives": [
+        "Placer dans un repère orthogonal donné des points correspondant à un tableau de valeurs."
+      ],
+      "evidence": [
+        "Associe chaque colonne d’un tableau de valeurs à un point de coordonnées (valeur de la première ligne ; valeur de la seconde ligne).",
+        "Place ces points dans un repère orthogonal donné."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer dans un repère les points correspondant à un tableau de valeurs ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-fct-05",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Lire et interpréter un graphique cartésien",
+      "description": "Lire sur une courbe ou un nuage de points la valeur qui correspond à une valeur donnée, et interpréter l’allure du graphique (augmentation, diminution, maximum).",
+      "officialObjectives": [
+        "Lire et interpréter un graphique cartésien donné par une courbe ou un nuage de points."
+      ],
+      "evidence": [
+        "Lit sur un graphique la valeur en ordonnée correspondant à une valeur en abscisse, et inversement.",
+        "Interprète l’allure d’une courbe ou d’un nuage de points : augmentation, diminution, valeur la plus grande."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lire sur une courbe de température la température à 14 h et l’heure où elle est maximale ?",
+      "priorKnowledge": [
+        "L’élève sait lire un tableau, un diagramme en barres, un diagramme circulaire ou une courbe dans des cas adaptés à une lecture immédiate (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-fct-06",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Passer d’une formule à un tableau de valeurs",
+      "description": "Calculer, à partir d’une formule, les valeurs d’une grandeur pour plusieurs valeurs de l’autre et les présenter dans un tableau : avec A = c × c, on obtient 1, 4, 9, 16 pour c = 1, 2, 3, 4.",
+      "officialObjectives": [
+        "Traduire la relation de dépendance entre deux grandeurs par un tableau de valeurs à partir d’une formule."
+      ],
+      "evidence": [
+        "Calcule les valeurs d’une formule pour plusieurs valeurs de la variable, par exemple A = c × c pour c = 1, 2, 3, 4 donne 1, 4, 9, 16.",
+        "Présente ces résultats dans un tableau de valeurs."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait remplir un tableau donnant l’aire A = c × c d’un carré pour c = 1, 2, 3 et 4 ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-fct-07",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Produire une formule de dépendance entre deux grandeurs",
+      "description": "Écrire une formule simple qui relie deux grandeurs : si une place coûte 8 €, le prix P pour n places est P = 8 × n.",
+      "officialObjectives": [
+        "Produire une formule simple représentant la dépendance de deux grandeurs."
+      ],
+      "evidence": [
+        "Écrit une formule exprimant une grandeur en fonction d’une autre, par exemple P = 8 × n pour le prix de n places à 8 €.",
+        "Écrit une formule géométrique simple, par exemple le périmètre d’un carré P = 4 × c."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire une formule donnant le prix de n places de cinéma à 8 € l’une ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-fct-08",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "Proportionnalité, fonctions",
+      "subdomain": "Fonctions",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Caractériser graphiquement la proportionnalité",
+      "description": "Savoir qu’une situation de proportionnalité se reconnaît sur un graphique : ses points sont alignés sur une droite qui passe par l’origine du repère.",
+      "officialObjectives": [
+        "Caractériser graphiquement la proportionnalité."
+      ],
+      "evidence": [
+        "Sait qu’une situation de proportionnalité est représentée par des points alignés avec l’origine du repère.",
+        "Utilise cette caractérisation pour dire si un graphique représente ou non une situation de proportionnalité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comment reconnaître, sur un graphique, qu’une situation est proportionnelle ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 19,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-info-01",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "La pensée informatique",
+      "subdomain": "La pensée informatique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Manipuler et séquencer des instructions simples",
+      "description": "Assembler des instructions simples dans le bon ordre pour obtenir un résultat voulu, par exemple dans un logiciel de programmation par blocs (déplacer un lutin, tracer une figure).",
+      "officialObjectives": [
+        "Manipuler des instructions simples et les séquencer."
+      ],
+      "evidence": [
+        "Assemble des instructions simples dans un ordre qui produit le résultat attendu.",
+        "Remet dans l’ordre une suite d’instructions donnée en désordre."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait assembler des blocs d’instructions pour faire tracer un rectangle à un lutin ?",
+      "priorKnowledge": [
+        "Produire et exécuter une séquence d’instructions (6e)",
+        "Identifier une instruction ou une séquence d’instructions (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-info-02",
+      "programme": "maths-c4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathématiques",
+      "domain": "La pensée informatique",
+      "subdomain": "La pensée informatique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Identifier les entrées et les sorties d’un programme",
+      "description": "Repérer ce qu’un programme reçoit (l’entrée, par exemple un nombre saisi par l’utilisateur) et ce qu’il produit (la sortie, par exemple le résultat affiché). En 5e, la variable sert seulement à lire une donnée saisie.",
+      "officialObjectives": [
+        "Identifier les entrées et sorties d’un programme."
+      ],
+      "evidence": [
+        "Identifie la donnée saisie (entrée) et le résultat affiché (sortie) d’un programme, par exemple un programme qui demande un nombre et affiche son double.",
+        "Utilise en lecture la donnée saisie par l’utilisateur."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quelle est l’entrée et quelle est la sortie d’un programme qui demande un nombre et affiche son double ?",
+      "priorKnowledge": [
+        "Identifier une instruction ou une séquence d’instructions (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-info-03",
+      "programme": "maths-c4",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathématiques",
+      "domain": "La pensée informatique",
+      "subdomain": "La pensée informatique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Écrire une formule en langage de programmation par blocs",
+      "description": "Traduire une formule mathématique, comme 3 × x + 5, avec les blocs « opérateurs » d’un logiciel de programmation, en les emboîtant dans le bon ordre.",
+      "officialObjectives": [
+        "Représenter des formules sous la forme d’une expression informatique dans un langage de programmation par blocs."
+      ],
+      "evidence": [
+        "Traduit une formule par des blocs opérateurs emboîtés, par exemple 3 × x + 5 avec x la réponse saisie.",
+        "Respecte dans l’emboîtement des blocs l’ordre des calculs (priorités et parenthèses)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire en blocs le calcul « 3 × réponse + 5 » ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-info-04",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "La pensée informatique",
+      "subdomain": "La pensée informatique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Calculer une formule avec une suite d’instructions",
+      "description": "Écrire une suite d’instructions en blocs qui calcule une formule et affiche le résultat, par exemple demander la longueur du côté d’un carré et afficher son périmètre.",
+      "officialObjectives": [
+        "Calculer la valeur de formules à l’aide d’une suite d’instruction dans un langage de programmation par blocs."
+      ],
+      "evidence": [
+        "Écrit une suite d’instructions par blocs qui demande une valeur, calcule une formule et affiche le résultat, par exemple le périmètre d’un carré à partir de son côté.",
+        "Exécute le programme et vérifie le résultat obtenu."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire un programme par blocs qui demande le côté d’un carré et affiche son périmètre ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-info-05",
+      "programme": "maths-c4",
+      "type": "META",
+      "subject": "Mathématiques",
+      "domain": "La pensée informatique",
+      "subdomain": "La pensée informatique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Prévoir la valeur d’une expression avant l’exécution",
+      "description": "Anticiper ce qu’un programme va afficher avant de le lancer, puis vérifier en l’exécutant : par exemple, un programme qui multiplie par 4 et ajoute 1 affichera 17 si on saisit 4.",
+      "officialObjectives": [
+        "Prévoir la valeur d’une expression informatique avant son exécution."
+      ],
+      "evidence": [
+        "Prévoit la valeur d’une expression informatique pour une donnée saisie, par exemple 4 × réponse + 1 donne 17 pour la réponse 4.",
+        "Vérifie sa prévision en exécutant le programme."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait prévoir ce qu’affichera un programme qui calcule « 4 × réponse + 1 » si l’on saisit 4 ?",
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-info-06",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "La pensée informatique",
+      "subdomain": "La pensée informatique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Analyser un programme simple et modifier ses paramètres",
+      "description": "Lire un programme donné, expliquer ce qu’il fait, puis changer certaines valeurs (une longueur, un angle, un nombre) pour modifier le résultat.",
+      "officialObjectives": [
+        "Analyser un programme simple donné et modifier ses paramètres."
+      ],
+      "evidence": [
+        "Explique ce que fait un programme simple donné.",
+        "Modifie un paramètre (longueur, angle, nombre) pour changer le résultat, par exemple la longueur du côté d’un carré tracé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait modifier un programme qui trace un carré de 50 pas pour qu’il trace un carré de 100 pas ?",
+      "priorKnowledge": [
+        "Produire et exécuter une séquence d’instructions (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    },
+    {
+      "id": "fr-ma-5e-info-07",
+      "programme": "maths-c4",
+      "type": "PROCEDURAL",
+      "subject": "Mathématiques",
+      "domain": "La pensée informatique",
+      "subdomain": "La pensée informatique",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Utiliser une boucle « répéter n fois »",
+      "description": "Utiliser une boucle pour répéter un groupe d’instructions un nombre précis de fois, par exemple « répéter 4 fois : avancer, tourner de 90° » pour tracer un carré.",
+      "officialObjectives": [
+        "Effectuer une boucle inconditionnelle simple permettant de répéter une séquence linéaire d’instructions un nombre précis de fois."
+      ],
+      "evidence": [
+        "Utilise une boucle « répéter n fois » pour répéter une séquence d’instructions, par exemple pour tracer un carré.",
+        "Remplace une suite d’instructions identiques par une boucle.",
+        "Choisit le nombre de répétitions adapté à la tâche."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait programmer le tracé d’un carré avec une boucle « répéter 4 fois » ?",
+      "priorKnowledge": [
+        "Répéter à la main une séquence d’instructions pour accomplir une tâche imposée (6e)",
+        "Programmer la construction d’un chemin simple (6e)"
+      ],
+      "source": {
+        "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+        "bo": "BO n° 10 du 5 mars 2026",
+        "page": 20,
+        "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-ma-5e-ope-02",
+      "prerequisiteId": "fr-ma-5e-ope-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Résoudre un problème suppose de choisir l’opération d’après son sens."
+    },
+    {
+      "topicId": "fr-ma-5e-ope-05",
+      "prerequisiteId": "fr-ma-5e-ope-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Écrire une seule expression avec ou sans parenthèses repose sur les priorités opératoires."
+    },
+    {
+      "topicId": "fr-ma-5e-ope-05",
+      "prerequisiteId": "fr-ma-5e-ope-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "On traduit en une expression une succession d’opérations qu’on sait déjà enchaîner."
+    },
+    {
+      "topicId": "fr-ma-5e-ope-06",
+      "prerequisiteId": "fr-ma-5e-ope-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Savoir si un calcul est une somme ou un produit dépend de la dernière opération selon les priorités."
+    },
+    {
+      "topicId": "fr-ma-5e-ope-08",
+      "prerequisiteId": "fr-ma-5e-ope-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Comparer k × (a + b) et k × a + k × b suppose de maîtriser les priorités."
+    },
+    {
+      "topicId": "fr-ma-5e-ope-10",
+      "prerequisiteId": "fr-ma-5e-ope-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Un critère de divisibilité sert à reconnaître des multiples et des diviseurs."
+    },
+    {
+      "topicId": "fr-ma-5e-ope-11",
+      "prerequisiteId": "fr-ma-5e-ope-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Un algorithme de calcul enchaîne des opérations."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-02",
+      "prerequisiteId": "fr-ma-5e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Opposé et valeur absolue se définissent pour des nombres relatifs."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-03",
+      "prerequisiteId": "fr-ma-5e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les mots positif et négatif qualifient des nombres relatifs."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-04",
+      "prerequisiteId": "fr-ma-5e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut connaître les nombres relatifs pour représenter des grandeurs négatives."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-05",
+      "prerequisiteId": "fr-ma-5e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Placer un nombre relatif suppose de savoir ce qu’est un nombre relatif."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-05",
+      "prerequisiteId": "fr-ma-5e-rep-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le repérage sur une droite graduée est le même pour les nombres positifs et négatifs."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-06",
+      "prerequisiteId": "fr-ma-5e-rel-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La comparaison des relatifs s’appuie sur leur position sur la droite graduée."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-06",
+      "prerequisiteId": "fr-ma-5e-rel-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer deux négatifs s’appuie sur leur distance à zéro."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-07",
+      "prerequisiteId": "fr-ma-5e-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’addition de relatifs utilise les distances à zéro et les opposés."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-08",
+      "prerequisiteId": "fr-ma-5e-rel-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Additionner plusieurs relatifs prolonge l’addition de deux relatifs."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-09",
+      "prerequisiteId": "fr-ma-5e-rel-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Soustraire un relatif revient à ajouter son opposé."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-10",
+      "prerequisiteId": "fr-ma-5e-rel-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les parenthèses apparaissent dès l’écriture de sommes de relatifs."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-11",
+      "prerequisiteId": "fr-ma-5e-rel-10",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Pour supprimer des parenthèses, il faut savoir quand elles sont indispensables."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-11",
+      "prerequisiteId": "fr-ma-5e-rel-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La simplification transforme d’abord les soustractions en additions."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-12",
+      "prerequisiteId": "fr-ma-5e-rel-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Enchaîner des calculs suppose d’additionner plusieurs relatifs."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-12",
+      "prerequisiteId": "fr-ma-5e-rel-09",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Enchaîner des calculs suppose de soustraire des relatifs."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-13",
+      "prerequisiteId": "fr-ma-5e-rel-12",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les problèmes demandent d’enchaîner additions et soustractions de relatifs."
+    },
+    {
+      "topicId": "fr-ma-5e-rel-13",
+      "prerequisiteId": "fr-ma-5e-rel-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les problèmes portent sur des grandeurs représentées par des relatifs."
+    },
+    {
+      "topicId": "fr-ma-5e-rat-02",
+      "prerequisiteId": "fr-ma-5e-ope-09",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Le programme utilise multiples et diviseurs en lien avec les fractions (dénominateur commun)."
+    },
+    {
+      "topicId": "fr-ma-5e-rat-02",
+      "prerequisiteId": "fr-ma-5e-rat-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La mise au même dénominateur sert aussi à comparer des fractions."
+    },
+    {
+      "topicId": "fr-ma-5e-rat-03",
+      "prerequisiteId": "fr-ma-5e-rat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les problèmes mobilisent additions et soustractions de fractions."
+    },
+    {
+      "topicId": "fr-ma-5e-rat-01",
+      "prerequisiteId": "fr-ma-5e-rat-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’écriture décimale de fractions simples aide à les comparer."
+    },
+    {
+      "topicId": "fr-ma-5e-pui-02",
+      "prerequisiteId": "fr-ma-5e-pui-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Connaître les carrés suppose la notion de carré."
+    },
+    {
+      "topicId": "fr-ma-5e-pui-03",
+      "prerequisiteId": "fr-ma-5e-pui-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le cube de 10 suppose la notion de cube."
+    },
+    {
+      "topicId": "fr-ma-5e-pui-04",
+      "prerequisiteId": "fr-ma-5e-pui-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Reconnaître un carré s’appuie sur les carrés connus de 0 à 12."
+    },
+    {
+      "topicId": "fr-ma-5e-pui-04",
+      "prerequisiteId": "fr-ma-5e-pui-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Écrire 1 000 = 10³ s’appuie sur le cube de 10."
+    },
+    {
+      "topicId": "fr-ma-5e-pui-05",
+      "prerequisiteId": "fr-ma-5e-pui-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut connaître la notation des puissances pour calculer l’expression."
+    },
+    {
+      "topicId": "fr-ma-5e-pui-05",
+      "prerequisiteId": "fr-ma-5e-ope-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le calcul applique les priorités opératoires."
+    },
+    {
+      "topicId": "fr-ma-5e-pui-06",
+      "prerequisiteId": "fr-ma-5e-pui-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le calcul littéral prolonge le calcul numérique avec puissances."
+    },
+    {
+      "topicId": "fr-ma-5e-pui-06",
+      "prerequisiteId": "fr-ma-5e-lit-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut remplacer la lettre par sa valeur (substitution)."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-01",
+      "prerequisiteId": "fr-ma-5e-ope-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Écrire une formule prolonge la traduction d’un programme de calcul en expression."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-02",
+      "prerequisiteId": "fr-ma-5e-ope-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Après substitution, le calcul applique les priorités opératoires."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-03",
+      "prerequisiteId": "fr-ma-5e-lit-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Tester une égalité consiste à calculer chaque membre par substitution."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-04",
+      "prerequisiteId": "fr-ma-5e-ope-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "On étend aux expressions littérales la distinction entre sommes et produits."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-05",
+      "prerequisiteId": "fr-ma-5e-ope-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Développer applique la distributivité vue sur des exemples numériques."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-05",
+      "prerequisiteId": "fr-ma-5e-lit-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Développer transforme un produit en somme."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-06",
+      "prerequisiteId": "fr-ma-5e-lit-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Factoriser utilise la même relation que développer, dans l’autre sens."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-07",
+      "prerequisiteId": "fr-ma-5e-lit-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Réduire 3x + 2x en 5x revient à factoriser par x."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-08",
+      "prerequisiteId": "fr-ma-5e-lit-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La démonstration demande de réduire et transformer des expressions."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-08",
+      "prerequisiteId": "fr-ma-5e-lit-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut d’abord écrire la situation générale avec une lettre."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-08",
+      "prerequisiteId": "fr-ma-5e-lit-10",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La propriété démontrée est souvent d’abord conjecturée."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-09",
+      "prerequisiteId": "fr-ma-5e-lit-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Trouver un contre-exemple consiste à tester une affirmation pour une valeur."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-10",
+      "prerequisiteId": "fr-ma-5e-lit-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le tableur calcule une expression pour de nombreuses valeurs."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-11",
+      "prerequisiteId": "fr-ma-5e-lit-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La lettre a déjà été utilisée comme variable dans des formules."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-12",
+      "prerequisiteId": "fr-ma-5e-lit-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Mettre en équation suppose de désigner l’inconnue par une lettre."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-13",
+      "prerequisiteId": "fr-ma-5e-lit-11",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Résoudre une équation consiste à trouver la valeur de l’inconnue."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-13",
+      "prerequisiteId": "fr-ma-5e-ope-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les opérations inverses reposent sur le sens des opérations."
+    },
+    {
+      "topicId": "fr-ma-5e-lit-13",
+      "prerequisiteId": "fr-ma-5e-lit-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "On vérifie la solution en testant l’égalité."
+    },
+    {
+      "topicId": "fr-ma-5e-rep-02",
+      "prerequisiteId": "fr-ma-5e-rel-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les coordonnées d’un point peuvent être des nombres relatifs."
+    },
+    {
+      "topicId": "fr-ma-5e-esp-02",
+      "prerequisiteId": "fr-ma-5e-esp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Relier patron et perspective suppose de lire la perspective cavalière."
+    },
+    {
+      "topicId": "fr-ma-5e-esp-03",
+      "prerequisiteId": "fr-ma-5e-pui-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le volume du cube s’écrit c³."
+    },
+    {
+      "topicId": "fr-ma-5e-esp-03",
+      "prerequisiteId": "fr-ma-5e-esp-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Dénombrer des cubes unités donne le sens du volume."
+    },
+    {
+      "topicId": "fr-ma-5e-esp-04",
+      "prerequisiteId": "fr-ma-5e-pui-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "1 dm³ = 1 000 cm³ s’appuie sur 10³ = 1 000."
+    },
+    {
+      "topicId": "fr-ma-5e-esp-06",
+      "prerequisiteId": "fr-ma-5e-esp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le volume du cylindre utilise l’aire du disque de base."
+    },
+    {
+      "topicId": "fr-ma-5e-esp-06",
+      "prerequisiteId": "fr-ma-5e-esp-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comme pour le prisme droit, volume = aire de la base × hauteur."
+    },
+    {
+      "topicId": "fr-ma-5e-tra-01",
+      "prerequisiteId": "fr-ma-5e-tra-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le demi-tour se découvre en comparaison avec la symétrie axiale."
+    },
+    {
+      "topicId": "fr-ma-5e-tra-02",
+      "prerequisiteId": "fr-ma-5e-tra-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les propriétés du demi-tour supposent sa définition."
+    },
+    {
+      "topicId": "fr-ma-5e-ang-02",
+      "prerequisiteId": "fr-ma-5e-ang-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le vocabulaire des angles (adjacents, opposés par le sommet) est nécessaire pour nommer ces paires d’angles."
+    },
+    {
+      "topicId": "fr-ma-5e-ang-03",
+      "prerequisiteId": "fr-ma-5e-ang-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La caractérisation utilise les angles alternes-internes et correspondants."
+    },
+    {
+      "topicId": "fr-ma-5e-tri-01",
+      "prerequisiteId": "fr-ma-5e-ang-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Utilise les mesures de référence (angle plat de 180°, angle droit de 90°)."
+    },
+    {
+      "topicId": "fr-ma-5e-tri-02",
+      "prerequisiteId": "fr-ma-5e-tri-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "On démontre une propriété qu’on connaît déjà."
+    },
+    {
+      "topicId": "fr-ma-5e-tri-02",
+      "prerequisiteId": "fr-ma-5e-ang-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La démonstration utilise l’égalité des angles alternes-internes formés par des parallèles."
+    },
+    {
+      "topicId": "fr-ma-5e-tri-03",
+      "prerequisiteId": "fr-ma-5e-tri-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "On peut calculer l’angle manquant avant de construire."
+    },
+    {
+      "topicId": "fr-ma-5e-tri-05",
+      "prerequisiteId": "fr-ma-5e-tri-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La formule de l’aire utilise une hauteur du triangle."
+    },
+    {
+      "topicId": "fr-ma-5e-tri-07",
+      "prerequisiteId": "fr-ma-5e-tri-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut savoir tracer les hauteurs pour constater qu’elles sont concourantes."
+    },
+    {
+      "topicId": "fr-ma-5e-tri-09",
+      "prerequisiteId": "fr-ma-5e-tri-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La preuve utilise la formule de l’aire d’un triangle."
+    },
+    {
+      "topicId": "fr-ma-5e-tri-09",
+      "prerequisiteId": "fr-ma-5e-tri-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La preuve porte sur une médiane."
+    },
+    {
+      "topicId": "fr-ma-5e-tri-10",
+      "prerequisiteId": "fr-ma-5e-tri-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut connaître les hauteurs."
+    },
+    {
+      "topicId": "fr-ma-5e-tri-10",
+      "prerequisiteId": "fr-ma-5e-tri-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut connaître les médianes."
+    },
+    {
+      "topicId": "fr-ma-5e-tri-10",
+      "prerequisiteId": "fr-ma-5e-tri-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Dans les triangles particuliers, médianes et hauteurs se confondent avec des médiatrices."
+    },
+    {
+      "topicId": "fr-ma-5e-para-02",
+      "prerequisiteId": "fr-ma-5e-para-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Construire un parallélogramme suppose de connaître sa définition."
+    },
+    {
+      "topicId": "fr-ma-5e-para-03",
+      "prerequisiteId": "fr-ma-5e-para-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Une propriété caractéristique se comprend à partir de la définition."
+    },
+    {
+      "topicId": "fr-ma-5e-para-04",
+      "prerequisiteId": "fr-ma-5e-para-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "On utilise les propriétés caractéristiques pour construire ou reconnaître."
+    },
+    {
+      "topicId": "fr-ma-5e-para-04",
+      "prerequisiteId": "fr-ma-5e-para-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur les premières constructions de parallélogrammes."
+    },
+    {
+      "topicId": "fr-ma-5e-para-05",
+      "prerequisiteId": "fr-ma-5e-para-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Rectangle, losange et carré sont des parallélogrammes particuliers."
+    },
+    {
+      "topicId": "fr-ma-5e-para-06",
+      "prerequisiteId": "fr-ma-5e-para-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les propriétés caractéristiques portent sur les parallélogrammes particuliers définis."
+    },
+    {
+      "topicId": "fr-ma-5e-para-06",
+      "prerequisiteId": "fr-ma-5e-para-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Elles complètent celles du parallélogramme (diagonales, côtés)."
+    },
+    {
+      "topicId": "fr-ma-5e-para-07",
+      "prerequisiteId": "fr-ma-5e-para-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut savoir reconnaître un parallélogramme, ses bases et ses hauteurs."
+    },
+    {
+      "topicId": "fr-ma-5e-para-08",
+      "prerequisiteId": "fr-ma-5e-para-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les figures complexes contiennent des parallélogrammes."
+    },
+    {
+      "topicId": "fr-ma-5e-para-08",
+      "prerequisiteId": "fr-ma-5e-tri-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les figures complexes contiennent des triangles."
+    },
+    {
+      "topicId": "fr-ma-5e-para-08",
+      "prerequisiteId": "fr-ma-5e-esp-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Certaines figures complexes contiennent des disques ou demi-disques."
+    },
+    {
+      "topicId": "fr-ma-5e-stat-02",
+      "prerequisiteId": "fr-ma-5e-stat-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "On calcule effectifs et fréquences sur des données organisées."
+    },
+    {
+      "topicId": "fr-ma-5e-stat-04",
+      "prerequisiteId": "fr-ma-5e-stat-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Un diagramme en barres représente des effectifs."
+    },
+    {
+      "topicId": "fr-ma-5e-stat-05",
+      "prerequisiteId": "fr-ma-5e-stat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les angles des secteurs se calculent à partir des effectifs ou des fréquences."
+    },
+    {
+      "topicId": "fr-ma-5e-stat-05",
+      "prerequisiteId": "fr-ma-5e-prop-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les angles sont proportionnels aux effectifs."
+    },
+    {
+      "topicId": "fr-ma-5e-stat-06",
+      "prerequisiteId": "fr-ma-5e-stat-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Pour choisir, il faut connaître les différents types de représentation."
+    },
+    {
+      "topicId": "fr-ma-5e-stat-06",
+      "prerequisiteId": "fr-ma-5e-stat-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le diagramme circulaire fait partie des représentations à choisir."
+    },
+    {
+      "topicId": "fr-ma-5e-prb-02",
+      "prerequisiteId": "fr-ma-5e-prb-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le vocabulaire se construit sur des situations de hasard simples."
+    },
+    {
+      "topicId": "fr-ma-5e-prb-03",
+      "prerequisiteId": "fr-ma-5e-prb-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Calculer une probabilité suppose de dénombrer les issues d’un évènement."
+    },
+    {
+      "topicId": "fr-ma-5e-prb-04",
+      "prerequisiteId": "fr-ma-5e-stat-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut calculer des effectifs et des fréquences."
+    },
+    {
+      "topicId": "fr-ma-5e-prb-04",
+      "prerequisiteId": "fr-ma-5e-prb-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’expérience est décrite avec le vocabulaire des probabilités."
+    },
+    {
+      "topicId": "fr-ma-5e-prop-01",
+      "prerequisiteId": "fr-ma-5e-rat-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Une proportion s’écrit en fraction, en décimal ou en pourcentage."
+    },
+    {
+      "topicId": "fr-ma-5e-prop-02",
+      "prerequisiteId": "fr-ma-5e-rat-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Appliquer un pourcentage s’appuie sur les liens entre fraction, décimal et pourcentage."
+    },
+    {
+      "topicId": "fr-ma-5e-prop-04",
+      "prerequisiteId": "fr-ma-5e-prop-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "On utilise un coefficient dans une situation reconnue comme proportionnelle."
+    },
+    {
+      "topicId": "fr-ma-5e-prop-05",
+      "prerequisiteId": "fr-ma-5e-prop-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "On représente une situation reconnue comme proportionnelle."
+    },
+    {
+      "topicId": "fr-ma-5e-prop-05",
+      "prerequisiteId": "fr-ma-5e-fct-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La représentation graphique demande de placer les points d’un tableau dans un repère."
+    },
+    {
+      "topicId": "fr-ma-5e-prop-06",
+      "prerequisiteId": "fr-ma-5e-prop-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Dans un tableau, on cherche un coefficient de proportionnalité commun."
+    },
+    {
+      "topicId": "fr-ma-5e-prop-06",
+      "prerequisiteId": "fr-ma-5e-fct-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Sur un graphique, on utilise la caractérisation graphique de la proportionnalité."
+    },
+    {
+      "topicId": "fr-ma-5e-prop-07",
+      "prerequisiteId": "fr-ma-5e-fct-08",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "On applique au nuage de points la caractérisation graphique de la proportionnalité."
+    },
+    {
+      "topicId": "fr-ma-5e-fct-02",
+      "prerequisiteId": "fr-ma-5e-fct-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le tableau traduit une grandeur en fonction d’une autre."
+    },
+    {
+      "topicId": "fr-ma-5e-fct-04",
+      "prerequisiteId": "fr-ma-5e-rep-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut savoir placer un point de coordonnées données."
+    },
+    {
+      "topicId": "fr-ma-5e-fct-04",
+      "prerequisiteId": "fr-ma-5e-fct-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Il faut lire les couples de valeurs du tableau."
+    },
+    {
+      "topicId": "fr-ma-5e-fct-05",
+      "prerequisiteId": "fr-ma-5e-rep-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Lire un graphique suppose de lire les coordonnées d’un point."
+    },
+    {
+      "topicId": "fr-ma-5e-fct-06",
+      "prerequisiteId": "fr-ma-5e-lit-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Chaque valeur du tableau s’obtient par substitution dans la formule."
+    },
+    {
+      "topicId": "fr-ma-5e-fct-06",
+      "prerequisiteId": "fr-ma-5e-fct-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prolonge la production d’un tableau de valeurs."
+    },
+    {
+      "topicId": "fr-ma-5e-fct-07",
+      "prerequisiteId": "fr-ma-5e-lit-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Écrire une formule de dépendance mobilise la production de formules."
+    },
+    {
+      "topicId": "fr-ma-5e-fct-07",
+      "prerequisiteId": "fr-ma-5e-fct-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La formule exprime une grandeur en fonction d’une autre."
+    },
+    {
+      "topicId": "fr-ma-5e-fct-08",
+      "prerequisiteId": "fr-ma-5e-prop-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La caractérisation s’observe sur des représentations graphiques de situations proportionnelles."
+    },
+    {
+      "topicId": "fr-ma-5e-info-03",
+      "prerequisiteId": "fr-ma-5e-lit-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "On traduit en blocs une formule écrite avec une lettre."
+    },
+    {
+      "topicId": "fr-ma-5e-info-03",
+      "prerequisiteId": "fr-ma-5e-info-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La formule porte sur la donnée saisie en entrée."
+    },
+    {
+      "topicId": "fr-ma-5e-info-04",
+      "prerequisiteId": "fr-ma-5e-info-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le calcul utilise la formule écrite en blocs."
+    },
+    {
+      "topicId": "fr-ma-5e-info-04",
+      "prerequisiteId": "fr-ma-5e-info-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut séquencer les instructions (demander, calculer, afficher)."
+    },
+    {
+      "topicId": "fr-ma-5e-info-05",
+      "prerequisiteId": "fr-ma-5e-info-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prévoir la valeur suppose de lire l’expression en blocs."
+    },
+    {
+      "topicId": "fr-ma-5e-info-05",
+      "prerequisiteId": "fr-ma-5e-lit-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prévoir la valeur revient à calculer la formule par substitution."
+    },
+    {
+      "topicId": "fr-ma-5e-info-06",
+      "prerequisiteId": "fr-ma-5e-info-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Analyser un programme suppose de comprendre une séquence d’instructions."
+    },
+    {
+      "topicId": "fr-ma-5e-info-06",
+      "prerequisiteId": "fr-ma-5e-info-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prévoir l’effet d’une modification aide à analyser le programme."
+    },
+    {
+      "topicId": "fr-ma-5e-info-07",
+      "prerequisiteId": "fr-ma-5e-info-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La boucle répète une séquence d’instructions déjà maîtrisée."
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

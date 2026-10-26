@@ -1,0 +1,2815 @@
+{
+  "programme": "reperes-c1",
+  "level": "multiple",
+  "themeCodes": {
+    "tps": "Se repérer dans le temps",
+    "chr": "S’approprier la notion de chronologie",
+    "dur": "Construire la notion de durée",
+    "exp": "Faire l’expérience de l’espace",
+    "rpr": "Représenter l’espace",
+    "env": "Découvrir l’environnement proche"
+  },
+  "notions": [
+    {
+      "id": "fr-rep-ps-tps-01",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Acquérir les premiers repères temporels de la journée",
+      "description": "Commencer à se repérer dans le temps grâce aux activités qui reviennent chaque jour à l’école. Avant 4 ans, le travail porte sur l’organisation de la journée.",
+      "officialObjectives": [
+        "Acquérir les premiers repères temporels."
+      ],
+      "evidence": [
+        "Comprend les temps principaux du déroulé global des actions de la journée."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend le déroulé d’une journée d’école, par exemple qu’après le repas vient le temps de repos ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 53,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-tps-02",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Identifier les principaux moments d’une journée",
+      "description": "Distinguer les grands moments de la journée : le matin et le soir, le jour et la nuit.",
+      "officialObjectives": [
+        "Identifier les principaux moments d’une journée."
+      ],
+      "evidence": [
+        "Différencie le matin et le soir, le jour et la nuit : « Le matin, je me lève de bonne heure pour aller à l’école. »"
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} fait la différence entre le matin et le soir, le jour et la nuit, par exemple en disant « Le matin, je me lève pour aller à l’école » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 53,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-tps-03",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Connaître quelques marqueurs temporels",
+      "description": "Comprendre et employer les petits mots qui situent dans le temps : avant, après, maintenant, tout de suite, tout à l’heure.",
+      "officialObjectives": [
+        "Connaitre quelques marqueurs temporels."
+      ],
+      "evidence": [
+        "Comprend et utilise le vocabulaire associé : encore, avant, après, maintenant, tout à l’heure, tout de suite, etc."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend et emploie des mots comme « avant », « après », « maintenant » ou « tout à l’heure » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 53,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-tps-04",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Découvrir la notion de saison par l’observation",
+      "description": "Remarquer que la nature change au fil de l’année (végétation, temps qu’il fait), à partir de ce que l’on observe près de chez soi.",
+      "officialObjectives": [
+        "Aborder la notion de saison à partir de quelques faits observables."
+      ],
+      "evidence": [
+        "Repère les transformations de la nature en observant l’environnement, selon le contexte local (végétation, climat, etc.)."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} remarque que la nature change selon les moments de l’année, par exemple que les arbres perdent leurs feuilles ou qu’il fait plus froid ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 53,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-tps-01",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Dire à quel moment de la journée on se trouve",
+      "description": "Savoir dire si l’on est le matin, le midi, l’après-midi ou le soir, en employant le mot juste.",
+      "officialObjectives": [
+        "Énoncer le moment de la journée où l’on se situe."
+      ],
+      "evidence": [
+        "Reconnaît le matin, le midi, l’après-midi, le soir, la nuit et le jour.",
+        "Emploie ces mots à bon escient."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si l’on est le matin, le midi, l’après-midi ou le soir ?",
+      "priorKnowledge": [
+        "Identifier les principaux moments d’une journée (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 53,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-tps-02",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "S’appuyer sur des jours repères dans la semaine",
+      "description": "Se servir de jours particuliers (le mercredi, la fin de semaine, le jour d’une activité habituelle) pour situer les activités dans la semaine. À partir de 4 ans, les rituels de la classe portent sur la semaine.",
+      "officialObjectives": [
+        "Établir des jours qui servent de repères dans la semaine."
+      ],
+      "evidence": [
+        "Situe une activité dans la semaine en la plaçant avant ou après le jour qui sert de repère : fin de semaine, mercredi, un jour avec une activité particulière."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si une activité a lieu avant ou après le mercredi, ou avant ou après le week-end ?",
+      "priorKnowledge": [
+        "Connaître quelques marqueurs temporels (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 53,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-tps-03",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Savoir que la semaine est une suite de sept jours",
+      "description": "Comprendre que la semaine est une suite de sept jours, connaître leurs noms et situer les évènements avec hier, aujourd’hui et demain.",
+      "officialObjectives": [
+        "Savoir que la semaine est une suite de sept jours."
+      ],
+      "evidence": [
+        "Nomme les jours de la semaine.",
+        "Situe les évènements dans le temps de la semaine avec les mots aujourd’hui, demain, hier."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer les jours de la semaine et dire ce qu’on a fait hier ou ce qu’on fera demain ?",
+      "priorKnowledge": [
+        "Acquérir les premiers repères temporels de la journée (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 53,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-tps-04",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Employer présent, futur et passé composé pour situer des évènements",
+      "description": "Utiliser le bon temps des verbes pour parler de ce qui se passe, de ce qui s’est passé et de ce qui va se passer ; l’imparfait peut commencer à apparaître.",
+      "officialObjectives": [
+        "Employer le présent, le futur, le passé composé et commencer éventuellement à employer l’imparfait pour évoquer des évènements et les resituer dans le temps."
+      ],
+      "evidence": [
+        "Utilise progressivement les temps verbaux à bon escient, par exemple le futur : « Demain, je serai en vacances. »",
+        "Emploie le passé composé pour raconter ce qui s’est passé la veille (aller jouer au parc).",
+        "Commence à employer l’imparfait pour un temps plus ancien : « … j’avais une tétine, mais maintenant je n’en ai plus besoin. »"
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} emploie le bon temps pour parler d’hier ou de demain, par exemple « Demain, je serai en vacances » ?",
+      "priorKnowledge": [
+        "Commencer à employer présent, passé composé et futur proche (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 53,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-tps-05",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Approfondir la notion de saison : l’hiver et l’été",
+      "description": "Observer la végétation et le temps qu’il fait pour reconnaître l’hiver et l’été et dire ce qui les caractérise près de chez soi.",
+      "officialObjectives": [
+        "Approfondir la notion de saison par des observations sur la végétation et le climat."
+      ],
+      "evidence": [
+        "Nomme l’hiver et l’été.",
+        "Identifie leurs principales caractéristiques selon le contexte local (végétation, climat, températures, etc.)."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer l’hiver et l’été et dire ce qui change entre les deux (le froid, la chaleur, les feuilles des arbres) ?",
+      "priorKnowledge": [
+        "Découvrir la notion de saison par l’observation (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-tps-01",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Situer un évènement dans la semaine",
+      "description": "Dire quand un évènement a eu lieu ou aura lieu par rapport à aujourd’hui, en comptant les jours.",
+      "officialObjectives": [
+        "Situer un évènement dans la semaine."
+      ],
+      "evidence": [
+        "Rappelle qu’on est allé « il y a trois jours » ou qu’on ira « dans trois jours » à tel endroit."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} peut dire qu’une sortie a eu lieu « il y a trois jours » ou aura lieu « dans trois jours » ?",
+      "priorKnowledge": [
+        "Savoir que la semaine est une suite de sept jours (MS)",
+        "S’appuyer sur des jours repères dans la semaine (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-tps-02",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Utiliser les temps des verbes et les jours pour situer des évènements",
+      "description": "Associer hier, aujourd’hui et demain aux jours de la semaine et aux bons temps des verbes, y compris le futur simple et le futur antérieur (« j’aurai fini »).",
+      "officialObjectives": [
+        "Continuer à s’approprier les temps conjugués (futur simple et futur antérieur) et les jours pour situer les évènements dans la semaine et situer un évènement qui va se produire."
+      ],
+      "evidence": [
+        "Dit : « Aujourd’hui, nous sommes lundi. », « Hier, c’était dimanche, j’étais à la maison. », « Demain, ce sera mardi, nous irons à la piscine. »",
+        "Emploie le futur antérieur : « J’aurai bientôt fini mon dessin. »"
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire « Aujourd’hui, nous sommes lundi ; demain, ce sera mardi » et employer « j’aurai bientôt fini » ?",
+      "priorKnowledge": [
+        "Employer présent, futur et passé composé pour situer des évènements (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-tps-03",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Énoncer la date",
+      "description": "Dire la date du jour (jour et mois), en s’aidant des outils affichés dans la classe.",
+      "officialObjectives": [
+        "Énoncer la date."
+      ],
+      "evidence": [
+        "Utilise les outils de la classe pour composer la date (jour et mois) au tableau et l’énoncer."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire la date du jour, avec le nom du jour et du mois ?",
+      "priorKnowledge": [
+        "Savoir que la semaine est une suite de sept jours (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-tps-04",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Se situer dans l’année grâce à des mois repères",
+      "description": "Relier certains mois à des moments marquants (anniversaires, fêtes, vacances) pour se repérer dans l’année. À partir de 5 ans, les rituels de la classe portent sur l’année.",
+      "officialObjectives": [
+        "Utiliser des mois qui servent de repères pour se situer dans l’année."
+      ],
+      "evidence": [
+        "Associe certains mois de l’année à un évènement marquant (anniversaires, fêtes, vacances)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire en quel mois tombent son anniversaire ou les vacances de Noël ?",
+      "priorKnowledge": [
+        "S’appuyer sur des jours repères dans la semaine (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-tps-05",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Nommer la plupart des mois de l’année",
+      "description": "Connaître le nom de la plupart des mois et pouvoir les dire, dans l’ordre ou en désordre.",
+      "officialObjectives": [
+        "Nommer la plupart des mois de l’année."
+      ],
+      "evidence": [
+        "Énonce la plupart des mois de l’année, dans l’ordre ou le désordre."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait réciter la plupart des mois de l’année ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-tps-06",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Se repérer dans le temps",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Connaître les saisons",
+      "description": "Nommer les saisons et dire ce qui caractérise chacune près de chez soi (temps qu’il fait, végétation).",
+      "officialObjectives": [
+        "Connaitre les saisons."
+      ],
+      "evidence": [
+        "Nomme les saisons.",
+        "Cite quelques-unes de leurs caractéristiques selon le contexte local."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer les quatre saisons et dire, pour chacune, ce qui change dans la nature ou dans le temps qu’il fait ?",
+      "priorKnowledge": [
+        "Approfondir la notion de saison : l’hiver et l’été (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-chr-01",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "S’approprier la notion de chronologie",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Situer les moments de la journée les uns par rapport aux autres",
+      "description": "Savoir ce qui vient juste avant et ce qui vient juste après dans la journée de classe.",
+      "officialObjectives": [
+        "Situer des moments de la journée les uns par rapport aux autres et commencer à utiliser le présent, le passé composé, le présent à valeur de futur proche."
+      ],
+      "evidence": [
+        "Nomme l’activité qui précède et identifie celle qui va suivre."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qu’on a fait juste avant et ce qu’on va faire juste après, par exemple avant et après le goûter ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-chr-02",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "S’approprier la notion de chronologie",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Commencer à employer présent, passé composé et futur proche",
+      "description": "Commencer à utiliser les temps des verbes pour parler de ce qu’on fait, de ce qu’on a fait et de ce qu’on va faire tout de suite (« on va dormir »).",
+      "officialObjectives": [
+        "Situer des moments de la journée les uns par rapport aux autres et commencer à utiliser le présent, le passé composé, le présent à valeur de futur proche."
+      ],
+      "evidence": [
+        "Produit à l’oral des phrases simples au présent à valeur de futur proche : « On va à la cantine, après on va dormir… »",
+        "Commence à employer le passé composé pour évoquer une activité déjà faite, comme la séance en salle de motricité."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} commence à parler de ce qui va se passer avec des phrases comme « On va à la cantine, après on va dormir » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-chr-03",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "S’approprier la notion de chronologie",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Ordonner des moments rituels vécus",
+      "description": "Remettre dans l’ordre les moments qui reviennent chaque jour (cantine, sieste, retour en classe) et le raconter avec des phrases simples.",
+      "officialObjectives": [
+        "Ordonner entre eux des moments rituels vécus."
+      ],
+      "evidence": [
+        "Produit à l’oral des phrases simples pour restituer des moments rituels vécus : « On va à la cantine, après on va dormir, et après, on revient dans la classe. »"
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter dans l’ordre des moments d’une journée d’école : « On va à la cantine, après on va dormir, et après on revient dans la classe » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-chr-04",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "S’approprier la notion de chronologie",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Restituer le déroulement d’évènements quotidiens dans une histoire",
+      "description": "Comprendre et raconter dans l’ordre les actions de la vie de tous les jours dans un album simple (le bain, le coucher…).",
+      "officialObjectives": [
+        "Comprendre et restituer le déroulement d’évènements quotidiens au sein d’une histoire simple."
+      ],
+      "evidence": [
+        "Restitue le déroulement d’actions quotidiennes au sein d’une histoire simple, à partir d’albums.",
+        "S’appuie sur le lexique adapté (le bain, le coucher, etc.)."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Après la lecture d’un album simple, est-ce que {{prenom}} sait raconter dans l’ordre ce que fait le personnage, par exemple le bain puis le coucher ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-chr-05",
+      "programme": "reperes-c1",
+      "type": "META",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "S’approprier la notion de chronologie",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Se projeter dans l’action que l’on choisit",
+      "description": "Annoncer ce que l’on va faire juste après, et dans quel but, avant de s’y mettre.",
+      "officialObjectives": [
+        "Se projeter dans l’action que l’on choisit d’effectuer."
+      ],
+      "evidence": [
+        "Dit quelle action, quelle tâche on va réaliser dans un futur très proche : « Je vais dans la bibliothèque pour regarder un livre. », « Je veux aller à l’atelier peinture pour étaler la peinture. »"
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait annoncer ce qui va être fait juste après, par exemple « Je vais dans la bibliothèque pour regarder un livre » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-chr-06",
+      "programme": "reperes-c1",
+      "type": "META",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "S’approprier la notion de chronologie",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Commencer à planifier deux activités",
+      "description": "Prévoir l’ordre de deux activités, par exemple choisir le jeu que l’on fera ensuite avant de commencer le travail demandé.",
+      "officialObjectives": [
+        "Commencer à planifier deux activités."
+      ],
+      "evidence": [
+        "Choisit le jeu qui sera utilisé ensuite en autonomie, avant de réaliser le travail proposé par les professeurs."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir à l’avance le jeu qui suivra, avant de faire le travail demandé ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-chr-01",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "S’approprier la notion de chronologie",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Restituer la chronologie d’une histoire simple",
+      "description": "Raconter dans l’ordre les grandes étapes d’une histoire simple : le début, au moins un moment de l’action et la fin.",
+      "officialObjectives": [
+        "Restituer la chronologie des actions majeures d’une histoire simple."
+      ],
+      "evidence": [
+        "Restitue le début d’une histoire à structure répétitive.",
+        "Relate au moins un élément de l’action.",
+        "Raconte comment l’histoire se termine."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Après une histoire à structure répétitive, est-ce que {{prenom}} sait en raconter le début, au moins un moment de l’action et la fin ?",
+      "priorKnowledge": [
+        "Restituer le déroulement d’évènements quotidiens dans une histoire (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-chr-02",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "S’approprier la notion de chronologie",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Relater une action ou une procédure avec des connecteurs de temps",
+      "description": "Raconter ou expliquer comment se passe une activité habituelle avec des mots qui organisent le récit dans le temps : au début, ensuite, pour finir, en même temps.",
+      "officialObjectives": [
+        "Relater et expliquer une action, une procédure en utilisant de premiers connecteurs structurants afin d’inscrire les activités récurrentes de leur vie quotidienne dans le temps."
+      ],
+      "evidence": [
+        "Utilise les termes : au début, ensuite et pour finir, quand, en même temps, il y a longtemps, etc."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} raconte une activité de tous les jours en utilisant des mots comme « au début », « ensuite », « pour finir » ou « en même temps » ?",
+      "priorKnowledge": [
+        "Ordonner des moments rituels vécus (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-chr-01",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "S’approprier la notion de chronologie",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Repérer et ordonner les étapes d’un processus",
+      "description": "Repérer les étapes d’une fabrication ou d’un évènement vécu et les remettre dans l’ordre, avec des mots comme d’abord, ensuite, enfin.",
+      "officialObjectives": [
+        "Repérer les différentes étapes d’un processus ou d’un évènement vécu et les ordonner."
+      ],
+      "evidence": [
+        "Établit la liste des différentes étapes d’une construction ou d’une fabrication en utilisant les mots : d’abord, ensuite, puis, après, enfin, à la fin."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer dans l’ordre les étapes d’un bricolage ou d’une recette, avec « d’abord », « ensuite », « enfin » ?",
+      "priorKnowledge": [
+        "Relater une action ou une procédure avec des connecteurs de temps (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 54,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-chr-02",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "S’approprier la notion de chronologie",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Repérer l’antériorité d’une action dans une histoire",
+      "description": "Comprendre, dans une histoire, qu’une action s’est passée avant une autre grâce aux temps des verbes : imparfait, plus-que-parfait, « allait » pour un futur proche dans le passé.",
+      "officialObjectives": [
+        "Repérer l’antériorité d’une action par rapport à une autre dans un scénario: imparfait, plus-que-parfait, imparfait du verbe « aller » à valeur de futur proche dans le passé."
+      ],
+      "evidence": [
+        "Reconstruit oralement la structure d’une histoire : « Le Petit Poucet marchait derrière ses parents dans la forêt, il avait pris des petits cailloux avant de partir pour les semer. Il allait pouvoir ainsi retrouver son chemin. »"
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "En racontant une histoire connue comme Le Petit Poucet, est-ce que {{prenom}} sait dire ce qui s’était passé avant, par exemple que le Petit Poucet « avait pris des petits cailloux avant de partir » ?",
+      "priorKnowledge": [
+        "Restituer la chronologie d’une histoire simple (MS)",
+        "Employer présent, futur et passé composé pour situer des évènements (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 55,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-chr-03",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "S’approprier la notion de chronologie",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Ordonner des évènements passés de l’année scolaire",
+      "description": "Remettre dans l’ordre les grands évènements vécus par la classe au cours de l’année (sorties, fêtes, anniversaires, vacances).",
+      "officialObjectives": [
+        "Ordonner des évènements passés les uns par rapport aux autres, dans l’année scolaire."
+      ],
+      "evidence": [
+        "Évoque la succession des évènements importants pour la classe les uns par rapport aux autres : « En novembre, on est allé à la ferme et l’anniversaire de Camille c’était après les vacances de Noël. »"
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire dans quel ordre se sont passés les grands moments de l’année, par exemple que la sortie à la ferme a eu lieu avant les vacances de Noël ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 55,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-chr-04",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "S’approprier la notion de chronologie",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Relater des évènements en exprimant succession, antériorité et simultanéité",
+      "description": "Raconter des évènements passés ou à venir en indiquant ce qui vient avant, après ou en même temps, avec les temps des verbes et des mots comme pendant, soudain, autrefois.",
+      "officialObjectives": [
+        "Relater des évènements passés ou à venir qui indiquent la succession, l’antériorité, la postériorité et la simultanéité."
+      ],
+      "evidence": [
+        "Participe à l’invention d’une histoire en utilisant les temps du présent, du passé et du futur.",
+        "Emploie les termes : avant, après, pendant, bien avant, bien après, en même temps, soudain, immédiatement, de temps en temps, tôt, tard, autrefois, aussitôt, etc."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Quand vous inventez une histoire ensemble, est-ce que {{prenom}} utilise des mots comme « pendant », « soudain », « bien avant » ou « en même temps » ?",
+      "priorKnowledge": [
+        "Relater une action ou une procédure avec des connecteurs de temps (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 55,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-dur-01",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Construire la notion de durée",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Attendre avant d’obtenir ce que l’on souhaite",
+      "description": "Vivre l’attente, première expérience de la durée : attendre son tour ou attendre que les autres soient servis.",
+      "officialObjectives": [
+        "Attendre avant d’obtenir ce que l’on souhaite."
+      ],
+      "evidence": [
+        "Attend son tour pour jouer.",
+        "Attend que les camarades soient servis avant de manger un biscuit."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait attendre son tour pour jouer, ou attendre que tout le monde soit servi avant de manger ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 55,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-dur-02",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Construire la notion de durée",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Repérer le début et la fin d’une activité",
+      "description": "Comprendre les signaux qui annoncent le début et la fin d’une activité (clochette, mains qui frappent, consigne).",
+      "officialObjectives": [
+        "Repérer le début et la fin d’une activité."
+      ],
+      "evidence": [
+        "Comprend le code défini par les professeurs pour débuter et terminer une activité (le son de la clochette, frapper dans les mains, une consigne orale)."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend qu’un signal (une clochette, des mains qui frappent) annonce le début ou la fin d’une activité ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 55,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-dur-03",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Construire la notion de durée",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Connaître quelques mots qui parlent de durée",
+      "description": "Comprendre et employer les premiers mots qui expriment la durée : attendre, longtemps, déjà.",
+      "officialObjectives": [
+        "Connaitre quelques mots qui font référence à la durée."
+      ],
+      "evidence": [
+        "Comprend et utilise le vocabulaire spécifique : attendre, longtemps, déjà, etc.",
+        "Les emploie dans des phrases : « La Belle au Bois dormant dort longtemps. »"
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend et emploie des mots comme « attendre », « longtemps » ou « déjà » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 55,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-dur-01",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Construire la notion de durée",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Percevoir que certaines durées sont stables",
+      "description": "Découvrir qu’un sablier ou un minuteur mesure toujours le même temps, ce qui aide à se représenter une durée.",
+      "officialObjectives": [
+        "Percevoir que certaines durées sont stables."
+      ],
+      "evidence": [
+        "Découvre la fonction et l’utilisation du sablier ou du minuteur."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait à quoi sert un sablier ou un minuteur, par exemple pour savoir quand un temps de jeu est fini ?",
+      "priorKnowledge": [
+        "Repérer le début et la fin d’une activité (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 55,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-dur-02",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Construire la notion de durée",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Enrichir les mots de la durée",
+      "description": "Employer de nouveaux mots pour parler du temps qui passe : pendant, depuis, court, long.",
+      "officialObjectives": [
+        "Enrichir le répertoire de mots qui font référence à la durée."
+      ],
+      "evidence": [
+        "Comprend et utilise le vocabulaire spécifique : pendant, depuis, court, long, etc."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} emploie des mots comme « pendant », « depuis », « court » ou « long » pour parler du temps qui passe ?",
+      "priorKnowledge": [
+        "Connaître quelques mots qui parlent de durée (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 55,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-dur-01",
+      "programme": "reperes-c1",
+      "type": "META",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Construire la notion de durée",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Organiser son activité dans un temps imparti",
+      "description": "S’aider d’un repère donné par l’adulte (un sablier, une consigne) pour finir un travail dans le temps prévu.",
+      "officialObjectives": [
+        "Commencer à utiliser les repères donnés par les professeurs pour organiser son activité dans un temps imparti."
+      ],
+      "evidence": [
+        "Planifie une activité en utilisant un sablier : « Quand le sable se sera écoulé, il faudra avoir fini son travail. »"
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait s’organiser pour finir une tâche avant que le sablier soit écoulé ?",
+      "priorKnowledge": [
+        "Percevoir que certaines durées sont stables (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 55,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-dur-02",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Construire la notion de durée",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Comparer des durées",
+      "description": "Dire ce qui dure le plus longtemps ou le moins longtemps : deux musiques, deux équipes dans un jeu chronométré.",
+      "officialObjectives": [
+        "Comparer des durées."
+      ],
+      "evidence": [
+        "Identifie quel extrait musical est le plus court, le plus long.",
+        "Identifie, à l’aide d’un chronomètre, l’équipe qui a mis le moins de temps pour faire passer le ballon du premier au dernier membre de la colonne (jeu La chenille)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, entre deux chansons écoutées, laquelle dure le plus longtemps ?",
+      "priorKnowledge": [
+        "Enrichir les mots de la durée (MS)",
+        "Percevoir que certaines durées sont stables (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 55,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-dur-03",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans le temps",
+      "subdomain": "Construire la notion de durée",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Comprendre qu’il existe un passé très éloigné",
+      "description": "Commencer à comprendre que certaines choses se sont passées il y a très longtemps, avant même notre naissance.",
+      "officialObjectives": [
+        "Comprendre progressivement qu’il existe un temps long, un passé très éloigné, des évènements antérieurs à notre propre vie."
+      ],
+      "evidence": [
+        "Dit que certains évènements se sont passés il y a très longtemps, avant même notre naissance."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend que certaines choses, comme les dinosaures, ont existé il y a très longtemps, bien avant sa naissance ?",
+      "priorKnowledge": [
+        "Enrichir les mots de la durée (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 55,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-exp-01",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Réaliser des constructions simples",
+      "description": "Construire avec des pièces en volume ou des formes plates, librement ou en reproduisant un petit modèle.",
+      "officialObjectives": [
+        "Réaliser des constructions simples à partir de pièces solides ou de formes planes."
+      ],
+      "evidence": [
+        "Joue avec un jeu de construction librement.",
+        "Reproduit un modèle déjà construit avec trois ou quatre pièces."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reproduire une petite construction de trois ou quatre pièces à partir d’un modèle ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-exp-02",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Orienter un objet ou une forme",
+      "description": "Tourner une pièce dans le bon sens pour la faire entrer à sa place, comme dans un puzzle à encastrement.",
+      "officialObjectives": [
+        "Orienter un objet ou une forme."
+      ],
+      "evidence": [
+        "Choisit et oriente une pièce pour l’insérer dans un puzzle à encastrement."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tourner une pièce dans le bon sens pour la faire entrer dans un puzzle à encastrement ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-exp-03",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Manipuler des objets volumineux",
+      "description": "Déplacer et explorer de gros objets (cartons, blocs de mousse, tapis) pour découvrir l’espace avec son corps.",
+      "officialObjectives": [
+        "Manipuler des objets volumineux."
+      ],
+      "evidence": [
+        "Manipule des cartons, des blocs de mousse, des tapis pour explorer librement des positions variées."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} manipule de gros objets (cartons, blocs de mousse, tapis) pour se placer dessus, dessous ou dedans ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-exp-04",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Orienter un livre ou un support d’écrit",
+      "description": "Tenir un livre dans le bon sens et le feuilleter du début à la fin.",
+      "officialObjectives": [
+        "Orienter un livre ou un autre support d’écrit."
+      ],
+      "evidence": [
+        "Feuillette un album du début à la fin en l’orientant face à soi."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} tient un album dans le bon sens et le feuillette du début à la fin ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-exp-05",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Réaliser un trajet simple dans l’école",
+      "description": "Aller d’un lieu à un autre de l’école, avec un adulte, par exemple pour y déposer un objet.",
+      "officialObjectives": [
+        "Réaliser un trajet, un parcours simple dans l’école."
+      ],
+      "evidence": [
+        "Se déplace dans la classe ou dans l’école avec un adulte pour déposer un objet dans un lieu proposé (cantine, dortoirs, toilettes, cour, les autres classes, etc.)."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait aller, avec un adulte, jusqu’à un lieu connu de l’école (la cantine, le dortoir, la cour) pour y porter un objet ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-exp-06",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Expérimenter la proximité et l’éloignement",
+      "description": "Remarquer qu’un objet lointain paraît plus petit et qu’un son lointain paraît plus faible.",
+      "officialObjectives": [
+        "Expérimenter les effets sensoriels de la proximité et de l’éloignement."
+      ],
+      "evidence": [
+        "Constate que la taille perçue d’un objet ou l’intensité d’un son varie selon la distance par rapport à soi."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} remarque qu’un objet paraît plus petit et qu’un bruit est plus faible quand on s’en éloigne ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-exp-07",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Acquérir les premiers mots pour se repérer dans l’espace",
+      "description": "Comprendre et employer les premiers mots de l’espace : monter, descendre, dedans, dehors, devant, derrière, au-dessus, en dessous.",
+      "officialObjectives": [
+        "Acquérir les premiers marqueurs qui permettent de se repérer dans l’espace."
+      ],
+      "evidence": [
+        "Comprend et utilise des verbes : marcher, monter, descendre, grimper, recouvrir, avancer, reculer, remplir, vider, éloigner, rapprocher, etc.",
+        "Comprend et utilise des adverbes, prépositions et adjectifs : ici, là-bas, grand, petit, au-dessus, en dessous, dans, dedans, dehors, à côté, au loin, tout près, devant, derrière, autour, l’un derrière l’autre, etc."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend et emploie des mots comme « dedans », « dehors », « devant », « derrière », « au-dessus » ou « en dessous » ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-exp-01",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Construire en respectant une contrainte",
+      "description": "Construire ou composer en respectant une consigne, par exemple faire un motif avec des formes en bois puis le reproduire sur une feuille.",
+      "officialObjectives": [
+        "Réaliser des constructions de pièces solides ou de formes planes à partir d’une contrainte."
+      ],
+      "evidence": [
+        "Compose des motifs simples avec des formes en bois et les reproduit sur une feuille (taille et forme diverses)."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait composer un motif avec des formes en bois puis le reproduire sur une feuille ?",
+      "priorKnowledge": [
+        "Réaliser des constructions simples (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-exp-02",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Situer des objets les uns par rapport aux autres",
+      "description": "Comprendre la position des objets les uns par rapport aux autres et l’effet d’un déplacement, par exemple sur un jeu de plateau.",
+      "officialObjectives": [
+        "Situer des objets entre eux."
+      ],
+      "evidence": [
+        "Détermine l’effet d’un déplacement, d’une position sur un jeu de plateau (jeu Les petits chevaux)."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Sur un jeu de plateau comme les petits chevaux, est-ce que {{prenom}} sait prévoir où le pion va arriver après un déplacement ?",
+      "priorKnowledge": [
+        "Acquérir les premiers mots pour se repérer dans l’espace (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-exp-03",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Situer des objets par rapport à soi : près ou loin",
+      "description": "Dire si un objet est près ou loin de soi, et comprendre qu’un objet éloigné paraît plus petit.",
+      "officialObjectives": [
+        "Situer des objets par rapport à soi, différencier la proximité de l’éloignement."
+      ],
+      "evidence": [
+        "Observe sur des photographies les différentes tailles d’un objet selon sa position dans l’espace.",
+        "Identifie la photographie représentant l’objet le plus éloigné du photographe."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Sur plusieurs photos d’un même objet, est-ce que {{prenom}} sait trouver celle où l’objet était le plus loin du photographe ?",
+      "priorKnowledge": [
+        "Expérimenter la proximité et l’éloignement (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-exp-04",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Orienter et utiliser correctement une feuille",
+      "description": "Tenir la feuille dans le bon sens et placer ses traces dans l’espace prévu, par exemple écrire des lettres dans un cadre.",
+      "officialObjectives": [
+        "Orienter et utiliser correctement une feuille de papier."
+      ],
+      "evidence": [
+        "Trace des lettres, écrit des mots dans un espace donné."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tracer des lettres ou écrire des mots à l’intérieur d’un cadre sur la feuille ?",
+      "priorKnowledge": [
+        "Orienter un livre ou un support d’écrit (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-exp-05",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Se situer par rapport aux autres",
+      "description": "Tenir compte de la place des autres en se déplaçant, pour ne pas les toucher.",
+      "officialObjectives": [
+        "Se situer par rapport aux autres."
+      ],
+      "evidence": [
+        "Dans un espace scénique, se déplace en tenant compte de la position des autres élèves afin de ne pas les toucher."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait se déplacer au milieu d’autres enfants, par exemple en dansant, sans les toucher ?",
+      "priorKnowledge": [
+        "Réaliser un trajet simple dans l’école (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-exp-06",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Employer et enrichir les mots de l’espace",
+      "description": "Réutiliser les mots de l’espace déjà connus et en apprendre de nouveaux (au milieu, entre, à droite, à gauche, traverser, le trajet) pour raconter, décrire ou expliquer.",
+      "officialObjectives": [
+        "Employer les marqueurs spatiaux précédemment acquis et en acquérir de nouveaux."
+      ],
+      "evidence": [
+        "Comprend et utilise, dans des récits, des descriptions ou des explications, des noms : le côté, le lieu, l’espace, la marche, la montée, le parcours, la descente, le tournant, le trajet, la ronde, la file, le contour, etc.",
+        "Comprend et utilise des verbes : tourner, se diriger, espacer, serrer, s’approcher, s’éloigner, traverser, etc.",
+        "Comprend et utilise des adverbes, prépositions et adjectifs : au milieu, à droite, à gauche, d’un côté, de l’autre, entre, plus haut, plus bas, au fond, à l’intérieur, à l’extérieur, immense, minuscule, etc."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} emploie des mots comme « au milieu », « entre », « au fond », « à l’intérieur » ou « traverser » pour dire où se trouvent les choses ?",
+      "priorKnowledge": [
+        "Acquérir les premiers mots pour se repérer dans l’espace (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 56,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-exp-01",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Réaliser des assemblages complexes",
+      "description": "Reproduire des puzzles, des pavages ou des tangrams, et réaliser avec une idée en tête des constructions en volume.",
+      "officialObjectives": [
+        "Réaliser des assemblages complexes."
+      ],
+      "evidence": [
+        "Reproduit des puzzles, des pavages, des tangrams, etc.",
+        "Réalise, avec une intention, une construction libre en trois dimensions à partir de solides choisis."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reproduire un tangram ou un pavage à partir d’un modèle ?",
+      "priorKnowledge": [
+        "Construire en respectant une contrainte (MS)",
+        "Orienter un objet ou une forme (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-exp-02",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Situer des objets dans un ensemble ordonné",
+      "description": "Décrire la place d’un objet parmi d’autres, dans une rangée ou dans une composition.",
+      "officialObjectives": [
+        "Situer des objets dans un ensemble ordonné."
+      ],
+      "evidence": [
+        "Décrit la place d’un objet parmi d’autres dans un rang ou dans une composition."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire où se trouve un objet dans une rangée, avec des mots comme « entre », « juste avant » ou « à côté de » ?",
+      "priorKnowledge": [
+        "Situer des objets les uns par rapport aux autres (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-exp-03",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Se repérer par rapport à son corps : gauche et droite",
+      "description": "Construire une image orientée de son propre corps pour distinguer sa gauche de sa droite et décrire la place des autres par rapport à soi.",
+      "officialObjectives": [
+        "Situer des objets par rapport à soi, construire une image orientée de son corps."
+      ],
+      "evidence": [
+        "Distingue la gauche de la droite dans ses déplacements.",
+        "Décrit la place occupée par un camarade dans la classe, par rapport à soi et aux objets (en face de soi, à côté de la bibliothèque)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} distingue sa main gauche de sa main droite et sait tourner à gauche ou à droite quand on le demande ?",
+      "priorKnowledge": [
+        "Situer des objets par rapport à soi : près ou loin (MS)",
+        "Employer et enrichir les mots de l’espace (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-exp-04",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Réaliser un trajet dans un environnement connu",
+      "description": "Suivre un trajet dans l’école ou dans la cour en s’aidant d’un dessin ou d’un codage qui le représente.",
+      "officialObjectives": [
+        "Réaliser un trajet, un parcours dans un environnement connu."
+      ],
+      "evidence": [
+        "Réalise le trajet demandé à partir de sa représentation (dessin ou codage), dans l’école ou dans la cour."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait suivre un trajet dessiné ou codé avec des flèches dans un lieu connu, comme la cour ?",
+      "priorKnowledge": [
+        "Réaliser un trajet simple dans l’école (PS)",
+        "Représenter un déplacement par un dessin (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-exp-05",
+      "programme": "reperes-c1",
+      "type": "PROCEDURAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Utiliser une page en respectant les normes d’écriture",
+      "description": "Écrire sur une page dans le bon sens : de gauche à droite, en revenant à la ligne.",
+      "officialObjectives": [
+        "Utiliser une page en respectant les normes d’écriture."
+      ],
+      "evidence": [
+        "Copie une phrase de gauche à droite, avec retour à la ligne."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} copie une phrase de gauche à droite, en revenant à la ligne au bout de la ligne ?",
+      "priorKnowledge": [
+        "Orienter et utiliser correctement une feuille (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-exp-06",
+      "programme": "reperes-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Reconnaître quelques espaces géographiques sur un planisphère",
+      "description": "Découvrir le globe et la carte du monde : distinguer la mer et la terre, nommer un ou deux continents et quelques pays.",
+      "officialObjectives": [
+        "Reconnaitre quelques espaces géographiques sur un planisphère."
+      ],
+      "evidence": [
+        "Nomme un ou deux continents et quelques pays en découvrant l’utilisation d’un globe ou d’un planisphère.",
+        "Fait la différence entre la mer et la terre."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Sur un globe ou une carte du monde, est-ce que {{prenom}} sait montrer la mer et la terre, et nommer un continent ou un pays ?",
+      "priorKnowledge": [
+        "Découvrir des espaces moins familiers (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-exp-07",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Faire l’expérience de l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Enrichir le lexique de l’espace",
+      "description": "Apprendre des mots plus complexes ou qui désignent des espaces plus lointains (quartier, sentier, continent, océan, frontière, au premier plan).",
+      "officialObjectives": [
+        "Enrichir le lexique relatif à l’espace de mots plus complexes ou désignant un espace plus éloigné."
+      ],
+      "evidence": [
+        "Comprend et utilise, dans des récits, des descriptions ou des explications, des noms : le quartier, la place, une ruelle, un sentier, un passage, le centre, un pays, un continent, un océan, la montagne, la frontière, la limite, le globe, etc.",
+        "Comprend et utilise des verbes : superposer, alterner, décaler, espacer, circuler, parcourir, déambuler, cheminer, etc.",
+        "Comprend et utilise des adverbes, prépositions et adjectifs : au loin, au centre, au premier plan, en continu, en pointillé, lointain, etc."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend et emploie des mots comme « quartier », « sentier », « océan », « frontière » ou « au premier plan » ?",
+      "priorKnowledge": [
+        "Employer et enrichir les mots de l’espace (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-rpr-01",
+      "programme": "reperes-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Représenter l’espace",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Reproduire un parcours simple sur une maquette",
+      "description": "Refaire avec une figurine, sur une maquette, le parcours que l’on a fait avec son corps en motricité.",
+      "officialObjectives": [
+        "Reproduire un parcours simple."
+      ],
+      "evidence": [
+        "Déplace une figurine sur une maquette pour représenter le parcours réalisé en séance d’activité physique."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Après un parcours de motricité, est-ce que {{prenom}} sait refaire le même chemin avec une figurine sur une maquette ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-rpr-02",
+      "programme": "reperes-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Représenter l’espace",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Restituer un déplacement à l’aide de représentations",
+      "description": "Raconter un trajet en remettant dans l’ordre des photos des lieux traversés.",
+      "officialObjectives": [
+        "Restituer un déplacement à l’aide de représentations diverses."
+      ],
+      "evidence": [
+        "Décrit un parcours simple en rangeant dans l’ordre chronologique trois ou quatre photographies des lieux par lesquels il faut passer pour rejoindre la cour de l’école."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Avec trois ou quatre photos des lieux traversés pour aller dans la cour, est-ce que {{prenom}} sait les ranger dans l’ordre du trajet ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-rpr-01",
+      "programme": "reperes-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Représenter l’espace",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Représenter un espace connu en maquette",
+      "description": "Fabriquer une maquette de la classe, de la cour ou des lieux d’une histoire avec des briques, des rouleaux ou des boîtes.",
+      "officialObjectives": [
+        "Représenter un espace connu."
+      ],
+      "evidence": [
+        "Représente par une maquette l’espace de la classe, de la cour de l’école ou de l’environnement proche à partir de briques, de rouleaux, de boîtes, etc.",
+        "Représente en volume les lieux visités par un personnage dans un récit."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait représenter la classe ou la cour en maquette, avec des boîtes, des rouleaux ou des briques ?",
+      "priorKnowledge": [
+        "Réaliser des constructions simples (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-rpr-02",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Représenter l’espace",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Décrire oralement un déplacement à partir d’une représentation",
+      "description": "Raconter un parcours que l’on a fait en s’aidant d’une représentation, avec des repères et les mots de l’espace.",
+      "officialObjectives": [
+        "Restituer oralement un déplacement à partir d’une représentation."
+      ],
+      "evidence": [
+        "Décrit le parcours réalisé lors d’une séance d’activité physique en utilisant des repères et des marqueurs spatiaux."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter un parcours de motricité en utilisant des repères et des mots comme « devant », « derrière » ou « autour » ?",
+      "priorKnowledge": [
+        "Restituer un déplacement à l’aide de représentations (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-rpr-03",
+      "programme": "reperes-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Représenter l’espace",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Représenter un déplacement par un dessin",
+      "description": "Dessiner le chemin suivi lors d’un parcours.",
+      "officialObjectives": [
+        "Représenter un déplacement."
+      ],
+      "evidence": [
+        "Dessine le parcours réalisé lors d’une séance d’activité physique."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Après un parcours de motricité, est-ce que {{prenom}} sait dessiner le chemin suivi ?",
+      "priorKnowledge": [
+        "Reproduire un parcours simple sur une maquette (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-rpr-04",
+      "programme": "reperes-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Représenter l’espace",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Composer et représenter divers éléments",
+      "description": "Inventer plusieurs arrangements avec quelques objets (bâtonnets, jetons), puis les dessiner.",
+      "officialObjectives": [
+        "Composer et représenter divers éléments."
+      ],
+      "evidence": [
+        "Compose, à partir de trois ou quatre éléments (bâtonnets, jetons, etc.), le plus de motifs différents dans des espaces variés.",
+        "Dessine ensuite les motifs composés."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Avec trois ou quatre bâtonnets ou jetons, est-ce que {{prenom}} invente plusieurs motifs différents et sait les dessiner ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 57,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-rpr-01",
+      "programme": "reperes-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Représenter l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Reproduire un parcours sur un plan",
+      "description": "Passer de la maquette au plan : refaire sur un plan de l’école un trajet que l’on a retenu.",
+      "officialObjectives": [
+        "Reproduire un parcours sur une représentation plane."
+      ],
+      "evidence": [
+        "Déplace une figurine sur un plan de l’école en respectant un parcours mémorisé."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Sur un plan de l’école, est-ce que {{prenom}} sait refaire avec une figurine un trajet connu ?",
+      "priorKnowledge": [
+        "Reproduire un parcours simple sur une maquette (PS)",
+        "Représenter un espace connu en maquette (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 58,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-rpr-02",
+      "programme": "reperes-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Représenter l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Représenter l’environnement proche",
+      "description": "Représenter les lieux et les paysages autour de l’école par des photos, des dessins ou de courts textes.",
+      "officialObjectives": [
+        "Représenter l’environnement proche."
+      ],
+      "evidence": [
+        "Produit des représentations des différents espaces et paysages aux abords de l’école (photographies, textes et dessins)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait représenter, par un dessin ou des photos, ce qu’on voit autour de l’école ?",
+      "priorKnowledge": [
+        "Représenter un espace connu en maquette (MS)",
+        "Caractériser l’environnement proche de l’école (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 58,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-rpr-03",
+      "programme": "reperes-c1",
+      "type": "LANGUAGE",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Représenter l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Raconter de mémoire un trajet connu",
+      "description": "Expliquer sans support un trajet connu, avec des repères et les mots de l’espace (traverser, monter, tourner à droite).",
+      "officialObjectives": [
+        "Restituer oralement un déplacement mémorisé."
+      ],
+      "evidence": [
+        "Explique le trajet de l’entrée de l’école à la salle de classe en utilisant des repères et les marqueurs spatiaux adaptés : « je traverse le hall, je monte l’escalier, je tourne à droite dans le couloir puis j’entre dans la classe. »"
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer de mémoire un trajet connu, par exemple de l’entrée de l’école à la classe : « je traverse le hall, je monte l’escalier, je tourne à droite… » ?",
+      "priorKnowledge": [
+        "Décrire oralement un déplacement à partir d’une représentation (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 58,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-rpr-04",
+      "programme": "reperes-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Représenter l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Coder un déplacement",
+      "description": "Représenter un déplacement par un code, par exemple des flèches sur un quadrillage.",
+      "officialObjectives": [
+        "Représenter un déplacement."
+      ],
+      "evidence": [
+        "Code à l’aide de flèches le déplacement effectué par un objet mobile sur un tableau à cases."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait coder avec des flèches le chemin suivi par un pion sur un quadrillage ?",
+      "priorKnowledge": [
+        "Représenter un déplacement par un dessin (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 58,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-rpr-05",
+      "programme": "reperes-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Représenter l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Représenter la proximité ou l’éloignement",
+      "description": "Dessiner plus petit ce qui est loin et plus grand ce qui est proche.",
+      "officialObjectives": [
+        "Représenter la proximité ou l’éloignement d’un sujet."
+      ],
+      "evidence": [
+        "Dessine en variant la taille des éléments représentés selon leur éloignement."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Dans un dessin de paysage, est-ce que {{prenom}} dessine plus petit ce qui est loin et plus grand ce qui est proche ?",
+      "priorKnowledge": [
+        "Situer des objets par rapport à soi : près ou loin (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 58,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-rpr-06",
+      "programme": "reperes-c1",
+      "type": "REPRESENTATIONAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Représenter l’espace",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Représenter divers éléments sur un plan",
+      "description": "Participer au dessin du plan de la classe ou de la cour et y placer les éléments qui s’y trouvent.",
+      "officialObjectives": [
+        "Représenter divers éléments sur un plan."
+      ],
+      "evidence": [
+        "Dessine le plan de la classe ou de la cour lors d’une activité collective."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} participe au dessin du plan de la classe ou de la cour et sait y placer quelques meubles ou éléments ?",
+      "priorKnowledge": [
+        "Composer et représenter divers éléments (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 58,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ps-env-01",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Découvrir l’environnement proche",
+      "level": "PS",
+      "cycle": 1,
+      "ageRangeStart": 3,
+      "ageRangeEnd": 4,
+      "name": "Explorer les lieux de l’école",
+      "description": "Découvrir les différents lieux de l’école et ce qu’on y trouve (feuilles et cailloux dans la cour, fleurs au jardin).",
+      "officialObjectives": [
+        "Explorer les différents lieux de l’école et leur associer des éléments caractéristiques observés."
+      ],
+      "evidence": [
+        "Récolte des petits objets caractéristiques (fleurs, feuilles, cailloux, etc.) pour les associer au jardin de l’école ou à la cour de récréation, et les expose dans la classe.",
+        "Choisit dans les différents espaces de l’école des éléments caractéristiques que les professeurs photographient et affichent dans la classe."
+      ],
+      "period": "à aborder avant 4 ans",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qu’on trouve dans les différents lieux de l’école, par exemple des feuilles et des cailloux dans la cour ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 58,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-env-01",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Découvrir l’environnement proche",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Caractériser l’environnement proche de l’école",
+      "description": "Repérer, lors d’une sortie autour de l’école, ce qui caractérise les lieux : la pharmacie, les feux, les passages piétons, les numéros des maisons.",
+      "officialObjectives": [
+        "Caractériser l’environnement extérieur proche de l’école."
+      ],
+      "evidence": [
+        "Identifie les principaux éléments qui caractérisent les lieux explorés lors d’une sortie aux abords de l’école (la croix de la pharmacie, les feux tricolores, les passages piétons, les numéros des maisons, etc.)."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "En vous promenant près de l’école, est-ce que {{prenom}} sait repérer et nommer la croix de la pharmacie, les feux tricolores ou les passages piétons ?",
+      "priorKnowledge": [
+        "Explorer les lieux de l’école (PS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 58,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-ms-env-02",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Découvrir l’environnement proche",
+      "level": "MS",
+      "cycle": 1,
+      "ageRangeStart": 4,
+      "ageRangeEnd": 5,
+      "name": "Découvrir des espaces moins familiers",
+      "description": "Explorer, lors d’une sortie, un lieu moins connu (forêt, étang, centre-ville) et repérer ce qui le caractérise.",
+      "officialObjectives": [
+        "Découvrir des espaces moins familiers."
+      ],
+      "evidence": [
+        "Explore la forêt et l’étang ou le centre-ville lors d’une sortie scolaire.",
+        "Identifie avec les professeurs des éléments caractéristiques de cet environnement (flore, faune, habitat, commerces, etc.)."
+      ],
+      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Lors d’une sortie en forêt ou en ville, est-ce que {{prenom}} sait nommer ce qui caractérise ce lieu (plantes, animaux, maisons, magasins) ?",
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 58,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-env-01",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Découvrir l’environnement proche",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Reconnaître les espaces proches de l’école et leurs usages",
+      "description": "Connaître les principaux bâtiments et lieux du quartier ou du village et l’usage de chacun (mairie, piscine, bibliothèque).",
+      "officialObjectives": [
+        "Reconnaitre les espaces proches de l’école et leurs usages."
+      ],
+      "evidence": [
+        "Identifie et nomme, en réalisant une maquette ou le plan du quartier ou du village, les principaux bâtiments publics (mairie, hôpital, etc.), des commerces et des espaces culturels ou de loisirs (piscine, stade, bibliothèque, musée, etc.)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer quelques bâtiments du quartier (mairie, piscine, bibliothèque) et dire à quoi sert chacun ?",
+      "priorKnowledge": [
+        "Caractériser l’environnement proche de l’école (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 58,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-env-02",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Découvrir l’environnement proche",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Reconnaître des espaces moins familiers",
+      "description": "Reconnaître la ville, la campagne, la mer ou la montagne et compléter ce que l’on sait de ces lieux grâce à des livres documentaires.",
+      "officialObjectives": [
+        "Reconnaitre des espaces moins familiers."
+      ],
+      "evidence": [
+        "Complète les caractéristiques observées d’espaces moins familiers comme la ville, la campagne, la mer, la montagne, en consultant des ouvrages documentaires."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qui distingue la ville, la campagne, la mer et la montagne, par exemple après avoir regardé un livre documentaire ?",
+      "priorKnowledge": [
+        "Découvrir des espaces moins familiers (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 58,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    },
+    {
+      "id": "fr-rep-gs-env-03",
+      "programme": "reperes-c1",
+      "type": "CONCEPTUAL",
+      "subject": "Se repérer dans le temps et l'espace",
+      "domain": "Se repérer dans l’espace",
+      "subdomain": "Découvrir l’environnement proche",
+      "level": "GS",
+      "cycle": 1,
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "name": "Observer l’habitat proche de l’école",
+      "description": "Observer les constructions du quartier ou du village et nommer leurs éléments (murs, toit, cheminée, fenêtres, escaliers).",
+      "officialObjectives": [
+        "Observer l’habitat proche de l’école."
+      ],
+      "evidence": [
+        "Distingue, pendant un déplacement dans le quartier ou le village, diverses constructions et leurs éléments architecturaux (murs, cheminées, escaliers, fenêtres, toit, tour, etc.)."
+      ],
+      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "assessmentPrompt": "En vous promenant, est-ce que {{prenom}} sait montrer et nommer les parties d’une maison : toit, cheminée, fenêtres, murs ?",
+      "priorKnowledge": [
+        "Caractériser l’environnement proche de l’école (MS)"
+      ],
+      "source": {
+        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+        "page": 58,
+        "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-rep-ms-tps-01",
+      "prerequisiteId": "fr-rep-ps-tps-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Identifier les principaux moments d’une journée » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-ms-tps-02",
+      "prerequisiteId": "fr-rep-ps-tps-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Placer une activité avant ou après un jour repère mobilise les marqueurs « avant » et « après ».",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-ms-tps-03",
+      "prerequisiteId": "fr-rep-ps-tps-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prolonge les premiers repères de la journée à l’échelle de la semaine (PS).",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-ms-tps-04",
+      "prerequisiteId": "fr-rep-ps-chr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Commencer à employer présent, passé composé et futur proche » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-ms-tps-05",
+      "prerequisiteId": "fr-rep-ps-tps-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Découvrir la notion de saison par l’observation » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-tps-01",
+      "prerequisiteId": "fr-rep-ms-tps-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Savoir que la semaine est une suite de sept jours » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-tps-01",
+      "prerequisiteId": "fr-rep-ms-tps-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Situer un évènement dans la semaine s’appuie sur les jours repères.",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-gs-tps-02",
+      "prerequisiteId": "fr-rep-ms-tps-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Employer présent, futur et passé composé pour situer des évènements » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-tps-02",
+      "prerequisiteId": "fr-rep-gs-tps-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Associer temps des verbes et jours suppose de situer un évènement dans la semaine."
+    },
+    {
+      "topicId": "fr-rep-gs-tps-03",
+      "prerequisiteId": "fr-rep-gs-tps-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Énoncer la date suppose de connaître le nom des mois."
+    },
+    {
+      "topicId": "fr-rep-gs-tps-03",
+      "prerequisiteId": "fr-rep-ms-tps-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Énoncer la date suppose de connaître les jours de la semaine (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-gs-tps-04",
+      "prerequisiteId": "fr-rep-gs-tps-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Se repérer avec des mois repères s’appuie sur le nom des mois."
+    },
+    {
+      "topicId": "fr-rep-gs-tps-04",
+      "prerequisiteId": "fr-rep-ms-tps-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prolonge à l’échelle de l’année le travail sur les jours repères de la semaine (MS).",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-tps-06",
+      "prerequisiteId": "fr-rep-ms-tps-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Approfondir la notion de saison : l’hiver et l’été » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-ps-chr-01",
+      "prerequisiteId": "fr-rep-ps-tps-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Situer les moments de la journée les uns par rapport aux autres suppose de les identifier."
+    },
+    {
+      "topicId": "fr-rep-ps-chr-01",
+      "prerequisiteId": "fr-rep-ps-tps-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Dire ce qui précède et ce qui suit mobilise « avant » et « après »."
+    },
+    {
+      "topicId": "fr-rep-ps-chr-03",
+      "prerequisiteId": "fr-rep-ps-chr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Ordonner des moments rituels suppose de situer les moments de la journée les uns par rapport aux autres."
+    },
+    {
+      "topicId": "fr-rep-ps-chr-04",
+      "prerequisiteId": "fr-rep-ps-chr-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Restituer la suite d’actions quotidiennes d’un album s’appuie sur l’ordre des moments vécus."
+    },
+    {
+      "topicId": "fr-rep-ps-chr-05",
+      "prerequisiteId": "fr-rep-ps-chr-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Dire ce que l’on va faire s’appuie sur le présent à valeur de futur proche."
+    },
+    {
+      "topicId": "fr-rep-ps-chr-06",
+      "prerequisiteId": "fr-rep-ps-chr-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Planifier deux activités suppose de se projeter dans une action choisie."
+    },
+    {
+      "topicId": "fr-rep-ms-chr-01",
+      "prerequisiteId": "fr-rep-ps-chr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Restituer le déroulement d’évènements quotidiens dans une histoire » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-ms-chr-02",
+      "prerequisiteId": "fr-rep-ps-chr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Ordonner des moments rituels vécus » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-chr-01",
+      "prerequisiteId": "fr-rep-ms-chr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Relater une action ou une procédure avec des connecteurs de temps » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-chr-02",
+      "prerequisiteId": "fr-rep-ms-chr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Restituer la chronologie d’une histoire simple » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-chr-02",
+      "prerequisiteId": "fr-rep-ms-tps-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Repérer l’antériorité par l’imparfait s’appuie sur les premiers emplois de l’imparfait (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-gs-chr-03",
+      "prerequisiteId": "fr-rep-gs-tps-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Ordonner les évènements de l’année s’appuie sur les mois repères."
+    },
+    {
+      "topicId": "fr-rep-gs-chr-04",
+      "prerequisiteId": "fr-rep-ms-chr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge l’usage des connecteurs de temps (MS) vers l’expression de l’antériorité et de la simultanéité.",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-chr-04",
+      "prerequisiteId": "fr-rep-gs-chr-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Exprimer l’antériorité en racontant s’appuie sur son repérage dans une histoire."
+    },
+    {
+      "topicId": "fr-rep-ps-dur-03",
+      "prerequisiteId": "fr-rep-ps-dur-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le mot « attendre » prend sens à partir de l’expérience vécue de l’attente."
+    },
+    {
+      "topicId": "fr-rep-ms-dur-01",
+      "prerequisiteId": "fr-rep-ps-dur-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le sablier matérialise le début et la fin d’une activité (PS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-ms-dur-02",
+      "prerequisiteId": "fr-rep-ps-dur-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Connaître quelques mots qui parlent de durée » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-dur-01",
+      "prerequisiteId": "fr-rep-ms-dur-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Percevoir que certaines durées sont stables » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-dur-02",
+      "prerequisiteId": "fr-rep-ms-dur-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer des durées mobilise les mots « court » et « long » (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-gs-dur-02",
+      "prerequisiteId": "fr-rep-ms-dur-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer des durées s’appuie sur l’usage d’un instrument de mesure du temps (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-gs-dur-03",
+      "prerequisiteId": "fr-rep-ms-dur-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comprendre le temps long s’appuie sur le vocabulaire de la durée (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-ps-exp-02",
+      "prerequisiteId": "fr-rep-ps-exp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Orienter une pièce s’exerce en construisant et en assemblant."
+    },
+    {
+      "topicId": "fr-rep-ms-exp-01",
+      "prerequisiteId": "fr-rep-ps-exp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Réaliser des constructions simples » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-ms-exp-02",
+      "prerequisiteId": "fr-rep-ps-exp-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Situer des objets entre eux mobilise les premiers mots de l’espace (PS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-ms-exp-03",
+      "prerequisiteId": "fr-rep-ps-exp-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Expérimenter la proximité et l’éloignement » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-ms-exp-04",
+      "prerequisiteId": "fr-rep-ps-exp-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Orienter un livre ou un support d’écrit » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-ms-exp-05",
+      "prerequisiteId": "fr-rep-ps-exp-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Se situer parmi les autres s’appuie sur l’expérience des premiers déplacements (PS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-ms-exp-06",
+      "prerequisiteId": "fr-rep-ps-exp-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Acquérir les premiers mots pour se repérer dans l’espace » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-exp-01",
+      "prerequisiteId": "fr-rep-ms-exp-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Construire en respectant une contrainte » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-exp-01",
+      "prerequisiteId": "fr-rep-ps-exp-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Reproduire un tangram suppose d’orienter les pièces (PS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-gs-exp-02",
+      "prerequisiteId": "fr-rep-ms-exp-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Situer des objets les uns par rapport aux autres » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-exp-03",
+      "prerequisiteId": "fr-rep-ms-exp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Situer des objets par rapport à soi : près ou loin » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-exp-03",
+      "prerequisiteId": "fr-rep-ms-exp-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Distinguer la gauche et la droite s’appuie sur les mots « à gauche », « à droite » (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-gs-exp-04",
+      "prerequisiteId": "fr-rep-ps-exp-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Réaliser un trajet simple dans l’école » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-exp-04",
+      "prerequisiteId": "fr-rep-ms-rpr-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Suivre un trajet à partir de sa représentation suppose de comprendre qu’un déplacement peut se représenter (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-gs-exp-05",
+      "prerequisiteId": "fr-rep-ms-exp-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Orienter et utiliser correctement une feuille » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-exp-05",
+      "prerequisiteId": "fr-rep-gs-exp-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Écrire de gauche à droite suppose de distinguer la gauche de la droite."
+    },
+    {
+      "topicId": "fr-rep-gs-exp-06",
+      "prerequisiteId": "fr-rep-ms-env-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Reconnaître des espaces lointains sur un planisphère prolonge la découverte d’espaces moins familiers (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-gs-exp-07",
+      "prerequisiteId": "fr-rep-ms-exp-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Employer et enrichir les mots de l’espace » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-ps-rpr-02",
+      "prerequisiteId": "fr-rep-ps-rpr-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Restituer un déplacement avec des photos prolonge sa reproduction sur une maquette."
+    },
+    {
+      "topicId": "fr-rep-ps-rpr-02",
+      "prerequisiteId": "fr-rep-ps-chr-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Ranger les photos dans l’ordre chronologique mobilise la mise en ordre de moments vécus."
+    },
+    {
+      "topicId": "fr-rep-ms-rpr-01",
+      "prerequisiteId": "fr-rep-ps-exp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Construire une maquette mobilise les savoir-faire de construction (PS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-ms-rpr-02",
+      "prerequisiteId": "fr-rep-ps-rpr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Restituer un déplacement à l’aide de représentations » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-ms-rpr-02",
+      "prerequisiteId": "fr-rep-ms-exp-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Décrire un parcours mobilise les marqueurs spatiaux."
+    },
+    {
+      "topicId": "fr-rep-ms-rpr-03",
+      "prerequisiteId": "fr-rep-ps-rpr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Reproduire un parcours simple sur une maquette » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-ms-rpr-04",
+      "prerequisiteId": "fr-rep-ms-exp-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Composer des motifs puis les dessiner prolonge la reproduction de motifs sur une feuille."
+    },
+    {
+      "topicId": "fr-rep-gs-rpr-01",
+      "prerequisiteId": "fr-rep-ps-rpr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Reproduire un parcours simple sur une maquette » (PS), cette fois sur une représentation plane.",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-rpr-01",
+      "prerequisiteId": "fr-rep-ms-rpr-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Passer au plan s’appuie sur la représentation d’un espace connu en maquette (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-gs-rpr-02",
+      "prerequisiteId": "fr-rep-ms-rpr-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Représenter un espace connu en maquette » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-rpr-02",
+      "prerequisiteId": "fr-rep-ms-env-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Représenter l’environnement proche suppose d’en avoir repéré les éléments caractéristiques (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-gs-rpr-03",
+      "prerequisiteId": "fr-rep-ms-rpr-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Décrire oralement un déplacement à partir d’une représentation » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-rpr-03",
+      "prerequisiteId": "fr-rep-gs-exp-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Expliquer un trajet mobilise la distinction entre gauche et droite."
+    },
+    {
+      "topicId": "fr-rep-gs-rpr-04",
+      "prerequisiteId": "fr-rep-ms-rpr-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Représenter un déplacement par un dessin » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-rpr-05",
+      "prerequisiteId": "fr-rep-ms-exp-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Représenter l’éloignement suppose d’avoir compris qu’un objet éloigné paraît plus petit (MS).",
+      "continuation": false
+    },
+    {
+      "topicId": "fr-rep-gs-rpr-06",
+      "prerequisiteId": "fr-rep-ms-rpr-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Composer et représenter divers éléments » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-rpr-06",
+      "prerequisiteId": "fr-rep-gs-rpr-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Dessiner un plan s’appuie sur la lecture d’un plan."
+    },
+    {
+      "topicId": "fr-rep-ms-env-01",
+      "prerequisiteId": "fr-rep-ps-env-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Explorer les lieux de l’école » (PS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-ms-env-02",
+      "prerequisiteId": "fr-rep-ms-env-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Découvrir des espaces moins familiers s’appuie sur l’observation de l’environnement proche."
+    },
+    {
+      "topicId": "fr-rep-gs-env-01",
+      "prerequisiteId": "fr-rep-ms-env-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Caractériser l’environnement proche de l’école » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-env-02",
+      "prerequisiteId": "fr-rep-ms-env-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Découvrir des espaces moins familiers » (MS)",
+      "continuation": true
+    },
+    {
+      "topicId": "fr-rep-gs-env-03",
+      "prerequisiteId": "fr-rep-ms-env-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Observer l’habitat prolonge l’observation de l’environnement proche de l’école (MS).",
+      "continuation": false
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

@@ -1,0 +1,2774 @@
+{
+  "programme": "sciences-c2",
+  "level": "multiple",
+  "themeCodes": {
+    "masvt": "Masse, volumes et mesure de température",
+    "masv": "Masse et volumes",
+    "masvd": "Masse, volumes et mesure du temps",
+    "etat": "États physiques de la matière",
+    "elec": "L’électricité",
+    "viv": "Unité et diversité du vivant",
+    "env": "Observer et décrire son environnement proche",
+    "edd": "Agir pour protéger l’environnement",
+    "nutr": "Nutrition des êtres vivants",
+    "sens": "Sens et perception chez les animaux",
+    "repro": "Reproduction, croissance et développement",
+    "loco": "Locomotion chez les animaux",
+    "alim": "Alimentation",
+    "crois": "Croissance et mouvement",
+    "sante": "Santé et hygiène de vie",
+    "obj": "Les objets techniques au cœur de la société"
+  },
+  "notions": [
+    {
+      "id": "fr-sc-cp-masvt-01",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "Masse, volumes et mesure de température",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Comparer les masses de différents objets",
+      "description": "Trouver quel objet est le plus lourd ou le plus léger, d’abord en les soupesant dans les mains, puis avec une balance à deux plateaux (balance de Roberval). Ces activités sont coordonnées avec les « grandeurs et mesures » des mathématiques.",
+      "officialObjectives": [
+        "Comparer les masses de différents objets."
+      ],
+      "evidence": [
+        "Compare et classe des objets en les soupesant, quand leurs masses sont nettement différentes (boule de pâte à modeler, pot ou sac rempli de sucre, de sable, de farine, de graines…).",
+        "Classe des objets du plus léger au plus lourd à l’aide d’une balance de Roberval ou d’une « balance à solides et à liquides »."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger trois sacs (de sable, de farine, de graines) du plus léger au plus lourd, en les soupesant puis avec une balance à plateaux ?",
+      "priorKnowledge": [
+        "Ordonner les masses de trois objets et réaliser l’équilibre sur une balance de type Roberval (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 3,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-masvt-02",
+      "programme": "sciences-c2",
+      "type": "LANGUAGE",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "Masse, volumes et mesure de température",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Utiliser le vocabulaire des masses (lourd, léger)",
+      "description": "Employer les bons mots pour parler de la masse d’un objet : lourd, léger, plus lourd que, plus léger que. En comparant un objet gros mais peu pesant (en polystyrène) et un objet petit mais pesant (une bille en verre), l’élève apprend à ne pas confondre « gros » et « lourd », « petit » et « léger ».",
+      "officialObjectives": [
+        "Utiliser le vocabulaire associé aux masses."
+      ],
+      "evidence": [
+        "Dit, après avoir soupesé des objets ou utilisé une balance, lequel est le plus lourd ou le plus léger.",
+        "Distingue « gros » et « lourd », « petit » et « léger » en comparant des objets volumineux mais peu pesants (polystyrène) avec des objets pesants mais peu volumineux (bille en verre)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, entre un gros bloc de polystyrène et une petite bille en verre, lequel est le plus gros et lequel est le plus lourd ?",
+      "priorKnowledge": [
+        "Utiliser à bon escient les locutions « plus lourd que », « plus léger que », « de même masse que » (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 3,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-masvt-03",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "Masse, volumes et mesure de température",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Lire la température sur un thermomètre à liquide",
+      "description": "Relever la température de la classe sur un thermomètre gradué, en lisant correctement (l’œil à la hauteur du haut de la colonne de liquide, appelé ménisque, et le thermomètre tenu par le haut), puis la dire en degrés Celsius (°C).",
+      "officialObjectives": [
+        "Lire la valeur de la température avec un thermomètre à liquide."
+      ],
+      "evidence": [
+        "Lit et relève sur un thermomètre gradué la température dans la classe.",
+        "Met son œil au niveau du ménisque et tient le thermomètre par le haut.",
+        "Utilise le vocabulaire spécifique, en particulier l’unité degré Celsius."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lire la température de la classe sur un thermomètre à liquide, l’œil bien en face, et la dire en degrés Celsius ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 3,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-etat-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "États physiques de la matière",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Reconnaitre l’eau à l’état solide et à l’état liquide",
+      "description": "Savoir dire si l’eau est liquide ou solide dans ce que l’on voit dans la nature : rivière, mer, cascade, pluie… ou grêle, neige, glace, banquise, glacier.",
+      "officialObjectives": [
+        "Reconnaitre et identifier les états solides et liquides de l’eau."
+      ],
+      "evidence": [
+        "Identifie l’état physique de l’eau (solide ou liquide) dans le contexte des phénomènes naturels : cours d’eau, mer, océan, cascade, pluie, nuage, brouillard, grêle, neige, glace, banquise, glacier."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si l’eau est solide ou liquide dans la neige, la pluie, une rivière et un glacier ?",
+      "priorKnowledge": [
+        "Identifier et nommer l’état de l’eau dans différentes situations (maternelle, GS)",
+        "Découvrir et observer la fusion et la solidification de l’eau (maternelle, PS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-masv-01",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "Masse et volumes",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Mesurer la masse d’un objet avec une balance et des masses marquées",
+      "description": "Peser un objet avec une balance à deux plateaux : on place l’objet d’un côté et, de l’autre, des objets de masse connue ou des « masses marquées » jusqu’à l’équilibre.",
+      "officialObjectives": [
+        "Mesurer les masses des objets avec une balance, comparer et classer les masses grâce à la mesure."
+      ],
+      "evidence": [
+        "Mesure la masse d’objets à l’aide d’une balance de Roberval ou d’une « balance à solides et à liquides », en utilisant des objets de masse connue ou des masses marquées."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver la masse d’une trousse avec une balance à plateaux et des masses marquées ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-masv-02",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "Masse et volumes",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Comparer et classer des objets d’après leur masse mesurée",
+      "description": "Après avoir pesé plusieurs objets, utiliser les nombres obtenus pour les comparer et les ranger du plus léger au plus lourd.",
+      "officialObjectives": [
+        "Mesurer les masses des objets avec une balance, comparer et classer les masses grâce à la mesure."
+      ],
+      "evidence": [
+        "Compare et classe des objets après avoir mesuré leur masse."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger trois objets du plus léger au plus lourd à partir de leurs masses mesurées (par exemple 120 g, 85 g et 300 g) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-etat-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "États physiques de la matière",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Observer et nommer la solidification et la fusion de l’eau",
+      "description": "Voir que l’eau liquide devient de la glace en gelant (solidification) et que la glace redevient liquide en fondant (fusion) : ce changement peut se faire dans les deux sens, il est « réversible ».",
+      "officialObjectives": [
+        "Observer le changement d’état physique de l’eau (solide et liquide) et sa réversibilité.",
+        "Nommer le changement d’état (solidification et fusion)."
+      ],
+      "evidence": [
+        "Identifie l’état physique de l’eau avant et après le changement d’état.",
+        "Nomme le changement d’état : solidification ou fusion."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire comment s’appelle le passage de l’eau liquide à la glace, puis celui de la glace à l’eau liquide ?",
+      "priorKnowledge": [
+        "Découvrir et observer la fusion et la solidification de l’eau (maternelle, PS)",
+        "Identifier une condition favorable à la fusion de la glace (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-etat-02",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "États physiques de la matière",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Constater que la masse de l’eau se conserve quand elle gèle",
+      "description": "Peser de l’eau avant de la mettre au congélateur, puis peser la glace obtenue : la masse est la même. L’eau ne disparaît pas et ne s’alourdit pas en changeant d’état.",
+      "officialObjectives": [
+        "Constater la conservation de la masse lors d’un changement d’état."
+      ],
+      "evidence": [
+        "Pèse une masse d’eau avant et après congélation.",
+        "Constate la conservation de sa masse."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait prévoir si de l’eau pèsera plus, moins ou autant une fois transformée en glace, puis le vérifier avec une balance ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-etat-03",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "États physiques de la matière",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Constater que l’eau prend plus de place en gelant",
+      "description": "En gelant, l’eau occupe plus d’espace : son volume augmente, alors que sa masse reste la même.",
+      "officialObjectives": [
+        "Constater que le volume de l’eau ne se conserve pas lors de sa solidification."
+      ],
+      "evidence": [
+        "Constate que l’eau occupe plus d’espace à l’état solide qu’à l’état liquide, alors que sa masse se conserve."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qui change et ce qui ne change pas quand de l’eau gèle dans un récipient (la place qu’elle occupe, sa masse) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-etat-04",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "États physiques de la matière",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Montrer par des expériences que l’air est une matière",
+      "description": "L’air ne se voit pas, mais c’est une matière : il occupe de la place, on peut le transvaser d’un récipient à un autre, et le vent est de l’air qui se déplace. On peut vérifier que le résultat ne change pas avec un autre verre ou un autre saladier (robustesse de l’expérience).",
+      "officialObjectives": [
+        "Réaliser des expériences mettant en évidence la matérialité de l’air."
+      ],
+      "evidence": [
+        "Interprète l’absence d’eau dans un verre plongé verticalement, ouverture vers le bas, dans un saladier rempli d’eau : une matière occupe cet espace et empêche l’eau d’entrer, l’air.",
+        "Transvase de l’air d’un récipient à un autre.",
+        "Interprète le vent comme un déplacement d’air."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi un verre retourné, enfoncé bien droit dans une bassine d’eau, ne se remplit pas d’eau ?",
+      "priorKnowledge": [
+        "Mettre en évidence la présence d’air en le mettant en mouvement (maternelle, MS)",
+        "Identifier la présence de l’air quand il est perceptible par les sens (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-elec-01",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "L’électricité",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Réaliser un circuit électrique simple à une boucle",
+      "description": "Relier avec des fils une pile, un interrupteur et une ampoule en une seule boucle : quand le circuit est fermé, le courant circule et l’ampoule s’allume. Comparer les résultats des groupes permet de vérifier que l’expérience est reproductible, et changer la couleur de l’ampoule ou des fils, qu’elle est robuste.",
+      "officialObjectives": [
+        "Réaliser un circuit électrique à une boucle associant un générateur (pile), un interrupteur, un récepteur (ampoule) pour mettre en évidence la circulation du courant électrique."
+      ],
+      "evidence": [
+        "Construit un circuit électrique à une boucle (pile, ampoule) incluant un interrupteur.",
+        "Vérifie que le résultat ne change pas d’un groupe à l’autre, ni en changeant la couleur de l’ampoule ou du fil électrique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait brancher une pile, une ampoule et un interrupteur pour que l’ampoule s’allume quand on ferme l’interrupteur ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-elec-02",
+      "programme": "sciences-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "L’électricité",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Reconnaitre sur un dessin un circuit ouvert ou fermé",
+      "description": "Regarder le dessin d’un circuit et dire s’il forme une boucle complète (circuit fermé : l’ampoule s’allume) ou s’il est coupé quelque part (circuit ouvert : l’ampoule reste éteinte).",
+      "officialObjectives": [
+        "Réaliser un circuit électrique à une boucle associant un générateur (pile), un interrupteur, un récepteur (ampoule) pour mettre en évidence la circulation du courant électrique."
+      ],
+      "evidence": [
+        "Identifie sur un dessin si le circuit est ouvert ou fermé.",
+        "Prédit si l’ampoule s’allume ou reste éteinte."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, en regardant le dessin d’un circuit avec une pile, une ampoule et un interrupteur ouvert, si l’ampoule s’allume ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-elec-03",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "L’électricité",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Tester si un matériau est conducteur ou isolant",
+      "description": "Placer un objet dans un circuit électrique pour voir s’il laisse passer le courant : si l’ampoule reste allumée, son matériau est conducteur ; sinon, il est isolant.",
+      "officialObjectives": [
+        "Tester des matériaux pour déterminer leur caractère isolant ou conducteur."
+      ],
+      "evidence": [
+        "Introduit un matériau dans un circuit fermé pour le tester.",
+        "Associe le caractère conducteur d’un matériau à sa capacité à conserver le circuit fermé (l’ampoule reste allumée)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait tester, avec un circuit et une ampoule, si une cuillère en métal et une règle en plastique laissent passer le courant ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-masvd-01",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "Masse, volumes et mesure du temps",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Convertir des unités de masse (gramme et kilogramme)",
+      "description": "Passer des grammes aux kilogrammes et inversement (1 kg = 1 000 g), par exemple pour comparer des masses mesurées. Ces mesures sont coordonnées avec les « grandeurs et mesures » des mathématiques.",
+      "officialObjectives": [
+        "Convertir des unités de masse."
+      ],
+      "evidence": [
+        "Réalise des conversions entre les unités gramme et kilogramme.",
+        "Compare et classe des objets après avoir mesuré leur masse."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire combien de grammes pèse un paquet de 2 kg, et lequel est le plus lourd entre 1 kg et 1 200 g ?",
+      "priorKnowledge": [
+        "Unités de masse g et kg ; 1 kg = 1 000 g (mathématiques, CE1)",
+        "Comparer et ranger des masses exprimées en g et en kg (mathématiques, CE1)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-masvd-02",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "Masse, volumes et mesure du temps",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Comparer les contenances de différents récipients",
+      "description": "La contenance, c’est la quantité de liquide qu’un récipient peut contenir. On compare des contenances en transvasant un liquide d’un récipient à l’autre, ou à l’aide d’un récipient de contenance connue.",
+      "officialObjectives": [
+        "Comparer les contenances de différents objets."
+      ],
+      "evidence": [
+        "Compare les contenances de différents récipients, par exemple en transvasant un liquide de l’un à l’autre ou à l’aide d’un récipient de contenance connue (récipient étalon)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver, en transvasant de l’eau, lequel de deux récipients de formes différentes contient le plus ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-masvd-03",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "Masse, volumes et mesure du temps",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Mesurer et comparer des volumes de liquide",
+      "description": "Mesurer une quantité de liquide avec un verre gradué (un verre marqué de traits et de nombres) ou avec un récipient de contenance connue, comme une bouteille d’un litre ou d’un demi-litre, puis ranger les volumes mesurés.",
+      "officialObjectives": [
+        "Comparer des volumes de liquide en utilisant un verre gradué ou en utilisant un récipient de contenance connue comme une bouteille d’un litre ou d’un demi-litre."
+      ],
+      "evidence": [
+        "Mesure le volume d’un échantillon liquide avec un verre gradué.",
+        "Classe par ordre croissant les volumes de plusieurs échantillons liquides après les avoir mesurés avec un verre gradué ou un récipient de contenance connue (récipient étalon)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait mesurer avec un verre gradué l’eau de trois gobelets, puis les ranger du plus petit au plus grand volume ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 4,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-masvd-04",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "Masse, volumes et mesure du temps",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Comparer, estimer et mesurer des durées avec un sablier",
+      "description": "Fabriquer un sablier et s’en servir pour mesurer des durées. Deux sabliers identiques mesurent la même durée à quelques secondes près : l’expérience est reproductible. Ces mesures sont coordonnées avec les « grandeurs et mesures » des mathématiques.",
+      "officialObjectives": [
+        "Comparer, estimer, mesurer des durées."
+      ],
+      "evidence": [
+        "Construit un sablier.",
+        "Constate la régularité de ses observations : deux sabliers identiques (même forme, même taille de trou, même grain et même volume de grains) mesurent la même durée à quelques secondes près."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait fabriquer un sablier et vérifier qu’un second sablier identique mesure la même durée, à quelques secondes près ?",
+      "priorKnowledge": [
+        "Comparer des durées (mathématiques, CE1)",
+        "Unités de durée : heure, minute, demi-heure, quart d’heure (mathématiques, CE1)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 5,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-masvd-05",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "Masse, volumes et mesure du temps",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Trouver ce qui fait varier la durée d’écoulement d’un sablier",
+      "description": "Mener une petite enquête scientifique : chercher ce qui peut changer la durée d’écoulement d’un sablier (taille du trou, sorte de grains, quantité de grains), faire varier ces paramètres un par un, puis énoncer une règle générale, une « loi ».",
+      "officialObjectives": [
+        "Comparer, estimer, mesurer des durées."
+      ],
+      "evidence": [
+        "Identifie les paramètres susceptibles d’affecter la durée d’écoulement et les fait varier.",
+        "Formule la loi : quelle que soit la nature du solide en grain, plus il y en a dans le sablier, plus la durée d’écoulement est importante, les autres paramètres étant identiques."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait prévoir ce qui arrive à la durée d’un sablier si l’on y met plus de sable, et le vérifier en ne changeant que la quantité de sable ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 5,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-etat-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "La matière, les mesures, l’électricité",
+      "subdomain": "États physiques de la matière",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Différencier l’état solide et l’état liquide",
+      "description": "Un solide a sa propre forme et son propre volume. Un liquide garde son volume mais n’a pas de forme propre : il prend la forme du récipient, et sa surface reste horizontale au repos.",
+      "officialObjectives": [
+        "Différencier les états physiques solide (forme et volume propre) et liquide (volume propre, absence de forme propre et surface horizontale)."
+      ],
+      "evidence": [
+        "Détermine et justifie l’état physique (liquide ou solide) d’un objet en s’appuyant sur ses propriétés relatives à la forme et au volume.",
+        "Constate, en transvasant un liquide dans des récipients de taille et de forme différentes, qu’il prend la forme du récipient et conserve son volume lors du transvasement inverse.",
+        "Constate, en manipulant des récipients fermés, que le niveau du liquide au repos est horizontal."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si du lait et un glaçon sont liquides ou solides, en le justifiant par leur forme et leur volume ?",
+      "priorKnowledge": [
+        "Explorer quelques caractéristiques des solides et des liquides (maternelle, PS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 5,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-viv-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Unité et diversité du vivant",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Trier vivant, non vivant et élaboré par des êtres vivants",
+      "description": "Classer des objets en trois groupes : ce qui est vivant, ce qui n’est pas vivant, et ce qui a été produit par des êtres vivants (nid, lait, œufs, laine, soie…), puis justifier ce tri avec des critères simples : est-ce que cela bouge, grandit, se reproduit, se nourrit, perçoit ce qui l’entoure ?",
+      "officialObjectives": [
+        "Caractériser et justifier à l’aide de critères simples ce qui est vivant, non vivant ou élaboré par des êtres vivants."
+      ],
+      "evidence": [
+        "Trie des collections d’objets et établit des catégories : vivant, non vivant, élaboré par des êtres vivants (nid, lait, œufs, laine, fibres végétales, soie…).",
+        "Justifie son tri en utilisant des critères simples : mobilité, croissance, reproduction, alimentation, perception."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger une pelote de laine, un caillou et une plante dans les groupes « vivant », « non vivant » ou « élaboré par des êtres vivants », et expliquer pourquoi ?",
+      "priorKnowledge": [
+        "Comprendre que les végétaux sont des êtres vivants parmi d’autres (maternelle, cycle 1)",
+        "Identifier et décrire les besoins essentiels de quelques animaux et végétaux (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 5,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-env-01",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Observer et décrire son environnement proche",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Repérer et nommer des êtres vivants de son environnement proche",
+      "description": "Dans la cour, un jardin, un parc ou près d’une mare, repérer et nommer quelques animaux, végétaux et champignons, et les dessiner avec précision (dessin d’observation).",
+      "officialObjectives": [
+        "Observer son environnement proche : décrire les êtres vivants qui y vivent et les caractéristiques du milieu de vie."
+      ],
+      "evidence": [
+        "Repère et nomme quelques êtres vivants d’un environnement proche (cour d’école, jardin pédagogique, parc, forêt, prairie, mare, mer…) : animaux (oiseaux, mammifères, insectes, araignées, escargots, vers de terre), végétaux (plantes à fleurs, mousses), champignons.",
+        "Réalise des dessins d’observation."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer quelques animaux, plantes et champignons rencontrés lors d’une promenade au parc, et en dessiner un ?",
+      "priorKnowledge": [
+        "Repérer et nommer les caractéristiques morphologiques générales des plantes et des animaux observés (maternelle, PS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 5,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-env-02",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Observer et décrire son environnement proche",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Identifier le milieu de vie des espèces observées",
+      "description": "Dire où vit chaque être vivant observé (dans le sol, dans la mare…) : c’est son milieu de vie.",
+      "officialObjectives": [
+        "Observer son environnement proche : décrire les êtres vivants qui y vivent et les caractéristiques du milieu de vie."
+      ],
+      "evidence": [
+        "Identifie et nomme le milieu de vie de chacune des espèces observées (sol, mare…)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire dans quel milieu vit chaque être vivant observé lors d’une sortie (le sol pour le ver de terre, la mare…) ?",
+      "priorKnowledge": [
+        "Observer et nommer le mode de déplacement de quelques animaux en relation avec leur milieu de vie (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 5,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-env-03",
+      "programme": "sciences-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Observer et décrire son environnement proche",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Se repérer dans son environnement proche sur un plan ou une maquette",
+      "description": "Placer les principaux éléments de l’environnement de l’école (végétation, bâtiments) sur un plan ou une maquette pour s’y retrouver.",
+      "officialObjectives": [
+        "Se repérer dans son environnement proche."
+      ],
+      "evidence": [
+        "Se repère en positionnant les principaux éléments sur un plan ou une maquette, notamment la localisation de la végétation et des bâtiments."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer sur un plan de l’école les arbres et les bâtiments ?",
+      "priorKnowledge": [
+        "Représenter l’environnement proche et divers éléments sur un plan (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 5,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-edd-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Agir pour protéger l’environnement",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Constater des modifications de l’environnement dues aux humains",
+      "description": "Repérer autour de l’école des transformations de l’environnement causées par les activités humaines et les décrire avec des mots précis.",
+      "officialObjectives": [
+        "Constater quelques modifications de l’environnement proche par des activités humaines."
+      ],
+      "evidence": [
+        "Identifie, en mobilisant un vocabulaire adapté, les transformations de l’environnement liées aux activités humaines."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer, près de l’école, un endroit transformé par les activités humaines et expliquer ce qui a changé ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 6,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-edd-02",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Agir pour protéger l’environnement",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Adopter des gestes simples pour protéger l’environnement",
+      "description": "Faire au quotidien des gestes qui protègent l’environnement (économiser l’eau et l’énergie, trier ses déchets, rapporter les piles usagées) et comprendre que l’on peut agir seul ou à plusieurs.",
+      "officialObjectives": [
+        "Identifier et mettre en œuvre quelques gestes simples favorables à la protection de l’environnement proche de l’école.",
+        "Prendre conscience des possibilités d’agir, tant individuellement que collectivement, pour protéger l’environnement."
+      ],
+      "evidence": [
+        "Identifie quelques gestes simples favorables à la protection de l’environnement proche de l’école.",
+        "Adopte, au quotidien, un comportement respectueux de son environnement : économie d’eau, tri des déchets, économie d’énergie, récupération des piles usagées…"
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer et faire, à l’école ou à la maison, des gestes qui protègent l’environnement (fermer le robinet, trier ses déchets, éteindre la lumière) ?",
+      "priorKnowledge": [
+        "Reproduire quelques gestes respectueux de l’environnement montrés par l’adulte, comme trier et jeter les déchets (maternelle, MS)",
+        "Commencer à agir de manière autonome pour le respect de l’environnement (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 6,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-c2-edd-01",
+      "programme": "sciences-c2",
+      "type": "META",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Agir pour protéger l’environnement",
+      "level": "Cycle 2",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "name": "Développer un rapport sensible à la nature",
+      "description": "Prendre le temps de ressentir la nature lors des sorties et des observations, et savoir dire ce que l’on éprouve. Cet objectif, avec le même exemple, revient chaque année du CP au CE2.",
+      "officialObjectives": [
+        "Développer un rapport sensible à la nature."
+      ],
+      "evidence": [
+        "Décrit ses émotions lors de sa confrontation à la nature."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qu’une sortie dans la nature lui a fait ressentir ?",
+      "priorKnowledge": [
+        "Respecter la vie sous toutes ses formes (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 6,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-nutr-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Nutrition des êtres vivants",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Découvrir par l’expérience les besoins d’une plante (eau, lumière)",
+      "description": "Faire pousser des plantes avec ou sans eau, avec ou sans lumière, et comparer les résultats pour découvrir qu’une plante a besoin d’eau et de lumière pour grandir.",
+      "officialObjectives": [
+        "Déterminer des besoins essentiels pour la croissance d’une plante (eau et lumière) par une démarche expérimentale."
+      ],
+      "evidence": [
+        "Détermine des besoins nutritionnels d’une plante à partir de résultats d’expériences simples : plantes cultivées avec ou sans eau, avec ou sans lumière."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce que montrent des plantes cultivées avec ou sans eau, avec ou sans lumière ?",
+      "priorKnowledge": [
+        "Identifier et décrire les besoins essentiels de quelques animaux et végétaux (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 6,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-nutr-02",
+      "programme": "sciences-c2",
+      "type": "LANGUAGE",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Nutrition des êtres vivants",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Nommer les organes d’une plante : racine, tige, feuille",
+      "description": "Reconnaitre et nommer les parties d’une plante qui la font vivre et grandir (racine, tige, feuille), et les dessiner avec soin.",
+      "officialObjectives": [
+        "Décrire les différents organes végétatifs d’une plante (racine, tige, feuille)."
+      ],
+      "evidence": [
+        "Nomme les différentes parties d’une plante à partir d’observations de cultures réalisées en classe ou de photographies.",
+        "Réalise des dessins d’observation."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer et nommer la racine, la tige et les feuilles d’une plante sortie de son pot ?",
+      "priorKnowledge": [
+        "Identifier et nommer les caractéristiques des plantes : racine, tige, feuille, fleur (maternelle, PS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 6,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-nutr-03",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Nutrition des êtres vivants",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Identifier le régime alimentaire d’animaux",
+      "description": "Savoir ce que mange un animal et dire s’il est herbivore (il mange des végétaux), carnivore (il mange d’autres animaux) ou omnivore (il mange des deux).",
+      "officialObjectives": [
+        "Identifier le régime alimentaire d’animaux."
+      ],
+      "evidence": [
+        "À partir d’observations, d’élevages ou de l’identification de traces, associe les aliments consommés au régime alimentaire des animaux étudiés : herbivore, carnivore ou omnivore."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, d’après ce qu’il mange, si un animal élevé en classe est herbivore, carnivore ou omnivore ?",
+      "priorKnowledge": [
+        "Connaitre les préférences alimentaires des animaux élevés ou étudiés en classe (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 6,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-sens-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Sens et perception chez les animaux",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Associer les organes des sens des animaux à ce qu’ils perçoivent",
+      "description": "Relier chaque organe des sens d’un animal à ce qu’il lui permet de percevoir de son milieu : vision, audition, odorat, goût, équilibre, toucher.",
+      "officialObjectives": [
+        "Associer des organes sensoriels et la perception du milieu chez les animaux (vision, audition, odorat, gout, équilibre, toucher)."
+      ],
+      "evidence": [
+        "Identifie différentes modalités sensorielles (vision, audition, odorat, gout, équilibre, toucher) à partir de photos d’animaux, de vidéos ou de textes documentaires."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, sur une photo d’animal, quel organe lui sert à voir, à entendre ou à sentir les odeurs ?",
+      "priorKnowledge": [
+        "Identifier et nommer des organes sensoriels et les modalités de perception associées chez l’être humain (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 6,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-env-01",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Observer et décrire son environnement proche",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Observer les changements des êtres vivants d’un lieu selon les saisons",
+      "description": "Revenir au même endroit à différentes saisons, lister les espèces visibles et comparer l’aspect de la végétation pour constater que les êtres vivants présents changent au fil de l’année.",
+      "officialObjectives": [
+        "Observer le changement de peuplement de l’environnement proche au cours des saisons."
+      ],
+      "evidence": [
+        "Constate des différences dans le peuplement de l’environnement proche à différentes saisons.",
+        "Liste les espèces visibles et compare l’aspect de la végétation aux différentes saisons."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qui a changé entre l’automne et le printemps dans un même coin de jardin (animaux visibles, feuilles, fleurs) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 6,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-env-02",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Observer et décrire son environnement proche",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Relier les espèces présentes aux caractéristiques du milieu",
+      "description": "Comprendre que les êtres vivants que l’on trouve dans un endroit dépendent de ses conditions : humidité, luminosité, température.",
+      "officialObjectives": [
+        "Relier la présence d’espèces avec les caractéristiques de l’environnement."
+      ],
+      "evidence": [
+        "À partir d’observations de l’environnement proche ou d’élevages, identifie les caractéristiques du milieu (humidité, luminosité, température) et les relie aux espèces présentes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi on trouve des cloportes sous une pierre humide et sombre plutôt qu’en plein soleil ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 6,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-env-03",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Observer et décrire son environnement proche",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Classer les relations entre êtres vivants",
+      "description": "Décrire comment les êtres vivants dépendent les uns des autres et ranger ces relations en catégories : se nourrir, s’abriter, se protéger, se faire transporter.",
+      "officialObjectives": [
+        "Catégoriser différentes relations entre les êtres vivants."
+      ],
+      "evidence": [
+        "À partir d’observations du réel, d’albums ou de films documentaires, décrit avec un vocabulaire adapté les relations entre les êtres vivants.",
+        "Regroupe ces relations en catégories : source d’alimentation, habitat, protection, transport."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si un oiseau qui fait son nid dans un arbre montre une relation d’alimentation, d’habitat, de protection ou de transport ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 6,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-edd-01",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Agir pour protéger l’environnement",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "S’impliquer dans une action de préservation de l’environnement proche",
+      "description": "Participer avec la classe à une action concrète près de l’école pour favoriser la biodiversité (installer des nichoirs ou des mangeoires…) et comprendre pourquoi il faut agir, seul ou à plusieurs.",
+      "officialObjectives": [
+        "S’impliquer dans une action de préservation de l’environnement proche de l’école.",
+        "Prendre conscience de la nécessité et des possibilités d’agir, tant individuellement que collectivement, pour protéger l’environnement."
+      ],
+      "evidence": [
+        "Participe à une action visant à favoriser la biodiversité ou à préserver l’environnement (installation de nichoirs ou de mangeoires…)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer à quoi sert le nichoir ou la mangeoire installé avec la classe ?",
+      "priorKnowledge": [
+        "Contribuer à une action collective favorable à la préservation de la biodiversité dans un milieu proche de l’école (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 6,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-viv-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Unité et diversité du vivant",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Décrire les caractéristiques d’un être vivant (fiche d’identité)",
+      "description": "Rassembler des informations sur un être vivant, après une sortie ou dans des documents, et les ranger en rubriques : biologie (comment il est fait, comment il vit), écologie (son milieu, ses relations avec les autres) et classification (à quel groupe il appartient).",
+      "officialObjectives": [
+        "Décrire les caractéristiques des êtres vivants (biologie, écologie, classification)."
+      ],
+      "evidence": [
+        "Recherche et organise les informations recueillies dans différentes rubriques (biologie, écologie, classification), à partir de sorties et de documents.",
+        "Réalise des fiches d’identité d’êtres vivants."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait remplir la fiche d’identité d’un animal (description, milieu de vie, groupe auquel il appartient) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 7,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-repro-01",
+      "programme": "sciences-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Reproduction, croissance et développement",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Ordonner les étapes de la vie d’une plante à fleurs",
+      "description": "Remettre dans l’ordre, sur une frise du temps, les étapes de la vie d’une plante à fleurs : la graine germe, la plante grandit, la fleur se forme, puis le fruit qui contient les graines, et enfin les graines sont dispersées.",
+      "officialObjectives": [
+        "Ordonner les étapes de la vie d’une plante à fleurs : de la graine à la plante, de la fleur au fruit (germination de la graine, croissance, formation de la fleur, formation du fruit contenant des graines, dispersion des graines)."
+      ],
+      "evidence": [
+        "Positionne les différentes étapes de vie d’une plante sur une frise chronologique : germination de la graine, croissance, formation de la fleur, formation du fruit contenant des graines, dispersion des graines."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait remettre dans l’ordre des images montrant une graine qui germe, une plante en fleur, un fruit et des graines dispersées ?",
+      "priorKnowledge": [
+        "Nommer et ordonner les étapes du cycle de vie d’une plante ou d’un animal observées avec la classe (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 7,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-repro-02",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Reproduction, croissance et développement",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Mesurer la croissance d’un être vivant au cours du temps",
+      "description": "Mesurer régulièrement une plante ou un animal et ranger les mesures dans l’ordre pour voir comment il grandit.",
+      "officialObjectives": [
+        "Mesurer la croissance d’un être vivant (plante ou animal) au cours du temps."
+      ],
+      "evidence": [
+        "Utilise un dispositif de mesure pour évaluer la croissance d’une plante ou d’un animal au cours du temps.",
+        "Ordonne les mesures pour visualiser la croissance."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait mesurer chaque semaine la hauteur d’un plant de haricot et ranger les mesures pour montrer qu’il grandit ?",
+      "priorKnowledge": [
+        "Mesurer et comparer des longueurs avec une règle graduée (mathématiques, CE1)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 7,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-repro-03",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Reproduction, croissance et développement",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Distinguer forme juvénile, larve et adulte chez les animaux",
+      "description": "Chez certains animaux, le petit ressemble déjà à l’adulte (forme juvénile) ; chez d’autres, il naît sous une forme très différente, une larve (chenille, têtard), qui se transforme ensuite : c’est la métamorphose.",
+      "officialObjectives": [
+        "Distinguer chez les animaux les formes juvénile, larvaire et adulte, à partir d’exemples. Distinguer les modalités de croissance continue (sans mue) et discontinue (avec des mues)."
+      ],
+      "evidence": [
+        "Décrit les différences entre forme juvénile, forme larvaire associée à une métamorphose et forme adulte.",
+        "S’appuie sur l’observation directe d’un élevage (par exemple de chenilles), sur des clichés ou sur une vidéo (par exemple de têtards)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi la chenille est une larve et ce qu’est une métamorphose ?",
+      "priorKnowledge": [
+        "Reconnaitre et nommer le jeune et l’adulte pour plusieurs espèces animales (maternelle, PS)",
+        "Reconnaitre les étapes de la vie d’un animal ou d’une plante (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 7,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-repro-04",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Reproduction, croissance et développement",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Distinguer croissance continue et croissance avec mues",
+      "description": "Certains animaux grandissent petit à petit, sans arrêt (croissance continue, comme les mammifères) ; d’autres, comme les insectes, grandissent par étapes en changeant d’enveloppe : ce sont les mues (croissance discontinue).",
+      "officialObjectives": [
+        "Distinguer chez les animaux les formes juvénile, larvaire et adulte, à partir d’exemples. Distinguer les modalités de croissance continue (sans mue) et discontinue (avec des mues)."
+      ],
+      "evidence": [
+        "Exploite des mesures pour mettre en évidence une croissance continue (par exemple chez les mammifères) ou discontinue (par exemple chez les insectes)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer, à partir de mesures, pourquoi on dit qu’un insecte grandit par mues alors qu’un chaton grandit de façon continue ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 7,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-loco-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Locomotion chez les animaux",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Associer organes locomoteurs et mode de déplacement",
+      "description": "Observer des animaux qui se déplacent, repérer les parties du corps qui leur servent à bouger (ailes, pattes, nageoires) et les relier à leur façon de se déplacer : voler, marcher, courir, sauter, nager.",
+      "officialObjectives": [
+        "Décrire les organes locomoteurs et les associer à un mode de locomotion."
+      ],
+      "evidence": [
+        "Identifie les organes locomoteurs par l’observation d’êtres vivants en mouvement.",
+        "Associe chaque organe locomoteur à un mode de locomotion : vol, marche, course, saut, nage."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer, sur une vidéo d’oiseau, de poisson et de sauterelle, la partie du corps qui sert à chacun pour se déplacer ?",
+      "priorKnowledge": [
+        "Associer à chaque mode de déplacement des éléments anatomiques spécifiques : ailes, griffes, pattes, nageoires (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 7,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-loco-02",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Locomotion chez les animaux",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Relier la forme des organes locomoteurs au milieu de vie",
+      "description": "Remarquer que des animaux très différents ont des organes de forme semblable quand ils se déplacent de la même façon dans le même milieu : les ailes de l’insecte, de l’oiseau et de la chauve-souris pour voler, la nageoire du poisson et la palette du mammifère aquatique pour nager.",
+      "officialObjectives": [
+        "Décrire les similitudes de forme entre les structures locomotrices et les relier au mode de déplacement dans un milieu de vie donné."
+      ],
+      "evidence": [
+        "Met en relation la forme de l’organe locomoteur, le milieu de vie et le mode de déplacement : aile d’insecte, d’oiseau et de chauvesouris pour le vol ; patte d’insecte et de vertébré pour la marche, la course ou le saut ; nageoire de poisson ou palette natatoire de mammifère aquatique pour la nage."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qu’ont en commun l’aile d’un oiseau, d’une chauve-souris et d’un insecte, et à quoi elles servent ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 7,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-env-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Observer et décrire son environnement proche",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Découvrir les êtres vivants et leurs milieux dans des environnements variés",
+      "description": "Lors de sorties ou d’une classe de découverte, nommer les êtres vivants rencontrés, dire à quel groupe de la classification ils appartiennent et décrire comment ils vivent dans leur milieu.",
+      "officialObjectives": [
+        "Observer des environnements variés pour élargir la connaissance des êtres vivants, de leurs interactions et de leurs milieux de vie."
+      ],
+      "evidence": [
+        "Au cours de différentes sorties ou d’une classe de découverte, nomme les êtres vivants et leur groupe dans la classification du vivant.",
+        "Décrit leur mode de vie dans leur environnement."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, après une sortie en forêt, nommer quelques êtres vivants rencontrés, dire à quel groupe ils appartiennent et comment ils vivent ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 7,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-env-02",
+      "programme": "sciences-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Observer et décrire son environnement proche",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Construire une courte chaine alimentaire",
+      "description": "Relier des êtres vivants selon « qui mange qui » pour former une courte chaine, par exemple : une plante est mangée par un herbivore, lui-même mangé par un carnivore.",
+      "officialObjectives": [
+        "Élaborer une courte chaine alimentaire."
+      ],
+      "evidence": [
+        "Identifie le régime alimentaire de différentes espèces à partir de données.",
+        "Relie les espèces en construisant une courte chaine alimentaire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait construire une chaine alimentaire avec une salade, une limace et un hérisson ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 7,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-env-03",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Observer et décrire son environnement proche",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Découvrir le sol comme un milieu vivant",
+      "description": "Comprendre que le sol n’est pas seulement de la terre : il abrite de nombreux êtres vivants, des animaux (vers de terre, insectes, mille-pattes, cloportes) et des champignons.",
+      "officialObjectives": [
+        "Envisager le sol comme un milieu vivant et observer la diversité des êtres vivants qui le composent (dont les animaux et les champignons)."
+      ],
+      "evidence": [
+        "Nomme des êtres vivants du sol et en découvre la diversité : animaux (vers de terre, insectes, myriapodes ou « millepattes », cloportes) et champignons."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer des êtres vivants que l’on peut trouver dans une poignée de terre (ver de terre, cloporte, mille-pattes, champignon) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 7,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-edd-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Agir pour protéger l’environnement",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Identifier les conséquences positives et négatives d’activités humaines",
+      "description": "À partir d’un exemple simple (sortie, documents), décrire comment certaines actions humaines, individuelles ou collectives, modifient un environnement, et dire si c’est positif ou négatif (biodiversité modifiée, pollution…).",
+      "officialObjectives": [
+        "Identifier les conséquences positives et négatives de certaines activités humaines sur un environnement."
+      ],
+      "evidence": [
+        "À partir d’une étude de cas simple (sortie et documents), observe et décrit les effets de certaines activités humaines, à l’échelle individuelle comme collective, sur l’environnement.",
+        "Évalue leurs conséquences positives ou négatives : modification de la biodiversité, pollution de l’environnement…"
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait donner un effet positif et un effet négatif d’une activité humaine observée lors d’une sortie ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 8,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-edd-02",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les êtres vivants dans leur environnement",
+      "subdomain": "Agir pour protéger l’environnement",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "S’impliquer dans un projet collectif pour l’environnement",
+      "description": "Prendre une part active à un projet de la classe ou de l’école qui favorise la biodiversité ou préserve l’environnement, en lien avec la transition écologique (les changements pour mieux préserver la planète), et comprendre pourquoi il faut agir, seul ou à plusieurs.",
+      "officialObjectives": [
+        "S’impliquer dans un projet collectif de préservation de l’environnement en lien avec la transition écologique.",
+        "Prendre conscience de la nécessité et des possibilités d’agir, tant individuellement que collectivement, pour protéger l’environnement."
+      ],
+      "evidence": [
+        "Prend une place active dans un projet collectif visant à favoriser la biodiversité ou préserver l’environnement."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer son rôle dans le projet de la classe pour protéger l’environnement, et à quoi sert ce projet ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 8,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-alim-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Alimentation",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Connaitre les catégories d’aliments",
+      "description": "Ranger les aliments en grandes familles et les nommer : fruits et légumes ; viandes, poissons et œufs ; produits laitiers ; féculents et céréales ; matières grasses ; boissons. La santé est abordée de façon positive, sans culpabiliser.",
+      "officialObjectives": [
+        "Découvrir et nommer les catégories d’aliments et leur origine, en utilisant le vocabulaire associé."
+      ],
+      "evidence": [
+        "Catégorise différents aliments à partir d’échantillons et de documents : fruits et légumes ; viandes, poissons et œufs ; produits laitiers ; féculents et céréales ; matières grasses ; boissons."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger dans la bonne famille du pain, un yaourt, une pomme et du beurre ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 8,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-alim-02",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Alimentation",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Connaitre l’origine des aliments",
+      "description": "Dire d’où vient un aliment : d’un animal, d’une plante, du monde minéral (comme le sel), ou s’il s’agit d’un produit transformé.",
+      "officialObjectives": [
+        "Découvrir et nommer les catégories d’aliments et leur origine, en utilisant le vocabulaire associé."
+      ],
+      "evidence": [
+        "Associe des exemples d’aliments à leurs origines : animale, végétale, minérale, produit transformé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si le lait, la pomme, le sel et les biscuits sont d’origine animale, végétale, minérale ou des produits transformés ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 8,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-crois-01",
+      "programme": "sciences-c2",
+      "type": "LANGUAGE",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Croissance et mouvement",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Nommer les parties du corps, les principales articulations et quelques os",
+      "description": "Montrer et nommer les parties du corps, les grandes articulations (cou, épaule, coude, poignet, genou, cheville…) et quelques os, sur soi, sur un pantin articulé ou sur une radiographie.",
+      "officialObjectives": [
+        "Décrire le schéma corporel et nommer les principales articulations et quelques os associés du squelette, en enrichissant le vocabulaire anatomique."
+      ],
+      "evidence": [
+        "Localise et nomme les différentes parties du corps, les principales articulations et quelques os associés, sur soi-même, sur une maquette (pantins articulés) ou sur des documents (radiographies, photographies ou schémas)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer et nommer sur son propre corps l’épaule, le coude, le poignet, le genou et la cheville ?",
+      "priorKnowledge": [
+        "Identifier et nommer quelques articulations et la segmentation des membres (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 8,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-crois-02",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Croissance et mouvement",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Repérer les articulations qui permettent un mouvement",
+      "description": "Comprendre que nos mouvements se font au niveau des articulations, et distinguer celles qui permettent de tourner (rotation) de celles qui permettent de plier et de tendre (flexion/extension).",
+      "officialObjectives": [
+        "Repérer sur soi et sur une maquette simple les éléments permettant la réalisation d’un mouvement corporel."
+      ],
+      "evidence": [
+        "Repère sur soi et sur une maquette simple (pantin articulé) les articulations qui permettent un mouvement.",
+        "Distingue les articulations permettant deux types de mouvement : rotation (cou, bassin, épaule, poignet, cheville) et flexion/extension (coude, genou, articulations des doigts et des orteils)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer une articulation qui permet de tourner (l’épaule) et une qui permet de plier et tendre (le genou) ?",
+      "priorKnowledge": [
+        "Se représenter avec un corps articulé en mouvement (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 8,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-sante-01",
+      "programme": "sciences-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Santé et hygiène de vie",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Observer son rythme d’activité dans la journée",
+      "description": "Repérer les différents moments de sa journée (sommeil, activité physique, activité intellectuelle, repos, relaxation) et les placer sur une frise du temps selon qu’ils sont plus ou moins intenses.",
+      "officialObjectives": [
+        "Observer son rythme d’activité quotidien (sommeil, activité physique, activité intellectuelle, repos et relaxation)."
+      ],
+      "evidence": [
+        "Représente les différents moments de sa journée sur une frise chronologique en les reliant à l’intensité de l’activité associée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait placer sur une frise les moments de sa journée (dormir, jouer dehors, travailler en classe, se reposer) en disant lesquels sont les plus intenses ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 9,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-sante-02",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Santé et hygiène de vie",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Relier les règles d’hygiène de vie à sa santé",
+      "description": "Connaitre quelques règles d’hygiène de vie (bien dormir, manger varié, bouger régulièrement, se reposer, se laver les mains et le corps, se brosser les dents, limiter les écrans) et comprendre en quoi elles sont bonnes pour la santé. Le sujet est abordé de façon positive, sans culpabiliser.",
+      "officialObjectives": [
+        "Identifier quelques règles d’hygiène de vie au quotidien et les relier à sa santé (sommeil, variété alimentaire, activité physique régulière, repos, lavage des mains et du corps, brossage des dents, limitation des temps d’écran)."
+      ],
+      "evidence": [
+        "Cite quelques règles d’hygiène de vie : sommeil, variété alimentaire, activité physique régulière, repos, lavage des mains et du corps, brossage des dents, limitation des temps d’écran.",
+        "Fait le lien entre les règles d’hygiène de vie et leur bénéfice sur sa santé, à partir de lectures, de vidéos documentaires et de la rencontre de professionnels de santé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi il est bon pour la santé de bien dormir, de se laver les mains et de limiter le temps d’écran ?",
+      "priorKnowledge": [
+        "Connaitre quelques règles d’hygiène corporelle et de propreté (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 9,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-alim-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Alimentation",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Identifier les apports des aliments (énergie, eau, minéraux, matière)",
+      "description": "Savoir ce que chaque aliment apporte au corps : de l’énergie, de l’eau, des minéraux (comme le calcium) ou de la matière pour construire le corps (les aliments « bâtisseurs »).",
+      "officialObjectives": [
+        "Identifier les apports spécifiques des aliments : sources d’énergie, d’eau, de minéraux, de matière."
+      ],
+      "evidence": [
+        "Associe les différents aliments à leurs apports spécifiques : source d’énergie, d’eau, de minéraux (exemple : calcium), de matière (exemple : aliment bâtisseur)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qu’apportent surtout au corps les pâtes (de l’énergie), le lait (du calcium) et la viande (de la matière pour grandir) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 9,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-alim-02",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Alimentation",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Comprendre l’équilibre alimentaire et composer des menus",
+      "description": "Comprendre ce qu’est une alimentation équilibrée et s’en servir pour analyser ou composer des menus, sur un repas puis en réfléchissant à l’échelle de la semaine.",
+      "officialObjectives": [
+        "Établir la notion d’équilibre alimentaire."
+      ],
+      "evidence": [
+        "Mobilise les principes d’une alimentation équilibrée pour analyser et composer des menus, sur un repas, en ouvrant une réflexion à l’échelle de la semaine."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait composer un menu de cantine équilibré avec des aliments de différentes familles ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 9,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-crois-01",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Croissance et mouvement",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Mesurer la croissance de son corps",
+      "description": "Mesurer certaines parties de son corps (pied, main) avec un mètre-ruban à différents moments de l’année pour suivre sa croissance, en particulier celle du squelette.",
+      "officialObjectives": [
+        "Utiliser des instruments de mesure pour suivre la croissance du corps, en particulier du squelette (os)."
+      ],
+      "evidence": [
+        "Suit la croissance de certains organes (pied, main) en utilisant un mètre-ruban à différents moments de l’année."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait mesurer la longueur de son pied avec un mètre-ruban et comparer avec la mesure du début d’année ?",
+      "priorKnowledge": [
+        "Mesurer et tracer un segment avec une règle graduée (mathématiques, CP)",
+        "Observer des changements liés à sa croissance (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 9,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-crois-02",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Croissance et mouvement",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Comparer la croissance de différentes personnes et respecter les différences",
+      "description": "Comparer des mesures (taille, masse, pointure) entre plusieurs personnes pour constater que les corps sont divers et que chacun grandit à sa façon ; ces différences se respectent.",
+      "officialObjectives": [
+        "Comparer la croissance de différentes personnes (taille, masse, pointure) pour prendre conscience de la diversité morphologique humaine et respecter les différences."
+      ],
+      "evidence": [
+        "Analyse, au sein d’une population, des données quantitatives (taille, masse, pointure) pour prendre conscience de la diversité entre individus.",
+        "Respecte les différences entre individus."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait lire un tableau des tailles et des pointures de la classe et en conclure que chacun grandit différemment ?",
+      "priorKnowledge": [
+        "Lire et commenter des données dans un tableau (mathématiques, CP)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 9,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-crois-03",
+      "programme": "sciences-c2",
+      "type": "LANGUAGE",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Croissance et mouvement",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Décrire la structure d’une dent et les différentes dents",
+      "description": "Connaitre les parties d’une dent (couronne, racine, pulpe, émail) et reconnaitre les différentes sortes de dents de la bouche.",
+      "officialObjectives": [
+        "Observer les modifications de la dentition au cours de la croissance."
+      ],
+      "evidence": [
+        "Identifie la structure des dents : couronne, racine, pulpe, émail.",
+        "Identifie les différentes dents."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sur un schéma la couronne, la racine, la pulpe et l’émail d’une dent ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 9,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-crois-04",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Croissance et mouvement",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Distinguer dents de lait et dents définitives",
+      "description": "Observer que les dents de lait tombent et sont remplacées par des dents définitives, plus grandes et plus solides.",
+      "officialObjectives": [
+        "Observer les modifications de la dentition au cours de la croissance."
+      ],
+      "evidence": [
+        "Observe les différences entre dents de lait (plus petites) et dents définitives (plus grandes, plus solides).",
+        "Rend compte de ses observations par des schémas simples."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer la différence entre une dent de lait et une dent définitive ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 9,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-sante-01",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Santé et hygiène de vie",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Connaitre les règles d’hygiène buccodentaire",
+      "description": "Savoir bien se brosser les dents (les étapes, la durée) et comprendre que cela protège l’émail des dents et les gencives.",
+      "officialObjectives": [
+        "Identifier quelques règles d’hygiène de vie au quotidien et les relier à sa santé."
+      ],
+      "evidence": [
+        "Identifie les éléments clés de l’hygiène buccodentaire : étapes et durée du brossage, protection de l’émail et des gencives."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer comment et combien de temps se brosser les dents, et à quoi cela sert ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 9,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-sante-02",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Santé et hygiène de vie",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Comprendre ce qu’est l’attention et reconnaitre la concentration",
+      "description": "Découvrir ce qu’est l’attention (la capacité à se connecter mentalement à un objet, à une activité ou à une personne) et repérer à quoi l’on voit que quelqu’un est concentré, pour comprendre son rôle quand on apprend.",
+      "officialObjectives": [
+        "Prendre conscience du rôle que joue l'attention cognitive dans les apprentissages."
+      ],
+      "evidence": [
+        "Explique, à partir d’activités simples, ce qu’est l’attention : la capacité à se connecter mentalement à un objet, à une activité ou à une personne.",
+        "Identifie des caractéristiques visibles de la concentration chez une personne dans différentes situations, par exemple en analysant des images ou des vidéos."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, en regardant une photo, si un enfant est concentré et à quoi on le voit ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 9,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-sante-03",
+      "programme": "sciences-c2",
+      "type": "META",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Santé et hygiène de vie",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Repérer ce qui aide à se concentrer et ce qui distrait",
+      "description": "Comprendre que nos sens, les sensations du corps, ce que l’on se dit dans sa tête, les images mentales et les émotions peuvent aider à se concentrer, mais aussi distraire : les distractions agissent comme des forces qui font perdre l’équilibre à notre attention.",
+      "officialObjectives": [
+        "Prendre conscience du rôle que joue l'attention cognitive dans les apprentissages."
+      ],
+      "evidence": [
+        "Identifie des facteurs (sens, sensations du corps, pensées verbalisées, images mentales, émotions) qui favorisent la concentration mais peuvent aussi être des sources de distraction.",
+        "Explique que les distractions agissent comme des forces qui déséquilibrent son attention."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer une chose qui aide à se concentrer pendant les devoirs et une chose qui distrait ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 9,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-crois-01",
+      "programme": "sciences-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Croissance et mouvement",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Modéliser un mouvement de flexion/extension (rôle des muscles)",
+      "description": "Manipuler ou fabriquer un modèle de bras ou de jambe pour comprendre que les muscles, en se contractant, font bouger le membre au niveau des articulations : le biceps plie le bras, le triceps le tend.",
+      "officialObjectives": [
+        "Modéliser un mouvement de flexion/extension pour identifier le rôle des muscles et des articulations."
+      ],
+      "evidence": [
+        "Manipule ou fabrique un modèle de membre (bras ou jambe) pour comprendre le rôle de la contraction des muscles et des articulations.",
+        "Compare le modèle à la réalité.",
+        "Identifie les muscles qui permettent de plier (le biceps) et de tendre (le triceps) le bras."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer, avec un modèle de bras en carton, quel muscle se contracte pour plier le bras et lequel pour le tendre ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 10,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-crois-02",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Croissance et mouvement",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Observer les changements du corps pendant l’activité physique",
+      "description": "Comparer son corps au repos et après un effort : respiration, essoufflement, pouls, transpiration, rougeur de la peau. Ce travail se fait en lien avec l’éducation physique et sportive.",
+      "officialObjectives": [
+        "Observer les changements corporels pendant l’activité physique, en lien avec l’enseignement physique et sportif."
+      ],
+      "evidence": [
+        "Compare, au repos et après une activité physique, différents paramètres corporels : respiration, essoufflement, pouls, transpiration, rougeur de la peau."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qui change dans son corps après avoir couru (respiration, pouls, transpiration, couleur de la peau) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 10,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-crois-03",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Croissance et mouvement",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Relier l’effort aux rythmes respiratoire et cardiaque (mesure du pouls)",
+      "description": "Compter ses respirations et prendre son pouls (les battements du cœur) pendant une durée donnée, avant, pendant et après un exercice, pour constater qu’ils augmentent avec l’effort.",
+      "officialObjectives": [
+        "Relier l’activité physique avec la variation du rythme respiratoire (inspiration, expiration) et du rythme cardiaque par la mesure du pouls."
+      ],
+      "evidence": [
+        "Mesure et compare le nombre de mouvements respiratoires et le pouls par unité de temps, avant, pendant et après des exercices physiques d’intensité variable."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait compter son pouls pendant une minute au repos puis après une course, et expliquer la différence ?",
+      "priorKnowledge": [
+        "Unités de durée : heure, minute (mathématiques, CE1)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 10,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-sante-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Santé et hygiène de vie",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Constater le lien entre activité physique régulière et bien-être",
+      "description": "Exprimer ce que l’on ressent après une activité physique et comprendre qu’une pratique régulière fait du bien.",
+      "officialObjectives": [
+        "Constater le lien entre la pratique physique régulière et le bien-être."
+      ],
+      "evidence": [
+        "Exprime ses émotions après des activités physiques.",
+        "Identifie le bénéfice d’une activité physique régulière sur son bien-être."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire comment on se sent après une activité physique et pourquoi bouger régulièrement fait du bien ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 10,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-sante-02",
+      "programme": "sciences-c2",
+      "type": "META",
+      "subject": "Sciences et technologie",
+      "domain": "Le corps humain et la santé",
+      "subdomain": "Santé et hygiène de vie",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Utiliser des méthodes pour mieux apprendre",
+      "description": "Découvrir quelques notions sur le fonctionnement du cerveau pour apprendre plus efficacement : se concentrer, réfléchir, s’entrainer, répéter, se relire.",
+      "officialObjectives": [
+        "Se familiariser avec quelques notions sur le fonctionnement du cerveau pour mieux apprendre."
+      ],
+      "evidence": [
+        "Met en place des méthodes d’apprentissage : concentration, réflexion, entrainement, répétition, relecture."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce que l’on peut faire pour bien apprendre une leçon (se concentrer, répéter, s’entrainer, se relire) ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 10,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-obj-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Reconnaitre un objet technique, fabriqué par les êtres humains",
+      "description": "Comprendre qu’un objet technique est fabriqué par les êtres humains, contrairement à un élément naturel : un stylo en plastique ou une règle sont des objets techniques, une branche d’arbre ou une feuille n’en sont pas.",
+      "officialObjectives": [
+        "Identifier qu’un objet technique est obtenu par intervention des êtres humains."
+      ],
+      "evidence": [
+        "Trie un ensemble d’objets (stylo en plastique, branche d’arbre, feuille, gomme, règle…) entre objets techniques et objets qui n’en sont pas.",
+        "Pointe les caractéristiques d’un objet technique pour justifier son tri."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, entre une gomme, une branche d’arbre et une règle, lesquelles sont des objets techniques et pourquoi ?",
+      "priorKnowledge": [
+        "Utiliser des objets, connaitre leur nom et leur fonction (maternelle, PS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 10,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-obj-02",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Comprendre le passage du matériau brut à l’objet technique",
+      "description": "Les objets sont fabriqués à partir de matériaux trouvés dans la nature : certains directement (bois brut et cuillère, argile et tuile, laine de mouton et pull), d’autres après plusieurs transformations complexes (bouteille en plastique). Fabriquer des objets utilise donc des ressources naturelles.",
+      "officialObjectives": [
+        "Identifier qu’un objet technique est obtenu par intervention des êtres humains."
+      ],
+      "evidence": [
+        "Explique que certains objets techniques sont fabriqués directement à partir de matériaux bruts (bois brut et cuillère de cuisine, argile et tuile, laine de mouton et pullover).",
+        "Explique que d’autres le sont après plusieurs transformations complexes (bouteilles en plastique…)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire avec quel matériau naturel on fabrique une tuile, une cuillère en bois et un pull en laine ?",
+      "priorKnowledge": [
+        "Différencier un objet du matériau qui le constitue (maternelle, MS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 10,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-cp-obj-03",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CP",
+      "cycle": 2,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "name": "Relier les objets techniques du quotidien aux besoins qu’ils satisfont",
+      "description": "Repérer les objets techniques utilisés dans des situations de tous les jours (s’habiller selon la météo, venir à l’école) et dire à quel besoin chacun répond.",
+      "officialObjectives": [
+        "Identifier des activités de la vie quotidienne faisant appel à des objets techniques répondant à un besoin."
+      ],
+      "evidence": [
+        "Observe les objets techniques utilisés dans des situations du quotidien : comment s’habiller en fonction de la météo ? comment venir à l’école (se déplacer) ?",
+        "Identifie à quels besoins les objets techniques apportent des solutions."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer les objets que l’on utilise pour venir à l’école quand il pleut, et dire à quel besoin chacun répond ?",
+      "priorKnowledge": [
+        "Associer une solution technique à une fonction technique (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 10,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-obj-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Identifier les parties d’un objet technique (forme, matériau, fonction)",
+      "description": "Observer un objet de près pour repérer ses différentes parties, décrire leur forme et leur matériau, et dire à quoi chacune sert (sur un casque de vélo : la coque rigide protège la tête, la sangle de réglage le fait tenir).",
+      "officialObjectives": [
+        "Identifier les différentes parties d’un objet technique en les caractérisant par leur forme, leur matériau et leur fonction."
+      ],
+      "evidence": [
+        "Observe et nomme les différentes parties d’un objet technique : la doublure et les fermetures de poches d’un manteau, la coque rigide et la sangle de réglage d’un casque de vélo…",
+        "Relie les caractéristiques des différentes parties à leurs rôles."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer les parties d’un casque de vélo et expliquer à quoi sert chacune ?",
+      "priorKnowledge": [
+        "Associer une solution technique à une fonction technique, comme la poignée, le réservoir et la pomme d’un arrosoir (maternelle, GS)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 11,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-obj-02",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Trier les objets qui utilisent ou non l’énergie électrique",
+      "description": "Classer des objets selon qu’ils ont besoin ou non d’électricité pour fonctionner : une lampe torche ou un ordinateur d’un côté, un fouet de cuisine manuel ou des lunettes de l’autre.",
+      "officialObjectives": [
+        "Différencier les objets selon qu’ils utilisent ou non une source d’énergie électrique. Identifier le cas échéant l’intérêt de l’utilisation de l’énergie électrique."
+      ],
+      "evidence": [
+        "Repère et trie des objets techniques suivant l’utilisation ou non d’une source d’énergie électrique pour leur fonctionnement (lampe torche, fouet de cuisine manuel, ordinateur, lunettes…)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trier une lampe torche, des lunettes, un fouet manuel et un ordinateur selon qu’ils utilisent ou non l’électricité ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 11,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-obj-03",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Comprendre l’intérêt de l’énergie électrique dans un objet",
+      "description": "Comparer un objet électrique et sa version manuelle (batteur électrique et batteur manuel, vélo avec ou sans assistance électrique, visseuse et tournevis) pour voir que l’électricité rend souvent l’objet plus confortable ou plus efficace.",
+      "officialObjectives": [
+        "Différencier les objets selon qu’ils utilisent ou non une source d’énergie électrique. Identifier le cas échéant l’intérêt de l’utilisation de l’énergie électrique."
+      ],
+      "evidence": [
+        "Compare l’utilisation d’un batteur électrique et d’un batteur manuel, d’un vélo avec ou sans assistance électrique, d’un tournevis et d’une visseuse électrique.",
+        "Indique l’intérêt de l’utilisation de l’énergie électrique : elle rend souvent l’utilisation des objets plus confortable et/ou plus efficace."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qu’apporte une visseuse électrique par rapport à un tournevis ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 11,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-obj-04",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Réaliser une maquette avec un circuit électrique simple",
+      "description": "Fabriquer la maquette d’un objet qui s’éclaire (éclairage d’une voiture, lampadaire de rue) en assemblant pile, câbles, interrupteur et ampoule, et savoir à quoi sert chaque composant.",
+      "officialObjectives": [
+        "Réaliser une maquette simple avec un circuit électrique. Identifier les composants et leurs fonctions."
+      ],
+      "evidence": [
+        "Réalise une maquette d’objet technique utilisant un circuit électrique simple (maquette de l’éclairage d’une voiture ou d’un lampadaire de rue).",
+        "Assemble correctement une pile électrique, des câbles, un interrupteur et une ampoule (ou un autre récepteur).",
+        "Identifie les composants du circuit et leurs fonctions."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait fabriquer la maquette d’un lampadaire qui s’allume avec un interrupteur, et dire à quoi servent la pile, l’interrupteur et l’ampoule ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 11,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce1-obj-05",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CE1",
+      "cycle": 2,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "name": "Programmer le déplacement d’un robot avec des consignes simples",
+      "description": "Faire se déplacer un petit robot en lui donnant une suite de consignes simples avec ses boutons (avancer, pivoter…).",
+      "officialObjectives": [
+        "Commander un robot avec des consignes simples en programmant un déplacement."
+      ],
+      "evidence": [
+        "Obtient le déplacement d’un robot en lui donnant des consignes simples (bouton avancer, pivoter…)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait programmer un robot de sol avec ses boutons (avancer, pivoter) pour qu’il atteigne une case donnée ?",
+      "priorKnowledge": [
+        "Choisir et organiser 3 à 5 instructions simples (avancer, tourner) pour conduire un robot jusqu’à une case cible (maternelle, GS)",
+        "Coder un déplacement par une suite d’instructions (mathématiques, CP)"
+      ],
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 11,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-obj-01",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Identifier les éléments d’un ordinateur (saisie, traitement, restitution)",
+      "description": "Connaitre les éléments d’un ordinateur et leur rôle : ceux qui servent à entrer des informations (clavier), à les traiter (processeur) et à les restituer (écran), puis retrouver ces fonctions dans une tablette ou un smartphone. Au CE2, les élèves explorent les technologies numériques présentes dans les objets techniques et prennent conscience de la place du numérique dans leur environnement.",
+      "officialObjectives": [
+        "Identifier les dispositifs permettant la saisie, le traitement et la restitution d’informations (clavier, processeur, écran, etc.)."
+      ],
+      "evidence": [
+        "Observe et nomme les différents éléments d’un ordinateur.",
+        "Fait le lien avec des technologies plus compactes (tablettes, smartphones)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire à quoi servent le clavier, le processeur et l’écran d’un ordinateur, et les retrouver dans une tablette ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 11,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-obj-02",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Saisir et mettre en forme un texte sur ordinateur ou tablette",
+      "description": "Taper un texte avec un logiciel de traitement de texte, utiliser le correcteur orthographique, choisir la mise en forme et la mise en page, puis enregistrer son travail.",
+      "officialObjectives": [
+        "Utiliser un ordinateur ou tablette numérique, pour saisir un texte."
+      ],
+      "evidence": [
+        "Saisit un texte à l’aide d’un logiciel de traitement de texte.",
+        "Utilise le correcteur orthographique.",
+        "Adapte la mise en forme et la mise en page.",
+        "Sauvegarde son travail."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait taper un court texte à l’ordinateur, corriger les mots signalés par le correcteur, mettre le titre en forme et enregistrer le fichier ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 11,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-obj-03",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Utiliser un moteur de recherche",
+      "description": "Utiliser un moteur de recherche pour trouver une information, en exerçant son esprit critique sur les contenus trouvés. Les élèves sont sensibilisés à un usage responsable du numérique et aux risques associés.",
+      "officialObjectives": [
+        "Utiliser un moteur de recherche."
+      ],
+      "evidence": [
+        "Exploite un moteur de recherche pour obtenir une information."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver avec un moteur de recherche ce que mange un hérisson ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 11,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-obj-04",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Démonter et remonter un objet technique pour identifier ses pièces",
+      "description": "Comprendre qu’un objet est souvent un assemblage de plusieurs pièces, en démontant puis en remontant des objets simples (pince à linge, stylo à bille, essoreuse à salade, lampe de poche…).",
+      "officialObjectives": [
+        "Comprendre qu’un objet technique peut être un assemblage de pièces.",
+        "Identifier les différentes pièces d’un objet technique en réalisant des assemblages simples."
+      ],
+      "evidence": [
+        "Identifie les pièces d’un objet technique en le démontant, puis en le remontant (pinces à linge, essoreuse à salade, stylo à bille, colle en bâton, corde à sauter, lampe de poche…)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait démonter un stylo à bille, nommer ses pièces et le remonter ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 12,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-obj-05",
+      "programme": "sciences-c2",
+      "type": "CONCEPTUAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Comprendre qu’un même besoin peut être satisfait par des objets variés",
+      "description": "Constater que, pour un même besoin, il existe des objets différents : par exemple des cordes à sauter simples, avec poignées, réglables ou connectées.",
+      "officialObjectives": [
+        "Comprendre que, pour un besoin identifié, il existe une diversité d’objets y répondant."
+      ],
+      "evidence": [
+        "Compare différents objets techniques répondant à un même besoin, par exemple différents types de cordes à sauter : cordes simples, avec poignées, réglables, connectées…"
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comparer plusieurs cordes à sauter (simple, avec poignées, réglable) et dire ce qui les différencie alors qu’elles servent à la même chose ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 12,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-obj-06",
+      "programme": "sciences-c2",
+      "type": "PROCEDURAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Écrire un programme par blocs pour déplacer un robot",
+      "description": "Assembler des blocs d’instructions pour qu’un robot suive un parcours simple imposé : c’est une première initiation aux algorithmes (une suite d’instructions dans un ordre précis).",
+      "officialObjectives": [
+        "Initier à la programmation d’objets techniques par des algorithmes simples."
+      ],
+      "evidence": [
+        "Réalise un programme par blocs permettant à un robot de se déplacer en suivant un parcours simple imposé."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait assembler des blocs (avancer, tourner) pour qu’un robot suive un parcours en forme de L tracé au sol ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 12,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    },
+    {
+      "id": "fr-sc-ce2-obj-07",
+      "programme": "sciences-c2",
+      "type": "REPRESENTATIONAL",
+      "subject": "Sciences et technologie",
+      "domain": "Les objets techniques au cœur de la société",
+      "subdomain": "Les objets techniques au cœur de la société",
+      "level": "CE2",
+      "cycle": 2,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "name": "Retrouver le programme correspondant au déplacement d’un robot",
+      "description": "Observer un robot qui se déplace et retrouver, parmi plusieurs programmes proposés, celui qui produit ce déplacement.",
+      "officialObjectives": [
+        "Initier à la programmation d’objets techniques par des algorithmes simples."
+      ],
+      "evidence": [
+        "En observant le déplacement d’un robot, identifie le programme correspondant parmi plusieurs propositions."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir, parmi trois programmes par blocs, celui qui correspond au trajet que le robot vient de faire ?",
+      "source": {
+        "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+        "bo": "BO n° 24 du 11 juin 2026",
+        "page": 12,
+        "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-sc-cp-masvt-02",
+      "prerequisiteId": "fr-sc-cp-masvt-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le vocabulaire des masses s’acquiert en comparant des objets."
+    },
+    {
+      "topicId": "fr-sc-ce1-masv-01",
+      "prerequisiteId": "fr-sc-cp-masvt-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Mesurer avec une balance prolonge la comparaison de masses à la balance."
+    },
+    {
+      "topicId": "fr-sc-ce1-masv-02",
+      "prerequisiteId": "fr-sc-ce1-masv-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "On compare et classe les masses grâce à la mesure."
+    },
+    {
+      "topicId": "fr-sc-ce1-etat-01",
+      "prerequisiteId": "fr-sc-cp-etat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Observer un changement d’état suppose de reconnaitre les états solide et liquide de l’eau."
+    },
+    {
+      "topicId": "fr-sc-ce1-etat-02",
+      "prerequisiteId": "fr-sc-ce1-etat-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "La conservation de la masse se constate lors d’un changement d’état."
+    },
+    {
+      "topicId": "fr-sc-ce1-etat-02",
+      "prerequisiteId": "fr-sc-ce1-masv-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le constat demande de peser l’eau avant et après congélation."
+    },
+    {
+      "topicId": "fr-sc-ce1-etat-03",
+      "prerequisiteId": "fr-sc-ce1-etat-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le volume se compare avant et après la solidification."
+    },
+    {
+      "topicId": "fr-sc-ce1-elec-02",
+      "prerequisiteId": "fr-sc-ce1-elec-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut connaitre le circuit à une boucle pour dire s’il est ouvert ou fermé."
+    },
+    {
+      "topicId": "fr-sc-ce1-elec-03",
+      "prerequisiteId": "fr-sc-ce1-elec-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le test d’un matériau se fait en l’introduisant dans un circuit."
+    },
+    {
+      "topicId": "fr-sc-ce2-masvd-01",
+      "prerequisiteId": "fr-sc-ce1-masv-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les conversions servent à comparer des masses mesurées."
+    },
+    {
+      "topicId": "fr-sc-ce2-masvd-03",
+      "prerequisiteId": "fr-sc-ce2-masvd-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer des volumes de liquide s’appuie sur des récipients de contenance connue."
+    },
+    {
+      "topicId": "fr-sc-ce2-masvd-05",
+      "prerequisiteId": "fr-sc-ce2-masvd-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’étude des paramètres se fait avec le sablier construit."
+    },
+    {
+      "topicId": "fr-sc-ce2-etat-01",
+      "prerequisiteId": "fr-sc-cp-etat-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Différencier les états s’appuie sur la reconnaissance de l’eau solide et liquide."
+    },
+    {
+      "topicId": "fr-sc-cp-env-02",
+      "prerequisiteId": "fr-sc-cp-env-01",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "On identifie le milieu de vie des espèces observées."
+    },
+    {
+      "topicId": "fr-sc-ce1-env-01",
+      "prerequisiteId": "fr-sc-cp-env-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Comparer le peuplement aux saisons suppose de repérer et nommer les êtres vivants."
+    },
+    {
+      "topicId": "fr-sc-ce1-env-02",
+      "prerequisiteId": "fr-sc-cp-env-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Relier espèces et milieu prolonge l’identification du milieu de vie."
+    },
+    {
+      "topicId": "fr-sc-ce1-env-03",
+      "prerequisiteId": "fr-sc-cp-env-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les relations se décrivent entre des êtres vivants déjà repérés."
+    },
+    {
+      "topicId": "fr-sc-ce1-edd-01",
+      "prerequisiteId": "fr-sc-cp-edd-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’action collective prolonge les gestes simples du quotidien."
+    },
+    {
+      "topicId": "fr-sc-ce1-nutr-03",
+      "prerequisiteId": "fr-sc-cp-viv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’alimentation est l’un des critères du vivant vus au CP."
+    },
+    {
+      "topicId": "fr-sc-ce2-viv-01",
+      "prerequisiteId": "fr-sc-cp-viv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Décrire les caractéristiques des êtres vivants prolonge les critères du vivant."
+    },
+    {
+      "topicId": "fr-sc-ce2-viv-01",
+      "prerequisiteId": "fr-sc-ce1-env-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La rubrique écologie mobilise le lien entre espèces et milieu."
+    },
+    {
+      "topicId": "fr-sc-ce2-repro-01",
+      "prerequisiteId": "fr-sc-ce1-nutr-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les étapes de la vie d’une plante mobilisent ses organes."
+    },
+    {
+      "topicId": "fr-sc-ce2-repro-02",
+      "prerequisiteId": "fr-sc-ce1-crois-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Mesurer la croissance d’un être vivant prolonge la mesure de la croissance du corps."
+    },
+    {
+      "topicId": "fr-sc-ce2-repro-04",
+      "prerequisiteId": "fr-sc-ce2-repro-02",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Croissance continue ou discontinue se met en évidence par des mesures."
+    },
+    {
+      "topicId": "fr-sc-ce2-repro-04",
+      "prerequisiteId": "fr-sc-ce2-repro-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La mue et la métamorphose concernent des animaux comme les insectes."
+    },
+    {
+      "topicId": "fr-sc-ce2-loco-02",
+      "prerequisiteId": "fr-sc-ce2-loco-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Il faut connaitre les organes locomoteurs pour comparer leurs formes."
+    },
+    {
+      "topicId": "fr-sc-ce2-env-01",
+      "prerequisiteId": "fr-sc-ce2-viv-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Nommer le groupe d’un être vivant mobilise la classification."
+    },
+    {
+      "topicId": "fr-sc-ce2-env-02",
+      "prerequisiteId": "fr-sc-ce1-nutr-03",
+      "strength": "hard",
+      "origin": "texte",
+      "reason": "Construire une chaine alimentaire part du régime alimentaire des espèces."
+    },
+    {
+      "topicId": "fr-sc-ce2-env-03",
+      "prerequisiteId": "fr-sc-cp-env-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le sol est un milieu de vie déjà repéré au CP."
+    },
+    {
+      "topicId": "fr-sc-ce2-edd-01",
+      "prerequisiteId": "fr-sc-cp-edd-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Évaluer les conséquences prolonge le constat des modifications dues aux humains."
+    },
+    {
+      "topicId": "fr-sc-ce2-edd-02",
+      "prerequisiteId": "fr-sc-ce1-edd-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le projet collectif prolonge l’action de préservation menée au CE1."
+    },
+    {
+      "topicId": "fr-sc-cp-alim-02",
+      "prerequisiteId": "fr-sc-cp-alim-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Catégories et origine des aliments s’étudient ensemble."
+    },
+    {
+      "topicId": "fr-sc-cp-crois-02",
+      "prerequisiteId": "fr-sc-cp-crois-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Repérer les articulations d’un mouvement suppose de les nommer."
+    },
+    {
+      "topicId": "fr-sc-ce1-alim-01",
+      "prerequisiteId": "fr-sc-cp-alim-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les apports se rattachent aux catégories d’aliments."
+    },
+    {
+      "topicId": "fr-sc-ce1-alim-02",
+      "prerequisiteId": "fr-sc-ce1-alim-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’équilibre alimentaire repose sur les apports spécifiques des aliments."
+    },
+    {
+      "topicId": "fr-sc-ce1-crois-02",
+      "prerequisiteId": "fr-sc-ce1-crois-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer la croissance de plusieurs personnes utilise des mesures du corps."
+    },
+    {
+      "topicId": "fr-sc-ce1-crois-04",
+      "prerequisiteId": "fr-sc-ce1-crois-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer dents de lait et définitives s’appuie sur la structure des dents."
+    },
+    {
+      "topicId": "fr-sc-ce1-sante-01",
+      "prerequisiteId": "fr-sc-cp-sante-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’hygiène buccodentaire précise les règles d’hygiène vues au CP."
+    },
+    {
+      "topicId": "fr-sc-ce1-sante-01",
+      "prerequisiteId": "fr-sc-ce1-crois-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Protéger l’émail et les gencives suppose de connaitre la structure des dents."
+    },
+    {
+      "topicId": "fr-sc-ce1-sante-03",
+      "prerequisiteId": "fr-sc-ce1-sante-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Repérer les distractions suppose de savoir ce qu’est l’attention."
+    },
+    {
+      "topicId": "fr-sc-ce2-crois-01",
+      "prerequisiteId": "fr-sc-cp-crois-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La modélisation porte sur la flexion/extension vue au CP."
+    },
+    {
+      "topicId": "fr-sc-ce2-crois-03",
+      "prerequisiteId": "fr-sc-ce2-crois-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Mesurer le pouls précise l’observation des changements du corps à l’effort."
+    },
+    {
+      "topicId": "fr-sc-ce2-sante-01",
+      "prerequisiteId": "fr-sc-cp-sante-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’activité physique régulière fait partie des règles d’hygiène de vie."
+    },
+    {
+      "topicId": "fr-sc-ce2-sante-02",
+      "prerequisiteId": "fr-sc-ce1-sante-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les méthodes d’apprentissage s’appuient sur la concentration."
+    },
+    {
+      "topicId": "fr-sc-cp-obj-02",
+      "prerequisiteId": "fr-sc-cp-obj-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Il faut reconnaitre un objet technique pour retracer sa fabrication."
+    },
+    {
+      "topicId": "fr-sc-cp-obj-03",
+      "prerequisiteId": "fr-sc-cp-obj-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "On relie aux besoins des objets reconnus comme techniques."
+    },
+    {
+      "topicId": "fr-sc-ce1-obj-01",
+      "prerequisiteId": "fr-sc-cp-obj-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La fonction des parties prolonge le lien entre objet et besoin."
+    },
+    {
+      "topicId": "fr-sc-ce1-obj-03",
+      "prerequisiteId": "fr-sc-ce1-obj-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "L’intérêt de l’électricité se dégage en comparant objets électriques et manuels."
+    },
+    {
+      "topicId": "fr-sc-ce1-obj-04",
+      "prerequisiteId": "fr-sc-ce1-elec-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "La maquette intègre un circuit électrique à une boucle."
+    },
+    {
+      "topicId": "fr-sc-ce2-obj-01",
+      "prerequisiteId": "fr-sc-ce1-obj-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Identifier les dispositifs d’un ordinateur prolonge l’étude des parties d’un objet."
+    },
+    {
+      "topicId": "fr-sc-ce2-obj-02",
+      "prerequisiteId": "fr-sc-ce2-obj-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Saisir un texte utilise le clavier et l’écran."
+    },
+    {
+      "topicId": "fr-sc-ce2-obj-03",
+      "prerequisiteId": "fr-sc-ce2-obj-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Une recherche demande de saisir des mots au clavier."
+    },
+    {
+      "topicId": "fr-sc-ce2-obj-04",
+      "prerequisiteId": "fr-sc-ce1-obj-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Identifier les pièces prolonge l’identification des parties d’un objet."
+    },
+    {
+      "topicId": "fr-sc-ce2-obj-05",
+      "prerequisiteId": "fr-sc-cp-obj-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer des objets suppose d’identifier le besoin auquel ils répondent."
+    },
+    {
+      "topicId": "fr-sc-ce2-obj-06",
+      "prerequisiteId": "fr-sc-ce1-obj-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Le programme par blocs prolonge la programmation d’un déplacement par boutons."
+    },
+    {
+      "topicId": "fr-sc-ce2-obj-07",
+      "prerequisiteId": "fr-sc-ce2-obj-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Retrouver un programme suppose de savoir en écrire un."
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

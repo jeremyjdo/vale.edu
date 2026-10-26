@@ -1,0 +1,938 @@
+{
+  "programme": "em-c3",
+  "level": "multiple",
+  "themeCodes": {
+    "cha": "Chanter et interpréter",
+    "eco": "Écouter, comparer et commenter",
+    "cre": "Explorer, imaginer et créer",
+    "ech": "Échanger, partager et argumenter"
+  },
+  "notions": [
+    {
+      "id": "fr-em-c3-cha-01",
+      "programme": "em-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Chanter et interpréter",
+      "subdomain": "Chanter et interpréter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Reproduire et interpréter un modèle mélodique et rythmique",
+      "description": "Répéter fidèlement une mélodie ou un rythme entendu (chanté ou frappé), puis l’interpréter en y mettant une intention.",
+      "officialObjectives": [
+        "Reproduire et interpréter un modèle mélodique et rythmique."
+      ],
+      "evidence": [
+        "Reproduit une phrase mélodique ou une formule rythmique entendue.",
+        "Frappe une formule rythmique ou l’utilise pour organiser un mouvement dansé.",
+        "Apprend et interprète des chansons de différents styles."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reproduire une formule rythmique frappée par l’enseignant, puis la rejouer plus doucement ou plus vite ?",
+      "priorKnowledge": [
+        "Reproduire un modèle mélodique, rythmique (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-cha-02",
+      "programme": "em-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Chanter et interpréter",
+      "subdomain": "Chanter et interpréter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Chanter juste une mélodie simple avec une intention expressive",
+      "description": "Chanter une mélodie simple en respectant la hauteur des notes (chanter juste) et en cherchant à exprimer quelque chose (la joie, la tristesse…).",
+      "officialObjectives": [
+        "Chanter une mélodie simple avec une intonation juste et une intention expressive."
+      ],
+      "evidence": [
+        "Chante une mélodie simple avec une intonation juste.",
+        "Interprète une phrase mélodique ou un couplet de chanson en lien avec une intention expressive.",
+        "Identifie, choisit et mobilise les techniques vocales et corporelles au service du sens et de l’expression."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait chanter juste le refrain d’une chanson apprise en classe en lui donnant un caractère joyeux ou triste ?",
+      "priorKnowledge": [
+        "Chanter une mélodie simple avec une intonation juste (Cycle 2)",
+        "Éléments constitutifs d’une production vocale : respiration, articulation, posture du corps (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-cha-03",
+      "programme": "em-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Chanter et interpréter",
+      "subdomain": "Chanter et interpréter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Chanter par cœur et soutenir un bref solo",
+      "description": "Retenir un chant appris à l’oreille (par imitation) pour le chanter sans support, et oser chanter seul un court passage. Chaque année du cycle, la classe apprend au moins quatre chants.",
+      "officialObjectives": [
+        "Mémoriser et chanter par cœur un chant appris par imitation, soutenir un bref moment de chant en solo.",
+        "Répertoire de chansons diverses."
+      ],
+      "evidence": [
+        "Chante par cœur un chant appris par imitation.",
+        "Chante seul un bref passage d’un chant.",
+        "Apprend chaque année du cycle un répertoire d’au moins quatre chants."
+      ],
+      "period": "chaque année du cycle (au moins quatre chants)",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait chanter de mémoire un chant appris en classe, et en chanter seul un couplet ?",
+      "priorKnowledge": [
+        "Chanter une comptine, un chant par imitation (Cycle 2)",
+        "Un répertoire varié de chansons et de comptines (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-cha-04",
+      "programme": "em-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Chanter et interpréter",
+      "subdomain": "Chanter et interpréter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Interpréter un chant avec expressivité selon des choix fixés",
+      "description": "Chanter en respectant des choix d’interprétation décidés à l’avance (plus fort, plus doucement, plus vite, en mouvement…) en jouant sur les paramètres du son et sur les techniques vocales.",
+      "officialObjectives": [
+        "Interpréter un chant avec expressivité en respectant plusieurs choix et contraintes précédemment indiqués.",
+        "Paramètres du son et techniques vocales pour en jouer de façon expressive.",
+        "Interpréter un répertoire varié avec expressivité."
+      ],
+      "evidence": [
+        "Interprète un chant en respectant plusieurs choix et contraintes indiqués à l’avance.",
+        "Joue sur les paramètres mobilisables pour interpréter une phrase mélodique : timbre, intensité, espace (en mouvement, en plusieurs groupes), durée (tempo), hauteurs.",
+        "Apprend et interprète des chansons de différents styles."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait chanter un couplet en respectant les consignes décidées par la classe : commencer doucement, accélérer, puis finir fort ?",
+      "priorKnowledge": [
+        "Interpréter un chant avec expressivité (phrasé, articulation du texte) en respectant ses phrases musicales (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-cha-05",
+      "programme": "em-c3",
+      "type": "LANGUAGE",
+      "subject": "Éducation musicale",
+      "domain": "Chanter et interpréter",
+      "subdomain": "Chanter et interpréter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Vocabulaire de l’expression et notion d’interprétation",
+      "description": "Connaître quelques mots pour parler de l’expression musicale (nuances comme fort ou doux, tempo, caractère) et comprendre ce que veut dire « interpréter » une musique, qu’on l’écoute ou qu’on la chante.",
+      "officialObjectives": [
+        "Vocabulaire de l’expression : quelques nuances simples, tempo, caractère, etc.",
+        "Interprétation d’une musique : compréhension du terme et usage approprié à propos d’une œuvre écoutée et d’une musique produite en classe."
+      ],
+      "evidence": [
+        "Emploie quelques nuances simples, le tempo, le caractère pour décrire une interprétation.",
+        "Utilise de façon appropriée le terme « interprétation » à propos d’une œuvre écoutée et d’une musique produite en classe.",
+        "Compare des interprétations d’une œuvre donnée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, en écoutant deux versions d’une même chanson, laquelle a le tempo le plus rapide, laquelle est la plus douce, et en quoi les interprétations diffèrent ?",
+      "priorKnowledge": [
+        "Éléments de vocabulaire concernant l’usage musical de la voix : fort, doux, aigu, grave, faux, juste, etc. (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-cha-06",
+      "programme": "em-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Chanter et interpréter",
+      "subdomain": "Chanter et interpréter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Tenir sa partie dans une polyphonie",
+      "description": "Chanter sa propre partie pendant que d’autres chantent une partie différente en même temps (chant à plusieurs voix), et comprendre que ces parties se complètent.",
+      "officialObjectives": [
+        "Tenir sa partie dans un bref moment de polyphonie.",
+        "Polyphonie : rôle complémentaire des parties simultanées."
+      ],
+      "evidence": [
+        "Tient sa partie pendant un bref moment de polyphonie.",
+        "Explique que les parties chantées simultanément jouent un rôle complémentaire.",
+        "Chante en plusieurs groupes en jouant sur l’espace."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait continuer à chanter sa partie sans se laisser entraîner quand un autre groupe chante une mélodie différente en même temps ?",
+      "priorKnowledge": [
+        "Postures du musicien : écouter, respecter l’autre, jouer ensemble (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-cha-07",
+      "programme": "em-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Chanter et interpréter",
+      "subdomain": "Chanter et interpréter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Mobiliser son corps et des instruments pour interpréter",
+      "description": "Accompagner son interprétation par des gestes, des mouvements dansés ou des rythmes frappés, et parfois avec des instruments.",
+      "officialObjectives": [
+        "Mobiliser son corps pour interpréter, le cas échéant avec des instruments."
+      ],
+      "evidence": [
+        "Accompagne un chant d’une formule rythmique frappée ou d’un mouvement dansé.",
+        "Utilise des instruments pour interpréter.",
+        "Joue sur l’espace (en mouvement, en plusieurs groupes) pendant une interprétation."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait accompagner une chanson en frappant une formule rythmique régulière ou en jouant d’un petit instrument ?",
+      "priorKnowledge": [
+        "Mobiliser son corps pour interpréter (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-cha-08",
+      "programme": "em-c3",
+      "type": "META",
+      "subject": "Éducation musicale",
+      "domain": "Chanter et interpréter",
+      "subdomain": "Chanter et interpréter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Identifier les difficultés rencontrées en chantant",
+      "description": "Repérer ce qui ne va pas encore dans l’interprétation d’un chant (un passage difficile, un départ manqué…) pour pouvoir l’améliorer.",
+      "officialObjectives": [
+        "Identifier les difficultés rencontrées dans l’interprétation d’un chant."
+      ],
+      "evidence": [
+        "Repère un passage difficile dans l’interprétation d’un chant.",
+        "Critique l’enregistrement de la production vocale de la classe pour améliorer l’interprétation.",
+        "Échange de façon critique sur le résultat en vue d’une nouvelle réalisation."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, après avoir écouté l’enregistrement de la chorale, à quel moment le chant devient moins juste ou moins ensemble ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-eco-01",
+      "programme": "em-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Écouter, comparer et commenter",
+      "subdomain": "Écouter, comparer et commenter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Décrire et comparer des éléments sonores variés",
+      "description": "Décrire et comparer, avec un vocabulaire simple, des sons de la nature et des musiques de pays, de cultures et d’époques différents.",
+      "officialObjectives": [
+        "Décrire et comparer des éléments sonores issus de la biodiversité, de contextes musicaux, d’aires géographiques ou culturelles différents et dans un temps historique, contemporain, proche ou lointain.",
+        "Vocabulaire simple pour décrire la musique."
+      ],
+      "evidence": [
+        "Décrit un extrait musical à l’aide d’un ensemble de termes donnés (écoute préparée).",
+        "Compare des éléments sonores issus de la biodiversité et de contextes musicaux différents.",
+        "Compare des musiques d’aires géographiques ou culturelles et d’époques différentes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire avec des mots simples ce qui distingue un chant d’oiseau enregistré et un morceau de flûte qui l’imite ?",
+      "priorKnowledge": [
+        "Décrire et comparer des éléments sonores ; repérer, y compris dans la nature, des sons et des suites musicales ; identifier des éléments communs et contrastés (Cycle 2)",
+        "Lexique élémentaire pour décrire la musique : timbre, hauteur, formes simples, intensité, tempo (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-eco-02",
+      "programme": "em-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Écouter, comparer et commenter",
+      "subdomain": "Écouter, comparer et commenter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Identifier ressemblances et différences entre deux extraits",
+      "description": "Écouter deux extraits musicaux et dire ce qui les rapproche et ce qui les distingue, en se concentrant sur un élément précis (le rythme, la mélodie, le timbre…).",
+      "officialObjectives": [
+        "Identifier et nommer ressemblances et différences dans deux extraits musicaux.",
+        "Méthodes pour comparer des musiques."
+      ],
+      "evidence": [
+        "Identifie et nomme les ressemblances et les différences entre deux extraits musicaux.",
+        "Compare des extraits selon un angle d’écoute identifié à l’avance : le rythme, la répétition, le timbre, la mélodie.",
+        "Associe de brefs extraits musicaux par ressemblances.",
+        "Compare des interprétations d’une œuvre donnée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, après l’écoute de deux extraits, lequel est le plus rapide et quels instruments les distinguent ?",
+      "priorKnowledge": [
+        "Comparer des musiques et identifier des ressemblances et des différences (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-eco-03",
+      "programme": "em-c3",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation musicale",
+      "domain": "Écouter, comparer et commenter",
+      "subdomain": "Écouter, comparer et commenter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Repérer une organisation simple et en déduire une forme",
+      "description": "Repérer ce qui revient dans une musique (une mélodie, un rythme, un thème) et en déduire sa forme simple, par exemple couplet/refrain ou ABA (une partie, une autre, puis le retour de la première).",
+      "officialObjectives": [
+        "Repérer et nommer une organisation simple dans un extrait musical : répétition d’une mélodie, d’un motif rythmique, d’un thème, d’une partie caractéristique, etc. ; en déduire une forme simple (couplet/refrain, ABA par exemple)."
+      ],
+      "evidence": [
+        "Repère la répétition d’une mélodie, d’un motif rythmique, d’un thème ou d’une partie caractéristique.",
+        "Déduit une forme simple : couplet/refrain, ABA.",
+        "Code (schématise) de brefs extraits et compare les codages."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître, dans une chanson écoutée, le retour du refrain et dire si la forme est couplet/refrain ou ABA ?",
+      "priorKnowledge": [
+        "Repérer une organisation simple : récurrence d’une mélodie, d’un motif rythmique, d’un thème, etc. (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 48,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-eco-04",
+      "programme": "em-c3",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation musicale",
+      "domain": "Écouter, comparer et commenter",
+      "subdomain": "Écouter, comparer et commenter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Relier une œuvre musicale aux savoirs d’autres disciplines et d’autres arts",
+      "description": "Rattacher une musique découverte à ce qu’on a appris en histoire, en géographie, en français ou en sciences, et la comparer avec d’autres arts (images, danse, cinéma).",
+      "officialObjectives": [
+        "Associer la découverte d’une œuvre à des connaissances construites dans d’autres domaines enseignés."
+      ],
+      "evidence": [
+        "Met en lien des caractéristiques musicales d’œuvres différentes et les présente en lien avec d’autres savoirs (histoire, géographie, français, sciences).",
+        "Compare une œuvre musicale avec des œuvres d’autres domaines artistiques : image fixe et animée, danse.",
+        "Compare des usages de la musique à l’image animée (cinéma)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait relier une musique écoutée en classe à une époque étudiée en histoire, ou expliquer le rôle de la musique dans une scène de film ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-eco-05",
+      "programme": "em-c3",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation musicale",
+      "domain": "Écouter, comparer et commenter",
+      "subdomain": "Écouter, comparer et commenter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Situer une œuvre musicale dans le temps et dans l’espace",
+      "description": "Avoir quelques repères simples pour dire de quelle époque et de quelle région du monde vient une musique, à partir de ses caractéristiques.",
+      "officialObjectives": [
+        "Repères simples dans le temps et dans l’espace.",
+        "Identifier quelques caractéristiques qui inscrivent une œuvre musicale dans une aire géographique ou culturelle et dans un temps historique contemporain, proche ou lointain."
+      ],
+      "evidence": [
+        "Identifie quelques caractéristiques qui inscrivent une œuvre musicale dans une aire géographique ou culturelle.",
+        "Situe une œuvre écoutée dans un temps historique ou contemporain, proche ou lointain.",
+        "S’appuie sur les œuvres écoutées, choisies dans des styles et des époques divers, comme premiers repères dans l’espace et dans le temps."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, à partir de quelques indices (instruments, voix, style), si une musique écoutée est ancienne ou récente et de quelle région du monde elle peut venir ?",
+      "priorKnowledge": [
+        "Repères simples dans l’espace et le temps (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-eco-06",
+      "programme": "em-c3",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation musicale",
+      "domain": "Écouter, comparer et commenter",
+      "subdomain": "Écouter, comparer et commenter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Connaître quelques grandes œuvres du patrimoine musical",
+      "description": "Découvrir et reconnaître quelques grandes œuvres musicales. Chaque année du cycle, la classe découvre au moins six œuvres ou extraits d’œuvres de styles et d’époques variés.",
+      "officialObjectives": [
+        "Quelques grandes œuvres du patrimoine."
+      ],
+      "evidence": [
+        "Découvre chaque année du cycle au moins six œuvres (ou extraits d’œuvres) de styles et d’époques divers.",
+        "Présente un extrait déjà écouté et travaillé en classe en utilisant le vocabulaire approprié.",
+        "Reconnaît à l’écoute une œuvre étudiée en classe."
+      ],
+      "period": "chaque année du cycle (au moins six œuvres ou extraits)",
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître, à l’écoute, une grande œuvre étudiée en classe et la présenter avec quelques mots justes ?",
+      "priorKnowledge": [
+        "Quelques grandes œuvres du patrimoine (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-eco-07",
+      "programme": "em-c3",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation musicale",
+      "domain": "Écouter, comparer et commenter",
+      "subdomain": "Écouter, comparer et commenter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "L’orchestre symphonique et les formes de production musicale",
+      "description": "Connaître les principales caractéristiques de l’orchestre symphonique et distinguer les grandes façons de faire de la musique : avec des voix, avec des instruments, en groupe ou en soliste.",
+      "officialObjectives": [
+        "Principales caractéristiques de l’orchestre symphonique.",
+        "Formes de production variées : vocales, instrumentales, solistes."
+      ],
+      "evidence": [
+        "Cite quelques caractéristiques principales de l’orchestre symphonique.",
+        "Distingue à l’écoute une production vocale, instrumentale ou soliste."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, à l’écoute d’un extrait, s’il s’agit d’un orchestre symphonique, d’un chœur ou d’un soliste ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-cre-01",
+      "programme": "em-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Explorer, imaginer et créer",
+      "subdomain": "Explorer, imaginer et créer",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Expérimenter les paramètres du son et imaginer leurs usages",
+      "description": "Jouer avec la hauteur, la durée, l’intensité et le timbre des sons (de la voix, d’objets) et imaginer comment s’en servir pour faire de la musique.",
+      "officialObjectives": [
+        "Expérimenter les paramètres du son et en imaginer en conséquence des utilisations possibles."
+      ],
+      "evidence": [
+        "Pratique des jeux vocaux associant des objets sonores.",
+        "Explore les sons de la voix, de l’environnement immédiat et de la nature, et imagine des utilisations musicales.",
+        "Manipule des objets sonores à l’aide d’outils numériques appropriés."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire varier un son produit avec un objet (plus fort, plus long, plus aigu) et proposer une façon de l’utiliser dans une petite création ?",
+      "priorKnowledge": [
+        "Expérimenter les paramètres du son : intensité, hauteur, timbre, durée (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-cre-02",
+      "programme": "em-c3",
+      "type": "LANGUAGE",
+      "subject": "Éducation musicale",
+      "domain": "Explorer, imaginer et créer",
+      "subdomain": "Explorer, imaginer et créer",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Lexique du son et classement des matériaux sonores",
+      "description": "Utiliser des mots précis pour décrire un son (sa hauteur, son timbre, sa durée, son intensité), qu’il vienne d’un instrument, d’une voix ou d’un objet, et classer les sons selon leur caractéristique principale.",
+      "officialObjectives": [
+        "Développement du lexique pour décrire le son instrumental, le son vocal et les objets sonores dans les domaines de la hauteur, du timbre, de la durée, de l’intensité.",
+        "Diversité des matériaux sonores et catégories classées par caractéristiques dominantes."
+      ],
+      "evidence": [
+        "Décrit un son instrumental, un son vocal ou un objet sonore selon sa hauteur, son timbre, sa durée, son intensité.",
+        "Classe des matériaux sonores en catégories selon leurs caractéristiques dominantes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire le son d’un tambour et celui d’un triangle en employant les mots hauteur, timbre, durée et intensité ?",
+      "priorKnowledge": [
+        "Éléments de vocabulaire liés aux paramètres du son (intensité, durée, hauteur, timbre) (Cycle 2)",
+        "Diversité des matériaux sonores (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-cre-03",
+      "programme": "em-c3",
+      "type": "REPRESENTATIONAL",
+      "subject": "Éducation musicale",
+      "domain": "Explorer, imaginer et créer",
+      "subdomain": "Explorer, imaginer et créer",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Représenter graphiquement une suite de sons (partition graphique)",
+      "description": "Inventer des signes ou des dessins pour noter une suite de sons (une partition graphique, qui aide à mémoriser), puis jouer ou chanter ce qui est noté.",
+      "officialObjectives": [
+        "Imaginer des représentations graphiques pour organiser une succession de sons et d’événements sonores.",
+        "Le projet graphique (partition adaptée pour organiser la mémoire) et sa traduction sonore."
+      ],
+      "evidence": [
+        "Imagine une représentation graphique pour organiser une succession de sons et d’événements sonores.",
+        "Réalise des partitions graphiques et compare les résultats.",
+        "Traduit en sons une partition graphique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dessiner une partition avec des symboles pour une suite de sons (longs, courts, forts, doux), puis la faire jouer par la classe ?",
+      "priorKnowledge": [
+        "Imaginer des représentations graphiques ou corporelles de la musique (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-cre-04",
+      "programme": "em-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Explorer, imaginer et créer",
+      "subdomain": "Explorer, imaginer et créer",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Inventer et interpréter une organisation sonore simple",
+      "description": "Choisir des sons (dont la voix), les trier et les organiser dans le temps pour créer une petite pièce, puis l’interpréter : c’est passer de l’explorateur du son au compositeur.",
+      "officialObjectives": [
+        "Inventer une organisation simple à partir de sources sonores sélectionnées (dont la voix) et l’interpréter.",
+        "Les postures de l’explorateur du son puis du compositeur : produire, écouter, trier, choisir, organiser, composer.",
+        "Imaginer l’organisation de différents éléments sonores."
+      ],
+      "evidence": [
+        "Produit, écoute, trie, choisit et organise des sons pour composer.",
+        "Crée une organisation dans le temps d’un ensemble de sons sélectionnés.",
+        "Compose une partition graphique et en réalise la version sonore.",
+        "Interprète l’organisation inventée."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait, avec quelques objets sonores et sa voix, créer une courte pièce organisée et la jouer devant la classe ?",
+      "priorKnowledge": [
+        "Inventer une organisation simple à partir d’éléments sonores travaillés (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-cre-05",
+      "programme": "em-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Explorer, imaginer et créer",
+      "subdomain": "Explorer, imaginer et créer",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Faire des propositions personnelles en création et en interprétation",
+      "description": "Oser proposer une idée personnelle et originale pendant un moment de création ou d’interprétation, tout en écoutant et en respectant les propositions des autres.",
+      "officialObjectives": [
+        "Faire des propositions personnelles lors de moments de création, d’invention et d’interprétation.",
+        "Les exigences de la musique collective : écoute de l’autre, respect de ses propositions."
+      ],
+      "evidence": [
+        "Propose et réalise un apport personnel et original lors d’un moment d’interprétation.",
+        "Écoute les propositions des autres et les respecte dans un travail musical collectif."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait proposer une idée personnelle (un geste, un effet de voix) pour enrichir l’interprétation d’un chant par la classe ?",
+      "priorKnowledge": [
+        "Postures du musicien : écouter, respecter l’autre, jouer ensemble (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-ech-01",
+      "programme": "em-c3",
+      "type": "LANGUAGE",
+      "subject": "Éducation musicale",
+      "domain": "Échanger, partager et argumenter",
+      "subdomain": "Échanger, partager et argumenter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Exprimer ses goûts au-delà du ressenti immédiat",
+      "description": "Dire ce qu’on aime ou non dans une musique en allant plus loin que « j’aime / je n’aime pas » : expliquer pourquoi, et découvrir que les goûts varient d’une personne à l’autre.",
+      "officialObjectives": [
+        "Exprimer ses goûts au-delà de son ressenti immédiat."
+      ],
+      "evidence": [
+        "Exprime et partage un point de vue personnel sur la musique écoutée.",
+        "Explique ses goûts en dépassant la seule émotion immédiate.",
+        "S’enrichit de la diversité des goûts personnels et des esthétiques."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire pourquoi une musique écoutée en classe plaît ou déplaît, en citant au moins un élément entendu (le rythme, les instruments, la voix) ?",
+      "priorKnowledge": [
+        "Exprimer ses émotions, ses sentiments et ses préférences artistiques (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-ech-02",
+      "programme": "em-c3",
+      "type": "PROCEDURAL",
+      "subject": "Éducation musicale",
+      "domain": "Échanger, partager et argumenter",
+      "subdomain": "Échanger, partager et argumenter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Écouter et respecter le point de vue et la sensibilité des autres",
+      "description": "Écouter l’avis des camarades sur une musique avec respect, bienveillance et tolérance, même quand on ne le partage pas.",
+      "officialObjectives": [
+        "Écouter et respecter le point de vue des autres et l’expression de leur sensibilité.",
+        "Notions de respect, de bienveillance, de tolérance."
+      ],
+      "evidence": [
+        "Écoute et respecte le point de vue des autres et l’expression de leur sensibilité lors d’un échange sur une musique.",
+        "Fait preuve de respect, de bienveillance et de tolérance dans un débat sur la musique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écouter sans se moquer un camarade qui aime une musique que {{prenom}} n’aime pas ?",
+      "priorKnowledge": [
+        "Écouter et respecter l’avis des autres et l’expression de leur sensibilité (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-ech-03",
+      "programme": "em-c3",
+      "type": "LANGUAGE",
+      "subject": "Éducation musicale",
+      "domain": "Échanger, partager et argumenter",
+      "subdomain": "Échanger, partager et argumenter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Argumenter un jugement sur une musique",
+      "description": "Défendre son avis sur une musique avec des arguments et un vocabulaire adapté, tout en respectant l’avis des autres.",
+      "officialObjectives": [
+        "Argumenter un jugement sur une musique tout en respectant celui des autres.",
+        "Vocabulaire adapté à l’expression et l’argumentation de son point de vue personnel sur la musique."
+      ],
+      "evidence": [
+        "Argumente un jugement sur une musique en s’appuyant sur des éléments entendus.",
+        "Participe à des débats argumentés sur des musiques relevant d’une actualité médiatisée connue des élèves.",
+        "Emploie un vocabulaire adapté pour exprimer et argumenter un point de vue personnel."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait défendre son avis sur une chanson à la mode avec au moins deux arguments, en écoutant ceux qui pensent autrement ?",
+      "priorKnowledge": [
+        "Vocabulaire adapté à l’expression de son avis (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-ech-04",
+      "programme": "em-c3",
+      "type": "META",
+      "subject": "Éducation musicale",
+      "domain": "Échanger, partager et argumenter",
+      "subdomain": "Échanger, partager et argumenter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Argumenter un choix pour une interprétation collective",
+      "description": "Proposer et justifier un choix (une nuance, un tempo, une règle de jeu) pour améliorer ce que la classe chante ou joue ensemble.",
+      "officialObjectives": [
+        "Argumenter un choix dans la perspective d’une interprétation collective."
+      ],
+      "evidence": [
+        "Argumente un choix d’interprétation proposé au groupe.",
+        "Échange et débat de façon critique sur le résultat en vue d’une nouvelle réalisation.",
+        "Critique l’enregistrement de la production vocale de la classe (chant, jeux vocaux, improvisation) pour améliorer l’interprétation."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait proposer à la classe de chanter un passage plus doucement et expliquer pourquoi cela améliorerait l’interprétation ?",
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    },
+    {
+      "id": "fr-em-c3-ech-05",
+      "programme": "em-c3",
+      "type": "META",
+      "subject": "Éducation musicale",
+      "domain": "Échanger, partager et argumenter",
+      "subdomain": "Échanger, partager et argumenter",
+      "level": "Cycle 3",
+      "cycle": 3,
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "name": "Respecter les conditions et les règles du travail musical collectif",
+      "description": "Faire de la musique ensemble demande de la concentration, de l’écoute, du respect et la capacité d’évaluer son propre travail, avec des règles communes pour arriver à un avis partagé et à un résultat de qualité.",
+      "officialObjectives": [
+        "Conditions d’un travail collectif : concentration, écoute, respect, auto-évaluation, etc.",
+        "Règles et contraintes du travail musical collectif visant l’expression d’un avis partagé comme une production sonore de qualité."
+      ],
+      "evidence": [
+        "Se concentre, écoute et respecte les autres pendant un travail musical collectif.",
+        "Participe à la définition collective des règles d’un jeu vocal.",
+        "Évalue sa propre participation à une production collective.",
+        "Contribue à l’expression d’un avis partagé sur une production sonore de la classe."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait respecter les règles d’un jeu vocal fixées par la classe et dire honnêtement ce qui a été réussi ou non dans sa propre participation ?",
+      "priorKnowledge": [
+        "Respecter les règles et les exigences d’une production musicale collective (Cycle 2)",
+        "Conditions d’un travail collectif : concentration, écoute, respect, etc. (Cycle 2)"
+      ],
+      "source": {
+        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "bo": "BO n° 31 du 30 juillet 2020",
+        "page": 49,
+        "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-em-c3-cha-03",
+      "prerequisiteId": "fr-em-c3-cha-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Mémoriser un chant appris par imitation suppose de savoir reproduire un modèle mélodique et rythmique."
+    },
+    {
+      "topicId": "fr-em-c3-cha-04",
+      "prerequisiteId": "fr-em-c3-cha-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Interpréter avec expressivité s’appuie sur une mélodie chantée juste."
+    },
+    {
+      "topicId": "fr-em-c3-cha-04",
+      "prerequisiteId": "fr-em-c3-cha-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Respecter des choix d’interprétation suppose d’en connaître le vocabulaire (nuances, tempo, caractère)."
+    },
+    {
+      "topicId": "fr-em-c3-cha-06",
+      "prerequisiteId": "fr-em-c3-cha-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Tenir sa partie dans une polyphonie suppose de savoir chanter juste une mélodie seule."
+    },
+    {
+      "topicId": "fr-em-c3-cha-08",
+      "prerequisiteId": "fr-em-c3-cha-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les difficultés se repèrent en confrontant l’interprétation aux choix fixés."
+    },
+    {
+      "topicId": "fr-em-c3-eco-01",
+      "prerequisiteId": "fr-em-c3-cre-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Décrire des éléments sonores mobilise le lexique du son."
+    },
+    {
+      "topicId": "fr-em-c3-eco-02",
+      "prerequisiteId": "fr-em-c3-eco-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Comparer deux extraits s’appuie sur leur description."
+    },
+    {
+      "topicId": "fr-em-c3-eco-03",
+      "prerequisiteId": "fr-em-c3-eco-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Repérer une organisation suppose de décrire ce qu’on entend."
+    },
+    {
+      "topicId": "fr-em-c3-eco-05",
+      "prerequisiteId": "fr-em-c3-eco-06",
+      "strength": "soft",
+      "origin": "texte",
+      "reason": "Le programme indique que les œuvres écoutées posent de premiers repères dans l’espace et dans le temps."
+    },
+    {
+      "topicId": "fr-em-c3-cre-02",
+      "prerequisiteId": "fr-em-c3-cre-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le lexique du son se construit en expérimentant ses paramètres."
+    },
+    {
+      "topicId": "fr-em-c3-cre-04",
+      "prerequisiteId": "fr-em-c3-cre-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Inventer une organisation sonore suppose d’avoir exploré les paramètres du son."
+    },
+    {
+      "topicId": "fr-em-c3-cre-04",
+      "prerequisiteId": "fr-em-c3-cre-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La composition s’appuie sur la partition graphique et sa traduction sonore."
+    },
+    {
+      "topicId": "fr-em-c3-ech-03",
+      "prerequisiteId": "fr-em-c3-ech-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Argumenter un jugement prolonge l’expression de ses goûts."
+    },
+    {
+      "topicId": "fr-em-c3-ech-03",
+      "prerequisiteId": "fr-em-c3-ech-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le jugement s’argumente en respectant celui des autres."
+    },
+    {
+      "topicId": "fr-em-c3-ech-04",
+      "prerequisiteId": "fr-em-c3-ech-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Argumenter un choix collectif mobilise l’argumentation d’un jugement musical."
+    },
+    {
+      "topicId": "fr-em-c3-ech-05",
+      "prerequisiteId": "fr-em-c3-ech-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le travail collectif demande d’écouter et de respecter les autres."
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

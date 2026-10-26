@@ -1,0 +1,2527 @@
+{
+  "programme": "evars-college",
+  "level": "multiple",
+  "themeCodes": {
+    "corps": "Se connaître, vivre et grandir avec son corps",
+    "rel": "Rencontrer les autres et construire des relations, s’y épanouir",
+    "soc": "Trouver sa place dans la société, y être libre et responsable"
+  },
+  "notions": [
+    {
+      "id": "fr-evs-6e-corps-01",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Comprendre et apprendre à vivre les changements de son corps",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Connaître les changements induits par la puberté",
+      "description": "Connaître les transformations que la puberté entraîne, dans leurs différentes dimensions (corps, émotions, relations), et savoir trouver à ce sujet des informations fiables et adaptées à son âge.",
+      "officialObjectives": [
+        "Connaître les changements induits par la puberté."
+      ],
+      "evidence": [
+        "Explique ce que peut signifier le mot « puberté ».",
+        "Décrit les changements induits par la puberté dans leurs différentes dimensions : biologique, psychoaffective, morale, socioculturelle, relationnelle.",
+        "Trouve des informations fiables et adaptées à son âge au sujet de la puberté."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qu’est la puberté et où trouver des informations fiables à ce sujet ?",
+      "priorKnowledge": [
+        "Connaître les changements du corps lors de la puberté et savoir qu’ils ne se produisent pas au même moment chez tous les enfants (CM2)",
+        "Nommer le nom et la fonction des organes reproducteurs (CM2)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 10,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-6e-corps-02",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Comprendre et apprendre à vivre les changements de son corps",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "La puberté, une étape de l’adolescence vécue à son propre rythme",
+      "description": "Comprendre que la puberté fait partie de l’adolescence et transforme le corps, mais aussi les émotions et la façon d’être, à un rythme propre à chacun, et porter un regard bienveillant sur soi.",
+      "officialObjectives": [
+        "Comprendre que la puberté est une composante de l’adolescence, qui entraîne des changements physiques, physiologiques, psychologiques et affectifs, et savoir que ces changements se produisent selon des rythmes différents pour chaque individu."
+      ],
+      "evidence": [
+        "Explique que la puberté entraîne des changements physiques, physiologiques, psychologiques et affectifs.",
+        "Explique que le passage de l’enfance à l’adolescence ne suit ni un rythme ni un modèle unique.",
+        "Observe, dans des œuvres artistiques ou littéraires, la diversité des représentations du corps et explique que chaque personne a un corps singulier.",
+        "Porte un regard bienveillant sur soi en nommant ses forces et ses qualités."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend que la puberté change aussi les émotions et l’humeur, et que chacun la vit à son propre rythme ?",
+      "priorKnowledge": [
+        "Comprendre que la puberté se produit à des âges différents selon les individus et qu’elle n’a pas les mêmes effets (CM1)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 11,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-6e-corps-03",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Comprendre et apprendre à vivre les changements de son corps",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Savoir que des règles douloureuses justifient une consultation médicale",
+      "description": "Savoir que des règles douloureuses ne sont pas à supporter en silence : elles justifient de consulter un médecin. Plus largement, connaître des moyens de se sentir à l’aise avec les transformations du corps.",
+      "officialObjectives": [
+        "Savoir que les menstruations (règles) douloureuses nécessitent une consultation médicale."
+      ],
+      "evidence": [
+        "Explique que des menstruations (règles) douloureuses nécessitent une consultation médicale.",
+        "Cite des comportements et des moyens qui aident à se sentir à l’aise avec les transformations corporelles, en particulier les règles."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que des règles douloureuses sont une raison de consulter un médecin, et qu’il existe des moyens de se sentir plus à l’aise ?",
+      "priorKnowledge": [
+        "Apprendre scientifiquement ce que sont les menstruations (règles), composante normale et naturelle du développement physique des filles (CM2)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 11,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-6e-rel-01",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Entrer en relation avec les autres et comprendre que les relations peuvent changer",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Caractériser une relation : intérêt, sympathie, attirance…",
+      "description": "Savoir décrire ce qui se joue dans une relation avec quelqu’un : indifférence ou intérêt, familiarité ou sentiment de différence, sympathie ou antipathie, attirance ou rejet. Ces relations peuvent changer.",
+      "officialObjectives": [
+        "Caractériser le contexte, la nature et les enjeux d’une relation interpersonnelle : indifférence/intérêt ; familiarité/altérité ; sympathie/antipathie ; attirance/répulsion."
+      ],
+      "evidence": [
+        "Caractérise une relation selon les couples indifférence/intérêt, familiarité/altérité, sympathie/antipathie, attirance/répulsion.",
+        "Identifie, à partir d’un photolangage ou de témoignages fictifs, les composantes des relations : confiance, échange, respect, soutien, empathie, solidarité.",
+        "Montre comment ces composantes peuvent être exprimées."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire ce qu’on peut ressentir envers quelqu’un (indifférence, sympathie, attirance…) et comprend qu’une relation peut évoluer ?",
+      "priorKnowledge": [
+        "Savoir que les relations entre individus peuvent traduire différents types de relations affectives (CM2)",
+        "Nommer divers sentiments éprouvés dans les relations interpersonnelles (CM2)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 11,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-6e-rel-02",
+      "programme": "evars-college",
+      "type": "META",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Entrer en relation avec les autres et comprendre que les relations peuvent changer",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Reconnaître l’influence positive ou négative des pairs",
+      "description": "Prendre du recul sur l’influence des copains et du groupe sur ses décisions et ses comportements, pour garder son propre jugement.",
+      "officialObjectives": [
+        "Savoir penser de façon critique : reconnaître les influences positives et négatives des pairs sur les décisions et les comportements à l’adolescence."
+      ],
+      "evidence": [
+        "Distingue les influences positives et négatives des pairs sur les décisions et les comportements.",
+        "Joue le rôle de modérateur face à des messages des réseaux sociaux impliquant la considération du corps des autres, en argumentant ses décisions."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer quand le groupe pousse à faire quelque chose de bien ou de moins bien, et garder son propre avis ?",
+      "priorKnowledge": [
+        "Savoir penser de façon critique : apprendre à résister à la pression sociale sans préjugés ni discriminations (CM1)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 11,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-6e-rel-03",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Entrer en relation avec les autres et comprendre que les relations peuvent changer",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Le cadre légal qui protège la vie privée et l’intimité en ligne",
+      "description": "Connaître les règles de la loi qui protègent la vie privée et l’intimité de chacun, en particulier sur les outils numériques, comprendre pourquoi elles existent et savoir que faire en cas de cyberharcèlement.",
+      "officialObjectives": [
+        "Connaître, en particulier dans l’usage des outils numériques, le cadre légal qui vise à protéger la vie privée et respecter l’intimité de tout individu et la dimension éthique qui le sous-tend."
+      ],
+      "evidence": [
+        "Explique les règles légales qui protègent la vie privée et l’intimité, en particulier dans l’usage des outils numériques.",
+        "Explique la dimension éthique de ces règles : le respect de l’intimité de tout individu.",
+        "Identifie ce qu’il convient de faire si l’on est victime ou témoin de cyberharcèlement : en parler à des adultes de confiance, s’adresser au 119, au 3018, aux services de police et de gendarmerie."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que publier la photo ou les informations de quelqu’un sans son accord peut être interdit par la loi, et que faire en cas de cyberharcèlement ?",
+      "priorKnowledge": [
+        "Comprendre ce qu’est la majorité numérique et devenir acteur de sa protection sur Internet (CM2)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 11,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-6e-rel-04",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Entrer en relation avec les autres et comprendre que les relations peuvent changer",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Développer des relations constructives et des liens sociaux",
+      "description": "Construire des liens avec les autres, notamment en comprenant ce que vit chacun des protagonistes d’une situation difficile comme le harcèlement.",
+      "officialObjectives": [
+        "Développer des relations constructives : développer des liens sociaux."
+      ],
+      "evidence": [
+        "Décrit une situation de harcèlement selon plusieurs points de vue, en décrivant les émotions ressenties par les différents protagonistes.",
+        "Exprime dans ses relations la confiance, le respect et le soutien."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} arrive à créer des liens avec de nouveaux camarades au collège et à se mettre à la place de chacun dans une situation difficile ?",
+      "priorKnowledge": [
+        "Développer sa capacité d’écoute et l’attention portée aux autres (CM1)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 11,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-6e-soc-01",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Trouver sa place au sein d’un groupe sans renier ses propres émotions, respecter les autres et être respecté",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Étudier le fonctionnement des groupes : règles, normes, stéréotypes",
+      "description": "Distinguer les règles, les normes, les modèles et les stéréotypes, s’interroger sur leurs effets et repérer comment, dans un groupe, certains peuvent être mis en avant et d’autres exclus.",
+      "officialObjectives": [
+        "Étudier les fonctionnements sociaux : - en différenciant : règles, normes, modèles et stéréotypes ; - en interrogeant les normes sociales et culturelles et en analysant leurs impacts ; - en considérant les processus de hiérarchisation ou d’exclusion (réelle ou symbolique) à l’œuvre au sein des groupes d’appartenance."
+      ],
+      "evidence": [
+        "Différencie règles, normes, modèles et stéréotypes.",
+        "Interroge des normes sociales et culturelles et en analyse les impacts.",
+        "Repère des processus de hiérarchisation ou d’exclusion, réelle ou symbolique, au sein d’un groupe.",
+        "Analyse l’utilisation des espaces du collège et propose des stratégies pour une utilisation plus égalitaire."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire la différence entre une règle et une simple habitude du groupe, et repérer quand quelqu’un est mis à l’écart ?",
+      "priorKnowledge": [
+        "Comprendre en quoi les stéréotypes et les représentations liées au genre influencent la vie des individus et peuvent être à l’origine de discriminations (CM1)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-6e-soc-02",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Trouver sa place au sein d’un groupe sans renier ses propres émotions, respecter les autres et être respecté",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "La liberté d’être soi-même et le respect des autres à la puberté",
+      "description": "Comprendre qu’à la puberté chacun a la liberté d’être soi-même, et que cette liberté va de pair avec le devoir de respecter les autres.",
+      "officialObjectives": [
+        "Comprendre ce que signifie, à la puberté, la liberté d’être soi-même et le devoir de respect des autres."
+      ],
+      "evidence": [
+        "Explique ce que signifient, à la puberté, la liberté d’être soi-même et le devoir de respect des autres.",
+        "Réfléchit de façon argumentée à ce qui fait qu’on est ou non « à l’aise » au milieu des autres.",
+        "Propose des façons d’agir pour que chacun se sente mieux dans le groupe."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait pourquoi on peut parfois ne pas être à l’aise au milieu des autres, et ce qu’on peut faire pour que chacun se sente mieux ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-6e-soc-03",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Trouver sa place au sein d’un groupe sans renier ses propres émotions, respecter les autres et être respecté",
+      "level": "6e",
+      "cycle": 3,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "name": "Accepter les autres dans leur diversité et coopérer",
+      "description": "Construire des relations fondées sur l’acceptation des différences, la collaboration, la coopération et l’entraide, et faire le lien entre sa santé et celle des autres.",
+      "officialObjectives": [
+        "Développer des relations fondées sur l’acceptation des autres dans leur diversité, la collaboration, la coopération, l’entraide."
+      ],
+      "evidence": [
+        "Collabore et coopère avec des élèves différents de soi.",
+        "Identifie le lien entre des enjeux individuels de santé et des enjeux collectifs, par exemple la vaccination comme acte citoyen."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} travaille et s’entraide volontiers avec des camarades très différents ?",
+      "priorKnowledge": [
+        "Développer des relations constructives : accepter, coopérer, s’entraider (CE1)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-corps-01",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Développer librement sa personnalité sans se sentir obligé ou contraint",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Différencier sexe, genre et orientation sexuelle",
+      "description": "Distinguer le sexe biologique, le genre et l’orientation sexuelle, et respecter la diversité de chacun.",
+      "officialObjectives": [
+        "Différencier sexe, genre et orientation sexuelle et respecter leurs diversités."
+      ],
+      "evidence": [
+        "Identifie, à partir de documents scientifiques, ce qui relève de la détermination du sexe biologique, du genre et de l’orientation sexuelle.",
+        "Explique la différence entre ces trois notions."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer simplement la différence entre le sexe, le genre et l’orientation sexuelle, et pourquoi il faut respecter chacun ?",
+      "priorKnowledge": [
+        "Comprendre en quoi les stéréotypes et les représentations liées au genre ont une influence sur la vie des individus (CM1)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-corps-02",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Développer librement sa personnalité sans se sentir obligé ou contraint",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Attirance, sentiments amoureux et orientation sexuelle",
+      "description": "Comprendre que c’est à travers l’attirance et les sentiments amoureux que chacun prend peu à peu conscience de son orientation sexuelle.",
+      "officialObjectives": [
+        "Comprendre comment l’attirance et les sentiments amoureux permettent de prendre conscience de son orientation sexuelle."
+      ],
+      "evidence": [
+        "Explique comment l’attirance et les sentiments amoureux permettent de prendre conscience de son orientation sexuelle.",
+        "Respecte la diversité des orientations sexuelles."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend que c’est en éprouvant de l’attirance et des sentiments amoureux que chacun découvre son orientation sexuelle ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-corps-03",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Développer librement sa personnalité sans se sentir obligé ou contraint",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "La diversité des apparences n’empêche pas l’égalité",
+      "description": "Comprendre que nous sommes égaux quelles que soient nos différences d’apparence physique, et que l’égalité n’oblige pas à se ressembler.",
+      "officialObjectives": [
+        "Comprendre que la diversité des apparences physiques n’empêche pas l’égalité, et réciproquement."
+      ],
+      "evidence": [
+        "Explique que la diversité des apparences physiques n’empêche pas l’égalité, et que l’égalité n’impose pas de se ressembler.",
+        "Analyse les places que la société confère aux femmes et aux hommes et leurs parcours : différenciés, hiérarchisés, choisis, imposés ?",
+        "Cite des législations nationales et des accords internationaux qui reconnaissent et protègent les droits humains de chaque individu."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend que l’on est tous égaux, quelles que soient nos différences d’apparence ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-corps-04",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Développer librement sa personnalité sans se sentir obligé ou contraint",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "La santé : un état complet de bien-être physique, mental et social",
+      "description": "Connaître la définition de la santé donnée par l’Organisation mondiale de la santé, qui ne se limite pas à l’absence de maladie, et savoir comment se faire aider.",
+      "officialObjectives": [
+        "Identifier la santé comme un « état complet de bien-être physique, mental et social » (définition de l’Organisation mondiale de la santé)."
+      ],
+      "evidence": [
+        "Cite la définition de la santé de l’OMS : « un état complet de bien-être physique, mental et social ».",
+        "Explique ce que signifient « être en bonne santé », « ne pas être en forme », « aller bien », « aller mal ».",
+        "Différencie un malaise, un trouble, une douleur et une maladie, et en tire des conséquences pratiques.",
+        "Détermine des facteurs qui influencent positivement et négativement la santé.",
+        "Indique comment se faire aider."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que la santé, ce n’est pas seulement le corps, mais aussi le moral et les relations avec les autres, et sait vers qui se tourner quand ça ne va pas ?",
+      "priorKnowledge": [
+        "Prendre conscience de l’importance d’apprécier et de prendre soin de son corps ; la bonne santé concerne la santé physique, mentale et sociale (CE2)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-corps-05",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Développer librement sa personnalité sans se sentir obligé ou contraint",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Accepter les autres dans leur diversité",
+      "description": "Construire des relations avec les autres en acceptant leurs différences, notamment de sexe, de genre ou d’orientation sexuelle.",
+      "officialObjectives": [
+        "Développer des relations sociales constructives : l’acceptation des autres dans leur diversité."
+      ],
+      "evidence": [
+        "Accepte les autres dans leur diversité dans les activités et les échanges.",
+        "Propose des façons de prévenir les discriminations liées au sexe, au genre ou à l’orientation sexuelle."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} accepte les camarades tels qu’ils sont, sans les juger sur leur apparence, leur genre ou leur orientation ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 12,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-rel-01",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Choisir ses relations ; connaître et assumer ses préférences, comprendre qu’elles peuvent évoluer",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Diversité, non-discrimination : chacun a droit à la liberté et au respect",
+      "description": "Comprendre l’importance de la diversité et de la non-discrimination : chacun a le droit d’être libre et respecté, y compris dans ses choix de relations.",
+      "officialObjectives": [
+        "Reconnaître l’importance de la diversité et de la non-discrimination et prendre conscience que chaque individu a droit à la liberté et au respect."
+      ],
+      "evidence": [
+        "Explique l’importance de la diversité et de la non-discrimination.",
+        "Explique que chaque individu a droit à la liberté et au respect.",
+        "Discute de façon argumentée : qu’est-ce qu’une relation respectueuse de l’intimité et de l’intégrité corporelle des personnes ?"
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi chacun a le droit d’être libre et respecté, quelles que soient ses différences ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-rel-02",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Choisir ses relations ; connaître et assumer ses préférences, comprendre qu’elles peuvent évoluer",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Distinguer une relation positive d’une relation négative",
+      "description": "Savoir repérer ce qui rend une relation amicale ou amoureuse agréable et heureuse, et ce qui la rend négative ou problématique.",
+      "officialObjectives": [
+        "Identifier ce qui caractérise une relation interpersonnelle positive et ce qui caractérise une relation interpersonnelle négative."
+      ],
+      "evidence": [
+        "Identifie, dans des textes littéraires ou des extraits de film, les facteurs positifs de relations amicales ou amoureuses agréables et heureuses.",
+        "Identifie les facteurs qui font obstacle à de telles relations.",
+        "Réfléchit aux conséquences des comportements problématiques et à la manière de développer des relations positives et constructives."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qui rend une amitié ou une relation agréable, et repérer les signes d’une relation qui fait du mal ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-rel-03",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Choisir ses relations ; connaître et assumer ses préférences, comprendre qu’elles peuvent évoluer",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Tout acte de nature sexuelle non désiré est une violence sexuelle",
+      "description": "Comprendre que tout geste ou acte de nature sexuelle imposé à quelqu’un qui ne le veut pas est une violence sexuelle.",
+      "officialObjectives": [
+        "Comprendre que tout acte de nature sexuelle non désiré constitue une violence sexuelle."
+      ],
+      "evidence": [
+        "Explique que tout acte de nature sexuelle non désiré constitue une violence sexuelle.",
+        "Relie cette règle à l’importance du consentement dans les décisions relatives à la sexualité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que tout geste à caractère sexuel imposé à quelqu’un qui ne le veut pas est une violence ?",
+      "priorKnowledge": [
+        "Prendre conscience que les violences sexuelles, quel qu’en soit l’auteur, constituent toujours une violation des droits humains et que les victimes n’en sont jamais responsables (CM2)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-rel-04",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Choisir ses relations ; connaître et assumer ses préférences, comprendre qu’elles peuvent évoluer",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "S’affirmer par le consentement et le refus",
+      "description": "Savoir demander, donner ou refuser son consentement, reconnaître celui de l’autre et respecter un refus, y compris dans les décisions liées à la sexualité.",
+      "officialObjectives": [
+        "S’affirmer par le consentement et le refus."
+      ],
+      "evidence": [
+        "Définit la notion de consentement à partir d’exemples tirés de la littérature ou des médias.",
+        "Décrit les différentes manières de solliciter, d’exprimer et de reconnaître le consentement.",
+        "Exprime un refus, reconnaît et respecte le refus de l’autre.",
+        "Explique l’importance du consentement dans la prise de décisions relatives à la sexualité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comment demander l’accord de l’autre, dire non clairement et respecter un refus ?",
+      "priorKnowledge": [
+        "Demander et s’assurer du consentement ; exprimer son consentement ou son refus ; respecter le refus des autres (CM2)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-rel-05",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Choisir ses relations ; connaître et assumer ses préférences, comprendre qu’elles peuvent évoluer",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Construire des relations fondées sur l’acceptation et l’entraide",
+      "description": "Développer des relations fondées sur l’acceptation des autres dans leur diversité, la collaboration, la coopération et l’entraide.",
+      "officialObjectives": [
+        "Développer des relations sociales fondées sur l’acceptation des autres dans leur diversité, la collaboration, la coopération, l’entraide."
+      ],
+      "evidence": [
+        "Accepte les autres dans leur diversité au sein du groupe.",
+        "Collabore, coopère et s’entraide avec ses camarades.",
+        "Propose des manières de développer des relations positives et constructives."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait coopérer et s’entraider avec des camarades différents, au-delà de son cercle d’amis ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-rel-06",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Choisir ses relations ; connaître et assumer ses préférences, comprendre qu’elles peuvent évoluer",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Se protéger des contenus sexuellement explicites en ligne",
+      "description": "Savoir qu’Internet et les réseaux sociaux diffusent des contenus sexuellement explicites, interdits aux mineurs, qui peuvent choquer, véhiculer des stéréotypes et banaliser la violence, et trouver des moyens de s’en protéger et de protéger les autres.",
+      "officialObjectives": [
+        "Prendre conscience que les réseaux sociaux et Internet diffusent des contenus sexuellement explicites, interdits aux personnes mineures, qui peuvent être choquants, violents, peuvent véhiculer des stéréotypes et banaliser des comportements violents. Élaborer des stratégies pour s’en protéger et protéger les autres."
+      ],
+      "evidence": [
+        "Explique que ces contenus sont interdits aux personnes mineures et peuvent être choquants ou violents.",
+        "Explique qu’ils peuvent véhiculer des stéréotypes et banaliser des comportements violents.",
+        "Élabore des stratégies pour s’en protéger et protéger les autres.",
+        "Analyse des cas simples et concrets (tirés de saisines de la Cnil ou du Défenseur des droits) sur les données personnelles, le cyberharcèlement et les contenus illégaux."
+      ],
+      "assessmentPrompt": "Si {{prenom}} tombe en ligne sur des images choquantes ou réservées aux adultes, est-ce que {{prenom}} sait comment réagir et s’en protéger ?",
+      "priorKnowledge": [
+        "Prendre conscience que l’utilisation d’Internet et des réseaux sociaux présente des dangers, notamment des images sexuellement explicites interdites pour les mineurs (CM2)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-soc-01",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Distinguer vie publique et vie privée, en réfléchissant à la signification de la liberté individuelle, en particulier sur les réseaux sociaux",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Liberté, respect et égalité face au sexe, au genre et à l’orientation",
+      "description": "Définir ce que signifient la liberté, le respect et l’égalité lorsqu’il s’agit du sexe, du genre et de l’orientation sexuelle de chacun.",
+      "officialObjectives": [
+        "Définir les notions de liberté, de respect et d’égalité concernant le sexe, le genre et l’orientation sexuelle."
+      ],
+      "evidence": [
+        "Définit les notions de liberté, de respect et d’égalité concernant le sexe, le genre et l’orientation sexuelle.",
+        "Définit les droits humains en matière de défense contre les discriminations.",
+        "Cite une législation qui lutte contre les discriminations, en particulier l’article 225-1 du Code pénal."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi chacun doit être respecté et traité à égalité, quels que soient son sexe, son genre ou son orientation sexuelle ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-soc-02",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Distinguer vie publique et vie privée, en réfléchissant à la signification de la liberté individuelle, en particulier sur les réseaux sociaux",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Identifier les cyberviolences sexistes et sexuelles et leurs effets",
+      "description": "Repérer les violences en ligne qui visent quelqu’un à cause de son sexe ou qui ont un caractère sexuel, et comprendre le mal qu’elles font.",
+      "officialObjectives": [
+        "Identifier des situations de cyberviolences à caractères sexistes et sexuels et leurs effets néfastes."
+      ],
+      "evidence": [
+        "Identifie des situations de cyberviolences à caractère sexiste ou sexuel.",
+        "Décrit leurs effets néfastes.",
+        "Réfléchit aux intentions, aux pensées, aux émotions et aux comportements en jeu dans des situations cybersexistes ou cyberviolentes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître, sur les réseaux, des messages ou des images qui humilient quelqu’un à cause de son sexe ou qui ont un caractère sexuel ?",
+      "priorKnowledge": [
+        "Définir et reconnaître le harcèlement et ses différentes formes, en particulier le harcèlement sexiste et sexuel (CM1)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-soc-03",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Distinguer vie publique et vie privée, en réfléchissant à la signification de la liberté individuelle, en particulier sur les réseaux sociaux",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Droit à la dignité, à la vie privée et à l’image",
+      "description": "Savoir que chacun possède des droits humains, dont le droit à la dignité, au respect de sa vie privée et à son image, qui s’appliquent aussi sur Internet.",
+      "officialObjectives": [
+        "Prendre conscience que chaque individu possède des droits humains (droit à la dignité, droit au respect de sa vie privée, droit à l’image)."
+      ],
+      "evidence": [
+        "Cite des droits humains de chaque individu : droit à la dignité, droit au respect de sa vie privée, droit à l’image.",
+        "Distingue ce qui relève de la vie publique et de la vie privée, en particulier sur les réseaux sociaux."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’on n’a pas le droit de publier la photo ou les informations privées de quelqu’un sans son accord ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-soc-04",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Distinguer vie publique et vie privée, en réfléchissant à la signification de la liberté individuelle, en particulier sur les réseaux sociaux",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Réagir face au harcèlement ou à des violences sexistes et sexuelles",
+      "description": "Savoir quoi faire quand quelqu’un est victime : l’écouter avec empathie, le soutenir et signaler les violences à une personne de confiance ou au 3018.",
+      "officialObjectives": [
+        "Savoir comment réagir de manière efficace lorsqu’une personne est victime de harcèlement ou de violences sexistes ou sexuelles (pratiquer une écoute empathique, apporter du soutien solidaire à la victime, signaler les violences)."
+      ],
+      "evidence": [
+        "Pratique une écoute empathique et apporte un soutien solidaire à la victime.",
+        "Identifie des personnes de confiance à qui signaler des violences et demander de l’aide, pour soi ou pour quelqu’un d’autre.",
+        "Cite le 3018, numéro pour les personnes victimes ou témoins de harcèlement ou de violences numériques.",
+        "Analyse ou rejoue, dans un théâtre forum, des saynètes mettant en scène victime, agresseur et témoins, pour prendre la mesure des risques et des responsabilités."
+      ],
+      "assessmentPrompt": "Si un camarade subissait du harcèlement ou des violences, est-ce que {{prenom}} saurait l’écouter, le soutenir et signaler la situation (adulte de confiance, 3018) ?",
+      "priorKnowledge": [
+        "Prendre conscience que les victimes n’en sont jamais responsables et qu’il est de la responsabilité de chaque témoin de signaler les actes de harcèlement (CM1)",
+        "Savoir où et comment demander de l’aide pour soi ou autrui (CM1)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-soc-05",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Distinguer vie publique et vie privée, en réfléchissant à la signification de la liberté individuelle, en particulier sur les réseaux sociaux",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Prévenir les dangers et les infractions liés à Internet",
+      "description": "Comprendre qu’un usage d’Internet et des réseaux sociaux peut mener à des situations dangereuses ou à des infractions à la loi, et savoir s’en protéger et protéger les autres.",
+      "officialObjectives": [
+        "Prendre conscience que l’utilisation d’Internet et des réseaux sociaux peut entraîner des situations dangereuses ou des infractions à la loi, élaborer des stratégies pour s’en protéger et protéger les autres."
+      ],
+      "evidence": [
+        "Explique comment l’utilisation d’Internet et des réseaux sociaux peut entraîner des situations dangereuses ou des infractions à la loi.",
+        "Élabore des stratégies pour s’en protéger et protéger les autres.",
+        "Situe la limite entre l’acceptable et l’inacceptable dans une situation en ligne."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’en ligne, certains gestes (partager une photo, un message moqueur) peuvent être dangereux ou interdits par la loi ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-soc-06",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Distinguer vie publique et vie privée, en réfléchissant à la signification de la liberté individuelle, en particulier sur les réseaux sociaux",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Écouter les autres et développer des relations constructives",
+      "description": "Développer son écoute et son attention aux autres, et s’inscrire dans une démarche d’empathie pour construire des relations positives.",
+      "officialObjectives": [
+        "Développer sa capacité d’écoute, l’attention portée aux autres et des relations sociales constructives."
+      ],
+      "evidence": [
+        "S’inscrit dans une démarche empathique envers les autres.",
+        "Prend en compte les émotions et les points de vue des autres lors des échanges."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écouter vraiment un camarade et se mettre à sa place ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-5e-soc-07",
+      "programme": "evars-college",
+      "type": "META",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Distinguer vie publique et vie privée, en réfléchissant à la signification de la liberté individuelle, en particulier sur les réseaux sociaux",
+      "level": "5e",
+      "cycle": 4,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "name": "Savoir faire des choix responsables",
+      "description": "Prendre des décisions réfléchies, en mesurant les conséquences de ses actes pour soi et pour les autres, en particulier sur les réseaux sociaux.",
+      "officialObjectives": [
+        "Savoir faire des choix responsables."
+      ],
+      "evidence": [
+        "Justifie un choix en tenant compte de ses conséquences pour soi et pour les autres.",
+        "Distingue l’acceptable de l’inacceptable avant d’agir, en particulier en ligne."
+      ],
+      "assessmentPrompt": "Avant de publier ou de partager quelque chose, est-ce que {{prenom}} prend le temps de réfléchir aux conséquences pour soi et pour les autres ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 13,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-corps-01",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Aborder la sexualité comme une réalité complexe pouvant faire intervenir le plaisir, l’amour, la reproduction, etc.",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Envisager les différents aspects de la sexualité",
+      "description": "Comprendre que la sexualité a plusieurs dimensions (physique et psychologique, personnelle et relationnelle) et qu’elle fait l’objet de représentations et de modèles sociaux, pouvant impliquer l’amour, le plaisir, la reproduction.",
+      "officialObjectives": [
+        "Envisager les différents aspects de la sexualité : physique/psychologique ; personnelle/interpersonnelle ; impliquant différentes parties du corps ; faisant l’objet d’une série de représentations et de modèles sociaux pouvant impliquer l’amour, le plaisir, la reproduction."
+      ],
+      "evidence": [
+        "Décrit les différents aspects de la sexualité : physique/psychologique, personnelle/interpersonnelle.",
+        "Reconnaît la variété des termes et des niveaux de langue associés à la sexualité et à son expression (vécue, imaginée, objective et scientifique).",
+        "Repère les sentiments et les émotions en lien avec la sexualité, ainsi que la manière dont le corps s’y trouve impliqué et représenté."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend que la sexualité ne se résume pas à la reproduction et qu’elle touche aussi aux émotions et aux sentiments ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-corps-02",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Aborder la sexualité comme une réalité complexe pouvant faire intervenir le plaisir, l’amour, la reproduction, etc.",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Savoir qu’il existe des personnes intersexes",
+      "description": "Savoir qu’il existe des personnes intersexes, c’est-à-dire nées avec des caractéristiques sexuelles qui ne correspondent pas aux définitions habituelles du féminin ou du masculin.",
+      "officialObjectives": [
+        "Savoir qu’il existe des personnes intersexes."
+      ],
+      "evidence": [
+        "Explique qu’il existe des personnes intersexes."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’il existe des personnes intersexes, nées avec des caractéristiques sexuelles qui ne sont ni typiquement féminines ni typiquement masculines ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-corps-03",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Aborder la sexualité comme une réalité complexe pouvant faire intervenir le plaisir, l’amour, la reproduction, etc.",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "La sexualité, un cheminement personnel aux expressions diverses",
+      "description": "Comprendre que chacun construit sa vie sexuelle à son rythme et à sa manière, et que ses façons de s’exprimer sont diverses.",
+      "officialObjectives": [
+        "Envisager la sexualité comme un cheminement personnel singulier et comprendre sa diversité d’expression."
+      ],
+      "evidence": [
+        "Explique que la sexualité est un cheminement personnel et singulier.",
+        "Décrit la diversité des façons dont la sexualité s’exprime."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend que chacun découvre la vie affective et sexuelle à son rythme, sans obligation de faire comme les autres ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-corps-04",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Aborder la sexualité comme une réalité complexe pouvant faire intervenir le plaisir, l’amour, la reproduction, etc.",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comprendre, identifier et gérer ses émotions",
+      "description": "Reconnaître ses émotions et apprendre à les gérer, car elles comptent pour construire des relations de qualité et prévenir les violences.",
+      "officialObjectives": [
+        "Comprendre, identifier, apprendre à gérer ses émotions."
+      ],
+      "evidence": [
+        "Identifie ses émotions dans différentes situations.",
+        "Explique l’importance des émotions pour développer des relations de qualité et prévenir les violences.",
+        "Met en œuvre des moyens de gérer ses émotions."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître ses émotions et a des moyens de les gérer quand elles sont fortes ?",
+      "priorKnowledge": [
+        "Exprimer ses émotions avec des formulations claires (CM2) ; identifier, nommer et gérer ses émotions (CP)"
+      ],
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-corps-05",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Aborder la sexualité comme une réalité complexe pouvant faire intervenir le plaisir, l’amour, la reproduction, etc.",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Savoir où s’informer et se faire suivre en santé sexuelle",
+      "description": "Connaître les lieux et les professionnels qui informent, dépistent ou soignent en santé sexuelle (infirmerie du collège, centres de santé sexuelle, centres gratuits de dépistage), par exemple pour la vaccination contre les papillomavirus, des douleurs gynécologiques ou des troubles du cycle menstruel.",
+      "officialObjectives": [
+        "Connaître où et comment s’informer ou bénéficier de dépistages ou d’une prise en charge médicale en santé sexuelle (vaccination contre les infections à papillomavirus humains, douleurs gynécologiques, troubles du cycle menstruel, dépistage de l’endométriose, etc.)."
+      ],
+      "evidence": [
+        "Présente les différentes sources d’information sur la santé sexuelle : infirmerie de l’établissement, centres de santé sexuelle, centres gratuits d’information, de dépistage et de diagnostic.",
+        "Explique à quoi servent ces lieux : information, dépistage, prise en charge médicale.",
+        "Cite des motifs de consultation : vaccination contre les infections à papillomavirus humains, douleurs gynécologiques, troubles du cycle menstruel, dépistage de l’endométriose."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’on peut s’adresser à l’infirmerie du collège ou à un centre de santé sexuelle pour poser des questions ou se faire soigner ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-corps-06",
+      "programme": "evars-college",
+      "type": "META",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Aborder la sexualité comme une réalité complexe pouvant faire intervenir le plaisir, l’amour, la reproduction, etc.",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Développer sa capacité à faire des choix responsables",
+      "description": "Prendre des décisions réfléchies pour sa santé et son bien-être, en s’appuyant sur des informations fiables.",
+      "officialObjectives": [
+        "Développer sa capacité à faire des choix responsables."
+      ],
+      "evidence": [
+        "Justifie un choix en s’appuyant sur des informations fiables en santé sexuelle.",
+        "Mesure les conséquences d’un choix pour soi et pour les autres."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} prend ses décisions en s’appuyant sur des informations fiables et en pensant aux conséquences ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-rel-01",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Développer une compréhension critique et respectueuse des relations interpersonnelles et des enjeux associés à la sexualité ; favoriser des choix responsables et protecteurs en matière de santé sexuelle et relationnelle",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Relation, place dans le groupe et consentement",
+      "description": "Définir ce qu’est une relation (échange, don, partage, réciprocité), réfléchir à sa place dans les groupes auxquels on appartient, et comprendre le lien entre consentement et liberté.",
+      "officialObjectives": [
+        "Définir la notion de relation (échange, don, partage, réciprocité), les positions au sein des groupes d’appartenance, la notion de consentement dans son rapport à la liberté."
+      ],
+      "evidence": [
+        "Définit la notion de relation : échange, don, partage, réciprocité.",
+        "Décrit les positions de chacun au sein des groupes d’appartenance.",
+        "Explique le lien entre consentement et liberté.",
+        "Repère et analyse les notions de consentement et de plaisir dans une scène de rencontre amoureuse (littérature, cinéma, théâtre)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer qu’une relation repose sur l’échange et la réciprocité, et que consentir, c’est choisir librement ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-rel-02",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Développer une compréhension critique et respectueuse des relations interpersonnelles et des enjeux associés à la sexualité ; favoriser des choix responsables et protecteurs en matière de santé sexuelle et relationnelle",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "L’influence des réseaux sociaux sur les relations et l’estime de soi",
+      "description": "Comprendre ce que le regard des autres sur les réseaux sociaux peut apporter (affirmation de soi, reconnaissance), mais aussi comment il peut nuire, et savoir s’en protéger.",
+      "officialObjectives": [
+        "Connaître les incidences des réseaux sociaux sur les relations et les choix de relations : être ou ne pas être sous le regard des autres ; examiner ce que ce regard des autres apporte à l’affirmation de soi et à la reconnaissance, pourquoi il peut aussi nuire et comment s’en protéger ; identifier les ressources et les comptes favorables ou non au bien-être et à l’estime de soi."
+      ],
+      "evidence": [
+        "Explique ce que le regard des autres sur les réseaux sociaux apporte à l’affirmation de soi et à la reconnaissance.",
+        "Explique pourquoi ce regard peut aussi nuire et comment s’en protéger.",
+        "Identifie des ressources et des comptes favorables ou non au bien-être et à l’estime de soi.",
+        "Explique les conséquences de l’utilisation du « like » ou du « j’aime »."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que les « likes » et le regard des autres sur les réseaux peuvent faire du bien mais aussi blesser, et sait repérer les comptes qui font du mal ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 14,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-rel-03",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Développer une compréhension critique et respectueuse des relations interpersonnelles et des enjeux associés à la sexualité ; favoriser des choix responsables et protecteurs en matière de santé sexuelle et relationnelle",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Images, marchandisation du corps, exploitation : comprendre et se protéger",
+      "description": "Comprendre les dangers liés à la diffusion et au commerce d’images (de soi ou des autres), à la marchandisation du corps, à l’exploitation sexuelle et à la prostitution des mineurs, et savoir comment s’en protéger et être aidé.",
+      "officialObjectives": [
+        "Comprendre les problèmes associés à la diffusion et au commerce des images (des autres ou de soi), à la marchandisation du corps, à l’exploitation sexuelle, à la prostitution des mineurs, savoir comment il est possible de s’en protéger et d’être aidé pour le faire."
+      ],
+      "evidence": [
+        "Identifie les situations où le partage d’images ou de documents en ligne est interdit (harcèlement).",
+        "Reconnaît les risques liés à la diffusion d’images, dont des images de corps nus, partiellement nus ou sexualisés, et explique comment s’en protéger.",
+        "Repère et analyse des mécanismes d’emprise et de domination psychologique, notamment dans l’exploitation sexuelle.",
+        "Explique comment signaler des contenus intimes diffusés sans consentement (pornodivulgation) et des comptes destinés à harceler une personne."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’il ne faut ni envoyer ni partager d’images intimes, et que faire si une image de soi ou d’un autre circule sans accord ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-rel-04",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Développer une compréhension critique et respectueuse des relations interpersonnelles et des enjeux associés à la sexualité ; favoriser des choix responsables et protecteurs en matière de santé sexuelle et relationnelle",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Décider librement d’avoir ou non un rapport sexuel",
+      "description": "Comprendre que la décision d’avoir ou non un rapport sexuel est un choix personnel et responsable, qui doit être libre et tenir compte de sa santé et de celle de l’autre.",
+      "officialObjectives": [
+        "Comprendre l’importance de prendre des décisions favorables à sa santé et celle des autres, faire des choix responsables : - décision d’avoir ou non un rapport sexuel ; - prévention des infections sexuellement transmissibles (modes de transmission et moyens de protection) ; - prévention des grossesses non prévues et/ou non désirées (moyens de contraception, interruption volontaire de grossesse)."
+      ],
+      "evidence": [
+        "Explique que la décision d’avoir ou non un rapport sexuel relève d’un choix responsable, favorable à sa santé et à celle des autres.",
+        "Relie cette décision à la notion de consentement et à la liberté de chacun."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que la décision d’avoir ou non une relation sexuelle se prend librement, sans pression, en pensant à sa santé et à celle de l’autre ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-rel-05",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Développer une compréhension critique et respectueuse des relations interpersonnelles et des enjeux associés à la sexualité ; favoriser des choix responsables et protecteurs en matière de santé sexuelle et relationnelle",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Prévenir les infections sexuellement transmissibles",
+      "description": "Connaître les modes de transmission des infections sexuellement transmissibles (IST) et les moyens de s’en protéger.",
+      "officialObjectives": [
+        "Comprendre l’importance de prendre des décisions favorables à sa santé et celle des autres, faire des choix responsables : - décision d’avoir ou non un rapport sexuel ; - prévention des infections sexuellement transmissibles (modes de transmission et moyens de protection) ; - prévention des grossesses non prévues et/ou non désirées (moyens de contraception, interruption volontaire de grossesse)."
+      ],
+      "evidence": [
+        "Explique les modes de transmission des infections sexuellement transmissibles.",
+        "Cite les moyens de protection contre les IST."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comment se transmettent les infections sexuellement transmissibles et comment s’en protéger ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-rel-06",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Développer une compréhension critique et respectueuse des relations interpersonnelles et des enjeux associés à la sexualité ; favoriser des choix responsables et protecteurs en matière de santé sexuelle et relationnelle",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Prévenir les grossesses non prévues : contraception et IVG",
+      "description": "Connaître les moyens de contraception et l’existence de l’interruption volontaire de grossesse (IVG), pour prévenir une grossesse non prévue ou non désirée.",
+      "officialObjectives": [
+        "Comprendre l’importance de prendre des décisions favorables à sa santé et celle des autres, faire des choix responsables : - décision d’avoir ou non un rapport sexuel ; - prévention des infections sexuellement transmissibles (modes de transmission et moyens de protection) ; - prévention des grossesses non prévues et/ou non désirées (moyens de contraception, interruption volontaire de grossesse)."
+      ],
+      "evidence": [
+        "Cite des moyens de contraception.",
+        "Explique ce qu’est l’interruption volontaire de grossesse.",
+        "Explique pourquoi prévenir une grossesse non prévue relève d’un choix responsable."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} connaît les principaux moyens de contraception et sait ce qu’est l’IVG ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-rel-07",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Développer une compréhension critique et respectueuse des relations interpersonnelles et des enjeux associés à la sexualité ; favoriser des choix responsables et protecteurs en matière de santé sexuelle et relationnelle",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Identifier un adulte, un lieu ou un service d’aide en santé sexuelle",
+      "description": "Savoir à qui s’adresser (adulte de confiance, infirmerie, centre de santé sexuelle, service d’aide) pour poser des questions, se faire dépister ou soigner, ou être aidé en cas de violences sexistes et sexuelles (y compris l’inceste) ou de discriminations.",
+      "officialObjectives": [
+        "Identifier un adulte de confiance, un lieu, un service d’aide et de soutien à qui s’adresser pour échanger, poser des questions, trouver des informations en lien avec sa santé sexuelle, bénéficier d’un dépistage ou d’une prise en charge médicale ou être aidé en cas de violences sexistes et sexuelles (y compris l’inceste) ou de violences fondées sur des discriminations telles que définies par le Code pénal."
+      ],
+      "evidence": [
+        "Identifie un adulte de confiance, un lieu ou un service d’aide à qui poser des questions sur sa santé sexuelle.",
+        "Indique où bénéficier d’un dépistage ou d’une prise en charge médicale.",
+        "Identifie les adultes de confiance, les autorités et les services qui aident les victimes : 3018 pour les violences numériques, 119 enfance en danger.",
+        "Identifie, à partir d’une situation ou d’un témoignage, ce qui caractérise un délit et les personnes-ressources susceptibles d’apporter de l’aide."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait à qui s’adresser, au collège ou en dehors, pour une question de santé intime ou en cas de violence ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-rel-08",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Développer une compréhension critique et respectueuse des relations interpersonnelles et des enjeux associés à la sexualité ; favoriser des choix responsables et protecteurs en matière de santé sexuelle et relationnelle",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Savoir demander de l’aide pour soi ou pour une autre personne",
+      "description": "Oser demander de l’aide, pour soi ou pour quelqu’un d’autre, et savoir réagir de façon efficace quand on est victime ou témoin de violences.",
+      "officialObjectives": [
+        "Savoir demander de l’aide pour soi ou pour une autre personne."
+      ],
+      "evidence": [
+        "Montre comment réagir de manière efficace lorsque l’on est victime ou témoin de violences.",
+        "Décrit comment aider les victimes de cyberviolences sexistes et sexuelles.",
+        "Sollicite un adulte de confiance ou un service d’aide pour soi ou pour autrui."
+      ],
+      "assessmentPrompt": "Si {{prenom}} ou un camarade avait besoin d’aide, est-ce que {{prenom}} oserait en parler à un adulte de confiance ou à un service d’aide ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-soc-01",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Étudier des représentations de la sexualité dans l’espace public et en interroger la dimension égalitaire ou inégalitaire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Normes sociales, modèles, stéréotypes et leurs effets",
+      "description": "Analyser ce que sont une norme sociale, un modèle et un stéréotype, et leurs effets : ils peuvent intégrer ou exclure, socialiser ou uniformiser.",
+      "officialObjectives": [
+        "Analyser la notion de norme sociale, de modèle, de stéréotype et réfléchir aux effets induits : intégration, exclusion, socialisation, normalisation."
+      ],
+      "evidence": [
+        "Analyse les notions de norme sociale, de modèle et de stéréotype.",
+        "Explique leurs effets : intégration, exclusion, socialisation, normalisation.",
+        "Analyse des stéréotypes dans une perspective historique, à partir d’œuvres littéraires ou artistiques."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer comment une norme ou un stéréotype peut aider à faire partie d’un groupe, mais aussi exclure ceux qui sont différents ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-soc-02",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Étudier des représentations de la sexualité dans l’espace public et en interroger la dimension égalitaire ou inégalitaire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Distinguer les représentations égalitaires et inégalitaires",
+      "description": "Repérer et expliquer ce qui distingue une situation ou une image égalitaire d’une autre qui ne l’est pas, entre femmes et hommes ou entre majorités et minorités.",
+      "officialObjectives": [
+        "Repérer et expliquer la différence entre des situations ou des représentations égalitaires et d’autres qui ne le sont pas (femmes/hommes ; majorités/minorités)."
+      ],
+      "evidence": [
+        "Repère des situations ou des représentations égalitaires et d’autres qui ne le sont pas (femmes/hommes ; majorités/minorités).",
+        "Explique ce qui les différencie.",
+        "Réalise une exposition de sensibilisation des autres collégiens sur les stéréotypes et les questions d’égalité."
+      ],
+      "assessmentPrompt": "Devant une publicité ou un film, est-ce que {{prenom}} sait repérer si les femmes et les hommes y sont présentés à égalité ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-soc-03",
+      "programme": "evars-college",
+      "type": "META",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Étudier des représentations de la sexualité dans l’espace public et en interroger la dimension égalitaire ou inégalitaire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Penser de façon critique face aux représentations de la sexualité",
+      "description": "Prendre du recul face aux images et aux messages sur la sexualité qui circulent dans l’espace public, et se forger son propre avis.",
+      "officialObjectives": [
+        "Savoir penser de façon critique."
+      ],
+      "evidence": [
+        "Interroge les intentions d’une image ou d’un message sur la sexualité.",
+        "Argumente son point de vue sur une représentation de la sexualité dans l’espace public."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} prend du recul face aux images de la sexualité vues dans les médias, et se forge son propre avis ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-soc-04",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Étudier des représentations de la sexualité dans l’espace public et en interroger la dimension égalitaire ou inégalitaire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Décrypter les messages et les images de la sexualité dans les médias",
+      "description": "Analyser les messages explicites et implicites sur la sexualité dans les médias et la publicité, notamment la marchandisation et la sexualisation des corps et les stéréotypes véhiculés.",
+      "officialObjectives": [
+        "Décrypter les messages et les images de la sexualité dans les médias (explicites et/ou implicites)."
+      ],
+      "evidence": [
+        "Analyse des images et des spots publicitaires pour repérer la marchandisation des corps et la sexualisation des situations et des corps.",
+        "Repère les stéréotypes véhiculés par ces messages.",
+        "Distingue les messages explicites et implicites."
+      ],
+      "assessmentPrompt": "En regardant une publicité, est-ce que {{prenom}} repère quand le corps est utilisé pour vendre et quels stéréotypes sont véhiculés ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-soc-05",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Étudier des représentations de la sexualité dans l’espace public et en interroger la dimension égalitaire ou inégalitaire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Comprendre ce qu’est la pornographie et ses représentations faussées",
+      "description": "Savoir distinguer la pornographie des contenus érotiques, et comprendre que la pornographie montre, de façon faussement réaliste et stéréotypée, des actes sexuels sans dimension affective et souvent violents.",
+      "officialObjectives": [
+        "Comprendre la notion de pornographie, la différencier des contenus érotiques et prendre conscience que la pornographie représente, de manière faussement réaliste et stéréotypée, des actes sexuels dépourvus de toute dimension affective ou sentimentale et souvent violents."
+      ],
+      "evidence": [
+        "Explique la notion de pornographie et la différencie des contenus érotiques.",
+        "Explique que la pornographie représente, de manière faussement réaliste et stéréotypée, des actes sexuels dépourvus de dimension affective ou sentimentale et souvent violents."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que les contenus pornographiques donnent une image fausse et souvent violente de la sexualité, sans les sentiments ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-soc-06",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Étudier des représentations de la sexualité dans l’espace public et en interroger la dimension égalitaire ou inégalitaire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "Pourquoi la loi interdit l’accès des mineurs à la pornographie",
+      "description": "Comprendre les raisons pour lesquelles le Code pénal interdit l’accès des mineurs à la pornographie : il s’agit de les protéger.",
+      "officialObjectives": [
+        "Comprendre les raisons de l’interdiction d’accès des mineurs à la pornographie, inscrite dans le Code pénal."
+      ],
+      "evidence": [
+        "Explique que l’accès des mineurs à la pornographie est interdit par le Code pénal.",
+        "Explique les raisons de cette interdiction."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend pourquoi la loi interdit l’accès des mineurs aux contenus pornographiques ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-4e-soc-07",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Étudier des représentations de la sexualité dans l’espace public et en interroger la dimension égalitaire ou inégalitaire",
+      "level": "4e",
+      "cycle": 4,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "name": "La prostitution : conséquences et recrutement par les réseaux sociaux",
+      "description": "Connaître les conséquences de la prostitution sur la santé des victimes, et savoir que les réseaux prostitutionnels utilisent les réseaux sociaux pour recruter, afin de s’en protéger.",
+      "officialObjectives": [
+        "Identifier les conséquences de la prostitution sur la santé des victimes et prendre conscience que les réseaux prostitutionnels utilisent les réseaux sociaux pour développer leurs activités illégales."
+      ],
+      "evidence": [
+        "Identifie les conséquences de la prostitution sur la santé des victimes.",
+        "Identifie, à partir de témoignages ou de reportages, les mécanismes de recrutement des systèmes prostitutionnels, via les réseaux sociaux ou des recruteurs.",
+        "Explique que ces réseaux développent des activités illégales."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que des réseaux illégaux utilisent les réseaux sociaux pour approcher des jeunes, et qu’il faut en parler à un adulte de confiance en cas de doute ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 15,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-corps-01",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Interroger les liens entre bonheur, émotions et sexualité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Définir désir, excitation, plaisir et bonheur",
+      "description": "Comprendre ce que recouvrent les notions de désir, d’excitation, de plaisir et de bonheur, et comment elles se relient à la sexualité et à la santé sexuelle.",
+      "officialObjectives": [
+        "Définir les notions de désir, d’excitation, de plaisir, de bonheur, ainsi que leurs relations à la sexualité."
+      ],
+      "evidence": [
+        "Définit les notions de désir, d’excitation, de plaisir et de bonheur.",
+        "Explique leurs relations à la sexualité.",
+        "Réfléchit à la notion de « santé sexuelle »."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait faire la différence entre le désir, le plaisir et le bonheur, et réfléchir à ce qu’est une vie affective épanouie ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 16,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-corps-02",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Interroger les liens entre bonheur, émotions et sexualité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Distinguer le désir et le comportement : la part de liberté",
+      "description": "Comprendre la différence entre le désir (imaginations, émotions, envies) et le comportement (des actions qu’on peut réfléchir et contrôler), et la place de la liberté de choix.",
+      "officialObjectives": [
+        "Faire la différence entre le désir qui fait référence aux imaginations, aux émotions et aux envies, et le comportement qui correspond à des actions qui peuvent être réfléchies et contrôlées ; examiner la part et la place de la liberté dans ces différentes situations."
+      ],
+      "evidence": [
+        "Distingue le désir, qui renvoie aux imaginations, aux émotions et aux envies, du comportement, fait d’actions qui peuvent être réfléchies et contrôlées.",
+        "Examine la part et la place de la liberté dans différentes situations."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend qu’on peut ressentir une envie sans forcément agir, et qu’on reste libre de ses actes ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 16,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-corps-03",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Interroger les liens entre bonheur, émotions et sexualité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Comprendre que le désir ne peut pas toujours être satisfait",
+      "description": "Accepter qu’un désir ne soit pas toujours satisfait, notamment parce que l’autre a sa propre liberté.",
+      "officialObjectives": [
+        "Comprendre que le désir peut ne pas toujours être assouvi."
+      ],
+      "evidence": [
+        "Explique que le désir peut ne pas toujours être assouvi.",
+        "Relie cette idée au respect de la liberté de l’autre et au partage, ou non, des désirs."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend qu’une envie ne peut pas toujours être satisfaite, et que l’autre a aussi le droit de ne pas vouloir ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 16,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-corps-04",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Interroger les liens entre bonheur, émotions et sexualité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Maîtriser ses impulsions, ses émotions et ses sentiments",
+      "description": "Comprendre comment fonctionnent les émotions et les impulsions, pour mieux les maîtriser.",
+      "officialObjectives": [
+        "Développer sa capacité à maîtriser ses impulsions, ses émotions et ses sentiments."
+      ],
+      "evidence": [
+        "Explique comment fonctionnent les émotions et les impulsions.",
+        "Joue des saynètes montrant plusieurs manières de réagir à une même situation.",
+        "Choisit, dans une situation donnée, une réaction maîtrisée."
+      ],
+      "assessmentPrompt": "Quand {{prenom}} ressent une émotion très forte, est-ce que {{prenom}} arrive à prendre du recul avant de réagir ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 16,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-corps-05",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Se connaître, vivre et grandir avec son corps",
+      "subdomain": "Interroger les liens entre bonheur, émotions et sexualité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Les mutilations sexuelles féminines, une atteinte aux droits des femmes",
+      "description": "Comprendre que les mutilations sexuelles féminines sont des violences qui s’approprient le corps des femmes et entravent leur liberté, qu’elles sont interdites et sévèrement punies par la loi, et savoir où trouver de l’aide.",
+      "officialObjectives": [
+        "Prendre conscience que les pratiques de mutilations sexuelles féminines, qui ne touchent pas directement la fonction reproductive et atteignent la fonction de plaisir, de sexualité et de construction de soi des femmes qui en sont victimes, correspondent à une appropriation du corps des femmes et à l’enrayement de leur liberté de choix."
+      ],
+      "evidence": [
+        "Explique que les mutilations sexuelles féminines atteignent la fonction de plaisir, la sexualité et la construction de soi des femmes qui en sont victimes.",
+        "Explique qu’elles correspondent à une appropriation du corps des femmes et à l’enrayement de leur liberté de choix.",
+        "Identifie leurs conséquences immédiates et durables et explique qu’elles sont interdites et sévèrement punies par la loi, et qu’aucune tradition ne peut les justifier.",
+        "Identifie les personnes, les lieux et les services d’aide et de soutien."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que les mutilations sexuelles féminines sont des violences interdites par la loi, qu’aucune tradition ne justifie, et qu’on peut trouver de l’aide ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 16,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-rel-01",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Construire une relation réciproque et égalitaire ; savoir reconnaître et caractériser des contextes de danger et de vulnérabilité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Partage, consentement, réciprocité et frustration dans la relation",
+      "description": "Distinguer ces notions et mesurer ce qui est en jeu quand on partage, ou non, des sensations, des émotions ou des envies : être d’accord ou pas, ne pas en être au même point au même moment.",
+      "officialObjectives": [
+        "Distinguer les notions de partage, de consentement, de réciprocité, de frustration ; prendre la mesure des enjeux et des difficultés liés au partage des sensations, des émotions, des plaisirs : par exemple, être d’accord ou pas ; être synchrone ou asynchrone."
+      ],
+      "evidence": [
+        "Distingue les notions de partage, de consentement, de réciprocité et de frustration.",
+        "Repère et analyse des situations de partage et de réciprocité, mais aussi de non-partage et de frustration.",
+        "Interroge ce qui est en jeu : égalité et liberté dans la relation et dans le partage, ou non, des désirs.",
+        "Réalise une production collective ou individuelle (chanson, poème, scène de théâtre, vidéo) pour partager son analyse."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend que, dans une relation, on n’a pas toujours les mêmes envies au même moment, et que chacun doit rester libre et respecté ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 16,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-rel-02",
+      "programme": "evars-college",
+      "type": "META",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Construire une relation réciproque et égalitaire ; savoir reconnaître et caractériser des contextes de danger et de vulnérabilité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Analyser la notion de risque et faire des choix responsables",
+      "description": "Réfléchir aux risques, physiques et psychologiques, pour soi et pour les autres, et faire des choix responsables pour sa santé et celle des autres.",
+      "officialObjectives": [
+        "Analyser la notion de risque, pour soi et pour les autres, aux plans physiques et psychologiques ; faire des choix responsables pour sa santé et celle des autres."
+      ],
+      "evidence": [
+        "Identifie différents risques, physiques et psychologiques, à partir de situations fictives.",
+        "Réfléchit à la protection des risques : de quoi, pourquoi, pour qui et comment se protéger ?",
+        "Fait, dans une situation donnée, des choix responsables pour sa santé et celle des autres."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait réfléchir aux risques d’une situation, pour soi et pour les autres, avant de faire un choix ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 16,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-rel-03",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Construire une relation réciproque et égalitaire ; savoir reconnaître et caractériser des contextes de danger et de vulnérabilité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Réduire les risques d’IST et de VIH : protection, dépistage, traitements",
+      "description": "Connaître les moyens de réduire les risques d’infections sexuellement transmissibles, y compris le VIH : protection, dépistage, traitements préventifs pris avant (PrEP) ou après (TPE) une exposition au risque, et vaccination contre les papillomavirus (HPV).",
+      "officialObjectives": [
+        "Prendre la mesure des risques à prévenir ou à maîtriser s’agissant de la sexualité : - réduction des risques d’infections sexuellement transmissibles (IST), y compris d’infection par le VIH : modes de transmission, moyens de protection, dépistage, prophylaxie préexposition (PrEP), traitement post-exposition au VIH (TPE), vaccination contre les infections à papillomavirus (HPV) ; - grossesses non prévues et/ou non désirées : moyens de contraception, tests de grossesse, interruption volontaire de grossesse (IVG)."
+      ],
+      "evidence": [
+        "Explique les modes de transmission des IST, y compris du VIH.",
+        "Cite les moyens de protection et l’intérêt du dépistage.",
+        "Explique ce que sont la prophylaxie préexposition (PrEP) et le traitement post-exposition au VIH (TPE).",
+        "Cite la vaccination contre les infections à papillomavirus (HPV)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait comment se protéger des infections sexuellement transmissibles, dont le VIH, et où se faire dépister ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 17,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-rel-04",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Construire une relation réciproque et égalitaire ; savoir reconnaître et caractériser des contextes de danger et de vulnérabilité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Grossesses non prévues : contraception, tests de grossesse, IVG",
+      "description": "Connaître les moyens de contraception, les tests de grossesse et le droit à l’interruption volontaire de grossesse (IVG), garanti par la Constitution et la loi, ainsi que les lieux pour y accéder.",
+      "officialObjectives": [
+        "Prendre la mesure des risques à prévenir ou à maîtriser s’agissant de la sexualité : - réduction des risques d’infections sexuellement transmissibles (IST), y compris d’infection par le VIH : modes de transmission, moyens de protection, dépistage, prophylaxie préexposition (PrEP), traitement post-exposition au VIH (TPE), vaccination contre les infections à papillomavirus (HPV) ; - grossesses non prévues et/ou non désirées : moyens de contraception, tests de grossesse, interruption volontaire de grossesse (IVG)."
+      ],
+      "evidence": [
+        "Cite des moyens de contraception et leurs conditions d’accès.",
+        "Explique à quoi sert un test de grossesse.",
+        "Explique ce qu’est l’IVG, le cadre juridique (Constitution, loi) qui en garantit l’accès et les lieux qui permettent d’y avoir accès.",
+        "Identifie les ressources dans et hors de l’établissement : ressources en ligne, numéro vert « sexualité, contraception, IVG », centres gratuits d’information, de dépistage et de diagnostic."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} connaît les moyens de contraception et sait vers quels lieux ou quel numéro se tourner pour s’informer ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 17,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-rel-05",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Construire une relation réciproque et égalitaire ; savoir reconnaître et caractériser des contextes de danger et de vulnérabilité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "La place de l’attirance et des sentiments dans une relation",
+      "description": "Prendre conscience du rôle de l’attirance et des sentiments dans une relation amoureuse.",
+      "officialObjectives": [
+        "Prendre conscience de la place qu’occupent l’attirance et les sentiments dans une relation."
+      ],
+      "evidence": [
+        "Explique la place qu’occupent l’attirance et les sentiments dans une relation.",
+        "Distingue l’attirance et les sentiments dans une relation décrite."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} comprend le rôle que jouent l’attirance et les sentiments dans une relation amoureuse ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 17,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-rel-06",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Construire une relation réciproque et égalitaire ; savoir reconnaître et caractériser des contextes de danger et de vulnérabilité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Donner et obtenir le consentement, accepter un refus",
+      "description": "Reconnaître qu’il est indispensable de donner et d’obtenir le consentement, apprendre à accepter un refus, et repérer ce qui peut empêcher de consentir librement.",
+      "officialObjectives": [
+        "Reconnaître l’importance de donner et d’obtenir le consentement. Apprendre à accepter un refus de la part de l’autre."
+      ],
+      "evidence": [
+        "Caractérise le consentement lors d’un débat à partir de phrases types (« elle/il a dit non, mais elle/il voulait dire oui » ; « elle/il n’a pas dit qu’elle/il n’était pas d’accord »).",
+        "Explique l’importance de donner et d’obtenir le consentement.",
+        "Accepte un refus de la part de l’autre.",
+        "Analyse ce qui peut influencer la capacité à reconnaître ou à donner le consentement : substances psychoactives, emprise, situations de handicap, de domination ou de pouvoir, soumission chimique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’un silence ou une hésitation ne vaut pas un « oui », et qu’un refus doit toujours être respecté ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 17,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-rel-07",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Construire une relation réciproque et égalitaire ; savoir reconnaître et caractériser des contextes de danger et de vulnérabilité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Substances psychoactives : un risque pour le jugement et le consentement",
+      "description": "Comprendre que les substances psychoactives (alcool, drogues…) modifient le raisonnement et augmentent le risque de prendre de mauvaises décisions, y compris en matière de sexualité.",
+      "officialObjectives": [
+        "Prendre conscience que l’usage de substances psychoactives modifie le raisonnement et augmente le risque de prise de décision inappropriée y compris en matière de sexualité."
+      ],
+      "evidence": [
+        "Explique que l’usage de substances psychoactives modifie le raisonnement.",
+        "Explique que cela augmente le risque de prise de décision inappropriée, y compris en matière de sexualité.",
+        "Explique comment ces substances peuvent altérer la capacité à donner ou à reconnaître le consentement, y compris en cas de soumission chimique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que l’alcool ou d’autres substances peuvent altérer le jugement et pousser à prendre de mauvaises décisions ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 17,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-rel-08",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Construire une relation réciproque et égalitaire ; savoir reconnaître et caractériser des contextes de danger et de vulnérabilité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Reconnaître l’emprise et les violences, et chercher du soutien",
+      "description": "Reconnaître les mécanismes d’emprise et les différentes violences (physiques, psychologiques, verbales, sexistes, sexuelles, en ligne, dans le couple ou non), comprendre leurs effets et l’importance, pour une victime, de chercher du soutien.",
+      "officialObjectives": [
+        "Reconnaître des mécanismes d’emprise et des situations de violences (physiques, psychologiques, verbales, violences sexistes, violences sexuelles, cyberviolences, violences au sein du couple ou non) ; prendre conscience de leurs effets néfastes et de l’importance pour une personne qui en est victime de chercher du soutien."
+      ],
+      "evidence": [
+        "Reconnaît des mécanismes d’emprise et des situations de violences : physiques, psychologiques, verbales, sexistes, sexuelles, cyberviolences, au sein du couple ou non.",
+        "Explique les effets néfastes de ces violences.",
+        "Explique l’importance, pour une personne victime, de chercher du soutien.",
+        "Explique ce que sont les violences conjugales et le féminicide."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître une relation où l’un contrôle ou rabaisse l’autre, et sait qu’une victime doit chercher du soutien ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 17,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-rel-09",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "subdomain": "Construire une relation réciproque et égalitaire ; savoir reconnaître et caractériser des contextes de danger et de vulnérabilité",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Le mariage forcé, une atteinte aux droits humains fondamentaux",
+      "description": "Comprendre ce qu’est un mariage forcé, qu’aucune situation ni tradition ne le justifie, que la loi protège les victimes, et savoir à qui s’adresser.",
+      "officialObjectives": [
+        "Comprendre que le mariage forcé est une atteinte aux droits humains fondamentaux."
+      ],
+      "evidence": [
+        "Définit ce qu’est un mariage forcé et décrit les différentes manières de contraindre au mariage.",
+        "Explique que le mariage forcé est une atteinte aux droits humains fondamentaux et qu’aucune situation ou tradition ne le justifie.",
+        "Explique qu’il est possible d’échapper à un mariage forcé et que la loi protège les victimes.",
+        "Identifie à qui s’adresser si l’on est victime ou témoin."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait que personne ne peut être obligé de se marier, que la loi protège contre le mariage forcé, et à qui s’adresser ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 17,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-soc-01",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Inscrire la sexualité dans la définition et le respect des droits humains",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Droits et devoirs en matière de sexualité et leur raison d’être",
+      "description": "Connaître les droits et les devoirs de chacun en matière de sexualité et comprendre les valeurs sur lesquelles ils reposent : égalité entre les femmes et les hommes, égalité entre les orientations sexuelles, droit à la différence.",
+      "officialObjectives": [
+        "Déterminer le champ des droits et des devoirs en matière de sexualité et comprendre leur raison d’être (principes et valeurs impliquées : égalité entre les femmes et les hommes, entre les orientations sexuelles, droit à la différence)."
+      ],
+      "evidence": [
+        "Détermine le champ des droits et des devoirs en matière de sexualité.",
+        "Explique les principes et valeurs qui les fondent : égalité entre les femmes et les hommes, entre les orientations sexuelles, droit à la différence.",
+        "Compare une situation contemporaine posant problème au regard des lois en vigueur et une situation plus ancienne replacée dans son contexte historique."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait citer quelques droits et devoirs liés à la vie affective et sexuelle, et les valeurs d’égalité sur lesquelles ils reposent ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 17,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-soc-02",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Inscrire la sexualité dans la définition et le respect des droits humains",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Reconnaître violences sexuelles et discriminations (article 225-1)",
+      "description": "Savoir caractériser et reconnaître une violence sexuelle (y compris l’inceste), une stigmatisation, une violence ou une discrimination fondée notamment sur le sexe, l’orientation sexuelle, l’identité de genre ou l’état de santé, comme l’homophobie.",
+      "officialObjectives": [
+        "Caractériser et savoir reconnaître une situation de violence sexuelle (y compris l’inceste), de stigmatisation, de violence ou de discrimination opérée sur le fondement notamment du sexe, de l’orientation sexuelle, de l’identité de genre ou de l’état de santé (article 225-1 du Code pénal) : homophobie et autres."
+      ],
+      "evidence": [
+        "Caractérise une situation de violence sexuelle, y compris l’inceste.",
+        "Reconnaît une stigmatisation, une violence ou une discrimination fondée notamment sur le sexe, l’orientation sexuelle, l’identité de genre ou l’état de santé (article 225-1 du Code pénal), comme l’homophobie.",
+        "Analyse des situations réelles ou fictives de violences sexistes et de violences sexuelles, les caractérise et les différencie.",
+        "Identifie des facteurs de vulnérabilité."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître une discrimination, par exemple homophobe, et sait qu’elle est interdite par la loi ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 17,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-soc-03",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Inscrire la sexualité dans la définition et le respect des droits humains",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Les victimes ne sont jamais responsables : soutenir et agir",
+      "description": "Comprendre que les victimes ne sont jamais responsables des violences ou des discriminations subies, et réfléchir aux moyens d’y faire face : soutenir les victimes, chercher de l’aide, promouvoir l’égalité, éduquer.",
+      "officialObjectives": [
+        "Prendre conscience que les victimes n’en sont jamais responsables et réfléchir aux moyens d’y faire face (soutien aux victimes, capacité à chercher et trouver de l’aide, promotion de l’égalité, éducation)."
+      ],
+      "evidence": [
+        "Explique que les victimes n’en sont jamais responsables.",
+        "Propose des moyens d’y faire face : soutien aux victimes, recherche d’aide, promotion de l’égalité, éducation.",
+        "Réfléchit au rôle actif que toute personne peut jouer pour prévenir ou dénoncer les violences.",
+        "Cite des numéros d’urgence, comme le 119 pour les mineurs.",
+        "Propose des stratégies efficaces pour prévenir les discriminations liées à l’orientation sexuelle dans le champ sportif et y mettre fin."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’une victime n’est jamais responsable de ce qu’elle subit, et ce que chacun peut faire pour l’aider ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 17,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-soc-04",
+      "programme": "evars-college",
+      "type": "PROCEDURAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Inscrire la sexualité dans la définition et le respect des droits humains",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Développer sa capacité d’écoute et l’attention aux autres",
+      "description": "Écouter vraiment les autres et prêter attention à ce qu’ils vivent, en se mettant à la place de différentes personnes.",
+      "officialObjectives": [
+        "Développer sa capacité d’écoute et l’attention portée aux autres."
+      ],
+      "evidence": [
+        "Rédige des témoignages selon différents points de vue.",
+        "Écoute les points de vue des autres lors d’un débat et en tient compte."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait écouter un avis différent du sien et se mettre à la place de l’autre ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 18,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    },
+    {
+      "id": "fr-evs-3e-soc-05",
+      "programme": "evars-college",
+      "type": "CONCEPTUAL",
+      "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "domain": "Trouver sa place dans la société, y être libre et responsable",
+      "subdomain": "Inscrire la sexualité dans la définition et le respect des droits humains",
+      "level": "3e",
+      "cycle": 4,
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "name": "Relier les droits humains aux évolutions de la société et des lois",
+      "description": "Comprendre que les lois et les politiques publiques évoluent avec la société pour mieux respecter les droits humains, et repérer les écarts entre les principes et la réalité.",
+      "officialObjectives": [
+        "Mettre en lien le respect des droits humains avec les évolutions de la société, des lois et des politiques publiques."
+      ],
+      "evidence": [
+        "Analyse des lois et leurs évolutions, qui rendent compte de l’évolution de la société.",
+        "Repère les décalages entre principes universels et réalité.",
+        "Cite des exemples d’évolutions : dépénalisation de l’homosexualité pour les mineurs de plus de 15 ans (loi du 4 août 1982), retrait de l’homosexualité de la liste des pathologies par l’OMS (17 mai 1990)."
+      ],
+      "assessmentPrompt": "Est-ce que {{prenom}} sait donner un exemple de loi qui a évolué pour mieux respecter les droits de chacun ?",
+      "source": {
+        "file": "commun/evars-college-BO6-2025.pdf",
+        "bo": "BO n° 6 du 6 février 2025",
+        "page": 18,
+        "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f"
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "topicId": "fr-evs-6e-corps-02",
+      "prerequisiteId": "fr-evs-6e-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Situer la puberté dans l’adolescence suppose de connaître ses changements."
+    },
+    {
+      "topicId": "fr-evs-6e-corps-03",
+      "prerequisiteId": "fr-evs-6e-corps-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur la connaissance des changements de la puberté, dont les règles."
+    },
+    {
+      "topicId": "fr-evs-6e-rel-04",
+      "prerequisiteId": "fr-evs-6e-rel-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Construire des liens s’appuie sur la compréhension des composantes d’une relation."
+    },
+    {
+      "topicId": "fr-evs-6e-soc-02",
+      "prerequisiteId": "fr-evs-6e-corps-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La liberté d’être soi à la puberté s’appuie sur la compréhension de ses changements."
+    },
+    {
+      "topicId": "fr-evs-6e-soc-03",
+      "prerequisiteId": "fr-evs-6e-soc-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Accepter les autres prolonge le devoir de respect des autres."
+    },
+    {
+      "topicId": "fr-evs-5e-corps-02",
+      "prerequisiteId": "fr-evs-5e-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Parler d’orientation sexuelle suppose de la distinguer du sexe et du genre."
+    },
+    {
+      "topicId": "fr-evs-5e-corps-02",
+      "prerequisiteId": "fr-evs-6e-rel-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’attirance a été abordée comme composante d’une relation (6e)."
+    },
+    {
+      "topicId": "fr-evs-5e-corps-03",
+      "prerequisiteId": "fr-evs-6e-corps-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur l’idée que chaque corps est singulier (6e)."
+    },
+    {
+      "topicId": "fr-evs-5e-corps-05",
+      "prerequisiteId": "fr-evs-6e-soc-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Accepter les autres dans leur diversité et coopérer » (6e)."
+    },
+    {
+      "topicId": "fr-evs-5e-rel-01",
+      "prerequisiteId": "fr-evs-5e-corps-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur l’acceptation des autres dans leur diversité."
+    },
+    {
+      "topicId": "fr-evs-5e-rel-02",
+      "prerequisiteId": "fr-evs-6e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Caractériser une relation » (6e)."
+    },
+    {
+      "topicId": "fr-evs-5e-rel-03",
+      "prerequisiteId": "fr-evs-5e-rel-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Reconnaître un acte non désiré suppose de comprendre le consentement."
+    },
+    {
+      "topicId": "fr-evs-5e-rel-05",
+      "prerequisiteId": "fr-evs-5e-corps-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Reprend l’acceptation des autres dans leur diversité."
+    },
+    {
+      "topicId": "fr-evs-5e-rel-06",
+      "prerequisiteId": "fr-evs-6e-rel-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Se protéger de ces contenus suppose un regard critique sur les influences."
+    },
+    {
+      "topicId": "fr-evs-5e-soc-01",
+      "prerequisiteId": "fr-evs-5e-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Définir liberté et égalité face au sexe, au genre et à l’orientation suppose de distinguer ces notions."
+    },
+    {
+      "topicId": "fr-evs-5e-soc-02",
+      "prerequisiteId": "fr-evs-6e-rel-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur le cadre légal de la vie privée en ligne (6e)."
+    },
+    {
+      "topicId": "fr-evs-5e-soc-03",
+      "prerequisiteId": "fr-evs-6e-rel-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Le cadre légal qui protège la vie privée et l’intimité en ligne » (6e)."
+    },
+    {
+      "topicId": "fr-evs-5e-soc-04",
+      "prerequisiteId": "fr-evs-5e-soc-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Réagir suppose de savoir identifier les cyberviolences."
+    },
+    {
+      "topicId": "fr-evs-5e-soc-05",
+      "prerequisiteId": "fr-evs-5e-soc-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les infractions en ligne portent souvent atteinte à la vie privée et à l’image."
+    },
+    {
+      "topicId": "fr-evs-5e-soc-06",
+      "prerequisiteId": "fr-evs-6e-rel-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prolonge « Développer des relations constructives » (6e)."
+    },
+    {
+      "topicId": "fr-evs-5e-soc-07",
+      "prerequisiteId": "fr-evs-5e-soc-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Faire des choix responsables s’appuie sur la connaissance des risques en ligne."
+    },
+    {
+      "topicId": "fr-evs-4e-corps-01",
+      "prerequisiteId": "fr-evs-5e-corps-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur le travail sur l’attirance et les sentiments amoureux (5e)."
+    },
+    {
+      "topicId": "fr-evs-4e-corps-02",
+      "prerequisiteId": "fr-evs-5e-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Comprendre l’intersexuation suppose de connaître la notion de sexe biologique (5e)."
+    },
+    {
+      "topicId": "fr-evs-4e-corps-03",
+      "prerequisiteId": "fr-evs-4e-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Penser la sexualité comme un cheminement suppose d’en connaître les différents aspects."
+    },
+    {
+      "topicId": "fr-evs-4e-corps-05",
+      "prerequisiteId": "fr-evs-6e-corps-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prolonge l’idée de consulter en cas de règles douloureuses (6e)."
+    },
+    {
+      "topicId": "fr-evs-4e-corps-05",
+      "prerequisiteId": "fr-evs-5e-corps-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur la définition de la santé et sur le fait de savoir se faire aider (5e)."
+    },
+    {
+      "topicId": "fr-evs-4e-corps-06",
+      "prerequisiteId": "fr-evs-5e-soc-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Savoir faire des choix responsables » (5e)."
+    },
+    {
+      "topicId": "fr-evs-4e-corps-06",
+      "prerequisiteId": "fr-evs-4e-corps-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Faire des choix responsables s’appuie sur des sources d’information fiables."
+    },
+    {
+      "topicId": "fr-evs-4e-rel-01",
+      "prerequisiteId": "fr-evs-5e-rel-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Relier consentement et liberté prolonge le travail sur le consentement (5e)."
+    },
+    {
+      "topicId": "fr-evs-4e-rel-01",
+      "prerequisiteId": "fr-evs-5e-rel-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur la distinction entre relations positives et négatives (5e)."
+    },
+    {
+      "topicId": "fr-evs-4e-rel-02",
+      "prerequisiteId": "fr-evs-5e-soc-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prolonge la réflexion sur les risques des réseaux sociaux (5e)."
+    },
+    {
+      "topicId": "fr-evs-4e-rel-03",
+      "prerequisiteId": "fr-evs-5e-soc-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Les risques liés aux images supposent de connaître le droit à l’image (5e)."
+    },
+    {
+      "topicId": "fr-evs-4e-rel-04",
+      "prerequisiteId": "fr-evs-4e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Décider librement suppose de comprendre le lien entre consentement et liberté."
+    },
+    {
+      "topicId": "fr-evs-4e-rel-05",
+      "prerequisiteId": "fr-evs-4e-corps-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La prévention des IST s’appuie sur la connaissance des lieux de dépistage."
+    },
+    {
+      "topicId": "fr-evs-4e-rel-06",
+      "prerequisiteId": "fr-evs-4e-corps-05",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "La contraception s’appuie sur la connaissance des lieux d’information en santé sexuelle."
+    },
+    {
+      "topicId": "fr-evs-4e-rel-07",
+      "prerequisiteId": "fr-evs-4e-corps-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Identifier un service d’aide prolonge la connaissance des lieux d’information en santé sexuelle."
+    },
+    {
+      "topicId": "fr-evs-4e-rel-08",
+      "prerequisiteId": "fr-evs-4e-rel-07",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Demander de l’aide suppose de savoir à qui s’adresser."
+    },
+    {
+      "topicId": "fr-evs-4e-rel-08",
+      "prerequisiteId": "fr-evs-5e-soc-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Prolonge « Réagir face au harcèlement ou aux violences » (5e)."
+    },
+    {
+      "topicId": "fr-evs-4e-soc-01",
+      "prerequisiteId": "fr-evs-6e-soc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Étudier le fonctionnement des groupes : règles, normes, stéréotypes » (6e)."
+    },
+    {
+      "topicId": "fr-evs-4e-soc-02",
+      "prerequisiteId": "fr-evs-4e-soc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Repérer l’inégalité dans une représentation s’appuie sur l’analyse des normes et stéréotypes."
+    },
+    {
+      "topicId": "fr-evs-4e-soc-03",
+      "prerequisiteId": "fr-evs-6e-rel-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Reconnaître l’influence des pairs » : penser de façon critique (6e)."
+    },
+    {
+      "topicId": "fr-evs-4e-soc-04",
+      "prerequisiteId": "fr-evs-4e-soc-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Décrypter les messages des médias mobilise l’esprit critique."
+    },
+    {
+      "topicId": "fr-evs-4e-soc-04",
+      "prerequisiteId": "fr-evs-4e-soc-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur la distinction entre représentations égalitaires et inégalitaires."
+    },
+    {
+      "topicId": "fr-evs-4e-soc-05",
+      "prerequisiteId": "fr-evs-5e-rel-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Se protéger des contenus sexuellement explicites en ligne » (5e)."
+    },
+    {
+      "topicId": "fr-evs-4e-soc-05",
+      "prerequisiteId": "fr-evs-4e-soc-04",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur le décryptage des images de la sexualité dans les médias."
+    },
+    {
+      "topicId": "fr-evs-4e-soc-06",
+      "prerequisiteId": "fr-evs-4e-soc-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Comprendre l’interdiction suppose de savoir ce qu’est la pornographie."
+    },
+    {
+      "topicId": "fr-evs-4e-soc-07",
+      "prerequisiteId": "fr-evs-4e-rel-03",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "S’appuie sur la compréhension de l’exploitation sexuelle et de la prostitution des mineurs."
+    },
+    {
+      "topicId": "fr-evs-3e-corps-01",
+      "prerequisiteId": "fr-evs-4e-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Envisager les différents aspects de la sexualité » (4e)."
+    },
+    {
+      "topicId": "fr-evs-3e-corps-02",
+      "prerequisiteId": "fr-evs-3e-corps-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Distinguer désir et comportement suppose de définir le désir."
+    },
+    {
+      "topicId": "fr-evs-3e-corps-03",
+      "prerequisiteId": "fr-evs-3e-corps-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "S’appuie sur la distinction entre désir et comportement."
+    },
+    {
+      "topicId": "fr-evs-3e-corps-04",
+      "prerequisiteId": "fr-evs-4e-corps-04",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Comprendre, identifier et gérer ses émotions » (4e)."
+    },
+    {
+      "topicId": "fr-evs-3e-corps-05",
+      "prerequisiteId": "fr-evs-4e-rel-07",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Identifier les services d’aide s’appuie sur ceux repérés en 4e."
+    },
+    {
+      "topicId": "fr-evs-3e-rel-01",
+      "prerequisiteId": "fr-evs-4e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Relation, place dans le groupe et consentement » (4e)."
+    },
+    {
+      "topicId": "fr-evs-3e-rel-02",
+      "prerequisiteId": "fr-evs-4e-corps-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Développer sa capacité à faire des choix responsables » (4e)."
+    },
+    {
+      "topicId": "fr-evs-3e-rel-03",
+      "prerequisiteId": "fr-evs-4e-rel-05",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Prévenir les infections sexuellement transmissibles » (4e)."
+    },
+    {
+      "topicId": "fr-evs-3e-rel-03",
+      "prerequisiteId": "fr-evs-3e-rel-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’inscrit dans l’analyse de la notion de risque."
+    },
+    {
+      "topicId": "fr-evs-3e-rel-04",
+      "prerequisiteId": "fr-evs-4e-rel-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Prévenir les grossesses non prévues : contraception et IVG » (4e)."
+    },
+    {
+      "topicId": "fr-evs-3e-rel-04",
+      "prerequisiteId": "fr-evs-3e-rel-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’inscrit dans l’analyse de la notion de risque."
+    },
+    {
+      "topicId": "fr-evs-3e-rel-05",
+      "prerequisiteId": "fr-evs-5e-corps-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur le travail sur l’attirance et les sentiments amoureux (5e)."
+    },
+    {
+      "topicId": "fr-evs-3e-rel-06",
+      "prerequisiteId": "fr-evs-3e-rel-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Caractériser le consentement s’appuie sur la distinction entre partage, consentement et réciprocité."
+    },
+    {
+      "topicId": "fr-evs-3e-rel-07",
+      "prerequisiteId": "fr-evs-3e-rel-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "L’effet des substances sur le consentement suppose de savoir le caractériser."
+    },
+    {
+      "topicId": "fr-evs-3e-rel-08",
+      "prerequisiteId": "fr-evs-4e-rel-03",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Les mécanismes d’emprise ont été repérés en 4e."
+    },
+    {
+      "topicId": "fr-evs-3e-rel-08",
+      "prerequisiteId": "fr-evs-4e-rel-08",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Chercher du soutien prolonge « Savoir demander de l’aide » (4e)."
+    },
+    {
+      "topicId": "fr-evs-3e-rel-09",
+      "prerequisiteId": "fr-evs-3e-rel-06",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Le mariage forcé est une atteinte au consentement."
+    },
+    {
+      "topicId": "fr-evs-3e-soc-01",
+      "prerequisiteId": "fr-evs-5e-soc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Liberté, respect et égalité face au sexe, au genre et à l’orientation » (5e)."
+    },
+    {
+      "topicId": "fr-evs-3e-soc-02",
+      "prerequisiteId": "fr-evs-3e-soc-01",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "Reconnaître une violation suppose de connaître les droits en matière de sexualité."
+    },
+    {
+      "topicId": "fr-evs-3e-soc-02",
+      "prerequisiteId": "fr-evs-3e-rel-08",
+      "strength": "soft",
+      "origin": "déduit",
+      "reason": "S’appuie sur la reconnaissance des situations de violences."
+    },
+    {
+      "topicId": "fr-evs-3e-soc-03",
+      "prerequisiteId": "fr-evs-3e-soc-02",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Faire face aux violences suppose de savoir les reconnaître."
+    },
+    {
+      "topicId": "fr-evs-3e-soc-04",
+      "prerequisiteId": "fr-evs-5e-soc-06",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Prolonge « Écouter les autres et développer des relations constructives » (5e)."
+    },
+    {
+      "topicId": "fr-evs-3e-soc-05",
+      "prerequisiteId": "fr-evs-3e-soc-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "reason": "Relier droits et évolutions des lois suppose de connaître les droits en jeu."
+    }
+  ],
+  "extractedAt": "2026-10-23"
+}

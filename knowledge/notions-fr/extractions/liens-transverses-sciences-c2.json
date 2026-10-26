@@ -1,0 +1,27 @@
+{
+  "programme": "sciences-c2",
+  "description": "Liens vers une autre matière",
+  "prerequisites": [
+    {
+      "topicId": "fr-sc-cp-masvt-01",
+      "prerequisiteId": "fr-ma-gs-masse-01",
+      "strength": "hard",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S'appuie sur « Ordonner les masses de trois objets » (GS, maths)"
+    },
+    {
+      "topicId": "fr-sc-cp-masvt-02",
+      "prerequisiteId": "fr-ma-gs-masse-02",
+      "strength": "soft",
+      "origin": "déduit",
+      "continuation": false,
+      "reason": "S'appuie sur « Reconnaître que deux objets ont la même masse » (GS, maths)"
+    }
+  ],
+  "linkedAt": "2026-10-23",
+  "versionsCibles": {
+    "maths-c1": "2026-10-23",
+    "sciences-c2": "2026-10-23"
+  }
+}

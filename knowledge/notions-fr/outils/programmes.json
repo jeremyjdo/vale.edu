@@ -1,0 +1,591 @@
+{
+  "maths-c2": {
+    "subject": "Mathématiques",
+    "code": "ma",
+    "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+    "bo": "BO n° 41 du 31 octobre 2024",
+    "levels": [
+      "CP",
+      "CE1",
+      "CE2"
+    ],
+    "follows": "maths-c1"
+  },
+  "francais-c2": {
+    "subject": "Français",
+    "code": "fr",
+    "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+    "bo": "BO n° 41 du 31 octobre 2024",
+    "levels": [
+      "CP",
+      "CE1",
+      "CE2"
+    ],
+    "follows": "langage-c1"
+  },
+  "maths-c3": {
+    "subject": "Mathématiques",
+    "code": "ma",
+    "file": "cycle-3-cm1-cm2-6e/maths-c3-BO16-2025.pdf",
+    "bo": "BO n° 16 du 17 avril 2025",
+    "levels": [
+      "CM1",
+      "CM2",
+      "6e"
+    ],
+    "follows": "maths-c2",
+    "examples": "eduscol"
+  },
+  "francais-c3": {
+    "subject": "Français",
+    "code": "fr",
+    "file": "cycle-3-cm1-cm2-6e/francais-c3-BO16-2025.pdf",
+    "bo": "BO n° 16 du 17 avril 2025",
+    "levels": [
+      "CM1",
+      "CM2",
+      "6e"
+    ],
+    "follows": "francais-c2",
+    "examples": "eduscol"
+  },
+  "maths-c4": {
+    "subject": "Mathématiques",
+    "code": "ma",
+    "file": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+    "bo": "BO n° 10 du 5 mars 2026",
+    "levels": [
+      "5e",
+      "4e",
+      "3e"
+    ],
+    "follows": "maths-c3",
+    "examples": "aucun"
+  },
+  "francais-c4": {
+    "subject": "Français",
+    "code": "fr",
+    "file": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+    "bo": "BO n° 10 du 5 mars 2026",
+    "levels": [
+      "5e",
+      "4e",
+      "3e"
+    ],
+    "follows": "francais-c3",
+    "examples": "aucun"
+  },
+  "qlm-c2": {
+    "subject": "Questionner le monde",
+    "code": "qm",
+    "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "CP",
+      "CE1",
+      "CE2",
+      "Cycle 2"
+    ],
+    "follows": null,
+    "examples": "situations",
+    "format": "ancien"
+  },
+  "hg-c3": {
+    "subject": "Histoire-géographie",
+    "code": "hg",
+    "file": "cycle-3-cm1-cm2-6e/histoire-geo-c3-BO22-2026.pdf",
+    "bo": "BO n° 22 du 28 mai 2026",
+    "levels": [
+      "CM1",
+      "CM2",
+      "6e"
+    ],
+    "follows": "qlm-c2"
+  },
+  "sciences-c3": {
+    "subject": "Sciences et technologie",
+    "code": "sc",
+    "file": "cycle-3-cm1-cm2-6e/sciences-techno-c3-BO24-2026.pdf",
+    "bo": "BO n° 24 du 11 juin 2026",
+    "levels": [
+      "CM1",
+      "CM2",
+      "6e",
+      "CM1-CM2",
+      "Cycle 3"
+    ],
+    "follows": "qlm-c2",
+    "format": "image"
+  },
+  "lv-cm": {
+    "subject": "Langues vivantes",
+    "code": "lv",
+    "file": "cycle-3-cm1-cm2-6e/langues-vivantes-cm-BO12-2026.pdf",
+    "bo": "BO n° 12 du 19 mars 2026",
+    "levels": [
+      "CM1",
+      "CM2"
+    ],
+    "follows": "lv-c2",
+    "examples": "aucun"
+  },
+  "emc": {
+    "subject": "Enseignement moral et civique",
+    "code": "emc",
+    "file": "commun/emc-cp-terminale-BO24-2024.pdf",
+    "bo": "BO n° 24 du 13 juin 2024",
+    "levels": [
+      "CP",
+      "CE1",
+      "CE2",
+      "CM1",
+      "CM2",
+      "6e",
+      "5e",
+      "4e",
+      "3e"
+    ],
+    "follows": null,
+    "format": "emc"
+  },
+  "hg-c2": {
+    "subject": "Histoire-géographie",
+    "code": "hg",
+    "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+    "bo": "BO n° 22 du 28 mai 2026",
+    "levels": [
+      "CP",
+      "CE1",
+      "CE2"
+    ],
+    "follows": "reperes-c1",
+    "remplace": [
+      "qlm-c2"
+    ]
+  },
+  "sciences-c2": {
+    "subject": "Sciences et technologie",
+    "code": "sc",
+    "file": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+    "bo": "BO n° 24 du 11 juin 2026",
+    "levels": [
+      "CP",
+      "CE1",
+      "CE2",
+      "Cycle 2"
+    ],
+    "follows": "monde-c1",
+    "format": "image",
+    "remplace": [
+      "qlm-c2"
+    ]
+  },
+  "lv-c2": {
+    "subject": "Langues vivantes",
+    "code": "lv",
+    "file": "cycle-2-cp-ce1-ce2/langues-vivantes-c2-BO12-2026.pdf",
+    "bo": "BO n° 12 du 19 mars 2026",
+    "levels": [
+      "CP",
+      "CE1",
+      "CE2"
+    ],
+    "follows": null
+  },
+  "eps-c2": {
+    "subject": "Éducation physique et sportive",
+    "code": "eps",
+    "file": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+    "bo": "BO n° 22 du 28 mai 2026",
+    "levels": [
+      "CP",
+      "CE1",
+      "CE2"
+    ],
+    "follows": "eps-c1"
+  },
+  "eps-c3": {
+    "subject": "Éducation physique et sportive",
+    "code": "eps",
+    "file": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+    "bo": "BO n° 22 du 28 mai 2026",
+    "levels": [
+      "CM1",
+      "CM2",
+      "CM1-CM2",
+      "6e"
+    ],
+    "follows": "eps-c2",
+    "examples": "aucun"
+  },
+  "evar-c1": {
+    "subject": "Éducation à la vie affective et relationnelle",
+    "code": "eva",
+    "file": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+    "bo": "BO n° 6 du 6 février 2025",
+    "levels": [
+      "PS",
+      "MS",
+      "GS",
+      "Cycle 1"
+    ],
+    "follows": null
+  },
+  "evar-elem": {
+    "subject": "Éducation à la vie affective et relationnelle",
+    "code": "eva",
+    "file": "commun/evar-elementaire-BO6-2025.pdf",
+    "bo": "BO n° 6 du 6 février 2025",
+    "levels": [
+      "CP",
+      "CE1",
+      "CE2",
+      "CM1",
+      "CM2"
+    ],
+    "follows": "evar-c1"
+  },
+  "evars-college": {
+    "subject": "Éducation à la vie affective et relationnelle, et à la sexualité",
+    "code": "evs",
+    "file": "commun/evars-college-BO6-2025.pdf",
+    "bo": "BO n° 6 du 6 février 2025",
+    "levels": [
+      "6e",
+      "5e",
+      "4e",
+      "3e"
+    ],
+    "follows": "evar-elem"
+  },
+  "langage-c1": {
+    "subject": "Langage oral et écrit",
+    "code": "lan",
+    "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+    "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+    "levels": [
+      "PS",
+      "MS",
+      "GS",
+      "Cycle 1"
+    ],
+    "follows": null
+  },
+  "eps-c1": {
+    "subject": "Activités physiques",
+    "code": "eps",
+    "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+    "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+    "levels": [
+      "PS",
+      "MS",
+      "GS",
+      "Cycle 1"
+    ],
+    "follows": null
+  },
+  "arts-c1": {
+    "subject": "Activités artistiques",
+    "code": "art",
+    "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+    "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+    "levels": [
+      "PS",
+      "MS",
+      "GS",
+      "Cycle 1"
+    ],
+    "follows": null
+  },
+  "maths-c1": {
+    "subject": "Premiers outils mathématiques",
+    "code": "ma",
+    "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+    "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+    "levels": [
+      "PS",
+      "MS",
+      "GS",
+      "Cycle 1"
+    ],
+    "follows": null
+  },
+  "reperes-c1": {
+    "subject": "Se repérer dans le temps et l'espace",
+    "code": "rep",
+    "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+    "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+    "levels": [
+      "PS",
+      "MS",
+      "GS",
+      "Cycle 1"
+    ],
+    "follows": null
+  },
+  "monde-c1": {
+    "subject": "Découvrir le monde du vivant, de la matière et des objets",
+    "code": "mon",
+    "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+    "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+    "levels": [
+      "PS",
+      "MS",
+      "GS",
+      "Cycle 1"
+    ],
+    "follows": null
+  },
+  "ap-c2": {
+    "subject": "Arts plastiques",
+    "code": "ap",
+    "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "CP",
+      "CE1",
+      "CE2",
+      "Cycle 2"
+    ],
+    "follows": "arts-c1",
+    "format": "ancien"
+  },
+  "em-c2": {
+    "subject": "Éducation musicale",
+    "code": "em",
+    "file": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "CP",
+      "CE1",
+      "CE2",
+      "Cycle 2"
+    ],
+    "follows": "arts-c1",
+    "format": "ancien"
+  },
+  "ap-c3": {
+    "subject": "Arts plastiques",
+    "code": "ap",
+    "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "CM1",
+      "CM2",
+      "6e",
+      "CM1-CM2",
+      "Cycle 3"
+    ],
+    "follows": "ap-c2",
+    "format": "ancien"
+  },
+  "em-c3": {
+    "subject": "Éducation musicale",
+    "code": "em",
+    "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "CM1",
+      "CM2",
+      "6e",
+      "CM1-CM2",
+      "Cycle 3"
+    ],
+    "follows": "em-c2",
+    "format": "ancien"
+  },
+  "hda-c3": {
+    "subject": "Histoire des arts",
+    "code": "hda",
+    "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "CM1",
+      "CM2",
+      "6e",
+      "CM1-CM2",
+      "Cycle 3"
+    ],
+    "follows": null,
+    "format": "ancien"
+  },
+  "ap-c4": {
+    "subject": "Arts plastiques",
+    "code": "ap",
+    "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "5e",
+      "4e",
+      "3e",
+      "Cycle 4"
+    ],
+    "follows": "ap-c3",
+    "format": "ancien"
+  },
+  "em-c4": {
+    "subject": "Éducation musicale",
+    "code": "em",
+    "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "5e",
+      "4e",
+      "3e",
+      "Cycle 4"
+    ],
+    "follows": "em-c3",
+    "format": "ancien"
+  },
+  "hda-c4": {
+    "subject": "Histoire des arts",
+    "code": "hda",
+    "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "5e",
+      "4e",
+      "3e",
+      "Cycle 4"
+    ],
+    "follows": "hda-c3",
+    "format": "ancien"
+  },
+  "hg-c4": {
+    "subject": "Histoire-géographie",
+    "code": "hg",
+    "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "5e",
+      "4e",
+      "3e",
+      "Cycle 4"
+    ],
+    "follows": "hg-c3",
+    "format": "ancien"
+  },
+  "pc-c4": {
+    "subject": "Physique-chimie",
+    "code": "pc",
+    "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "5e",
+      "4e",
+      "3e",
+      "Cycle 4"
+    ],
+    "follows": "sciences-c3",
+    "format": "ancien"
+  },
+  "svt-c4": {
+    "subject": "Sciences de la vie et de la Terre",
+    "code": "svt",
+    "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "5e",
+      "4e",
+      "3e",
+      "Cycle 4"
+    ],
+    "follows": "sciences-c3",
+    "format": "ancien"
+  },
+  "eps-c4": {
+    "subject": "Éducation physique et sportive",
+    "code": "eps",
+    "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "5e",
+      "4e",
+      "3e",
+      "Cycle 4"
+    ],
+    "follows": "eps-c3",
+    "format": "ancien"
+  },
+  "emi-c4": {
+    "subject": "Éducation aux médias et à l'information",
+    "code": "emi",
+    "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+    "bo": "BO n° 31 du 30 juillet 2020",
+    "levels": [
+      "5e",
+      "4e",
+      "3e",
+      "Cycle 4"
+    ],
+    "follows": null,
+    "format": "ancien"
+  },
+  "tec-c4": {
+    "subject": "Technologie",
+    "code": "tec",
+    "file": "cycle-4-5e-4e-3e/technologie-c4-BO9-2024.pdf",
+    "bo": "BO n° 9 du 29 février 2024",
+    "levels": [
+      "5e",
+      "4e",
+      "3e",
+      "Cycle 4"
+    ],
+    "follows": "sciences-c3",
+    "examples": "aucun",
+    "format": "ancien"
+  },
+  "anglais-college": {
+    "subject": "Anglais",
+    "code": "ang",
+    "file": "langues-vivantes-college/anglais-college-BO22-2025.pdf",
+    "bo": "BO n° 22 du 29 mai 2025",
+    "levels": [
+      "6e",
+      "5e",
+      "4e",
+      "3e"
+    ],
+    "follows": "lv-cm"
+  },
+  "espagnol-college": {
+    "subject": "Espagnol",
+    "code": "esp",
+    "file": "langues-vivantes-college/espagnol-college-BO22-2025.pdf",
+    "bo": "BO n° 22 du 29 mai 2025",
+    "levels": [
+      "6e",
+      "5e",
+      "4e",
+      "3e"
+    ],
+    "follows": "lv-cm"
+  },
+  "allemand-college": {
+    "subject": "Allemand",
+    "code": "all",
+    "file": "langues-vivantes-college/allemand-college-BO22-2025.pdf",
+    "bo": "BO n° 22 du 29 mai 2025",
+    "levels": [
+      "6e",
+      "5e",
+      "4e",
+      "3e"
+    ],
+    "follows": "lv-cm"
+  },
+  "italien-college": {
+    "subject": "Italien",
+    "code": "ita",
+    "file": "langues-vivantes-college/italien-college-BO22-2025.pdf",
+    "bo": "BO n° 22 du 29 mai 2025",
+    "levels": [
+      "6e",
+      "5e",
+      "4e",
+      "3e"
+    ],
+    "follows": "lv-cm"
+  }
+}

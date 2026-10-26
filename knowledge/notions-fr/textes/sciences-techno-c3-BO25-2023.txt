@@ -1,0 +1,837 @@
+=== PAGE 1 ===
+                                                                                 Bulletin officiel n° 25 du 22 juin 2023
+Annexe – Programme de sciences et technologie du cycle 3
+Préambule
+L’enseignement des sciences et de la technologie, dès le plus jeune âge, est indispensable pour préparer les élèves à
+leur vie de citoyen dans un monde où les sciences et la technologie occupent une place prépondérante.
+L’organisation des apprentissages au cours des différents cycles de la scolarité obligatoire est pensée de manière à
+introduire de façon progressive des notions et des concepts dont l’assimilation nécessite du temps. Aux cycles 1 et 2,
+les élèves ont exploré, observé et questionné le monde qui les entoure. Au cycle 3, en revisitant les notions et les
+concepts déjà abordés, ils progressent dans la conceptualisation et s’initient à la modélisation. Ils enrichissent leur
+culture scientifique et technologique, ce qui contribue à les éduquer à la citoyenneté au regard de la place des
+sciences et de la technologie dans la société.
+La construction de savoirs et de compétences scientifiques et technologiques s’appuie sur des démarches variées qui
+mettent en œuvre notamment l’observation, la manipulation, l’expérimentation, la modélisation, l’argumentation, la
+documentation, l’enquête, indispensables à la pratique des sciences et de la technologie. L’enseignement des
+sciences et de la technologie contribue à donner aux élèves une représentation cohérente et raisonnée du monde
+qui les entoure, de son fonctionnement et de son histoire. À ce titre, l’étude du réel et la confrontation des idées et
+des hypothèses aux observations et aux résultats d’expériences jouent un rôle fondamental. En effet, lorsqu’un
+discours contredit les faits issus d’expériences et d’observations, les démarches scientifiques donnent la primauté
+aux faits, en assurant leur fiabilité par le test de leur reproductibilité et de leur robustesse.
+La pratique de la démarche scientifique concourt à la mise en cohérence de faits, à l’identification de paramètres
+pertinents, à l’élaboration de concepts et à la construction de modèles et de théories. La pensée scientifique n’a de
+cesse d’osciller, d’une part, entre le monde réel et ses représentations (comme les modèles), et, d’autre part, entre
+des cas particuliers et des formulations générales (comme des lois). Les cas particuliers servent à la fois à éprouver les
+lois générales et à inspirer les recherches futures. Il s’agit d’amener les élèves à exercer leur capacité à raisonner, à
+développer leur esprit critique et à distinguer le registre de la connaissance scientifique, qui repose sur des faits
+éprouvés, de celui de la croyance ou de la simple opinion. Prendre en compte les conceptions initiales des élèves
+constitue souvent une stratégie pédagogique féconde pour confronter leurs idées, dégager un problème scientifique
+à résoudre collectivement, dépasser le sens commun et aller au-delà des intuitions premières, souvent trompeuses,
+en les confrontant aux faits.
+La pratique de la démarche technologique est un autre volet important de la formation des élèves. Les objets et les
+systèmes techniques répondent à des besoins auxquels la nature ne fournit pas de solution immédiate ou aisément
+accessible. Leur étude doit par conséquent être mise en relation avec les besoins humains et tenir compte des enjeux
+de la transition écologique et du développement durable. La production d’une solution technique par les élèves eux-
+mêmes, par exemple par la réalisation d’une maquette, est vivement encouragée. Il s’agit d’identifier plusieurs
+solutions à un problème technique et d’amener les élèves à faire un choix raisonné et argumenté de la solution la
+plus adaptée aux besoins. La réalisation d’un projet est recommandée, car elle permet d’engager les élèves dans la
+démarche technologique, mais aussi de faire un lien entre les différentes thématiques du programme.
+L’enseignement des sciences et de la technologie offre l’occasion de développer des compétences langagières
+partagées, mais aussi de pratiquer des formes langagières spécifiques. Il permet de travailler la communication à
+l’oral – prise de parole en classe, écoute de l’autre et formulation d’arguments et de contre-arguments dans le cadre
+de débats argumentés, présentation orale de ses travaux, etc. – et à l’écrit – écrit de travail, écrit de synthèse,
+représentations graphiques (croquis, dessin ou schéma), réalisation d’affiches pédagogiques, etc. À cet égard
+peuvent être envisagées, dans le cadre de cet enseignement, des activités conçues autour de la précision du
+vocabulaire scientifique et technique, du lien à établir entre le terme, la notion ou le concept, et de la distinction à
+faire entre les mots de la langue commune et ceux des discours spécialisés.
+L’enseignement des sciences et de la technologie offre la possibilité, dans des contextes concrets, de donner du sens
+aux notions mathématiques. Il offre également un cadre propice à l’installation des premiers éléments d’une culture
+numérique, devenue indispensable dans la société actuelle, et qui se construit tout au long du parcours de l’élève. Il
+participe à la construction d’un ensemble de savoirs, de savoir-faire et de savoir-être dans lesquels s’enracinent les
+éducations transversales à la santé, à la sexualité, aux médias et à l’information, à la préservation de l’environnement
+et au développement durable. Cet enseignement contribue au développement de compétences psychosociales
+(émotionnelles, sociales et cognitives) par la pratique collaborative du travail en groupe, le respect de la pensée
+d’autrui, la prise en compte des émotions que suscite un rapport sensible à la nature ou encore l’exercice de la
+pensée critique.
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 2 ===
+                                                                                Bulletin officiel n° 25 du 22 juin 2023
+Afin de répondre à ces objectifs, le professeur propose aux élèves des tâches variées : des observations, la
+conception et la réalisation d’expériences, le test de solutions technologiques, l’étude de documents, l’interview de
+scientifiques ou de professionnels, des élevages ou des cultures, etc. En réalisant des activités expérimentales, les
+élèves découvrent les notions de variabilité et de reproductibilité des mesures. Les élèves sont initiés aux contraintes
+d’une communication efficace avec leurs pairs, contraintes partagées par les scientifiques, par exemple grâce au
+recueil de données, à la rédaction de comptes rendus, etc. Le professeur veille à encourager le questionnement des
+élèves et à susciter leur curiosité, au cœur de l’activité scientifique et technologique. Les situations choisies visent
+l’implication des élèves. La mise en activité authentique des élèves conditionne leur engagement et l’acquisition de
+connaissances. L’explicitation par le professeur des démarches mises en œuvre et des savoirs à mémoriser leur donne
+du sens et participe à la construction pérenne des apprentissages.
+Afin de faciliter sa mise en œuvre, le programme est structuré en quatre thématiques interdépendantes dont les
+objectifs d’apprentissage sont explicités. Deux ensembles de connaissances et de compétences sont présentés sous
+la forme d’un socle exigible en fin de cours moyen et d’un autre exigible en fin de sixième, et synthétisés par des
+attendus de fin de cycle pour chacune des parties. Dans le cadre de l’exercice de sa liberté pédagogique, le
+professeur peut compléter ces apprentissages par toute activité formatrice qui lui semblerait pertinente. Les quatre
+thématiques retenues sont les suivantes :
+     -    Matière, mouvement, énergie et information ;
+     -    Le vivant, sa diversité et les fonctions qui le caractérisent ;
+     -    Les objets techniques au cœur de la société ;
+     -    La Terre, une planète peuplée par des êtres vivants.
+Consolidée en classe de sixième au travers des applications des notions scientifiques abordées, la culture
+technologique se nourrit de la mise en relation des concepts scientifiques et de leurs applications technologiques
+présentes dans le quotidien des élèves. Le tableau suivant établit le lien entre les principales compétences travaillées
+et les cinq domaines du socle. Il s’agit d’engager les élèves de cycle 3 dans le travail des compétences listées dans ce
+tableau. Cet apprentissage, long et progressif, doit se faire sur l’ensemble de leur scolarité.
+Compétences travaillées                                                                 Domaines du socle
+Pratiquer des démarches scientifiques et technologiques
+ Formuler une question ou un problème scientifique ou technologique.
+ Formuler des hypothèses fondées et qui peuvent être éprouvées.
+ Concevoir et mettre en œuvre des expériences ou d’autres stratégies de résolution
+  pour tester ces hypothèses.
+ Proposer et/ou suivre un protocole expérimental.                                      Domaine 2
+ Participer à l’élaboration et à la conduite d’un projet.                              Les méthodes et les outils
+ Utiliser des instruments d’observation, de mesure, des techniques de préparation,     pour apprendre
+  de collecte.                                                                          Domaine 4
+ Exploiter des documents de natures variées et évaluer leur fiabilité.                 Les systèmes naturels et les
+                                                                                        systèmes techniques
+ Modéliser des phénomènes naturels.
+ Étudier les phénomènes naturels en mobilisant des grandeurs physiques et en
+  réalisant des calculs.
+ Interpréter des résultats de façon raisonnée et en tirer des conclusions en
+  mobilisant des arguments scientifiques.
+ Communiquer sur les démarches, les résultats et les choix en argumentant.
+Concevoir, créer, réaliser
+ Imaginer un objet technique en réponse à un besoin.                                   Domaine 4
+ Associer des solutions technologiques à des fonctions techniques.                     Les systèmes naturels et les
+                                                                                        systèmes techniques
+ Concevoir et réaliser une maquette pour modéliser un phénomène naturel ou un
+  objet technique.
+Pratiquer des langages
+                                                                                        Domaine 1
+ Rendre compte de ses activités en utilisant un vocabulaire précis et des formes
+                                                                                        Les langages pour penser et
+  langagières spécifiques des sciences et des techniques.
+                                                                                        communiquer
+ Exploiter un document constitué de divers supports (texte, schéma, graphique,
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 3 ===
+                                                                                  Bulletin officiel n° 25 du 22 juin 2023
+  tableau, algorithme simple, carte heuristique).
+ Utiliser différents modes de représentation (schéma, dessin, croquis, tableau,
+  graphique, texte, etc.) et passer d’une représentation à une autre.
+ Expliquer un phénomène à l’oral et à l’écrit.
+Mobiliser des outils numériques
+ Utiliser des outils numériques pour :
+  - communiquer des résultats ;
+  - faire des recherches ;                                                                Domaine 2
+  - traiter des données ;                                                                 Les méthodes et les outils
+                                                                                          pour apprendre
+  - simuler des phénomènes.
+ Appliquer les principes de l’algorithmique et de la programmation par blocs pour
+  écrire ou comprendre un code simple.
+ Modifier ou paramétrer le fonctionnement d’un objet communicant.
+Adopter un comportement éthique et responsable                                            Domaine 3
+ Relier des connaissances acquises en sciences et technologie à des questions de         La formation de la personne et
+  santé, de sécurité et d’environnement.                                                  du citoyen
+ Comprendre et expliquer des décisions collectives et responsables.                      Domaine 5
+                                                                                          Les représentations du monde
+                                                                                          et l’activité humaine
+Se situer dans l’espace et dans le temps
+ Maîtriser les notions d’échelles spatiale et temporelle et en citer quelques ordres     Domaine 5
+  de grandeur caractéristiques.                                                           Les représentations du monde
+ Identifier comment se construit un savoir scientifique en lien avec un contexte         et l’activité humaine
+  historique, géographique, économique et culturel.
+Faire preuve d’esprit critique                                                            Domaine 2
+ Identifier des sources d’informations fiables.                                          Les méthodes et outils pour
+                                                                                          apprendre
+ Vérifier l’existence de preuves et en évaluer la qualité.
+                                                                                          Domaine 4
+ Évaluer la pertinence des arguments et/ou identifier des arguments fallacieux.
+                                                                                          Les systèmes naturels et les
+ Distinguer ce qui relève d’une croyance de ce qui constitue un savoir scientifique.     systèmes techniques
+Matière, mouvement, énergie, information
+États et constitution de la matière à l’échelle macroscopique
+L’observation, à l’échelle macroscopique, de quelques propriétés de la matière vise à consolider les connaissances
+acquises au cycle 2. L’activité expérimentale constitue dans ce domaine le support privilégié pour favoriser la
+compréhension des concepts en jeu. La réalisation de dispositifs simples par les élèves eux-mêmes (par exemple à
+l’aide d’éléments de jeux de construction, de poulies, d’engrenages, de cordelettes, etc.) permet de développer leur
+créativité et leur dextérité. Les matériaux et la matière présents dans leur environnement proche peuvent aussi être
+mobilisés de façon prioritaire pour les activités expérimentales, en particulier l’eau, ce qui permet de les sensibiliser à
+la préservation de cette ressource essentielle.
+La réalisation de mesures quantitatives, en lien avec l’enseignement des mathématiques, permet une meilleure
+appropriation de la spécificité de chaque grandeur envisagée et de l’importance des unités correspondantes. Elle
+permet également une première approche des concepts de variabilité et de reproductibilité des mesures réalisées,
+notions essentielles dans la mise en œuvre d’activités expérimentales.
+Les mesures de masse et de volume, puis l’exploitation de la relation de proportionnalité entre la masse et le volume
+d’un même corps homogène, préparent l’introduction du concept de masse volumique au cycle 4.
+L’étude des mélanges offre l’occasion de mettre en œuvre des techniques de tri et de séparation dans le cadre de
+l’éducation au développement durable. La séparation par évaporation trouve une application immédiate dans la
+récolte du sel et permet d’aborder les problématiques de la désalinisation de l’eau de mer et de la disponibilité de
+l’eau potable. Certains mélanges peuvent conduire à des transformations chimiques : dans cette optique, il importe
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 4 ===
+                                                                                 Bulletin officiel n° 25 du 22 juin 2023
+de sensibiliser les élèves aux contraintes de sécurité relatives à l’usage de certains produits présents dans leur
+environnement quotidien, comme les produits ménagers.
+Attendus de fin de cycle
+ Décrire un échantillon de matière à l’aide du vocabulaire scientifique et des grandeurs physiques : masse, volume.
+ Caractériser la diversité de la matière et de ses transformations à l’échelle macroscopique.
+ Utiliser les propriétés physiques des matériaux pour les classer, notamment à des fins de tri.
+Connaissances et compétences attendues en fin de cours       Connaissances et compétences attendues en fin de
+moyen                                                        sixième
+Propriétés de la matière                                     Propriétés de la matière
+ Distinguer les matériaux fabriqués ou transformés par     Rechercher des informations relatives à la durée de
+  l’être humain des matériaux directement disponibles        décomposition dans la nature de quelques matériaux
+  dans la nature.                                            usuels (objets métalliques, papiers et cartons,
+ Différencier les états physiques solide (forme et volume   plastiques, verres) pour connaître leurs conséquences
+  propres), liquide (volume propre et absence de forme       éventuelles sur l’environnement.
+  propre) et gazeux (ni forme propre ni volume propre).     Réaliser des expériences ou exploiter des documents
+ Observer des changements d’état physique et leur           pour comparer et trier différents matériaux sur la base
+  réversibilité.                                             de leurs propriétés physiques (conductivité thermique
+                                                             ou électrique, capacité à interagir avec un aimant).
+ Identifier les différents états physiques de la matière
+  dans la nature, en particulier ceux de l’eau.             Mesurer des températures de changement d’état.
+                                                            Relever l’évolution de la température au cours du
+                                                             temps lors du refroidissement ou de l’échauffement
+                                                             d’un corps et identifier les éventuels paliers de
+                                                             température lors des changements d’état.
+Masse et volume                                              Masse et volume
+ Comparer les masses de différents corps à l’aide d’un       Mesurer un volume de gaz par déplacement de liquide.
+  dispositif simple qui peut être conçu par les élèves        Effectuer des conversions d’unités de masse et de
+  (poulie et cordelette, balance romaine, à fléau, à           volume.
+  plateaux).
+                                                              Comparer et mesurer les masses de corps différents,
+ Mesurer la masse d’un solide ou d’un liquide à l’aide        mais de même volume, et réciproquement.
+  d’une balance, en tarant la balance le cas échéant.
+                                                              Exploiter la relation de proportionnalité entre masse et
+ Effectuer des conversions d’unités de masse (en se           volume d’un corps homogène.
+  limitant à des unités usuelles : tonne, quintal,
+                                                              Mettre en évidence expérimentalement un critère pour
+  kilogramme, gramme et milligramme).
+                                                               prévoir la position respective de deux couches liquides
+ Mesurer le volume d’un liquide et mesurer celui d’un         non miscibles superposées (comparaison de leurs
+  solide par déplacement de liquide.                           masses pour un même volume).
+Mélanges                                                     Mélanges
+ Séparer les constituants d’un mélange de solides ou         Mettre en œuvre une technique de séparation de
+  d’un mélange solide-liquide par tamisage, décantation,       liquides non miscibles.
+  filtration.                                                 Observer le phénomène de saturation lors du mélange
+ Observer que certains solides peuvent se dissoudre           d’un solide dans l’eau et en rendre compte
+  dans l’eau et qu’il est possible de les récupérer par        quantitativement.
+  évaporation.                                                Rechercher et exploiter des informations relatives à la
+ Mettre en évidence expérimentalement que la masse            composition de l’air et citer des gaz qui contribuent à
+  totale se conserve lors du mélange d’un solide dans un       l’effet de serre.
+  liquide.                                                    Réaliser un mélange pour lequel les changements
+                                                               observés peuvent être interprétés par une
+                                                               transformation chimique (changement de couleur,
+                                                               production d’un gaz, etc.).
+                                                              Réaliser un mélange où se produit une transformation
+                                                               chimique.
+                                                              Mettre en évidence la consommation des réactifs ou la
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 5 ===
+                                                                                 Bulletin officiel n° 25 du 22 juin 2023
+                                                               formation des produits lors d’une transformation
+                                                               chimique (changement de couleur, production d’un
+                                                               gaz, etc.).
+                                                              Rechercher et exploiter des informations sur les
+                                                               contraintes de sécurité relatives à la manipulation des
+                                                               produits ménagers et sur les conséquences de ces
+                                                               produits sur l’environnement.
+                                                              Associer les pictogrammes de sécurité visibles dans le
+                                                               laboratoire de chimie aux dangers et aux risques qui
+                                                               leur correspondent.
+Différents types de mouvement
+L’étude du mouvement d’un objet nécessite toujours la mention du point de vue selon lequel ce mouvement est
+décrit et caractérisé. Le professeur veille donc à systématiser la formulation « par rapport à » ou « du point de vue
+de » pour initier les élèves au caractère relatif du mouvement, sujet qui sera approfondi au cycle 4. Par exemple, on
+précise que « le Soleil décrit une courbe dans le ciel du point de vue de la cour de récréation », que « le train se
+déplace en ligne droite par rapport à une personne sur le quai de la gare », ou encore qu’« un point coloré sur une
+toupie ou un disque décrit un cercle par rapport à l’axe de rotation », etc. Le mouvement de révolution de la Terre
+autour du Soleil, du point de vue héliocentrique, et le mouvement de rotation de la Terre par rapport à l’axe des
+pôles sont introduits pour définir la durée d’une année et la durée d’un jour. Le recours à l’histoire des sciences, à la
+modélisation, prenant appui sur la réalisation de dispositifs ou de maquettes simples, est encouragé afin de favoriser
+l’appropriation de ces mouvements par les élèves et la compréhension des méthodes d’élaboration des savoirs
+scientifiques.
+En lien avec l’enseignement des mathématiques sont proposées des activités de mesure de distances, de durées (la
+durée est définie comme l’intervalle entre deux instants), et de vitesses. Les robots motorisés programmables
+peuvent constituer un support pertinent pour la réalisation de ces activités. En classe de sixième, seul le calcul de la
+valeur de la vitesse à partir de la distance parcourue et de la durée de déplacement dans le cas d’un mouvement
+uniforme est exigible. L’exploitation plus générale de la relation entre vitesse, distance et durée relève du cycle 4.
+Attendus de fin de cycle
+ Décrire un mouvement en précisant le point de vue.
+ Caractériser un mouvement par des mesures.
+Connaissances et compétences attendues en fin de cours       Connaissances et compétences attendues en fin de
+moyen                                                        sixième
+Mouvements                                                   Mouvements
+ Observer et identifier le mouvement rectiligne ou           Calculer la valeur de la vitesse à partir de la distance
+  circulaire d’un objet, en précisant le point de vue.         parcourue et de la durée de déplacement dans le cas
+ Mesurer une distance lors du déplacement d’un objet.         du mouvement uniforme d’un objet par rapport à un
+                                                               observateur.
+ Mesurer une durée, comme intervalle entre deux
+  instants, lors du déplacement d’un objet.                   Observer et identifier des situations où la vitesse d’un
+                                                               objet en mouvement par rapport à un observateur a
+ Effectuer des conversions d’unités de distance et de
+                                                               une valeur constante ou variable.
+  temps.
+                                                              Effectuer des conversions d’unités de distance et de
+                                                               temps, en particulier dans le contexte du mouvement
+                                                               de révolution des planètes autour du Soleil.
+                                                              Associer la durée d’une année au mouvement de
+                                                               révolution de la Terre autour du Soleil, du point de vue
+                                                               héliocentrique, et associer la durée d’un jour au
+                                                               mouvement de rotation de la Terre autour de l’axe des
+                                                               pôles.
+Ressources en énergie et conversions d’énergie
+Différentes formes d’énergie (de pesanteur, cinétique, chimique, thermique, électrique, nucléaire et lumineuse) sont
+introduites de façon progressive par le biais de leurs conversions et de leurs transferts dans des contextes concrets :
+moyens de transport, production d’électricité, applications domestiques, etc.
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 6 ===
+                                                                                 Bulletin officiel n° 25 du 22 juin 2023
+Afin de préparer les apprentissages ultérieurs, au cycle 4 et au-delà, le professeur veille à distinguer les énergies qui
+peuvent être stockées (énergies de pesanteur, cinétique, chimique, nucléaire et thermique) de celles qui
+correspondent à des transferts énergétiques (énergies électrique et lumineuse).
+La réalisation de maquettes simples permet de modéliser des dispositifs où interviennent des conversions ou des
+transferts d’énergie : conversion d’énergie potentielle en énergie cinétique dans un dispositif mécanique (moulin à
+eau, par exemple), conversion d’énergie chimique en énergie cinétique dans un dispositif constitué d’un moteur
+alimenté par une pile électrique, transfert d’énergie électrique vers une lampe ou un autre appareil électrique
+alimenté par une pile électrique, etc. On veille à la rigueur du langage utilisé pour rendre compte des conversions et
+des transferts d’énergie : « au cours de la chute d’un objet, son énergie de pesanteur est convertie en énergie
+cinétique », « dans un véhicule équipé d’un moteur à essence, de l’énergie chimique est convertie en énergie
+cinétique », « la Terre reçoit de l’énergie du Soleil par la lumière qu’il émet ». Si la dépendance des énergies de
+pesanteur et cinétique vis-à-vis de la masse peut être évoquée en cas de besoin à l’occasion des activités proposées,
+elle ne constitue pas pour autant une connaissance exigible des élèves en fin de cycle 3.
+Les élèves sont sensibilisés au caractère renouvelable ou non, à l’échelle temporelle de la vie humaine, des ressources
+en énergie. L’importance de l’énergie reçue du Soleil pour la vie sur Terre et pour les activités humaines est
+mentionnée. La recherche d’informations relatives à différentes ressources en énergie et aux conséquences sur
+l’environnement de leur utilisation (chauffage, moyens de transport, production d’électricité, etc.) s’inscrit dans
+l’éducation au développement durable. Elle a également pour but d’enrichir la culture scientifique et technique des
+élèves, de les sensibiliser à la problématique de la fiabilité des sources d’informations et de contribuer à développer
+leur esprit critique.
+Attendus de fin de cycle
+ Identifier les formes d’énergie mises en jeu dans un dispositif de conversion d’énergie.
+ Rechercher et exploiter des informations relatives aux ressources en énergie et à leur utilisation en exerçant son
+  esprit critique.
+Connaissances et compétences attendues en fin de cours       Connaissances et compétences attendues en fin de
+moyen                                                        sixième
+Conversions d’énergie                                        Conversions d’énergie
+ Réaliser expérimentalement un dispositif de conversion  Identifier différentes formes d’énergie (énergies de
+  d’énergie.                                               pesanteur, cinétique, chimique, thermique, électrique,
+ Identifier différentes formes d’énergie : énergie de     nucléaire et lumineuse) dans des situations variées.
+  pesanteur (dépendant de l’altitude sur Terre), énergie      Réaliser expérimentalement un dispositif de conversion
+  cinétique (liée au mouvement) et énergie électrique,         d’énergie et en rendre compte par la représentation
+  par exemple dans le contexte de la production                d’une chaîne énergétique.
+  d’électricité par une centrale hydro-électrique ou une      Rechercher des informations relatives à différentes
+  éolienne.                                                    ressources en énergie (Soleil, eau, vent, pétrole, bois,
+                                                               charbon, dihydrogène, combustible nucléaire
+                                                               (uranium), etc.) et les différencier selon leur caractère
+                                                               renouvelable ou non à l’échelle temporelle de la vie
+                                                               humaine.
+                                                              Rechercher des informations relatives à l’utilisation de
+                                                               différentes ressources en énergie pour caractériser
+                                                               leurs conséquences sur l’environnement (émission de
+                                                               gaz à effet de serre, production de déchets, etc.).
+Signal et information
+Au cycle 3, le travail concerne les signaux lumineux et électriques. Les autres types de signaux peuvent être
+mentionnés en lien avec la transmission d’informations.
+La partie relative à la lumière aborde la formation d’ombres dès le cours moyen à partir de l’observation du
+phénomène. Les connaissances ainsi acquises sont réinvesties en classe de sixième pour modéliser et expliquer
+l’alternance du jour et de la nuit. La variation des durées du jour et de la nuit au cours des saisons résulte de la
+variation de l’inclinaison apparente du Soleil pour un observateur placé en un point donné de la surface du globe. Il
+est par exemple possible, pour un élève en position d’observation, de suivre l’évolution, au cours de plusieurs
+journées ensoleillées, de l’ombre portée d’un bâton sur le sol, et de comparer les résultats obtenus à différents
+moments de l’année. Les activités de modélisation qui s’appuient sur la réalisation de dispositifs simples sont
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 7 ===
+                                                                                 Bulletin officiel n° 25 du 22 juin 2023
+encouragées, car elles permettent de s’approprier un phénomène et d’en prévoir les effets.
+La notion de circulation du courant électrique dans un circuit, introduite au cycle 2, est consolidée en cours moyen.
+En classe de sixième, les compétences acquises dans le domaine de l’électricité sont réinvesties pour éprouver la
+conductivité électrique de certains matériaux (en lien avec l’étude des propriétés de la matière) et pour mettre en
+œuvre des éléments technologiques simples (capteurs, moteurs électriques miniatures, éléments photovoltaïques,
+par exemple) dans des circuits électriques à une boucle. Un des objectifs d’apprentissage est d’aider les élèves à
+dépasser une conception circulatoire du courant (courant qui s’épuise ou qui s’use). L’étude des phénomènes
+électriques s’accompagne d’une sensibilisation des élèves aux risques électriques domestiques.
+L’utilisation des signaux lumineux, électriques ou sonores pour transmettre de l’information est illustrée grâce à des
+applications concrètes (feux de signalisation, voyant de charge d’un appareil, alarme sonore, câbles de
+communication sous-marins, etc.). Il s’agit aussi d’amener les élèves à mieux appréhender l’environnement
+technologique dans lequel ils vivent et de les initier à la programmation (en lien avec le thème relatif aux objets
+techniques).
+Attendus de fin de cycle
+ Interpréter la formation d’ombres, en particulier dans le contexte du système Soleil-Terre-Lune.
+ Mettre en œuvre des circuits électriques à une boucle en respectant des consignes de sécurité.
+ Identifier des signaux de natures différentes et citer des applications dans lesquelles un signal permet de
+  transmettre une information.
+Connaissances et compétences attendues en fin de cours       Connaissances et compétences attendues en fin de
+moyen                                                        sixième
+Lumière                                                      Lumière
+ Observer et classer des objets selon qu’ils sont            Interpréter l’alternance du jour et de la nuit du point de
+  transparents, opaques à la lumière ou translucides.          vue d’un observateur sur Terre, en s’appuyant sur une
+ Produire expérimentalement une ombre (déficit de             modélisation du phénomène.
+  lumière associé à une source) à l’aide d’un objet           Associer l’alternance des saisons à l’inclinaison du Soleil
+  opaque et distinguer ombre propre et ombre portée.           et à la durée du jour pour un observateur sur la Terre.
+ Observer, schématiser et nommer les phases de la
+  Lune.
+ Réaliser des ombres et associer leurs positions à celles
+  de la source lumineuse et de l’objet opaque.
+Électricité                                                  Électricité
+ Réaliser un circuit électrique à une boucle associant un    Mettre en évidence expérimentalement la possibilité
+  générateur (pile), un interrupteur, un ou deux               d’intervertir les positions des composants d’un circuit à
+  récepteurs (lampes à incandescence) pour mettre en           une boucle.
+  évidence la circulation du courant électrique.              Mettre en œuvre un circuit électrique à une boucle
+ Rechercher des informations sur les règles de sécurité       avec un convertisseur d’énergie (moteur, élément
+  électrique et les prendre en compte dans son activité.       photovoltaïque, etc.).
+                                                              Mettre en œuvre un circuit électrique à une boucle
+                                                               avec un capteur (de température, d’éclairement, de
+                                                               mouvement, etc.).
+                                                              Donner une représentation schématique normalisée du
+                                                               circuit électrique réalisé.
+                                                              Rechercher des informations sur les règles de sécurité
+                                                               électrique et les prendre en compte dans son activité.
+                                                             Transmission de l’information
+                                                              Identifier différents signaux pour transmettre de
+                                                               l’information (signal sonore, lumineux, électrique, etc.).
+                                                              Citer quelques applications des signaux pour
+                                                               transmettre de l’information.
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 8 ===
+                                                                                    Bulletin officiel n° 25 du 22 juin 2023
+Le vivant, sa diversité et les fonctions qui le caractérisent
+Panorama du monde vivant
+L’enjeu est de donner aux élèves des clés de compréhension du monde vivant par une approche scientifique et
+sensible de sa diversité et de son unité. Ce thème permet de comprendre l’importance, en sciences, de l’observation
+et des différents modes de représentation graphique (croquis, dessins, schémas) et d’engager les élèves dans ces
+pratiques.
+La classification des êtres vivants permet d’ordonner la grande diversité des formes de vie sur Terre à partir d’un
+raisonnement scientifique. Elle offre l’occasion d’introduire la notion de parenté entre les êtres vivants qui sera mise
+en relation au cycle 4 avec les mécanismes d’évolution biologique. Pour cela, un petit nombre d’exemples sont
+étudiés en cours moyen, puis le champ d’études s’élargit en classe de sixième. La classification est clairement
+distinguée des activités d’identification effectuées à l’aide de clés de détermination. L’étude de la biodiversité peut,
+avec profit, s’appuyer sur la participation à des projets de sciences citoyennes ou participatives (comme Vigie-Nature
+École) qui conduit à mieux connaître des partenaires de l’école tout en contribuant à la recherche scientifique.
+La biodiversité observée dans le passé, évoquée au travers de groupes emblématiques (comme les dinosaures),
+permet d’appréhender le temps long et de poser les premiers jalons pour dépasser une conception fixiste du vivant.
+Elle est également l’occasion de distinguer les savoirs scientifiques – qui reposent sur des faits éprouvés – des
+croyances ou de la simple opinion.
+Attendus de fin de cycle
+ Caractériser la richesse, l’unité et la diversité actuelle et passée du vivant.
+ Classer les organismes et établir les liens de parenté.
+Connaissances et compétences attendues en fin de cours           Connaissances et compétences attendues en fin de
+moyen                                                            sixième
+Organisation des êtres vivants                                   Organisation des êtres vivants
+ Distinguer (par l’observation) les différents niveaux           Réaliser et représenter des observations
+  d’organisation des êtres vivants (organisme, appareil,           microscopiques de cellules (issues de tissus animaux
+  organe) à partir de deux exemples (plante à fleurs et            et végétaux et d’organismes unicellulaires).
+  animal).                                                        Identifier la cellule comme l’unité structurale
+                                                                   commune à tous les êtres vivants.
+Classification du vivant                                         Classification du vivant
+ Réaliser une classification en groupes emboîtés pour            Mettre en relation différents types de classification
+  mettre en évidence des liens de parenté à partir d'un            des êtres vivants (utilitaire, écologique,
+  petit nombre d’espèces possédant des attributs                   phylogénétique, etc.) et les objectifs de chacun.
+  identifiés.                                                     Classer et établir des parentés à partir de collections
+                                                                   d’espèces appartenant à différentes branches de
+                                                                   l’arbre du vivant, en utilisant notamment des bases
+                                                                   de données numériques.
+                                                                  Lire et interpréter des arbres de parenté simples.
+Biodiversité actuelle et passée                                  Biodiversité actuelle et passée
+ Déterminer des espèces biologiques de l’environnement      Caractériser la diversité intraspécifique et discuter
+  proche en utilisant une clé de détermination.               des attributs utilisés pour regrouper les individus au
+ Caractériser le changement de la biodiversité au cours de   sein d’une espèce.
+  l’histoire de la Terre par l’exploitation de fossiles.     Déterminer des espèces biologiques actuelles ou
+ Distinguer différentes échelles de temps : l’échelle des    fossiles, en utilisant une clé de détermination.
+  temps géologiques (notion de temps long) et celle de            Exploiter la reconstitution d’un paléoenvironnement
+  l’histoire de l’être humain.                                     en un lieu donné afin de comparer les biodiversités
+ Placer plusieurs espèces actuelles et fossiles sur une           actuelle et passée.
+  échelle des temps.                                              Exploiter des documents pour mettre en évidence
+                                                                   l’existence de grandes crises biologiques à placer sur
+                                                                   une échelle des temps.
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 9 ===
+                                                                                  Bulletin officiel n° 25 du 22 juin 2023
+Alimentation humaine
+Cette partie introduit les bases physiologiques de l’alimentation dans une perspective d’éducation à la santé. En
+classe de sixième, l’accent est mis sur les micro-organismes et leur rôle dans la production et la conservation des
+aliments, en s’appuyant sur les acquis du cours moyen. L’étude des micro-organismes permet de remobiliser les
+principes élémentaires d’hygiène étudiés en cycle 2 (lavage des mains, stérilisation, etc.). Une transformation
+alimentaire est réalisée en classe (fabrication du pain ou du yaourt, par exemple) et permet d’identifier des
+paramètres d’influence dont la connaissance est exploitée pour obtenir une certaine qualité du produit. Elle induit la
+mise en œuvre de tout ou partie de la démarche biotechnologique. Des sorties et des rencontres avec des
+professionnels (boulanger, exploitant agricole, entreprise agroalimentaire, etc.) permettent de faire découvrir des
+métiers.
+Attendus de fin de cycle
+ Expliquer le rôle des aliments pour le fonctionnement de l’organisme.
+ Identifier les principes des technologies mises en œuvre pour transformer et conserver les aliments.
+Connaissances et compétences attendues en fin de cours          Connaissances et compétences attendues en fin de
+moyen                                                           sixième
+Besoins alimentaires et nutrition humaine                       Besoins alimentaires et nutrition humaine
+ Exploiter des données mettant en évidence le besoin de  Rechercher et exploiter des informations sur
+  matière pour la croissance et le développement des êtres l’alimentation humaine pour identifier des
+  vivants.                                                 comportements favorables à la santé (composition
+ Exploiter des données pour expliquer la variation des    d’aliments, adéquation entre les apports et les
+  besoins alimentaires au cours de la croissance et selon  besoins, etc.).
+  l’activité physique.                                           Relier la diversité des aliments avec les cultures et les
+ Identifier et localiser la transformation des aliments dans     sociétés humaines, et leur mode de production.
+  l’appareil digestif (mastication par les dents,
+  changements de texture lors du trajet).
+ Identifier le rôle de la circulation sanguine dans
+  l’approvisionnement des organes.
+ Citer quelques comportements alimentaires et règles
+  d’hygiène favorables à la santé (équilibre alimentaire,
+  qualité sanitaire des aliments, brossage des dents, etc.).
+Production et conservation des aliments                         Production et conservation des aliments
+ Réaliser une transformation alimentaire (pain ou yaourt,       Relier les processus de conservation des aliments et la
+  par exemple) et identifier son origine biologique (levure       limitation des risques sanitaires (salaison,
+  ou ferment lactique).                                           conservation au froid, stérilisation, etc.).
+ Identifier les processus à l’origine de la production          Réaliser une transformation alimentaire impliquant
+  d’aliments par une étude documentaire ou une                    des micro-organismes effectuant une fermentation et
+  rencontre avec des professionnels.                              identifier certains paramètres d’influence.
+                                                                 Mesurer l’évolution au cours du temps de certains
+                                                                  paramètres physico-chimiques à l’aide de capteurs.
+Cycle de vie et reproduction des êtres vivants
+Les élèves s’approprient la notion de cycle de vie en réalisant des observations dans leur environnement proche, ou à
+l’aide de cultures et d’élevages réalisés au sein de la classe ou de l’école.
+L’étude de la pollinisation, en classe de sixième, s’appuie sur des observations et des données expérimentales. Elle est
+enrichie par une étude documentaire pour interroger les conséquences de certaines pratiques culturales sur les
+écosystèmes dans une perspective d’éducation au développement durable.
+L’étude de la reproduction humaine s’articule avec les trois séances annuelles d’éducation à la sexualité, prenant
+place de l’école au lycée.
+Attendus de fin de cycle
+ Décrire le cycle de vie d’une plante à fleurs et celui d’un animal.
+ Décrire les changements pubertaires chez les êtres humains associés à la capacité de se reproduire.
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 10 ===
+                                                                                 Bulletin officiel n° 25 du 22 juin 2023
+ Identifier la dimension biologique de la sexualité humaine et la distinguer de ses autres dimensions (psycho-
+  émotionnelle, juridique et sociale).
+Connaissances et compétences attendues en fin de cours         Connaissances et compétences attendues en fin de
+moyen                                                          sixième
+Cycle de vie                                                   Cycle de vie
+ Exploiter des observations issues de cultures ou              Mettre en évidence le rôle de la pollinisation dans la
+  d’élevages pour identifier les différentes étapes d’un         transformation de la fleur en fruit et des ovules en
+  cycle de vie (naissance, croissance, reproduction,             graines.
+  vieillissement, mort) et les formes associées (graine-        Illustrer la notion de coopération (interaction
+  plantule-plante fleurie, œuf-embryon-larve ou jeune-           mutualiste) avec l’exemple de la pollinisation.
+  adulte).
+                                                                Relier l’évolution de l’abondance de pollinisateurs à
+                                                                 ses conséquences sur certaines cultures.
+                                                                Comprendre l’impact de l’utilisation des pesticides
+                                                                 sur l’abondance des pollinisateurs.
+Reproduction et sexualité humaine                              Reproduction et sexualité humaine
+ Nommer les organes reproducteurs étudiés avec le              Connaître et localiser les principaux organes de
+  vocabulaire scientifique correspondant.                        l’appareil reproducteur des êtres humains en les
+ Décrire et identifier les changements du corps au              associant à leurs fonctions.
+  moment de la puberté et les relier à la capacité à se         Caractériser les modifications morphologiques,
+  reproduire.                                                    comportementales et physiologiques de la puberté.
+                                                                Caractériser les processus impliqués dans la
+                                                                 reproduction humaine, en particulier la fécondation
+                                                                 interne et le développement vivipare impliquant des
+                                                                 échanges placentaires.
+                                                                Distinguer la notion de reproduction de celle de
+                                                                 sexualité humaine (définie dans ses différentes
+                                                                 dimensions).
+Les objets techniques au cœur de la société
+Les objets techniques en réponse aux besoins des individus et de la société
+Si les besoins de l’humanité (habitat, alimentation, reproduction, soins, survie, communication, déplacements) ont
+fondamentalement peu changé dans le temps, les réponses apportées pour y subvenir ont évolué en s’appuyant
+notamment sur les progrès accomplis dans la maîtrise des technologies.
+Cette partie vise à appréhender les liens existant entre les objets créés par l’être humain et les besoins qui en ont
+motivé la conception et la fabrication, introduisant le souci de continuer « à rendre service » aux individus et à la
+société tout en veillant à la préservation des ressources utilisées. Les objets techniques abordés au cycle 3 sont des
+objets matériels ; certains peuvent être connectés entre eux ou disposer de programmes informatiques contribuant
+à leur fonctionnement.
+Attendus de fin de cycle
+ Identifier un besoin exprimé par la société et lui associer des objets techniques permettant d’y répondre.
+ Distinguer un objet technique d’un objet naturel.
+ Repérer les évolutions des objets techniques en fonction de leur contexte d’utilisation.
+ Citer quelques exemples d’objets techniques conçus pour répondre à un besoin spécifique et ayant été détournés
+  de leur usage initial.
+Connaissances et compétences attendues en fin de cours        Liens avec les connaissances et compétences abordées en
+moyen                                                         sixième dans les autres thèmes
+                                                              Les principes de conversion de l’énergie peuvent être
+Besoin exprimé par l’individu, la société
+                                                              replacés dans le contexte de leur utilisation dans des
+ Identifier des besoins et leur évolution (se déplacer, se   réalisations technologiques existantes (par exemple,
+  chauffer, s’alimenter, etc.).                               panneaux solaires, éoliennes, centrales hydro-électriques).
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 11 ===
+                                                                                   Bulletin officiel n° 25 du 22 juin 2023
+ Identifier le lien entre des besoins et des réponses
+  apportées par les objets techniques.
+Évolution technologique (innovation, invention, principe       Les actions humaines peuvent avoir des conséquences
+technique, approche environnementale)                          positives ou négatives sur l’environnement. On pourra
+ Repérer les évolutions d’un objet dans différents            identifier des solutions technologiques permettant de
+  contextes (historique, géographique, économique,             répondre aux besoins de la société tout en préservant les
+  culturel, technologique) ; par exemple, l’évolution du       ressources de la planète (meilleure isolation thermique
+  transport ferroviaire (matériel et usages) depuis son        des bâtiments, transports en commun, etc.).
+  apparition jusqu’à aujourd’hui.
+ Comparer des réponses à des besoins dans différents
+  contextes ; par exemple, se déplacer en milieu urbain
+  ou rural.
+ Citer des cas de détournement d’usage d’objets.
+  Justifier une réflexion éthique lors de la conception ou
+  de la fabrication de certains objets techniques.
+Description du fonctionnement et de la constitution d’objets techniques
+L’objectif de cette partie est de permettre aux élèves de décrire les objets techniques de leur quotidien. Si la
+précédente partie s’intéressait davantage au « pourquoi » de l’existence et de l’évolution des objets, il s’agit ici de
+comprendre « comment » un objet répond à un besoin. À partir d’exemples simples, comme celui d’une lampe de
+bureau, l’objet est décomposé en plusieurs sous-ensembles (ampoule, interrupteur, cordon électrique, etc.), chacun
+jouant un rôle précis (éclairer, allumer/éteindre, transporter l’énergie électrique, etc.). Cette partie vise ainsi à établir
+les liens entre les solutions technologiques et les fonctions techniques qu’elles assurent et à permettre aux élèves de
+les décrire par des croquis ou des schémas adaptés.
+Attendus de fin de cycle
+ Distinguer besoins, fonctions techniques et solutions technologiques.
+ Décrire un objet technique par un schéma (représentation du fonctionnement de l’objet) et un croquis (ce que l’on
+  observe).
+Connaissances et compétences attendues en fin de cours         Liens avec les connaissances et compétences abordées en
+moyen                                                          sixième dans les autres thèmes
+Besoins et fonctions techniques
+ Distinguer un besoin et les fonctions techniques
+  réalisées par un objet technique.
+ Identifier les fonctions assurées par un objet technique.
+Solutions technologiques                                       Mettre en lien le choix des matériaux avec les propriétés
+ Associer les solutions technologiques aux fonctions          de la matière (propriétés chimiques et propriétés
+  techniques.                                                  physiques : thermique, électrique, etc.).
+ Identifier les matériaux utilisés.                           L’étude des mouvements peut être réalisée en prenant
+                                                               appui sur des objets techniques dont les mouvements
+                                                               relatifs des différentes parties sont étudiés (par exemple,
+                                                               système de poulies, ascenseur).
+Représentation des objets techniques                           Indispensable dans la démarche technologique, la
+ Représenter graphiquement à l’aide de croquis à main         représentation schématique, non obligatoirement
+  levée les éléments d’un objet technique.                     normée, soutient la recherche d’idées dans toutes les
+                                                               disciplines scientifiques et reste une étape indispensable
+ Identifier les sous-ensembles constituant un objet
+                                                               à toute matérialisation d’une solution.
+  technique.
+ Décrire à l’aide d’un schéma le fonctionnement d’un
+  objet technique.
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 12 ===
+                                                                                 Bulletin officiel n° 25 du 22 juin 2023
+Démarche de conception et de réalisation d’un objet technique
+Au cycle 3, les élèves sont initiés à la démarche technologique, dont l’apprentissage est approfondi au cycle 4.
+Elle se développe dans un projet technologique allant de la prise de conscience d’un besoin jusqu’à la proposition de
+solutions techniques adaptées. On encourage la créativité des élèves, leur permettant de prendre conscience qu’à un
+problème peuvent correspondre plusieurs solutions. Cela leur permet d’apprendre à critiquer une solution de façon
+raisonnée et objective et à expliciter leurs choix pour répondre aux besoins tout en prenant notamment en compte
+les conséquences de ces choix sur l’environnement (la notion de cycle de vie d’un objet technique est ici essentielle).
+Cette approche sous forme de projet mené en groupe s’appuie sur la collaboration et la communication entre les
+élèves. Ils sont amenés à participer à l’organisation et à la planification de leur travail, à se répartir les tâches et à
+apprendre à compter les uns sur les autres. Ces compétences d’organisation du travail gagnent à être réinvesties
+dans tout autre projet.
+Attendus de fin de cycle
+ Décrire et pratiquer la démarche technologique dans le cadre d’un projet.
+ Participer à un travail collectif.
+ Identifier les liens entre des choix de conception et leurs effets sur les étapes du cycle de vie d’un objet technique.
+Connaissances et compétences attendues en fin de cours       Liens avec les connaissances et compétences abordées en
+moyen                                                        sixième dans les autres thèmes
+Problème technique                                           Les instruments utilisés lors de démarches scientifiques
+ Rechercher des idées de solutions à l’aide de schémas      dans l’étude de la matière, du mouvement, du vivant
+  ou de croquis pour résoudre un problème technique          pourront être exploités dans une approche comparative
+  donné.                                                     (par exemple, les différents types de balances, les
+                                                             différences entre loupes et microscopes, etc.)
+ Comparer des solutions par une analyse critique
+  (notamment dans le cadre de la transition écologique
+  et du développement durable).
+Notion de contrainte (imperméabilité, poids, autonomie,      Les caractéristiques physiques et chimiques d’un
+etc.)                                                        matériau sont mises en relation avec leur intérêt
+ Prendre en compte une contrainte dans la recherche         technologique dans la conception d’un objet technique
+  de solutions.                                              (en lien avec le thème Matière, mouvement, énergie,
+                                                             information).
+ Choisir un matériau en fonction de ses propriétés
+  physiques.                                               La notion de contrainte peut s’illustrer dans différents
+                                                           processus, par exemple l’étude de la production et de la
+ Exploiter les formes d’énergie disponibles (par exemple,
+                                                           conservation des aliments (en lien avec le thème Le
+  le système de chauffage d’un refuge de haute
+                                                           vivant, sa diversité et les fonctions qui le caractérisent).
+  montagne ou d’un appartement en milieu urbain).
+Cycle de vie de l’objet technique                            Propriétés de la matière (décomposition des matériaux) :
+ Identifier les différentes étapes du cycle de vie d’un     l’étude des propriétés de la matière pourra être mise en
+  objet technique.                                           relation avec le cycle de vie des objets techniques.
+ Effectuer des choix raisonnés en fonction des
+  conséquences environnementales.
+Processus de réalisation de maquettes                        Les compétences d’organisation du travail peuvent être
+ Organiser le travail de réalisation d’une maquette         réexploitées dans le cadre de démarches expérimentales
+  (répartition des tâches, coopération, communication,       mobilisées dans les trois autres thématiques du
+  préparation du travail, prise en compte des consignes      programme.
+  de sécurité).
+ Planifier le travail au sein de l’équipe.
+ Participer au déroulement du projet.
+ Réaliser des maquettes simples pour matérialiser une
+  solution.
+ Vérifier que la solution répond au problème posé.
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 13 ===
+                                                                               Bulletin officiel n° 25 du 22 juin 2023
+Programmation d’objets techniques
+La technologie intègre aujourd’hui l’informatique, qui permet d’apporter de nouvelles fonctionnalités à certains
+objets. Quand les objets techniques sont reliés entre eux par des réseaux (objets communicants, transmission et
+traitement de données, etc.), les systèmes techniques où ils s’insèrent sont également transformés. Ainsi, le
+chauffage d’un logement s’adapte automatiquement à la température extérieure et à l’occupation du logement, ou,
+autre exemple, des drones parviennent à livrer des colis de façon semi-autonome. Les programmes informatiques
+sont au cœur de ces systèmes techniques augmentés. Cette partie du programme vise à initier les élèves à la
+programmation d’objets techniques à l’aide de langages de programmation par blocs. La programmation se limite à
+des algorithmes simples : organiser un ensemble de consignes (par exemple, pour un robot : avancer, tourner,
+s’arrêter), recueillir des informations (détecter un obstacle, détecter un niveau de batterie faible) pour accomplir la
+tâche souhaitée. L’apprentissage de la programmation sera avantageusement traité par le biais de défis, par exemple
+robotiques, permettant de présenter les notions de programmation dans une approche ludique et motivante pour
+les élèves.
+Attendus de fin de cycle
+ Repérer la chaîne d’information et la chaîne d’action d’un objet programmable.
+ Programmer un objet technique pour obtenir un comportement attendu.
+Connaissances et compétences attendues en fin de cours      Liens avec les connaissances et compétences abordées en
+moyen                                                       sixième dans les autres thèmes
+Les objets programmables                                    L’exploitation d’objets programmables tels que des
+ Identifier la chaîne d’information et d’action (exemple   robots permet d’aborder les circuits électriques avec
+  d’un éclairage public intelligent : détecteur de          convertisseurs d’énergie (les moteurs des robots, par
+  présence, boîtier de contrôle, relais de commande         exemple) et capteurs (utilisés pour détecter la présence
+  d’éclairage, etc.).                                       d’obstacles ou un niveau de luminosité réduit en fin de
+                                                            journée, etc.).
+ Repérer les capteurs et les actionneurs (moteur
+  électrique, etc.) présents dans un objet programmable
+  (par exemple, un robot).
+Algorithmes et programmation
+ Coder un algorithme simple agissant sur le
+  comportement d’un objet technique (déplacement
+  d’un robot, fonctionnement d’un système d’éclairage,
+  etc.).
+ Comprendre un programme simple et le traduire en
+  langage naturel.
+ Critiquer un programme au regard du comportement
+  de l’objet programmé (par exemple, la comparaison de
+  différents programmes permettant à un robot de
+  parcourir un trajet comportant des obstacles en un
+  temps minimum.
+La Terre, une planète peuplée par des êtres vivants
+La Terre, une planète singulière et active
+Ce thème permet d’appréhender le caractère singulier de la Terre, planète active peuplée par des êtres vivants. La
+Terre est dotée d’enveloppes fluides en mouvement (atmosphère et océan). L’un des enjeux est de distinguer la
+météorologie du climat, en pointant la différence d’échelles spatio-temporelles entre les deux notions. Les élèves de
+cours moyen réalisent et exploitent des mesures météorologiques locales dans l’école, ce qui permet de travailler sur
+l’importance des mesures en science. Puis, en classe de sixième, l’attention est portée sur le réchauffement
+climatique global récent et les arguments scientifiques accessibles aux élèves. Les conséquences des changements
+sont abordées dans le cadre d’une éducation au développement durable, engageant les élèves à s’investir dans des
+actions et des projets concrets tout au long de leur scolarité.
+L’activité de la Terre est mise en relation avec la production de ressources exploitables par l’être humain. Elle est
+également reliée à la notion de risque naturel, étudiée à partir d’un seul exemple porteur de sens pour les élèves.
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 14 ===
+                                                                                    Bulletin officiel n° 25 du 22 juin 2023
+Selon l’exemple choisi et le contexte local, il gagnera à être abordé en lien avec le plan particulier de mise en sûreté
+(PPMS) face aux risques majeurs. La balance bénéfices-risques mérite d’être considérée pour mieux comprendre
+certaines interactions entre l’implantation humaine et l’environnement, avec ses dangers, mais aussi ses avantages.
+Attendus de fin de cycle
+ Identifier l’activité de la planète Terre et ses conséquences.
+ Décrire les conditions de la vie terrestre.
+ Différencier la météorologie du climat.
+ Construire une argumentation scientifique pour expliquer le réchauffement climatique actuel.
+Connaissances et compétences attendues en fin de cours         Connaissances et compétences attendues en fin de
+moyen                                                          sixième
+La Terre, une planète active qui abrite la vie                 La Terre, une planète active qui abrite la vie
+ Situer la Terre dans le système solaire.                      Décrire les conditions qui permettent la présence de la
+ Distinguer la météorologie du climat.                          vie sur Terre (atmosphère et température compatibles
+                                                                 avec la vie, présence d’eau liquide) en lien avec la place
+ Réaliser et exploiter des mesures météorologiques en
+                                                                 de la Terre dans le système solaire.
+  utilisant des capteurs (thermomètre, pluviomètre,
+  anémomètre).                                                  Construire une argumentation relative au
+                                                                 réchauffement climatique récent, à partir de données
+ Identifier des indices de l’activité interne ou externe de
+                                                                 (évolution de la température moyenne depuis la
+  la Terre (séismes, volcans, vents, courants océaniques,
+                                                                 période préindustrielle, fonte de glaciers, etc.) ; relier le
+  etc.).
+                                                                 réchauffement climatique à l’évolution de la teneur en
+ Identifier des ressources naturelles exploitées par les        gaz à effet de serre, conséquence des activités
+  sociétés humaines en lien avec l’activité de la planète        humaines.
+  Terre (matériaux de construction, géothermie, etc.).
+                                                            Décrire quelques conséquences du réchauffement
+ Identifier un risque naturel à partir d’un exemple au      climatique récent sur le peuplement des milieux.
+  choix (séisme, volcan, érosion littorale, cyclone,
+                                                            Citer des stratégies d’atténuation ou d’adaptation au
+  tempête, etc.) et les modalités de prévention associées.
+                                                             réchauffement climatique.
+Écosystème : structure, fonctionnement et dynamique
+L’étude des écosystèmes se prête à des démarches variées par la pratique d’observations, de mesures,
+d’expérimentations et ou de traitement de données, par exemple en lien avec des projets de sciences participatives
+(comme Vigie-Nature École). Grâce à des confrontations répétées avec des milieux naturels, notamment lors de
+sorties ou de classes de découverte, les élèves comprennent que les écosystèmes sont des systèmes ouverts,
+dynamiques, qui ne sont pas figés au cours du temps. Ce thème permet d’installer progressivement une vision du
+monde vivant dans sa complexité à travers l’étude des relations que les êtres vivants entretiennent entre eux et avec
+leur milieu de vie.
+Au travers de quelques exemples, on montre que les actions humaines sur les écosystèmes sont source de
+perturbations et que les écosystèmes font preuve de résilience, mais dans certaines limites. Si certaines actions
+humaines peuvent dégrader la biodiversité, d’autres sont conduites afin de préserver et de restaurer les milieux. Dans
+une perspective d’éducation au développement durable, l’implication des élèves dans des projets permettant de
+développer des compétences citoyennes est encouragée.
+Attendus de fin de cycle
+ Décrire un écosystème et caractériser les interactions qui s’y déroulent.
+ Mettre en évidence la place et l’interdépendance de différents êtres vivants dans un réseau trophique.
+ Caractériser les conséquences d’une action humaine sur un écosystème.
+Connaissances et compétences attendues en fin de cours         Connaissances et compétences attendues en fin de
+moyen                                                          sixième
+Écosystème                                                     Écosystème
+ Caractériser, à partir d’un exemple, un écosystème par        Décrire et interpréter les composantes biologiques,
+  son milieu de vie, l’ensemble des êtres vivants et les         géologiques et anthropiques d’un paysage local à partir
+  interactions en son sein.                                      d’une sortie.
+ Décrire plusieurs types de relations entre espèces au         Comparer deux écosystèmes, à l’aide de données
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 15 ===
+                                                                                Bulletin officiel n° 25 du 22 juin 2023
+  sein d’un écosystème (coopérations, prédation, etc.).       recueillies lors de sorties et/ou de recherches
+ Comparer, à partir d’observations ou d’expériences, la      documentaires, pour établir un lien entre le milieu et
+  répartition des êtres vivants dans des milieux proches      son peuplement (écosystèmes aquatique et terrestre).
+  pour relier les facteurs abiotiques (physico-chimiques)    Suivre les changements de peuplement au cours des
+  et étudier cette répartition (la température,               saisons pour un même écosystème et les relier aux
+  l’ensoleillement ou l’humidité, etc.).                      changements des paramètres physiques et biologiques
+                                                              (température, ensoleillement, précipitations, présence
+                                                              de nourriture, etc.).
+                                                             Présenter différentes adaptations au passage de la
+                                                              « mauvaise » saison.
+                                                             Décrire les effets d’une perturbation naturelle sur un
+                                                              écosystème (chablis, incendie, etc.) et son évolution au
+                                                              cours du temps.
+Place des êtres vivants dans les chaînes alimentaires       Place des êtres vivants dans les chaînes alimentaires
+ Relier la production de matière par les animaux à leur     Concevoir et mettre en œuvre des expériences pour
+  consommation de nourriture provenant d’autres êtres         relier la production de matière par les végétaux et leurs
+  vivants.                                                    besoins (lumière, eau, sels minéraux, dioxyde de
+ Expérimenter pour identifier quelques besoins des           carbone).
+  végétaux.                                                   Justifier la place des végétaux dans les chaînes
+ Repérer la place singulière des végétaux positionnés à la    alimentaires par leur propriété de production primaire.
+  base des réseaux alimentaires.                              Mettre en évidence que la matière organique des êtres
+ Représenter les liens alimentaires entre les êtres vivants   vivants est décomposée après leur mort (exemple du
+  par des chaînes formant un réseau.                           sol).
+                                                             Dégager le rôle-clé des êtres vivants, en particulier des
+                                                              micro-organismes, dans la décomposition de la matière
+                                                              organique, contribuant au cycle de la matière.
+Conséquences des actions humaines sur l’environnement       Conséquences des actions humaines sur l’environnement
+ Mettre en évidence quelques répercussions positives et  Justifier la nécessité d’une exploitation raisonnée des
+  négatives des actions humaines sur l’environnement       ressources dans une perspective de développement
+  proche.                                                  durable.
+ S’impliquer dans des actions et des projets relatifs à  Identifier les conditions favorables à la vie et à la
+  l’éducation au développement durable sur un thème au     reproduction des êtres vivants d’un milieu pour
+  choix (alimentation responsable, santé, biodiversité,    concevoir et fabriquer en conséquence des objets
+  eau, énergie, gestion et recyclage des déchets, bio-     techniques favorisant la biodiversité (nichoir,
+  inspiration).                                            mangeoire, hôtel à insectes, etc.).
+                                                             S’impliquer dans des actions et des projets relatifs à
+                                                              l’éducation au développement durable sur un thème au
+                                                              choix (alimentation responsable, santé, biodiversité,
+                                                              eau, énergie, gestion et recyclage des déchets, bio-
+                                                              inspiration).
+© Ministère de l'Éducation nationale et de la Jeunesse - education.gouv.fr
+
+=== PAGE 16 ===
+
