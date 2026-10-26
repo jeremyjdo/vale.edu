@@ -628,9 +628,11 @@ function dessiner() {
   if (ca) {
     const bs = ca.fi == null ? bandes : bandes.filter(b => b.fi === ca.fi);
     if (bs.length) {
-      const x = GAUCHE + ca.c * colW + 1.5, y = bs[0].y0 + 1.5, h = bs[bs.length - 1].y1 - bs[0].y0 - 3;
-      ctx.fillStyle = C.stylo; ctx.globalAlpha = .06; ctx.fillRect(x, y, colW - 3, h);
-      ctx.globalAlpha = .9; ctx.strokeStyle = C.stylo; ctx.lineWidth = 1.5; ctx.strokeRect(x, y, colW - 3, h);
+      // Sans classe (c null) : toute la bande de la matière
+      const x = ca.c == null ? 1.5 : GAUCHE + ca.c * colW + 1.5, l = ca.c == null ? W - DROITE - 3 : colW - 3;
+      const y = bs[0].y0 + 1.5, h = bs[bs.length - 1].y1 - bs[0].y0 - 3;
+      ctx.fillStyle = C.stylo; ctx.globalAlpha = .06; ctx.fillRect(x, y, l, h);
+      ctx.globalAlpha = .9; ctx.strokeStyle = C.stylo; ctx.lineWidth = 1.5; ctx.strokeRect(x, y, l, h);
       ctx.globalAlpha = 1;
     }
   }
@@ -690,7 +692,8 @@ function sousLePointeur(ev) {
   }
   const c = x >= GAUCHE ? Math.min(NIV.length - 1, Math.floor((x - GAUCHE) / colW)) : -1;
   const bande = bandes.find(b => y >= b.y0 && y < b.y1);
-  return { x, y, point, c, bande, entete: y < HAUT && c >= 0 };
+  // nom : la marge de gauche d'une bande, où est écrit le nom de la matière
+  return { x, y, point, c, bande, entete: y < HAUT && c >= 0, nom: !point && c < 0 && !!bande };
 }
 
 function montrerBulle(html, x, y) {
@@ -704,9 +707,12 @@ function montrerBulle(html, x, y) {
 canvas.addEventListener('pointermove', ev => {
   const p = sousLePointeur(ev);
   if (p.point !== etat.survol) { etat.survol = p.point; dessiner(); }
-  canvas.classList.toggle('sur-point', !!p.point || p.c >= 0);
+  canvas.classList.toggle('sur-point', !!p.point || p.c >= 0 || p.nom);
   if (p.point) {
     montrerBulle(`<strong>${esc(p.point.nom)}</strong><small>${esc(p.point.mat)} · ${esc(libNiv(p.point.niv))}</small>`, p.x, p.y);
+  } else if (p.nom) {
+    const nb = p.bande.nb;
+    montrerBulle(`<strong>${esc(FAM[p.bande.fi].nom)}</strong><small>${nf.format(nb)} notion${nb > 1 ? 's' : ''}, toutes classes · cliquer pour la liste</small>`, p.x, p.y);
   } else if (p.entete) {
     montrerBulle(`<strong>${esc(NIV[p.c])}</strong><small>Toutes les matières · cliquer pour la liste</small>`, p.x, p.y);
   } else if (p.bande && p.c >= 0) {
@@ -719,6 +725,7 @@ canvas.addEventListener('click', ev => {
   const p = sousLePointeur(ev);
   bulle.hidden = true;
   if (p.point) afficher({ t: 'notion', n: p.point });
+  else if (p.nom) afficher({ t: 'liste', fi: p.bande.fi, c: null });
   else if (p.entete) afficher({ t: 'liste', fi: null, c: p.c });
   else if (p.bande && p.c >= 0) afficher({ t: 'liste', fi: p.bande.fi, c: p.c });
   else return;
@@ -839,7 +846,27 @@ function blocs(items, droite) {
   return html;
 }
 
+// Une matière sur toutes les classes, classe par classe ; les notions valables sur plusieurs
+// classes viennent après la dernière classe qu'elles couvrent
+function listeMatiere(fi) {
+  const items = N.filter(n => n.fam === fi && visible(n)).sort(ordre);
+  const groupes = new Map();
+  for (const n of items) {
+    if (!groupes.has(n.niv)) groupes.set(n.niv, []);
+    groupes.get(n.niv).push(n);
+  }
+  const blocsClasse = [...groupes.values()].sort((a, b) => a[0].c1 - b[0].c1 || (a[0].c1 - a[0].c0) - (b[0].c1 - b[0].c0));
+  const de = items.length ? NIV[Math.min(...items.map(n => n.c0))] : '', a = items.length ? NIV[Math.max(...items.map(n => n.c1))] : '';
+  let html = `<p class="sur-titre">${pastille(fi)}<span>Toutes les classes</span>${items.length ? `<span>·</span><span>${esc(de)} à ${esc(a)}</span>` : ''}</p>
+    <h2 class="nom">${esc(FAM[fi].nom)}</h2>
+    <p class="desc">${nf.format(items.length)} notion${items.length > 1 ? 's' : ''}, classe par classe.${fi === familleChoix && languesAffichees(FAM[fi]) ? ` Langues du collège affichées : ${esc([...etat.langues].join(', ') || 'aucune')}.` : ''}</p>`;
+  if (!items.length) html += '<p class="vide">Aucune notion à afficher. Vérifiez les langues cochées dans le menu des matières.</p>';
+  for (const g of blocsClasse) html += `<div class="liste"><h3 class="groupe">${esc(libNiv(g[0].niv))}</h3>${blocs(g, n => n.type)}</div>`;
+  return html;
+}
+
 function liste(fi, c) {
+  if (c == null) return listeMatiere(fi);
   const v = NIV[c];
   const dans = n => (fi == null || n.fam === fi) && n.c0 <= c && c <= n.c1 && visible(n);
   const propres = N.filter(n => dans(n) && n.c0 === n.c1);
@@ -916,7 +943,7 @@ const panneau = $('#panneau');
 function ouvrirFiche() {
   let x = W * .25;
   if (etat.sel && etat.sel.vis) x = etat.sel.x;
-  else if (etat.caseActive) x = GAUCHE + (etat.caseActive.c + .5) * colW;
+  else if (etat.caseActive && etat.caseActive.c != null) x = GAUCHE + (etat.caseActive.c + .5) * colW;
   panneau.classList.toggle('a-gauche', x > W / 2);
   panneau.hidden = false;
   majVoile();
