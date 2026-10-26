@@ -1,7 +1,8 @@
 .DS_Store
 __pycache__/
 *.pyc
-# Réglages locaux de Claude Code (les skills du projet sont dans knowledge/.claude/)
-/.claude/
+# Réglages locaux de Claude Code ; seuls les skills du projet sont publiés
+/.claude/*
+!/.claude/skills/
 # Clone de la taxonomie Marble, à récupérer sur https://github.com/withmarbleapp/os-taxonomy
-/knowledge/marble-os-taxonomy/
+/construction/marble-os-taxonomy/

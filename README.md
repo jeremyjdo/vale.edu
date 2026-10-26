@@ -25,9 +25,9 @@ vale.edu veut fournir cette base, ouverte et réutilisable :
 
 ## Consulter
 
-- **L'atlas** : ouvre [`knowledge/notions-fr/site/index.html`](knowledge/notions-fr/site/index.html) dans un navigateur (la page est autonome, sans serveur). Une carte montre toutes les notions, classe par classe et matière par matière. Un clic sur une notion trace tout ce qu'il faut savoir avant, et ouvre sa fiche : description, question à poser, critères de réussite, prérequis, texte officiel et lien vers la page du PDF.
-- **Les vues texte** : [`knowledge/notions-fr/vues/`](knowledge/notions-fr/vues/index.md), une page Markdown par programme.
-- **Les données** : [`knowledge/notions-fr/data/notions.json`](knowledge/notions-fr/data/) et `prerequis.json`.
+- **L'atlas** : ouvre [`site/index.html`](site/index.html) dans un navigateur (la page est autonome, sans serveur). Une carte montre toutes les notions, classe par classe et matière par matière. Un clic sur une notion trace tout ce qu'il faut savoir avant, et ouvre sa fiche : description, question à poser, critères de réussite, prérequis, texte officiel et lien vers la page du PDF.
+- **Les vues texte** : [`data/vues/`](data/vues/index.md), une page Markdown par programme.
+- **Les données** : [`data/notions.json`](data/) et `prerequis.json`, décrits dans [`data/README.md`](data/README.md).
 
 ## Couverture
 
@@ -48,7 +48,7 @@ Nombre de notions par matière et par cycle :
 
 ¹ Au collège, l'anglais, l'espagnol, l'allemand et l'italien ont chacun leur programme : 1 683 notions à eux quatre.
 
-En maternelle, le programme est écrit par domaine (« Mobiliser le langage », « Explorer le monde »…) ; ses notions sont rangées dans la matière la plus proche. Les programmes en vigueur, et ceux qui en remplacent d'autres progressivement, sont listés dans [`knowledge/programmes-officiels/README.md`](knowledge/programmes-officiels/README.md).
+En maternelle, le programme est écrit par domaine (« Mobiliser le langage », « Explorer le monde »…) ; ses notions sont rangées dans la matière la plus proche. Les programmes en vigueur, et ceux qui en remplacent d'autres progressivement, sont listés dans [`construction/programmes-officiels/README.md`](construction/programmes-officiels/README.md).
 
 ## Une notion
 
@@ -97,7 +97,7 @@ Un prérequis :
 }
 ```
 
-`strength` vaut `hard` (indispensable) ou `soft` (utile). `origin` vaut `texte` quand le programme écrit lui-même le lien (492 liens), `déduit` sinon (7 510 liens). Le format complet est décrit dans [`knowledge/notions-fr/README.md`](knowledge/notions-fr/README.md#format).
+`strength` vaut `hard` (indispensable) ou `soft` (utile). `origin` vaut `texte` quand le programme écrit lui-même le lien (492 liens), `déduit` sinon (7 510 liens). Le format complet est décrit dans [`data/README.md`](data/README.md#format).
 
 Exemple en Python : tout ce qu'il faut savoir avant une notion.
 
@@ -105,9 +105,9 @@ Exemple en Python : tout ce qu'il faut savoir avant une notion.
 import json
 from collections import defaultdict
 
-notions = {n["id"]: n for n in json.load(open("knowledge/notions-fr/data/notions.json"))["notions"]}
+notions = {n["id"]: n for n in json.load(open("data/notions.json"))["notions"]}
 avant = defaultdict(list)
-for p in json.load(open("knowledge/notions-fr/data/prerequis.json"))["prerequisites"]:
+for p in json.load(open("data/prerequis.json"))["prerequisites"]:
     avant[p["topicId"]].append(p["prerequisiteId"])
 
 def chaine(i, vus=None):
@@ -124,18 +124,18 @@ for i in sorted(chaine("fr-ma-ce1-fra-07"), key=lambda i: notions[i]["ageRangeSt
 
 ## Comment la base est construite
 
-1. **Sources** : les PDF des programmes sont téléchargés depuis education.gouv.fr et eduscol.education.gouv.fr. Leur adresse, leur BO, leur date de téléchargement et leur empreinte SHA-256 sont dans [`sources.json`](knowledge/programmes-officiels/sources.json).
-2. **Extraction** : chaque classe de chaque programme est découpée en notions par un modèle de langage (Claude), selon des consignes publiques ([`consignes-extraction.md`](knowledge/notions-fr/outils/consignes-extraction.md)). Une puce « objectif d'apprentissage » donne en général une notion.
+1. **Sources** : les PDF des programmes sont téléchargés depuis education.gouv.fr et eduscol.education.gouv.fr. Leur adresse, leur BO, leur date de téléchargement et leur empreinte SHA-256 sont dans [`sources.json`](construction/programmes-officiels/sources.json).
+2. **Extraction** : chaque classe de chaque programme est découpée en notions par un modèle de langage (Claude), selon des consignes publiques ([`consignes-extraction.md`](construction/outils/consignes-extraction.md)). Une puce « objectif d'apprentissage » donne en général une notion.
 3. **Contrôles automatiques** : format et identifiants, graphe sans boucle (`valider.py`), toutes les puces du programme reprises (`couverture.py`), chaque objectif retrouvé mot pour mot dans le PDF (`verifier_sources.py`).
-4. **Liaison** : chaque notion est reliée à ce qu'elle suppose des classes précédentes ([`consignes-liens.md`](knowledge/notions-fr/outils/consignes-liens.md)), puis les liens redondants sont retirés.
-5. **Assemblage** : `assembler.py` produit les données, les vues et l'atlas, et note ce qui a changé dans [`JOURNAL.md`](knowledge/notions-fr/JOURNAL.md).
+4. **Liaison** : chaque notion est reliée à ce qu'elle suppose des classes précédentes ([`consignes-liens.md`](construction/outils/consignes-liens.md)), puis les liens redondants sont retirés.
+5. **Assemblage** : `assembler.py` produit le jeu de données (`data/`), ses vues et l'atlas (`site/`), et note ce qui a changé dans [`data/JOURNAL.md`](data/JOURNAL.md).
 
-**Traçabilité** : chaque notion garde la page et l'empreinte du PDF dont elle vient, chaque fichier sa date d'extraction ou de liaison. Un PDF n'est jamais écrasé : l'ancienne version est archivée. `python3 outils/etat.py` dit ce qu'il reste à faire après l'ajout ou la mise à jour d'un programme, et `python3 outils/verifier_sources.py --en-ligne` détecte une nouvelle version publiée. La procédure est dans [`MISE-A-JOUR.md`](knowledge/notions-fr/outils/MISE-A-JOUR.md).
+**Traçabilité** : chaque notion garde la page et l'empreinte du PDF dont elle vient, chaque fichier sa date d'extraction ou de liaison. Un PDF n'est jamais écrasé : l'ancienne version est archivée. `python3 outils/etat.py` dit ce qu'il reste à faire après l'ajout ou la mise à jour d'un programme, et `python3 outils/verifier_sources.py --en-ligne` détecte une nouvelle version publiée. La procédure est dans [`MISE-A-JOUR.md`](construction/outils/MISE-A-JOUR.md).
 
 ## Limites
 
 - **Seul le texte officiel fait foi.** Les descriptions, questions et critères sont des reformulations, à vérifier avant tout usage pédagogique.
-- **La base n'a pas encore été relue en entier par des enseignants.** Les points à relire sont listés dans [`knowledge/notions-fr/README.md`](knowledge/notions-fr/README.md#à-relire), en particulier les 7 510 liens déduits.
+- **La base n'a pas encore été relue en entier par des enseignants.** Les points à relire sont listés dans [`construction/README.md`](construction/README.md#à-relire), en particulier les 7 510 liens déduits.
 - Programmes non couverts : langues et cultures de l'Antiquité, langues régionales et langues autres que les quatre principales au collège, lycée.
 
 ## Pistes
@@ -153,30 +153,39 @@ La base est une première brique. Pistes ouvertes, les contributions sont bienve
 
 Les signalements d'erreur et les relectures sont les bienvenus : ouvre une *issue* en citant l'identifiant de la notion (`fr-ma-ce1-fra-07`), ce qui ne va pas, et si possible la page du programme.
 
-Pour modifier la base, tout se lance depuis `knowledge/notions-fr/` :
+Pour modifier la base, tout se lance depuis `construction/` :
 
 ```bash
 python3 outils/valider.py      # contrôle les extractions
-python3 outils/assembler.py    # refait data/, vues/, site/ et le journal
+python3 outils/assembler.py    # refait ../data/ (données, vues, journal) et l'atlas ../site/
 python3 outils/etat.py         # dit ce qui reste à faire ; doit répondre « Tout est à jour »
 ```
 
-Les scripts n'utilisent que la bibliothèque standard de Python 3. Préparer un nouveau PDF demande aussi `pdftotext` (Poppler) et, pour un PDF en images, la reconnaissance de texte de macOS. Le dossier [`knowledge/.claude/skills/maj-programme`](knowledge/.claude/skills/maj-programme/SKILL.md) contient la procédure sous forme de *skill* pour Claude Code.
+Les scripts n'utilisent que la bibliothèque standard de Python 3. Préparer un nouveau PDF demande aussi `pdftotext` (Poppler) et, pour un PDF en images, la reconnaissance de texte de macOS. Le dossier [`.claude/skills/maj-programme`](.claude/skills/maj-programme/SKILL.md) contient la procédure sous forme de *skill* pour Claude Code.
 
 ## Arborescence
 
+Le dépôt a trois parties : les données, l'atlas qui les affiche, et la construction qui les produit.
+
 ```
-knowledge/
-├── programmes-officiels/   PDF officiels et manifeste sources.json (empreintes, BO, adresses)
-└── notions-fr/
-    ├── site/index.html     l'atlas, page autonome
-    ├── data/               notions.json, prerequis.json, historique des changements
-    ├── vues/               une page Markdown par programme
-    ├── extractions/        fichiers sources : une classe d'un programme, ou des liens
-    ├── textes/             texte des PDF, page par page
-    ├── outils/             scripts, registre des programmes, consignes, procédure de mise à jour
-    └── JOURNAL.md          historique de la base
+data/                        le jeu de données (Licence Ouverte 2.0)
+├── notions.json             les notions
+├── prerequis.json           les liens de prérequis
+├── vues/                    une page Markdown par programme
+├── historique/              détail des changements, à chaque assemblage
+└── JOURNAL.md               historique de la base
+site/                        l'atlas (MIT)
+├── index.html               page autonome, générée à partir de data/
+└── modele.html              son modèle
+construction/                fabrication de la base, des PDF officiels aux notions
+├── programmes-officiels/    PDF officiels et manifeste sources.json (empreintes, BO, adresses)
+├── textes/                  texte des PDF, page par page
+├── extractions/             notions extraites (une classe d'un programme par fichier) et liens entre classes
+└── outils/                  scripts, registre des programmes, consignes, procédure de mise à jour
+bench/                       état des lieux des projets voisins
 ```
+
+`data/` et `site/` sont générés : on ne les modifie pas à la main, on corrige les extractions puis on relance `assembler.py`.
 
 ## Projets voisins
 
@@ -189,9 +198,9 @@ knowledge/
 
 ## Licences
 
-- **Données** (notions, liens, descriptions, questions, critères, dans `knowledge/notions-fr/`) : [Licence Ouverte 2.0](LICENCE-DONNEES.md) (Etalab). Réutilisation libre, y compris commerciale, en citant « vale.edu » et l'adresse du dépôt.
-- **Code** (scripts et atlas) : [licence MIT](LICENSE).
-- **Programmes officiels** (`knowledge/programmes-officiels/`, `textes/` et citations dans `officialObjectives`) : informations publiques du ministère de l'Éducation nationale, réutilisables en citant leur source et leur date (articles L321-1 et L322-1 du code des relations entre le public et l'administration). Source et date de chaque document : [`sources.json`](knowledge/programmes-officiels/sources.json).
+- **Données** (notions, liens, descriptions, questions, critères : `data/` et `construction/extractions/`) : [Licence Ouverte 2.0](LICENCE-DONNEES.md) (Etalab). Réutilisation libre, y compris commerciale, en citant « vale.edu » et l'adresse du dépôt.
+- **Code** (scripts de `construction/outils/` et atlas `site/`) : [licence MIT](LICENSE).
+- **Programmes officiels** (`construction/programmes-officiels/`, `construction/textes/` et citations dans `officialObjectives`) : informations publiques du ministère de l'Éducation nationale, réutilisables en citant leur source et leur date (articles L321-1 et L322-1 du code des relations entre le public et l'administration). Source et date de chaque document : [`sources.json`](construction/programmes-officiels/sources.json).
 
 vale.edu est un projet indépendant, sans lien avec le ministère de l'Éducation nationale ni avec Marble.
 
