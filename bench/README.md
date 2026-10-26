@@ -2,7 +2,7 @@
 
 > Relevé du 26/10/2026. Question : existe-t-il, en français ou en open source, une base des programmes scolaires découpée en notions et reliée par des prérequis ?
 
-Ce dossier situe vale.curriculum parmi les projets qui structurent des programmes scolaires. Il décrit chaque projet tel qu'il était le jour du relevé : il peut avoir changé depuis.
+Ce dossier situe vale.edu parmi les projets qui structurent des programmes scolaires. Il décrit chaque projet tel qu'il était le jour du relevé : il peut avoir changé depuis.
 
 - [francais.md](francais.md) : projets français (Forge des communs numériques éducatifs, données ouvertes, recherche, produits non ouverts)
 - [international.md](international.md) : projets étrangers (Marble, Learning Commons, Oak, CASE…)
@@ -19,7 +19,7 @@ Ce dossier situe vale.curriculum parmi les projets qui structurent des programme
 
 | Projet | Pays | Classes | Matières | Unité | Prérequis | Critères, questions | Lien au PDF | Licence |
 |---|---|---|---|---|---|---|---|---|
-| **vale.curriculum** | FR | PS → 3e | 43 programmes | notion avec identifiant | entre notions, entre classes | critères et question | BO, page, SHA-256 | Licence Ouverte 2.0 + MIT |
+| **vale.edu** | FR | PS → 3e | 43 programmes | notion avec identifiant | entre notions, entre classes | critères et question | BO, page, SHA-256 | Licence Ouverte 2.0 + MIT |
 | [Explorateurs de Programmes 2026](https://forge.apps.education.fr/chedotalnicole/explorateur-portail-programmes-de-la-ps-a-la-sixieme) | FR | PS → 6e | toutes | objectif du programme | — | exemples de réussite | — | GPL-3.0+ |
 | [Socle4](https://forge.apps.education.fr/glb/socle4) | FR | 5e → 3e | toutes | compétence, attendu par classe | hiérarchie seulement | indicateurs | — | non déclarée |
 | [Lecteur de programmes](https://forge.apps.education.fr/duplessyerwan/lecteur-de-programmes) | FR | 6e → Tle | maths, SNT, NSI | partie du programme | — | — | — | CC BY-SA 4.0 |
@@ -31,7 +31,7 @@ Ce dossier situe vale.curriculum parmi les projets qui structurent des programme
 
 « — » : absent ou non trouvé.
 
-## Où se situe vale.curriculum
+## Où se situe vale.edu
 
 - **Prérequis** : c'est l'apport principal par rapport aux projets français ouverts relevés.
 - **Traçabilité** : chaque notion cite l'objectif mot pour mot, avec le BO, la page et l'empreinte du PDF.
@@ -43,7 +43,7 @@ Ce dossier situe vale.curriculum parmi les projets qui structurent des programme
 ## Interopérabilité
 
 Formats d'échange relevés, qui pourraient servir d'exports :
-- **JSON au format Marble** : déjà utilisé par vale.curriculum ;
+- **JSON au format Marble** : déjà utilisé par vale.edu ;
 - **CSV par programme** : le format des petits jeux de données d'enseignants sur la Forge ;
 - **CASE** (1EdTech), outillé par OpenSALT : le format standard d'échange des référentiels de compétences ;
 - **serveur MCP** : Marble et Learning Commons en ont un, pour l'usage par des assistants IA.

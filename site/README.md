@@ -1,6 +1,8 @@
 # Atlas des notions
 
-Une page pour consulter la base : ouvre [index.html](index.html) dans un navigateur, sans serveur ni installation.
+Une page pour consulter le curriculum : en ligne sur [vale-edu.vercel.app](https://vale-edu.vercel.app), ou en ouvrant [index.html](index.html) dans un navigateur, sans serveur ni installation.
+
+La version en ligne est publiée par Vercel à chaque envoi sur la branche `main` : seul `index.html` est publié (voir `vercel.json` et `.vercelignore` à la racine du dépôt).
 
 - **La carte** : toutes les notions, les classes de la petite section à la 3e de gauche à droite, une bande par matière. Un clic sur une notion trace en bleu tout ce qu'il faut savoir avant, classe par classe, et en rouge ce qu'elle ouvre.
 - **La fiche** : description, question à poser, critères de réussite, prérequis avec leur raison, texte officiel mot pour mot et lien vers la page du PDF.

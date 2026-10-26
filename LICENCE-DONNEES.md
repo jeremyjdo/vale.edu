@@ -1,10 +1,10 @@
 # Licence des données
 
-Les données de vale.curriculum (le dossier `data/` : notions, liens de prérequis, descriptions, questions, critères de réussite, vues et journal ; et leurs fichiers sources, `construction/extractions/`) sont publiées sous la **Licence Ouverte / Open Licence version 2.0**, publiée par Etalab : <https://www.etalab.gouv.fr/licence-ouverte-open-licence/>.
+Les données de vale.edu (le dossier `data/` : notions, liens de prérequis, descriptions, questions, critères de réussite, vues et journal ; et leurs fichiers sources, `construction/extractions/`) sont publiées sous la **Licence Ouverte / Open Licence version 2.0**, publiée par Etalab : <https://www.etalab.gouv.fr/licence-ouverte-open-licence/>.
 
 Vous pouvez les reproduire, les copier, les modifier, les adapter, les redistribuer et les exploiter, y compris à des fins commerciales, à condition de mentionner leur paternité :
 
-> vale.curriculum, https://github.com/jeremyjdo/vale.curriculum, avec la date de la version utilisée.
+> vale.edu, https://github.com/jeremyjdo/vale.edu, avec la date de la version utilisée.
 
 La Licence Ouverte 2.0 est compatible avec la licence Creative Commons Attribution (CC BY) 4.0 et l'Open Government Licence (OGL) britannique.
 

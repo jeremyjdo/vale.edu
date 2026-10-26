@@ -1,6 +1,6 @@
 # Jeu de données
 
-Les notions des programmes officiels français, de la petite section à la 3e, et les liens de prérequis entre elles. Licence : [Licence Ouverte 2.0](../LICENCE-DONNEES.md), en citant « vale.curriculum ».
+Le curriculum français en données : les notions des programmes officiels, de la petite section à la 3e, et les liens de prérequis entre elles. Licence : [Licence Ouverte 2.0](../LICENCE-DONNEES.md), en citant « vale.edu ».
 
 | Fichier | Contenu |
 |---|---|
