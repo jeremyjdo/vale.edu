@@ -221,28 +221,6 @@ td .pastille { display: inline-block; margin-right: 7px; }
   .cadre { flex: 1; min-height: 260px; }
   .carte-defile { position: absolute; inset: 0; }
 }
-.parcours, .vues { display: none; }
-.vues { padding: 2px; border: 1px solid var(--filet); border-radius: 999px; background: var(--surface); }
-.vues button { height: 26px; padding-inline: 12px; cursor: pointer; background: none; border: 0; border-radius: 999px; font-size: 12.5px; font-weight: 600; color: var(--encre-3); }
-.vues button[aria-pressed="true"] { background: var(--encre); color: var(--papier); }
-.classes { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none;
-  margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding: 2px max(16px, env(safe-area-inset-left, 0px)) 6px; }
-.classes::-webkit-scrollbar { display: none; }
-.classe { flex: none; display: grid; justify-items: center; min-width: 54px; padding: 6px 10px; cursor: pointer; scroll-snap-align: start;
-  background: var(--surface); border: 1px solid var(--filet); border-radius: 12px; }
-.classe b { font-size: 15px; }
-.classe small { font: 10.5px/1.3 var(--police-mono); color: var(--encre-3); }
-.classe[aria-pressed="true"] { background: var(--encre); border-color: var(--encre); color: var(--papier); }
-.classe[aria-pressed="true"] small { color: inherit; opacity: .75; }
-.matieres { display: grid; gap: 8px; }
-.matiere { background: var(--surface); border: 1px solid var(--filet); border-radius: 12px; font-size: var(--t-m); }
-.matiere summary { display: flex; align-items: center; gap: 10px; width: auto; padding: 12px 14px; list-style: none; color: var(--encre); font-weight: 700; }
-.matiere summary::-webkit-details-marker { display: none; }
-.matiere summary::after { content: "›"; font-size: 20px; line-height: 1; color: var(--encre-3); transition: transform .15s; }
-.matiere[open] summary::after { transform: rotate(90deg); }
-.matiere summary .n { margin-left: auto; font: 400 12px var(--police-mono); color: var(--encre-3); }
-.matiere[open] summary { border-bottom: 1px solid var(--filet); }
-.matiere .liste { padding: 2px 14px 12px; }
 @media (max-width: 700px) {
   .tete { padding-block: 16px 10px; }
   h1 { font-size: 30px; }
@@ -250,12 +228,8 @@ td .pastille { display: inline-block; margin-right: 7px; }
   .astuce-carte { display: none; }
   .barre { gap: 8px; }
   .champ-recherche { flex: 1 1 100%; height: 38px; }
-  .vues { display: inline-flex; margin-left: auto; }
-  .parcours { display: grid; gap: 10px; padding-bottom: 12px; }
-  .page.mode-carte .parcours { display: none; }
-  .page:not(.mode-carte) .cadre, .page:not(.mode-carte) .cle-traits { display: none; }
+  .carte-defile { overflow-x: hidden; }
 }
-@media (prefers-reduced-motion: reduce) { .matiere summary::after { transition: none; } }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } .fenetre[open] { animation: none; } }
 </style>
 <!-- corps -->
@@ -290,15 +264,7 @@ td .pastille { display: inline-block; margin-right: 7px; }
           </div>
         </div>
       </div>
-      <div class="vues" role="group" aria-label="Affichage">
-        <button type="button" data-vue="liste" aria-pressed="true">Liste</button>
-        <button type="button" data-vue="carte" aria-pressed="false">Carte</button>
-      </div>
     </div>
-    <section class="parcours" aria-label="Parcourir par classe">
-      <div class="classes" id="classes"></div>
-      <div class="matieres" id="liste-mobile"></div>
-    </section>
     <div class="cadre">
       <div class="carte-defile" id="carte-defile">
         <canvas id="carte" role="img" aria-label="Carte des notions, classes en colonnes et matières en lignes. La recherche donne les mêmes notions sous forme de liste."></canvas>
@@ -435,10 +401,16 @@ let P = 7, R = 2.55, HAUT = 63, W = 0, H = 0, colW = 0, dpr = 1, bandes = [], C 
 // Étiquettes compactes (nom seul, sur une ligne) quand la place manque en hauteur
 let compact = false;
 const pleinEcran = matchMedia('(min-width: 1081px)');
+// Sur téléphone, la carte pivote : les classes de haut en bas, une colonne par matière
+const enColonne = matchMedia('(max-width: 700px)');
+const MARGE_V = 46, HAUT_V = 40;
+const ABR = { 'Français': 'Fr', 'Mathématiques': 'Ma', 'Sciences': 'Sc', 'Histoire-géo': 'HG', 'Langues vivantes': 'LV',
+  'Moral et civique': 'Civ', 'Vie affective': 'VA', 'Arts': 'Art', 'EPS': 'EPS', 'Médias': 'Méd' };
+let vertical = false, colonnes = [], rangees = [];
 
 function lireCouleurs() {
   const s = getComputedStyle(document.documentElement), v = k => s.getPropertyValue(k).trim();
-  C = { papier: v('--papier'), encre: v('--encre'), encre2: v('--encre-2'), encre3: v('--encre-3'), ligne: v('--ligne'),
+  C = { papier: v('--papier'), survol: v('--survol'), encre: v('--encre'), encre2: v('--encre-2'), encre3: v('--encre-3'), ligne: v('--ligne'),
     ligneForte: v('--ligne-forte'), marge: v('--marge'), stylo: v('--stylo'),
     fam: FAM.map((f, i) => v(i < 10 ? '--f' + i : '--f-autre')) };
 }
@@ -516,7 +488,113 @@ function agencer(familles, p, appliquer) {
   return { haut, bandes: liste, h: y + 2 * p };
 }
 
+// Carte verticale (téléphone) : une rangée par classe, puis une rangée pour les notions valables
+// sur plusieurs classes, après la dernière classe qu'elles couvrent
+function disposerVertical() {
+  W = Math.max(280, defile.clientWidth);
+  N.forEach(n => { n.vis = false; });
+  const groupes = new Map();
+  for (const n of N) {
+    if (!visible(n)) continue;
+    const k = n.fam + '|' + n.c0 + ':' + n.c1;
+    if (!groupes.has(k)) groupes.set(k, []);
+    groupes.get(k).push(n);
+  }
+  const fams = FAM.map((f, fi) => fi).filter(fi => [...groupes.keys()].some(k => +k.split('|')[0] === fi));
+  const larg = (W - MARGE_V - 4) / Math.max(1, fams.length);
+  const p = Math.max(4.5, Math.min(7, (larg - 6) / 4)), m = Math.max(1, Math.floor((larg - 6) / p));
+  colonnes = fams.map((fi, k) => ({ fi, x0: MARGE_V + k * larg, x1: MARGE_V + (k + 1) * larg, nb: 0 }));
+  const etendues = [...new Set(N.filter(n => n.c0 !== n.c1).map(n => n.c0 + ':' + n.c1))];
+  const lignes = [];
+  NIV.forEach((v, c) => {
+    lignes.push({ cle: c + ':' + c, label: v, sous: D.ages[v], c, large: false });
+    for (const k of etendues.filter(k => +k.split(':')[1] === c).sort()) {
+      const n = N.find(x => x.c0 + ':' + x.c1 === k);
+      lignes.push({ cle: k, label: n.niv, sous: '', c: n.c0, large: true });
+    }
+  });
+  rangees = [];
+  let y = HAUT_V;
+  for (const l of lignes) {
+    let rangs = 0;
+    for (const col of colonnes) {
+      const g = groupes.get(col.fi + '|' + l.cle) || [];
+      g.forEach((n, j) => { n.x = col.x0 + 3 + p / 2 + (j % m) * p; n.y = y + p + Math.floor(j / m) * p; n.vis = true; });
+      rangs = Math.max(rangs, Math.ceil(g.length / m));
+      col.nb += g.length;
+    }
+    if (!rangs && l.large) continue;
+    const h = Math.max((rangs + 1) * p, l.large ? 18 : 32);
+    rangees.push({ ...l, y0: y, y1: y + h });
+    y += h;
+  }
+  P = p; R = Math.max(1.7, p * .38); HAUT = HAUT_V; H = y + 6;
+  dpr = Math.min(window.devicePixelRatio || 1, 2);
+  canvas.width = Math.round(W * dpr);
+  canvas.height = Math.round(H * dpr);
+  canvas.style.width = W + 'px';
+  canvas.style.height = H + 'px';
+  dessiner();
+}
+
+function fondVertical(ctx) {
+  ctx.lineWidth = 1;
+  ctx.strokeStyle = C.ligne;
+  ctx.beginPath();
+  for (let y = HAUT + 4 * P; y < H; y += 4 * P) { ctx.moveTo(0, Math.round(y) + .5); ctx.lineTo(W, Math.round(y) + .5); }
+  ctx.stroke();
+  // Colonnes des matières, avec leur couleur et leur abréviation
+  ctx.strokeStyle = C.encre; ctx.globalAlpha = .1; ctx.setLineDash([2, 3]);
+  ctx.beginPath();
+  colonnes.slice(1).forEach(c => { const x = Math.round(c.x0) + .5; ctx.moveTo(x, 6); ctx.lineTo(x, H); });
+  ctx.stroke(); ctx.setLineDash([]); ctx.globalAlpha = 1;
+  ctx.textAlign = 'center';
+  const ca = etat.caseActive;
+  for (const c of colonnes) {
+    const xc = (c.x0 + c.x1) / 2, actif = ca && ca.fi === c.fi && ca.c == null;
+    ctx.fillStyle = C.fam[c.fi]; ctx.beginPath(); ctx.arc(xc, 12, 4, 0, 7); ctx.fill();
+    ctx.fillStyle = actif ? C.stylo : C.encre; ctx.font = police(700, 10.5);
+    ctx.fillText(ABR[FAM[c.fi].court] || FAM[c.fi].court.slice(0, 3), xc, 31);
+  }
+  // Rangées : une classe, ou les notions valables sur plusieurs classes
+  ctx.textAlign = 'left';
+  const debutsCycle = new Set(D.cycles.map(cy => cy.de));
+  for (const r of rangees) {
+    if (r.large) { ctx.fillStyle = C.survol; ctx.globalAlpha = .7; ctx.fillRect(MARGE_V, r.y0, W - MARGE_V, r.y1 - r.y0); ctx.globalAlpha = 1; }
+    ctx.strokeStyle = C.encre; ctx.globalAlpha = !r.large && debutsCycle.has(r.c) ? .38 : .14;
+    ctx.beginPath(); ctx.moveTo(0, Math.round(r.y0) + .5); ctx.lineTo(W, Math.round(r.y0) + .5); ctx.stroke();
+    ctx.globalAlpha = 1;
+    const actif = ca && ca.c === r.c && !r.large;
+    if (r.large) {
+      ctx.fillStyle = C.encre3; ctx.font = police(400, 9.5);
+      ctx.fillText(r.label.replace('Cycle ', 'cycle '), 5, r.y0 + 12);
+    } else {
+      ctx.fillStyle = actif ? C.stylo : C.encre; ctx.font = police(700, 12.5);
+      ctx.fillText(r.label, 5, r.y0 + 15);
+      ctx.fillStyle = C.encre3; ctx.font = police(400, 9, true);
+      ctx.fillText(r.sous.replace(' ans', ''), 5, r.y0 + 26);
+    }
+  }
+  ctx.strokeStyle = C.marge; ctx.lineWidth = 1.5;
+  ctx.beginPath(); ctx.moveTo(MARGE_V + .5, 0); ctx.lineTo(MARGE_V + .5, H); ctx.stroke();
+  ctx.lineWidth = 1;
+  // Case parcourue : une matière (colonne), une classe (rangée) ou les deux
+  if (ca) {
+    const cols = ca.fi == null ? colonnes : colonnes.filter(c => c.fi === ca.fi);
+    const rgs = ca.c == null ? rangees : rangees.filter(r => r.c === ca.c && !r.large);
+    if (cols.length && rgs.length) {
+      const x = cols[0].x0 + 1, l = cols[cols.length - 1].x1 - cols[0].x0 - 2;
+      const y = rgs[0].y0 + 1, h = rgs[rgs.length - 1].y1 - rgs[0].y0 - 2;
+      ctx.fillStyle = C.stylo; ctx.globalAlpha = .06; ctx.fillRect(x, y, l, h);
+      ctx.globalAlpha = .9; ctx.strokeStyle = C.stylo; ctx.lineWidth = 1.5; ctx.strokeRect(x, y, l, h);
+      ctx.globalAlpha = 1; ctx.lineWidth = 1;
+    }
+  }
+}
+
 function disposer() {
+  vertical = enColonne.matches;
+  if (vertical) return disposerVertical();
   W = Math.max(defile.clientWidth, LARGEUR_MIN);
   colW = (W - GAUCHE - DROITE) / NIV.length;
   N.forEach(n => { n.vis = false; });
@@ -541,6 +619,12 @@ function disposer() {
 
 const police = (poids, taille, mono) => `${poids} ${taille}px ${mono ? '"Atkinson Hyperlegible Mono", ui-monospace, monospace' : '"Atkinson Hyperlegible Next", system-ui, sans-serif'}`;
 function courbe(ctx, a, b) {
+  if (vertical) {
+    const dy = Math.max(16, Math.abs(b.y - a.y) * .5);
+    ctx.moveTo(a.x, a.y);
+    ctx.bezierCurveTo(a.x, a.y + dy, b.x, b.y - dy, b.x, b.y);
+    return;
+  }
   const dx = Math.max(22, Math.abs(b.x - a.x) * .5);
   ctx.moveTo(a.x, a.y);
   ctx.bezierCurveTo(a.x + dx, a.y, b.x - dx, b.y, b.x, b.y);
@@ -552,6 +636,8 @@ function dessiner() {
   ctx.globalAlpha = 1;
   ctx.fillStyle = C.papier;
   ctx.fillRect(0, 0, W, H);
+  if (vertical) fondVertical(ctx);
+  else {
   // Lignage Seyès : une ligne fine tous les P, une ligne forte tous les 4 P, un carreau tous les 4 P
   ctx.lineWidth = 1;
   for (let y = HAUT, k = 0; y < H; y += P, k++) {
@@ -636,6 +722,7 @@ function dessiner() {
       ctx.globalAlpha = 1;
     }
   }
+  }
   // Points
   const sel = etat.sel, res = etat.resultats;
   const enAvant = n => sel ? (n === sel || etat.anc.has(n) || etat.directs.has(n)) : res ? res.has(n) : true;
@@ -684,6 +771,20 @@ function dessiner() {
 
 function sousLePointeur(ev) {
   const r = canvas.getBoundingClientRect(), x = ev.clientX - r.left, y = ev.clientY - r.top;
+  if (vertical) {
+    let point = null, d = 14 * 14;
+    if (x > MARGE_V && y > HAUT) for (const n of N) {
+      if (!n.vis) continue;
+      const e = (n.x - x) ** 2 + (n.y - y) ** 2;
+      if (e < d) { d = e; point = n; }
+    }
+    const col = colonnes.find(c => x >= c.x0 && x < c.x1), rg = rangees.find(q => y >= q.y0 && y < q.y1);
+    const bande = col ? { fi: col.fi, nb: col.nb } : null;
+    // En-tête d'une colonne : la matière ; marge d'une rangée : la classe
+    if (y < HAUT) return { x, y, point: null, c: -1, bande, entete: false, nom: !!col };
+    if (x < MARGE_V) return { x, y, point: null, c: rg ? rg.c : -1, bande: null, entete: !!rg, nom: false };
+    return { x, y, point, c: rg ? rg.c : -1, bande, entete: false, nom: false };
+  }
   let point = null, d = 30;
   for (const n of N) {
     if (!n.vis) continue;
@@ -742,7 +843,6 @@ function legende() {
   }
   $('#legende').innerHTML = FAM.map((f, fi) => `<button type="button" class="puce" data-fam="${fi}" aria-pressed="${!etat.masquees.has(fi)}" title="${esc(f.nom)} : afficher ou masquer">${pastille(fi)}${esc(f.court)}<span class="n">${nf.format(compte[fi])}</span></button>` +
     (f.choix || []).map(l => `<button type="button" class="puce sous" data-langue="${esc(l)}" aria-pressed="${etat.langues.has(l)}" title="${esc(l)} au collège : afficher ou masquer">${pastille(fi)}${esc(l)}<span class="n">${nf.format(parLangue[l] || 0)}</span></button>`).join('')).join('');
-  rendreParcours();
   const vues = FAM.map((f, fi) => fi).filter(fi => !etat.masquees.has(fi));
   boutonFiltre.firstElementChild.textContent = vues.length === FAM.length ? 'Toutes les matières'
     : vues.length === 1 ? FAM[vues[0]].court : vues.length ? `${vues.length} matières sur ${FAM.length}` : 'Aucune matière';
@@ -1018,36 +1118,6 @@ $('#table-sources').innerHTML = `<thead><tr><th>Matière</th><th>Classes</th><th
   <tr><td>${pastille(p.fam)}${esc(p.m)}${p.remplacePar.length ? ' <span class="niv">(remplacé progressivement)</span>' : ''}</td><td>${esc(p.niv.join(', '))}</td>
   <td>${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.bo)}</a>` : esc(p.bo)}</td>
   <td class="num">${nf.format(nbParProg[k] || 0)}</td><td class="num">${esc(dateFr(p.ex))}</td></tr>`).join('')}</tbody>`;
-
-/* ---------- Parcours par classe (téléphone) ---------- */
-const parcoursClasses = $('#classes'), listeMobile = $('#liste-mobile');
-let classeMobile = Math.max(0, NIV.indexOf(lire('classe') || NIV[0]));
-function rendreParcours() {
-  parcoursClasses.innerHTML = NIV.map((v, c) => `<button type="button" class="classe" data-c="${c}" aria-pressed="${c === classeMobile}"><b>${esc(v)}</b><small>${esc(D.ages[v])}</small></button>`).join('');
-  const c = classeMobile;
-  listeMobile.innerHTML = FAM.map((f, fi) => {
-    const dans = N.filter(n => n.fam === fi && visible(n) && n.c0 <= c && c <= n.c1);
-    if (!dans.length) return '';
-    const propres = dans.filter(n => n.c0 === n.c1), communes = dans.filter(n => n.c0 !== n.c1);
-    return `<details class="matiere"><summary>${pastille(fi)}${esc(f.nom)}<span class="n">${nf.format(dans.length)}</span></summary><div class="liste">${blocs(propres, () => '')}${communes.length ? `<h4>Valables pour plusieurs classes</h4>${communes.map(n => item(n, n.niv)).join('')}` : ''}</div></details>`;
-  }).join('') || '<p class="vide">Aucune notion pour cette classe avec les matières choisies.</p>';
-}
-parcoursClasses.addEventListener('click', ev => {
-  const b = ev.target.closest('[data-c]');
-  if (!b) return;
-  classeMobile = +b.dataset.c;
-  garder('classe', NIV[classeMobile]);
-  rendreParcours();
-  parcoursClasses.querySelector(`[data-c="${classeMobile}"]`).scrollIntoView({ inline: 'center', block: 'nearest' });
-});
-listeMobile.addEventListener('click', ev => { const b = ev.target.closest('[data-i]'); if (b) afficher({ t: 'notion', n: N[+b.dataset.i] }); });
-const page = $('.page');
-$('.vues').addEventListener('click', ev => {
-  const b = ev.target.closest('[data-vue]');
-  if (!b) return;
-  page.classList.toggle('mode-carte', b.dataset.vue === 'carte');
-  document.querySelectorAll('.vues [data-vue]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
-});
 
 /* ---------- Démarrage ---------- */
 lireCouleurs();

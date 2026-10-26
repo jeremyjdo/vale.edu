@@ -8,7 +8,7 @@ La version en ligne est publiée par Vercel à chaque envoi sur la branche `main
 - **La fiche**, ouverte au clic par-dessus la carte (sur téléphone, dans une fenêtre qui monte du bas) : description, question à poser, critères de réussite, prérequis avec leur raison, texte officiel mot pour mot et lien vers la page du PDF.
 - **La recherche** (sans accents), la liste des notions d'une classe ou d'une matière en cliquant sur la carte, et un lien direct vers chaque notion (`index.html#fr-ma-ce1-fra-07`).
 - **Le menu des matières** : afficher ou masquer chaque matière, avec son nombre de notions ; les langues du collège se cochent sous « Langues vivantes », l'anglais par défaut.
-- **Sur téléphone**, une navigation en liste : on choisit la classe, on déplie une matière, un tap ouvre la fiche. Le bouton « Carte » donne accès à la carte.
+- **Sur téléphone**, la carte pivote : les classes défilent de haut en bas, une colonne par matière, et les notions valables pour tout un cycle sont regroupées à la fin du cycle. Un tap sur un point ouvre la fiche, un tap sur une classe ou une matière en donne la liste.
 - **Les sources** : les programmes officiels, dans une fenêtre ouverte depuis le bas de la page (`index.html#sources`).
 
 ## Comment elle est faite
