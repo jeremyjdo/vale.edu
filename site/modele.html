@@ -1,6 +1,6 @@
 <title>vale.edu · Curriculum français</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="La carte ouverte du curriculum français, de la petite section à la 3e : @@NB_NOTIONS@@ notions et @@NB_LIENS@@ liens qui disent ce qu'il faut savoir avant, et pourquoi.">
+<meta name="description" content="Comprendre le curriculum (programme scolaire) français : de la petite section à la 3e, @@NB_NOTIONS@@ notions et @@NB_LIENS@@ liens qui disent ce qu'il faut savoir avant, et pourquoi.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,600;0,700;1,400&family=Atkinson+Hyperlegible+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500&display=swap">
@@ -54,9 +54,8 @@ a { color: var(--stylo); text-underline-offset: .15em; }
 /* En-tête */
 .tete { padding-block: 14px 12px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px; }
 .titre-bloc { display: grid; gap: 5px; min-width: 0; flex: 1 1 520px; }
-.marque { display: flex; align-items: center; gap: 10px; margin: 0; font: 700 var(--t-xs)/1 var(--police);
+.marque { margin: 0; font: 700 var(--t-xs)/1 var(--police);
   letter-spacing: .09em; text-transform: uppercase; color: var(--encre-2); }
-.marque::before { content: ""; width: 22px; height: 2px; background: var(--marge); }
 h1 { margin: 0; font: 500 clamp(28px, 2.7vw, 40px)/1.12 var(--police-titre); letter-spacing: -.012em; color: var(--encre); text-wrap: balance; }
 h1 .point { color: var(--marge); }
 .chapo { margin: 2px 0 0; max-width: 110ch; font-size: 15px; color: var(--encre-2); text-wrap: pretty; }
@@ -203,6 +202,8 @@ td .pastille { display: inline-block; margin-right: 7px; }
 .cle-traits, .pied-droite { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
 .cle-traits span { display: inline-flex; align-items: center; gap: 6px; }
 .cle-traits i { width: 16px; height: 2px; border-radius: 1px; background: var(--c); }
+.cle-traits .cle-creux { display: none; }
+.creux { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--encre-2); }
 .pied a, .lien-pied { color: var(--encre-2); font-weight: 600; }
 .lien-pied { padding: 0; cursor: pointer; background: none; border: 0; font-size: 12px; text-decoration: underline; text-underline-offset: .15em; }
 .lien-pied:hover, .pied a:hover { color: var(--stylo); }
@@ -241,6 +242,7 @@ td .pastille { display: inline-block; margin-right: 7px; }
   .barre { gap: 8px; }
   .champ-recherche { flex: 1 1 100%; height: 38px; }
   .carte-defile { overflow: visible; }
+  .cle-traits .cle-creux { display: inline-flex; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } .fenetre[open] { animation: none; } }
 </style>
@@ -250,7 +252,7 @@ td .pastille { display: inline-block; margin-right: 7px; }
     <div class="titre-bloc">
       <p class="marque">vale.edu · Curriculum français</p>
       <h1>Tout ce qu'on apprend à l'école<span class="point">.</span></h1>
-      <p class="chapo">La carte ouverte du curriculum français, de la petite section à la 3e : <strong>@@NB_NOTIONS@@ notions</strong> et <strong>@@NB_LIENS@@ liens</strong> qui disent ce qu'il faut savoir avant, et pourquoi.</p>
+      <p class="chapo">Comprendre le curriculum (programme scolaire) français : de la petite section à la 3e, <strong>@@NB_NOTIONS@@ notions</strong> et <strong>@@NB_LIENS@@ liens</strong> qui disent ce qu'il faut savoir avant, et pourquoi.</p>
       <p class="astuce-carte"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l7 17 2.5-7.5L21 11z"></path></svg>Cliquez sur un point pour remonter tout ce qu'il faut maîtriser avant.</p>
     </div>
     <div class="libre-bloc">
@@ -293,7 +295,7 @@ td .pastille { display: inline-block; margin-right: 7px; }
   </main>
 
   <footer class="pied">
-    <span class="cle-traits"><span><i style="--c:var(--stylo)"></i>à savoir avant</span><span><i style="--c:var(--marge)"></i>ce que la notion ouvre</span><span>clic sur une classe ou une case : la liste des notions</span></span>
+    <span class="cle-traits"><span><i style="--c:var(--stylo)"></i>à savoir avant</span><span><i style="--c:var(--marge)"></i>ce que la notion ouvre</span><span>clic sur une classe ou une case : la liste des notions</span><span class="cle-creux"><b class="creux"></b>valable pour tout le cycle</span></span>
     <span class="pied-droite"><button type="button" class="lien-pied" id="ouvrir-sources">Sources : les @@NB_PROGRAMMES@@ programmes officiels</button><span>Projet indépendant, sans lien avec l'Éducation nationale.</span></span>
   </footer>
 </div>
@@ -507,41 +509,37 @@ function agencer(familles, p, appliquer) {
 function disposerVertical() {
   W = Math.max(280, defile.clientWidth);
   N.forEach(n => { n.vis = false; });
-  const groupes = new Map();
+  // Par matière et par classe : d'abord les notions de la classe, puis une part des notions
+  // valables pour tout le cycle, réparties dans l'ordre du programme entre les classes du cycle
+  const propres = new Map(), partagees = new Map(), larges = new Map();
+  const ajouter = (m, k, n) => { if (!m.has(k)) m.set(k, []); m.get(k).push(n); };
   for (const n of N) {
     if (!visible(n)) continue;
-    const k = n.fam + '|' + n.c0 + ':' + n.c1;
-    if (!groupes.has(k)) groupes.set(k, []);
-    groupes.get(k).push(n);
+    if (n.c0 === n.c1) ajouter(propres, n.fam + '|' + n.c0, n);
+    else ajouter(larges, n.fam + '|' + n.c0 + ':' + n.c1, n);
   }
-  const fams = FAM.map((f, fi) => fi).filter(fi => [...groupes.keys()].some(k => +k.split('|')[0] === fi));
+  for (const [k, g] of larges) {
+    const [fi, e] = k.split('|'), [c0, c1] = e.split(':').map(Number), part = Math.ceil(g.length / (c1 - c0 + 1));
+    for (let c = c0; c <= c1; c++) for (const n of g.slice((c - c0) * part, (c - c0 + 1) * part)) ajouter(partagees, fi + '|' + c, n);
+  }
+  const fams = FAM.map((f, fi) => fi).filter(fi => N.some(n => n.fam === fi && visible(n)));
   const larg = (W - MARGE_V - 4) / Math.max(1, fams.length);
   const p = Math.max(4.5, Math.min(7, (larg - 6) / 4)), m = Math.max(1, Math.floor((larg - 6) / p));
   colonnes = fams.map((fi, k) => ({ fi, x0: MARGE_V + k * larg, x1: MARGE_V + (k + 1) * larg, nb: 0 }));
-  const etendues = [...new Set(N.filter(n => n.c0 !== n.c1).map(n => n.c0 + ':' + n.c1))];
-  const lignes = [];
-  NIV.forEach((v, c) => {
-    lignes.push({ cle: c + ':' + c, label: v, sous: D.ages[v], c, large: false });
-    for (const k of etendues.filter(k => +k.split(':')[1] === c).sort()) {
-      const n = N.find(x => x.c0 + ':' + x.c1 === k);
-      lignes.push({ cle: k, label: n.niv, sous: '', c: n.c0, large: true });
-    }
-  });
   rangees = [];
   let y = HAUT_V;
-  for (const l of lignes) {
+  NIV.forEach((v, c) => {
     let rangs = 0;
     for (const col of colonnes) {
-      const g = groupes.get(col.fi + '|' + l.cle) || [];
+      const g = [...(propres.get(col.fi + '|' + c) || []), ...(partagees.get(col.fi + '|' + c) || [])];
       g.forEach((n, j) => { n.x = col.x0 + 3 + p / 2 + (j % m) * p; n.y = y + p + Math.floor(j / m) * p; n.vis = true; });
       rangs = Math.max(rangs, Math.ceil(g.length / m));
       col.nb += g.length;
     }
-    if (!rangs && l.large) continue;
-    const h = Math.max((rangs + 1) * p, l.large ? 18 : 32);
-    rangees.push({ ...l, y0: y, y1: y + h });
+    const h = Math.max((rangs + 1) * p, 32);
+    rangees.push({ label: v, sous: D.ages[v], c, y0: y, y1: y + h });
     y += h;
-  }
+  });
   enteteColonnes.innerHTML = colonnes.map(c => `<button type="button" data-fam="${c.fi}" style="left:${c.x0}px;width:${c.x1 - c.x0}px" title="${esc(FAM[c.fi].nom)} : la liste, classe par classe">${pastille(c.fi)}${esc(ABR[FAM[c.fi].court] || FAM[c.fi].court.slice(0, 3))}</button>`).join('');
   enteteColonnes.hidden = false;
   P = p; R = Math.max(1.7, p * .38); HAUT = HAUT_V; H = y + 6;
@@ -566,24 +564,18 @@ function fondVertical(ctx) {
   ctx.stroke(); ctx.setLineDash([]); ctx.globalAlpha = 1;
   const ca = etat.caseActive;
   enteteColonnes.querySelectorAll('button').forEach(b => b.classList.toggle('actif', !!ca && ca.c == null && ca.fi === +b.dataset.fam));
-  // Rangées : une classe, ou les notions valables sur plusieurs classes
+  // Rangées : une par classe
   ctx.textAlign = 'left';
   const debutsCycle = new Set(D.cycles.map(cy => cy.de));
   for (const r of rangees) {
-    if (r.large) { ctx.fillStyle = C.survol; ctx.globalAlpha = .7; ctx.fillRect(MARGE_V, r.y0, W - MARGE_V, r.y1 - r.y0); ctx.globalAlpha = 1; }
-    ctx.strokeStyle = C.encre; ctx.globalAlpha = !r.large && debutsCycle.has(r.c) ? .38 : .14;
+    ctx.strokeStyle = C.encre; ctx.globalAlpha = debutsCycle.has(r.c) ? .38 : .14;
     ctx.beginPath(); ctx.moveTo(0, Math.round(r.y0) + .5); ctx.lineTo(W, Math.round(r.y0) + .5); ctx.stroke();
     ctx.globalAlpha = 1;
-    const actif = ca && ca.c === r.c && !r.large;
-    if (r.large) {
-      ctx.fillStyle = C.encre3; ctx.font = police(400, 9.5);
-      ctx.fillText(r.label.replace('Cycle ', 'cycle '), 5, r.y0 + 12);
-    } else {
-      ctx.fillStyle = actif ? C.stylo : C.encre; ctx.font = police(700, 12.5);
-      ctx.fillText(r.label, 5, r.y0 + 15);
-      ctx.fillStyle = C.encre3; ctx.font = police(400, 9, true);
-      ctx.fillText(r.sous.replace(' ans', ''), 5, r.y0 + 26);
-    }
+    const actif = ca && ca.c === r.c;
+    ctx.fillStyle = actif ? C.stylo : C.encre; ctx.font = police(700, 12.5);
+    ctx.fillText(r.label, 5, r.y0 + 15);
+    ctx.fillStyle = C.encre3; ctx.font = police(400, 9, true);
+    ctx.fillText(r.sous.replace(' ans', ''), 5, r.y0 + 26);
   }
   ctx.strokeStyle = C.marge; ctx.lineWidth = 1.5;
   ctx.beginPath(); ctx.moveTo(MARGE_V + .5, 0); ctx.lineTo(MARGE_V + .5, H); ctx.stroke();
@@ -591,7 +583,7 @@ function fondVertical(ctx) {
   // Case parcourue : une matière (colonne), une classe (rangée) ou les deux
   if (ca) {
     const cols = ca.fi == null ? colonnes : colonnes.filter(c => c.fi === ca.fi);
-    const rgs = ca.c == null ? rangees : rangees.filter(r => r.c === ca.c && !r.large);
+    const rgs = ca.c == null ? rangees : rangees.filter(r => r.c === ca.c);
     if (cols.length && rgs.length) {
       const x = cols[0].x0 + 1, l = cols[cols.length - 1].x1 - cols[0].x0 - 2;
       const y = rgs[0].y0 + 1, h = rgs[rgs.length - 1].y1 - rgs[0].y0 - 2;
@@ -737,18 +729,23 @@ function dessiner() {
   // Points
   const sel = etat.sel, res = etat.resultats;
   const enAvant = n => sel ? (n === sel || etat.anc.has(n) || etat.directs.has(n)) : res ? res.has(n) : true;
+  // Sur la carte verticale, une notion valable pour tout le cycle est un point creux
+  const creux = n => vertical && n.c0 !== n.c1;
   const fonds = FAM.map(() => [new Path2D(), new Path2D()]), avants = FAM.map(() => new Path2D());
+  const fondsCreux = FAM.map(() => [new Path2D(), new Path2D()]), avantsCreux = FAM.map(() => new Path2D());
   let nbAvant = 0;
   for (const n of N) {
     if (!n.vis) continue;
-    if (enAvant(n)) { avants[n.fam].moveTo(n.x + R, n.y); avants[n.fam].arc(n.x, n.y, R, 0, 7); nbAvant++; continue; }
-    const p = fonds[n.fam][sel && etat.desc.has(n) ? 1 : 0];
-    p.moveTo(n.x + R, n.y); p.arc(n.x, n.y, R, 0, 7);
+    const c = creux(n), r = c ? R - .6 : R;
+    if (enAvant(n)) { const q = (c ? avantsCreux : avants)[n.fam]; q.moveTo(n.x + r, n.y); q.arc(n.x, n.y, r, 0, 7); nbAvant++; continue; }
+    const q = (c ? fondsCreux : fonds)[n.fam][sel && etat.desc.has(n) ? 1 : 0];
+    q.moveTo(n.x + r, n.y); q.arc(n.x, n.y, r, 0, 7);
   }
+  ctx.lineWidth = 1.2;
   FAM.forEach((f, fi) => {
-    ctx.fillStyle = C.fam[fi];
-    ctx.globalAlpha = .2; ctx.fill(fonds[fi][0]);
-    ctx.globalAlpha = .45; ctx.fill(fonds[fi][1]);
+    ctx.fillStyle = ctx.strokeStyle = C.fam[fi];
+    ctx.globalAlpha = .2; ctx.fill(fonds[fi][0]); ctx.stroke(fondsCreux[fi][0]);
+    ctx.globalAlpha = .45; ctx.fill(fonds[fi][1]); ctx.stroke(fondsCreux[fi][1]);
   });
   if (sel && sel.vis) {
     const ens = new Set(etat.anc); ens.add(sel);
@@ -766,7 +763,8 @@ function dessiner() {
     ctx.stroke();
   }
   ctx.globalAlpha = sel || res ? 1 : .9;
-  FAM.forEach((f, fi) => { ctx.fillStyle = C.fam[fi]; ctx.fill(avants[fi]); });
+  ctx.lineWidth = 1.3;
+  FAM.forEach((f, fi) => { ctx.fillStyle = ctx.strokeStyle = C.fam[fi]; ctx.fill(avants[fi]); ctx.stroke(avantsCreux[fi]); });
   ctx.globalAlpha = 1;
   if (sel && sel.vis) {
     ctx.fillStyle = C.papier; ctx.beginPath(); ctx.arc(sel.x, sel.y, 8, 0, 7); ctx.fill();
