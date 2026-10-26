@@ -25,7 +25,7 @@ vale.edu veut fournir cette base, ouverte et réutilisable :
 
 ## Consulter
 
-- **L'atlas** : en ligne sur **[vale-edu.vercel.app](https://vale-edu.vercel.app)**, ou en ouvrant [`site/index.html`](site/index.html) dans un navigateur (la page est autonome, sans serveur). Une carte montre toutes les notions, classe par classe et matière par matière. Un clic sur une notion trace tout ce qu'il faut savoir avant, et ouvre sa fiche : description, question à poser, critères de réussite, prérequis, texte officiel et lien vers la page du PDF.
+- **Le site** : en ligne sur **[vale-edu.vercel.app](https://vale-edu.vercel.app)**, ou en ouvrant [`site/index.html`](site/index.html) dans un navigateur (la page est autonome, sans serveur). Une carte montre toutes les notions, classe par classe et matière par matière. Un clic sur une notion trace tout ce qu'il faut savoir avant, et ouvre sa fiche : description, question à poser, critères de réussite, prérequis, texte officiel et lien vers la page du PDF.
 - **Les vues texte** : [`data/vues/`](data/vues/index.md), une page Markdown par programme.
 - **Les données** : [`data/notions.json`](data/) et `prerequis.json`, décrits dans [`data/README.md`](data/README.md).
 
@@ -128,7 +128,7 @@ for i in sorted(chaine("fr-ma-ce1-fra-07"), key=lambda i: notions[i]["ageRangeSt
 2. **Extraction** : chaque classe de chaque programme est découpée en notions par un modèle de langage (Claude), selon des consignes publiques ([`consignes-extraction.md`](construction/outils/consignes-extraction.md)). Une puce « objectif d'apprentissage » donne en général une notion.
 3. **Contrôles automatiques** : format et identifiants, graphe sans boucle (`valider.py`), toutes les puces du programme reprises (`couverture.py`), chaque objectif retrouvé mot pour mot dans le PDF (`verifier_sources.py`).
 4. **Liaison** : chaque notion est reliée à ce qu'elle suppose des classes précédentes ([`consignes-liens.md`](construction/outils/consignes-liens.md)), puis les liens redondants sont retirés.
-5. **Assemblage** : `assembler.py` produit le jeu de données (`data/`), ses vues et l'atlas (`site/`), et note ce qui a changé dans [`data/JOURNAL.md`](data/JOURNAL.md).
+5. **Assemblage** : `assembler.py` produit le jeu de données (`data/`), ses vues et le site (`site/`), et note ce qui a changé dans [`data/JOURNAL.md`](data/JOURNAL.md).
 
 **Traçabilité** : chaque notion garde la page et l'empreinte du PDF dont elle vient, chaque fichier sa date d'extraction ou de liaison. Un PDF n'est jamais écrasé : l'ancienne version est archivée. `python3 outils/etat.py` dit ce qu'il reste à faire après l'ajout ou la mise à jour d'un programme, et `python3 outils/verifier_sources.py --en-ligne` détecte une nouvelle version publiée. La procédure est dans [`MISE-A-JOUR.md`](construction/outils/MISE-A-JOUR.md).
 
@@ -156,7 +156,7 @@ Pour modifier la base, tout se lance depuis `construction/` :
 
 ```bash
 python3 outils/valider.py      # contrôle les extractions
-python3 outils/assembler.py    # refait ../data/ (données, vues, journal) et l'atlas ../site/
+python3 outils/assembler.py    # refait ../data/ (données, vues, journal) et le site ../site/
 python3 outils/etat.py         # dit ce qui reste à faire ; doit répondre « Tout est à jour »
 ```
 
@@ -164,7 +164,7 @@ Les scripts n'utilisent que la bibliothèque standard de Python 3. Préparer un 
 
 ## Arborescence
 
-Le dépôt a trois parties : les données, l'atlas qui les affiche, et la construction qui les produit.
+Le dépôt a trois parties : les données, le site qui les affiche, et la construction qui les produit.
 
 ```
 data/                        le jeu de données (Licence Ouverte 2.0)
@@ -173,7 +173,7 @@ data/                        le jeu de données (Licence Ouverte 2.0)
 ├── vues/                    une page Markdown par programme
 ├── historique/              détail des changements, à chaque assemblage
 └── JOURNAL.md               historique de la base
-site/                        l'atlas (MIT)
+site/                        le site, la carte du curriculum (MIT)
 ├── index.html               page autonome, générée à partir de data/
 └── modele.html              son modèle
 construction/                fabrication de la base, des PDF officiels aux notions
@@ -198,7 +198,7 @@ bench/                       état des lieux des projets voisins
 ## Licences
 
 - **Données** (notions, liens, descriptions, questions, critères : `data/` et `construction/extractions/`) : [Licence Ouverte 2.0](LICENCE-DONNEES.md) (Etalab). Réutilisation libre, y compris commerciale, en citant « vale.edu » et l'adresse du dépôt.
-- **Code** (scripts de `construction/outils/` et atlas `site/`) : [licence MIT](LICENSE).
+- **Code** (scripts de `construction/outils/` et site `site/`) : [licence MIT](LICENSE).
 - **Programmes officiels** (`construction/programmes-officiels/`, `construction/textes/` et citations dans `officialObjectives`) : informations publiques du ministère de l'Éducation nationale, réutilisables en citant leur source et leur date (articles L321-1 et L322-1 du code des relations entre le public et l'administration). Source et date de chaque document : [`sources.json`](construction/programmes-officiels/sources.json).
 
 vale.edu est un projet indépendant, sans lien avec le ministère de l'Éducation nationale ni avec Marble.
