@@ -6,7 +6,8 @@ La version en ligne est publiée par Vercel à chaque envoi sur la branche `main
 
 - **La carte** : toutes les notions, les classes de la petite section à la 3e de gauche à droite, une bande par matière. Un clic sur une notion trace en bleu tout ce qu'il faut savoir avant, classe par classe, et en rouge ce qu'elle ouvre.
 - **La fiche** : description, question à poser, critères de réussite, prérequis avec leur raison, texte officiel mot pour mot et lien vers la page du PDF.
-- **La recherche** (sans accents), le menu « Parcourir » par matière et classe, et un lien direct vers chaque notion (`index.html#fr-ma-ce1-fra-07`).
+- **La recherche** (sans accents), la liste des notions d'une classe ou d'une matière en cliquant sur la carte, et un lien direct vers chaque notion (`index.html#fr-ma-ce1-fra-07`).
+- **Les sources** : les programmes officiels, dans une fenêtre ouverte depuis le bas de la page (`index.html#sources`).
 
 ## Comment elle est faite
 

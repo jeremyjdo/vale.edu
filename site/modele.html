@@ -51,23 +51,28 @@ button { font: inherit; color: inherit; }
 a { color: var(--stylo); text-underline-offset: .15em; }
 
 /* En-tête */
-.tete { padding-block: 26px 18px; display: grid; gap: 8px; }
+.tete { padding-block: 24px 16px; display: grid; gap: 8px; }
 .marque { display: flex; align-items: center; gap: 10px; margin: 0; font: 700 var(--t-xs)/1 var(--police);
   letter-spacing: .09em; text-transform: uppercase; color: var(--encre-2); }
 .marque::before { content: ""; width: 22px; height: 2px; background: var(--marge); }
 h1 { margin: 2px 0 4px; font: 400 clamp(26px, 3.3vw, 40px)/1.55 var(--police-titre); color: var(--encre);
   text-decoration: underline; text-decoration-color: var(--marge); text-decoration-thickness: 2px;
   text-underline-offset: .32em; text-wrap: balance; }
-.chapo { margin: 0; max-width: 70ch; font-size: var(--t-l); color: var(--encre-2); text-wrap: pretty; }
+.chapo { margin: 0; max-width: 62ch; font-size: var(--t-l); color: var(--encre-2); text-wrap: pretty; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 8px; }
+.bouton-github { display: inline-flex; align-items: center; gap: 8px; height: 46px; padding-inline: 16px; border-radius: 10px;
+  background: var(--encre); color: var(--papier); font-weight: 700; text-decoration: none; }
+.bouton-github:hover { background: var(--stylo); }
+.libre { font: 500 12px/1.3 var(--police-mono); color: var(--encre-2); letter-spacing: .02em; }
+.libre strong { color: var(--encre); font-weight: 500; }
 .chapo strong { color: var(--encre); font-weight: 700; }
-.outils { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
 .champ { display: flex; align-items: center; gap: 8px; height: 46px; padding-inline: 14px; background: var(--surface);
   border: 1px solid var(--filet); border-radius: 10px; }
 .champ:focus-within { border-color: var(--stylo); box-shadow: 0 0 0 3px color-mix(in srgb, var(--stylo) 18%, transparent); }
 .champ input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--encre); font: inherit; font-size: var(--t-m); }
 .champ input::placeholder { color: var(--encre-3); }
 .champ svg { flex: none; color: var(--encre-3); }
-.champ-recherche { flex: 1 1 380px; max-width: 640px; }
+.champ-recherche { flex: 1 1 320px; max-width: 520px; margin-left: auto; }
 kbd { font: 500 12px/1 var(--police-mono); color: var(--encre-3); border: 1px solid var(--filet); border-radius: 5px; padding: 3px 6px; }
 
 /* Atelier : carte + fiche */
@@ -84,7 +89,9 @@ kbd { font: 500 12px/1 var(--police-mono); color: var(--encre-3); border: 1px so
 .choix-langue { display: inline-flex; align-items: center; gap: 6px; font-size: var(--t-s); color: var(--encre-2); margin-left: 4px; }
 select { height: 32px; padding-inline: 8px; font: inherit; font-size: var(--t-s); color: var(--encre);
   background: var(--surface); border: 1px solid var(--filet); border-radius: 8px; }
-.consigne { margin: 0 0 8px; font-size: var(--t-s); color: var(--encre-3); }
+.cle { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 14px; margin: 8px 0 0; font-size: 12px; color: var(--encre-3); }
+.cle span { display: inline-flex; align-items: center; gap: 6px; }
+.cle i { width: 16px; height: 2px; border-radius: 1px; background: var(--c); }
 .carte-defile { position: relative; overflow-x: auto; background: var(--papier); border: 1px solid var(--filet); border-radius: 12px; }
 #carte { display: block; cursor: crosshair; touch-action: pan-x pan-y; }
 #carte.sur-point { cursor: pointer; }
@@ -95,12 +102,7 @@ select { height: 32px; padding-inline: 8px; font: inherit; font-size: var(--t-s)
 
 /* Fiche */
 .panneau { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); max-height: calc(100vh - 24px); overflow: auto;
-  overscroll-behavior: contain; background: var(--surface); border: 1px solid var(--filet); border-radius: 14px; padding: 14px 18px 24px; }
-.panneau-tete { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding-bottom: 12px; margin-bottom: 16px; border-bottom: 1px solid var(--filet); }
-.panneau-tete label { font: 700 var(--t-xs)/1 var(--police); letter-spacing: .08em; text-transform: uppercase; color: var(--encre-3); margin-right: 2px; }
-.panneau-tete select { flex: 1 1 120px; min-width: 0; }
-.retour { height: 32px; padding-inline: 10px; cursor: pointer; background: transparent; border: 1px solid var(--filet); border-radius: 8px; font-size: var(--t-s); }
-.retour:hover { background: var(--survol); }
+  overscroll-behavior: contain; background: var(--surface); border: 1px solid var(--filet); border-radius: 14px; padding: 20px 18px 24px; }
 #contenu { display: grid; gap: 18px; }
 #contenu > * { margin: 0; min-width: 0; }
 .sur-titre { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; font-size: var(--t-s); color: var(--encre-2); }
@@ -153,17 +155,30 @@ code { font: 500 12.5px var(--police-mono); }
 .lien-liste { width: fit-content; padding: 0; background: none; border: 0; cursor: pointer; color: var(--stylo); font-size: var(--t-s); font-weight: 600; text-align: left; }
 .lien-liste:hover { text-decoration: underline; }
 
-/* Sources */
-.sources { padding-block: 28px 18px; border-top: 1px solid var(--filet); display: grid; gap: 12px; }
-.sources h2 { margin: 0; font: 700 var(--t-xl)/1.25 var(--police); }
-.sources > p { margin: 0; max-width: 78ch; color: var(--encre-2); }
+/* Sources : fenêtre qui monte du bas de la page */
+.fenetre { position: fixed; inset: auto 0 0 0; margin: 0 auto; width: min(1000px, 100%); max-width: 100%; max-height: 84vh; padding: 0;
+  background: var(--surface); color: var(--encre); border: 1px solid var(--filet); border-bottom: 0; border-radius: 16px 16px 0 0;
+  box-shadow: 0 -14px 40px rgb(0 0 0 / .2); }
+.fenetre[open] { display: flex; flex-direction: column; animation: monte .22s ease-out; }
+.fenetre::backdrop { background: rgb(12 16 26 / .45); }
+@keyframes monte { from { transform: translateY(28px); opacity: 0; } }
+.fenetre-tete { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 22px 10px; border-bottom: 1px solid var(--filet); }
+.fenetre-tete h2 { margin: 0; font: 700 var(--t-xl)/1.25 var(--police); }
+.fermer { width: 36px; height: 36px; flex: none; cursor: pointer; font-size: 22px; line-height: 1; background: transparent; border: 1px solid var(--filet); border-radius: 50%; color: var(--encre-2); }
+.fermer:hover { background: var(--survol); }
+.fenetre-corps { display: grid; gap: 14px; overflow: auto; padding: 14px 22px calc(22px + env(safe-area-inset-bottom, 0px)); }
+.fenetre-corps > p { margin: 0; max-width: 80ch; color: var(--encre-2); }
 .table-defile { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; font-size: var(--t-s); }
 th { text-align: left; padding: 8px 10px; font: 700 var(--t-xs)/1.2 var(--police); letter-spacing: .07em; text-transform: uppercase; color: var(--encre-3); border-bottom: 1px solid var(--ligne-forte); white-space: nowrap; }
 td { padding: 8px 10px; border-bottom: 1px solid var(--filet); vertical-align: top; }
 td.num { text-align: right; font-family: var(--police-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
 td .pastille { display: inline-block; margin-right: 7px; }
-.pied { padding-block: 10px 32px; font-size: var(--t-s); color: var(--encre-3); }
+.pied { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; padding-block: 16px 30px; border-top: 1px solid var(--filet); font-size: var(--t-s); color: var(--encre-3); }
+.pied a, .lien-pied { color: var(--encre-2); font-weight: 600; }
+.lien-pied { padding: 0; cursor: pointer; background: none; border: 0; font-size: var(--t-s); text-decoration: underline; text-underline-offset: .15em; }
+.lien-pied:hover, .pied a:hover { color: var(--stylo); }
+.pied .avertissement { flex-basis: 100%; font-size: 12px; }
 
 @media (max-width: 1080px) {
   .atelier { grid-template-columns: minmax(0, 1fr); }
@@ -173,15 +188,17 @@ td .pastille { display: inline-block; margin-right: 7px; }
   .tete { padding-block: 18px 12px; }
   .chapo { font-size: var(--t-m); }
 }
-@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } .fenetre[open] { animation: none; } }
 </style>
 <!-- corps -->
 <div class="page">
   <header class="tete">
     <p class="marque">vale.edu · Atlas des notions</p>
     <h1>Tout ce qu'on apprend à l'école</h1>
-    <p class="chapo">Le curriculum français, de la petite section à la 3e : <strong>@@NB_NOTIONS@@ notions</strong> tirées des @@NB_PROGRAMMES@@ programmes officiels, et <strong>@@NB_LIENS@@ liens</strong> qui disent ce qu'il faut savoir avant, et pourquoi. Chaque notion renvoie au texte officiel, à la page près.</p>
-    <div class="outils">
+    <p class="chapo">La carte ouverte du curriculum français, de la petite section à la 3e : <strong>@@NB_NOTIONS@@ notions</strong> et <strong>@@NB_LIENS@@ liens</strong> qui disent ce qu'il faut savoir avant, et pourquoi. Cliquez sur un point pour voir tout ce qu'il faut maîtriser avant.</p>
+    <div class="actions">
+      <a class="bouton-github" href="https://github.com/jeremyjdo/vale.edu" target="_blank" rel="noopener"><svg width="17" height="17" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>Voir sur GitHub</a>
+      <span class="libre"><strong>OPEN SOURCE</strong> · données Licence Ouverte 2.0 · code MIT</span>
       <label class="champ champ-recherche" for="recherche">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
         <span class="cache">Rechercher une notion</span>
@@ -194,31 +211,37 @@ td .pastille { display: inline-block; margin-right: 7px; }
   <main class="atelier">
     <section class="zone-carte" aria-label="Carte des notions">
       <div class="legende" id="legende"></div>
-      <p class="consigne">Un point = une notion. Cliquez sur un point pour suivre ce qu'il faut savoir avant (en bleu) et ce que la notion ouvre (en rouge). Cliquez sur une classe ou dans une case pour en lister les notions. Une accolade regroupe les notions valables pour tout un cycle.</p>
       <div class="carte-defile" id="carte-defile">
-        <canvas id="carte" role="img" aria-label="Carte des notions, classes en colonnes et matières en lignes. La recherche et le menu Parcourir donnent les mêmes notions sous forme de liste."></canvas>
+        <canvas id="carte" role="img" aria-label="Carte des notions, classes en colonnes et matières en lignes. La recherche et la fiche à côté donnent les mêmes notions sous forme de liste."></canvas>
         <div class="bulle" id="bulle" hidden></div>
       </div>
+      <p class="cle"><span><i style="--c:var(--stylo)"></i>à savoir avant</span><span><i style="--c:var(--marge)"></i>ce que la notion ouvre</span><span>clic sur une classe ou une case : la liste des notions</span></p>
     </section>
 
     <aside class="panneau" id="panneau">
-      <div class="panneau-tete">
-        <button class="retour" id="retour" type="button" hidden>← Retour</button>
-        <label for="choix-famille">Parcourir</label>
-        <select id="choix-famille" aria-label="Matière"></select>
-        <select id="choix-niveau" aria-label="Classe"></select>
-      </div>
       <div id="contenu" aria-live="polite"><p class="vide">Chargement des notions…</p></div>
     </aside>
   </main>
 
-  <section class="sources" id="sources">
-    <h2>D'où viennent les notions</h2>
+  <footer class="pied">
+    <span>vale.edu, projet open source</span>
+    <button type="button" class="lien-pied" id="ouvrir-sources">Sources : les @@NB_PROGRAMMES@@ programmes officiels</button>
+    <a href="https://github.com/jeremyjdo/vale.edu" target="_blank" rel="noopener">Code et données sur GitHub</a>
+    <span>Données : Licence Ouverte 2.0 · Code : MIT</span>
+    <span class="avertissement">Construit à partir des programmes publiés au Bulletin officiel. Ce site n'est pas un service de l'Éducation nationale.</span>
+  </footer>
+</div>
+
+<dialog class="fenetre" id="fenetre-sources" aria-labelledby="titre-sources">
+  <div class="fenetre-tete">
+    <h2 id="titre-sources">D'où viennent les notions</h2>
+    <button type="button" class="fermer" id="fermer-sources" aria-label="Fermer">×</button>
+  </div>
+  <div class="fenetre-corps">
     <p>Chaque notion est tirée d'un programme publié au Bulletin officiel. Son objectif est recopié mot pour mot, avec la page du PDF ; la description, la question à poser et les critères de réussite sont une reformulation, et seul le texte officiel fait foi. Les liens marqués « écrit dans le programme » reprennent le texte ; les autres sont déduits et restent à relire. Base assemblée le @@DATE@@.</p>
     <div class="table-defile"><table id="table-sources"></table></div>
-  </section>
-  <footer class="pied">vale.edu, projet libre : données sous Licence Ouverte 2.0, code sous licence MIT, sur <a href="https://github.com/jeremyjdo/vale.edu" target="_blank" rel="noopener">github.com/jeremyjdo/vale.edu</a>. Construit à partir des programmes officiels publiés au Bulletin officiel de l'Éducation nationale ; ce site n'est pas un service de l'Éducation nationale.</footer>
-</div>
+  </div>
+</dialog>
 
 <script id="donnees" type="application/octet-stream">@@DONNEES@@</script>
 <script>
@@ -589,12 +612,6 @@ $('#legende').addEventListener('change', ev => {
 });
 
 /* ---------- Fiche, listes, recherche ---------- */
-const choixFamille = $('#choix-famille'), choixNiveau = $('#choix-niveau');
-choixFamille.innerHTML = '<option value="">Toutes les matières</option>' + FAM.map((f, fi) => `<option value="${fi}">${esc(f.nom)}</option>`).join('');
-choixNiveau.innerHTML = NIV.map((v, c) => `<option value="${c}">${esc(v)} · ${esc(D.ages[v])}</option>`).join('');
-const parcourir = () => afficher({ t: 'liste', fi: choixFamille.value === '' ? null : +choixFamille.value, c: +choixNiveau.value });
-choixFamille.addEventListener('change', parcourir);
-choixNiveau.addEventListener('change', parcourir);
 
 const question = q => { const s = q.replaceAll('{{prenom}}', 'l\'enfant'); return s.charAt(0).toUpperCase() + s.slice(1); };
 const item = (n, droite) => `<button type="button" class="item" data-i="${n.i}">${pastille(n.fam)}<span class="t">${esc(n.nom)}</span><span class="niv">${esc(droite)}</span></button>`;
@@ -637,7 +654,7 @@ function fiche(n) {
     <h2 class="nom">${esc(n.nom)}</h2>
     <p class="etiquettes"><span class="etiquette">${esc(n.type)}</span>${n.per ? `<span class="etiquette">${esc(n.per)}</span>` : ''}<span class="etiquette">${esc(n.dom)}</span></p>
     <p class="desc">${esc(n.desc)}</p>
-    <div class="question"><p class="petit-titre">La question à poser</p><p class="q">« ${esc(question(n.q).replace(/^«\s*|\s*»$/g, ''))} »</p></div>
+    <div class="question"><p class="petit-titre">La question à poser</p><p class="q">${esc(question(n.q))}</p></div>
     <div class="section"><h3>C'est acquis quand l'enfant…</h3><ul class="criteres">${n.crit.map(c => `<li>${esc(c)}</li>`).join('')}</ul></div>
     <div class="section"><h3>À savoir avant <span class="compte">${n.avant.length}</span></h3>
       ${avant.length ? `<ul class="liens">${avant.map(L => lienNotion(L, L.de)).join('')}</ul>` : '<p class="vide">Aucun prérequis relevé : c\'est un point de départ dans la base.</p>'}
@@ -730,21 +747,16 @@ function afficher(vue, pousser = true) {
     etat.desc = parcours(n, 'apres');
     etat.directs = new Set(n.apres.map(L => L.vers));
     contenu.innerHTML = fiche(n);
-    choixFamille.value = String(n.fam);
-    choixNiveau.value = String(n.c0);
     try { history.replaceState(null, '', '#' + n.id); } catch {}
   } else if (vue.t === 'liste') {
     if (vue.fi != null && etat.masquees.has(vue.fi)) { etat.masquees.delete(vue.fi); legende(); disposer(); }
     etat.caseActive = { fi: vue.fi, c: vue.c };
     contenu.innerHTML = liste(vue.fi, vue.c);
-    choixFamille.value = vue.fi == null ? '' : String(vue.fi);
-    choixNiveau.value = String(vue.c);
   } else if (vue.t === 'recherche') {
     const res = chercher(vue.q);
     etat.resultats = new Set(res);
     contenu.innerHTML = resultats(vue.q, res);
   }
-  $('#retour').hidden = !etat.pile.length;
   $('#panneau').scrollTop = 0;
   dessiner();
 }
@@ -766,7 +778,6 @@ contenu.addEventListener('click', ev => {
     try { navigator.clipboard.writeText(lien).then(ok, repli); } catch { repli(); }
   }
 });
-$('#retour').addEventListener('click', () => { const v = etat.pile.pop(); if (v) afficher(v, false); });
 
 const recherche = $('#recherche');
 let minuterie;
@@ -785,6 +796,11 @@ document.addEventListener('keydown', ev => {
 });
 
 /* ---------- Sources ---------- */
+const fenetre = $('#fenetre-sources');
+const ouvrirSources = () => { if (!fenetre.open) fenetre.showModal(); };
+$('#ouvrir-sources').addEventListener('click', ouvrirSources);
+$('#fermer-sources').addEventListener('click', () => fenetre.close());
+fenetre.addEventListener('click', ev => { if (ev.target === fenetre) fenetre.close(); });
 const nbParProg = {};
 for (const n of N) nbParProg[n.prog] = (nbParProg[n.prog] || 0) + 1;
 const progs = Object.entries(PROG).sort(([, a], [, b]) => a.fam - b.fam || (D.etendues[a.niv[0]]?.[0] ?? 0) - (D.etendues[b.niv[0]]?.[0] ?? 0) || a.m.localeCompare(b.m));
@@ -798,8 +814,14 @@ lireCouleurs();
 legende();
 disposer();
 const depuisAncre = () => { const id = decodeURIComponent(location.hash.slice(1)); return parId.get(id); };
+const sourcesAuDepart = location.hash === '#sources';
 afficher({ t: 'notion', n: depuisAncre() || N[D.defaut] || N[0] }, false);
-window.addEventListener('hashchange', () => { const n = depuisAncre(); if (n && n !== etat.sel) afficher({ t: 'notion', n }); });
+if (sourcesAuDepart) ouvrirSources();
+window.addEventListener('hashchange', () => {
+  if (location.hash === '#sources') return ouvrirSources();
+  const n = depuisAncre();
+  if (n && n !== etat.sel) afficher({ t: 'notion', n });
+});
 new ResizeObserver(() => { if (Math.max(defile.clientWidth, LARGEUR_MIN) !== W) disposer(); }).observe(defile);
 const surTheme = () => { lireCouleurs(); dessiner(); };
 matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', surTheme);
