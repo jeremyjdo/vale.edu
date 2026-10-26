@@ -185,6 +185,8 @@ knowledge/
 - **Adaptiv'Math et Mathia** (programme P2IA du ministère) : parcours adaptatifs de mathématiques pour le cycle 2, gratuits, ouverts par l'enseignant, données fermées.
 - **Ontologies des programmes scolaires** (data.gouv.fr) : OWL/RDF, surtout pour le secondaire et d'anciens programmes.
 
+État des lieux plus complet, avec les projets d'enseignants de la Forge des communs numériques éducatifs et les graphes étrangers (relevé du 26/10/2026) : [`bench/`](bench/README.md).
+
 ## Licences
 
 - **Données** (notions, liens, descriptions, questions, critères, dans `knowledge/notions-fr/`) : [Licence Ouverte 2.0](LICENCE-DONNEES.md) (Etalab). Réutilisation libre, y compris commerciale, en citant « vale.edu » et l'adresse du dépôt.
