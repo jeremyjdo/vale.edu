@@ -2,7 +2,7 @@
 
 **Tout ce qu'on apprend à l'école.**
 
-La carte ouverte du curriculum français, de la petite section à la 3e : 5 604 notions et 8 002 liens qui disent ce qu'il faut savoir avant, et pourquoi. → **[vale-edu.vercel.app](https://vale-edu.vercel.app)**
+La carte ouverte du curriculum français, de la petite section à la 3e : 5 604 notions et 8 042 liens qui disent ce qu'il faut savoir avant, et pourquoi. → **[vale-edu.vercel.app](https://vale-edu.vercel.app)**
 
 vale.edu est une base de données ouverte : tout ce que les programmes officiels prévoient d'enseigner, classe par classe et matière par matière. Chaque objectif des programmes devient une notion : ce qu'elle veut dire, comment savoir si elle est acquise, et ce qu'il faut savoir avant. Chaque notion renvoie au texte officiel, à la page près.
 
@@ -10,7 +10,7 @@ vale.edu est une base de données ouverte : tout ce que les programmes officiels
 |---|---|
 | Programmes officiels | 43, de la petite section à la 3e (34 PDF publiés au Bulletin officiel) |
 | Notions | 5 604 |
-| Liens de prérequis | 8 002, chacun avec sa raison |
+| Liens de prérequis | 8 042, chacun avec sa raison |
 | Matières | français, mathématiques, sciences, histoire-géographie, langues vivantes, EMC, vie affective et relationnelle, arts, EPS, éducation aux médias |
 
 Le projet s'inspire de la [taxonomie ouverte de Marble](https://github.com/withmarbleapp/os-taxonomy), construite à partir des curriculums américain et britannique du primaire. vale.edu en reprend le principe pour le curriculum français, et l'étend au collège.
@@ -61,7 +61,7 @@ Le jeu de données sépare ce que dit le texte officiel de ce qu'on en tire pour
 | `programmes.json` | Les 43 programmes : matière, classes, PDF, BO, empreinte |
 | `objectifs.json` | Les 6 798 objectifs officiels, cités mot pour mot, avec la page du PDF |
 | `notions.json` | Les 5 604 notions, chacune reliée aux objectifs dont elle vient |
-| `liens.json` | Les 8 002 liens de prérequis entre notions |
+| `liens.json` | Les 8 042 liens de prérequis entre notions |
 
 Une notion :
 

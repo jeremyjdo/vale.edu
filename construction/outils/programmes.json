@@ -114,8 +114,7 @@
       "CM1-CM2",
       "Cycle 3"
     ],
-    "follows": "qlm-c2",
-    "format": "image"
+    "follows": "qlm-c2"
   },
   "lv-cm": {
     "subject": "Langues vivantes",
@@ -175,7 +174,6 @@
       "Cycle 2"
     ],
     "follows": "monde-c1",
-    "format": "image",
     "remplace": [
       "qlm-c2"
     ]

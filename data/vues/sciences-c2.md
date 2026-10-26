@@ -1,6 +1,6 @@
 # Sciences et technologie : CP, CE1, CE2, Cycle 2
 
-Source : BO n° 24 du 11 juin 2026 ([PDF](../../construction/programmes-officiels/cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf)), extraite le 2026-10-23. Vue générée automatiquement, à ne pas modifier à la main.
+Source : BO n° 24 du 11 juin 2026 ([PDF](../../construction/programmes-officiels/cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf)), extraite le 2026-10-26. Vue générée automatiquement, à ne pas modifier à la main.
 
 Remplace : [qlm-c2](qlm-c2.md).
 
@@ -12,7 +12,7 @@ Remplace : [qlm-c2](qlm-c2.md).
 | Les objets techniques au cœur de la société | 3 | 5 | 7 | 0 |
 | **Total** | **19** | **31** | **30** | **1** |
 
-75 liens de prérequis, dont 5 écrits dans le programme (les autres sont déduits et à relire).
+95 liens de prérequis, dont 5 écrits dans le programme (les autres sont déduits et à relire).
 
 ## CP
 
@@ -42,7 +42,7 @@ Critères de réussite :
 - Dit, après avoir soupesé des objets ou utilisé une balance, lequel est le plus lourd ou le plus léger.
 - Distingue « gros » et « lourd », « petit » et « léger » en comparant des objets volumineux mais peu pesants (polystyrène) avec des objets pesants mais peu volumineux (bille en verre).
 
-Prérequis : Reconnaître que deux objets ont la même masse (Premiers outils mathématiques, GS) _(utile)_ ; Comparer les masses de différents objets (CP) _(utile)_
+Prérequis : Reconnaître que deux objets ont la même masse (Premiers outils mathématiques, GS) _(utile)_ ; Ordonner les masses de trois objets (Premiers outils mathématiques, GS) ; Comparer les masses de différents objets (CP) _(utile)_
 
 > Question : Est-ce que l'enfant sait dire, entre un gros bloc de polystyrène et une petite bille en verre, lequel est le plus gros et lequel est le plus lourd ?
 
@@ -229,6 +229,8 @@ Repérer les différents moments de sa journée (sommeil, activité physique, ac
 Critères de réussite :
 - Représente les différents moments de sa journée sur une frise chronologique en les reliant à l’intensité de l’activité associée.
 
+Prérequis : Situer les moments de la journée les uns par rapport aux autres (Se repérer dans le temps et l'espace, PS)
+
 > Question : Est-ce que l'enfant sait placer sur une frise les moments de sa journée (dormir, jouer dehors, travailler en classe, se reposer) en disant lesquels sont les plus intenses ?
 
 <sub>Source : programme p. 9</sub>
@@ -377,6 +379,8 @@ Critères de réussite :
 - Transvase de l’air d’un récipient à un autre.
 - Interprète le vent comme un déplacement d’air.
 
+Prérequis : Identifier la présence de l’air par les sens (Découvrir le monde du vivant, de la matière et des objets, GS)
+
 > Question : Est-ce que l'enfant sait expliquer pourquoi un verre retourné, enfoncé bien droit dans une bassine d’eau, ne se remplit pas d’eau ?
 
 <sub>Source : programme p. 4</sub>
@@ -434,6 +438,8 @@ Faire pousser des plantes avec ou sans eau, avec ou sans lumière, et comparer l
 Critères de réussite :
 - Détermine des besoins nutritionnels d’une plante à partir de résultats d’expériences simples : plantes cultivées avec ou sans eau, avec ou sans lumière.
 
+Prérequis : Décrire les besoins essentiels des animaux et des végétaux (Découvrir le monde du vivant, de la matière et des objets, GS)
+
 > Question : Est-ce que l'enfant sait expliquer ce que montrent des plantes cultivées avec ou sans eau, avec ou sans lumière ?
 
 <sub>Source : programme p. 6</sub>
@@ -446,6 +452,8 @@ Critères de réussite :
 - Nomme les différentes parties d’une plante à partir d’observations de cultures réalisées en classe ou de photographies.
 - Réalise des dessins d’observation.
 
+Prérequis : Repérer et nommer les parties des animaux et des plantes (Découvrir le monde du vivant, de la matière et des objets, PS)
+
 > Question : Est-ce que l'enfant sait montrer et nommer la racine, la tige et les feuilles d’une plante sortie de son pot ?
 
 <sub>Source : programme p. 6</sub>
@@ -457,9 +465,9 @@ Savoir ce que mange un animal et dire s’il est herbivore (il mange des végét
 Critères de réussite :
 - À partir d’observations, d’élevages ou de l’identification de traces, associe les aliments consommés au régime alimentaire des animaux étudiés : herbivore, carnivore ou omnivore.
 
-Prérequis : Trier vivant, non vivant et élaboré par des êtres vivants (CP) _(utile)_
+Prérequis : Décrire les besoins essentiels des animaux et des végétaux (Découvrir le monde du vivant, de la matière et des objets, GS) ; Trier vivant, non vivant et élaboré par des êtres vivants (CP) _(utile)_
 
-> Question : Est-ce que l'enfant sait dire, d’après ce qu’il mange, si un animal élevé en classe est herbivore, carnivore ou omnivore ?
+> Question : Est-ce que l'enfant sait dire si un animal élevé en classe est herbivore, carnivore ou omnivore, d’après les aliments que cet animal consomme ?
 
 <sub>Source : programme p. 6</sub>
 
@@ -471,6 +479,8 @@ Relier chaque organe des sens d’un animal à ce qu’il lui permet de percevoi
 
 Critères de réussite :
 - Identifie différentes modalités sensorielles (vision, audition, odorat, gout, équilibre, toucher) à partir de photos d’animaux, de vidéos ou de textes documentaires.
+
+Prérequis : Associer les organes des sens et les perceptions (Découvrir le monde du vivant, de la matière et des objets, MS)
 
 > Question : Est-ce que l'enfant sait dire, sur une photo d’animal, quel organe lui sert à voir, à entendre ou à sentir les odeurs ?
 
@@ -486,7 +496,7 @@ Critères de réussite :
 - Constate des différences dans le peuplement de l’environnement proche à différentes saisons.
 - Liste les espèces visibles et compare l’aspect de la végétation aux différentes saisons.
 
-Prérequis : Repérer et nommer des êtres vivants de son environnement proche (CP)
+Prérequis : Connaître les saisons (Se repérer dans le temps et l'espace, GS) ; Repérer et nommer des êtres vivants de son environnement proche (CP)
 
 > Question : Est-ce que l'enfant sait dire ce qui a changé entre l’automne et le printemps dans un même coin de jardin (animaux visibles, feuilles, fleurs) ?
 
@@ -528,7 +538,7 @@ Participer avec la classe à une action concrète près de l’école pour favor
 Critères de réussite :
 - Participe à une action visant à favoriser la biodiversité ou à préserver l’environnement (installation de nichoirs ou de mangeoires…).
 
-Prérequis : Adopter des gestes simples pour protéger l’environnement (CP) _(utile)_
+Prérequis : Agir avec la classe pour préserver la biodiversité (Découvrir le monde du vivant, de la matière et des objets, GS) ; Adopter des gestes simples pour protéger l’environnement (CP) _(utile)_
 
 > Question : Est-ce que l'enfant sait expliquer à quoi sert le nichoir ou la mangeoire installé avec la classe ?
 
@@ -572,6 +582,8 @@ Mesurer certaines parties de son corps (pied, main) avec un mètre-ruban à diff
 
 Critères de réussite :
 - Suit la croissance de certains organes (pied, main) en utilisant un mètre-ruban à différents moments de l’année.
+
+Prérequis : Observer les changements liés à sa croissance (Découvrir le monde du vivant, de la matière et des objets, MS)
 
 > Question : Est-ce que l'enfant sait mesurer la longueur de son pied avec un mètre-ruban et comparer avec la mesure du début d’année ?
 
@@ -670,7 +682,7 @@ Critères de réussite :
 - Observe et nomme les différentes parties d’un objet technique : la doublure et les fermetures de poches d’un manteau, la coque rigide et la sangle de réglage d’un casque de vélo…
 - Relie les caractéristiques des différentes parties à leurs rôles.
 
-Prérequis : Relier les objets techniques du quotidien aux besoins qu’ils satisfont (CP) _(utile)_
+Prérequis : Associer une solution technique à une fonction (Découvrir le monde du vivant, de la matière et des objets, GS) ; Relier les objets techniques du quotidien aux besoins qu’ils satisfont (CP) _(utile)_
 
 > Question : Est-ce que l'enfant sait montrer les parties d’un casque de vélo et expliquer à quoi sert chacune ?
 
@@ -723,6 +735,8 @@ Faire se déplacer un petit robot en lui donnant une suite de consignes simples 
 Critères de réussite :
 - Obtient le déplacement d’un robot en lui donnant des consignes simples (bouton avancer, pivoter…).
 
+Prérequis : Élaborer une suite d’instructions (Découvrir le monde du vivant, de la matière et des objets, GS) ; Coder un déplacement (Se repérer dans le temps et l'espace, GS) _(utile)_
+
 > Question : Est-ce que l'enfant sait programmer un robot de sol avec ses boutons (avancer, pivoter) pour qu’il atteigne une case donnée ?
 
 <sub>Source : programme p. 11</sub>
@@ -752,9 +766,9 @@ Prérequis : Comparer et classer des objets d’après leur masse mesurée (CE1)
 La contenance, c’est la quantité de liquide qu’un récipient peut contenir. On compare des contenances en transvasant un liquide d’un récipient à l’autre, ou à l’aide d’un récipient de contenance connue.
 
 Critères de réussite :
-- Compare les contenances de différents récipients, par exemple en transvasant un liquide de l’un à l’autre ou à l’aide d’un récipient de contenance connue (récipient étalon).
+- Compare les contenances de différents récipients en les remplissant à l’aide d’un verre gradué ou d’un récipient de contenance connue (récipient étalon), comme une bouteille d’un litre ou d’un demi-litre.
 
-> Question : Est-ce que l'enfant sait trouver, en transvasant de l’eau, lequel de deux récipients de formes différentes contient le plus ?
+> Question : Est-ce que l'enfant sait trouver lequel de deux récipients contient le plus, en les remplissant avec une bouteille d’un demi-litre ou un verre gradué ?
 
 <sub>Source : programme p. 4</sub>
 
@@ -779,6 +793,8 @@ Fabriquer un sablier et s’en servir pour mesurer des durées. Deux sabliers id
 Critères de réussite :
 - Construit un sablier.
 - Constate la régularité de ses observations : deux sabliers identiques (même forme, même taille de trou, même grain et même volume de grains) mesurent la même durée à quelques secondes près.
+
+Prérequis : Comparer des durées (Se repérer dans le temps et l'espace, GS) _(utile)_
 
 > Question : Est-ce que l'enfant sait fabriquer un sablier et vérifier qu’un second sablier identique mesure la même durée, à quelques secondes près ?
 
@@ -809,7 +825,7 @@ Critères de réussite :
 - Constate, en transvasant un liquide dans des récipients de taille et de forme différentes, qu’il prend la forme du récipient et conserve son volume lors du transvasement inverse.
 - Constate, en manipulant des récipients fermés, que le niveau du liquide au repos est horizontal.
 
-Prérequis : Reconnaitre l’eau à l’état solide et à l’état liquide (CP) _(utile)_
+Prérequis : Explorer les solides et les liquides (Découvrir le monde du vivant, de la matière et des objets, PS) ; Reconnaitre l’eau à l’état solide et à l’état liquide (CP) _(utile)_
 
 > Question : Est-ce que l'enfant sait dire si du lait et un glaçon sont liquides ou solides, en le justifiant par leur forme et leur volume ?
 
@@ -842,7 +858,7 @@ Remettre dans l’ordre, sur une frise du temps, les étapes de la vie d’une p
 Critères de réussite :
 - Positionne les différentes étapes de vie d’une plante sur une frise chronologique : germination de la graine, croissance, formation de la fleur, formation du fruit contenant des graines, dispersion des graines.
 
-Prérequis : Nommer les organes d’une plante : racine, tige, feuille (CE1) _(utile)_
+Prérequis : Reconnaître les étapes de la vie d’un animal ou d’une plante (Découvrir le monde du vivant, de la matière et des objets, GS) ; Nommer les organes d’une plante : racine, tige, feuille (CE1) _(utile)_
 
 > Question : Est-ce que l'enfant sait remettre dans l’ordre des images montrant une graine qui germe, une plante en fleur, un fruit et des graines dispersées ?
 
@@ -870,6 +886,8 @@ Critères de réussite :
 - Décrit les différences entre forme juvénile, forme larvaire associée à une métamorphose et forme adulte.
 - S’appuie sur l’observation directe d’un élevage (par exemple de chenilles), sur des clichés ou sur une vidéo (par exemple de têtards).
 
+Prérequis : Reconnaître les étapes de la vie d’un animal ou d’une plante (Découvrir le monde du vivant, de la matière et des objets, GS) ; Reconnaître et nommer le mâle, la femelle, le petit et l’adulte (Découvrir le monde du vivant, de la matière et des objets, PS)
+
 > Question : Est-ce que l'enfant sait expliquer pourquoi la chenille est une larve et ce qu’est une métamorphose ?
 
 <sub>Source : programme p. 7</sub>
@@ -896,6 +914,8 @@ Observer des animaux qui se déplacent, repérer les parties du corps qui leur s
 Critères de réussite :
 - Identifie les organes locomoteurs par l’observation d’êtres vivants en mouvement.
 - Associe chaque organe locomoteur à un mode de locomotion : vol, marche, course, saut, nage.
+
+Prérequis : Identifier les éléments propres à une espèce (Découvrir le monde du vivant, de la matière et des objets, GS)
 
 > Question : Est-ce que l'enfant sait montrer, sur une vidéo d’oiseau, de poisson et de sauterelle, la partie du corps qui sert à chacun pour se déplacer ?
 
@@ -1170,6 +1190,8 @@ Prendre le temps de ressentir la nature lors des sorties et des observations, et
 Critères de réussite :
 - Décrit ses émotions lors de sa confrontation à la nature.
 
-> Question : Est-ce que l'enfant sait dire ce qu’une sortie dans la nature lui a fait ressentir ?
+Prérequis : Respecter la vie sous toutes ses formes (Découvrir le monde du vivant, de la matière et des objets, MS) _(utile)_
+
+> Question : Est-ce que l'enfant sait décrire ses émotions au cours d’une sortie dans la nature (au parc, en forêt, au bord d’une mare) ?
 
 <sub>Source : programme p. 6</sub>

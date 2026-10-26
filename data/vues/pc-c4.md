@@ -11,7 +11,7 @@ Source : BO n° 31 du 30 juillet 2020 ([PDF](../../construction/programmes-offic
 | Des signaux pour observer et communiquer | 0 | 0 | 0 | 7 |
 | **Total** | **16** | **6** | **6** | **52** |
 
-126 liens de prérequis, dont 13 écrits dans le programme (les autres sont déduits et à relire).
+127 liens de prérequis, dont 13 écrits dans le programme (les autres sont déduits et à relire).
 
 ## 5e
 
@@ -43,7 +43,7 @@ Critères de réussite :
 - Montre expérimentalement que le volume ne se conserve pas lors d’un changement d’état.
 - Mesure une température de changement d’état.
 
-Prérequis : Mesurer la température d’un changement d’état (Sciences et technologie, 6e) ; Tracer l’évolution de la température et repérer un palier (Sciences et technologie, 6e) ; Nommer et caractériser les changements d’état d’un corps pur (5e)
+Prérequis : Mesurer la température d’un changement d’état (Sciences et technologie, 6e) ; Tracer l’évolution de la température et repérer un palier (Sciences et technologie, 6e) ; Montrer que les volumes ne s’additionnent pas toujours lors d’une dissolution (Sciences et technologie, CM2) _(utile)_ ; Nommer et caractériser les changements d’état d’un corps pur (5e)
 
 > Question : Est-ce que l'enfant sait proposer une expérience montrant que la masse d’une bouteille d’eau ne change pas quand l’eau gèle, alors que le volume de l’eau augmente ?
 

@@ -308,6 +308,15 @@
       "raison": "A déjà coopéré en groupe dans un projet de développement durable"
     },
     {
+      "de": "fr-sc-cm2-conc-03",
+      "vers": "fr-tec-c4-proj-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "A déjà suivi en équipe une démarche de projet : concevoir, fabriquer, tester une maquette"
+    },
+    {
       "de": "fr-sc-cm2-conc-04",
       "vers": "fr-tec-c4-proj-03",
       "type": "prerequis",
@@ -335,9 +344,9 @@
       "raison": "Prolonge « Organiser en équipe la conception d’une maquette et la fabriquer » (CM2)"
     }
   ],
-  "relieLe": "2026-10-23",
+  "relieLe": "2026-10-27",
   "versionsCibles": {
-    "sciences-c3": "2026-10-23",
+    "sciences-c3": "2026-10-26",
     "tec-c4": "2026-10-23"
   }
 }

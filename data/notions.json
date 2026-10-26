@@ -1,7 +1,7 @@
 {
   "jeuDeDonnees": "Notions des programmes officiels français",
   "version": "0.4",
-  "genereLe": "2026-10-26T23:26:27",
+  "genereLe": "2026-10-27T00:07:38",
   "nombreNotions": 5604,
   "notions": [
     {
@@ -139437,9 +139437,9 @@
         "fr-sc-ce2-objectif-e555338a"
       ],
       "criteres": [
-        "Compare les contenances de différents récipients, par exemple en transvasant un liquide de l’un à l’autre ou à l’aide d’un récipient de contenance connue (récipient étalon)."
+        "Compare les contenances de différents récipients en les remplissant à l’aide d’un verre gradué ou d’un récipient de contenance connue (récipient étalon), comme une bouteille d’un litre ou d’un demi-litre."
       ],
-      "question": "Est-ce que {{prenom}} sait trouver, en transvasant de l’eau, lequel de deux récipients de formes différentes contient le plus ?",
+      "question": "Est-ce que {{prenom}} sait trouver lequel de deux récipients contient le plus, en les remplissant avec une bouteille d’un demi-litre ou un verre gradué ?",
       "source": {
         "page": 4
       }
@@ -139714,7 +139714,7 @@
       "criteres": [
         "Décrit ses émotions lors de sa confrontation à la nature."
       ],
-      "question": "Est-ce que {{prenom}} sait dire ce qu’une sortie dans la nature lui a fait ressentir ?",
+      "question": "Est-ce que {{prenom}} sait décrire ses émotions au cours d’une sortie dans la nature (au parc, en forêt, au bord d’une mare) ?",
       "acquisAnterieurs": [
         "Respecter la vie sous toutes ses formes (maternelle, MS)"
       ],
@@ -139790,7 +139790,7 @@
       "criteres": [
         "À partir d’observations, d’élevages ou de l’identification de traces, associe les aliments consommés au régime alimentaire des animaux étudiés : herbivore, carnivore ou omnivore."
       ],
-      "question": "Est-ce que {{prenom}} sait dire, d’après ce qu’il mange, si un animal élevé en classe est herbivore, carnivore ou omnivore ?",
+      "question": "Est-ce que {{prenom}} sait dire si un animal élevé en classe est herbivore, carnivore ou omnivore, d’après les aliments que cet animal consomme ?",
       "acquisAnterieurs": [
         "Connaitre les préférences alimentaires des animaux élevés ou étudiés en classe (maternelle, MS)"
       ],
@@ -139842,6 +139842,9 @@
         "Liste les espèces visibles et compare l’aspect de la végétation aux différentes saisons."
       ],
       "question": "Est-ce que {{prenom}} sait dire ce qui a changé entre l’automne et le printemps dans un même coin de jardin (animaux visibles, feuilles, fleurs) ?",
+      "acquisAnterieurs": [
+        "Connaitre les saisons et citer quelques-unes de leurs caractéristiques (maternelle, GS)"
+      ],
       "source": {
         "page": 6
       }
@@ -140265,7 +140268,8 @@
       ],
       "question": "Est-ce que {{prenom}} sait montrer et nommer sur son propre corps l’épaule, le coude, le poignet, le genou et la cheville ?",
       "acquisAnterieurs": [
-        "Identifier et nommer quelques articulations et la segmentation des membres (maternelle, GS)"
+        "Identifier et nommer quelques articulations et la segmentation des membres (maternelle, GS)",
+        "Identifier et nommer les parties du corps humain (maternelle, MS)"
       ],
       "source": {
         "page": 8
@@ -140315,6 +140319,9 @@
         "Représente les différents moments de sa journée sur une frise chronologique en les reliant à l’intensité de l’activité associée."
       ],
       "question": "Est-ce que {{prenom}} sait placer sur une frise les moments de sa journée (dormir, jouer dehors, travailler en classe, se reposer) en disant lesquels sont les plus intenses ?",
+      "acquisAnterieurs": [
+        "Situer les moments de la journée les uns par rapport aux autres (maternelle, PS)"
+      ],
       "source": {
         "page": 9
       }
@@ -141775,7 +141782,7 @@
         "fr-sc-cm1-objectif-f4c6848d"
       ],
       "criteres": [
-        "À partir d’expériences fondées sur des illusions sensorielles, décrit ce qu’il a ressenti.",
+        "À partir d’expériences fondées sur des illusions sensorielles, décrit les sensations ressenties.",
         "Confronte ses perceptions à celles des autres élèves.",
         "Explique que sa perception du monde peut être différente de sa réalité physique."
       ],
@@ -141799,11 +141806,11 @@
         "fr-sc-cm1-objectif-16e907f1"
       ],
       "criteres": [
-        "À partir de différentes mises en situation, détermine les conditions dans lesquelles il restitue une information le plus facilement grâce à une attention plus soutenue.",
+        "À partir de différentes mises en situation, détermine les conditions dans lesquelles une information est restituée le plus facilement grâce à une attention plus soutenue.",
         "Perçoit l’importance de l’entrainement pour mieux apprendre et mémoriser.",
         "Perçoit l’importance de la fabrication du sens et du lien avec d’autres savoirs pour mieux apprendre et mémoriser."
       ],
-      "question": "Est-ce que {{prenom}} sait dire ce qui l’aide à se concentrer et à retenir une leçon dans la durée (éviter les distractions, s’entraîner plusieurs fois, comprendre, relier à ce qu’il sait déjà) ?",
+      "question": "Est-ce que {{prenom}} sait dire ce qui aide à se concentrer et à retenir une leçon dans la durée (éviter les distractions, s’entraîner plusieurs fois, comprendre, relier à ce qui est déjà connu) ?",
       "source": {
         "page": 14
       }
@@ -142148,7 +142155,7 @@
         "fr-sc-cm2-objectif-816de5d8"
       ],
       "criteres": [
-        "Conçoit un protocole expérimental pour tester la conservation de la masse lorsqu’il mélange un solide (soluble ou non) dans un liquide.",
+        "Conçoit un protocole expérimental pour tester la conservation de la masse lors du mélange d’un solide (soluble ou non) dans un liquide.",
         "Constate que la masse se conserve toujours lorsqu’un solide est dissous dans un liquide."
       ],
       "question": "Est-ce que {{prenom}} sait vérifier sur une balance si la masse d’un verre d’eau sucrée est égale à la masse de l’eau plus celle du sucre ?",
@@ -142435,7 +142442,7 @@
         "fr-sc-cm2-objectif-08501def"
       ],
       "criteres": [
-        "Schématise le circuit qu’il a réalisé.",
+        "Schématise le circuit réalisé.",
         "Observe la différence entre son schéma de circuit et un schéma normalisé.",
         "Lit et utilise des schémas normalisés."
       ],
@@ -142562,11 +142569,11 @@
       ],
       "criteres": [
         "Coopère avec ses camarades pour mener à bien des actions ou projets relatifs à l’éducation au développement durable.",
-        "S’exerce à la recherche documentaire et à la vérification des sources d’informations, ce qui le sensibilise aux fausses informations.",
+        "S’exerce à la recherche documentaire et à la vérification des sources d’informations, et se sensibilise ainsi aux fausses informations.",
         "Rend compte du projet sous différentes formes (oral, écrit, exposés, podcast, vidéos, spectacles, etc.).",
         "Explique pourquoi et comment agir, individuellement et collectivement, pour protéger l’environnement."
       ],
-      "question": "Est-ce que {{prenom}} sait raconter le projet pour l’environnement mené en classe, ce qu’il y a fait et comment il a vérifié ses sources d’information ?",
+      "question": "Est-ce que {{prenom}} sait raconter le projet pour l’environnement mené en classe, la part prise par {{prenom}} dans ce projet et la façon dont les sources d’information ont été vérifiées ?",
       "acquisAnterieurs": [
         "Envisager les conséquences d’une action humaine sur un réseau alimentaire (CM1)"
       ],
@@ -142688,7 +142695,7 @@
         "En lien avec l’éducation au développement durable, identifie des actions possibles permettant l’atténuation ou l’adaptation au changement climatique.",
         "Privilégie des exemples locaux."
       ],
-      "question": "Est-ce que {{prenom}} sait citer une action qui limite le changement climatique et une action qui aide à s’y adapter, près de chez lui ?",
+      "question": "Est-ce que {{prenom}} sait citer une action qui limite le changement climatique et une action qui aide à s’y adapter, dans sa région ?",
       "source": {
         "page": 12
       }
@@ -143198,7 +143205,7 @@
         "fr-sc-6e-objectif-34d48dea"
       ],
       "criteres": [
-        "Constate que lorsqu’il double la masse d’une matière homogène, son volume double, et inversement.",
+        "Constate qu’en doublant la masse d’une matière homogène, son volume double, et inversement.",
         "Répète ce constat avec plusieurs mesures pour en déduire la relation de proportionnalité entre masse et volume.",
         "Constate que cette relation dépend de la nature du matériau."
       ],
@@ -143839,7 +143846,7 @@
         "Lors d’une sortie dans l’environnement proche, caractérise les composantes d’un paysage local.",
         "Identifie ses composantes biologiques, géologiques et anthropiques."
       ],
-      "question": "Est-ce que {{prenom}} sait décrire un paysage près de chez lui en séparant ce qui est vivant, ce qui est roche ou relief, et ce qui a été aménagé par l’être humain ?",
+      "question": "Est-ce que {{prenom}} sait décrire un paysage proche de l’école en séparant ce qui est vivant, ce qui est roche ou relief, et ce qui a été aménagé par l’être humain ?",
       "acquisAnterieurs": [
         "Définir un écosystème comme un ensemble d’êtres vivants, leur milieu de vie et leurs relations (CM1)"
       ],

@@ -101,6 +101,15 @@
       "raison": "Le programme dit que le cycle 4 consolide les notions d’état physique, de changement d’état et de mélange abordées jusqu’au cycle 3 ; Prolonge « Tracer l’évolution de la température et repérer un palier » (6e)"
     },
     {
+      "de": "fr-sc-cm2-masv-05",
+      "vers": "fr-pc-5e-mat-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Montrer par l’expérience que la masse se conserve mais pas forcément le volume, déjà fait pour une dissolution (CM2)"
+    },
+    {
       "de": "fr-sc-cm2-etat-03",
       "vers": "fr-pc-5e-mat-03",
       "type": "prerequis",
@@ -362,15 +371,6 @@
       "raison": "Le poids est proportionnel à la masse, de coefficient g"
     },
     {
-      "de": "fr-ma-5e-pui-06",
-      "vers": "fr-pc-3e-ener-01",
-      "type": "prerequis",
-      "force": "indispensable",
-      "origine": "déduit",
-      "continuite": false,
-      "raison": "Calculer ½ m v² en remplaçant les lettres par des valeurs"
-    },
-    {
       "de": "fr-sc-6e-elec-02",
       "vers": "fr-pc-c4-ener-01",
       "type": "prerequis",
@@ -378,6 +378,15 @@
       "origine": "déduit",
       "continuite": false,
       "raison": "Un moteur ou un élément photovoltaïque, utilisé en 6e, fait passer l’énergie d’une forme à une autre"
+    },
+    {
+      "de": "fr-ma-5e-pui-06",
+      "vers": "fr-pc-3e-ener-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Calculer ½ m v² en remplaçant les lettres par des valeurs"
     },
     {
       "de": "fr-sc-6e-elec-02",
@@ -479,11 +488,11 @@
       "raison": "Prolonge « Faire varier la taille d’une ombre portée » (CM1)"
     }
   ],
-  "relieLe": "2026-10-23",
+  "relieLe": "2026-10-27",
   "versionsCibles": {
     "maths-c3": "2026-10-22",
     "maths-c4": "2026-10-23",
     "pc-c4": "2026-10-23",
-    "sciences-c3": "2026-10-23"
+    "sciences-c3": "2026-10-26"
   }
 }

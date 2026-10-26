@@ -90,12 +90,23 @@
       "pages": 64
     },
     "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf": {
-      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-1-programme-de-sciences-et-technologie-du-cycle-2-517289.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-1-programme-de-sciences-et-technologie-du-cycle-2-519020.pdf",
       "bo": "BO n° 24 du 11 juin 2026",
-      "downloadedAt": "2026-10-22",
-      "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b",
-      "bytes": 7522736,
-      "pages": 12
+      "downloadedAt": "2026-10-26",
+      "sha256": "185733129faac109eda69646e4393c29e929183c16dfb8ea7e5a474cda623de8",
+      "bytes": 296442,
+      "pages": 12,
+      "anciennesVersions": [
+        {
+          "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b",
+          "downloadedAt": "2026-10-22",
+          "bytes": 7522736,
+          "pages": 12,
+          "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-1-programme-de-sciences-et-technologie-du-cycle-2-517289.pdf",
+          "bo": "BO n° 24 du 11 juin 2026",
+          "archive": "archives/sciences-techno-c2-BO24-2026-2026-10-22-60c8f0d7.pdf"
+        }
+      ]
     },
     "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf": {
       "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-2-programme-d-education-physique-et-sportive-cycle-3-516773.pdf",
@@ -194,12 +205,23 @@
       "pages": 98
     },
     "cycle-3-cm1-cm2-6e/sciences-techno-c3-BO24-2026.pdf": {
-      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-2-programme-de-sciences-et-technologie-du-cycle-3-517292.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-2-programme-de-sciences-et-technologie-du-cycle-3-519023.pdf",
       "bo": "BO n° 24 du 11 juin 2026",
-      "downloadedAt": "2026-10-22",
-      "sha256": "066f97ef190f5f1cbc167773bcb7edf25fbcfe4b40c4b3a6a8aa863f174b1c7e",
-      "bytes": 18663426,
-      "pages": 18
+      "downloadedAt": "2026-10-26",
+      "sha256": "1aff166de213f84ef963d1ae478d8deeb119440c2ec9dd52be55774be71152cc",
+      "bytes": 357110,
+      "pages": 18,
+      "anciennesVersions": [
+        {
+          "sha256": "066f97ef190f5f1cbc167773bcb7edf25fbcfe4b40c4b3a6a8aa863f174b1c7e",
+          "downloadedAt": "2026-10-22",
+          "bytes": 18663426,
+          "pages": 18,
+          "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-2-programme-de-sciences-et-technologie-du-cycle-3-517292.pdf",
+          "bo": "BO n° 24 du 11 juin 2026",
+          "archive": "archives/sciences-techno-c3-BO24-2026-2026-10-22-066f97ef.pdf"
+        }
+      ]
     },
     "cycle-3-cm1-cm2-6e/sciences-techno-c3-BO25-2023.pdf": {
       "url": "https://education.gouv.fr/sites/default/files/ensel-101_annexe_ok.pdf",

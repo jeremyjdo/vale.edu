@@ -153,12 +153,183 @@
       "origine": "déduit",
       "continuite": true,
       "raison": "Prolonge « Associer une solution technique à une fonction » (GS)"
+    },
+    {
+      "de": "fr-rep-ps-chr-01",
+      "vers": "fr-sc-cp-sante-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Placer ses activités sur une frise suppose de situer les moments de la journée les uns par rapport aux autres (PS)"
+    },
+    {
+      "de": "fr-mon-ms-viv-04",
+      "vers": "fr-sc-c2-edd-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Respecter les petites bêtes et les plantes rencontrées (MS) prépare un rapport sensible à la nature"
+    },
+    {
+      "de": "fr-mon-gs-mat-02",
+      "vers": "fr-sc-ce1-etat-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Identifier la présence de l’air par les sens » (GS)"
+    },
+    {
+      "de": "fr-mon-gs-viv-03",
+      "vers": "fr-sc-ce1-nutr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Décrire les besoins essentiels des animaux et des végétaux » (GS)"
+    },
+    {
+      "de": "fr-mon-ps-viv-01",
+      "vers": "fr-sc-ce1-nutr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer et nommer les parties des animaux et des plantes » (PS) : racine, tige, feuille, fleur"
+    },
+    {
+      "de": "fr-mon-gs-viv-03",
+      "vers": "fr-sc-ce1-nutr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Décrire les besoins essentiels des animaux et des végétaux » (GS), dont leur alimentation"
+    },
+    {
+      "de": "fr-mon-ms-corps-02",
+      "vers": "fr-sc-ce1-sens-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Associer les organes des sens et les perceptions » (MS), de l’être humain aux animaux"
+    },
+    {
+      "de": "fr-rep-gs-tps-06",
+      "vers": "fr-sc-ce1-env-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Comparer un lieu d’une saison à l’autre suppose de connaître les saisons et leurs caractéristiques (GS)"
+    },
+    {
+      "de": "fr-mon-gs-viv-04",
+      "vers": "fr-sc-ce1-edd-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Agir avec la classe pour préserver la biodiversité » (GS)"
+    },
+    {
+      "de": "fr-mon-ms-corps-03",
+      "vers": "fr-sc-ce1-crois-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Observer les changements liés à sa croissance » (MS)"
+    },
+    {
+      "de": "fr-mon-gs-obj-01",
+      "vers": "fr-sc-ce1-obj-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Associer une solution technique à une fonction » (GS) : la poignée, le réservoir et la pomme d’un arrosoir"
+    },
+    {
+      "de": "fr-mon-gs-obj-05",
+      "vers": "fr-sc-ce1-obj-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Élaborer une suite d’instructions » (GS) pour conduire un robot jusqu’à une case"
+    },
+    {
+      "de": "fr-rep-gs-rpr-04",
+      "vers": "fr-sc-ce1-obj-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Coder un déplacement par des flèches sur un quadrillage (GS) prépare les consignes données au robot"
+    },
+    {
+      "de": "fr-rep-gs-dur-02",
+      "vers": "fr-sc-ce2-masvd-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "S’appuie sur « Comparer des durées » (GS)"
+    },
+    {
+      "de": "fr-mon-ps-mat-01",
+      "vers": "fr-sc-ce2-etat-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Explorer les solides et les liquides » (PS) : ils ne se comportent pas de la même façon"
+    },
+    {
+      "de": "fr-mon-gs-viv-02",
+      "vers": "fr-sc-ce2-repro-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître les étapes de la vie d’un animal ou d’une plante » (GS), comme la graine qui germe"
+    },
+    {
+      "de": "fr-mon-gs-viv-02",
+      "vers": "fr-sc-ce2-repro-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître les étapes de la vie d’un animal ou d’une plante » (GS) : chenille, chrysalide, papillon"
+    },
+    {
+      "de": "fr-mon-ps-viv-02",
+      "vers": "fr-sc-ce2-repro-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Reconnaître et nommer le petit et l’adulte d’une même espèce (PS)"
+    },
+    {
+      "de": "fr-mon-gs-viv-01",
+      "vers": "fr-sc-ce2-loco-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Identifier les éléments propres à une espèce » (GS), dont les ailes, pattes et nageoires associées à chaque déplacement"
     }
   ],
-  "relieLe": "2026-10-23",
+  "relieLe": "2026-10-27",
   "versionsCibles": {
     "monde-c1": "2026-10-23",
     "reperes-c1": "2026-10-23",
-    "sciences-c2": "2026-10-23"
+    "sciences-c2": "2026-10-26"
   }
 }

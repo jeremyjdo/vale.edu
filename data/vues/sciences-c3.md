@@ -1,6 +1,6 @@
 # Sciences et technologie : CM1, CM2, 6e, CM1-CM2, Cycle 3
 
-Source : BO n° 24 du 11 juin 2026 ([PDF](../../construction/programmes-officiels/cycle-3-cm1-cm2-6e/sciences-techno-c3-BO24-2026.pdf)), extraite le 2026-10-23. Vue générée automatiquement, à ne pas modifier à la main.
+Source : BO n° 24 du 11 juin 2026 ([PDF](../../construction/programmes-officiels/cycle-3-cm1-cm2-6e/sciences-techno-c3-BO24-2026.pdf)), extraite le 2026-10-26. Vue générée automatiquement, à ne pas modifier à la main.
 
 | Domaine | CM1 | CM2 | 6e |
 |---|---:|---:|---:|
@@ -10,7 +10,7 @@ Source : BO n° 24 du 11 juin 2026 ([PDF](../../construction/programmes-officiel
 | Les objets techniques au cœur de la société | 8 | 6 | 0 |
 | **Total** | **41** | **39** | **45** |
 
-150 liens de prérequis, dont 19 écrits dans le programme (les autres sont déduits et à relire).
+168 liens de prérequis, dont 21 écrits dans le programme (les autres sont déduits et à relire).
 
 ## CM1
 
@@ -282,7 +282,7 @@ Critères de réussite :
 - Observe des espèces de l’environnement proche et les identifie à l’aide d’une clé de détermination.
 - Confronte son identification avec celle d’une application numérique basée sur l’intelligence artificielle, qui propose les identifications les plus probables.
 
-Prérequis : Définir une espèce : des individus capables de se reproduire entre eux (CM1) _(utile)_
+Prérequis : Distinguer animal, végétal, minéral et ce qui est produit par le vivant (Questionner le monde, Cycle 2) ; Définir une espèce : des individus capables de se reproduire entre eux (CM1) _(utile)_
 
 > Question : Est-ce que l'enfant sait trouver le nom d’un arbre de la cour en suivant une clé de détermination à partir de ses feuilles ?
 
@@ -462,7 +462,7 @@ Prérequis : Ce qui permet de bouger : os, muscles et tendons (Questionner le mo
 Découvrir, grâce à des illusions (d’optique ou d’autres sens), que notre cerveau interprète ce que nous percevons et peut se tromper : ce que l’on perçoit n’est pas toujours exactement la réalité physique.
 
 Critères de réussite :
-- À partir d’expériences fondées sur des illusions sensorielles, décrit ce qu’il a ressenti.
+- À partir d’expériences fondées sur des illusions sensorielles, décrit les sensations ressenties.
 - Confronte ses perceptions à celles des autres élèves.
 - Explique que sa perception du monde peut être différente de sa réalité physique.
 
@@ -477,13 +477,13 @@ Prérequis : Situer le cerveau et connaître ses grandes fonctions (CM1) _(utile
 Trouver ce qui aide à se concentrer sur une tâche et à retenir une information, à court terme comme à long terme : être attentif, s’entraîner, comprendre ce qu’on apprend et le relier à ce qu’on sait déjà. C’est directement utile pour apprendre ses leçons.
 
 Critères de réussite :
-- À partir de différentes mises en situation, détermine les conditions dans lesquelles il restitue une information le plus facilement grâce à une attention plus soutenue.
+- À partir de différentes mises en situation, détermine les conditions dans lesquelles une information est restituée le plus facilement grâce à une attention plus soutenue.
 - Perçoit l’importance de l’entrainement pour mieux apprendre et mémoriser.
 - Perçoit l’importance de la fabrication du sens et du lien avec d’autres savoirs pour mieux apprendre et mémoriser.
 
 Prérequis : Situer le cerveau et connaître ses grandes fonctions (CM1) _(utile)_
 
-> Question : Est-ce que l'enfant sait dire ce qui l’aide à se concentrer et à retenir une leçon dans la durée (éviter les distractions, s’entraîner plusieurs fois, comprendre, relier à ce qu’il sait déjà) ?
+> Question : Est-ce que l'enfant sait dire ce qui aide à se concentrer et à retenir une leçon dans la durée (éviter les distractions, s’entraîner plusieurs fois, comprendre, relier à ce qui est déjà connu) ?
 
 <sub>Source : programme p. 14</sub>
 
@@ -619,7 +619,7 @@ Critères de réussite :
 - Associe chaque bloc ou instruction à son effet observable sur le comportement d’un objet technique (robot qui se déplace, personnage virtuel qui évolue dans une application).
 - Dit avec ses mots ce que fait un programme simple.
 
-Prérequis : Coder et représenter un déplacement (Mathématiques, CE1) ; Décrire un déplacement avec les mots justes (Questionner le monde, Cycle 2) _(utile)_ ; Utiliser un traitement de texte (Questionner le monde, Cycle 2) _(utile)_
+Prérequis : Coder et représenter un déplacement (Mathématiques, CE1) ; Utiliser un traitement de texte (Questionner le monde, Cycle 2) _(utile)_
 
 > Question : Est-ce que l'enfant sait dire avec ses mots ce que fait un programme de quelques blocs, par exemple « avancer de 10 pas, tourner à droite, répéter 4 fois » ?
 
@@ -668,6 +668,8 @@ Critères de réussite :
 - Mesure le volume d’un liquide avec un récipient gradué et indique le volume mesuré.
 - En transvasant un liquide entre différents récipients gradués, constate que son volume se conserve.
 
+Prérequis : Mesurer des contenances en L, dL et cL (Mathématiques, CE2)
+
 > Question : Est-ce que l'enfant sait lire le volume d’eau dans une éprouvette graduée et dire si ce volume change quand on verse l’eau dans un récipient plus large ?
 
 <sub>Source : programme p. 5</sub>
@@ -691,7 +693,7 @@ Prérequis : Mesurer le volume d’un liquide et constater qu’il se conserve (
 Vérifier par une expérience que, quand on mélange ou dissout un solide (sel, sucre, sable) dans un liquide, la masse totale ne change pas : le solide dissous n’a pas disparu, même s’il n’est plus visible.
 
 Critères de réussite :
-- Conçoit un protocole expérimental pour tester la conservation de la masse lorsqu’il mélange un solide (soluble ou non) dans un liquide.
+- Conçoit un protocole expérimental pour tester la conservation de la masse lors du mélange d’un solide (soluble ou non) dans un liquide.
 - Constate que la masse se conserve toujours lorsqu’un solide est dissous dans un liquide.
 
 Prérequis : Constater que certains solides se dissolvent dans l’eau (CM1) ; Mesurer une masse avec une balance, en tarant si besoin (CM1)
@@ -740,7 +742,7 @@ Critères de réussite :
 - Après avoir transvasé des liquides et mesuré le volume d’un solide par déplacement de liquide, distingue et nomme les caractéristiques des états physiques solide et liquide.
 - Utilise une seringue pour mettre en évidence les propriétés de l’état gazeux : l’air contenu dans la seringue change de volume, il est possible de le comprimer ou de le détendre.
 
-Prérequis : Mesurer le volume d’un solide par déplacement de liquide (CM2) _(utile)_
+Prérequis : Les trois états de la matière : solide, liquide et gazeux (Questionner le monde, CE2) ; L’air est de la matière : il occupe de la place et se comprime (Questionner le monde, CE2) ; Mesurer le volume d’un solide par déplacement de liquide (CM2) _(utile)_
 
 > Question : Est-ce que l'enfant sait expliquer ce qui différencie un solide, un liquide et un gaz, avec l’exemple d’un glaçon, de l’eau et de l’air d’une seringue ?
 
@@ -755,7 +757,7 @@ Critères de réussite :
 - Constate que lorsque l’eau est chauffée, des bulles apparaissent et le volume d’eau liquide diminue, et relie les deux : lors de l’ébullition, les bulles sont constituées de vapeur d’eau.
 - Décrit le nuage observé au-dessus d’une casserole ou d’une bouilloire transparente comme constitué de gouttelettes d’eau.
 
-Prérequis : Différencier les états solide, liquide et gazeux (CM2)
+Prérequis : La vapeur d’eau et la condensation (Questionner le monde, CE2) ; Différencier les états solide, liquide et gazeux (CM2)
 
 > Question : Est-ce que l'enfant sait expliquer ce que contiennent les bulles de l’eau qui bout et ce qu’est le petit nuage au-dessus de la casserole ?
 
@@ -784,7 +786,7 @@ Critères de réussite :
 - Associe à différentes matières présentes dans la nature, en particulier l’eau, les états physiques correspondants.
 - Indique par exemple que l’eau d’un glacier est à l’état solide, l’eau d’un lac à l’état liquide, l’eau du brouillard à l’état liquide.
 
-Prérequis : Différencier les états solide, liquide et gazeux (CM2)
+Prérequis : Reconnaître l’eau liquide et la glace dans la nature et la météo (Questionner le monde, Cycle 2) ; Différencier les états solide, liquide et gazeux (CM2)
 
 > Question : Est-ce que l'enfant sait dire dans quel état se trouve l’eau d’un glacier, d’un lac et du brouillard ?
 
@@ -815,7 +817,7 @@ Critères de réussite :
 - Réalise une maquette à l’échelle : avec un Soleil représenté par une balle de 10 cm de diamètre, la Terre est à 10 m et est représentée par un grain de semoule d’1 mm.
 - Positionne les différentes planètes par rapport au Soleil sur une maquette à l’échelle des distances.
 
-Prérequis : Identifier un mouvement rectiligne ou circulaire par rapport à un observateur (CM2) _(utile)_ ; Convertir des unités de distance et de temps (CM2) _(utile)_
+Prérequis : La Terre dans l’univers : le Soleil, la Lune et les autres astres (Questionner le monde, Cycle 2) ; Identifier un mouvement rectiligne ou circulaire par rapport à un observateur (CM2) _(utile)_ ; Convertir des unités de distance et de temps (CM2) _(utile)_
 
 > Question : Est-ce que l'enfant sait expliquer que la Terre tourne autour du Soleil et dire si elle en est plus proche ou plus éloignée que Mars ?
 
@@ -847,6 +849,8 @@ Critères de réussite :
 - Justifie son choix par l’existence d’une boucle ininterrompue de récepteurs et de conducteurs (et d’un interrupteur fermé) entre les deux bornes de la pile.
 - Vérifie sa réponse en construisant les circuits correspondant aux schémas.
 
+Prérequis : Réaliser un circuit électrique simple (Questionner le monde, Cycle 2) ; Le rôle de l’interrupteur (Questionner le monde, Cycle 2) _(utile)_
+
 > Question : Est-ce que l'enfant sait expliquer pourquoi une ampoule ne s’allume pas si un fil est débranché ou si l’interrupteur est ouvert ?
 
 <sub>Source : programme p. 7</sub>
@@ -856,7 +860,7 @@ Critères de réussite :
 Représenter un circuit par un schéma, puis découvrir les symboles conventionnels (pile, ampoule, interrupteur, fils) pour lire et utiliser des schémas normalisés.
 
 Critères de réussite :
-- Schématise le circuit qu’il a réalisé.
+- Schématise le circuit réalisé.
 - Observe la différence entre son schéma de circuit et un schéma normalisé.
 - Lit et utilise des schémas normalisés.
 
@@ -874,7 +878,7 @@ Critères de réussite :
 - Recherche des informations sur les règles de sécurité électrique.
 - Prend en compte ces règles dans ses manipulations de circuits électriques.
 
-Prérequis : Réaliser un circuit électrique à une boucle qui fonctionne (CM2) _(utile)_
+Prérequis : Piles ou prise de courant : les règles de sécurité électrique (Questionner le monde, Cycle 2) ; Réaliser un circuit électrique à une boucle qui fonctionne (CM2) _(utile)_
 
 > Question : Est-ce que l'enfant sait citer des règles de sécurité avec l’électricité, par exemple pourquoi on n’expérimente jamais avec une prise de courant ?
 
@@ -888,7 +892,7 @@ Critères de réussite :
 - Teste différents matériaux et organise les données pour distinguer matériaux conducteurs et isolants électriques.
 - Explique qu’un même objet (par exemple, une règle graduée) peut être fabriqué dans un matériau conducteur ou isolant.
 
-Prérequis : Réaliser un circuit électrique à une boucle qui fonctionne (CM2)
+Prérequis : Distinguer les bons conducteurs et les isolants (Questionner le monde, Cycle 2) ; Réaliser un circuit électrique à une boucle qui fonctionne (CM2)
 
 > Question : Est-ce que l'enfant sait tester si une règle en métal et une règle en plastique laissent passer le courant, et expliquer la différence ?
 
@@ -932,13 +936,13 @@ Participer avec la classe à un projet concret pour l’environnement (changemen
 
 Critères de réussite :
 - Coopère avec ses camarades pour mener à bien des actions ou projets relatifs à l’éducation au développement durable.
-- S’exerce à la recherche documentaire et à la vérification des sources d’informations, ce qui le sensibilise aux fausses informations.
+- S’exerce à la recherche documentaire et à la vérification des sources d’informations, et se sensibilise ainsi aux fausses informations.
 - Rend compte du projet sous différentes formes (oral, écrit, exposés, podcast, vidéos, spectacles, etc.).
 - Explique pourquoi et comment agir, individuellement et collectivement, pour protéger l’environnement.
 
 Prérequis : Prévoir l’effet d’une action humaine sur un réseau alimentaire (CM1) _(utile)_
 
-> Question : Est-ce que l'enfant sait raconter le projet pour l’environnement mené en classe, ce qu’il y a fait et comment il a vérifié ses sources d’information ?
+> Question : Est-ce que l'enfant sait raconter le projet pour l’environnement mené en classe, la part prise par l'enfant dans ce projet et la façon dont les sources d’information ont été vérifiées ?
 
 <sub>Source : programme p. 12</sub>
 
@@ -1010,7 +1014,7 @@ Critères de réussite :
 
 Prérequis : Décrire des effets du changement climatique près de chez soi (CM2)
 
-> Question : Est-ce que l'enfant sait citer une action qui limite le changement climatique et une action qui aide à s’y adapter, près de chez lui ?
+> Question : Est-ce que l'enfant sait citer une action qui limite le changement climatique et une action qui aide à s’y adapter, dans sa région ?
 
 <sub>Source : programme p. 12</sub>
 
@@ -1027,7 +1031,7 @@ Critères de réussite :
 - À partir de différents documents, catégorise les aliments (bâtisseurs, énergétiques et fonctionnels).
 - Établit des liens avec les informations figurant sur les étiquettes alimentaires.
 
-Prérequis : Relier la croissance d’un animal à la nourriture qu’il consomme (CM1) _(utile)_
+Prérequis : Les catégories d’aliments et leur origine (Questionner le monde, Cycle 2) ; Manger pour bouger : l’énergie apportée par les aliments (Questionner le monde, Cycle 2) _(utile)_ ; Relier la croissance d’un animal à la nourriture qu’il consomme (CM1) _(utile)_
 
 > Question : Est-ce que l'enfant sait classer le lait, les pâtes et une pomme parmi les aliments bâtisseurs, énergétiques ou fonctionnels ?
 
@@ -1041,7 +1045,7 @@ Critères de réussite :
 - Compare des données sur les dépenses de l’organisme et sur les apports énergétiques des aliments.
 - Discute de l’adéquation entre les apports énergétiques et les besoins de l’individu (âge, croissance, activité physique, etc.).
 
-Prérequis : Comprendre que grandir demande de la matière et classer les aliments (CM2) _(utile)_
+Prérequis : Manger pour bouger : l’énergie apportée par les aliments (Questionner le monde, Cycle 2) ; L’équilibre alimentaire sur un repas, une journée, une semaine (Questionner le monde, Cycle 2) _(utile)_ ; Comprendre que grandir demande de la matière et classer les aliments (CM2) _(utile)_
 
 > Question : Est-ce que l'enfant sait expliquer, à partir d’un tableau, pourquoi un enfant qui fait beaucoup de sport a besoin de manger davantage ?
 
@@ -1096,7 +1100,7 @@ Critères de réussite :
 - Relie l’augmentation de l’apport de nutriments par la circulation sanguine à l’augmentation de l’activité cardiaque.
 - Explique que, lors d’un effort physique, les muscles ont des besoins accrus en nutriments.
 
-Prérequis : Comprendre comment le sang apporte les nutriments aux organes (CM2)
+Prérequis : Les bienfaits d’une activité physique régulière (Questionner le monde, Cycle 2) _(utile)_ ; Comprendre comment le sang apporte les nutriments aux organes (CM2)
 
 > Question : Est-ce que l'enfant sait expliquer pourquoi son cœur bat plus vite après une course ?
 
@@ -1311,7 +1315,7 @@ Prérequis : Mesurer le volume d’un solide par déplacement de liquide (CM2) _
 Découvrir que, pour une même matière, la masse et le volume sont proportionnels (deux fois plus de volume, deux fois plus de masse), mais que ce rapport change d’une matière à l’autre.
 
 Critères de réussite :
-- Constate que lorsqu’il double la masse d’une matière homogène, son volume double, et inversement.
+- Constate qu’en doublant la masse d’une matière homogène, son volume double, et inversement.
 - Répète ce constat avec plusieurs mesures pour en déduire la relation de proportionnalité entre masse et volume.
 - Constate que cette relation dépend de la nature du matériau.
 
@@ -1375,6 +1379,8 @@ Critères de réussite :
 - Effectue une recherche documentaire relative à la composition de l’air.
 - Cite les constituants majoritaires de l’air.
 - Cite des constituants en plus faible proportion qui contribuent à l’effet de serre.
+
+Prérequis : L’air est de la matière : il occupe de la place et se comprime (Questionner le monde, CE2)
 
 > Question : Est-ce que l'enfant sait citer les deux principaux gaz de l’air et un gaz qui contribue à l’effet de serre ?
 
@@ -1644,7 +1650,7 @@ Critères de réussite :
 - Réalise des dessins d’observation.
 - Relie la pollinisation à la transformation de la fleur en fruit et des ovules en graines.
 
-Prérequis : Décrire le développement d’un animal de la fécondation à la naissance (CM1) _(utile)_
+Prérequis : Le cycle de vie des êtres vivants (Questionner le monde, Cycle 2) ; Décrire le développement d’un animal de la fécondation à la naissance (CM1) _(utile)_
 
 > Question : Est-ce que l'enfant sait expliquer, avec une fleur de cerisier et une cerise, comment la fleur se transforme en fruit ?
 
@@ -1690,7 +1696,7 @@ Critères de réussite :
 
 Prérequis : Définir et décrire un écosystème proche (CM1) _(utile)_
 
-> Question : Est-ce que l'enfant sait décrire un paysage près de chez lui en séparant ce qui est vivant, ce qui est roche ou relief, et ce qui a été aménagé par l’être humain ?
+> Question : Est-ce que l'enfant sait décrire un paysage proche de l’école en séparant ce qui est vivant, ce qui est roche ou relief, et ce qui a été aménagé par l’être humain ?
 
 <sub>Source : programme p. 13</sub>
 
@@ -1839,6 +1845,8 @@ Critères de réussite :
 - À partir de différents documents, identifie les modes de production et les modes de conservation des aliments et leur évolution au cours de l’histoire.
 - Explique que les risques sanitaires liés à la conservation des aliments sont essentiellement dus au développement de microorganismes (bactéries, champignons, virus) dangereux pour la santé humaine.
 - Relie les procédés de conservation (salaison, conservation au froid, stérilisation) à la limitation de ces risques.
+
+Prérequis : Les règles d’hygiène au quotidien : dents, mains, corps (Questionner le monde, Cycle 2)
 
 > Question : Est-ce que l'enfant sait expliquer pourquoi on range au réfrigérateur une bouteille de lait une fois ouverte ?
 

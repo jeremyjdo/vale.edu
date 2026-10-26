@@ -1,7 +1,7 @@
 {
   "jeuDeDonnees": "Notions des programmes officiels français",
   "version": "0.4",
-  "genereLe": "2026-10-26T23:26:27",
+  "genereLe": "2026-10-27T00:07:38",
   "programmes": {
     "maths-c2": {
       "matiere": "Mathématiques",
@@ -125,10 +125,10 @@
         "Cycle 3"
       ],
       "fichier": "cycle-3-cm1-cm2-6e/sciences-techno-c3-BO24-2026.pdf",
-      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-2-programme-de-sciences-et-technologie-du-cycle-3-517292.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-2-programme-de-sciences-et-technologie-du-cycle-3-519023.pdf",
       "bo": "BO n° 24 du 11 juin 2026",
-      "sha256": "066f97ef190f5f1cbc167773bcb7edf25fbcfe4b40c4b3a6a8aa863f174b1c7e",
-      "extraitLe": "2026-10-23",
+      "sha256": "1aff166de213f84ef963d1ae478d8deeb119440c2ec9dd52be55774be71152cc",
+      "extraitLe": "2026-10-26",
       "suit": "qlm-c2"
     },
     "lv-cm": {
@@ -189,10 +189,10 @@
         "Cycle 2"
       ],
       "fichier": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
-      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-1-programme-de-sciences-et-technologie-du-cycle-2-517289.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-1-programme-de-sciences-et-technologie-du-cycle-2-519020.pdf",
       "bo": "BO n° 24 du 11 juin 2026",
-      "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b",
-      "extraitLe": "2026-10-23",
+      "sha256": "185733129faac109eda69646e4393c29e929183c16dfb8ea7e5a474cda623de8",
+      "extraitLe": "2026-10-26",
       "suit": "monde-c1",
       "remplace": [
         "qlm-c2"

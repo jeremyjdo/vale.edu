@@ -101,7 +101,7 @@ Calendrier connu : les nouveaux programmes de langues vivantes arrivent en 4e en
 
 ## À savoir
 
-- Les deux PDF de sciences et technologie 2026 (cycles 2 et 3) sont des **images** : on ne peut pas en extraire le texte directement. Le texte reconnu par OCR est dans [../textes/](../textes/) (`*.ocr.txt`).
+- Sciences et technologie 2026 (cycles 2 et 3) : le ministère a d'abord publié l'arrêté en **images** (documents n° 517289 et 517292), dont le texte avait été lu par OCR. Il l'a republié avec un vrai texte (n° 519020 et 519023), le même jour, avec le même contenu. Ce sont ces versions qui sont utilisées depuis le 27/10/2026 ; les images et leur texte OCR sont dans [archives/](archives/) et [../textes/archives/](../textes/archives/).
 - Le Conseil supérieur des programmes révise toutes les autres matières (consultation de mai-juin 2026). D'autres textes vont donc encore changer.
 - Langues vivantes au collège : seuls anglais, espagnol, allemand et italien sont téléchargés. Les autres langues (arabe, chinois, hébreu, japonais, néerlandais, portugais, russe, langues à faible diffusion) sont sur la [page du BO n° 22 du 29/05/2025](https://www.education.gouv.fr/bo/2025/Hebdo22/MENE2504621A).
 - Non téléchargés : les programmes de langues régionales (BO n° 21 du 21/05/2026) et de langue des signes française.

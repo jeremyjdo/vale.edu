@@ -9,7 +9,7 @@ Source : BO n° 9 du 29 février 2024 ([PDF](../../construction/programmes-offic
 | Création, conception, réalisation, innovations : des objets à concevoir et à réaliser | 0 | 0 | 1 | 13 |
 | **Total** | **12** | **9** | **11** | **48** |
 
-104 liens de prérequis, dont 0 écrits dans le programme (les autres sont déduits et à relire).
+105 liens de prérequis, dont 0 écrits dans le programme (les autres sont déduits et à relire).
 
 ## 5e
 
@@ -1068,7 +1068,7 @@ Critères de réussite :
 - Situe le travail de l’équipe dans les étapes d’un projet.
 - Présente l’avancement et les choix de l’équipe lors d’une revue de projet (suivi, validation, argumentation, explications).
 
-Prérequis : Coopérer dans un projet de développement durable (Sciences et technologie, 6e) _(utile)_
+Prérequis : Coopérer dans un projet de développement durable (Sciences et technologie, 6e) _(utile)_ ; Organiser en équipe la conception d’une maquette et la fabriquer (Sciences et technologie, CM2) _(utile)_
 
 > Question : Est-ce que l'enfant sait présenter, lors d’une revue de projet, où en est l’équipe et justifier les choix faits ?
 

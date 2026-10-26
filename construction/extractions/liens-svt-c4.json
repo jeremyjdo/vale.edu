@@ -5,7 +5,7 @@
       "de": "fr-sc-6e-mvt-06",
       "vers": "fr-svt-c4-geo-01",
       "type": "prerequis",
-      "force": "indispensable",
+      "force": "utile",
       "origine": "texte",
       "continuite": false,
       "raison": "Le programme situe l’étude du globe après celle de la Terre dans le système solaire au cycle 3"
@@ -22,6 +22,15 @@
     {
       "de": "fr-sc-cm2-bio-01",
       "vers": "fr-svt-c4-geo-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Distinguer les temps géologiques et le temps de l’histoire humaine » (CM2)"
+    },
+    {
+      "de": "fr-sc-cm2-bio-01",
+      "vers": "fr-svt-c4-espt-02",
       "type": "prerequis",
       "force": "indispensable",
       "origine": "déduit",
@@ -115,8 +124,8 @@
       "type": "prerequis",
       "force": "utile",
       "origine": "déduit",
-      "continuite": true,
-      "raison": "Prolonge « Coopérer dans un projet de développement durable » (6e)"
+      "continuite": false,
+      "raison": "A déjà mené un projet sur l’eau, l’énergie ou les déchets"
     },
     {
       "de": "fr-sc-6e-cyc-03",
@@ -425,15 +434,6 @@
       "raison": "Les caractères sexuels primaires sont les appareils reproducteurs dont on étudie le fonctionnement"
     },
     {
-      "de": "fr-evs-6e-corps-01",
-      "vers": "fr-svt-c4-repro-01",
-      "type": "prerequis",
-      "force": "utile",
-      "origine": "déduit",
-      "continuite": false,
-      "raison": "Connaît déjà les dimensions corporelles et affectives des changements de la puberté"
-    },
-    {
       "de": "fr-sc-6e-pub-01",
       "vers": "fr-svt-c4-sex-01",
       "type": "prerequis",
@@ -443,6 +443,15 @@
       "raison": "Prolonge « Relier les changements de la puberté à la capacité à se reproduire » (6e)"
     },
     {
+      "de": "fr-evs-6e-corps-01",
+      "vers": "fr-svt-c4-repro-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Connaît déjà les dimensions corporelles et affectives des changements de la puberté"
+    },
+    {
       "de": "fr-evs-6e-soc-02",
       "vers": "fr-svt-c4-sex-03",
       "type": "prerequis",
@@ -450,21 +459,12 @@
       "origine": "déduit",
       "continuite": true,
       "raison": "Prolonge « La liberté d’être soi-même et le respect des autres à la puberté » (6e)"
-    },
-    {
-      "de": "fr-sc-cm2-bio-01",
-      "vers": "fr-svt-c4-espt-02",
-      "type": "prerequis",
-      "force": "indispensable",
-      "origine": "déduit",
-      "continuite": true,
-      "raison": "Prolonge « Distinguer les temps géologiques et le temps de l’histoire humaine » (CM2)"
     }
   ],
-  "relieLe": "2026-10-23",
+  "relieLe": "2026-10-27",
   "versionsCibles": {
     "evars-college": "2026-10-23",
-    "sciences-c3": "2026-10-23",
+    "sciences-c3": "2026-10-26",
     "svt-c4": "2026-10-23"
   }
 }

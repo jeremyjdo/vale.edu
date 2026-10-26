@@ -12,11 +12,11 @@ Vues lisibles générées automatiquement à partir de [notions.json](../notions
 | [Français (5e, 4e, 3e)](francais-c4.md) | 5e, 4e, 3e | 264 | 502 |
 | [Questionner le monde (CP, CE1, CE2, Cycle 2)](qlm-c2.md) | CP, CE1, CE2, Cycle 2 | 77 | 72 |
 | [Histoire-géographie (CM1, CM2, 6e)](hg-c3.md) | CM1, CM2, 6e | 115 | 115 |
-| [Sciences et technologie (CM1, CM2, 6e, CM1-CM2, Cycle 3)](sciences-c3.md) | CM1, CM2, 6e | 125 | 150 |
+| [Sciences et technologie (CM1, CM2, 6e, CM1-CM2, Cycle 3)](sciences-c3.md) | CM1, CM2, 6e | 125 | 168 |
 | [Langues vivantes (CM1, CM2)](lv-cm.md) | CM1, CM2 | 221 | 274 |
 | [Enseignement moral et civique (CP, CE1, CE2, CM1, CM2, 6e, 5e, 4e, 3e)](emc.md) | CP, CE1, CE2, CM1, CM2, 6e, 5e, 4e, 3e | 124 | 142 |
 | [Histoire-géographie (CP, CE1, CE2)](hg-c2.md) | CP, CE1, CE2 | 65 | 91 |
-| [Sciences et technologie (CP, CE1, CE2, Cycle 2)](sciences-c2.md) | CP, CE1, CE2, Cycle 2 | 81 | 75 |
+| [Sciences et technologie (CP, CE1, CE2, Cycle 2)](sciences-c2.md) | CP, CE1, CE2, Cycle 2 | 81 | 95 |
 | [Langues vivantes (CP, CE1, CE2)](lv-c2.md) | CP, CE1, CE2 | 151 | 145 |
 | [Éducation physique et sportive (CP, CE1, CE2)](eps-c2.md) | CP, CE1, CE2 | 81 | 93 |
 | [Éducation physique et sportive (CM1, CM2, CM1-CM2, 6e)](eps-c3.md) | CM1-CM2, 6e | 59 | 63 |
@@ -38,14 +38,14 @@ Vues lisibles générées automatiquement à partir de [notions.json](../notions
 | [Éducation musicale (5e, 4e, 3e, Cycle 4)](em-c4.md) | Cycle 4 | 42 | 39 |
 | [Histoire des arts (5e, 4e, 3e, Cycle 4)](hda-c4.md) | Cycle 4 | 15 | 23 |
 | [Histoire-géographie (5e, 4e, 3e, Cycle 4)](hg-c4.md) | 5e, 4e, 3e, Cycle 4 | 69 | 147 |
-| [Physique-chimie (5e, 4e, 3e, Cycle 4)](pc-c4.md) | 5e, 4e, 3e, Cycle 4 | 80 | 126 |
+| [Physique-chimie (5e, 4e, 3e, Cycle 4)](pc-c4.md) | 5e, 4e, 3e, Cycle 4 | 80 | 127 |
 | [Sciences de la vie et de la Terre (5e, 4e, 3e, Cycle 4)](svt-c4.md) | 4e, 3e, Cycle 4 | 79 | 110 |
 | [Éducation physique et sportive (5e, 4e, 3e, Cycle 4)](eps-c4.md) | Cycle 4 | 37 | 61 |
 | [Éducation aux médias et à l'information (5e, 4e, 3e, Cycle 4)](emi-c4.md) | Cycle 4 | 28 | 35 |
-| [Technologie (5e, 4e, 3e, Cycle 4)](tec-c4.md) | 5e, 4e, 3e, Cycle 4 | 80 | 104 |
+| [Technologie (5e, 4e, 3e, Cycle 4)](tec-c4.md) | 5e, 4e, 3e, Cycle 4 | 80 | 105 |
 | [Anglais (6e, 5e, 4e, 3e)](anglais-college.md) | 6e, 5e, 4e, 3e | 395 | 448 |
 | [Espagnol (6e, 5e, 4e, 3e)](espagnol-college.md) | 6e, 5e, 4e, 3e | 421 | 520 |
 | [Allemand (6e, 5e, 4e, 3e)](allemand-college.md) | 6e, 5e, 4e, 3e | 482 | 599 |
 | [Italien (6e, 5e, 4e, 3e)](italien-college.md) | 6e, 5e, 4e, 3e | 385 | 469 |
 
-Total : 5604 notions, 8002 liens de prérequis.
+Total : 5604 notions, 8042 liens de prérequis.

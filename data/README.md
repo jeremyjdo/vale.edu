@@ -7,7 +7,7 @@ Le curriculum français en données : les objectifs des programmes officiels, de
 | [programmes.json](programmes.json) | Les 43 programmes officiels : matière, classes, PDF, adresse, BO, empreinte, date d'extraction |
 | [objectifs.json](objectifs.json) | Les 6 798 objectifs officiels, **mot pour mot**, avec leur place dans le programme et leur source |
 | [notions.json](notions.json) | Les 5 604 notions, chacune reliée aux objectifs dont elle vient |
-| [liens.json](liens.json) | Les 8 002 liens de prérequis entre notions |
+| [liens.json](liens.json) | Les 8 042 liens de prérequis entre notions |
 | [vues/](vues/index.md) | Les mêmes données en Markdown, une page par programme |
 | [JOURNAL.md](JOURNAL.md) | Ce qui a changé à chaque assemblage |
 | `historique/` | Le détail de chaque changement, valeurs avant et après |

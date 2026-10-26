@@ -447,7 +447,7 @@ Critères de réussite :
 - Situe dans leur contexte historique l’évolution des idées sur la forme de la Terre et sur la tectonique des plaques (Wegener et la dérive des continents).
 - Exploite des banques de données, des mesures ou une modélisation pour étudier le mouvement des plaques.
 
-Prérequis : Relier le jour à la rotation de la Terre et l’année à sa révolution (Sciences et technologie, 6e) ; Repérer des manifestations de l’activité de la Terre (Sciences et technologie, CM2)
+Prérequis : Relier le jour à la rotation de la Terre et l’année à sa révolution (Sciences et technologie, 6e) _(utile)_ ; Repérer des manifestations de l’activité de la Terre (Sciences et technologie, CM2)
 
 > Question : Est-ce que l'enfant sait expliquer, sur une carte du monde, que la surface de la Terre est découpée en plaques qui se déplacent lentement ?
 

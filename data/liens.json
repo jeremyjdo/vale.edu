@@ -1,8 +1,8 @@
 {
   "jeuDeDonnees": "Notions des programmes officiels français",
   "version": "0.4",
-  "genereLe": "2026-10-26T23:26:27",
-  "nombreLiens": 8002,
+  "genereLe": "2026-10-27T00:07:38",
+  "nombreLiens": 8042,
   "liens": [
     {
       "de": "fr-all-6e-gadv-03",
@@ -30899,6 +30899,177 @@
       "raison": "Prolonge « Associer une solution technique à une fonction » (GS)"
     },
     {
+      "de": "fr-rep-ps-chr-01",
+      "vers": "fr-sc-cp-sante-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Placer ses activités sur une frise suppose de situer les moments de la journée les uns par rapport aux autres (PS)"
+    },
+    {
+      "de": "fr-mon-ms-viv-04",
+      "vers": "fr-sc-c2-edd-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Respecter les petites bêtes et les plantes rencontrées (MS) prépare un rapport sensible à la nature"
+    },
+    {
+      "de": "fr-mon-gs-mat-02",
+      "vers": "fr-sc-ce1-etat-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Identifier la présence de l’air par les sens » (GS)"
+    },
+    {
+      "de": "fr-mon-gs-viv-03",
+      "vers": "fr-sc-ce1-nutr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Décrire les besoins essentiels des animaux et des végétaux » (GS)"
+    },
+    {
+      "de": "fr-mon-ps-viv-01",
+      "vers": "fr-sc-ce1-nutr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer et nommer les parties des animaux et des plantes » (PS) : racine, tige, feuille, fleur"
+    },
+    {
+      "de": "fr-mon-gs-viv-03",
+      "vers": "fr-sc-ce1-nutr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Décrire les besoins essentiels des animaux et des végétaux » (GS), dont leur alimentation"
+    },
+    {
+      "de": "fr-mon-ms-corps-02",
+      "vers": "fr-sc-ce1-sens-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Associer les organes des sens et les perceptions » (MS), de l’être humain aux animaux"
+    },
+    {
+      "de": "fr-rep-gs-tps-06",
+      "vers": "fr-sc-ce1-env-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Comparer un lieu d’une saison à l’autre suppose de connaître les saisons et leurs caractéristiques (GS)"
+    },
+    {
+      "de": "fr-mon-gs-viv-04",
+      "vers": "fr-sc-ce1-edd-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Agir avec la classe pour préserver la biodiversité » (GS)"
+    },
+    {
+      "de": "fr-mon-ms-corps-03",
+      "vers": "fr-sc-ce1-crois-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Observer les changements liés à sa croissance » (MS)"
+    },
+    {
+      "de": "fr-mon-gs-obj-01",
+      "vers": "fr-sc-ce1-obj-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Associer une solution technique à une fonction » (GS) : la poignée, le réservoir et la pomme d’un arrosoir"
+    },
+    {
+      "de": "fr-mon-gs-obj-05",
+      "vers": "fr-sc-ce1-obj-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Élaborer une suite d’instructions » (GS) pour conduire un robot jusqu’à une case"
+    },
+    {
+      "de": "fr-rep-gs-rpr-04",
+      "vers": "fr-sc-ce1-obj-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Coder un déplacement par des flèches sur un quadrillage (GS) prépare les consignes données au robot"
+    },
+    {
+      "de": "fr-rep-gs-dur-02",
+      "vers": "fr-sc-ce2-masvd-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "S’appuie sur « Comparer des durées » (GS)"
+    },
+    {
+      "de": "fr-mon-ps-mat-01",
+      "vers": "fr-sc-ce2-etat-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Explorer les solides et les liquides » (PS) : ils ne se comportent pas de la même façon"
+    },
+    {
+      "de": "fr-mon-gs-viv-02",
+      "vers": "fr-sc-ce2-repro-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître les étapes de la vie d’un animal ou d’une plante » (GS), comme la graine qui germe"
+    },
+    {
+      "de": "fr-mon-gs-viv-02",
+      "vers": "fr-sc-ce2-repro-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître les étapes de la vie d’un animal ou d’une plante » (GS) : chenille, chrysalide, papillon"
+    },
+    {
+      "de": "fr-mon-ps-viv-02",
+      "vers": "fr-sc-ce2-repro-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Reconnaître et nommer le petit et l’adulte d’une même espèce (PS)"
+    },
+    {
+      "de": "fr-mon-gs-viv-01",
+      "vers": "fr-sc-ce2-loco-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Identifier les éléments propres à une espèce » (GS), dont les ailes, pattes et nageoires associées à chaque déplacement"
+    },
+    {
       "de": "fr-art-gs-ecou-02",
       "vers": "fr-em-c2-cha-01",
       "type": "prerequis",
@@ -51000,6 +51171,15 @@
       "raison": "Le programme dit que le cycle 4 consolide les notions d’état physique, de changement d’état et de mélange abordées jusqu’au cycle 3 ; Prolonge « Tracer l’évolution de la température et repérer un palier » (6e)"
     },
     {
+      "de": "fr-sc-cm2-masv-05",
+      "vers": "fr-pc-5e-mat-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Montrer par l’expérience que la masse se conserve mais pas forcément le volume, déjà fait pour une dissolution (CM2)"
+    },
+    {
       "de": "fr-sc-cm2-etat-03",
       "vers": "fr-pc-5e-mat-03",
       "type": "prerequis",
@@ -51261,15 +51441,6 @@
       "raison": "Le poids est proportionnel à la masse, de coefficient g"
     },
     {
-      "de": "fr-ma-5e-pui-06",
-      "vers": "fr-pc-3e-ener-01",
-      "type": "prerequis",
-      "force": "indispensable",
-      "origine": "déduit",
-      "continuite": false,
-      "raison": "Calculer ½ m v² en remplaçant les lettres par des valeurs"
-    },
-    {
       "de": "fr-sc-6e-elec-02",
       "vers": "fr-pc-c4-ener-01",
       "type": "prerequis",
@@ -51277,6 +51448,15 @@
       "origine": "déduit",
       "continuite": false,
       "raison": "Un moteur ou un élément photovoltaïque, utilisé en 6e, fait passer l’énergie d’une forme à une autre"
+    },
+    {
+      "de": "fr-ma-5e-pui-06",
+      "vers": "fr-pc-3e-ener-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Calculer ½ m v² en remplaçant les lettres par des valeurs"
     },
     {
       "de": "fr-sc-6e-elec-02",
@@ -51410,8 +51590,8 @@
       "type": "prerequis",
       "force": "indispensable",
       "origine": "déduit",
-      "continuite": true,
-      "raison": "Prolonge « Les trois états de la matière : solide, liquide et gazeux » (CE2)"
+      "continuite": false,
+      "raison": "Distinguer les constituants d’un mélange suppose de reconnaître solides, liquides et gaz"
     },
     {
       "de": "fr-ma-ce2-lon-01",
@@ -51648,15 +51828,6 @@
       "raison": "A déjà écrit et lu des suites d’instructions pour faire se déplacer un robot"
     },
     {
-      "de": "fr-qm-c2-esp-03",
-      "vers": "fr-sc-cm1-prog-01",
-      "type": "prerequis",
-      "force": "utile",
-      "origine": "déduit",
-      "continuite": false,
-      "raison": "Dire ce que fait le programme demande le vocabulaire du déplacement (avancer, tourner…)"
-    },
-    {
       "de": "fr-qm-c2-num-02",
       "vers": "fr-sc-cm1-prog-01",
       "type": "prerequis",
@@ -51666,10 +51837,181 @@
       "raison": "Manipuler un logiciel à l’écran suppose une première familiarité avec les outils numériques"
     },
     {
+      "de": "fr-qm-c2-viv-01",
+      "vers": "fr-sc-cm1-bio-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "A déjà observé des animaux et des végétaux de l’environnement proche, puis plus lointain"
+    },
+    {
+      "de": "fr-qm-ce2-etat-01",
+      "vers": "fr-sc-cm2-etat-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les trois états de la matière : solide, liquide et gazeux » (CE2)"
+    },
+    {
+      "de": "fr-qm-ce2-etat-03",
+      "vers": "fr-sc-cm2-etat-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Comprimer un gaz dans une seringue reprend l’air qui occupe de la place et se comprime"
+    },
+    {
+      "de": "fr-qm-ce2-eau-01",
+      "vers": "fr-sc-cm2-etat-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La vapeur d’eau et la condensation » (CE2)"
+    },
+    {
+      "de": "fr-qm-c2-eau-02",
+      "vers": "fr-sc-cm2-etat-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître l’eau liquide et la glace dans la nature et la météo » (Cycle 2)"
+    },
+    {
+      "de": "fr-qm-c2-glob-04",
+      "vers": "fr-sc-cm2-mvt-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La Terre dans l’univers : le Soleil, la Lune et les autres astres » (Cycle 2)"
+    },
+    {
+      "de": "fr-qm-c2-elec-02",
+      "vers": "fr-sc-cm2-elec-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Réaliser un circuit électrique simple » (Cycle 2)"
+    },
+    {
+      "de": "fr-qm-c2-elec-04",
+      "vers": "fr-sc-cm2-elec-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "La boucle comprend un interrupteur, dont le rôle a été vu au cycle 2"
+    },
+    {
+      "de": "fr-qm-c2-elec-05",
+      "vers": "fr-sc-cm2-elec-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Piles ou prise de courant : les règles de sécurité électrique » (Cycle 2)"
+    },
+    {
+      "de": "fr-qm-c2-elec-03",
+      "vers": "fr-sc-cm2-elec-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Distinguer les bons conducteurs et les isolants » (Cycle 2)"
+    },
+    {
+      "de": "fr-qm-c2-sante-04",
+      "vers": "fr-sc-cm2-nutr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les catégories d’aliments et leur origine » (Cycle 2)"
+    },
+    {
+      "de": "fr-qm-c2-sante-05",
+      "vers": "fr-sc-cm2-nutr-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Les aliments énergétiques reprennent l’idée de manger pour bouger"
+    },
+    {
+      "de": "fr-qm-c2-sante-05",
+      "vers": "fr-sc-cm2-nutr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Manger pour bouger : l’énergie apportée par les aliments » (Cycle 2)"
+    },
+    {
+      "de": "fr-qm-c2-sante-06",
+      "vers": "fr-sc-cm2-nutr-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Juger si ce qu’on mange couvre ses besoins s’appuie sur l’équilibre alimentaire"
+    },
+    {
+      "de": "fr-qm-c2-sante-07",
+      "vers": "fr-sc-cm2-nutr-06",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Relier effort et battements du cœur s’appuie sur les effets de l’activité physique sur le corps"
+    },
+    {
+      "de": "fr-ma-ce2-con-02",
+      "vers": "fr-sc-cm2-masv-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Lire un volume sur un récipient gradué en L, dL ou cL, vu en mathématiques"
+    },
+    {
+      "de": "fr-qm-ce2-etat-03",
+      "vers": "fr-sc-6e-mel-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « L’air est de la matière : il occupe de la place et se comprime » (CE2)"
+    },
+    {
+      "de": "fr-qm-c2-viv-03",
+      "vers": "fr-sc-6e-cyc-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que le cycle de vie, abordé aux cycles 1 et 2, est approfondi et que la reproduction des plantes à fleurs est étudiée en sixième ; Prolonge « Le cycle de vie des êtres vivants » (Cycle 2)"
+    },
+    {
+      "de": "fr-qm-c2-sante-09",
+      "vers": "fr-sc-6e-cons-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que l’étude des microorganismes remobilise et approfondit les règles d’hygiène vues au cycle 2 ; Prolonge « Les règles d’hygiène au quotidien : dents, mains, corps » (Cycle 2)"
+    },
+    {
       "de": "fr-sc-6e-mvt-06",
       "vers": "fr-svt-c4-geo-01",
       "type": "prerequis",
-      "force": "indispensable",
+      "force": "utile",
       "origine": "texte",
       "continuite": false,
       "raison": "Le programme situe l’étude du globe après celle de la Terre dans le système solaire au cycle 3"
@@ -51686,6 +52028,15 @@
     {
       "de": "fr-sc-cm2-bio-01",
       "vers": "fr-svt-c4-geo-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Distinguer les temps géologiques et le temps de l’histoire humaine » (CM2)"
+    },
+    {
+      "de": "fr-sc-cm2-bio-01",
+      "vers": "fr-svt-c4-espt-02",
       "type": "prerequis",
       "force": "indispensable",
       "origine": "déduit",
@@ -51779,8 +52130,8 @@
       "type": "prerequis",
       "force": "utile",
       "origine": "déduit",
-      "continuite": true,
-      "raison": "Prolonge « Coopérer dans un projet de développement durable » (6e)"
+      "continuite": false,
+      "raison": "A déjà mené un projet sur l’eau, l’énergie ou les déchets"
     },
     {
       "de": "fr-sc-6e-cyc-03",
@@ -52089,15 +52440,6 @@
       "raison": "Les caractères sexuels primaires sont les appareils reproducteurs dont on étudie le fonctionnement"
     },
     {
-      "de": "fr-evs-6e-corps-01",
-      "vers": "fr-svt-c4-repro-01",
-      "type": "prerequis",
-      "force": "utile",
-      "origine": "déduit",
-      "continuite": false,
-      "raison": "Connaît déjà les dimensions corporelles et affectives des changements de la puberté"
-    },
-    {
       "de": "fr-sc-6e-pub-01",
       "vers": "fr-svt-c4-sex-01",
       "type": "prerequis",
@@ -52107,6 +52449,15 @@
       "raison": "Prolonge « Relier les changements de la puberté à la capacité à se reproduire » (6e)"
     },
     {
+      "de": "fr-evs-6e-corps-01",
+      "vers": "fr-svt-c4-repro-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Connaît déjà les dimensions corporelles et affectives des changements de la puberté"
+    },
+    {
       "de": "fr-evs-6e-soc-02",
       "vers": "fr-svt-c4-sex-03",
       "type": "prerequis",
@@ -52114,15 +52465,6 @@
       "origine": "déduit",
       "continuite": true,
       "raison": "Prolonge « La liberté d’être soi-même et le respect des autres à la puberté » (6e)"
-    },
-    {
-      "de": "fr-sc-cm2-bio-01",
-      "vers": "fr-svt-c4-espt-02",
-      "type": "prerequis",
-      "force": "indispensable",
-      "origine": "déduit",
-      "continuite": true,
-      "raison": "Prolonge « Distinguer les temps géologiques et le temps de l’histoire humaine » (CM2)"
     },
     {
       "de": "fr-sc-cm1-bes-01",
@@ -52431,6 +52773,15 @@
       "raison": "A déjà coopéré en groupe dans un projet de développement durable"
     },
     {
+      "de": "fr-sc-cm2-conc-03",
+      "vers": "fr-tec-c4-proj-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "A déjà suivi en équipe une démarche de projet : concevoir, fabriquer, tester une maquette"
+    },
+    {
       "de": "fr-sc-cm2-conc-04",
       "vers": "fr-tec-c4-proj-03",
       "type": "prerequis",
@@ -52537,6 +52888,15 @@
       "origine": "déduit",
       "continuite": false,
       "raison": "S'appuie sur « Reconnaître que deux objets ont la même masse » (GS, maths)"
+    },
+    {
+      "de": "fr-ma-gs-masse-01",
+      "vers": "fr-sc-cp-masvt-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "S'appuie sur « Ordonner les masses de trois objets » (GS, maths), où l'on dit « plus lourd que », « plus léger que »"
     },
     {
       "de": "fr-hg-cm1-net-02",

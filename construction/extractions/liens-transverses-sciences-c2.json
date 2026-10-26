@@ -19,11 +19,20 @@
       "origine": "déduit",
       "continuite": false,
       "raison": "S'appuie sur « Reconnaître que deux objets ont la même masse » (GS, maths)"
+    },
+    {
+      "de": "fr-ma-gs-masse-01",
+      "vers": "fr-sc-cp-masvt-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "S'appuie sur « Ordonner les masses de trois objets » (GS, maths), où l'on dit « plus lourd que », « plus léger que »"
     }
   ],
-  "relieLe": "2026-10-23",
+  "relieLe": "2026-10-27",
   "versionsCibles": {
     "maths-c1": "2026-10-23",
-    "sciences-c2": "2026-10-23"
+    "sciences-c2": "2026-10-26"
   }
 }

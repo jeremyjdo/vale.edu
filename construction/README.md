@@ -30,7 +30,7 @@ cd construction && python3 outils/valider.py && python3 outils/assembler.py && p
 | 4 | Histoire-géo, sciences et langues du cycle 2 (2026) ; EPS cycles 2 et 3 ; vie affective (EVAR/EVARS), de la maternelle à la 3e | **fait** : 605 notions, 671 prérequis |
 | 5 | Maternelle (six domaines) ; arts plastiques, éducation musicale et histoire des arts (cycles 2 à 4, 2020) ; histoire-géo, physique-chimie, SVT, EPS et EMI du cycle 4 (2020) ; technologie (2024) ; anglais, espagnol, allemand et italien au collège (2025) | **fait** : 2 697 notions, 3 310 prérequis |
 
-Total : 43 programmes, 5 604 notions, 8 002 prérequis, de la petite section à la 3e. Les programmes de l'élémentaire ont été extraits en premier, puis la maternelle et le collège.
+Total : 43 programmes, 5 604 notions, 8 042 prérequis, de la petite section à la 3e. Les programmes de l'élémentaire ont été extraits en premier, puis la maternelle et le collège.
 
 Les programmes de maths et de français du cycle 3 ont des exemples de réussite publiés à part par Éduscol, utilisés pour les critères. Ceux du cycle 4 n'en ont pas : leurs critères et leurs questions sont rédigés à partir des objectifs, et c'est indiqué dans la vue de chaque notion.
 
@@ -57,13 +57,13 @@ Pour ajouter un programme ou une nouvelle version d'un programme : [outils/MISE-
 - **`python3 outils/etat.py`** fait le bilan : PDF nouveaux ou modifiés, programmes à extraire ou à ré-extraire, liaisons à refaire, liens cassés, assemblage ou atlas en retard. Il donne la liste des actions à faire. `python3 outils/etat.py --programme <clé>` montre l'impact d'une ré-extraction.
 - **`python3 outils/verifier_sources.py --en-ligne`** retélécharge chaque PDF pour détecter une nouvelle version publiée. Il vérifie aussi que l'objectif de chaque notion se retrouve dans son PDF.
 
-Les deux programmes de sciences de 2026 (cycles 2 et 3) sont publiés en images. Leur texte est reconnu par OCR (`outils/ocr_pdf.py`, avec la reconnaissance de texte de macOS) et enregistré dans `textes/<nom>.ocr.txt`. Le script de vérification s'en sert à la place du texte du PDF.
+Pour un PDF publié en images, le texte est reconnu par OCR (`outils/ocr_pdf.py`, avec la reconnaissance de texte de macOS) et enregistré dans `textes/<nom>.ocr.txt`, que le script de vérification lit à la place du texte du PDF. C'était le cas des deux programmes de sciences de 2026 jusqu'au 27/10/2026. Le ministère les a republiés avec un vrai texte : ils ont alors été remplacés, ré-extraits (mêmes notions, mêmes id) et reliés de nouveau.
 
-État au 26/10/2026 : 34 PDF sur 34 conformes au manifeste. Les objectifs de toutes les notions sont retrouvés dans leur PDF, avec ces exceptions connues :
+État au 27/10/2026 : 34 PDF sur 34 conformes au manifeste. Les objectifs de toutes les notions sont retrouvés dans leur PDF, avec ces exceptions connues :
 - 61 notions d'EMC, dont l'objectif commence par une étiquette « Notion(s) abordée(s) : » ajoutée pendant l'extraction ;
 - quelques puces de maths, coupées par la mise en page en deux colonnes ;
 - une notion d'histoire-géo et deux de langues vivantes, dont la puce est coupée entre deux pages ;
-- en sciences, 2 puces coupées entre deux pages et 2 passages mal lus par l'OCR (au CE1, « Mesurer les masses des objets avec une balance… »). Ces deux passages ont été recopiés depuis l'image.
+- en sciences au cycle 3, 4 puces coupées par la mise en page en deux colonnes ou par un changement de page. Toutes les notions de sciences du cycle 2 sont retrouvées.
 
 ## À relire
 
