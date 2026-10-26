@@ -218,10 +218,41 @@ td .pastille { display: inline-block; margin-right: 7px; }
   .cadre { flex: 1; min-height: 260px; }
   .carte-defile { position: absolute; inset: 0; }
 }
-@media (max-width: 560px) {
-  .tete { padding-block: 18px 12px; }
-  .chapo { font-size: var(--t-m); }
+.parcours, .vues { display: none; }
+.vues { padding: 2px; border: 1px solid var(--filet); border-radius: 999px; background: var(--surface); }
+.vues button { height: 26px; padding-inline: 12px; cursor: pointer; background: none; border: 0; border-radius: 999px; font-size: 12.5px; font-weight: 600; color: var(--encre-3); }
+.vues button[aria-pressed="true"] { background: var(--encre); color: var(--papier); }
+.classes { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none;
+  margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding: 2px max(16px, env(safe-area-inset-left, 0px)) 6px; }
+.classes::-webkit-scrollbar { display: none; }
+.classe { flex: none; display: grid; justify-items: center; min-width: 54px; padding: 6px 10px; cursor: pointer; scroll-snap-align: start;
+  background: var(--surface); border: 1px solid var(--filet); border-radius: 12px; }
+.classe b { font-size: 15px; }
+.classe small { font: 10.5px/1.3 var(--police-mono); color: var(--encre-3); }
+.classe[aria-pressed="true"] { background: var(--encre); border-color: var(--encre); color: var(--papier); }
+.classe[aria-pressed="true"] small { color: inherit; opacity: .75; }
+.matieres { display: grid; gap: 8px; }
+.matiere { background: var(--surface); border: 1px solid var(--filet); border-radius: 12px; font-size: var(--t-m); }
+.matiere summary { display: flex; align-items: center; gap: 10px; width: auto; padding: 12px 14px; list-style: none; color: var(--encre); font-weight: 700; }
+.matiere summary::-webkit-details-marker { display: none; }
+.matiere summary::after { content: "›"; font-size: 20px; line-height: 1; color: var(--encre-3); transition: transform .15s; }
+.matiere[open] summary::after { transform: rotate(90deg); }
+.matiere summary .n { margin-left: auto; font: 400 12px var(--police-mono); color: var(--encre-3); }
+.matiere[open] summary { border-bottom: 1px solid var(--filet); }
+.matiere .liste { padding: 2px 14px 12px; }
+@media (max-width: 700px) {
+  .tete { padding-block: 16px 10px; }
+  h1 { font-size: 30px; }
+  .chapo { font-size: 14px; }
+  .astuce-carte { display: none; }
+  .barre { gap: 8px; }
+  .champ-recherche { flex: 1 1 100%; height: 38px; }
+  .vues { display: inline-flex; margin-left: auto; }
+  .parcours { display: grid; gap: 10px; padding-bottom: 12px; }
+  .page.mode-carte .parcours { display: none; }
+  .page:not(.mode-carte) .cadre, .page:not(.mode-carte) .cle-traits { display: none; }
 }
+@media (prefers-reduced-motion: reduce) { .matiere summary::after { transition: none; } }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } .fenetre[open] { animation: none; } }
 </style>
 <!-- corps -->
@@ -230,7 +261,7 @@ td .pastille { display: inline-block; margin-right: 7px; }
     <div class="titre-bloc">
       <p class="marque">vale.edu · Curriculum français</p>
       <h1>Tout ce qu'on apprend à l'école<span class="point">.</span></h1>
-      <p class="chapo">La carte ouverte du curriculum français, de la petite section à la 3e : <strong>@@NB_NOTIONS@@ notions</strong> et <strong>@@NB_LIENS@@ liens</strong> qui disent ce qu'il faut savoir avant, et pourquoi. Cliquez sur un point pour remonter tout ce qu'il faut maîtriser avant.</p>
+      <p class="chapo">La carte ouverte du curriculum français, de la petite section à la 3e : <strong>@@NB_NOTIONS@@ notions</strong> et <strong>@@NB_LIENS@@ liens</strong> qui disent ce qu'il faut savoir avant, et pourquoi.<span class="astuce-carte"> Cliquez sur un point pour remonter tout ce qu'il faut maîtriser avant.</span></p>
     </div>
     <div class="libre-ligne">
       <span class="libre"><strong>OPEN SOURCE</strong> · données Licence Ouverte 2.0 · code MIT</span>
@@ -256,7 +287,15 @@ td .pastille { display: inline-block; margin-right: 7px; }
           </div>
         </div>
       </div>
+      <div class="vues" role="group" aria-label="Affichage">
+        <button type="button" data-vue="liste" aria-pressed="true">Liste</button>
+        <button type="button" data-vue="carte" aria-pressed="false">Carte</button>
+      </div>
     </div>
+    <section class="parcours" aria-label="Parcourir par classe">
+      <div class="classes" id="classes"></div>
+      <div class="matieres" id="liste-mobile"></div>
+    </section>
     <div class="cadre">
       <div class="carte-defile" id="carte-defile">
         <canvas id="carte" role="img" aria-label="Carte des notions, classes en colonnes et matières en lignes. La recherche donne les mêmes notions sous forme de liste."></canvas>
@@ -682,6 +721,7 @@ function legende() {
   const compte = FAM.map(() => 0);
   for (const n of N) if (bonneLangue(n)) compte[n.fam]++;
   $('#legende').innerHTML = FAM.map((f, fi) => `<button type="button" class="puce" data-fam="${fi}" aria-pressed="${!etat.masquees.has(fi)}" title="${esc(f.nom)} : afficher ou masquer">${pastille(fi)}${esc(f.court)}<span class="n">${nf.format(compte[fi])}</span></button>`).join('');
+  rendreParcours();
   const vues = FAM.map((f, fi) => fi).filter(fi => !etat.masquees.has(fi));
   boutonFiltre.firstElementChild.textContent = vues.length === FAM.length ? 'Toutes les matières'
     : vues.length === 1 ? FAM[vues[0]].court : vues.length ? `${vues.length} matières sur ${FAM.length}` : 'Aucune matière';
@@ -939,6 +979,36 @@ $('#table-sources').innerHTML = `<thead><tr><th>Matière</th><th>Classes</th><th
   <tr><td>${pastille(p.fam)}${esc(p.m)}${p.remplacePar.length ? ' <span class="niv">(remplacé progressivement)</span>' : ''}</td><td>${esc(p.niv.join(', '))}</td>
   <td>${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.bo)}</a>` : esc(p.bo)}</td>
   <td class="num">${nf.format(nbParProg[k] || 0)}</td><td class="num">${esc(dateFr(p.ex))}</td></tr>`).join('')}</tbody>`;
+
+/* ---------- Parcours par classe (téléphone) ---------- */
+const parcoursClasses = $('#classes'), listeMobile = $('#liste-mobile');
+let classeMobile = Math.max(0, NIV.indexOf(lire('classe') || NIV[0]));
+function rendreParcours() {
+  parcoursClasses.innerHTML = NIV.map((v, c) => `<button type="button" class="classe" data-c="${c}" aria-pressed="${c === classeMobile}"><b>${esc(v)}</b><small>${esc(D.ages[v])}</small></button>`).join('');
+  const c = classeMobile;
+  listeMobile.innerHTML = FAM.map((f, fi) => {
+    const dans = N.filter(n => n.fam === fi && visible(n) && n.c0 <= c && c <= n.c1);
+    if (!dans.length) return '';
+    const propres = dans.filter(n => n.c0 === n.c1), communes = dans.filter(n => n.c0 !== n.c1);
+    return `<details class="matiere"><summary>${pastille(fi)}${esc(f.nom)}<span class="n">${nf.format(dans.length)}</span></summary><div class="liste">${blocs(propres, () => '')}${communes.length ? `<h4>Valables pour plusieurs classes</h4>${communes.map(n => item(n, n.niv)).join('')}` : ''}</div></details>`;
+  }).join('') || '<p class="vide">Aucune notion pour cette classe avec les matières choisies.</p>';
+}
+parcoursClasses.addEventListener('click', ev => {
+  const b = ev.target.closest('[data-c]');
+  if (!b) return;
+  classeMobile = +b.dataset.c;
+  garder('classe', NIV[classeMobile]);
+  rendreParcours();
+  parcoursClasses.querySelector(`[data-c="${classeMobile}"]`).scrollIntoView({ inline: 'center', block: 'nearest' });
+});
+listeMobile.addEventListener('click', ev => { const b = ev.target.closest('[data-i]'); if (b) afficher({ t: 'notion', n: N[+b.dataset.i] }); });
+const page = $('.page');
+$('.vues').addEventListener('click', ev => {
+  const b = ev.target.closest('[data-vue]');
+  if (!b) return;
+  page.classList.toggle('mode-carte', b.dataset.vue === 'carte');
+  document.querySelectorAll('.vues [data-vue]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+});
 
 /* ---------- Démarrage ---------- */
 lireCouleurs();
