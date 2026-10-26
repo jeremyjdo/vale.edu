@@ -59,8 +59,6 @@ a { color: var(--stylo); text-underline-offset: .15em; }
 h1 { margin: 0; font: 500 clamp(28px, 2.7vw, 40px)/1.12 var(--police-titre); letter-spacing: -.012em; color: var(--encre); text-wrap: balance; }
 h1 .point { color: var(--marge); }
 .chapo { margin: 2px 0 0; max-width: 110ch; font-size: 15px; color: var(--encre-2); text-wrap: pretty; }
-.astuce-carte { display: flex; align-items: center; gap: 6px; margin: 0; font-size: 12.5px; color: var(--encre-3); }
-.astuce-carte svg { flex: none; color: var(--marge); }
 .chapo strong { color: var(--encre); font-weight: 700; }
 .libre-bloc { display: grid; justify-items: end; gap: 8px; }
 .bouton-github { display: inline-flex; align-items: center; gap: 8px; height: 38px; padding-inline: 15px; border-radius: 10px;
@@ -202,6 +200,7 @@ td .pastille { display: inline-block; margin-right: 7px; }
 .cle-traits, .pied-droite { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
 .cle-traits span { display: inline-flex; align-items: center; gap: 6px; }
 .cle-traits i { width: 16px; height: 2px; border-radius: 1px; background: var(--c); }
+.cle-clic svg { flex: none; color: var(--marge); }
 .cle-traits .cle-creux { display: none; }
 .creux { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--encre-2); }
 .pied a, .lien-pied { color: var(--encre-2); font-weight: 600; }
@@ -238,7 +237,6 @@ td .pastille { display: inline-block; margin-right: 7px; }
   .tete { padding-block: 16px 10px; }
   h1 { font-size: 30px; }
   .chapo { font-size: 14px; }
-  .astuce-carte { display: none; }
   .barre { gap: 8px; }
   .champ-recherche { flex: 1 1 100%; height: 38px; }
   .carte-defile { overflow: visible; }
@@ -253,7 +251,6 @@ td .pastille { display: inline-block; margin-right: 7px; }
       <p class="marque">vale.edu · Curriculum français</p>
       <h1>Tout ce qu'on apprend à l'école<span class="point">.</span></h1>
       <p class="chapo">Comprendre le curriculum (programme scolaire) français : de la petite section à la 3e, <strong>@@NB_NOTIONS@@ notions</strong> et <strong>@@NB_LIENS@@ liens</strong> qui disent ce qu'il faut savoir avant, et pourquoi.</p>
-      <p class="astuce-carte"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l7 17 2.5-7.5L21 11z"></path></svg>Cliquez sur un point pour remonter tout ce qu'il faut maîtriser avant.</p>
     </div>
     <div class="libre-bloc">
       <a class="bouton-github" href="https://github.com/jeremyjdo/vale.edu" target="_blank" rel="noopener"><svg width="17" height="17" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>Voir sur GitHub</a>
@@ -295,7 +292,7 @@ td .pastille { display: inline-block; margin-right: 7px; }
   </main>
 
   <footer class="pied">
-    <span class="cle-traits"><span><i style="--c:var(--stylo)"></i>à savoir avant</span><span><i style="--c:var(--marge)"></i>ce que la notion ouvre</span><span>clic sur une classe ou une case : la liste des notions</span><span class="cle-creux"><b class="creux"></b>valable pour tout le cycle</span></span>
+    <span class="cle-traits"><span class="cle-clic"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l7 17 2.5-7.5L21 11z"></path></svg>clic sur un point : tout ce qu'il faut maîtriser avant</span><span><i style="--c:var(--stylo)"></i>à savoir avant</span><span><i style="--c:var(--marge)"></i>ce que la notion ouvre</span><span>clic sur une classe ou une case : la liste des notions</span><span class="cle-creux"><b class="creux"></b>valable pour tout le cycle</span></span>
     <span class="pied-droite"><button type="button" class="lien-pied" id="ouvrir-sources">Sources : les @@NB_PROGRAMMES@@ programmes officiels</button><span>Projet indépendant, sans lien avec l'Éducation nationale.</span></span>
   </footer>
 </div>
