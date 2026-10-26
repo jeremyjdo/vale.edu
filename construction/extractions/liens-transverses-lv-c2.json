@@ -1,17 +1,18 @@
 {
   "programme": "lv-c2",
   "description": "Liens vers une autre matière",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-lv-cp-cohis-01",
-      "prerequisiteId": "fr-ma-gs-qte-12",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Reconnaître les chiffres dans la langue suppose la comptine numérique (GS, maths)"
+      "de": "fr-ma-gs-qte-12",
+      "vers": "fr-lv-cp-cohis-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Reconnaître les chiffres dans la langue suppose la comptine numérique (GS, maths)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "lv-c2": "2026-10-23",
     "maths-c1": "2026-10-23"

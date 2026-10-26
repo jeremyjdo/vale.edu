@@ -1,304 +1,341 @@
 {
   "programme": "maths-c2",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-ma-cp-num-01",
-      "prerequisiteId": "fr-ma-gs-qte-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dénombrer une collection jusqu’à dix, voire au-delà » (GS)"
+      "de": "fr-ma-gs-qte-04",
+      "vers": "fr-ma-cp-num-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dénombrer une collection jusqu’à dix, voire au-delà » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-num-01",
-      "prerequisiteId": "fr-ma-gs-qte-06",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Comparer des collections groupées par dix prolonge la comparaison de quantités"
+      "de": "fr-ma-gs-qte-06",
+      "vers": "fr-ma-cp-num-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Comparer des collections groupées par dix prolonge la comparaison de quantités"
     },
     {
-      "topicId": "fr-ma-cp-num-02",
-      "prerequisiteId": "fr-ma-gs-qte-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Constituer une collection jusqu’à dix, voire au-delà » (GS)"
+      "de": "fr-ma-gs-qte-05",
+      "vers": "fr-ma-cp-num-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Constituer une collection jusqu’à dix, voire au-delà » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-num-03",
-      "prerequisiteId": "fr-ma-gs-qte-12",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Connaître et utiliser la comptine numérique jusqu’à trente » (GS)"
+      "de": "fr-ma-gs-qte-12",
+      "vers": "fr-ma-cp-num-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Connaître et utiliser la comptine numérique jusqu’à trente » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-num-04",
-      "prerequisiteId": "fr-ma-gs-qte-11",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Écrire en chiffres les nombres de un à dix » (GS)"
+      "de": "fr-ma-gs-qte-11",
+      "vers": "fr-ma-cp-num-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Écrire en chiffres les nombres de un à dix » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-num-08",
-      "prerequisiteId": "fr-ma-gs-qte-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comparer des quantités, y compris données par des nombres » (GS)"
+      "de": "fr-ma-gs-qte-06",
+      "vers": "fr-ma-cp-num-08",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comparer des quantités, y compris données par des nombres » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-num-11",
-      "prerequisiteId": "fr-ma-gs-rang-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Construire la bande numérique jusqu’à dix » (GS)"
+      "de": "fr-ma-gs-rang-04",
+      "vers": "fr-ma-cp-num-11",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Construire la bande numérique jusqu’à dix » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-num-12",
-      "prerequisiteId": "fr-ma-gs-rang-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer le rang d’un objet jusqu’à dix, quel que soit le sens » (GS)"
+      "de": "fr-ma-gs-rang-01",
+      "vers": "fr-ma-cp-num-12",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer le rang d’un objet jusqu’à dix, quel que soit le sens » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-num-15",
-      "prerequisiteId": "fr-ma-gs-mot-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme inscrit le travail sur les suites dans la poursuite de l’étude des motifs initiée à l’école maternelle"
+      "de": "fr-ma-gs-mot-02",
+      "vers": "fr-ma-cp-num-15",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme inscrit le travail sur les suites dans la poursuite de l’étude des motifs initiée à l’école maternelle"
     },
     {
-      "topicId": "fr-ma-cp-num-15",
-      "prerequisiteId": "fr-ma-ms-mot-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Trouver un élément éloigné suppose de savoir prolonger un motif répétitif en dégageant sa règle"
+      "de": "fr-ma-ms-mot-04",
+      "vers": "fr-ma-cp-num-15",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Trouver un élément éloigné suppose de savoir prolonger un motif répétitif en dégageant sa règle"
     },
     {
-      "topicId": "fr-ma-cp-ope-01",
-      "prerequisiteId": "fr-ma-gs-qte-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Composer et décomposer les nombres jusqu’à dix » (GS)"
+      "de": "fr-ma-gs-qte-07",
+      "vers": "fr-ma-cp-ope-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Composer et décomposer les nombres jusqu’à dix » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-ope-01",
-      "prerequisiteId": "fr-ma-gs-pb-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Savoir quand ajouter ou retirer s’appuie sur les problèmes d’ajout et de retrait résolus en GS"
+      "de": "fr-ma-gs-pb-01",
+      "vers": "fr-ma-cp-ope-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Savoir quand ajouter ou retirer s’appuie sur les problèmes d’ajout et de retrait résolus en GS"
     },
     {
-      "topicId": "fr-ma-cp-cmf-01",
-      "prerequisiteId": "fr-ma-gs-qte-08",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme rappelle que les résultats des tables d’addition ont été rencontrés en maternelle via les décompositions des nombres inférieurs à dix"
+      "de": "fr-ma-gs-qte-08",
+      "vers": "fr-ma-cp-cmf-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme rappelle que les résultats des tables d’addition ont été rencontrés en maternelle via les décompositions des nombres inférieurs à dix"
     },
     {
-      "topicId": "fr-ma-cp-cmf-02",
-      "prerequisiteId": "fr-ma-gs-qte-08",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dire les compositions des nombres jusqu’à dix, dont les doubles » (GS)"
+      "de": "fr-ma-gs-qte-08",
+      "vers": "fr-ma-cp-cmf-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dire les compositions des nombres jusqu’à dix, dont les doubles » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-cmn-01",
-      "prerequisiteId": "fr-ma-gs-qte-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Un de plus, un de moins : passer au nombre suivant ou précédent » (GS)"
+      "de": "fr-ma-gs-qte-02",
+      "vers": "fr-ma-cp-cmn-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Un de plus, un de moins : passer au nombre suivant ou précédent » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-cmn-01",
-      "prerequisiteId": "fr-ma-gs-qte-09",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Ajouter 2 en avançant dans la suite des nombres s’appuie sur le surcomptage"
+      "de": "fr-ma-gs-qte-09",
+      "vers": "fr-ma-cp-cmn-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Ajouter 2 en avançant dans la suite des nombres s’appuie sur le surcomptage"
     },
     {
-      "topicId": "fr-ma-cp-pb-01",
-      "prerequisiteId": "fr-ma-gs-pb-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Déterminer le tout ou une partie (deux, puis trois parties) en calculant » (GS)"
+      "de": "fr-ma-gs-pb-01",
+      "vers": "fr-ma-cp-pb-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Déterminer le tout ou une partie (deux, puis trois parties) en calculant » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-pb-01",
-      "prerequisiteId": "fr-ma-c1-pb-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Redire l’histoire et vérifier sa réponse prolonge la démarche « chercher, essayer, vérifier »"
+      "de": "fr-ma-c1-pb-01",
+      "vers": "fr-ma-cp-pb-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Redire l’histoire et vérifier sa réponse prolonge la démarche « chercher, essayer, vérifier »"
     },
     {
-      "topicId": "fr-ma-cp-pb-03",
-      "prerequisiteId": "fr-ma-gs-pb-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Déterminer le total dans un problème de groupements » (GS)"
+      "de": "fr-ma-gs-pb-05",
+      "vers": "fr-ma-cp-pb-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Déterminer le total dans un problème de groupements » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-pb-04",
-      "prerequisiteId": "fr-ma-gs-pb-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Partager en parts égales, avec éventuellement un reste » (GS)"
+      "de": "fr-ma-gs-pb-06",
+      "vers": "fr-ma-cp-pb-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Partager en parts égales, avec éventuellement un reste » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-pb-05",
-      "prerequisiteId": "fr-ma-gs-pb-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Partager en parts égales, avec éventuellement un reste » (GS)"
+      "de": "fr-ma-gs-pb-06",
+      "vers": "fr-ma-cp-pb-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Partager en parts égales, avec éventuellement un reste » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-lon-01",
-      "prerequisiteId": "fr-ma-ms-long-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comparer directement des longueurs et dire le résultat » (MS)"
+      "de": "fr-ma-ms-long-01",
+      "vers": "fr-ma-cp-lon-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comparer directement des longueurs et dire le résultat » (MS)"
     },
     {
-      "topicId": "fr-ma-cp-lon-02",
-      "prerequisiteId": "fr-ma-gs-long-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Ordonner jusqu’à cinq objets selon leur longueur » (GS)"
+      "de": "fr-ma-gs-long-02",
+      "vers": "fr-ma-cp-lon-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Ordonner jusqu’à cinq objets selon leur longueur » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-lon-02",
-      "prerequisiteId": "fr-ma-gs-long-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Comparer à l’aide d’une ficelle des objets non déplaçables prolonge l’usage de la bande témoin"
+      "de": "fr-ma-gs-long-01",
+      "vers": "fr-ma-cp-lon-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Comparer à l’aide d’une ficelle des objets non déplaçables prolonge l’usage de la bande témoin"
     },
     {
-      "topicId": "fr-ma-cp-lon-04",
-      "prerequisiteId": "fr-ma-gs-geo-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Tracer un segment de longueur donnée suppose de savoir tracer un trait à la règle"
+      "de": "fr-ma-gs-geo-05",
+      "vers": "fr-ma-cp-lon-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Tracer un segment de longueur donnée suppose de savoir tracer un trait à la règle"
     },
     {
-      "topicId": "fr-ma-cp-mas-01",
-      "prerequisiteId": "fr-ma-ms-masse-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comparer les masses de deux objets » (MS)"
+      "de": "fr-ma-ms-masse-01",
+      "vers": "fr-ma-cp-mas-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comparer les masses de deux objets » (MS)"
     },
     {
-      "topicId": "fr-ma-cp-mas-02",
-      "prerequisiteId": "fr-ma-ms-masse-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comparer les masses de deux objets » (MS)"
+      "de": "fr-ma-ms-masse-01",
+      "vers": "fr-ma-cp-mas-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comparer les masses de deux objets » (MS)"
     },
     {
-      "topicId": "fr-ma-cp-mas-03",
-      "prerequisiteId": "fr-ma-gs-masse-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Ordonner les masses de trois objets » (GS)"
+      "de": "fr-ma-gs-masse-01",
+      "vers": "fr-ma-cp-mas-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Ordonner les masses de trois objets » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-sol-01",
-      "prerequisiteId": "fr-ma-gs-geo-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme poursuit au CP, dans la continuité du cycle 1, la connaissance des solides par des tris et des classements"
+      "de": "fr-ma-gs-geo-01",
+      "vers": "fr-ma-cp-sol-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme poursuit au CP, dans la continuité du cycle 1, la connaissance des solides par des tris et des classements"
     },
     {
-      "topicId": "fr-ma-cp-geo-01",
-      "prerequisiteId": "fr-ma-gs-geo-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître, trier et classer carrés, rectangles, triangles et disques » (GS)"
+      "de": "fr-ma-gs-geo-02",
+      "vers": "fr-ma-cp-geo-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître, trier et classer carrés, rectangles, triangles et disques » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-geo-02",
-      "prerequisiteId": "fr-ma-gs-geo-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Décrire et nommer carré, rectangle, triangle et disque » (GS)"
+      "de": "fr-ma-gs-geo-03",
+      "vers": "fr-ma-cp-geo-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Décrire et nommer carré, rectangle, triangle et disque » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-geo-05",
-      "prerequisiteId": "fr-ma-gs-geo-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Vérifier un alignement suppose de savoir placer et tenir la règle"
+      "de": "fr-ma-gs-geo-05",
+      "vers": "fr-ma-cp-geo-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Vérifier un alignement suppose de savoir placer et tenir la règle"
     },
     {
-      "topicId": "fr-ma-cp-geo-06",
-      "prerequisiteId": "fr-ma-gs-geo-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Utiliser la règle pour tracer » (GS)"
+      "de": "fr-ma-gs-geo-05",
+      "vers": "fr-ma-cp-geo-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Utiliser la règle pour tracer » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-geo-08",
-      "prerequisiteId": "fr-ma-gs-geo-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Reproduire une figure prolonge la reproduction de puzzles et de pavages d’après un modèle"
+      "de": "fr-ma-gs-geo-04",
+      "vers": "fr-ma-cp-geo-08",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Reproduire une figure prolonge la reproduction de puzzles et de pavages d’après un modèle"
     },
     {
-      "topicId": "fr-ma-cp-esp-04",
-      "prerequisiteId": "fr-ma-gs-geo-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reproduire des assemblages de solides et de formes planes » (GS)"
+      "de": "fr-ma-gs-geo-04",
+      "vers": "fr-ma-cp-esp-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reproduire des assemblages de solides et de formes planes » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-esp-01",
-      "prerequisiteId": "fr-rep-gs-exp-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Enrichir le lexique de l’espace » (GS)"
+      "de": "fr-rep-gs-exp-07",
+      "vers": "fr-ma-cp-esp-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Enrichir le lexique de l’espace » (GS)"
     },
     {
-      "topicId": "fr-ma-cp-esp-05",
-      "prerequisiteId": "fr-rep-gs-exp-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Réaliser un trajet dans un environnement connu » (GS)"
+      "de": "fr-rep-gs-exp-04",
+      "vers": "fr-ma-cp-esp-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Réaliser un trajet dans un environnement connu » (GS)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "maths-c1": "2026-10-23",
     "maths-c2": "2026-10-22",

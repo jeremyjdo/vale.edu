@@ -1,1136 +1,1277 @@
 {
   "programme": "francais-c2",
-  "prerequisites": [
-    {
-      "topicId": "fr-fr-ce1-idm-01",
-      "prerequisiteId": "fr-fr-cp-idm-03",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme demande d’automatiser au CE1 les correspondances lettres-sons apprises au CP"
-    },
-    {
-      "topicId": "fr-fr-ce1-idm-01",
-      "prerequisiteId": "fr-fr-cp-idm-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Le décodage doit atteindre 30 mots par minute en fin de CP avant d’être automatisé"
-    },
-    {
-      "topicId": "fr-fr-ce1-idm-03",
-      "prerequisiteId": "fr-fr-cp-orl-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire et écrire s, c et g selon les lettres qui les entourent » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-idm-04",
-      "prerequisiteId": "fr-fr-cp-curs-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Reconnaître les sons proches dans l’écriture cursive suppose de savoir écrire en cursive les graphèmes étudiés au CP"
-    },
-    {
-      "topicId": "fr-fr-ce1-idm-05",
-      "prerequisiteId": "fr-fr-cp-idm-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer les lettres muettes en fin de mot pour bien déchiffrer » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-idm-06",
-      "prerequisiteId": "fr-fr-cp-idm-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaitre d’un coup d’œil les mots fréquents et réguliers » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-lvh-01",
-      "prerequisiteId": "fr-fr-cp-lvh-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire à voix haute un texte à 30 mots par minute, 50 après préparation » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-lvh-02",
-      "prerequisiteId": "fr-fr-cp-lvh-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Tenir compte de la ponctuation en lisant à voix haute » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-lvh-02",
-      "prerequisiteId": "fr-fr-cp-lvh-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Au CP, il repère déjà, après préparation, les groupes de mots à lire ensemble"
-    },
-    {
-      "topicId": "fr-fr-ce1-lvh-03",
-      "prerequisiteId": "fr-fr-cp-lvh-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Commencer à lire de façon expressive » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-comp-01",
-      "prerequisiteId": "fr-fr-cp-comp-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre le sens général d’un texte entendu ou lu » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-comp-02",
-      "prerequisiteId": "fr-fr-cp-comp-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer un mot inconnu dans un texte et chercher son sens » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-comp-03",
-      "prerequisiteId": "fr-fr-cp-comp-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Relier un nom aux mots qui le reprennent dans un texte » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-comp-04",
-      "prerequisiteId": "fr-fr-cp-comp-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre ce qui n’est pas écrit : les inférences simples » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-comp-05",
-      "prerequisiteId": "fr-fr-cp-comp-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Justifier ses réponses en retournant au texte » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-comp-06",
-      "prerequisiteId": "fr-fr-cp-comp-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire et comprendre seul un texte d’une dizaine de lignes » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-lect-01",
-      "prerequisiteId": "fr-fr-cp-lect-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Découvrir 5 à 10 œuvres complètes et variées dans l’année » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-lect-02",
-      "prerequisiteId": "fr-fr-cp-lect-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Au CP, il a appris à différencier un texte qui raconte d’un texte qui informe"
-    },
-    {
-      "topicId": "fr-fr-ce1-lect-02",
-      "prerequisiteId": "fr-fr-cp-lect-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Reconnaître les personnages types (loup, fée, sorcière) aide à reconnaître un conte"
-    },
-    {
-      "topicId": "fr-fr-ce1-lect-03",
-      "prerequisiteId": "fr-fr-cp-lect-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Aller vers les livres et en choisir un pour soi » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-lect-04",
-      "prerequisiteId": "fr-fr-cp-lect-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Relier ses lectures entre elles et à sa propre expérience » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-curs-01",
-      "prerequisiteId": "fr-fr-cp-curs-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Il faut savoir enchaîner les lettres cursives avec fluidité, appris au CP"
-    },
-    {
-      "topicId": "fr-fr-ce1-curs-01",
-      "prerequisiteId": "fr-fr-cp-cop-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Au CP, il transforme déjà en cursive un mot puis une phrase écrits en script"
-    },
-    {
-      "topicId": "fr-fr-ce1-curs-02",
-      "prerequisiteId": "fr-fr-cp-curs-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Écrire en cursive chaque graphème appris en lecture » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-curs-03",
-      "prerequisiteId": "fr-fr-cp-curs-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "La forme, la taille et l’enchaînement des minuscules cursives appris au CP servent de base aux majuscules"
-    },
-    {
-      "topicId": "fr-fr-ce1-dict-01",
-      "prerequisiteId": "fr-fr-cp-dict-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Écrire sous la dictée des mots et des phrases » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-copie-02",
-      "prerequisiteId": "fr-fr-cp-cop-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Utiliser des stratégies de copie au-delà de la copie lettre à lettre » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-copie-03",
-      "prerequisiteId": "fr-fr-cp-cop-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Copier trois ou quatre phrases sans erreur et lisiblement » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-prod-01",
-      "prerequisiteId": "fr-fr-cp-prod-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Transformer un texte lu : écrire à la façon de, ajouter un épisode » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-prod-01",
-      "prerequisiteId": "fr-fr-cp-prod-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Les gammes d’écriture du CP (J’ai un chat./J’ai un …) préparent la transformation d’une phrase modèle"
-    },
-    {
-      "topicId": "fr-fr-ce1-prod-02",
-      "prerequisiteId": "fr-fr-cp-prod-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Produire un court écrit d’une à cinq lignes » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-prod-02",
-      "prerequisiteId": "fr-fr-cp-phr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Il faut savoir qu’une phrase commence par une majuscule et finit par un point, appris au CP"
-    },
-    {
-      "topicId": "fr-fr-ce1-prod-03",
-      "prerequisiteId": "fr-fr-cp-dire-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Il utilise déjà à l’oral au CP des connecteurs comme parce que, alors, ensuite"
-    },
-    {
-      "topicId": "fr-fr-ce1-prod-04",
-      "prerequisiteId": "fr-fr-cp-prod-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Transformer un texte lu : écrire à la façon de, ajouter un épisode » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-prod-05",
-      "prerequisiteId": "fr-fr-cp-prod-05",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme demande de continuer au CE1 la méthode de production écrite commencée au CP"
-    },
-    {
-      "topicId": "fr-fr-ce1-prod-06",
-      "prerequisiteId": "fr-fr-cp-prod-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer ce qui ne va pas dans son texte et le reprendre » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-ecou-01",
-      "prerequisiteId": "fr-fr-cp-ecou-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre un message oral de quelques minutes et en retenir l’essentiel » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-ecou-02",
-      "prerequisiteId": "fr-fr-cp-ecou-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre un message oral de quelques minutes et en retenir l’essentiel » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-dire-01",
-      "prerequisiteId": "fr-fr-cp-dire-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Raconter, décrire ou expliquer brièvement à l’oral » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-dire-02",
-      "prerequisiteId": "fr-fr-cp-dire-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « S’écouter et reformuler pour mieux se faire comprendre » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-dire-03",
-      "prerequisiteId": "fr-fr-cp-dire-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dire un poème ou un texte appris en tenant compte de son public » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-ech-01",
-      "prerequisiteId": "fr-fr-cp-ech-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Participer à un échange en respectant les règles et donner son avis » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-ech-02",
-      "prerequisiteId": "fr-fr-cp-ech-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre qu’on ne parle pas de la même façon selon les situations » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-enr-01",
-      "prerequisiteId": "fr-fr-cp-enr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Enrichir en contexte le vocabulaire appris en maternelle » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-enr-01",
-      "prerequisiteId": "fr-fr-cp-rel-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": false,
-      "reason": "Le programme demande d’enrichir au CE1 les répertoires de mots constitués au CP"
-    },
-    {
-      "topicId": "fr-fr-ce1-enr-02",
-      "prerequisiteId": "fr-fr-cp-rel-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Trouver des synonymes et des contraires » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-enr-03",
-      "prerequisiteId": "fr-fr-cp-rel-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Rapprocher les mots d’une même famille » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-enr-03",
-      "prerequisiteId": "fr-fr-cp-enr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Au CP, il a commencé à comprendre le sens des affixes dé-, re-, in-, -eur, -ier, -ette"
-    },
-    {
-      "topicId": "fr-fr-ce1-enr-04",
-      "prerequisiteId": "fr-fr-cp-enr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Utiliser l’ordre alphabétique pour chercher dans un dictionnaire » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-rel-01",
-      "prerequisiteId": "fr-fr-cp-rel-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Classer des mots et expliquer son classement » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-rel-02",
-      "prerequisiteId": "fr-fr-cp-reem-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Choisir entre deux niveaux de langue selon la situation » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-rel-03",
-      "prerequisiteId": "fr-fr-cp-enr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Percevoir qu’un mot peut avoir plusieurs sens, propre ou figuré » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-rel-04",
-      "prerequisiteId": "fr-fr-cp-rel-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Rapprocher les mots d’une même famille » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-reem-01",
-      "prerequisiteId": "fr-fr-cp-reem-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Réutiliser les mots appris quand une activité orale ou écrite l’exige » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-reem-02",
-      "prerequisiteId": "fr-fr-cp-rel-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Trouver des synonymes et des contraires » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-reem-02",
-      "prerequisiteId": "fr-fr-cp-reem-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Le jeu des 7 familles du CP fait déjà passer d’un mot général (fruits) à des mots particuliers"
-    },
-    {
-      "topicId": "fr-fr-ce1-orth-01",
-      "prerequisiteId": "fr-fr-cp-orl-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Mémoriser l’orthographe des mots fréquents et réguliers » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-orth-02",
-      "prerequisiteId": "fr-fr-cp-orl-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaitre et nommer les accents » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-orth-03",
-      "prerequisiteId": "fr-fr-cp-orl-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire et écrire s, c et g selon les lettres qui les entourent » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-orth-04",
-      "prerequisiteId": "fr-fr-cp-orl-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Expliquer une lettre muette finale grâce à un mot de la même famille » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-phr-01",
-      "prerequisiteId": "fr-fr-cp-phr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Il faut avoir compris au CP que le sujet et le verbe fonctionnent ensemble"
-    },
-    {
-      "topicId": "fr-fr-ce1-phr-02",
-      "prerequisiteId": "fr-fr-cp-phr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaitre les trois types de phrases grâce à la ponctuation » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-phr-03",
-      "prerequisiteId": "fr-fr-cp-phr-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaitre les formes négative et exclamative » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-phr-04",
-      "prerequisiteId": "fr-fr-cp-phr-05",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme demande d’affiner au CE1 les critères de reconnaissance des classes de mots élaborés au CP"
-    },
-    {
-      "topicId": "fr-fr-ce1-ortg-01",
-      "prerequisiteId": "fr-fr-cp-org-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer les accords dans le groupe nominal (chaine d’accords) » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-ortg-02",
-      "prerequisiteId": "fr-fr-cp-org-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Découvrir le lien entre le sujet et le verbe » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-ortg-03",
-      "prerequisiteId": "fr-fr-cp-org-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Observer les formes verbales fréquentes et régulières » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce1-ortg-04",
-      "prerequisiteId": "fr-fr-cp-org-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Conjuguer être et avoir au présent » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce2-mots-01",
-      "prerequisiteId": "fr-fr-ce1-idm-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Décoder toutes les correspondances lettres-sons, y compris les plus complexes » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-mots-01",
-      "prerequisiteId": "fr-fr-ce1-idm-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Maîtriser les correspondances des sons proches dans tous les types d’écriture » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-mots-02",
-      "prerequisiteId": "fr-fr-ce1-lvh-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Il faut lire 70 mots par minute en fin de CE1 pour décoder vite un texte nouveau"
-    },
-    {
-      "topicId": "fr-fr-ce2-mots-03",
-      "prerequisiteId": "fr-fr-ce1-idm-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître directement les mots courants et lire exactement les mots nouveaux » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-mots-04",
-      "prerequisiteId": "fr-fr-ce1-idm-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire sans prononcer les lettres muettes » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-voix-02",
-      "prerequisiteId": "fr-fr-ce1-lvh-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire à voix haute en respectant la ponctuation et les groupes de souffle » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-voix-03",
-      "prerequisiteId": "fr-fr-ce1-lvh-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire à voix haute de manière expressive » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-comp-01",
-      "prerequisiteId": "fr-fr-ce1-comp-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dégager le sens global d’un texte lu seul » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-comp-02",
-      "prerequisiteId": "fr-fr-ce1-comp-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire et comprendre seul un texte d’une quinzaine de lignes » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-comp-03",
-      "prerequisiteId": "fr-fr-ce1-comp-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Trouver le sens d’un mot ou d’une expression inconnus dans un texte » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-comp-04",
-      "prerequisiteId": "fr-fr-ce1-comp-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Suivre les reprises d’un nom dans un texte (chaîne anaphorique) » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-comp-05",
-      "prerequisiteId": "fr-fr-ce1-lect-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître les principaux genres de textes » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-comp-06",
-      "prerequisiteId": "fr-fr-ce1-comp-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre l’implicite d’un texte dans des cas simples » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-comp-07",
-      "prerequisiteId": "fr-fr-ce1-comp-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Justifier ses réponses en revenant au texte » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-comp-08",
-      "prerequisiteId": "fr-fr-ce1-comp-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire et comprendre seul un texte d’une quinzaine de lignes » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-lect-01",
-      "prerequisiteId": "fr-fr-ce1-lect-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire des œuvres complètes et en parler » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-lect-01",
-      "prerequisiteId": "fr-fr-ce1-lect-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Choisir et emprunter seul des livres au CE1 prépare la lecture autonome d’œuvres complètes"
-    },
-    {
-      "topicId": "fr-fr-ce2-lect-02",
-      "prerequisiteId": "fr-fr-ce1-lect-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître les principaux genres de textes » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-lect-03",
-      "prerequisiteId": "fr-fr-ce1-lect-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Relier ses lectures entre elles et à sa propre expérience » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-lect-04",
-      "prerequisiteId": "fr-fr-ce1-lect-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Choisir et emprunter des livres selon ses goûts » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-lect-04",
-      "prerequisiteId": "fr-fr-cp-lect-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Fréquenter des lieux de lecture et rencontrer des acteurs du livre » (CP)"
-    },
-    {
-      "topicId": "fr-fr-ce2-curs-01",
-      "prerequisiteId": "fr-fr-ce1-curs-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Tracer toutes les minuscules cursives et transcrire le script en cursive » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-curs-01",
-      "prerequisiteId": "fr-fr-ce1-curs-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Tracer les majuscules cursives par familles de gestes » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-dict-01",
-      "prerequisiteId": "fr-fr-ce1-dict-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Orthographier en dictée les mots fréquents, réguliers puis irréguliers » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-dict-01",
-      "prerequisiteId": "fr-fr-ce1-idm-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Il faut avoir mémorisé au CE1 les graphies des sons proches"
-    },
-    {
-      "topicId": "fr-fr-ce2-dict-02",
-      "prerequisiteId": "fr-fr-ce1-dict-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Écrire la marque -nt du pluriel des verbes en dictée » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-copie-01",
-      "prerequisiteId": "fr-fr-ce1-copie-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Copier sans erreur un texte de plus en plus long » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-copie-01",
-      "prerequisiteId": "fr-fr-ce1-copie-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Copier vite et sans erreur suppose les stratégies de copie apprises au CE1 (mot à mot, groupe de mots)"
-    },
-    {
-      "topicId": "fr-fr-ce2-copie-02",
-      "prerequisiteId": "fr-fr-ce1-copie-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Copier sans erreur un texte de plus en plus long » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-prod-01",
-      "prerequisiteId": "fr-fr-ce1-prod-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Écrire seul un texte court d’une à trois phrases » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-prod-02",
-      "prerequisiteId": "fr-fr-ce1-prod-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Écrire une phrase en transformant une phrase modèle » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-prod-03",
-      "prerequisiteId": "fr-fr-ce1-prod-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Écrire un texte cohérent de six ou sept phrases » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-prod-03",
-      "prerequisiteId": "fr-fr-ce1-prod-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Il faut savoir préparer son texte au brouillon, appris au CE1"
-    },
-    {
-      "topicId": "fr-fr-ce2-prod-04",
-      "prerequisiteId": "fr-fr-ce1-prod-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Relire et améliorer son texte après les retours du professeur » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-ecou-01",
-      "prerequisiteId": "fr-fr-ce1-ecou-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Récapituler un message entendu en ordonnant les informations » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-ecou-01",
-      "prerequisiteId": "fr-fr-ce1-ecou-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Écouter activement et réaliser une consigne orale » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-dire-01",
-      "prerequisiteId": "fr-fr-ce1-dire-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Raconter, décrire, expliquer à l’oral en utilisant tous les temps » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-dire-02",
-      "prerequisiteId": "fr-fr-ce1-dire-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Raconter, décrire, expliquer à l’oral en utilisant tous les temps » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-dire-03",
-      "prerequisiteId": "fr-fr-ce1-dire-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Mémoriser et dire des poèmes » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-dire-03",
-      "prerequisiteId": "fr-fr-ce1-dire-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Il faut savoir prendre la parole devant le groupe en se faisant comprendre, appris au CE1"
-    },
-    {
-      "topicId": "fr-fr-ce2-ech-01",
-      "prerequisiteId": "fr-fr-ce1-ech-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Respecter le propos des autres dans un échange en groupe » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-enr-01",
-      "prerequisiteId": "fr-fr-ce1-enr-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme demande d’enrichir au CE2 les répertoires de mots constitués au CP et au CE1"
-    },
-    {
-      "topicId": "fr-fr-ce2-enr-02",
-      "prerequisiteId": "fr-fr-ce1-enr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Utiliser des formulations de sens proche pour éviter les répétitions » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-enr-03",
-      "prerequisiteId": "fr-fr-ce1-rel-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre la différence entre sens propre et sens figuré » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-enr-04",
-      "prerequisiteId": "fr-fr-ce1-enr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « S’appuyer sur les préfixes et suffixes pour trouver le sens d’un mot » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-enr-05",
-      "prerequisiteId": "fr-fr-ce1-enr-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Consulter un article de dictionnaire adapté » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-rel-01",
-      "prerequisiteId": "fr-fr-ce1-enr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Enrichir son vocabulaire de mots moins fréquents et d’expressions » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-rel-01",
-      "prerequisiteId": "fr-fr-cp-rel-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": false,
-      "reason": "Le programme demande d’enrichir les collections de mots constituées au début du cycle"
-    },
-    {
-      "topicId": "fr-fr-ce2-rel-01",
-      "prerequisiteId": "fr-fr-cp-rel-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Il faut savoir trouver des synonymes pour ranger des mots de sens proche du plus faible au plus fort"
-    },
-    {
-      "topicId": "fr-fr-ce2-rel-02",
-      "prerequisiteId": "fr-fr-ce1-rel-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Classer les mots du plus général au plus particulier » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-rel-03",
-      "prerequisiteId": "fr-fr-ce1-enr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Enrichir son vocabulaire de mots moins fréquents et d’expressions » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-rel-04",
-      "prerequisiteId": "fr-fr-ce1-rel-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Trier les mots dérivés selon leur préfixe ou leur suffixe » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-reem-01",
-      "prerequisiteId": "fr-fr-ce1-reem-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Réutiliser les mots appris pour mieux parler et mieux écrire » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-reem-01",
-      "prerequisiteId": "fr-fr-ce1-reem-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Varier son expression grâce aux synonymes et aux mots génériques » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-reem-03",
-      "prerequisiteId": "fr-fr-ce1-ech-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Adapter son registre de langue à la situation » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-reem-04",
-      "prerequisiteId": "fr-fr-cp-reem-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Réemployer le vocabulaire appris en maternelle » (CP) : citer de plus en plus vite des mots catégorisés"
-    },
-    {
-      "topicId": "fr-fr-ce2-orth-01",
-      "prerequisiteId": "fr-fr-ce1-orth-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Mémoriser l’orthographe des mots fréquents, réguliers et irréguliers » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-orth-02",
-      "prerequisiteId": "fr-fr-ce1-orth-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Tenir compte des accents » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-orth-03",
-      "prerequisiteId": "fr-fr-ce1-orth-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Trouver la lettre muette finale grâce à un mot de la même famille » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-orth-03",
-      "prerequisiteId": "fr-fr-ce1-orth-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Au CE1, il complète déjà des listes de mots dérivés en mémorisant l’affixe : coiffeur/danseur"
-    },
-    {
-      "topicId": "fr-fr-ce2-phr-01",
-      "prerequisiteId": "fr-fr-ce1-phr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer le groupe sujet, le verbe et les compléments dans une phrase simple » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-phr-02",
-      "prerequisiteId": "fr-fr-ce1-phr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître et utiliser les phrases déclaratives, interrogatives et impératives » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-phr-03",
-      "prerequisiteId": "fr-fr-ce1-phr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître et produire les formes négative et exclamative » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-phr-04",
-      "prerequisiteId": "fr-fr-ce1-phr-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Différencier et nommer les principales classes de mots » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-phr-05",
-      "prerequisiteId": "fr-fr-ce1-phr-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Il faut savoir distinguer les classes de mots vues au CE1 pour y ajouter l’adverbe"
-    },
-    {
-      "topicId": "fr-fr-ce2-phr-06",
-      "prerequisiteId": "fr-fr-ce1-prod-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Au CE1, il respecte déjà la majuscule et la ponctuation finale forte quand il écrit"
-    },
-    {
-      "topicId": "fr-fr-ce2-ogr-01",
-      "prerequisiteId": "fr-fr-ce1-dict-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Au CE1, il utilise déjà en dictée les marques -s du pluriel et -e du féminin"
-    },
-    {
-      "topicId": "fr-fr-ce2-ogr-03",
-      "prerequisiteId": "fr-fr-ce1-ortg-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Identifier la relation entre le sujet et le verbe » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-ogr-04",
-      "prerequisiteId": "fr-fr-ce1-ortg-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Conjuguer être, avoir et les verbes du 1er groupe au présent » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-ogr-05",
-      "prerequisiteId": "fr-fr-ce1-ortg-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Conjuguer être, avoir et les verbes du 1er groupe à l’imparfait » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-ogr-06",
-      "prerequisiteId": "fr-fr-ce1-ortg-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Conjuguer être, avoir et les verbes du 1er groupe au futur » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-ogr-07",
-      "prerequisiteId": "fr-fr-ce1-ortg-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Conjuguer être, avoir et les verbes du 1er groupe au passé composé » (CE1)"
-    },
-    {
-      "topicId": "fr-fr-ce2-ogr-08",
-      "prerequisiteId": "fr-fr-ce1-ortg-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Trouver le radical, la terminaison et l’infinitif d’un verbe du 1er groupe » (CE1)"
+  "liens": [
+    {
+      "de": "fr-fr-cp-idm-03",
+      "vers": "fr-fr-ce1-idm-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme demande d’automatiser au CE1 les correspondances lettres-sons apprises au CP"
+    },
+    {
+      "de": "fr-fr-cp-idm-07",
+      "vers": "fr-fr-ce1-idm-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Le décodage doit atteindre 30 mots par minute en fin de CP avant d’être automatisé"
+    },
+    {
+      "de": "fr-fr-cp-orl-03",
+      "vers": "fr-fr-ce1-idm-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire et écrire s, c et g selon les lettres qui les entourent » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-curs-01",
+      "vers": "fr-fr-ce1-idm-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Reconnaître les sons proches dans l’écriture cursive suppose de savoir écrire en cursive les graphèmes étudiés au CP"
+    },
+    {
+      "de": "fr-fr-cp-idm-04",
+      "vers": "fr-fr-ce1-idm-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer les lettres muettes en fin de mot pour bien déchiffrer » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-idm-05",
+      "vers": "fr-fr-ce1-idm-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaitre d’un coup d’œil les mots fréquents et réguliers » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-lvh-03",
+      "vers": "fr-fr-ce1-lvh-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire à voix haute un texte à 30 mots par minute, 50 après préparation » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-lvh-04",
+      "vers": "fr-fr-ce1-lvh-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Tenir compte de la ponctuation en lisant à voix haute » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-lvh-03",
+      "vers": "fr-fr-ce1-lvh-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Au CP, il repère déjà, après préparation, les groupes de mots à lire ensemble"
+    },
+    {
+      "de": "fr-fr-cp-lvh-05",
+      "vers": "fr-fr-ce1-lvh-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Commencer à lire de façon expressive » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-comp-01",
+      "vers": "fr-fr-ce1-comp-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre le sens général d’un texte entendu ou lu » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-comp-02",
+      "vers": "fr-fr-ce1-comp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer un mot inconnu dans un texte et chercher son sens » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-comp-03",
+      "vers": "fr-fr-ce1-comp-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Relier un nom aux mots qui le reprennent dans un texte » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-comp-04",
+      "vers": "fr-fr-ce1-comp-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre ce qui n’est pas écrit : les inférences simples » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-comp-05",
+      "vers": "fr-fr-ce1-comp-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Justifier ses réponses en retournant au texte » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-comp-06",
+      "vers": "fr-fr-ce1-comp-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire et comprendre seul un texte d’une dizaine de lignes » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-lect-01",
+      "vers": "fr-fr-ce1-lect-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Découvrir 5 à 10 œuvres complètes et variées dans l’année » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-lect-01",
+      "vers": "fr-fr-ce1-lect-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Au CP, il a appris à différencier un texte qui raconte d’un texte qui informe"
+    },
+    {
+      "de": "fr-fr-cp-lect-02",
+      "vers": "fr-fr-ce1-lect-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Reconnaître les personnages types (loup, fée, sorcière) aide à reconnaître un conte"
+    },
+    {
+      "de": "fr-fr-cp-lect-03",
+      "vers": "fr-fr-ce1-lect-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Aller vers les livres et en choisir un pour soi » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-lect-04",
+      "vers": "fr-fr-ce1-lect-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Relier ses lectures entre elles et à sa propre expérience » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-curs-02",
+      "vers": "fr-fr-ce1-curs-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Il faut savoir enchaîner les lettres cursives avec fluidité, appris au CP"
+    },
+    {
+      "de": "fr-fr-cp-cop-02",
+      "vers": "fr-fr-ce1-curs-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Au CP, il transforme déjà en cursive un mot puis une phrase écrits en script"
+    },
+    {
+      "de": "fr-fr-cp-curs-01",
+      "vers": "fr-fr-ce1-curs-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Écrire en cursive chaque graphème appris en lecture » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-curs-02",
+      "vers": "fr-fr-ce1-curs-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "La forme, la taille et l’enchaînement des minuscules cursives appris au CP servent de base aux majuscules"
+    },
+    {
+      "de": "fr-fr-cp-dict-03",
+      "vers": "fr-fr-ce1-dict-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Écrire sous la dictée des mots et des phrases » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-cop-03",
+      "vers": "fr-fr-ce1-copie-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Utiliser des stratégies de copie au-delà de la copie lettre à lettre » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-cop-05",
+      "vers": "fr-fr-ce1-copie-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Copier trois ou quatre phrases sans erreur et lisiblement » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-prod-04",
+      "vers": "fr-fr-ce1-prod-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Transformer un texte lu : écrire à la façon de, ajouter un épisode » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-prod-03",
+      "vers": "fr-fr-ce1-prod-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Les gammes d’écriture du CP (J’ai un chat./J’ai un …) préparent la transformation d’une phrase modèle"
+    },
+    {
+      "de": "fr-fr-cp-prod-03",
+      "vers": "fr-fr-ce1-prod-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Produire un court écrit d’une à cinq lignes » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-phr-01",
+      "vers": "fr-fr-ce1-prod-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Il faut savoir qu’une phrase commence par une majuscule et finit par un point, appris au CP"
+    },
+    {
+      "de": "fr-fr-cp-dire-01",
+      "vers": "fr-fr-ce1-prod-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Il utilise déjà à l’oral au CP des connecteurs comme parce que, alors, ensuite"
+    },
+    {
+      "de": "fr-fr-cp-prod-04",
+      "vers": "fr-fr-ce1-prod-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Transformer un texte lu : écrire à la façon de, ajouter un épisode » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-prod-05",
+      "vers": "fr-fr-ce1-prod-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme demande de continuer au CE1 la méthode de production écrite commencée au CP"
+    },
+    {
+      "de": "fr-fr-cp-prod-06",
+      "vers": "fr-fr-ce1-prod-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer ce qui ne va pas dans son texte et le reprendre » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-ecou-01",
+      "vers": "fr-fr-ce1-ecou-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre un message oral de quelques minutes et en retenir l’essentiel » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-ecou-01",
+      "vers": "fr-fr-ce1-ecou-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre un message oral de quelques minutes et en retenir l’essentiel » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-dire-01",
+      "vers": "fr-fr-ce1-dire-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Raconter, décrire ou expliquer brièvement à l’oral » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-dire-02",
+      "vers": "fr-fr-ce1-dire-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « S’écouter et reformuler pour mieux se faire comprendre » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-dire-03",
+      "vers": "fr-fr-ce1-dire-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dire un poème ou un texte appris en tenant compte de son public » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-ech-01",
+      "vers": "fr-fr-ce1-ech-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Participer à un échange en respectant les règles et donner son avis » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-ech-02",
+      "vers": "fr-fr-ce1-ech-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre qu’on ne parle pas de la même façon selon les situations » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-enr-01",
+      "vers": "fr-fr-ce1-enr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Enrichir en contexte le vocabulaire appris en maternelle » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-rel-01",
+      "vers": "fr-fr-ce1-enr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": false,
+      "raison": "Le programme demande d’enrichir au CE1 les répertoires de mots constitués au CP"
+    },
+    {
+      "de": "fr-fr-cp-rel-04",
+      "vers": "fr-fr-ce1-enr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Trouver des synonymes et des contraires » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-rel-02",
+      "vers": "fr-fr-ce1-enr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Rapprocher les mots d’une même famille » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-enr-01",
+      "vers": "fr-fr-ce1-enr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Au CP, il a commencé à comprendre le sens des affixes dé-, re-, in-, -eur, -ier, -ette"
+    },
+    {
+      "de": "fr-fr-cp-enr-03",
+      "vers": "fr-fr-ce1-enr-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Utiliser l’ordre alphabétique pour chercher dans un dictionnaire » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-rel-03",
+      "vers": "fr-fr-ce1-rel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Classer des mots et expliquer son classement » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-reem-03",
+      "vers": "fr-fr-ce1-rel-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Choisir entre deux niveaux de langue selon la situation » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-enr-02",
+      "vers": "fr-fr-ce1-rel-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Percevoir qu’un mot peut avoir plusieurs sens, propre ou figuré » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-rel-02",
+      "vers": "fr-fr-ce1-rel-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Rapprocher les mots d’une même famille » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-reem-02",
+      "vers": "fr-fr-ce1-reem-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Réutiliser les mots appris quand une activité orale ou écrite l’exige » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-rel-04",
+      "vers": "fr-fr-ce1-reem-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Trouver des synonymes et des contraires » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-reem-01",
+      "vers": "fr-fr-ce1-reem-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Le jeu des 7 familles du CP fait déjà passer d’un mot général (fruits) à des mots particuliers"
+    },
+    {
+      "de": "fr-fr-cp-orl-01",
+      "vers": "fr-fr-ce1-orth-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Mémoriser l’orthographe des mots fréquents et réguliers » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-orl-02",
+      "vers": "fr-fr-ce1-orth-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaitre et nommer les accents » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-orl-03",
+      "vers": "fr-fr-ce1-orth-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire et écrire s, c et g selon les lettres qui les entourent » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-orl-05",
+      "vers": "fr-fr-ce1-orth-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Expliquer une lettre muette finale grâce à un mot de la même famille » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-phr-02",
+      "vers": "fr-fr-ce1-phr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Il faut avoir compris au CP que le sujet et le verbe fonctionnent ensemble"
+    },
+    {
+      "de": "fr-fr-cp-phr-03",
+      "vers": "fr-fr-ce1-phr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaitre les trois types de phrases grâce à la ponctuation » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-phr-04",
+      "vers": "fr-fr-ce1-phr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaitre les formes négative et exclamative » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-phr-05",
+      "vers": "fr-fr-ce1-phr-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme demande d’affiner au CE1 les critères de reconnaissance des classes de mots élaborés au CP"
+    },
+    {
+      "de": "fr-fr-cp-org-03",
+      "vers": "fr-fr-ce1-ortg-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer les accords dans le groupe nominal (chaine d’accords) » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-org-04",
+      "vers": "fr-fr-ce1-ortg-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Découvrir le lien entre le sujet et le verbe » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-org-05",
+      "vers": "fr-fr-ce1-ortg-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Observer les formes verbales fréquentes et régulières » (CP)"
+    },
+    {
+      "de": "fr-fr-cp-org-06",
+      "vers": "fr-fr-ce1-ortg-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Conjuguer être et avoir au présent » (CP)"
+    },
+    {
+      "de": "fr-fr-ce1-idm-02",
+      "vers": "fr-fr-ce2-mots-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Décoder toutes les correspondances lettres-sons, y compris les plus complexes » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-idm-04",
+      "vers": "fr-fr-ce2-mots-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Maîtriser les correspondances des sons proches dans tous les types d’écriture » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-lvh-01",
+      "vers": "fr-fr-ce2-mots-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Il faut lire 70 mots par minute en fin de CE1 pour décoder vite un texte nouveau"
+    },
+    {
+      "de": "fr-fr-ce1-idm-06",
+      "vers": "fr-fr-ce2-mots-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître directement les mots courants et lire exactement les mots nouveaux » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-idm-05",
+      "vers": "fr-fr-ce2-mots-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire sans prononcer les lettres muettes » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-lvh-02",
+      "vers": "fr-fr-ce2-voix-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire à voix haute en respectant la ponctuation et les groupes de souffle » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-lvh-03",
+      "vers": "fr-fr-ce2-voix-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire à voix haute de manière expressive » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-comp-01",
+      "vers": "fr-fr-ce2-comp-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dégager le sens global d’un texte lu seul » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-comp-06",
+      "vers": "fr-fr-ce2-comp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire et comprendre seul un texte d’une quinzaine de lignes » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-comp-02",
+      "vers": "fr-fr-ce2-comp-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Trouver le sens d’un mot ou d’une expression inconnus dans un texte » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-comp-03",
+      "vers": "fr-fr-ce2-comp-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Suivre les reprises d’un nom dans un texte (chaîne anaphorique) » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-lect-02",
+      "vers": "fr-fr-ce2-comp-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître les principaux genres de textes » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-comp-04",
+      "vers": "fr-fr-ce2-comp-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre l’implicite d’un texte dans des cas simples » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-comp-05",
+      "vers": "fr-fr-ce2-comp-07",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Justifier ses réponses en revenant au texte » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-comp-06",
+      "vers": "fr-fr-ce2-comp-08",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire et comprendre seul un texte d’une quinzaine de lignes » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-lect-01",
+      "vers": "fr-fr-ce2-lect-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire des œuvres complètes et en parler » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-lect-03",
+      "vers": "fr-fr-ce2-lect-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Choisir et emprunter seul des livres au CE1 prépare la lecture autonome d’œuvres complètes"
+    },
+    {
+      "de": "fr-fr-ce1-lect-02",
+      "vers": "fr-fr-ce2-lect-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître les principaux genres de textes » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-lect-04",
+      "vers": "fr-fr-ce2-lect-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Relier ses lectures entre elles et à sa propre expérience » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-lect-03",
+      "vers": "fr-fr-ce2-lect-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Choisir et emprunter des livres selon ses goûts » (CE1)"
+    },
+    {
+      "de": "fr-fr-cp-lect-05",
+      "vers": "fr-fr-ce2-lect-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Fréquenter des lieux de lecture et rencontrer des acteurs du livre » (CP)"
+    },
+    {
+      "de": "fr-fr-ce1-curs-01",
+      "vers": "fr-fr-ce2-curs-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Tracer toutes les minuscules cursives et transcrire le script en cursive » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-curs-03",
+      "vers": "fr-fr-ce2-curs-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Tracer les majuscules cursives par familles de gestes » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-dict-01",
+      "vers": "fr-fr-ce2-dict-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Orthographier en dictée les mots fréquents, réguliers puis irréguliers » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-idm-04",
+      "vers": "fr-fr-ce2-dict-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Il faut avoir mémorisé au CE1 les graphies des sons proches"
+    },
+    {
+      "de": "fr-fr-ce1-dict-03",
+      "vers": "fr-fr-ce2-dict-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Écrire la marque -nt du pluriel des verbes en dictée » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-copie-03",
+      "vers": "fr-fr-ce2-copie-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Copier sans erreur un texte de plus en plus long » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-copie-02",
+      "vers": "fr-fr-ce2-copie-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Copier vite et sans erreur suppose les stratégies de copie apprises au CE1 (mot à mot, groupe de mots)"
+    },
+    {
+      "de": "fr-fr-ce1-copie-03",
+      "vers": "fr-fr-ce2-copie-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Copier sans erreur un texte de plus en plus long » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-prod-02",
+      "vers": "fr-fr-ce2-prod-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Écrire seul un texte court d’une à trois phrases » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-prod-01",
+      "vers": "fr-fr-ce2-prod-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Écrire une phrase en transformant une phrase modèle » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-prod-07",
+      "vers": "fr-fr-ce2-prod-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Écrire un texte cohérent de six ou sept phrases » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-prod-05",
+      "vers": "fr-fr-ce2-prod-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Il faut savoir préparer son texte au brouillon, appris au CE1"
+    },
+    {
+      "de": "fr-fr-ce1-prod-06",
+      "vers": "fr-fr-ce2-prod-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Relire et améliorer son texte après les retours du professeur » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-ecou-02",
+      "vers": "fr-fr-ce2-ecou-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Récapituler un message entendu en ordonnant les informations » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-ecou-01",
+      "vers": "fr-fr-ce2-ecou-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Écouter activement et réaliser une consigne orale » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-dire-01",
+      "vers": "fr-fr-ce2-dire-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Raconter, décrire, expliquer à l’oral en utilisant tous les temps » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-dire-01",
+      "vers": "fr-fr-ce2-dire-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Raconter, décrire, expliquer à l’oral en utilisant tous les temps » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-dire-03",
+      "vers": "fr-fr-ce2-dire-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Mémoriser et dire des poèmes » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-dire-01",
+      "vers": "fr-fr-ce2-dire-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Il faut savoir prendre la parole devant le groupe en se faisant comprendre, appris au CE1"
+    },
+    {
+      "de": "fr-fr-ce1-ech-01",
+      "vers": "fr-fr-ce2-ech-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Respecter le propos des autres dans un échange en groupe » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-enr-01",
+      "vers": "fr-fr-ce2-enr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme demande d’enrichir au CE2 les répertoires de mots constitués au CP et au CE1"
+    },
+    {
+      "de": "fr-fr-ce1-enr-02",
+      "vers": "fr-fr-ce2-enr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Utiliser des formulations de sens proche pour éviter les répétitions » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-rel-03",
+      "vers": "fr-fr-ce2-enr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre la différence entre sens propre et sens figuré » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-enr-03",
+      "vers": "fr-fr-ce2-enr-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « S’appuyer sur les préfixes et suffixes pour trouver le sens d’un mot » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-enr-04",
+      "vers": "fr-fr-ce2-enr-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Consulter un article de dictionnaire adapté » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-enr-01",
+      "vers": "fr-fr-ce2-rel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Enrichir son vocabulaire de mots moins fréquents et d’expressions » (CE1)"
+    },
+    {
+      "de": "fr-fr-cp-rel-01",
+      "vers": "fr-fr-ce2-rel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": false,
+      "raison": "Le programme demande d’enrichir les collections de mots constituées au début du cycle"
+    },
+    {
+      "de": "fr-fr-cp-rel-04",
+      "vers": "fr-fr-ce2-rel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Il faut savoir trouver des synonymes pour ranger des mots de sens proche du plus faible au plus fort"
+    },
+    {
+      "de": "fr-fr-ce1-rel-01",
+      "vers": "fr-fr-ce2-rel-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Classer les mots du plus général au plus particulier » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-enr-01",
+      "vers": "fr-fr-ce2-rel-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Enrichir son vocabulaire de mots moins fréquents et d’expressions » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-rel-04",
+      "vers": "fr-fr-ce2-rel-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Trier les mots dérivés selon leur préfixe ou leur suffixe » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-reem-01",
+      "vers": "fr-fr-ce2-reem-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Réutiliser les mots appris pour mieux parler et mieux écrire » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-reem-02",
+      "vers": "fr-fr-ce2-reem-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Varier son expression grâce aux synonymes et aux mots génériques » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-ech-02",
+      "vers": "fr-fr-ce2-reem-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Adapter son registre de langue à la situation » (CE1)"
+    },
+    {
+      "de": "fr-fr-cp-reem-01",
+      "vers": "fr-fr-ce2-reem-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Réemployer le vocabulaire appris en maternelle » (CP) : citer de plus en plus vite des mots catégorisés"
+    },
+    {
+      "de": "fr-fr-ce1-orth-01",
+      "vers": "fr-fr-ce2-orth-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Mémoriser l’orthographe des mots fréquents, réguliers et irréguliers » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-orth-02",
+      "vers": "fr-fr-ce2-orth-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Tenir compte des accents » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-orth-04",
+      "vers": "fr-fr-ce2-orth-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Trouver la lettre muette finale grâce à un mot de la même famille » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-orth-01",
+      "vers": "fr-fr-ce2-orth-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Au CE1, il complète déjà des listes de mots dérivés en mémorisant l’affixe : coiffeur/danseur"
+    },
+    {
+      "de": "fr-fr-ce1-phr-01",
+      "vers": "fr-fr-ce2-phr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer le groupe sujet, le verbe et les compléments dans une phrase simple » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-phr-02",
+      "vers": "fr-fr-ce2-phr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître et utiliser les phrases déclaratives, interrogatives et impératives » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-phr-03",
+      "vers": "fr-fr-ce2-phr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître et produire les formes négative et exclamative » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-phr-04",
+      "vers": "fr-fr-ce2-phr-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Différencier et nommer les principales classes de mots » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-phr-04",
+      "vers": "fr-fr-ce2-phr-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Il faut savoir distinguer les classes de mots vues au CE1 pour y ajouter l’adverbe"
+    },
+    {
+      "de": "fr-fr-ce1-prod-02",
+      "vers": "fr-fr-ce2-phr-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Au CE1, il respecte déjà la majuscule et la ponctuation finale forte quand il écrit"
+    },
+    {
+      "de": "fr-fr-ce1-dict-02",
+      "vers": "fr-fr-ce2-ogr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Au CE1, il utilise déjà en dictée les marques -s du pluriel et -e du féminin"
+    },
+    {
+      "de": "fr-fr-ce1-ortg-02",
+      "vers": "fr-fr-ce2-ogr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Identifier la relation entre le sujet et le verbe » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-ortg-04",
+      "vers": "fr-fr-ce2-ogr-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Conjuguer être, avoir et les verbes du 1er groupe au présent » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-ortg-05",
+      "vers": "fr-fr-ce2-ogr-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Conjuguer être, avoir et les verbes du 1er groupe à l’imparfait » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-ortg-06",
+      "vers": "fr-fr-ce2-ogr-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Conjuguer être, avoir et les verbes du 1er groupe au futur » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-ortg-07",
+      "vers": "fr-fr-ce2-ogr-07",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Conjuguer être, avoir et les verbes du 1er groupe au passé composé » (CE1)"
+    },
+    {
+      "de": "fr-fr-ce1-ortg-03",
+      "vers": "fr-fr-ce2-ogr-08",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Trouver le radical, la terminaison et l’infinitif d’un verbe du 1er groupe » (CE1)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "francais-c2": "2026-10-22"
   }

@@ -1,200 +1,224 @@
 {
   "programme": "em-c3",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-em-c3-cha-01",
-      "prerequisiteId": "fr-em-c2-cha-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reproduire un modèle mélodique ou rythmique » (Cycle 2)"
+      "de": "fr-em-c2-cha-01",
+      "vers": "fr-em-c3-cha-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reproduire un modèle mélodique ou rythmique » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-cha-02",
-      "prerequisiteId": "fr-em-c2-cha-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Chanter juste une mélodie simple » (Cycle 2)"
+      "de": "fr-em-c2-cha-02",
+      "vers": "fr-em-c3-cha-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Chanter juste une mélodie simple » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-cha-02",
-      "prerequisiteId": "fr-em-c2-cha-06",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Chanter juste s’appuie sur la respiration, l’articulation et la posture travaillées au cycle 2"
+      "de": "fr-em-c2-cha-06",
+      "vers": "fr-em-c3-cha-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Chanter juste s’appuie sur la respiration, l’articulation et la posture travaillées au cycle 2"
     },
     {
-      "topicId": "fr-em-c3-cha-03",
-      "prerequisiteId": "fr-em-c2-cha-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Apprendre des comptines et des chants par imitation » (Cycle 2)"
+      "de": "fr-em-c2-cha-03",
+      "vers": "fr-em-c3-cha-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Apprendre des comptines et des chants par imitation » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-cha-04",
-      "prerequisiteId": "fr-em-c2-cha-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Interpréter un chant avec expressivité » (Cycle 2)"
+      "de": "fr-em-c2-cha-04",
+      "vers": "fr-em-c3-cha-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Interpréter un chant avec expressivité » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-cha-05",
-      "prerequisiteId": "fr-em-c2-cha-08",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Employer le vocabulaire de la voix : fort, doux, aigu, grave, juste, faux » (Cycle 2)"
+      "de": "fr-em-c2-cha-08",
+      "vers": "fr-em-c3-cha-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Employer le vocabulaire de la voix : fort, doux, aigu, grave, juste, faux » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-cha-06",
-      "prerequisiteId": "fr-em-c2-exp-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Tenir sa partie pendant que d’autres chantent suppose d’écouter les autres et de jouer ensemble (Cycle 2)"
+      "de": "fr-em-c2-exp-04",
+      "vers": "fr-em-c3-cha-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Tenir sa partie pendant que d’autres chantent suppose d’écouter les autres et de jouer ensemble (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-cha-07",
-      "prerequisiteId": "fr-em-c2-cha-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Mobiliser son corps pour interpréter un chant » (Cycle 2)"
+      "de": "fr-em-c2-cha-05",
+      "vers": "fr-em-c3-cha-07",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Mobiliser son corps pour interpréter un chant » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-eco-01",
-      "prerequisiteId": "fr-em-c2-eco-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Décrire et comparer des sons, y compris ceux de la nature » (Cycle 2)"
+      "de": "fr-em-c2-eco-01",
+      "vers": "fr-em-c3-eco-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Décrire et comparer des sons, y compris ceux de la nature » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-eco-01",
-      "prerequisiteId": "fr-em-c2-eco-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Décrire des éléments sonores suppose le lexique élémentaire de la musique (Cycle 2)"
+      "de": "fr-em-c2-eco-04",
+      "vers": "fr-em-c3-eco-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Décrire des éléments sonores suppose le lexique élémentaire de la musique (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-eco-02",
-      "prerequisiteId": "fr-em-c2-eco-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comparer des musiques : ressemblances et différences » (Cycle 2)"
+      "de": "fr-em-c2-eco-03",
+      "vers": "fr-em-c3-eco-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comparer des musiques : ressemblances et différences » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-eco-03",
-      "prerequisiteId": "fr-em-c2-eco-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer une organisation simple dans une musique » (Cycle 2)"
+      "de": "fr-em-c2-eco-02",
+      "vers": "fr-em-c3-eco-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer une organisation simple dans une musique » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-eco-05",
-      "prerequisiteId": "fr-em-c2-eco-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Situer simplement une musique dans l’espace et dans le temps » (Cycle 2)"
+      "de": "fr-em-c2-eco-06",
+      "vers": "fr-em-c3-eco-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Situer simplement une musique dans l’espace et dans le temps » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-eco-06",
-      "prerequisiteId": "fr-em-c2-eco-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Connaître quelques grandes œuvres du patrimoine musical » (Cycle 2)"
+      "de": "fr-em-c2-eco-05",
+      "vers": "fr-em-c3-eco-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Connaître quelques grandes œuvres du patrimoine musical » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-cre-01",
-      "prerequisiteId": "fr-em-c2-exp-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Expérimenter et nommer les paramètres du son » (Cycle 2)"
+      "de": "fr-em-c2-exp-01",
+      "vers": "fr-em-c3-cre-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Expérimenter et nommer les paramètres du son » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-cre-02",
-      "prerequisiteId": "fr-em-c2-exp-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Expérimenter et nommer les paramètres du son » (Cycle 2)"
+      "de": "fr-em-c2-exp-01",
+      "vers": "fr-em-c3-cre-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Expérimenter et nommer les paramètres du son » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-cre-02",
-      "prerequisiteId": "fr-em-c2-exp-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Classer les matériaux sonores suppose d’en avoir exploré la diversité (Cycle 2)"
+      "de": "fr-em-c2-exp-03",
+      "vers": "fr-em-c3-cre-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Classer les matériaux sonores suppose d’en avoir exploré la diversité (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-cre-03",
-      "prerequisiteId": "fr-em-c2-exp-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Représenter la musique par un dessin ou par le corps » (Cycle 2)"
+      "de": "fr-em-c2-exp-02",
+      "vers": "fr-em-c3-cre-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Représenter la musique par un dessin ou par le corps » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-cre-04",
-      "prerequisiteId": "fr-em-c2-exp-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Inventer une organisation simple avec des sons » (Cycle 2)"
+      "de": "fr-em-c2-exp-03",
+      "vers": "fr-em-c3-cre-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Inventer une organisation simple avec des sons » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-cre-05",
-      "prerequisiteId": "fr-em-c2-exp-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Proposer ses idées en respectant celles des autres prolonge la posture du musicien (Cycle 2)"
+      "de": "fr-em-c2-exp-04",
+      "vers": "fr-em-c3-cre-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Proposer ses idées en respectant celles des autres prolonge la posture du musicien (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-ech-01",
-      "prerequisiteId": "fr-em-c2-ech-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Exprimer ses émotions et ses préférences musicales » (Cycle 2)"
+      "de": "fr-em-c2-ech-01",
+      "vers": "fr-em-c3-ech-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Exprimer ses émotions et ses préférences musicales » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-ech-02",
-      "prerequisiteId": "fr-em-c2-ech-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Écouter et respecter l’avis et la sensibilité des autres » (Cycle 2)"
+      "de": "fr-em-c2-ech-02",
+      "vers": "fr-em-c3-ech-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Écouter et respecter l’avis et la sensibilité des autres » (Cycle 2)"
     },
     {
-      "topicId": "fr-em-c3-ech-03",
-      "prerequisiteId": "fr-em-c2-ech-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Argumenter suppose le vocabulaire pour exprimer son avis acquis au cycle 2"
+      "de": "fr-em-c2-ech-01",
+      "vers": "fr-em-c3-ech-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Argumenter suppose le vocabulaire pour exprimer son avis acquis au cycle 2"
     },
     {
-      "topicId": "fr-em-c3-ech-05",
-      "prerequisiteId": "fr-em-c2-ech-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Respecter les règles d’une production musicale collective » (Cycle 2)"
+      "de": "fr-em-c2-ech-03",
+      "vers": "fr-em-c3-ech-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Respecter les règles d’une production musicale collective » (Cycle 2)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "em-c2": "2026-10-23",
     "em-c3": "2026-10-23"

@@ -1,7 +1,7 @@
 {
   "programme": "francais-c2",
-  "level": "CE2",
-  "themeCodes": {
+  "classe": "CE2",
+  "codesThemes": {
     "mots": "Identifier les mots de manière de plus en plus aisée",
     "voix": "Lire à voix haute",
     "comp": "Comprendre un texte",
@@ -24,29 +24,27 @@
     {
       "id": "fr-fr-ce2-mots-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Identifier les mots de manière de plus en plus aisée",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Identifier les mots de manière de plus en plus aisée",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Avoir automatisé toutes les correspondances entre lettres et sons",
+      "nom": "Avoir automatisé toutes les correspondances entre lettres et sons",
       "description": "Connaître par cœur et sans effort toutes les façons d’écrire les sons (les « correspondances graphème-phonème », ou CGP), y compris les plus complexes, pour ne plus avoir à réfléchir quand on déchiffre un mot.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Avoir automatisé toutes les correspondances graphophonémiques (CGP)."
       ],
-      "evidence": [
+      "criteres": [
         "Utilise la voie graphophonologique (le déchiffrage lettres-sons) pour lire des mots inconnus en conservant une fluidité de lecture."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait lire sans hésiter un mot qu’il n’a jamais vu, même s’il contient des sons complexes, en s’appuyant sur les lettres et les sons ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait lire sans hésiter un mot qu’il n’a jamais vu, même s’il contient des sons complexes, en s’appuyant sur les lettres et les sons ?",
+      "acquisAnterieurs": [
         "Décoder toutes les CGP, y compris les plus complexes (CE1)",
         "Avoir mémorisé l’ensemble des CGP dans tous les types d’écriture, en particulier celles des sons proches (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 7,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -55,31 +53,29 @@
     {
       "id": "fr-fr-ce2-mots-02",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Identifier les mots de manière de plus en plus aisée",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Identifier les mots de manière de plus en plus aisée",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Lire un texte nouveau grâce à un décodage rapide",
+      "nom": "Lire un texte nouveau grâce à un décodage rapide",
       "description": "Lire un texte jamais vu sans ralentir : les mots inconnus sont déchiffrés assez vite pour garder le rythme visé en fin d’année (90 mots par minute).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Lire un texte nouveau en s’appuyant sur un décodage rapide.",
         "Repérer les lettres muettes et décoder les mots inconnus en conservant une vitesse de lecture correspondant aux objectifs de fin d’année."
       ],
-      "evidence": [
+      "criteres": [
         "Lit un texte qu’il découvre avec fluidité, en s’appuyant sur un décodage rapide.",
         "Décode les mots inconnus en conservant une vitesse de lecture conforme à l’objectif de fin d’année (90 mots par minute)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait lire à voix haute un texte qu’il découvre, sans ralentir nettement quand il rencontre un mot inconnu ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait lire à voix haute un texte qu’il découvre, sans ralentir nettement quand il rencontre un mot inconnu ?",
+      "acquisAnterieurs": [
         "Déchiffrer avec exactitude les mots nouveaux dont le décodage n’a pas encore été automatisé (CE1)",
         "Lire un texte adapté à son niveau à 70 mots par minute (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 7,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -88,28 +84,26 @@
     {
       "id": "fr-fr-ce2-mots-03",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Identifier les mots de manière de plus en plus aisée",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Identifier les mots de manière de plus en plus aisée",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Reconnaître directement les mots fréquents et irréguliers",
+      "nom": "Reconnaître directement les mots fréquents et irréguliers",
       "description": "Lire d’un coup d’œil, sans les déchiffrer, les mots que l’on rencontre souvent, y compris ceux qui ne se lisent pas comme ils s’écrivent.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Automatiser la lecture des mots."
       ],
-      "evidence": [
+      "criteres": [
         "Reconnait directement, sans les déchiffrer, les mots fréquents et irréguliers."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} reconnait d’un coup d’œil, sans les déchiffrer, des mots fréquents comme « aujourd’hui » ou « monsieur » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} reconnait d’un coup d’œil, sans les déchiffrer, des mots fréquents comme « aujourd’hui » ou « monsieur » ?",
+      "acquisAnterieurs": [
         "Identifier directement l’ensemble des mots courants (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 7,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -118,30 +112,28 @@
     {
       "id": "fr-fr-ce2-mots-04",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Identifier les mots de manière de plus en plus aisée",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Identifier les mots de manière de plus en plus aisée",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Repérer les lettres muettes et ne pas les prononcer en lisant",
+      "nom": "Repérer les lettres muettes et ne pas les prononcer en lisant",
       "description": "Savoir qu’une lettre écrite ne se prononce pas toujours (le -nt de « ils jouent », le -s du pluriel…) et lire le texte de façon fluide sans les faire entendre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Repérer les lettres muettes et décoder les mots inconnus en conservant une vitesse de lecture correspondant aux objectifs de fin d’année."
       ],
-      "evidence": [
+      "criteres": [
         "Repère les lettres muettes dans les mots qu’il lit.",
         "Lit un texte avec fluidité sans vocaliser les lettres muettes."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} lit « Les enfants jouent au ballon » sans prononcer les lettres muettes (le -s de « enfants », le -nt de « jouent ») ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} lit « Les enfants jouent au ballon » sans prononcer les lettres muettes (le -s de « enfants », le -nt de « jouent ») ?",
+      "acquisAnterieurs": [
         "Lire des phrases contenant des morphèmes grammaticaux et lexicaux muets (ils chantent, le lait) sans vocaliser les lettres muettes (CE1)",
         "Avoir pris conscience de la présence de lettres finales muettes (CP)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 7,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -150,29 +142,27 @@
     {
       "id": "fr-fr-ce2-voix-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Lire à voix haute",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Lire à voix haute",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Lire à voix haute à 90 mots par minute",
+      "nom": "Lire à voix haute à 90 mots par minute",
       "description": "Lire à voix haute un texte adapté à son niveau à la vitesse de 90 mots par minute en fin de CE2. Cette « fluence » est mesurée régulièrement en classe : c’est le signe que la lecture devient automatique.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Lire un texte adapté à son niveau de lecture avec une vitesse de 90 mots par minute."
       ],
-      "evidence": [
+      "criteres": [
         "Lit à voix haute un texte adapté à son niveau de lecture à une vitesse de 90 mots par minute (objectif de fin d’année)."
       ],
-      "period": "fin d’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait lire à voix haute, en une minute, environ 90 mots d’un texte adapté à son niveau ?",
-      "priorKnowledge": [
+      "periode": "fin d’année",
+      "question": "Est-ce que {{prenom}} sait lire à voix haute, en une minute, environ 90 mots d’un texte adapté à son niveau ?",
+      "acquisAnterieurs": [
         "Lire un texte adapté à son niveau de lecture avec une vitesse de 70 mots par minute (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 7,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -181,29 +171,27 @@
     {
       "id": "fr-fr-ce2-voix-02",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Lire à voix haute",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Lire à voix haute",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Lire à voix haute en respectant la ponctuation et les liaisons",
+      "nom": "Lire à voix haute en respectant la ponctuation et les liaisons",
       "description": "En lisant à voix haute, marquer les pauses et les intonations indiquées par tous les signes de ponctuation (points, virgules, points d’interrogation…) et faire les liaisons entre les mots.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Lire un texte en respectant l’ensemble des marques de ponctuation et les liaisons."
       ],
-      "evidence": [
+      "criteres": [
         "Lit un texte en respectant l’ensemble des marques de ponctuation.",
         "Fait les liaisons appropriées en lisant un texte avec fluidité."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} marque les pauses aux points et aux virgules, et fait les liaisons (« les‿enfants »), quand il lit un texte à voix haute ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} marque les pauses aux points et aux virgules, et fait les liaisons (« les‿enfants »), quand il lit un texte à voix haute ?",
+      "acquisAnterieurs": [
         "Lire des textes narratifs, documentaires et prescriptifs en respectant tous les signes de ponctuation et les groupes de souffle (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 7,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -212,29 +200,27 @@
     {
       "id": "fr-fr-ce2-voix-03",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Lire à voix haute",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Lire à voix haute",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Lire de façon expressive pour montrer qu’on a compris",
+      "nom": "Lire de façon expressive pour montrer qu’on a compris",
       "description": "Adapter sa voix, son ton et son rythme au sens du texte, par exemple en jouant un personnage dans une scène de théâtre. Une lecture expressive montre que l’enfant a compris ce qu’il lit.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Manifester sa compréhension par une lecture expressive qui respecte la structure du texte, de la phrase et le sens."
       ],
-      "evidence": [
+      "criteres": [
         "Lit une scène de théâtre en incarnant un personnage et en jouant de l’expressivité de la ponctuation.",
         "Respecte par sa lecture la structure du texte, de la phrase et le sens."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait lire une scène de théâtre en jouant un personnage, avec le ton qui convient aux questions et aux exclamations ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait lire une scène de théâtre en jouant un personnage, avec le ton qui convient aux questions et aux exclamations ?",
+      "acquisAnterieurs": [
         "Lire de manière expressive, en adoptant le ton et le rythme appropriés au sens du texte (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 7,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -243,32 +229,30 @@
     {
       "id": "fr-fr-ce2-comp-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Comprendre un texte",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Comprendre un texte",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Comprendre un récit lu seul ou lu par un adulte",
+      "nom": "Comprendre un récit lu seul ou lu par un adulte",
       "description": "Comprendre une histoire (ou un poème, une pièce de théâtre), qu’il la lise seul ou qu’on la lui lise : savoir ce qui se passe et dans quel ordre, où, avec quels personnages, et pouvoir la résumer.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Lire et dégager le sens d’un texte narratif, poétique, documentaire ou théâtral, lu en autonomie ou lu par un adulte en s’appuyant sur les caractéristiques de ces textes."
       ],
-      "evidence": [
+      "criteres": [
         "Restitue les enchainements logiques et chronologiques d’un récit.",
         "Identifie les évènements, les personnages et les lieux évoqués dans un récit.",
         "Donne un titre au texte.",
         "Résume le texte oralement."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter dans l’ordre une histoire qu’il vient de lire, en citant les personnages et les lieux, puis lui trouver un titre ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait raconter dans l’ordre une histoire qu’il vient de lire, en citant les personnages et les lieux, puis lui trouver un titre ?",
+      "acquisAnterieurs": [
         "Dégager le sens global d’un texte lu de façon autonome et restituer les enchainements logiques et chronologiques d’un récit (CE1)",
         "Donner un titre au texte et le résumer oralement (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 7,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -277,31 +261,29 @@
     {
       "id": "fr-fr-ce2-comp-02",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Comprendre un texte",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Comprendre un texte",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Comprendre un texte documentaire et dire ce qu’il apprend",
+      "nom": "Comprendre un texte documentaire et dire ce qu’il apprend",
       "description": "Lire un texte qui informe (en sciences, en histoire…) et dire ce qu’on y a appris, en s’aidant des titres, des sous-titres et des paragraphes.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Lire et dégager le sens d’un texte narratif, poétique, documentaire ou théâtral, lu en autonomie ou lu par un adulte en s’appuyant sur les caractéristiques de ces textes."
       ],
-      "evidence": [
+      "criteres": [
         "Repère les informations données dans un texte informatif simple relevant des différents champs disciplinaires.",
         "Verbalise ce que la lecture lui a permis d’apprendre.",
         "Utilise les sous-titres, titres de chapitres, mise en page en paragraphes, etc. pour mieux comprendre."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qu’il a appris dans un court texte documentaire, en s’aidant des titres et des sous-titres ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire ce qu’il a appris dans un court texte documentaire, en s’aidant des titres et des sous-titres ?",
+      "acquisAnterieurs": [
         "Repérer les informations données dans un texte informatif simple (CP)",
         "Lire et comprendre en autonomie un texte informatif d’une quinzaine de lignes (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 7,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -310,29 +292,27 @@
     {
       "id": "fr-fr-ce2-comp-03",
       "programme": "francais-c2",
-      "type": "META",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Comprendre un texte",
-      "level": "CE2",
+      "nature": "stratégie",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Comprendre un texte",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Chercher activement le sens des mots inconnus",
+      "nom": "Chercher activement le sens des mots inconnus",
       "description": "Ne pas passer à côté d’un mot inconnu : l’enfant cherche son sens grâce au reste de la phrase, à la forme du mot (préfixes, suffixes) ou au dictionnaire.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Adopter une posture active par rapport au vocabulaire inconnu."
       ],
-      "evidence": [
+      "criteres": [
         "Prend appui sur le contexte et sur la morphologie (sens des principaux affixes) pour élucider le sens des mots inconnus.",
         "Recherche dans le dictionnaire un mot qui l’empêche de comprendre."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver le sens d’un mot inconnu à l’aide de la phrase, du début ou de la fin du mot, ou du dictionnaire ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait trouver le sens d’un mot inconnu à l’aide de la phrase, du début ou de la fin du mot, ou du dictionnaire ?",
+      "acquisAnterieurs": [
         "Développer des stratégies pour élucider le sens des mots et des expressions inconnus : morphologie, contexte, dictionnaire adapté (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 7,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -341,29 +321,27 @@
     {
       "id": "fr-fr-ce2-comp-04",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Comprendre un texte",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Comprendre un texte",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Suivre les différentes façons de nommer un personnage dans un texte",
+      "nom": "Suivre les différentes façons de nommer un personnage dans un texte",
       "description": "Comprendre qu’un même personnage peut être désigné de plusieurs façons dans un texte (le lion, il, le félin, le roi de la savane) : c’est la « chaîne anaphorique ». Quand c’est ambigu, l’enfant s’appuie sur le sens pour savoir de qui on parle.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Se repérer dans la chaine anaphorique (qui relie un nom à sa ou ses reprise(s) pronominale(s) ou à d’autres noms de sens équivalent) et s’appuyer sur le sens du texte pour résoudre des ambigüités."
       ],
-      "evidence": [
+      "criteres": [
         "Relie un nom à ses reprises dans le texte, par un pronom ou par d’autres noms de sens équivalent.",
         "Poursuit la lecture dans le but de lever des ambigüités."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, dans un texte sur le lion, qui désignent « il », « le félin » ou « le roi de la savane » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire, dans un texte sur le lion, qui désignent « il », « le félin » ou « le roi de la savane » ?",
+      "acquisAnterieurs": [
         "Se repérer dans la chaine anaphorique et s’appuyer sur le sens du texte pour résoudre des ambigüités (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 7,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -372,29 +350,27 @@
     {
       "id": "fr-fr-ce2-comp-05",
       "programme": "francais-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Comprendre un texte",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Comprendre un texte",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Distinguer un texte narratif, informatif ou prescriptif",
+      "nom": "Distinguer un texte narratif, informatif ou prescriptif",
       "description": "Savoir reconnaître si un texte raconte une histoire (narratif), donne des informations (informatif, comme un documentaire) ou explique comment faire (prescriptif, comme une recette ou une règle du jeu).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Différencier le type narratif du type informatif et prescriptif."
       ],
-      "evidence": [
+      "criteres": [
         "Différencie un texte qui raconte (narratif), un texte qui informe (informatif) et un texte qui dit comment faire (prescriptif)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si un texte est une histoire, un documentaire ou un texte qui explique comment faire, comme une recette ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire si un texte est une histoire, un documentaire ou un texte qui explique comment faire, comme une recette ?",
+      "acquisAnterieurs": [
         "Différencier le type narratif du type informatif (CP)",
         "Se familiariser aux différents genres et types de textes (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 7,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -403,30 +379,28 @@
     {
       "id": "fr-fr-ce2-comp-06",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Comprendre un texte",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Comprendre un texte",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Comprendre ce que le texte ne dit pas directement (inférences)",
+      "nom": "Comprendre ce que le texte ne dit pas directement (inférences)",
       "description": "Comprendre ce qui est sous-entendu en rapprochant des indices du texte et ce que l’on sait déjà, par exemple deviner ce que ressent un personnage et pourquoi, puis expliquer comment on l’a compris.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre ce qui est implicite (inférences) en s’appuyant sur des indices explicites et sur ses propres connaissances."
       ],
-      "evidence": [
+      "criteres": [
         "Explicite les inférences qu’il fait.",
         "Explicite les émotions et ressorts psychologiques des personnages."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce que ressent un personnage et pourquoi, même quand le texte ne le dit pas directement ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer ce que ressent un personnage et pourquoi, même quand le texte ne le dit pas directement ?",
+      "acquisAnterieurs": [
         "Comprendre ce qui est implicite dans le texte (inférences) dans des cas simples et expliciter son raisonnement pour inférer (CE1)",
         "Expliciter les émotions des personnages (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 8,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -435,31 +409,29 @@
     {
       "id": "fr-fr-ce2-comp-07",
       "programme": "francais-c2",
-      "type": "META",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Comprendre un texte",
-      "level": "CE2",
+      "nature": "stratégie",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Comprendre un texte",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Revenir au texte quand on ne comprend pas un passage",
+      "nom": "Revenir au texte quand on ne comprend pas un passage",
       "description": "Quand il ne comprend pas, l’enfant relit la phrase ou le paragraphe, continue sa lecture ou cherche de l’aide (dictionnaire, outils de la classe). Il vérifie aussi sa compréhension en discutant avec ses camarades.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Revenir au texte pour identifier et comprendre les éléments complexes."
       ],
-      "evidence": [
+      "criteres": [
         "Relit la phrase ou le paragraphe, ou poursuit la lecture, quand il prend conscience qu’il ne comprend pas.",
         "Recourt au dictionnaire, aux outils constitués en étude de la langue ou à une recherche documentaire sur l’univers du texte.",
         "Vérifie sa compréhension dans des échanges entre pairs et commence à la réviser, le cas échéant, en retournant au texte."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} pense à relire la phrase ou le paragraphe quand il ne comprend pas un passage ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} pense à relire la phrase ou le paragraphe quand il ne comprend pas un passage ?",
+      "acquisAnterieurs": [
         "Justifier ses réponses par un retour au texte (CE1)",
         "Relire en autonomie un texte ou un passage pour mieux le comprendre, rechercher et repérer une information (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 8,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -468,29 +440,27 @@
     {
       "id": "fr-fr-ce2-comp-08",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Comprendre un texte",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Comprendre un texte",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Lire et comprendre seul un texte d’une vingtaine de lignes",
+      "nom": "Lire et comprendre seul un texte d’une vingtaine de lignes",
       "description": "Lire seul, à voix haute ou en silence, un texte d’une vingtaine de lignes (histoire, documentaire ou texte qui explique comment faire) et le comprendre sans l’aide de l’adulte.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Lire et comprendre en autonomie un texte narratif, informatif ou prescriptif d’une vingtaine de lignes."
       ],
-      "evidence": [
+      "criteres": [
         "Lit en autonomie un texte narratif, informatif ou prescriptif d’une vingtaine de lignes.",
         "Restitue l’essentiel du texte lu seul : enchainements d’un récit ou informations d’un texte informatif."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait lire seul un texte d’une vingtaine de lignes et raconter ensuite ce qu’il a compris ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait lire seul un texte d’une vingtaine de lignes et raconter ensuite ce qu’il a compris ?",
+      "acquisAnterieurs": [
         "Lire et comprendre en autonomie un texte narratif, informatif ou prescriptif d’une quinzaine de lignes (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 8,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -499,31 +469,29 @@
     {
       "id": "fr-fr-ce2-lect-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Devenir lecteur",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Devenir lecteur",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Lire seul 5 à 10 œuvres complètes dans l’année",
+      "nom": "Lire seul 5 à 10 œuvres complètes dans l’année",
       "description": "Lire seul, au cours de l’année, 5 à 10 livres entiers et variés (contes, fables, albums, romans, poèmes, pièces de théâtre, documentaires), notamment de grands textes du patrimoine, et garder une trace de ses lectures dans un carnet de lecteur.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Lire de manière autonome 5 à 10 œuvres complètes et variées issues du patrimoine et de la littérature de jeunesse (albums, romans, contes, fables, poèmes, pièces de théâtre et documentaires)."
       ],
-      "evidence": [
+      "criteres": [
         "Lit de manière autonome 5 à 10 œuvres complètes et variées dans l’année.",
         "Partage une culture commune autour de textes patrimoniaux adaptés à son âge.",
         "Consigne ses expériences de lecture dans un carnet de lecteur."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} a lu seul cette année plusieurs livres entiers (contes, fables, romans…) et en garde une trace dans un carnet de lecteur ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} a lu seul cette année plusieurs livres entiers (contes, fables, romans…) et en garde une trace dans un carnet de lecteur ?",
+      "acquisAnterieurs": [
         "Lire 5 à 10 œuvres complètes et variées issues du patrimoine et de la littérature de jeunesse (CE1)",
         "Faire preuve d’initiative dans ses lectures personnelles en empruntant des livres en fonction de ses gouts (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 8,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -532,30 +500,28 @@
     {
       "id": "fr-fr-ce2-lect-02",
       "programme": "francais-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Devenir lecteur",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Devenir lecteur",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Reconnaître les genres : poésie, théâtre, récit policier ou d’aventure",
+      "nom": "Reconnaître les genres : poésie, théâtre, récit policier ou d’aventure",
       "description": "Savoir distinguer les grands genres de textes (poème, pièce de théâtre, récit policier, récit d’aventure…) et connaître les personnages-types que l’on y retrouve souvent.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Lire de manière autonome 5 à 10 œuvres complètes et variées issues du patrimoine et de la littérature de jeunesse (albums, romans, contes, fables, poèmes, pièces de théâtre et documentaires)."
       ],
-      "evidence": [
+      "criteres": [
         "Différencie les caractéristiques des genres et types les plus courants : poésie, théâtre, récit (policier, d’aventure, etc.).",
         "Connait les caractéristiques de personnages-types de plus en plus diversifiés."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si un texte est un poème, une pièce de théâtre ou un récit, et reconnaître un récit policier ou d’aventure ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire si un texte est un poème, une pièce de théâtre ou un récit, et reconnaître un récit policier ou d’aventure ?",
+      "acquisAnterieurs": [
         "Reconnaitre, lors des lectures orales d’un adulte, les grandes caractéristiques d’un texte : conte, fable, poème (CE1)",
         "Repérer et reconnaitre des types de personnages (CP)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 8,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -564,29 +530,27 @@
     {
       "id": "fr-fr-ce2-lect-03",
       "programme": "francais-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Devenir lecteur",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Devenir lecteur",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Relier ses lectures entre elles et à sa propre expérience",
+      "nom": "Relier ses lectures entre elles et à sa propre expérience",
       "description": "Faire des liens entre les livres lus (mêmes personnages, même thème…) et avec ce qu’on a soi-même vécu : c’est la « mise en réseau ». L’enfant en parle quand on lui pose des questions ouvertes sur ses lectures.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Relier ses lectures à son expérience personnelle, être en mesure d’établir des liens entre ses différentes lectures (mise en réseau)."
       ],
-      "evidence": [
+      "criteres": [
         "Dispose de références construites sur des réseaux de textes.",
         "Répond à des questions ouvertes du professeur ou de pairs."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire à quel autre livre lui fait penser une histoire, ou à quel moment de sa propre vie ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire à quel autre livre lui fait penser une histoire, ou à quel moment de sa propre vie ?",
+      "acquisAnterieurs": [
         "Relier ses lectures à son expérience personnelle et établir des liens entre ses différentes lectures (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 8,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -595,28 +559,26 @@
     {
       "id": "fr-fr-ce2-lect-04",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Lecture",
-      "subdomain": "Devenir lecteur",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Lecture",
+      "sousDomaine": "Devenir lecteur",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Fréquenter des lieux de lecture et rencontrer des acteurs du livre",
+      "nom": "Fréquenter des lieux de lecture et rencontrer des acteurs du livre",
       "description": "Aller régulièrement à la bibliothèque, à la médiathèque ou au coin lecture de la classe, et rencontrer des personnes qui font vivre les livres (auteurs, illustrateurs, bibliothécaires…).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Fréquenter des lieux de lecture régulièrement et rencontrer des acteurs du livre."
       ],
-      "evidence": [
+      "criteres": [
         "Lit en classe et fréquente des lieux de lecture : médiathèque, bibliothèque, BCD, espace aménagé dans la classe."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} va régulièrement à la bibliothèque ou à la médiathèque pour lire ou emprunter des livres ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} va régulièrement à la bibliothèque ou à la médiathèque pour lire ou emprunter des livres ?",
+      "acquisAnterieurs": [
         "Se familiariser avec les lieux de lecture et développer une autonomie dans le choix de ses lectures (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 8,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -625,30 +587,28 @@
     {
       "id": "fr-fr-ce2-curs-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Écriture",
-      "subdomain": "Apprendre à écrire en écriture cursive",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Écriture",
+      "sousDomaine": "Apprendre à écrire en écriture cursive",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Écrire avec aisance toutes les lettres cursives, minuscules et majuscules",
+      "nom": "Écrire avec aisance toutes les lettres cursives, minuscules et majuscules",
       "description": "Écrire en lettres attachées (écriture cursive) toutes les minuscules et toutes les majuscules, de façon fluide et sans avoir à réfléchir au tracé, dès le début de l’année.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Automatiser l’écriture de toutes les lettres minuscules et majuscules en cursive."
       ],
-      "evidence": [
+      "criteres": [
         "Écrit et transcrit avec fluidité toutes les lettres cursives minuscules et majuscules."
       ],
-      "period": "dès la période 1",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire en lettres attachées toutes les majuscules et les minuscules, sans hésiter sur le tracé ?",
-      "priorKnowledge": [
+      "periode": "dès la période 1",
+      "question": "Est-ce que {{prenom}} sait écrire en lettres attachées toutes les majuscules et les minuscules, sans hésiter sur le tracé ?",
+      "acquisAnterieurs": [
         "Mémoriser le tracé normé de toutes les lettres minuscules cursives (CE1)",
         "Apprendre le tracé normé des lettres majuscules cursives par familles de gestes (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 12,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -657,31 +617,29 @@
     {
       "id": "fr-fr-ce2-dict-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Écriture",
-      "subdomain": "Encoder puis écrire sous dictée",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Écriture",
+      "sousDomaine": "Encoder puis écrire sous dictée",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Écrire en dictée les sons qui ont plusieurs graphies (/o/, /é/, /è/, /an/, /s/)",
+      "nom": "Écrire en dictée les sons qui ont plusieurs graphies (/o/, /é/, /è/, /an/, /s/)",
       "description": "En dictée, choisir la bonne façon d’écrire un son qui peut s’écrire de plusieurs manières (par exemple /o/ : o, au, eau) dans les mots fréquents, réguliers et irréguliers.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Orthographier correctement les mots fréquents, réguliers et irréguliers et des phrases selon les accords étudiés dans le cadre de dictées."
       ],
-      "evidence": [
+      "criteres": [
         "Transcrit correctement les phonèmes pouvant s’écrire à l’aide de plusieurs graphèmes (/o/, /é/, /è/, /an/, /s/, etc.) dans différents mots fréquents.",
         "Réalise des dictées en lien avec l’étude de la langue en mobilisant diverses connaissances enseignées."
       ],
-      "period": "fin d’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire correctement en dictée des mots fréquents où le son /o/, /é/, /è/, /an/ ou /s/ peut s’écrire de plusieurs façons ?",
-      "priorKnowledge": [
+      "periode": "fin d’année",
+      "question": "Est-ce que {{prenom}} sait écrire correctement en dictée des mots fréquents où le son /o/, /é/, /è/, /an/ ou /s/ peut s’écrire de plusieurs façons ?",
+      "acquisAnterieurs": [
         "Avoir mémorisé l’ensemble des CGP, en particulier celles des sons proches, en encodage et en décodage (CE1)",
         "Orthographier correctement les mots fréquents, réguliers puis irréguliers (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 12,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -690,29 +648,27 @@
     {
       "id": "fr-fr-ce2-dict-02",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Écriture",
-      "subdomain": "Encoder puis écrire sous dictée",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Écriture",
+      "sousDomaine": "Encoder puis écrire sous dictée",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Écrire des phrases dictées en faisant les accords étudiés",
+      "nom": "Écrire des phrases dictées en faisant les accords étudiés",
       "description": "En dictée, écrire des phrases en respectant les accords appris : accords dans le groupe du nom (les petits garçons) et accord du verbe avec son sujet (ils veulent). Une dictée est faite chaque jour en lien avec ce qui est étudié.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Orthographier correctement les mots fréquents, réguliers et irréguliers et des phrases selon les accords étudiés dans le cadre de dictées."
       ],
-      "evidence": [
+      "criteres": [
         "Orthographie les chaines d’accord dans la phrase lors des dictées."
       ],
-      "period": "fin d’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire en dictée « Les petits garçons veulent boire un chocolat. » avec tous les accords ?",
-      "priorKnowledge": [
+      "periode": "fin d’année",
+      "question": "Est-ce que {{prenom}} sait écrire en dictée « Les petits garçons veulent boire un chocolat. » avec tous les accords ?",
+      "acquisAnterieurs": [
         "Réaliser des accords en genre et en nombre dans le groupe nominal (article, nom, adjectif) et dans le groupe verbal (marque de pluriel des verbes = nt) (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 12,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -721,32 +677,30 @@
     {
       "id": "fr-fr-ce2-copie-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Écriture",
-      "subdomain": "Copier et acquérir des stratégies de copie",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Écriture",
+      "sousDomaine": "Copier et acquérir des stratégies de copie",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Copier une dizaine de lignes sans erreur, vite et en respectant la mise en page",
+      "nom": "Copier une dizaine de lignes sans erreur, vite et en respectant la mise en page",
       "description": "Recopier une dizaine de lignes (par exemple la leçon) rapidement et sans faute, en gardant la présentation du texte. L’enfant utilise des stratégies : mémoriser un mot ou un groupe de mots d’un coup plutôt que lettre par lettre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Copier une dizaine de lignes sans erreur en conjuguant vitesse et exactitude et en respectant les mises en page complexes."
       ],
-      "evidence": [
+      "criteres": [
         "Copie une dizaine de lignes sans erreur en conjuguant vitesse et exactitude.",
         "Utilise systématiquement des stratégies de copie (prise d’indices, mémorisation de mots ou groupes de mots) dans tous les domaines et pour la copie de la leçon.",
         "Copie en respectant la mise en page du texte."
       ],
-      "period": "fin d’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait recopier une leçon d’une dizaine de lignes sans erreur, assez vite et avec la même présentation ?",
-      "priorKnowledge": [
+      "periode": "fin d’année",
+      "question": "Est-ce que {{prenom}} sait recopier une leçon d’une dizaine de lignes sans erreur, assez vite et avec la même présentation ?",
+      "acquisAnterieurs": [
         "Recopier sans effort une dizaine de lignes en respectant la ponctuation et la mise en page (CE1)",
         "Mobiliser différentes stratégies de copie : lettre à lettre, syllabe par syllabe, mot à mot, groupe de mots par groupe de mots (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 12,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -755,28 +709,26 @@
     {
       "id": "fr-fr-ce2-copie-02",
       "programme": "francais-c2",
-      "type": "META",
-      "subject": "Français",
-      "domain": "Écriture",
-      "subdomain": "Copier et acquérir des stratégies de copie",
-      "level": "CE2",
+      "nature": "stratégie",
+      "matiere": "Français",
+      "domaine": "Écriture",
+      "sousDomaine": "Copier et acquérir des stratégies de copie",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Se relire après une copie pour repérer ses erreurs",
+      "nom": "Se relire après une copie pour repérer ses erreurs",
       "description": "Après avoir copié, relire son texte pour trouver les mots oubliés et les erreurs d’orthographe ou de ponctuation.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Copier une dizaine de lignes sans erreur en conjuguant vitesse et exactitude et en respectant les mises en page complexes."
       ],
-      "evidence": [
+      "criteres": [
         "Se relit et repère des omissions ou des erreurs orthographiques ou de ponctuation."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} relit sa copie et sait y trouver un mot oublié ou une faute d’orthographe ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} relit sa copie et sait y trouver un mot oublié ou une faute d’orthographe ?",
+      "acquisAnterieurs": [
         "Relire son écrit et corriger l’orthographe en fonction du texte et des indications du professeur (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 12,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -785,31 +737,29 @@
     {
       "id": "fr-fr-ce2-prod-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Écriture",
-      "subdomain": "Produire des écrits",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Écriture",
+      "sousDomaine": "Produire des écrits",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Écrire un message compréhensible pour un destinataire",
+      "nom": "Écrire un message compréhensible pour un destinataire",
       "description": "Écrire pour transmettre quelque chose à quelqu’un (un message, une émotion, une information), de façon assez correcte pour être compris par le lecteur. Cela comprend écrire des questions, des réponses ou des hypothèses, par exemple en sciences.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer tout au long de l’année les compétences qui lui permettront en fin d’année : d’écrire pour transmettre un message, une émotion, une information, etc., à un destinataire ; de rédiger quelques phrases qui permettent d’entrainer les automatismes appris en grammaire et orthographe ; d’écrire un texte d’une dizaine de lignes de différents types et relevant des différents enseignements : respecter la syntaxe, les règles orthographiques étudiées, réemployer un lexique précis et prendre en compte des contraintes d’écriture ; de relire son texte méthodiquement."
       ],
-      "evidence": [
+      "criteres": [
         "Écrit un message correctement orthographié pour être compris par le lecteur.",
         "Écrit des questions, des réponses et des hypothèses."
       ],
-      "period": "fin d’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire un petit message à quelqu’un (un mot pour un camarade, une question à poser) qui soit compréhensible et bien orthographié ?",
-      "priorKnowledge": [
+      "periode": "fin d’année",
+      "question": "Est-ce que {{prenom}} sait écrire un petit message à quelqu’un (un mot pour un camarade, une question à poser) qui soit compréhensible et bien orthographié ?",
+      "acquisAnterieurs": [
         "Écrire un texte court de une à trois phrases (CE1)",
         "Écrire des phrases de réponses dans de nombreuses situations de classe, par exemple en mathématiques (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 12,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -818,29 +768,27 @@
     {
       "id": "fr-fr-ce2-prod-02",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Écriture",
-      "subdomain": "Produire des écrits",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Écriture",
+      "sousDomaine": "Produire des écrits",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Écrire des phrases pour s’entraîner en grammaire et en orthographe",
+      "nom": "Écrire des phrases pour s’entraîner en grammaire et en orthographe",
       "description": "Rédiger quelques phrases en les transformant (changer le sujet, le temps…) pour rendre automatique ce qui a été appris en grammaire et en orthographe : ce sont les « gammes d’écriture ».",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer tout au long de l’année les compétences qui lui permettront en fin d’année : d’écrire pour transmettre un message, une émotion, une information, etc., à un destinataire ; de rédiger quelques phrases qui permettent d’entrainer les automatismes appris en grammaire et orthographe ; d’écrire un texte d’une dizaine de lignes de différents types et relevant des différents enseignements : respecter la syntaxe, les règles orthographiques étudiées, réemployer un lexique précis et prendre en compte des contraintes d’écriture ; de relire son texte méthodiquement."
       ],
-      "evidence": [
+      "criteres": [
         "Produit des gammes qui accompagnent sa découverte de la langue : La petite fille veut boire un chocolat./Les petits garçons veulent boire un chocolat./J’ai voulu boire un chocolat./etc."
       ],
-      "period": "fin d’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait réécrire « La petite fille veut boire un chocolat. » en commençant par « Les petits garçons… » puis par « J’ai… » ?",
-      "priorKnowledge": [
+      "periode": "fin d’année",
+      "question": "Est-ce que {{prenom}} sait réécrire « La petite fille veut boire un chocolat. » en commençant par « Les petits garçons… » puis par « J’ai… » ?",
+      "acquisAnterieurs": [
         "Produire des gammes d’écriture : Simon parle à Nora./Simon parlait à Nora./Simon parlera à Nora. (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 12,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -849,35 +797,33 @@
     {
       "id": "fr-fr-ce2-prod-03",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Écriture",
-      "subdomain": "Produire des écrits",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Écriture",
+      "sousDomaine": "Produire des écrits",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Écrire un texte d’une dizaine de lignes de différents types",
+      "nom": "Écrire un texte d’une dizaine de lignes de différents types",
       "description": "Écrire seul un texte d’une dizaine de lignes (récit, dialogue, poème…), dans toutes les matières, en construisant correctement ses phrases, en respectant l’orthographe apprise et les consignes, avec des mots précis. L’enfant prépare son texte au brouillon et s’aide des outils de la classe.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer tout au long de l’année les compétences qui lui permettront en fin d’année : d’écrire pour transmettre un message, une émotion, une information, etc., à un destinataire ; de rédiger quelques phrases qui permettent d’entrainer les automatismes appris en grammaire et orthographe ; d’écrire un texte d’une dizaine de lignes de différents types et relevant des différents enseignements : respecter la syntaxe, les règles orthographiques étudiées, réemployer un lexique précis et prendre en compte des contraintes d’écriture ; de relire son texte méthodiquement."
       ],
-      "evidence": [
+      "criteres": [
         "Écrit un texte d’une dizaine de lignes en respectant la syntaxe, les règles orthographiques étudiées et les contraintes d’écriture.",
         "Utilise un brouillon pour organiser ses idées.",
         "S’appuie sur un cahier de règles ou sur des affichages.",
         "Mobilise des connecteurs temporels et logiques.",
         "Écrit des dialogues, des récits, des poèmes en tenant compte des différentes caractéristiques des types et genres de textes."
       ],
-      "period": "fin d’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire seul une petite histoire d’une dizaine de lignes, préparée au brouillon, avec des mots de liaison comme « puis » ou « parce que » ?",
-      "priorKnowledge": [
+      "periode": "fin d’année",
+      "question": "Est-ce que {{prenom}} sait écrire seul une petite histoire d’une dizaine de lignes, préparée au brouillon, avec des mots de liaison comme « puis » ou « parce que » ?",
+      "acquisAnterieurs": [
         "Écrire un texte de six ou sept phrases maximum en assurant la cohérence syntaxique et logique du texte (CE1)",
         "Insérer des connecteurs pour rendre cohérent l’enchainement de plusieurs phrases (CE1)",
         "Se servir de brouillons pour écrire : listes, pistes, cartes mentales (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 12,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -886,31 +832,29 @@
     {
       "id": "fr-fr-ce2-prod-04",
       "programme": "francais-c2",
-      "type": "META",
-      "subject": "Français",
-      "domain": "Écriture",
-      "subdomain": "Produire des écrits",
-      "level": "CE2",
+      "nature": "stratégie",
+      "matiere": "Français",
+      "domaine": "Écriture",
+      "sousDomaine": "Produire des écrits",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Relire son texte méthodiquement pour l’améliorer",
+      "nom": "Relire son texte méthodiquement pour l’améliorer",
       "description": "Relire son propre texte avec méthode : repérer les groupes de mots (groupe du nom, groupe du verbe) pour vérifier les accords, et améliorer le texte en suivant les indications du professeur.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer tout au long de l’année les compétences qui lui permettront en fin d’année : d’écrire pour transmettre un message, une émotion, une information, etc., à un destinataire ; de rédiger quelques phrases qui permettent d’entrainer les automatismes appris en grammaire et orthographe ; d’écrire un texte d’une dizaine de lignes de différents types et relevant des différents enseignements : respecter la syntaxe, les règles orthographiques étudiées, réemployer un lexique précis et prendre en compte des contraintes d’écriture ; de relire son texte méthodiquement."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie les groupes nominaux et verbaux dans son texte et corrige éventuellement les erreurs d’accords.",
         "Améliore son texte en fonction des indications du professeur."
       ],
-      "period": "fin d’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait relire son texte pour vérifier les accords, par exemple « les petits garçons veulent », et le corriger ?",
-      "priorKnowledge": [
+      "periode": "fin d’année",
+      "question": "Est-ce que {{prenom}} sait relire son texte pour vérifier les accords, par exemple « les petits garçons veulent », et le corriger ?",
+      "acquisAnterieurs": [
         "Indiquer, à l’écoute de son texte, s’il y a des omissions, des incohérences et des répétitions (CE1)",
         "Corriger les mots fréquents étudiés, l’accord sujet-verbe et les accords en nombre dans le groupe nominal après retours du professeur (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 12,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -919,30 +863,28 @@
     {
       "id": "fr-fr-ce2-ecou-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Oral",
-      "subdomain": "Écouter pour comprendre",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Oral",
+      "sousDomaine": "Écouter pour comprendre",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Comprendre un message oral de 5 minutes en reliant les informations",
+      "nom": "Comprendre un message oral de 5 minutes en reliant les informations",
       "description": "Écouter attentivement un message ou une histoire de plus en plus long (jusqu’à 5 minutes), retenir les informations importantes et les relier entre elles pour comprendre l’ensemble, et savoir dire si l’on a bien compris.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Repérer, mémoriser et relier entre elles plusieurs informations importantes pour construire la cohérence d’un message entendu de plus en plus long et complexe (5 minutes maximum), en évaluant son degré de compréhension."
       ],
-      "evidence": [
+      "criteres": [
         "Écoute une interview d’un ou d’une artiste ou d’un ou d’une scientifique et, après plusieurs écoutes et à la suite de consignes claires, reformule l’essentiel de ce qu’il a appris.",
         "Écoute une histoire et en invente la fin.",
         "Évalue son degré de compréhension d’un message entendu de 5 minutes maximum."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait, après avoir écouté une interview ou une histoire de quelques minutes, redire l’essentiel de ce qu’il a appris ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait, après avoir écouté une interview ou une histoire de quelques minutes, redire l’essentiel de ce qu’il a appris ?",
+      "acquisAnterieurs": [
         "Maintenir une attention active pendant quelques minutes pour repérer, mémoriser, classer ou ordonner les informations importantes entendues à l’oral (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 15,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -951,30 +893,28 @@
     {
       "id": "fr-fr-ce2-dire-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Oral",
-      "subdomain": "Dire pour être compris",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Oral",
+      "sousDomaine": "Dire pour être compris",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Raconter ou exposer à l’oral de façon longue et structurée",
+      "nom": "Raconter ou exposer à l’oral de façon longue et structurée",
       "description": "Prendre la parole plus longuement pour raconter ou exposer, avec des phrases de plus en plus complexes et un vocabulaire varié, en réutilisant les tournures apprises en classe.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Mener une production orale de plus en plus longue et structurée pour raconter, expliquer, argumenter, justifier."
       ],
-      "evidence": [
+      "criteres": [
         "Réinvestit les tournures linguistiques et les postures apprises lors des séances dédiées à l’enseignement des différentes formes de discours.",
         "Produit des phrases de plus en plus complexes et mobilise un lexique de plus en plus varié et abstrait."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter oralement une histoire ou un évènement pendant quelques minutes, avec des phrases bien construites ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait raconter oralement une histoire ou un évènement pendant quelques minutes, avec des phrases bien construites ?",
+      "acquisAnterieurs": [
         "Utiliser à l’oral l’ensemble des temps verbaux pour raconter, décrire, expliquer, comparer ou exposer (CE1)",
         "Utiliser des organisateurs du discours : d’abord, ensuite, donc, enfin, pour conclure (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 15,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -983,29 +923,27 @@
     {
       "id": "fr-fr-ce2-dire-02",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Oral",
-      "subdomain": "Dire pour être compris",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Oral",
+      "sousDomaine": "Dire pour être compris",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Expliquer un raisonnement et se justifier à l’oral",
+      "nom": "Expliquer un raisonnement et se justifier à l’oral",
       "description": "Expliquer à voix haute comment on a fait et pourquoi : la démarche suivie en mathématiques ou en sciences, le choix d’une méthode, ou une erreur commise.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Mener une production orale de plus en plus longue et structurée pour raconter, expliquer, argumenter, justifier."
       ],
-      "evidence": [
+      "criteres": [
         "Explique un raisonnement en mathématiques ou en sciences : une démarche, le choix d’une procédure, etc.",
         "Explicite une erreur commise."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer à voix haute comment il a résolu un problème de mathématiques, et pourquoi il s’est trompé quand c’est le cas ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer à voix haute comment il a résolu un problème de mathématiques, et pourquoi il s’est trompé quand c’est le cas ?",
+      "acquisAnterieurs": [
         "Présenter une démarche scientifique en utilisant le lexique appris (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 15,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1014,31 +952,29 @@
     {
       "id": "fr-fr-ce2-dire-03",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Oral",
-      "subdomain": "Dire pour être compris",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Oral",
+      "sousDomaine": "Dire pour être compris",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Garder l’attention de son auditoire lors d’un exposé ou d’une récitation",
+      "nom": "Garder l’attention de son auditoire lors d’un exposé ou d’une récitation",
       "description": "Lors d’un exposé ou d’une récitation, parler de façon à garder l’attention des autres : s’appuyer sur un support, varier les mots de liaison, éviter les « tics » de langage et les mots familiers. Dans l’année, l’enfant fait régulièrement de brefs exposés et mémorise une dizaine de poèmes.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Maintenir l’intérêt de son auditoire lors des différentes prestations orales."
       ],
-      "evidence": [
+      "criteres": [
         "Présente un exposé de quelques minutes construit en classe en prenant appui sur un support.",
         "Évite les « tics verbaux » et les mots familiers, varie les connecteurs et veille au niveau de langue adopté lors des prestations orales.",
         "Mémorise une dizaine de poèmes dans l’année, de longueur et de complexité progressives."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait présenter un exposé de quelques minutes en s’aidant d’une affiche ou d’images, sans tics de langage, de façon à intéresser ceux qui l’écoutent ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait présenter un exposé de quelques minutes en s’aidant d’une affiche ou d’images, sans tics de langage, de façon à intéresser ceux qui l’écoutent ?",
+      "acquisAnterieurs": [
         "Prendre la parole en groupe en s’adressant directement à ses camarades et en se faisant comprendre (CE1)",
         "Oraliser un texte mémorisé ou préparé en tenant compte de son auditoire (CP)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 15,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1047,30 +983,28 @@
     {
       "id": "fr-fr-ce2-ech-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Oral",
-      "subdomain": "Participer à des échanges",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Oral",
+      "sousDomaine": "Participer à des échanges",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Rebondir sur ce qu’ont dit les autres dans une discussion",
+      "nom": "Rebondir sur ce qu’ont dit les autres dans une discussion",
       "description": "Dans une discussion de groupe, tenir compte de ce qui a déjà été dit : le reformuler et s’appuyer dessus pour faire avancer l’échange.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Tenir compte de ce qui a déjà été dit lors des interventions au sein d’un groupe."
       ],
-      "evidence": [
+      "criteres": [
         "Reformule ce qui a été dit par un camarade et s’appuie sur ce propos pour faire progresser l’échange.",
         "Utilise des expressions fournies par le professeur : Pour compléter ce qu’a dit… ; Je souhaite revenir sur ce qu’a dit… ; Pour reprendre les propos de…"
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait, dans une discussion, reprendre l’idée d’un camarade en disant par exemple « Pour compléter ce qu’a dit… » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait, dans une discussion, reprendre l’idée d’un camarade en disant par exemple « Pour compléter ce qu’a dit… » ?",
+      "acquisAnterieurs": [
         "Respecter le propos au cours des échanges au sein d’un groupe (CE1)",
         "Exprimer et justifier un accord ou un désaccord : Je ne suis pas d’accord avec… (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 15,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1079,28 +1013,26 @@
     {
       "id": "fr-fr-ce2-ech-02",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Oral",
-      "subdomain": "Participer à des échanges",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Oral",
+      "sousDomaine": "Participer à des échanges",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Adapter sa façon de parler et sa posture dans un jeu de rôle",
+      "nom": "Adapter sa façon de parler et sa posture dans un jeu de rôle",
       "description": "Lors de jeux de rôle, parler et se tenir de façon adaptée à la situation jouée : on ne s’adresse pas de la même façon à un camarade, à un adulte connu ou à une personne inconnue.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Utiliser un registre de langue et adopter des postures adaptées aux situations proposées (jeux de rôles)."
       ],
-      "evidence": [
+      "criteres": [
         "Utilise, dans un jeu de rôle, un registre de langue et une posture adaptés à la situation proposée."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait, dans un jeu de rôle, parler différemment à un copain et à une personne qu’il ne connaît pas ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait, dans un jeu de rôle, parler différemment à un copain et à une personne qu’il ne connaît pas ?",
+      "acquisAnterieurs": [
         "Adapter le registre de langue utilisé (familier, courant, soutenu) à la situation de communication et dans des jeux de rôle (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 15,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1109,29 +1041,27 @@
     {
       "id": "fr-fr-ce2-enr-01",
       "programme": "francais-c2",
-      "type": "LANGUAGE",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Enrichir son vocabulaire dans toutes les disciplines",
-      "level": "CE2",
+      "nature": "vocabulaire",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Enrichir son vocabulaire dans toutes les disciplines",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Enrichir son vocabulaire de mots, d’expressions et de locutions",
+      "nom": "Enrichir son vocabulaire de mots, d’expressions et de locutions",
       "description": "Apprendre régulièrement de nouveaux mots et expressions, de plus en plus rares, pour compléter ceux appris au CP et au CE1. Au CE2, la classe étudie six listes de mots (corpus) par période.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Enrichir les répertoires constitués au CP et au CE1 en y ajoutant notamment des expressions ou des locutions."
       ],
-      "evidence": [
+      "criteres": [
         "Prend plaisir à apprendre de nouveaux mots, se montre curieux et pose des questions.",
         "Enrichit les réseaux précédemment étudiés avec des mots moins fréquents, par exemple pour caractériser un personnage après une lecture autonome (irritable, débonnaire, placide)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire un personnage avec des mots précis comme « irritable », « débonnaire » ou « placide » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait décrire un personnage avec des mots précis comme « irritable », « débonnaire » ou « placide » ?",
+      "acquisAnterieurs": [
         "Enrichir les répertoires constitués au CP en y ajoutant notamment des expressions ou locutions (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 18,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1140,28 +1070,26 @@
     {
       "id": "fr-fr-ce2-enr-02",
       "programme": "francais-c2",
-      "type": "LANGUAGE",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Enrichir son vocabulaire dans toutes les disciplines",
-      "level": "CE2",
+      "nature": "vocabulaire",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Enrichir son vocabulaire dans toutes les disciplines",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Utiliser les mots et expressions qui vont ensemble autour d’un même thème",
+      "nom": "Utiliser les mots et expressions qui vont ensemble autour d’un même thème",
       "description": "Employer naturellement, en situation, les différentes façons de parler d’une même chose et les mots qui s’associent souvent (une forêt dense, épaisse, impénétrable ; s’enfoncer dans la forêt ; à la lisière de la forêt).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Automatiser l’utilisation de différentes formulations, associées à un réseau, en contexte."
       ],
-      "evidence": [
+      "criteres": [
         "Emploie des associations comme : une forêt dense/épaisse/impénétrable/défricher une forêt/s’enfoncer dans la forêt/à la lisière de la forêt/etc."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait employer des expressions comme « une forêt dense », « s’enfoncer dans la forêt » ou « à la lisière de la forêt » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait employer des expressions comme « une forêt dense », « s’enfoncer dans la forêt » ou « à la lisière de la forêt » ?",
+      "acquisAnterieurs": [
         "Automatiser l’utilisation de différentes formulations associées à un même réseau, en contexte (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 18,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1170,29 +1098,27 @@
     {
       "id": "fr-fr-ce2-enr-03",
       "programme": "francais-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Enrichir son vocabulaire dans toutes les disciplines",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Enrichir son vocabulaire dans toutes les disciplines",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Comprendre le passage du sens propre au sens figuré",
+      "nom": "Comprendre le passage du sens propre au sens figuré",
       "description": "Comprendre qu’un même mot peut avoir un sens concret (souffler ses bougies) et un sens imagé (souffler une réponse), et voir le lien entre les deux, dans les cas les plus courants.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre le lien sémantique entre sens propre et sens figuré dans les cas les plus fréquents."
       ],
-      "evidence": [
+      "criteres": [
         "Perçoit que le verbe souffler a un sens différent dans souffler ses bougies et souffler une réponse et comprend le passage du sens propre au sens figuré."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer la différence entre « souffler ses bougies » et « souffler une réponse » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer la différence entre « souffler ses bougies » et « souffler une réponse » ?",
+      "acquisAnterieurs": [
         "Comprendre la différence entre sens propre et sens figuré (CE1)",
         "Comprendre que le sens d’expressions comme avoir une peur bleue n’est pas littéral (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 18,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1201,29 +1127,27 @@
     {
       "id": "fr-fr-ce2-enr-04",
       "programme": "francais-c2",
-      "type": "META",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Enrichir son vocabulaire dans toutes les disciplines",
-      "level": "CE2",
+      "nature": "stratégie",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Enrichir son vocabulaire dans toutes les disciplines",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Trouver le sens d’un mot grâce à sa construction (préfixes, suffixes)",
+      "nom": "Trouver le sens d’un mot grâce à sa construction (préfixes, suffixes)",
       "description": "Deviner le sens d’un mot inconnu en observant comment il est fabriqué (par exemple, im- dans immobile indique le contraire), en s’aidant aussi du reste de la phrase.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "S’appuyer sur la morphologie des mots pour en trouver le sens."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie un sens négatif dans les préfixes dé-, mal-, in-, etc. précédant le radical (déforestation, malhabile, immobile).",
         "Prend des indices dans la construction de certains mots pour en déduire le sens, en lien avec d’autres indices du contexte (ex. : frugivore, dans une phrase sur une chauve-souris qui se nourrit de mangues, figues et bananes)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce que veulent dire « malhabile » ou « immobile » grâce au début du mot ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer ce que veulent dire « malhabile » ou « immobile » grâce au début du mot ?",
+      "acquisAnterieurs": [
         "S’appuyer sur la morphologie des mots pour en trouver le sens ; connaitre des affixes comme para-, multi-, anti-, -eur/-euse (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 18,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1232,29 +1156,27 @@
     {
       "id": "fr-fr-ce2-enr-05",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Enrichir son vocabulaire dans toutes les disciplines",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Enrichir son vocabulaire dans toutes les disciplines",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Vérifier le sens d’un mot dans un dictionnaire adapté",
+      "nom": "Vérifier le sens d’un mot dans un dictionnaire adapté",
       "description": "Chercher facilement un mot dans un dictionnaire pour enfants et lire son article pour vérifier si le sens qu’on avait deviné est le bon.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Consulter avec aisance des articles de dictionnaire adapté pour y vérifier le sens supposé de mots rencontrés."
       ],
-      "evidence": [
+      "criteres": [
         "Consulte avec aisance un article de dictionnaire adapté pour vérifier le sens qu’il a supposé d’un mot rencontré."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver rapidement un mot comme « lisière » dans son dictionnaire et vérifier s’il avait deviné le bon sens ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait trouver rapidement un mot comme « lisière » dans son dictionnaire et vérifier s’il avait deviné le bon sens ?",
+      "acquisAnterieurs": [
         "Prendre l’habitude de consulter des articles de dictionnaire adapté (CE1)",
         "Mobiliser l’ordre alphabétique pour utiliser un dictionnaire adapté (CP)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 18,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1263,30 +1185,28 @@
     {
       "id": "fr-fr-ce2-rel-01",
       "programme": "francais-c2",
-      "type": "LANGUAGE",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Établir des relations entre les mots",
-      "level": "CE2",
+      "nature": "vocabulaire",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Établir des relations entre les mots",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Compléter ses collections de mots et percevoir des nuances d’intensité",
+      "nom": "Compléter ses collections de mots et percevoir des nuances d’intensité",
       "description": "Ajouter aux listes de mots construites depuis le CP de nouveaux mots, expressions et associations fréquentes, et ranger des mots de sens proche du plus faible au plus fort (la crainte, la peur, l’épouvante).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Enrichir les collections constituées au début du cycle avec des mots, des expressions et des associations fréquentes."
       ],
-      "evidence": [
+      "criteres": [
         "Ajoute des mots, des expressions et des associations fréquentes aux collections constituées depuis le début du cycle.",
         "Perçoit une gradation au sein de relations de proximité ou de synonymie (ex. : la crainte > la peur > l’épouvante)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger « la peur », « l’épouvante » et « la crainte » de la plus faible à la plus forte ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait ranger « la peur », « l’épouvante » et « la crainte » de la plus faible à la plus forte ?",
+      "acquisAnterieurs": [
         "Constituer des répertoires de mots par thème, par classe grammaticale, par famille de mots, par analogies morphologiques (CP)",
         "Savoir trouver des synonymes et des antonymes (CP)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 18,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1295,30 +1215,28 @@
     {
       "id": "fr-fr-ce2-rel-02",
       "programme": "francais-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Établir des relations entre les mots",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Établir des relations entre les mots",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Classer les mots par grandes catégories, du général au particulier",
+      "nom": "Classer les mots par grandes catégories, du général au particulier",
       "description": "Regrouper des mots par grandes familles de sens (les ingrédients de cuisine, les mots des mathématiques…) ou par nature (les adjectifs, les verbes), et distinguer un mot général d’un mot plus précis.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Percevoir de grandes catégories et hiérarchiser les termes génériques de base et spécifiques."
       ],
-      "evidence": [
+      "criteres": [
         "Perçoit de grandes catégories sémantiques (ex. : les ingrédients de cuisine, le lexique des disciplines).",
         "Perçoit de grandes catégories grammaticales : sait regrouper les adjectifs, les verbes, etc.",
         "Hiérarchise les termes génériques, de base et spécifiques."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait regrouper des mots par thème (les ingrédients de cuisine) ou par nature (les adjectifs, les verbes) ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait regrouper des mots par thème (les ingrédients de cuisine) ou par nature (les adjectifs, les verbes) ?",
+      "acquisAnterieurs": [
         "Percevoir de grandes catégories et hiérarchiser les termes génériques, de base et spécifiques : aliment > laitage > fromage > gruyère (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 18,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1327,28 +1245,26 @@
     {
       "id": "fr-fr-ce2-rel-03",
       "programme": "francais-c2",
-      "type": "META",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Établir des relations entre les mots",
-      "level": "CE2",
+      "nature": "stratégie",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Établir des relations entre les mots",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Se constituer un répertoire de mots personnel",
+      "nom": "Se constituer un répertoire de mots personnel",
       "description": "Construire peu à peu son propre carnet ou répertoire de mots, classés et organisés, qu’il pourra réutiliser seul au cycle 3 (CM1, CM2, 6e).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Se constituer un répertoire lexical personnel qui pourra forger l’autonomie visée au cycle 3."
       ],
-      "evidence": [
+      "criteres": [
         "Construit peu à peu un outil personnel de collecte et de structuration des mots, qui l’accompagne tout au long du cycle."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} tient un carnet ou un répertoire où il range les mots appris, et sait-il le consulter seul ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} tient un carnet ou un répertoire où il range les mots appris, et sait-il le consulter seul ?",
+      "acquisAnterieurs": [
         "Constituer des répertoires de mots par thème, par classe grammaticale, par famille de mots (CP)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 19,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1357,30 +1273,28 @@
     {
       "id": "fr-fr-ce2-rel-04",
       "programme": "francais-c2",
-      "type": "LANGUAGE",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Établir des relations entre les mots",
-      "level": "CE2",
+      "nature": "vocabulaire",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Établir des relations entre les mots",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Trier les mots dérivés selon leurs préfixes et suffixes",
+      "nom": "Trier les mots dérivés selon leurs préfixes et suffixes",
       "description": "Retrouver la partie commune de mots de la même famille (port, portuaire, aéroport) et voir comment un préfixe ou un suffixe change le mot, y compris sa nature (observation, observer, observable).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Trier et apparier des mots et leurs dérivés en fonction des préfixes et suffixes identifiés."
       ],
-      "evidence": [
+      "criteres": [
         "Opère des dérivations en identifiant la partie commune des mots (ex. : port/portuaire/aéroport).",
         "Identifie la classe grammaticale des mots dérivés (ex. : nom observation, verbe observer, adjectif observable)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver ce qu’ont en commun « port », « portuaire » et « aéroport », et dire si « observable » est un nom, un verbe ou un adjectif ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait trouver ce qu’ont en commun « port », « portuaire » et « aéroport », et dire si « observable » est un nom, un verbe ou un adjectif ?",
+      "acquisAnterieurs": [
         "Trier et apparier les mots et leurs dérivés en fonction des préfixes et suffixes identifiés (CE1)",
         "Identifier des contraires construits avec les préfixes in- ou dé- (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 19,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1389,30 +1303,28 @@
     {
       "id": "fr-fr-ce2-reem-01",
       "programme": "francais-c2",
-      "type": "LANGUAGE",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Réemployer le vocabulaire étudié",
-      "level": "CE2",
+      "nature": "vocabulaire",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Réemployer le vocabulaire étudié",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Employer le mot juste et varier les mots pour éviter les répétitions",
+      "nom": "Employer le mot juste et varier les mots pour éviter les répétitions",
       "description": "Utiliser à bon escient les mots appris, en tenant compte du contexte et de leurs différents sens, et remplacer un mot déjà employé par un synonyme ou un mot plus général (le lion, le félin, le carnivore, le roi de la savane).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Employer à bon escient et rigoureusement les mots étudiés, en référence à leur contexte d’emploi et leur éventuelle polysémie."
       ],
-      "evidence": [
+      "criteres": [
         "Emploie les mots étudiés en tenant compte de leur contexte d’emploi et de leurs différents sens.",
         "Mobilise des synonymes, termes génériques ou expressions lors de divers écrits pour éviter les répétitions (ex. : le lion/le félin/le carnivore/le roi de la savane)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait, dans un texte sur le lion, remplacer ce mot par « le félin » ou « le roi de la savane » pour éviter de le répéter ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait, dans un texte sur le lion, remplacer ce mot par « le félin » ou « le roi de la savane » pour éviter de le répéter ?",
+      "acquisAnterieurs": [
         "Améliorer sa production écrite ou orale en évitant les répétitions grâce à l’emploi de synonymes ou de termes génériques : la voiture/l’automobile/le véhicule (CE1)",
         "Mobiliser les mots rencontrés en contexte pour mieux parler, mieux comprendre et mieux écrire (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 19,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1421,28 +1333,26 @@
     {
       "id": "fr-fr-ce2-reem-02",
       "programme": "francais-c2",
-      "type": "LANGUAGE",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Réemployer le vocabulaire étudié",
-      "level": "CE2",
+      "nature": "vocabulaire",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Réemployer le vocabulaire étudié",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Employer un même mot au sens propre et au sens figuré",
+      "nom": "Employer un même mot au sens propre et au sens figuré",
       "description": "Écrire des phrases où un même mot est utilisé au sens concret puis au sens imagé (Une forte pluie inonde la cave. / Le soleil inonde la pièce.).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre la différence entre sens propre/sens figuré."
       ],
-      "evidence": [
+      "criteres": [
         "Rédige des énoncés utilisant le même mot au sens propre et au sens figuré (ex. : Une forte pluie inonde la cave./Le soleil inonde la pièce.)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire deux phrases avec le verbe « inonder », l’une au sens propre (la pluie inonde la cave), l’autre au sens figuré (le soleil inonde la pièce) ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait écrire deux phrases avec le verbe « inonder », l’une au sens propre (la pluie inonde la cave), l’autre au sens figuré (le soleil inonde la pièce) ?",
+      "acquisAnterieurs": [
         "Comprendre la différence entre sens propre et sens figuré (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 19,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1451,31 +1361,29 @@
     {
       "id": "fr-fr-ce2-reem-03",
       "programme": "francais-c2",
-      "type": "LANGUAGE",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Réemployer le vocabulaire étudié",
-      "level": "CE2",
+      "nature": "vocabulaire",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Réemployer le vocabulaire étudié",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Choisir son niveau de langue (familier, courant, soutenu) selon la situation",
+      "nom": "Choisir son niveau de langue (familier, courant, soutenu) selon la situation",
       "description": "Savoir parler de façon familière, courante ou soutenue, et passer de l’une à l’autre selon la situation et la personne à qui l’on s’adresse.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Changer de niveau de langue selon les situations.",
         "Savoir utiliser les niveaux de langue (familier, courant et soutenu) en fonction des situations et des interlocuteurs."
       ],
-      "evidence": [
+      "criteres": [
         "Change de niveau de langue à l’oral pour jouer des saynètes à partir d’un corpus varié d’« exercices de style » (versions différentes d’une même histoire).",
         "Raconte oralement une histoire en respectant le registre soutenu d’un texte."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter une même petite histoire en langage familier, puis en langage soutenu ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait raconter une même petite histoire en langage familier, puis en langage soutenu ?",
+      "acquisAnterieurs": [
         "Percevoir les niveaux de langue familier, courant et soutenu (CE1)",
         "Adapter le registre de langue utilisé à la situation de communication (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 19,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1484,28 +1392,26 @@
     {
       "id": "fr-fr-ce2-reem-04",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Réemployer le vocabulaire étudié",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Réemployer le vocabulaire étudié",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Citer rapidement les mots d’un thème étudié (fluence verbale)",
+      "nom": "Citer rapidement les mots d’un thème étudié (fluence verbale)",
       "description": "Retrouver vite et sans effort les mots d’une liste étudiée en classe : à partir d’un mot de départ, en citer une dizaine de natures différentes (noms, verbes, adjectifs). Des séances de remémoration ont lieu chaque semaine.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Automatiser la restitution des mots d’un corpus étudié (fluence verbale)."
       ],
-      "evidence": [
+      "criteres": [
         "Cite rapidement une dizaine de mots, de natures grammaticales différentes, à partir d’un mot de départ appartenant à un corpus étudié."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait citer rapidement une dizaine de mots (noms, verbes, adjectifs) autour d’un mot étudié en classe, comme « forêt » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait citer rapidement une dizaine de mots (noms, verbes, adjectifs) autour d’un mot étudié en classe, comme « forêt » ?",
+      "acquisAnterieurs": [
         "Convoquer de plus en plus rapidement, lors d’un jeu oral, des mots catégorisés lors de séances spécifiques (CP)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 19,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1514,30 +1420,28 @@
     {
       "id": "fr-fr-ce2-orth-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Mémoriser l’orthographe des mots",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Mémoriser l’orthographe des mots",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Écrire sans erreur les mots fréquents, réguliers et irréguliers",
+      "nom": "Écrire sans erreur les mots fréquents, réguliers et irréguliers",
       "description": "Écrire correctement, en dictée et dans ses propres textes, les mots courants qu’il rencontre souvent, y compris ceux qui ne s’écrivent pas comme ils se prononcent. Pour les mémoriser, l’enfant les copie, y compris de mémoire (copie différée).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Écrire correctement sous la dictée les mots réguliers et irréguliers fréquemment rencontrés."
       ],
-      "evidence": [
+      "criteres": [
         "Copie, y compris en copie différée, les mots irréguliers les plus fréquents.",
         "Écrit sous la dictée sans erreur graphophonémique en mobilisant ses connaissances et sa mémoire.",
         "Fait preuve de vigilance orthographique dans des écrits courts qui ciblent spécifiquement l’orthographe lexicale."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire sans erreur en dictée des mots courants qu’il a appris, comme « aujourd’hui » ou « demain » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait écrire sans erreur en dictée des mots courants qu’il a appris, comme « aujourd’hui » ou « demain » ?",
+      "acquisAnterieurs": [
         "Mémoriser l’orthographe des mots réguliers et irréguliers fréquemment rencontrés et du lexique le plus couramment employé (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 19,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1546,29 +1450,27 @@
     {
       "id": "fr-fr-ce2-orth-02",
       "programme": "francais-c2",
-      "type": "LANGUAGE",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Mémoriser l’orthographe des mots",
-      "level": "CE2",
+      "nature": "vocabulaire",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Mémoriser l’orthographe des mots",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Écrire les mots avec leurs accents",
+      "nom": "Écrire les mots avec leurs accents",
       "description": "Ne pas oublier les accents (é, è, ê…) quand on écrit un mot : ils font partie de son orthographe et changent sa prononciation.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Tenir compte des accents."
       ],
-      "evidence": [
+      "criteres": [
         "Écrit les mots étudiés en tenant compte de leurs accents."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} pense à mettre les accents quand il écrit des mots appris comme « élégant » ou « lisière » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} pense à mettre les accents quand il écrit des mots appris comme « élégant » ou « lisière » ?",
+      "acquisAnterieurs": [
         "Tenir compte des accents (CE1)",
         "Identifier et nommer les accents (CP)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 19,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1577,30 +1479,28 @@
     {
       "id": "fr-fr-ce2-orth-03",
       "programme": "francais-c2",
-      "type": "META",
-      "subject": "Français",
-      "domain": "Vocabulaire",
-      "subdomain": "Mémoriser l’orthographe des mots",
-      "level": "CE2",
+      "nature": "stratégie",
+      "matiere": "Français",
+      "domaine": "Vocabulaire",
+      "sousDomaine": "Mémoriser l’orthographe des mots",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Orthographier un mot grâce à sa famille ou à des mots qui lui ressemblent",
+      "nom": "Orthographier un mot grâce à sa famille ou à des mots qui lui ressemblent",
       "description": "Trouver comment s’écrit un mot, même inconnu, en pensant à un mot de la même famille (beau → beauté) ou à des mots qui s’écrivent de la même façon (listes de mots par analogie).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "S’appuyer sur des critères morphologiques (radical, préfixe et suffixe) et analogiques pour orthographier correctement les mots."
       ],
-      "evidence": [
+      "criteres": [
         "Met en œuvre des raisonnements orthographiques fondés sur la morphologie lexicale pour orthographier des mots inconnus (ex. : s’appuie sur beau pour orthographier beauté).",
         "Copie, y compris en copie différée, des listes de mots par analogie."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire « beauté » en pensant au mot « beau » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait écrire « beauté » en pensant au mot « beau » ?",
+      "acquisAnterieurs": [
         "Être capable d’anticiper une lettre muette finale à l’aide d’un mot de la même famille : blanc/blanche, sang/sanguin (CE1)",
         "Compléter une liste en fonction d’une dérivation identifiée et mémoriser l’orthographe de l’affixe : coiffeur/danseur (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 19,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1609,29 +1509,27 @@
     {
       "id": "fr-fr-ce2-phr-01",
       "programme": "francais-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Se repérer dans la phrase simple",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Se repérer dans la phrase simple",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Repérer le groupe sujet, le verbe et les compléments d’une phrase simple",
+      "nom": "Repérer le groupe sujet, le verbe et les compléments d’une phrase simple",
       "description": "Reconnaître une phrase simple et y retrouver ses grandes parties : le groupe sujet (de qui ou de quoi on parle), le verbe et les compléments. Au CE2, on ne distingue pas encore les différents compléments entre eux : c’est pour le cycle 3.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier la phrase simple et reconnaitre ses principaux constituants : le groupe sujet, le verbe et les compléments sans distinguer ces derniers entre eux."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie dans une phrase simple le groupe sujet, le verbe et les compléments.",
         "Substitue à un groupe nominal sujet un pronom personnel sujet et inversement."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver, dans « Les enfants jouent au ballon », le groupe sujet, le verbe et le complément, et remplacer « Les enfants » par « Ils » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait trouver, dans « Les enfants jouent au ballon », le groupe sujet, le verbe et le complément, et remplacer « Les enfants » par « Ils » ?",
+      "acquisAnterieurs": [
         "Identifier la phrase simple, en distinguer les principaux constituants et les nommer : groupe sujet, verbe et compléments (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1640,28 +1538,26 @@
     {
       "id": "fr-fr-ce2-phr-02",
       "programme": "francais-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Se repérer dans la phrase simple",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Se repérer dans la phrase simple",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Reconnaître et écrire des phrases déclaratives, interrogatives, impératives",
+      "nom": "Reconnaître et écrire des phrases déclaratives, interrogatives, impératives",
       "description": "Savoir si une phrase sert à dire quelque chose (déclarative), à poser une question (interrogative) ou à donner un ordre (impérative), et savoir en écrire de chaque type.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Reconnaitre et produire les trois types de phrases : déclarative, interrogative et impérative."
       ],
-      "evidence": [
+      "criteres": [
         "Reconnait et produit des phrases déclaratives, interrogatives et impératives."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si « Jean, ferme la porte. » est une phrase qui affirme, qui pose une question ou qui donne un ordre, et en écrire une de chaque sorte ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire si « Jean, ferme la porte. » est une phrase qui affirme, qui pose une question ou qui donne un ordre, et en écrire une de chaque sorte ?",
+      "acquisAnterieurs": [
         "Reconnaitre et utiliser les trois types de phrases, en lien avec la ponctuation : déclarative, interrogative et impérative (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1670,29 +1566,27 @@
     {
       "id": "fr-fr-ce2-phr-03",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Se repérer dans la phrase simple",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Se repérer dans la phrase simple",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Mettre une phrase à la forme négative ou exclamative",
+      "nom": "Mettre une phrase à la forme négative ou exclamative",
       "description": "Reconnaître et fabriquer une phrase négative (avec ne… pas) ou exclamative (qui exprime un sentiment, avec un point d’exclamation), à partir de phrases de différents types.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Reconnaitre et produire les formes négative et exclamative."
       ],
-      "evidence": [
+      "criteres": [
         "Transforme des phrases de différents types à la forme négative (Jean, ferme la porte. → Jean, ne ferme pas la porte.).",
         "Reconnait et produit des phrases à la forme exclamative."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait transformer « Jean, ferme la porte. » en « Jean, ne ferme pas la porte. » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait transformer « Jean, ferme la porte. » en « Jean, ne ferme pas la porte. » ?",
+      "acquisAnterieurs": [
         "Reconnaitre les formes négatives et exclamatives et savoir effectuer des transformations (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1701,29 +1595,27 @@
     {
       "id": "fr-fr-ce2-phr-04",
       "programme": "francais-c2",
-      "type": "LANGUAGE",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Se repérer dans la phrase simple",
-      "level": "CE2",
+      "nature": "vocabulaire",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Se repérer dans la phrase simple",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Reconnaître et nommer les classes de mots : nom, verbe, adjectif…",
+      "nom": "Reconnaître et nommer les classes de mots : nom, verbe, adjectif…",
       "description": "Savoir dire de quelle nature est un mot (déterminant, nom commun, nom propre, adjectif, verbe ou pronom personnel sujet) et utiliser ces mots de grammaire pour réfléchir quand on lit et quand on écrit.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Différencier et nommer les principales classes de mots : le déterminant, le nom commun, le nom propre, l’adjectif, le verbe, le pronom personnel sujet et l’adverbe."
       ],
-      "evidence": [
+      "criteres": [
         "Différencie et nomme le déterminant, le nom commun, le nom propre, l’adjectif, le verbe et le pronom personnel sujet.",
         "Mobilise les termes grammaticaux pour résoudre des problèmes d’orthographe, d’écriture et de lecture."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, dans « La petite fille veut boire un chocolat », quel mot est un déterminant, un nom, un adjectif et un verbe ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire, dans « La petite fille veut boire un chocolat », quel mot est un déterminant, un nom, un adjectif et un verbe ?",
+      "acquisAnterieurs": [
         "Différencier et nommer les principales classes de mots : déterminant, nom commun, nom propre, adjectif, verbe, pronom personnel sujet (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1732,30 +1624,28 @@
     {
       "id": "fr-fr-ce2-phr-05",
       "programme": "francais-c2",
-      "type": "LANGUAGE",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Se repérer dans la phrase simple",
-      "level": "CE2",
+      "nature": "vocabulaire",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Se repérer dans la phrase simple",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Découvrir l’adverbe, un mot qui ne change jamais",
+      "nom": "Découvrir l’adverbe, un mot qui ne change jamais",
       "description": "Comprendre que certains mots changent de forme (mots variables) et d’autres jamais (mots invariables), et découvrir l’adverbe, mot invariable : très, si, bien, assez, aujourd’hui, demain, et les mots en -ment.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Différencier et nommer les principales classes de mots : le déterminant, le nom commun, le nom propre, l’adjectif, le verbe, le pronom personnel sujet et l’adverbe."
       ],
-      "evidence": [
+      "criteres": [
         "Observe la différence entre les mots variables et invariables (Je m’amuse bien/nous nous amusons bien.).",
         "Reconnait la classe grammaticale de l’adverbe.",
         "Orthographie les adverbes les plus fréquents (très, si, bien, assez, aujourd’hui, demain, etc.) et les adverbes en -ment."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait que « bien » ne change pas dans « je m’amuse bien » et « nous nous amusons bien », et écrire sans erreur « aujourd’hui » et « demain » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait que « bien » ne change pas dans « je m’amuse bien » et « nous nous amusons bien », et écrire sans erreur « aujourd’hui » et « demain » ?",
+      "acquisAnterieurs": [
         "Différencier et nommer les principales classes de mots (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1764,28 +1654,26 @@
     {
       "id": "fr-fr-ce2-phr-06",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Se repérer dans la phrase simple",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Se repérer dans la phrase simple",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Terminer chaque phrase par le bon signe (. ! ?)",
+      "nom": "Terminer chaque phrase par le bon signe (. ! ?)",
       "description": "Mettre à la fin de chaque phrase le signe qui convient : un point, un point d’exclamation ou un point d’interrogation.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Utiliser la ponctuation de fin de phrase (. ! ?) et reconnaitre les marques du discours rapporté (« … »)."
       ],
-      "evidence": [
+      "criteres": [
         "Utilise le point, le point d’exclamation et le point d’interrogation en fin de phrase."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} pense à mettre un point d’interrogation à la fin d’une question qu’il écrit, et un point d’exclamation à la fin d’une exclamation ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} pense à mettre un point d’interrogation à la fin d’une question qu’il écrit, et un point d’exclamation à la fin d’une exclamation ?",
+      "acquisAnterieurs": [
         "Respecter les deux marqueurs de la phrase : majuscule et ponctuation finale forte (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1794,26 +1682,24 @@
     {
       "id": "fr-fr-ce2-phr-07",
       "programme": "francais-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Se repérer dans la phrase simple",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Se repérer dans la phrase simple",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Repérer les paroles rapportées entre guillemets (discours direct)",
+      "nom": "Repérer les paroles rapportées entre guillemets (discours direct)",
       "description": "Repérer dans un texte les passages où l’on rapporte les paroles exactes d’un personnage (le discours direct), signalées par des guillemets « … ».",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Utiliser la ponctuation de fin de phrase (. ! ?) et reconnaitre les marques du discours rapporté (« … »)."
       ],
-      "evidence": [
+      "criteres": [
         "Repère dans un texte les passages au discours direct.",
         "Reconnait les guillemets comme marques du discours rapporté."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait trouver dans une histoire les phrases où un personnage parle, grâce aux guillemets ?",
+      "question": "Est-ce que {{prenom}} sait trouver dans une histoire les phrases où un personnage parle, grâce aux guillemets ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1822,31 +1708,29 @@
     {
       "id": "fr-fr-ce2-ogr-01",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Accorder dans le groupe nominal : pluriel en -s, féminin en -e",
+      "nom": "Accorder dans le groupe nominal : pluriel en -s, féminin en -e",
       "description": "Comprendre que dans un groupe nominal (déterminant + nom + adjectif), les mots s’accordent ensemble : c’est la « chaîne d’accords ». Appliquer les marques régulières : -s au pluriel, -e au féminin.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Repérer, comprendre et mettre en œuvre les marques d’accord au sein du groupe nominal."
       ],
-      "evidence": [
+      "criteres": [
         "Comprend la notion de chaine d’accords dans le groupe nominal.",
         "Utilise des marques d’accord régulières pour les noms et les adjectifs : nombre (-s) et genre (-e).",
         "Verbalise des raisonnements orthographiques en situation de dictée ou d’écriture et corrige des accords en fonction du signalement du professeur."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait passer de « le petit garçon » à « les petits garçons », puis à « la petite fille », en accordant chaque mot ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait passer de « le petit garçon » à « les petits garçons », puis à « la petite fille », en accordant chaque mot ?",
+      "acquisAnterieurs": [
         "Reconnaitre le GN et comprendre le lien entre le déterminant, le nom et l’adjectif dans la chaine d’accords (CE1)",
         "Utiliser en dictée les marques d’accord du nom et de l’adjectif : pluriel en -s, féminin en -e (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1855,29 +1739,27 @@
     {
       "id": "fr-fr-ce2-ogr-02",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Accorder les pluriels en -x ou -aux et les féminins particuliers",
+      "nom": "Accorder les pluriels en -x ou -aux et les féminins particuliers",
       "description": "Connaître les accords qui ne se font pas simplement avec -s ou -e : pluriels des noms en -x ou en -al/-aux, et féminins qui s’entendent dans les noms (lecteur/lectrice) et les adjectifs (joyeux/joyeuse).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Repérer, comprendre et mettre en œuvre les marques d’accord au sein du groupe nominal."
       ],
-      "evidence": [
+      "criteres": [
         "Utilise les marques d’accord des pluriels irréguliers des noms (-x, -al/-aux).",
         "Utilise les marques du féminin quand elles s’entendent, dans les noms (lecteur/lectrice) et dans les adjectifs (joyeux/joyeuse)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait écrire le féminin de « lecteur » (lectrice) et de « joyeux » (joyeuse), et le pluriel d’un nom en -al comme « animal » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait écrire le féminin de « lecteur » (lectrice) et de « joyeux » (joyeuse), et le pluriel d’un nom en -al comme « animal » ?",
+      "acquisAnterieurs": [
         "Utiliser en dictée les marques d’accord du nom et de l’adjectif : pluriel en -s, féminin en -e (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1886,29 +1768,27 @@
     {
       "id": "fr-fr-ce2-ogr-03",
       "programme": "francais-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Relier le verbe à son sujet",
+      "nom": "Relier le verbe à son sujet",
       "description": "Comprendre que le verbe change selon son sujet (je joue, les enfants jouent) et selon le temps, en faisant des transformations simples pour l’observer.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier, dans des situations simples, la relation sujet-verbe."
       ],
-      "evidence": [
+      "criteres": [
         "Mobilise différentes stratégies pour identifier le groupe sujet et le verbe et comprendre le lien entre eux.",
         "Opère des transformations de personne et de temps et observe les modifications (Je joue au ballon/les enfants jouent au ballon/nous avons joué au ballon)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait transformer « Je joue au ballon » en « Les enfants jouent au ballon » et expliquer pourquoi le verbe change ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait transformer « Je joue au ballon » en « Les enfants jouent au ballon » et expliquer pourquoi le verbe change ?",
+      "acquisAnterieurs": [
         "Identifier la relation sujet-verbe à partir de l’observation des effets des transformations liées au changement de temps et de personne, dans des situations simples (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1917,29 +1797,27 @@
     {
       "id": "fr-fr-ce2-ogr-04",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Conjuguer au présent : être, avoir, 1er groupe et 8 verbes irréguliers",
+      "nom": "Conjuguer au présent : être, avoir, 1er groupe et 8 verbes irréguliers",
       "description": "Conjuguer au présent de l’indicatif être, avoir, les verbes du 1er groupe (comme jouer) et huit verbes irréguliers très courants : faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Apprendre à conjuguer au présent, à l’imparfait, au futur et au passé composé de l’indicatif être et avoir, les verbes du premier groupe et les verbes irréguliers du 3e groupe (faire, aller, dire, venir, pouvoir, voir, vouloir, prendre)."
       ],
-      "evidence": [
+      "criteres": [
         "Conjugue au présent de l’indicatif être, avoir, les verbes du premier groupe et faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.",
         "Orthographie correctement les formes verbales étudiées en situation de dictée et d’écriture."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait conjuguer au présent « vouloir » ou « prendre » à toutes les personnes (je veux, tu veux, il veut…) ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait conjuguer au présent « vouloir » ou « prendre » à toutes les personnes (je veux, tu veux, il veut…) ?",
+      "acquisAnterieurs": [
         "Conjuguer au présent de l’indicatif être, avoir et les verbes du premier groupe (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1948,29 +1826,27 @@
     {
       "id": "fr-fr-ce2-ogr-05",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Conjuguer à l’imparfait : être, avoir, 1er groupe et 8 verbes irréguliers",
+      "nom": "Conjuguer à l’imparfait : être, avoir, 1er groupe et 8 verbes irréguliers",
       "description": "Conjuguer à l’imparfait de l’indicatif être, avoir, les verbes du 1er groupe et huit verbes irréguliers très courants : faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Apprendre à conjuguer au présent, à l’imparfait, au futur et au passé composé de l’indicatif être et avoir, les verbes du premier groupe et les verbes irréguliers du 3e groupe (faire, aller, dire, venir, pouvoir, voir, vouloir, prendre)."
       ],
-      "evidence": [
+      "criteres": [
         "Conjugue à l’imparfait de l’indicatif être, avoir, les verbes du premier groupe et faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.",
         "Orthographie correctement les formes verbales étudiées en situation de dictée et d’écriture."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait conjuguer « faire » ou « aller » à l’imparfait (je faisais, nous allions…) ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait conjuguer « faire » ou « aller » à l’imparfait (je faisais, nous allions…) ?",
+      "acquisAnterieurs": [
         "Conjuguer à l’imparfait de l’indicatif être, avoir et les verbes du premier groupe (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -1979,29 +1855,27 @@
     {
       "id": "fr-fr-ce2-ogr-06",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Conjuguer au futur : être, avoir, 1er groupe et 8 verbes irréguliers",
+      "nom": "Conjuguer au futur : être, avoir, 1er groupe et 8 verbes irréguliers",
       "description": "Conjuguer au futur de l’indicatif être, avoir, les verbes du 1er groupe et huit verbes irréguliers très courants : faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Apprendre à conjuguer au présent, à l’imparfait, au futur et au passé composé de l’indicatif être et avoir, les verbes du premier groupe et les verbes irréguliers du 3e groupe (faire, aller, dire, venir, pouvoir, voir, vouloir, prendre)."
       ],
-      "evidence": [
+      "criteres": [
         "Conjugue au futur de l’indicatif être, avoir, les verbes du premier groupe et faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.",
         "Orthographie correctement les formes verbales étudiées en situation de dictée et d’écriture."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait conjuguer « venir » ou « voir » au futur (je viendrai, tu verras…) ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait conjuguer « venir » ou « voir » au futur (je viendrai, tu verras…) ?",
+      "acquisAnterieurs": [
         "Conjuguer au futur de l’indicatif être, avoir et les verbes du premier groupe (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -2010,30 +1884,28 @@
     {
       "id": "fr-fr-ce2-ogr-07",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Conjuguer au passé composé : être, avoir, 1er groupe et 8 verbes irréguliers",
+      "nom": "Conjuguer au passé composé : être, avoir, 1er groupe et 8 verbes irréguliers",
       "description": "Conjuguer au passé composé de l’indicatif (avec l’auxiliaire être ou avoir : nous avons joué) être, avoir, les verbes du 1er groupe et huit verbes irréguliers : faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Apprendre à conjuguer au présent, à l’imparfait, au futur et au passé composé de l’indicatif être et avoir, les verbes du premier groupe et les verbes irréguliers du 3e groupe (faire, aller, dire, venir, pouvoir, voir, vouloir, prendre)."
       ],
-      "evidence": [
+      "criteres": [
         "Conjugue au passé composé de l’indicatif être, avoir, les verbes du premier groupe et faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.",
         "Transforme une phrase au passé composé (Je joue au ballon → nous avons joué au ballon).",
         "Orthographie correctement les formes verbales étudiées en situation de dictée et d’écriture."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait conjuguer au passé composé « prendre » ou « dire » (j’ai pris, nous avons dit…) ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait conjuguer au passé composé « prendre » ou « dire » (j’ai pris, nous avons dit…) ?",
+      "acquisAnterieurs": [
         "Conjuguer au passé composé de l’indicatif être, avoir et les verbes du premier groupe (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
@@ -2042,420 +1914,473 @@
     {
       "id": "fr-fr-ce2-ogr-08",
       "programme": "francais-c2",
-      "type": "PROCEDURAL",
-      "subject": "Français",
-      "domain": "Grammaire et orthographe",
-      "subdomain": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Français",
+      "domaine": "Grammaire et orthographe",
+      "sousDomaine": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Trouver le radical, la terminaison et l’infinitif d’un verbe conjugué",
+      "nom": "Trouver le radical, la terminaison et l’infinitif d’un verbe conjugué",
       "description": "Dans un verbe conjugué, distinguer la partie qui ne change pas (le radical) de la fin qui change (la terminaison), et retrouver le verbe à l’infinitif (ils jouent → jouer).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier le radical et la terminaison d’un verbe conjugué au programme et trouver son infinitif."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie le radical et la terminaison d’un verbe conjugué au programme et trouve son infinitif."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire que « nous avons joué » et « les enfants jouent » viennent du verbe « jouer », et montrer le radical et la terminaison de « jouent » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire que « nous avons joué » et « les enfants jouent » viennent du verbe « jouer », et montrer le radical et la terminaison de « jouent » ?",
+      "acquisAnterieurs": [
         "Identifier le radical et la terminaison d’un verbe du premier groupe conjugué et trouver son infinitif (CE1)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
         "bo": "BO n° 41 du 31 octobre 2024",
         "page": 22,
         "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a"
       }
     }
   ],
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-fr-ce2-mots-02",
-      "prerequisiteId": "fr-fr-ce2-mots-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Lire vite un texte nouveau suppose que toutes les correspondances lettres-sons soient automatisées."
+      "de": "fr-fr-ce2-mots-01",
+      "vers": "fr-fr-ce2-mots-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Lire vite un texte nouveau suppose que toutes les correspondances lettres-sons soient automatisées."
     },
     {
-      "topicId": "fr-fr-ce2-mots-03",
-      "prerequisiteId": "fr-fr-ce2-mots-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "La reconnaissance directe des mots s’appuie sur un décodage devenu automatique."
+      "de": "fr-fr-ce2-mots-01",
+      "vers": "fr-fr-ce2-mots-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "La reconnaissance directe des mots s’appuie sur un décodage devenu automatique."
     },
     {
-      "topicId": "fr-fr-ce2-voix-01",
-      "prerequisiteId": "fr-fr-ce2-mots-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Atteindre 90 mots par minute exige un décodage rapide, y compris des mots inconnus."
+      "de": "fr-fr-ce2-mots-02",
+      "vers": "fr-fr-ce2-voix-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Atteindre 90 mots par minute exige un décodage rapide, y compris des mots inconnus."
     },
     {
-      "topicId": "fr-fr-ce2-voix-01",
-      "prerequisiteId": "fr-fr-ce2-mots-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "La vitesse de lecture repose sur la reconnaissance directe des mots fréquents."
+      "de": "fr-fr-ce2-mots-03",
+      "vers": "fr-fr-ce2-voix-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "La vitesse de lecture repose sur la reconnaissance directe des mots fréquents."
     },
     {
-      "topicId": "fr-fr-ce2-voix-02",
-      "prerequisiteId": "fr-fr-ce2-mots-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Faire les liaisons suppose de savoir quand une lettre finale muette se prononce ou non."
+      "de": "fr-fr-ce2-mots-04",
+      "vers": "fr-fr-ce2-voix-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Faire les liaisons suppose de savoir quand une lettre finale muette se prononce ou non."
     },
     {
-      "topicId": "fr-fr-ce2-voix-02",
-      "prerequisiteId": "fr-fr-ce2-phr-06",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Respecter la ponctuation à l’oral suppose de connaître le rôle des signes de fin de phrase."
+      "de": "fr-fr-ce2-phr-06",
+      "vers": "fr-fr-ce2-voix-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Respecter la ponctuation à l’oral suppose de connaître le rôle des signes de fin de phrase."
     },
     {
-      "topicId": "fr-fr-ce2-voix-03",
-      "prerequisiteId": "fr-fr-ce2-voix-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "La lecture expressive joue de la ponctuation et des pauses."
+      "de": "fr-fr-ce2-voix-02",
+      "vers": "fr-fr-ce2-voix-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "La lecture expressive joue de la ponctuation et des pauses."
     },
     {
-      "topicId": "fr-fr-ce2-voix-03",
-      "prerequisiteId": "fr-fr-ce2-comp-01",
-      "strength": "soft",
-      "origin": "texte",
-      "reason": "Le programme présente la lecture expressive comme la manifestation de la compréhension du texte."
+      "de": "fr-fr-ce2-comp-01",
+      "vers": "fr-fr-ce2-voix-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "texte",
+      "raison": "Le programme présente la lecture expressive comme la manifestation de la compréhension du texte."
     },
     {
-      "topicId": "fr-fr-ce2-comp-01",
-      "prerequisiteId": "fr-fr-ce2-comp-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Suivre les reprises d’un personnage (il, le félin…) est nécessaire pour savoir qui fait quoi dans un récit."
+      "de": "fr-fr-ce2-comp-04",
+      "vers": "fr-fr-ce2-comp-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Suivre les reprises d’un personnage (il, le félin…) est nécessaire pour savoir qui fait quoi dans un récit."
     },
     {
-      "topicId": "fr-fr-ce2-comp-01",
-      "prerequisiteId": "fr-fr-ce2-enr-01",
-      "strength": "soft",
-      "origin": "texte",
-      "reason": "Le programme indique que le vocabulaire maîtrisé facilite la compréhension en lecture."
+      "de": "fr-fr-ce2-enr-01",
+      "vers": "fr-fr-ce2-comp-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "texte",
+      "raison": "Le programme indique que le vocabulaire maîtrisé facilite la compréhension en lecture."
     },
     {
-      "topicId": "fr-fr-ce2-comp-02",
-      "prerequisiteId": "fr-fr-ce2-comp-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Reconnaître un texte informatif aide à utiliser ses titres, sous-titres et paragraphes."
+      "de": "fr-fr-ce2-comp-05",
+      "vers": "fr-fr-ce2-comp-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Reconnaître un texte informatif aide à utiliser ses titres, sous-titres et paragraphes."
     },
     {
-      "topicId": "fr-fr-ce2-comp-03",
-      "prerequisiteId": "fr-fr-ce2-enr-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Élucider un mot inconnu passe notamment par le sens des principaux affixes."
+      "de": "fr-fr-ce2-enr-04",
+      "vers": "fr-fr-ce2-comp-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Élucider un mot inconnu passe notamment par le sens des principaux affixes."
     },
     {
-      "topicId": "fr-fr-ce2-comp-06",
-      "prerequisiteId": "fr-fr-ce2-comp-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "On infère à partir d’indices explicites qu’il faut d’abord avoir compris."
+      "de": "fr-fr-ce2-comp-01",
+      "vers": "fr-fr-ce2-comp-06",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "On infère à partir d’indices explicites qu’il faut d’abord avoir compris."
     },
     {
-      "topicId": "fr-fr-ce2-comp-08",
-      "prerequisiteId": "fr-fr-ce2-mots-02",
-      "strength": "hard",
-      "origin": "texte",
-      "reason": "Le programme pose l’automatisation du déchiffrage comme condition de la compréhension d’un texte que l’élève lit lui-même."
+      "de": "fr-fr-ce2-mots-02",
+      "vers": "fr-fr-ce2-comp-08",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "raison": "Le programme pose l’automatisation du déchiffrage comme condition de la compréhension d’un texte que l’élève lit lui-même."
     },
     {
-      "topicId": "fr-fr-ce2-comp-08",
-      "prerequisiteId": "fr-fr-ce2-comp-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Comprendre seul un récit de vingt lignes mobilise les stratégies de compréhension du récit."
+      "de": "fr-fr-ce2-comp-01",
+      "vers": "fr-fr-ce2-comp-08",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Comprendre seul un récit de vingt lignes mobilise les stratégies de compréhension du récit."
     },
     {
-      "topicId": "fr-fr-ce2-comp-08",
-      "prerequisiteId": "fr-fr-ce2-comp-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Comprendre seul un texte informatif mobilise le repérage de ses informations."
+      "de": "fr-fr-ce2-comp-02",
+      "vers": "fr-fr-ce2-comp-08",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Comprendre seul un texte informatif mobilise le repérage de ses informations."
     },
     {
-      "topicId": "fr-fr-ce2-lect-01",
-      "prerequisiteId": "fr-fr-ce2-comp-08",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Lire seul des œuvres complètes suppose de savoir lire et comprendre seul un texte."
+      "de": "fr-fr-ce2-comp-08",
+      "vers": "fr-fr-ce2-lect-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Lire seul des œuvres complètes suppose de savoir lire et comprendre seul un texte."
     },
     {
-      "topicId": "fr-fr-ce2-lect-02",
-      "prerequisiteId": "fr-fr-ce2-comp-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Distinguer les genres prolonge la différenciation des types de textes."
+      "de": "fr-fr-ce2-comp-05",
+      "vers": "fr-fr-ce2-lect-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Distinguer les genres prolonge la différenciation des types de textes."
     },
     {
-      "topicId": "fr-fr-ce2-lect-03",
-      "prerequisiteId": "fr-fr-ce2-lect-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "La mise en réseau s’appuie sur les œuvres lues."
+      "de": "fr-fr-ce2-lect-01",
+      "vers": "fr-fr-ce2-lect-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "La mise en réseau s’appuie sur les œuvres lues."
     },
     {
-      "topicId": "fr-fr-ce2-dict-01",
-      "prerequisiteId": "fr-fr-ce2-mots-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Choisir la graphie d’un son suppose de connaître toutes les correspondances graphème-phonème."
+      "de": "fr-fr-ce2-mots-01",
+      "vers": "fr-fr-ce2-dict-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Choisir la graphie d’un son suppose de connaître toutes les correspondances graphème-phonème."
     },
     {
-      "topicId": "fr-fr-ce2-dict-01",
-      "prerequisiteId": "fr-fr-ce2-orth-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Le choix de la graphie dans un mot fréquent repose sur la mémorisation de son orthographe."
+      "de": "fr-fr-ce2-orth-01",
+      "vers": "fr-fr-ce2-dict-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Le choix de la graphie dans un mot fréquent repose sur la mémorisation de son orthographe."
     },
     {
-      "topicId": "fr-fr-ce2-dict-02",
-      "prerequisiteId": "fr-fr-ce2-ogr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Les chaînes d’accord d’une phrase dictée incluent les accords du groupe nominal."
+      "de": "fr-fr-ce2-ogr-01",
+      "vers": "fr-fr-ce2-dict-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Les chaînes d’accord d’une phrase dictée incluent les accords du groupe nominal."
     },
     {
-      "topicId": "fr-fr-ce2-dict-02",
-      "prerequisiteId": "fr-fr-ce2-ogr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Accorder le verbe en dictée suppose d’identifier son sujet."
+      "de": "fr-fr-ce2-ogr-03",
+      "vers": "fr-fr-ce2-dict-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Accorder le verbe en dictée suppose d’identifier son sujet."
     },
     {
-      "topicId": "fr-fr-ce2-copie-01",
-      "prerequisiteId": "fr-fr-ce2-curs-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Copier vite une dizaine de lignes exige une écriture cursive automatisée."
+      "de": "fr-fr-ce2-curs-01",
+      "vers": "fr-fr-ce2-copie-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Copier vite une dizaine de lignes exige une écriture cursive automatisée."
     },
     {
-      "topicId": "fr-fr-ce2-copie-01",
-      "prerequisiteId": "fr-fr-ce2-copie-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Copier sans erreur suppose de se relire pour repérer oublis et fautes."
+      "de": "fr-fr-ce2-copie-02",
+      "vers": "fr-fr-ce2-copie-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Copier sans erreur suppose de se relire pour repérer oublis et fautes."
     },
     {
-      "topicId": "fr-fr-ce2-prod-01",
-      "prerequisiteId": "fr-fr-ce2-orth-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Un message compréhensible doit être correctement orthographié."
+      "de": "fr-fr-ce2-orth-01",
+      "vers": "fr-fr-ce2-prod-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Un message compréhensible doit être correctement orthographié."
     },
     {
-      "topicId": "fr-fr-ce2-prod-02",
-      "prerequisiteId": "fr-fr-ce2-ogr-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les gammes d’écriture font varier les accords du groupe nominal (la petite fille / les petits garçons)."
+      "de": "fr-fr-ce2-ogr-01",
+      "vers": "fr-fr-ce2-prod-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les gammes d’écriture font varier les accords du groupe nominal (la petite fille / les petits garçons)."
     },
     {
-      "topicId": "fr-fr-ce2-prod-02",
-      "prerequisiteId": "fr-fr-ce2-ogr-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les gammes font varier le sujet et le temps du verbe (veut / veulent / ai voulu)."
+      "de": "fr-fr-ce2-ogr-03",
+      "vers": "fr-fr-ce2-prod-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les gammes font varier le sujet et le temps du verbe (veut / veulent / ai voulu)."
     },
     {
-      "topicId": "fr-fr-ce2-prod-03",
-      "prerequisiteId": "fr-fr-ce2-reem-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Le texte doit réemployer un lexique précis."
+      "de": "fr-fr-ce2-reem-01",
+      "vers": "fr-fr-ce2-prod-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Le texte doit réemployer un lexique précis."
     },
     {
-      "topicId": "fr-fr-ce2-prod-03",
-      "prerequisiteId": "fr-fr-ce2-phr-06",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Respecter la syntaxe suppose de délimiter ses phrases par la ponctuation finale."
+      "de": "fr-fr-ce2-phr-06",
+      "vers": "fr-fr-ce2-prod-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Respecter la syntaxe suppose de délimiter ses phrases par la ponctuation finale."
     },
     {
-      "topicId": "fr-fr-ce2-prod-04",
-      "prerequisiteId": "fr-fr-ce2-phr-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "La relecture méthodique consiste à repérer le groupe sujet et le verbe pour vérifier leur accord."
+      "de": "fr-fr-ce2-phr-01",
+      "vers": "fr-fr-ce2-prod-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "La relecture méthodique consiste à repérer le groupe sujet et le verbe pour vérifier leur accord."
     },
     {
-      "topicId": "fr-fr-ce2-prod-04",
-      "prerequisiteId": "fr-fr-ce2-ogr-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Corriger les erreurs d’accord suppose de connaître les marques d’accord du groupe nominal."
+      "de": "fr-fr-ce2-ogr-01",
+      "vers": "fr-fr-ce2-prod-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Corriger les erreurs d’accord suppose de connaître les marques d’accord du groupe nominal."
     },
     {
-      "topicId": "fr-fr-ce2-dire-01",
-      "prerequisiteId": "fr-fr-ce2-reem-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Une production orale riche mobilise un lexique varié employé à bon escient."
+      "de": "fr-fr-ce2-reem-01",
+      "vers": "fr-fr-ce2-dire-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Une production orale riche mobilise un lexique varié employé à bon escient."
     },
     {
-      "topicId": "fr-fr-ce2-dire-03",
-      "prerequisiteId": "fr-fr-ce2-dire-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Captiver un auditoire suppose de savoir mener une production orale structurée."
+      "de": "fr-fr-ce2-dire-01",
+      "vers": "fr-fr-ce2-dire-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Captiver un auditoire suppose de savoir mener une production orale structurée."
     },
     {
-      "topicId": "fr-fr-ce2-ech-01",
-      "prerequisiteId": "fr-fr-ce2-ecou-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Rebondir sur les propos d’un camarade suppose de les avoir écoutés et compris."
+      "de": "fr-fr-ce2-ecou-01",
+      "vers": "fr-fr-ce2-ech-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Rebondir sur les propos d’un camarade suppose de les avoir écoutés et compris."
     },
     {
-      "topicId": "fr-fr-ce2-ech-02",
-      "prerequisiteId": "fr-fr-ce2-reem-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Adopter un registre adapté suppose de connaître et de savoir changer de niveau de langue."
+      "de": "fr-fr-ce2-reem-03",
+      "vers": "fr-fr-ce2-ech-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Adopter un registre adapté suppose de connaître et de savoir changer de niveau de langue."
     },
     {
-      "topicId": "fr-fr-ce2-enr-04",
-      "prerequisiteId": "fr-fr-ce2-rel-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Trouver le sens d’un mot par sa construction suppose de repérer préfixes et suffixes."
+      "de": "fr-fr-ce2-rel-04",
+      "vers": "fr-fr-ce2-enr-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Trouver le sens d’un mot par sa construction suppose de repérer préfixes et suffixes."
     },
     {
-      "topicId": "fr-fr-ce2-reem-01",
-      "prerequisiteId": "fr-fr-ce2-rel-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Éviter les répétitions par un terme générique (le félin) suppose de hiérarchiser les termes."
+      "de": "fr-fr-ce2-rel-02",
+      "vers": "fr-fr-ce2-reem-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Éviter les répétitions par un terme générique (le félin) suppose de hiérarchiser les termes."
     },
     {
-      "topicId": "fr-fr-ce2-reem-02",
-      "prerequisiteId": "fr-fr-ce2-enr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Employer un mot au sens figuré suppose d’avoir compris le passage du sens propre au sens figuré."
+      "de": "fr-fr-ce2-enr-03",
+      "vers": "fr-fr-ce2-reem-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Employer un mot au sens figuré suppose d’avoir compris le passage du sens propre au sens figuré."
     },
     {
-      "topicId": "fr-fr-ce2-reem-04",
-      "prerequisiteId": "fr-fr-ce2-enr-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "La fluence verbale porte sur les corpus de mots étudiés."
+      "de": "fr-fr-ce2-enr-01",
+      "vers": "fr-fr-ce2-reem-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "La fluence verbale porte sur les corpus de mots étudiés."
     },
     {
-      "topicId": "fr-fr-ce2-reem-04",
-      "prerequisiteId": "fr-fr-ce2-phr-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Citer des mots de natures différentes suppose de distinguer les classes de mots."
+      "de": "fr-fr-ce2-phr-04",
+      "vers": "fr-fr-ce2-reem-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Citer des mots de natures différentes suppose de distinguer les classes de mots."
     },
     {
-      "topicId": "fr-fr-ce2-orth-01",
-      "prerequisiteId": "fr-fr-ce2-enr-01",
-      "strength": "soft",
-      "origin": "texte",
-      "reason": "Le programme souligne que la mémoire orthographique ne retient durablement que ce qui a été compris."
+      "de": "fr-fr-ce2-enr-01",
+      "vers": "fr-fr-ce2-orth-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "texte",
+      "raison": "Le programme souligne que la mémoire orthographique ne retient durablement que ce qui a été compris."
     },
     {
-      "topicId": "fr-fr-ce2-orth-03",
-      "prerequisiteId": "fr-fr-ce2-rel-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Raisonner sur le radical, le préfixe et le suffixe suppose de savoir les identifier."
+      "de": "fr-fr-ce2-rel-04",
+      "vers": "fr-fr-ce2-orth-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Raisonner sur le radical, le préfixe et le suffixe suppose de savoir les identifier."
     },
     {
-      "topicId": "fr-fr-ce2-phr-01",
-      "prerequisiteId": "fr-fr-ce2-phr-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Substituer un pronom au groupe sujet suppose de connaître le pronom personnel sujet."
+      "de": "fr-fr-ce2-phr-04",
+      "vers": "fr-fr-ce2-phr-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Substituer un pronom au groupe sujet suppose de connaître le pronom personnel sujet."
     },
     {
-      "topicId": "fr-fr-ce2-phr-03",
-      "prerequisiteId": "fr-fr-ce2-phr-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "La transformation négative s’applique à des phrases de différents types."
+      "de": "fr-fr-ce2-phr-02",
+      "vers": "fr-fr-ce2-phr-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "La transformation négative s’applique à des phrases de différents types."
     },
     {
-      "topicId": "fr-fr-ce2-phr-05",
-      "prerequisiteId": "fr-fr-ce2-phr-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "L’adverbe s’ajoute aux classes de mots connues et s’en distingue par son invariabilité."
+      "de": "fr-fr-ce2-phr-04",
+      "vers": "fr-fr-ce2-phr-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "L’adverbe s’ajoute aux classes de mots connues et s’en distingue par son invariabilité."
     },
     {
-      "topicId": "fr-fr-ce2-phr-06",
-      "prerequisiteId": "fr-fr-ce2-phr-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Le signe de fin de phrase dépend du type de phrase (affirmation, question, ordre)."
+      "de": "fr-fr-ce2-phr-02",
+      "vers": "fr-fr-ce2-phr-06",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Le signe de fin de phrase dépend du type de phrase (affirmation, question, ordre)."
     },
     {
-      "topicId": "fr-fr-ce2-ogr-01",
-      "prerequisiteId": "fr-fr-ce2-phr-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Accorder dans le groupe nominal suppose de reconnaître déterminant, nom et adjectif."
+      "de": "fr-fr-ce2-phr-04",
+      "vers": "fr-fr-ce2-ogr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Accorder dans le groupe nominal suppose de reconnaître déterminant, nom et adjectif."
     },
     {
-      "topicId": "fr-fr-ce2-ogr-02",
-      "prerequisiteId": "fr-fr-ce2-ogr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Les pluriels et féminins particuliers complètent les marques d’accord régulières."
+      "de": "fr-fr-ce2-ogr-01",
+      "vers": "fr-fr-ce2-ogr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Les pluriels et féminins particuliers complètent les marques d’accord régulières."
     },
     {
-      "topicId": "fr-fr-ce2-ogr-03",
-      "prerequisiteId": "fr-fr-ce2-phr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Relier le verbe à son sujet suppose de repérer le groupe sujet et le verbe."
+      "de": "fr-fr-ce2-phr-01",
+      "vers": "fr-fr-ce2-ogr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Relier le verbe à son sujet suppose de repérer le groupe sujet et le verbe."
     },
     {
-      "topicId": "fr-fr-ce2-ogr-04",
-      "prerequisiteId": "fr-fr-ce2-ogr-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "La conjugaison fait varier le verbe selon la personne du sujet."
+      "de": "fr-fr-ce2-ogr-03",
+      "vers": "fr-fr-ce2-ogr-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "La conjugaison fait varier le verbe selon la personne du sujet."
     },
     {
-      "topicId": "fr-fr-ce2-ogr-04",
-      "prerequisiteId": "fr-fr-ce2-ogr-08",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Conjuguer un verbe du 1er groupe, c’est ajouter des terminaisons à son radical."
+      "de": "fr-fr-ce2-ogr-08",
+      "vers": "fr-fr-ce2-ogr-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Conjuguer un verbe du 1er groupe, c’est ajouter des terminaisons à son radical."
     },
     {
-      "topicId": "fr-fr-ce2-ogr-05",
-      "prerequisiteId": "fr-fr-ce2-ogr-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "L’imparfait se construit sur le radical du présent (nous faisons → je faisais)."
+      "de": "fr-fr-ce2-ogr-04",
+      "vers": "fr-fr-ce2-ogr-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "L’imparfait se construit sur le radical du présent (nous faisons → je faisais)."
     },
     {
-      "topicId": "fr-fr-ce2-ogr-06",
-      "prerequisiteId": "fr-fr-ce2-ogr-08",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Le futur des verbes du 1er groupe se forme à partir de l’infinitif (jouer → je jouerai)."
+      "de": "fr-fr-ce2-ogr-08",
+      "vers": "fr-fr-ce2-ogr-06",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Le futur des verbes du 1er groupe se forme à partir de l’infinitif (jouer → je jouerai)."
     },
     {
-      "topicId": "fr-fr-ce2-ogr-07",
-      "prerequisiteId": "fr-fr-ce2-ogr-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Le passé composé utilise les auxiliaires être ou avoir conjugués au présent."
+      "de": "fr-fr-ce2-ogr-04",
+      "vers": "fr-fr-ce2-ogr-07",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Le passé composé utilise les auxiliaires être ou avoir conjugués au présent."
     }
   ],
-  "extractedAt": "2026-10-22"
+  "extraitLe": "2026-10-22"
 }

@@ -15,7 +15,7 @@ La version en ligne est publiée par Vercel à chaque envoi sur la branche `main
 `index.html` est générée : ne la modifie pas à la main.
 
 - [modele.html](modele.html) contient la page (HTML, CSS et JavaScript, sans dépendance hormis les polices Google Fonts).
-- `construction/outils/construire_site.py` y intègre `data/notions.json` et `data/prerequis.json`, compressés, et écrit `index.html`. L'assemblage (`construction/outils/assembler.py`) le lance à chaque fois.
+- `construction/outils/construire_site.py` y intègre le jeu de données de `data/` (programmes, objectifs, notions et liens), compressé, et écrit `index.html`. L'assemblage (`construction/outils/assembler.py`) le lance à chaque fois.
 
 ```bash
 cd construction && python3 outils/construire_site.py

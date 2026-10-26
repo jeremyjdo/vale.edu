@@ -1,184 +1,206 @@
 {
   "programme": "evar-elem",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-eva-cp-corps-01",
-      "prerequisiteId": "fr-eva-ms-corps-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que l’école élémentaire prend appui sur les acquis du cycle 1, notamment la découverte du corps ; Prolonge « Repérer et nommer les parties du corps sur un imagier » (MS)"
+      "de": "fr-eva-ms-corps-01",
+      "vers": "fr-eva-cp-corps-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que l’école élémentaire prend appui sur les acquis du cycle 1, notamment la découverte du corps ; Prolonge « Repérer et nommer les parties du corps sur un imagier » (MS)"
     },
     {
-      "topicId": "fr-eva-cp-corps-02",
-      "prerequisiteId": "fr-eva-gs-soc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Ressemblances et différences physiques entre filles et garçons » (GS)"
+      "de": "fr-eva-gs-soc-01",
+      "vers": "fr-eva-cp-corps-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Ressemblances et différences physiques entre filles et garçons » (GS)"
     },
     {
-      "topicId": "fr-eva-cp-corps-03",
-      "prerequisiteId": "fr-eva-ps-corps-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que l’école élémentaire prend appui sur les acquis du cycle 1, notamment la compréhension de l’intimité corporelle ; Prolonge « Comprendre ce qu’est l’intimité » (PS)"
+      "de": "fr-eva-ps-corps-02",
+      "vers": "fr-eva-cp-corps-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que l’école élémentaire prend appui sur les acquis du cycle 1, notamment la compréhension de l’intimité corporelle ; Prolonge « Comprendre ce qu’est l’intimité » (PS)"
     },
     {
-      "topicId": "fr-eva-cp-corps-04",
-      "prerequisiteId": "fr-eva-ps-corps-04",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que l’école élémentaire prend appui sur les acquis du cycle 1, notamment le respect de l’intimité corporelle ; Prolonge « Repérer les espaces où chacun a droit à son intimité » (PS)"
+      "de": "fr-eva-ps-corps-04",
+      "vers": "fr-eva-cp-corps-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que l’école élémentaire prend appui sur les acquis du cycle 1, notamment le respect de l’intimité corporelle ; Prolonge « Repérer les espaces où chacun a droit à son intimité » (PS)"
     },
     {
-      "topicId": "fr-eva-cp-corps-05",
-      "prerequisiteId": "fr-eva-ps-corps-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Développer sa connaissance de soi » (PS)"
+      "de": "fr-eva-ps-corps-03",
+      "vers": "fr-eva-cp-corps-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Développer sa connaissance de soi » (PS)"
     },
     {
-      "topicId": "fr-eva-cp-rel-01",
-      "prerequisiteId": "fr-eva-gs-corps-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que l’école élémentaire prend appui sur les acquis du cycle 1, notamment la découverte des principales émotions ; Prolonge « Identifier ses émotions et celles des autres » (GS)"
+      "de": "fr-eva-gs-corps-01",
+      "vers": "fr-eva-cp-rel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que l’école élémentaire prend appui sur les acquis du cycle 1, notamment la découverte des principales émotions ; Prolonge « Identifier ses émotions et celles des autres » (GS)"
     },
     {
-      "topicId": "fr-eva-cp-rel-02",
-      "prerequisiteId": "fr-eva-gs-corps-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Exprimer clairement ce que l’on ressent » (GS)"
+      "de": "fr-eva-gs-corps-03",
+      "vers": "fr-eva-cp-rel-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Exprimer clairement ce que l’on ressent » (GS)"
     },
     {
-      "topicId": "fr-eva-cp-rel-03",
-      "prerequisiteId": "fr-eva-gs-rel-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Créer des liens positifs et nouer des amitiés » (GS), où l’on règle un conflit par un « message clair »"
+      "de": "fr-eva-gs-rel-03",
+      "vers": "fr-eva-cp-rel-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Créer des liens positifs et nouer des amitiés » (GS), où l’on règle un conflit par un « message clair »"
     },
     {
-      "topicId": "fr-eva-cp-soc-01",
-      "prerequisiteId": "fr-eva-ms-soc-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Découvrir et respecter les différentes structures familiales » (MS)"
+      "de": "fr-eva-ms-soc-02",
+      "vers": "fr-eva-cp-soc-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Découvrir et respecter les différentes structures familiales » (MS)"
     },
     {
-      "topicId": "fr-eva-cp-soc-03",
-      "prerequisiteId": "fr-eva-gs-rel-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Créer des liens positifs et nouer des amitiés » (GS) : aller vers l’autre, entrer en relation"
+      "de": "fr-eva-gs-rel-03",
+      "vers": "fr-eva-cp-soc-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Créer des liens positifs et nouer des amitiés » (GS) : aller vers l’autre, entrer en relation"
     },
     {
-      "topicId": "fr-eva-cp-soc-03",
-      "prerequisiteId": "fr-eva-ps-corps-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Parler de soi s’appuie sur la connaissance de soi travaillée en PS"
+      "de": "fr-eva-ps-corps-03",
+      "vers": "fr-eva-cp-soc-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Parler de soi s’appuie sur la connaissance de soi travaillée en PS"
     },
     {
-      "topicId": "fr-eva-ce1-rel-01",
-      "prerequisiteId": "fr-eva-gs-rel-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Identifier différents types de sentiments : l’amitié, l’amour » (GS)"
+      "de": "fr-eva-gs-rel-01",
+      "vers": "fr-eva-ce1-rel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Identifier différents types de sentiments : l’amitié, l’amour » (GS)"
     },
     {
-      "topicId": "fr-eva-ce1-rel-02",
-      "prerequisiteId": "fr-eva-gs-rel-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre ce qu’est l’amitié » (GS)"
+      "de": "fr-eva-gs-rel-02",
+      "vers": "fr-eva-ce1-rel-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre ce qu’est l’amitié » (GS)"
     },
     {
-      "topicId": "fr-eva-ce1-soc-01",
-      "prerequisiteId": "fr-eva-ps-soc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Activités et métiers ne sont pas réservés aux filles ou aux garçons » (PS), où l’on repère des stéréotypes dans les albums et imagiers"
+      "de": "fr-eva-ps-soc-01",
+      "vers": "fr-eva-ce1-soc-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Activités et métiers ne sont pas réservés aux filles ou aux garçons » (PS), où l’on repère des stéréotypes dans les albums et imagiers"
     },
     {
-      "topicId": "fr-eva-ce1-soc-04",
-      "prerequisiteId": "fr-eva-gs-soc-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Développer l’empathie, la coopération et l’entraide » (GS)"
+      "de": "fr-eva-gs-soc-03",
+      "vers": "fr-eva-ce1-soc-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Développer l’empathie, la coopération et l’entraide » (GS)"
     },
     {
-      "topicId": "fr-eva-ce2-corps-02",
-      "prerequisiteId": "fr-eva-ms-rel-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Être attentif à ses sensations » (MS)"
+      "de": "fr-eva-ms-rel-06",
+      "vers": "fr-eva-ce2-corps-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Être attentif à ses sensations » (MS)"
     },
     {
-      "topicId": "fr-eva-ce2-corps-04",
-      "prerequisiteId": "fr-eva-ms-rel-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Savoir demander de l’aide pour soi ou pour les autres » (MS)"
+      "de": "fr-eva-ms-rel-07",
+      "vers": "fr-eva-ce2-corps-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Savoir demander de l’aide pour soi ou pour les autres » (MS)"
     },
     {
-      "topicId": "fr-eva-ce2-rel-01",
-      "prerequisiteId": "fr-eva-ps-rel-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dire oui ou non : exprimer son accord ou son refus » (PS)"
+      "de": "fr-eva-ps-rel-01",
+      "vers": "fr-eva-ce2-rel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dire oui ou non : exprimer son accord ou son refus » (PS)"
     },
     {
-      "topicId": "fr-eva-ce2-rel-01",
-      "prerequisiteId": "fr-eva-ps-rel-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Respecter le refus de l’autre » (PS)"
+      "de": "fr-eva-ps-rel-02",
+      "vers": "fr-eva-ce2-rel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Respecter le refus de l’autre » (PS)"
     },
     {
-      "topicId": "fr-eva-ce2-rel-03",
-      "prerequisiteId": "fr-eva-ms-rel-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Certains comportements restent interdits, même avec un adulte de confiance » (MS)"
+      "de": "fr-eva-ms-rel-04",
+      "vers": "fr-eva-ce2-rel-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Certains comportements restent interdits, même avec un adulte de confiance » (MS)"
     },
     {
-      "topicId": "fr-eva-ce2-rel-04",
-      "prerequisiteId": "fr-eva-ms-rel-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Identifier ses adultes de confiance » (MS)"
+      "de": "fr-eva-ms-rel-03",
+      "vers": "fr-eva-ce2-rel-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Identifier ses adultes de confiance » (MS)"
     },
     {
-      "topicId": "fr-eva-cm1-soc-04",
-      "prerequisiteId": "fr-eva-ms-soc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Développer toutes sortes de compétences, qu’on soit fille ou garçon » (MS)"
+      "de": "fr-eva-ms-soc-01",
+      "vers": "fr-eva-cm1-soc-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Développer toutes sortes de compétences, qu’on soit fille ou garçon » (MS)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "evar-c1": "2026-10-23",
     "evar-elem": "2026-10-23"

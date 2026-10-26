@@ -1,7 +1,7 @@
 {
   "programme": "eps-c1",
-  "level": "multiple",
-  "themeCodes": {
+  "classe": "multiple",
+  "codesThemes": {
     "dep": "Se déplacer",
     "equi": "Construire des équilibres",
     "expr": "S’exprimer avec son corps",
@@ -11,28 +11,26 @@
     {
       "id": "fr-eps-ps-dep-01",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "PS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "PS",
       "cycle": 1,
-      "ageRangeStart": 3,
-      "ageRangeEnd": 4,
-      "name": "Manipuler et lancer des objets de différentes façons",
+      "nom": "Manipuler et lancer des objets de différentes façons",
       "description": "Attraper, lancer, faire glisser ou rouler des balles, des anneaux ou des cerceaux, en variant la manière de faire selon ce que l’on veut obtenir.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Manipuler et lancer des objets avec des intentions motrices différentes."
       ],
-      "evidence": [
+      "criteres": [
         "Attrape différents objets (balles, anneaux, cerceaux, etc.).",
         "Lance un objet par-dessus ou par en dessous.",
         "Fait glisser ou fait rouler au sol différents objets."
       ],
-      "period": "à aborder avant 4 ans",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait attraper une balle, la lancer par en dessous ou par-dessus, et faire rouler un cerceau au sol ?",
+      "periode": "à aborder avant 4 ans",
+      "question": "Est-ce que {{prenom}} sait attraper une balle, la lancer par en dessous ou par-dessus, et faire rouler un cerceau au sol ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -41,26 +39,24 @@
     {
       "id": "fr-eps-ps-dep-02",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "PS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "PS",
       "cycle": 1,
-      "ageRangeStart": 3,
-      "ageRangeEnd": 4,
-      "name": "Courir de manière variée et coordonnée",
+      "nom": "Courir de manière variée et coordonnée",
       "description": "Courir en contrôlant ses mouvements : changer de direction et contourner des obstacles sans perdre l’équilibre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Courir de manière variée et coordonnée."
       ],
-      "evidence": [
+      "criteres": [
         "Court en slalomant entre des objets."
       ],
-      "period": "à aborder avant 4 ans",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait courir en slalomant entre des plots ou des arbres sans les toucher ?",
+      "periode": "à aborder avant 4 ans",
+      "question": "Est-ce que {{prenom}} sait courir en slalomant entre des plots ou des arbres sans les toucher ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -69,26 +65,24 @@
     {
       "id": "fr-eps-ps-dep-03",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "PS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "PS",
       "cycle": 1,
-      "ageRangeStart": 3,
-      "ageRangeEnd": 4,
-      "name": "Sauter sans élan par-dessus un obstacle",
+      "nom": "Sauter sans élan par-dessus un obstacle",
       "description": "Franchir d’un saut, sans prendre d’élan, un petit obstacle posé au sol, comme une latte qui figure une rivière.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Sauter sans élan un obstacle."
       ],
-      "evidence": [
+      "criteres": [
         "Saute sans élan un obstacle horizontal matérialisé par une latte (une « rivière »)."
       ],
-      "period": "à aborder avant 4 ans",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait sauter, sans prendre d’élan, par-dessus une latte posée au sol comme si c’était une rivière ?",
+      "periode": "à aborder avant 4 ans",
+      "question": "Est-ce que {{prenom}} sait sauter, sans prendre d’élan, par-dessus une latte posée au sol comme si c’était une rivière ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -97,26 +91,24 @@
     {
       "id": "fr-eps-ps-dep-04",
       "programme": "eps-c1",
-      "type": "REPRESENTATIONAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "PS",
+      "nature": "représentation",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "PS",
       "cycle": 1,
-      "ageRangeStart": 3,
-      "ageRangeEnd": 4,
-      "name": "Se repérer dans un lieu proche et connu grâce à des indices",
+      "nom": "Se repérer dans un lieu proche et connu grâce à des indices",
       "description": "Retrouver dans un lieu familier, comme la cour de récréation, des éléments faciles à repérer (un banc, un arbre) en s’aidant d’une photographie.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Se situer dans un espace proche et connu en utilisant des indices présents dans l’environnement."
       ],
-      "evidence": [
+      "criteres": [
         "Trouve dans la cour de récréation au moins deux éléments remarquables (banc, arbres, poteaux, etc.) repérables sur la photographie prise lors de la première séance."
       ],
-      "period": "à aborder avant 4 ans",
-      "assessmentPrompt": "Avec une photo de la cour ou du jardin, est-ce que {{prenom}} sait retrouver sur place au moins deux éléments de la photo, comme un banc ou un arbre ?",
+      "periode": "à aborder avant 4 ans",
+      "question": "Avec une photo de la cour ou du jardin, est-ce que {{prenom}} sait retrouver sur place au moins deux éléments de la photo, comme un banc ou un arbre ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -125,27 +117,25 @@
     {
       "id": "fr-eps-ps-equi-01",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Construire des équilibres",
-      "subdomain": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
-      "level": "PS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Construire des équilibres",
+      "sousDomaine": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
+      "classe": "PS",
       "cycle": 1,
-      "ageRangeStart": 3,
-      "ageRangeEnd": 4,
-      "name": "Se déplacer de façons variées : grimper, ramper, à quatre pattes",
+      "nom": "Se déplacer de façons variées : grimper, ramper, à quatre pattes",
       "description": "Découvrir de nouvelles façons de se déplacer et de tenir en équilibre : grimper, descendre, tourner, avancer à quatre pattes, sur le ventre ou sur le dos.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer de nouveaux équilibres par des modes de déplacement variés."
       ],
-      "evidence": [
+      "criteres": [
         "Tourne, descend, grimpe.",
         "Se déplace à quatre pattes, avec les mains, les pieds, sur le ventre, sur le dos, etc."
       ],
-      "period": "à aborder avant 4 ans",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait grimper puis redescendre d’une structure de jeu, et avancer à quatre pattes ou en rampant sur le ventre ?",
+      "periode": "à aborder avant 4 ans",
+      "question": "Est-ce que {{prenom}} sait grimper puis redescendre d’une structure de jeu, et avancer à quatre pattes ou en rampant sur le ventre ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 24,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -154,27 +144,25 @@
     {
       "id": "fr-eps-ps-equi-02",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Construire des équilibres",
-      "subdomain": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
-      "level": "PS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Construire des équilibres",
+      "sousDomaine": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
+      "classe": "PS",
       "cycle": 1,
-      "ageRangeStart": 3,
-      "ageRangeEnd": 4,
-      "name": "Rouler en tricycle, en patinette ou en draisienne",
+      "nom": "Rouler en tricycle, en patinette ou en draisienne",
       "description": "Trouver son équilibre sur un engin à roues, dans un lieu inhabituel et sécurisé, en pédalant ou en poussant avec un ou deux pieds.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer de nouveaux équilibres dans des environnements de pratiques inhabituels et sécurisés."
       ],
-      "evidence": [
+      "criteres": [
         "Pédale sur un tricycle.",
         "Roule en patinette ou en draisienne en se propulsant avec un pied ou avec deux pieds."
       ],
-      "period": "à aborder avant 4 ans",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait avancer en draisienne ou en patinette en poussant avec un pied ou les deux, ou pédaler sur un tricycle ?",
+      "periode": "à aborder avant 4 ans",
+      "question": "Est-ce que {{prenom}} sait avancer en draisienne ou en patinette en poussant avec un pied ou les deux, ou pédaler sur un tricycle ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 24,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -183,28 +171,26 @@
     {
       "id": "fr-eps-ps-expr-01",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "S’exprimer avec son corps",
-      "subdomain": "Explorer, s’exprimer, danser, observer",
-      "level": "PS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "S’exprimer avec son corps",
+      "sousDomaine": "Explorer, s’exprimer, danser, observer",
+      "classe": "PS",
       "cycle": 1,
-      "ageRangeStart": 3,
-      "ageRangeEnd": 4,
-      "name": "Explorer le mouvement pour exprimer quelque chose",
+      "nom": "Explorer le mouvement pour exprimer quelque chose",
       "description": "Découvrir que le corps peut exprimer des choses : marcher à pas feutrés, ramper, s’immobiliser, bouger lentement, vite ou de façon saccadée.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Découvrir et explorer le mouvement comme vecteur d’expression."
       ],
-      "evidence": [
+      "criteres": [
         "Marche à pas feutrés, rampe, s’immobilise.",
         "Mobilise une partie du corps, tourne avec un carton ou un foulard.",
         "Produit des mouvements lents, rapides, saccadés, etc."
       ],
-      "period": "à aborder avant 4 ans",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait, en jouant, marcher à pas feutrés, s’immobiliser comme une statue, puis bouger très lentement ou très vite ?",
+      "periode": "à aborder avant 4 ans",
+      "question": "Est-ce que {{prenom}} sait, en jouant, marcher à pas feutrés, s’immobiliser comme une statue, puis bouger très lentement ou très vite ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 25,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -213,27 +199,25 @@
     {
       "id": "fr-eps-ps-expr-02",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "S’exprimer avec son corps",
-      "subdomain": "Explorer, s’exprimer, danser, observer",
-      "level": "PS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "S’exprimer avec son corps",
+      "sousDomaine": "Explorer, s’exprimer, danser, observer",
+      "classe": "PS",
       "cycle": 1,
-      "ageRangeStart": 3,
-      "ageRangeEnd": 4,
-      "name": "Oser s’exprimer avec son corps, en solo et en groupe",
+      "nom": "Oser s’exprimer avec son corps, en solo et en groupe",
       "description": "Oser bouger et danser devant et avec les autres en suivant une consigne simple, par exemple lors de rondes et de jeux chantés.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Oser s’exprimer avec son corps seul et avec les autres en répondant à une consigne simple."
       ],
-      "evidence": [
+      "criteres": [
         "Coordonne ses gestes et ses déplacements avec ceux des autres, lors de rondes et jeux chantés.",
         "Évolue dans l’espace, sur de la musique ou sans musique, au sein d’un petit groupe en variant les modes de déplacement."
       ],
-      "period": "à aborder avant 4 ans",
-      "assessmentPrompt": "Est-ce que {{prenom}} participe à une ronde ou à un jeu chanté en faisant les mêmes gestes que les autres au bon moment ?",
+      "periode": "à aborder avant 4 ans",
+      "question": "Est-ce que {{prenom}} participe à une ronde ou à un jeu chanté en faisant les mêmes gestes que les autres au bon moment ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 25,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -242,26 +226,24 @@
     {
       "id": "fr-eps-ps-expr-03",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "S’exprimer avec son corps",
-      "subdomain": "Explorer, s’exprimer, danser, observer",
-      "level": "PS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "S’exprimer avec son corps",
+      "sousDomaine": "Explorer, s’exprimer, danser, observer",
+      "classe": "PS",
       "cycle": 1,
-      "ageRangeStart": 3,
-      "ageRangeEnd": 4,
-      "name": "Observer pour reproduire des mouvements expressifs (mimer)",
+      "nom": "Observer pour reproduire des mouvements expressifs (mimer)",
       "description": "Observer un geste ou une attitude pour le reproduire, par exemple mimer un animal ou un personnage d’histoire.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Observer pour produire et reproduire un ou plusieurs mouvements avec une intention d’expression."
       ],
-      "evidence": [
+      "criteres": [
         "Mime un animal, un personnage de fiction, etc."
       ],
-      "period": "à aborder avant 4 ans",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait mimer un animal ou un personnage d’une histoire connue ?",
+      "periode": "à aborder avant 4 ans",
+      "question": "Est-ce que {{prenom}} sait mimer un animal ou un personnage d’une histoire connue ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 25,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -270,26 +252,24 @@
     {
       "id": "fr-eps-ps-coop-01",
       "programme": "eps-c1",
-      "type": "CONCEPTUAL",
-      "subject": "Activités physiques",
-      "domain": "Coopérer et s’opposer",
-      "subdomain": "Coopérer, s’opposer, respecter",
-      "level": "PS",
+      "nature": "compréhension",
+      "matiere": "Activités physiques",
+      "domaine": "Coopérer et s’opposer",
+      "sousDomaine": "Coopérer, s’opposer, respecter",
+      "classe": "PS",
       "cycle": 1,
-      "ageRangeStart": 3,
-      "ageRangeEnd": 4,
-      "name": "Comprendre et tenir un rôle dans un jeu simple",
+      "nom": "Comprendre et tenir un rôle dans un jeu simple",
       "description": "Comprendre ce que l’on doit faire dans un jeu très simple, par exemple transporter des objets d’une zone à une autre dans le jeu des déménageurs.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre et s’approprier un rôle dans les formes de jeu les plus simples."
       ],
-      "evidence": [
+      "criteres": [
         "Vide et transporte des objets d’une zone à l’autre : porter, lancer, faire rouler, pousser, tirer, etc. (jeu Les déménageurs)."
       ],
-      "period": "à aborder avant 4 ans",
-      "assessmentPrompt": "Dans un jeu où il faut transporter des objets d’un coin à un autre (« les déménageurs »), est-ce que {{prenom}} comprend ce qu’il faut faire et le fait jusqu’au bout ?",
+      "periode": "à aborder avant 4 ans",
+      "question": "Dans un jeu où il faut transporter des objets d’un coin à un autre (« les déménageurs »), est-ce que {{prenom}} comprend ce qu’il faut faire et le fait jusqu’au bout ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 26,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -298,26 +278,24 @@
     {
       "id": "fr-eps-ps-coop-02",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Coopérer et s’opposer",
-      "subdomain": "Coopérer, s’opposer, respecter",
-      "level": "PS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Coopérer et s’opposer",
+      "sousDomaine": "Coopérer, s’opposer, respecter",
+      "classe": "PS",
       "cycle": 1,
-      "ageRangeStart": 3,
-      "ageRangeEnd": 4,
-      "name": "Découvrir des jeux de mouvement, à deux ou en groupe",
+      "nom": "Découvrir des jeux de mouvement, à deux ou en groupe",
       "description": "Participer à différents jeux de mouvement, face à un autre enfant ou en groupe, comme poursuivre des adversaires ou leur échapper.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Explorer différents jeux moteurs vécus en interindividuel ou en collectif."
       ],
-      "evidence": [
+      "criteres": [
         "Poursuit ou esquive des adversaires dans l’aire de jeu (jeu Minuit dans la bergerie)."
       ],
-      "period": "à aborder avant 4 ans",
-      "assessmentPrompt": "Dans un jeu comme « Minuit dans la bergerie », est-ce que {{prenom}} sait poursuivre les autres ou leur échapper sans sortir de l’aire de jeu ?",
+      "periode": "à aborder avant 4 ans",
+      "question": "Dans un jeu comme « Minuit dans la bergerie », est-ce que {{prenom}} sait poursuivre les autres ou leur échapper sans sortir de l’aire de jeu ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 26,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -326,26 +304,24 @@
     {
       "id": "fr-eps-ps-coop-03",
       "programme": "eps-c1",
-      "type": "META",
-      "subject": "Activités physiques",
-      "domain": "Coopérer et s’opposer",
-      "subdomain": "Coopérer, s’opposer, respecter",
-      "level": "PS",
+      "nature": "stratégie",
+      "matiere": "Activités physiques",
+      "domaine": "Coopérer et s’opposer",
+      "sousDomaine": "Coopérer, s’opposer, respecter",
+      "classe": "PS",
       "cycle": 1,
-      "ageRangeStart": 3,
-      "ageRangeEnd": 4,
-      "name": "Prendre plaisir à jouer en respectant les autres et les règles",
+      "nom": "Prendre plaisir à jouer en respectant les autres et les règles",
       "description": "Jouer avec plaisir à des jeux à règles, sans bousculer les autres.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Éprouver le plaisir de jouer dans le respect des autres et des règles communes."
       ],
-      "evidence": [
+      "criteres": [
         "Joue à un jeu de poursuite sans brusquer les autres élèves (jeux Le chat et la souris, Les belettes)."
       ],
-      "period": "à aborder avant 4 ans",
-      "assessmentPrompt": "Est-ce que {{prenom}} joue avec plaisir au chat et à la souris, sans bousculer ni pousser les autres ?",
+      "periode": "à aborder avant 4 ans",
+      "question": "Est-ce que {{prenom}} joue avec plaisir au chat et à la souris, sans bousculer ni pousser les autres ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 26,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -354,30 +330,28 @@
     {
       "id": "fr-eps-ms-dep-01",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "MS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Lancer loin de manière coordonnée",
+      "nom": "Lancer loin de manière coordonnée",
       "description": "Lancer un objet le plus loin possible en coordonnant le mouvement du bras et du corps, dans différentes positions.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Lancer loin de manière coordonnée."
       ],
-      "evidence": [
+      "criteres": [
         "Lance différents objets par-dessus un fil ou un banc.",
         "Lance en étant assis, debout, etc."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait lancer une balle loin, par-dessus un fil ou un banc, en étant debout puis assis ?",
-      "priorKnowledge": [
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait lancer une balle loin, par-dessus un fil ou un banc, en étant debout puis assis ?",
+      "acquisAnterieurs": [
         "Manipuler et lancer des objets de différentes façons (PS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -386,30 +360,28 @@
     {
       "id": "fr-eps-ms-dep-02",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "MS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Courir vite en ligne droite sur une courte distance",
+      "nom": "Courir vite en ligne droite sur une courte distance",
       "description": "Courir le plus vite possible d’un point de départ à un point d’arrivée, en restant dans son couloir de course.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Courir vite en ligne droite sur une distance ou une durée courte."
       ],
-      "evidence": [
+      "criteres": [
         "Court vite d’un point de départ à un point d’arrivée.",
         "Reste dans son espace de course matérialisé par des cordelettes."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait courir vite tout droit jusqu’à une ligne d’arrivée, sans sortir de son couloir ?",
-      "priorKnowledge": [
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait courir vite tout droit jusqu’à une ligne d’arrivée, sans sortir de son couloir ?",
+      "acquisAnterieurs": [
         "Courir de manière variée et coordonnée (PS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -418,31 +390,29 @@
     {
       "id": "fr-eps-ms-dep-03",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "MS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Enchainer des sauts sans élan au-dessus de plusieurs obstacles",
+      "nom": "Enchainer des sauts sans élan au-dessus de plusieurs obstacles",
       "description": "Sauter plusieurs fois de suite, sur un pied ou sur deux pieds, pour passer de cerceau en cerceau ou franchir une série d’obstacles.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Sauter sans élan plusieurs obstacles."
       ],
-      "evidence": [
+      "criteres": [
         "Enchaine des sauts sur un pied, sur deux pieds dans des cerceaux.",
         "Saute au-dessus d’obstacles verticaux.",
         "Franchit plusieurs obstacles horizontaux (tapis, cordelettes, lattes, plots, etc.)."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait sauter à cloche-pied puis à pieds joints de cerceau en cerceau, ou franchir plusieurs cordelettes posées au sol ?",
-      "priorKnowledge": [
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait sauter à cloche-pied puis à pieds joints de cerceau en cerceau, ou franchir plusieurs cordelettes posées au sol ?",
+      "acquisAnterieurs": [
         "Sauter sans élan par-dessus un obstacle (PS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -451,29 +421,27 @@
     {
       "id": "fr-eps-ms-dep-04",
       "programme": "eps-c1",
-      "type": "REPRESENTATIONAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "MS",
+      "nature": "représentation",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Se repérer dans l’école grâce à des indices et des photos",
+      "nom": "Se repérer dans l’école grâce à des indices et des photos",
       "description": "Retrouver, dans un lieu plus vaste mais familier comme l’école, des éléments photographiés à l’avance.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Se situer dans un espace élargi et connu grâce à des indices prélevés dans l’environnement."
       ],
-      "evidence": [
+      "criteres": [
         "Trouve dans l’école trois éléments remarquables et repérables sur des photographies prises par les professeurs, en l’absence des élèves ou lors d’une séance précédente."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Avec trois photos d’endroits familiers (l’école, le jardin, le quartier), est-ce que {{prenom}} sait retrouver sur place chacun des endroits photographiés ?",
-      "priorKnowledge": [
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Avec trois photos d’endroits familiers (l’école, le jardin, le quartier), est-ce que {{prenom}} sait retrouver sur place chacun des endroits photographiés ?",
+      "acquisAnterieurs": [
         "Se repérer dans un lieu proche et connu grâce à des indices (PS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -482,30 +450,28 @@
     {
       "id": "fr-eps-ms-equi-01",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Construire des équilibres",
-      "subdomain": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
-      "level": "MS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Construire des équilibres",
+      "sousDomaine": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Trouver son équilibre en perdant ses repères habituels",
+      "nom": "Trouver son équilibre en perdant ses repères habituels",
       "description": "Oser des déplacements inhabituels qui bousculent l’équilibre : marcher à reculons, se suspendre par les bras, tourner, se balancer.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer de nouveaux équilibres par des déplacements impliquant une perte de repères habituels."
       ],
-      "evidence": [
+      "criteres": [
         "Marche à reculons.",
         "Se suspend par les bras, tourne, se balance, etc."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait marcher à reculons, ou se suspendre par les bras à une barre et se balancer ?",
-      "priorKnowledge": [
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait marcher à reculons, ou se suspendre par les bras à une barre et se balancer ?",
+      "acquisAnterieurs": [
         "Se déplacer de façons variées : grimper, ramper, à quatre pattes (PS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 24,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -514,30 +480,28 @@
     {
       "id": "fr-eps-ms-equi-02",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Construire des équilibres",
-      "subdomain": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
-      "level": "MS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Construire des équilibres",
+      "sousDomaine": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Se déplacer en équilibre sur un engin et savoir s’arrêter",
+      "nom": "Se déplacer en équilibre sur un engin et savoir s’arrêter",
       "description": "Garder l’équilibre sur des échasses, des patins à roulettes, un vélo ou une luge, et savoir s’arrêter.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer de nouveaux équilibres par des déplacements impliquant une perte de repères habituels."
       ],
-      "evidence": [
+      "criteres": [
         "Se déplace en équilibre sur des échasses, des patins à roulettes, un vélo, une luge, etc.",
         "Sait s’arrêter."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait rouler en équilibre sur un vélo ou des patins à roulettes, et s’arrêter au bon moment ?",
-      "priorKnowledge": [
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait rouler en équilibre sur un vélo ou des patins à roulettes, et s’arrêter au bon moment ?",
+      "acquisAnterieurs": [
         "Rouler en tricycle, en patinette ou en draisienne (PS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 24,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -546,26 +510,24 @@
     {
       "id": "fr-eps-ms-equi-03",
       "programme": "eps-c1",
-      "type": "CONCEPTUAL",
-      "subject": "Activités physiques",
-      "domain": "Construire des équilibres",
-      "subdomain": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
-      "level": "MS",
+      "nature": "compréhension",
+      "matiere": "Activités physiques",
+      "domaine": "Construire des équilibres",
+      "sousDomaine": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Comprendre l’intérêt des règles de sécurité",
+      "nom": "Comprendre l’intérêt des règles de sécurité",
       "description": "Comprendre pourquoi on respecte des règles de sécurité dans des activités et des lieux inhabituels, par exemple attendre l’accord de l’adulte avant de se lancer.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre l’intérêt des règles de sécurité dans des activités et environnements inhabituels."
       ],
-      "evidence": [
+      "criteres": [
         "Attend l’autorisation des professeurs avant de s’engager dans un parcours, pour sa sécurité et celle des autres."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} attend l’accord d’un adulte avant de se lancer sur un parcours, et sait dire que c’est pour sa sécurité et celle des autres ?",
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} attend l’accord d’un adulte avant de se lancer sur un parcours, et sait dire que c’est pour sa sécurité et celle des autres ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 24,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -574,31 +536,29 @@
     {
       "id": "fr-eps-ms-expr-01",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "S’exprimer avec son corps",
-      "subdomain": "Explorer, s’exprimer, danser, observer",
-      "level": "MS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "S’exprimer avec son corps",
+      "sousDomaine": "Explorer, s’exprimer, danser, observer",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Découvrir et explorer le geste dansé",
+      "nom": "Découvrir et explorer le geste dansé",
       "description": "Reproduire des gestes de danse et chercher, avec les autres, des gestes qui expriment une émotion (joie, colère, tristesse, peur).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Découvrir et explorer le geste dansé."
       ],
-      "evidence": [
+      "criteres": [
         "Reproduit certains gestes dansés (ramper sur le sol, tracer des vagues dans l’espace avec les bras, lancer un foulard en l’air puis frapper dans les mains avant de le rattraper, etc.).",
         "Trouve avec les autres les différents gestes adaptés pour exprimer la joie, la colère, la tristesse, la peur, etc."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait lancer un foulard en l’air, frapper dans les mains puis le rattraper, ou trouver un geste de danse pour montrer la joie ou la colère ?",
-      "priorKnowledge": [
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait lancer un foulard en l’air, frapper dans les mains puis le rattraper, ou trouver un geste de danse pour montrer la joie ou la colère ?",
+      "acquisAnterieurs": [
         "Explorer le mouvement pour exprimer quelque chose (PS)",
         "Observer pour reproduire des mouvements expressifs (mimer) (PS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 25,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -607,29 +567,27 @@
     {
       "id": "fr-eps-ms-expr-02",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "S’exprimer avec son corps",
-      "subdomain": "Explorer, s’exprimer, danser, observer",
-      "level": "MS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "S’exprimer avec son corps",
+      "sousDomaine": "Explorer, s’exprimer, danser, observer",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Découvrir l’espace scénique",
+      "nom": "Découvrir l’espace scénique",
       "description": "Comprendre qu’il existe un espace pour se montrer, la scène, délimité par l’adulte, et apprendre à en occuper les différentes parties en dansant.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Découvrir l’espace scénique."
       ],
-      "evidence": [
+      "criteres": [
         "Évolue en occupant les différents espaces de la scène identifiée par les professeurs."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Quand on délimite une « scène » dans une pièce, est-ce que {{prenom}} sait danser en allant dans les différents coins de cette scène, sans en sortir ?",
-      "priorKnowledge": [
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Quand on délimite une « scène » dans une pièce, est-ce que {{prenom}} sait danser en allant dans les différents coins de cette scène, sans en sortir ?",
+      "acquisAnterieurs": [
         "Oser s’exprimer avec son corps, en solo et en groupe (PS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 25,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -638,27 +596,25 @@
     {
       "id": "fr-eps-ms-expr-03",
       "programme": "eps-c1",
-      "type": "LANGUAGE",
-      "subject": "Activités physiques",
-      "domain": "S’exprimer avec son corps",
-      "subdomain": "Explorer, s’exprimer, danser, observer",
-      "level": "MS",
+      "nature": "vocabulaire",
+      "matiere": "Activités physiques",
+      "domaine": "S’exprimer avec son corps",
+      "sousDomaine": "Explorer, s’exprimer, danser, observer",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Regarder des danses et dire ce que l’on ressent",
+      "nom": "Regarder des danses et dire ce que l’on ressent",
       "description": "Apprendre à regarder la danse de façon active : observer de courts extraits de danses de différentes cultures et dire avec des mots les émotions ressenties.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer une posture de spectateur et de spectatrice actifs."
       ],
-      "evidence": [
+      "criteres": [
         "Observe de courts extraits de chorégraphies filmées qui illustrent la diversité des danses et des cultures.",
         "Exprime verbalement ses émotions."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Après avoir regardé une courte vidéo de danse, est-ce que {{prenom}} sait dire avec des mots ce que cette danse fait ressentir ?",
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Après avoir regardé une courte vidéo de danse, est-ce que {{prenom}} sait dire avec des mots ce que cette danse fait ressentir ?",
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 25,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -667,30 +623,28 @@
     {
       "id": "fr-eps-ms-coop-01",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Coopérer et s’opposer",
-      "subdomain": "Coopérer, s’opposer, respecter",
-      "level": "MS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Coopérer et s’opposer",
+      "sousDomaine": "Coopérer, s’opposer, respecter",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Jouer en coopérant avec d’autres",
+      "nom": "Jouer en coopérant avec d’autres",
       "description": "S’organiser avec d’autres pour atteindre un même but : attraper ensemble un adversaire, déplacer des objets à plusieurs.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Jouer en coopérant."
       ],
-      "evidence": [
+      "criteres": [
         "S’organise à plusieurs pour poursuivre ou rattraper un adversaire.",
         "S’organise à plusieurs pour déplacer des objets d’une zone à l’autre, etc."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Dans un jeu de poursuite, est-ce que {{prenom}} sait s’organiser avec d’autres enfants pour attraper ensemble un adversaire ?",
-      "priorKnowledge": [
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Dans un jeu de poursuite, est-ce que {{prenom}} sait s’organiser avec d’autres enfants pour attraper ensemble un adversaire ?",
+      "acquisAnterieurs": [
         "Comprendre et tenir un rôle dans un jeu simple (PS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 26,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -699,31 +653,29 @@
     {
       "id": "fr-eps-ms-coop-02",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Coopérer et s’opposer",
-      "subdomain": "Coopérer, s’opposer, respecter",
-      "level": "MS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Coopérer et s’opposer",
+      "sousDomaine": "Coopérer, s’opposer, respecter",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Jouer le rôle d’attaquant ou de défenseur",
+      "nom": "Jouer le rôle d’attaquant ou de défenseur",
       "description": "Tenir tour à tour le rôle d’attaque (s’échapper, dérober des objets, faire tomber des cibles) et le rôle de défense (poursuivre, protéger une zone ou des cibles).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Jouer en exerçant des rôles différents : attaquant, attaquante et défenseur, défenseuse."
       ],
-      "evidence": [
+      "criteres": [
         "Poursuit ou s’échappe, protège une zone ou dérobe des objets, défend des cibles ou les fait tomber.",
         "Joue à plusieurs en identifiant la zone à atteindre et les rôles des joueurs et des joueuses (attaquants, attaquantes ou défenseurs, défenseuses)."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Dans un jeu à deux équipes, est-ce que {{prenom}} sait dire si son rôle est d’attaquer ou de défendre, et agir en conséquence (protéger une zone ou essayer de l’atteindre) ?",
-      "priorKnowledge": [
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Dans un jeu à deux équipes, est-ce que {{prenom}} sait dire si son rôle est d’attaquer ou de défendre, et agir en conséquence (protéger une zone ou essayer de l’atteindre) ?",
+      "acquisAnterieurs": [
         "Comprendre et tenir un rôle dans un jeu simple (PS)",
         "Découvrir des jeux de mouvement, à deux ou en groupe (PS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 26,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -732,29 +684,27 @@
     {
       "id": "fr-eps-ms-coop-03",
       "programme": "eps-c1",
-      "type": "META",
-      "subject": "Activités physiques",
-      "domain": "Coopérer et s’opposer",
-      "subdomain": "Coopérer, s’opposer, respecter",
-      "level": "MS",
+      "nature": "stratégie",
+      "matiere": "Activités physiques",
+      "domaine": "Coopérer et s’opposer",
+      "sousDomaine": "Coopérer, s’opposer, respecter",
+      "classe": "MS",
       "cycle": 1,
-      "ageRangeStart": 4,
-      "ageRangeEnd": 5,
-      "name": "Coopérer en respectant les règles et accepter de perdre",
+      "nom": "Coopérer en respectant les règles et accepter de perdre",
       "description": "Jouer avec les autres en respectant les règles communes, et accepter la défaite dans un jeu à règles.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Coopérer dans le respect des autres et des règles communes."
       ],
-      "evidence": [
+      "criteres": [
         "Accepte la défaite dans le cadre d’un jeu à règles (jeux Promenons-nous dans les bois, Les trois refuges)."
       ],
-      "period": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Quand {{prenom}} perd à un jeu comme « Promenons-nous dans les bois », est-ce que la défaite est acceptée sans colère ni abandon du jeu ?",
-      "priorKnowledge": [
+      "periode": "à partir de 4 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Quand {{prenom}} perd à un jeu comme « Promenons-nous dans les bois », est-ce que la défaite est acceptée sans colère ni abandon du jeu ?",
+      "acquisAnterieurs": [
         "Prendre plaisir à jouer en respectant les autres et les règles (PS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 26,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -763,30 +713,28 @@
     {
       "id": "fr-eps-gs-dep-01",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Lancer loin et avec précision différents objets",
+      "nom": "Lancer loin et avec précision différents objets",
       "description": "Lancer une balle, un anneau ou un petit javelot en prenant quelques pas d’élan, pour atteindre une zone de plus en plus éloignée.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Lancer loin et avec précision différents objets."
       ],
-      "evidence": [
+      "criteres": [
         "Lance une balle lestée, un anneau, un cerceau, un petit javelot avec élan (quelques pas de déplacement).",
         "Atteint une zone de plus en plus éloignée."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait lancer une balle, après quelques pas d’élan, pour atteindre une zone placée de plus en plus loin ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait lancer une balle, après quelques pas d’élan, pour atteindre une zone placée de plus en plus loin ?",
+      "acquisAnterieurs": [
         "Lancer loin de manière coordonnée (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -795,29 +743,27 @@
     {
       "id": "fr-eps-gs-dep-02",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Courir de plus en plus longtemps sans s’arrêter",
+      "nom": "Courir de plus en plus longtemps sans s’arrêter",
       "description": "Tenir un effort de course sur une durée qui s’allonge, en limitant les arrêts, par exemple le temps d’une musique ou d’un sablier.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Courir de plus en plus longtemps sans s’arrêter."
       ],
-      "evidence": [
+      "criteres": [
         "Court en limitant les arrêts sur une durée d’effort matérialisée par un support musical ou un sablier."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait courir pendant toute la durée d’une chanson en s’arrêtant le moins possible ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait courir pendant toute la durée d’une chanson en s’arrêtant le moins possible ?",
+      "acquisAnterieurs": [
         "Courir vite en ligne droite sur une courte distance (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -826,30 +772,28 @@
     {
       "id": "fr-eps-gs-dep-03",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Courir vite et franchir un obstacle sans ralentir",
+      "nom": "Courir vite et franchir un obstacle sans ralentir",
       "description": "Garder sa vitesse de course tout en franchissant un petit obstacle sur le trajet.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Courir vite et franchir un obstacle sur une distance courte."
       ],
-      "evidence": [
+      "criteres": [
         "Court vite et franchit sans ralentir une « rivière » matérialisée avec des lattes."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait courir vite et sauter par-dessus une petite « rivière » tracée au sol sans ralentir ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait courir vite et sauter par-dessus une petite « rivière » tracée au sol sans ralentir ?",
+      "acquisAnterieurs": [
         "Courir vite en ligne droite sur une courte distance (MS)",
         "Enchainer des sauts sans élan au-dessus de plusieurs obstacles (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -858,32 +802,30 @@
     {
       "id": "fr-eps-gs-dep-04",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Prendre de l’élan pour sauter haut ou loin, ou pour lancer",
+      "nom": "Prendre de l’élan pour sauter haut ou loin, ou pour lancer",
       "description": "Enchainer une course d’élan et une impulsion sur un pied pour sauter haut ou loin, puis retomber sur ses deux pieds ; faire quelques pas d’élan avant de lancer.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Coordonner ses actions et ses déplacements pour lancer et pour sauter haut ou loin."
       ],
-      "evidence": [
+      "criteres": [
         "Court puis saute haut ou loin après une impulsion sur un pied pour franchir un obstacle.",
         "Se réceptionne sur deux pieds.",
         "Lance un objet avec élan (quelques pas de déplacement)."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait prendre de l’élan en courant, sauter en partant d’un pied par-dessus un obstacle, puis retomber sur ses deux pieds ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait prendre de l’élan en courant, sauter en partant d’un pied par-dessus un obstacle, puis retomber sur ses deux pieds ?",
+      "acquisAnterieurs": [
         "Enchainer des sauts sans élan au-dessus de plusieurs obstacles (MS)",
         "Lancer loin de manière coordonnée (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -892,29 +834,27 @@
     {
       "id": "fr-eps-gs-dep-05",
       "programme": "eps-c1",
-      "type": "REPRESENTATIONAL",
-      "subject": "Activités physiques",
-      "domain": "Se déplacer",
-      "subdomain": "Manipuler, courir, sauter, lancer, s’orienter",
-      "level": "GS",
+      "nature": "représentation",
+      "matiere": "Activités physiques",
+      "domaine": "Se déplacer",
+      "sousDomaine": "Manipuler, courir, sauter, lancer, s’orienter",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Se repérer dans un lieu moins connu grâce à des photos",
+      "nom": "Se repérer dans un lieu moins connu grâce à des photos",
       "description": "Retrouver, dans un lieu hors de l’école (terrain de sport, stade, parc), des éléments repérés sur plusieurs photographies.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Se situer dans un milieu moins connu grâce à des indices prélevés dans l’environnement."
       ],
-      "evidence": [
+      "criteres": [
         "Trouve au moins cinq éléments remarquables et repérables sur plusieurs photographies prises par les professeurs dans un lieu extérieur à l’école (terrain de sport, stade, parc…), en l’absence des élèves ou lors d’une séance précédente."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Dans un parc peu connu, est-ce que {{prenom}} sait retrouver au moins cinq éléments (un banc, une fontaine, un arbre) à partir de photos prises à l’avance ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Dans un parc peu connu, est-ce que {{prenom}} sait retrouver au moins cinq éléments (un banc, une fontaine, un arbre) à partir de photos prises à l’avance ?",
+      "acquisAnterieurs": [
         "Se repérer dans l’école grâce à des indices et des photos (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 23,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -923,30 +863,28 @@
     {
       "id": "fr-eps-gs-equi-01",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Construire des équilibres",
-      "subdomain": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Construire des équilibres",
+      "sousDomaine": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Enchainer plusieurs actions d’équilibre",
+      "nom": "Enchainer plusieurs actions d’équilibre",
       "description": "Combiner plusieurs actions à la suite : sauter puis avancer à quatre pattes, se suspendre, se balancer puis se lâcher.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Construire de nouveaux équilibres par des déplacements impliquant une combinaison d’actions."
       ],
-      "evidence": [
+      "criteres": [
         "Saute puis se déplace en quadrupédie (à quatre pattes).",
         "Se suspend, se balance et se lâche, etc."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait se suspendre à une barre, se balancer puis se lâcher ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait se suspendre à une barre, se balancer puis se lâcher ?",
+      "acquisAnterieurs": [
         "Trouver son équilibre en perdant ses repères habituels (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 24,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -955,30 +893,28 @@
     {
       "id": "fr-eps-gs-equi-02",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Construire des équilibres",
-      "subdomain": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Construire des équilibres",
+      "sousDomaine": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Maitriser ses trajectoires sur patins, skis ou vélo à deux roues",
+      "nom": "Maitriser ses trajectoires sur patins, skis ou vélo à deux roues",
       "description": "Se déplacer sans tomber sur des patins, des skis ou un vélo à deux roues, en allant là où l’on veut aller.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Construire de nouveaux équilibres par des déplacements impliquant une combinaison d’actions."
       ],
-      "evidence": [
+      "criteres": [
         "Se déplace sans tomber sur des patins à glace ou à roulettes, sur des skis, sur un vélo à deux roues, etc.",
         "Maitrise ses trajectoires."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait rouler sur un vélo à deux roues, ou glisser en patins, sans tomber et en suivant le chemin prévu ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait rouler sur un vélo à deux roues, ou glisser en patins, sans tomber et en suivant le chemin prévu ?",
+      "acquisAnterieurs": [
         "Se déplacer en équilibre sur un engin et savoir s’arrêter (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 24,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -987,31 +923,29 @@
     {
       "id": "fr-eps-gs-equi-03",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Construire des équilibres",
-      "subdomain": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Construire des équilibres",
+      "sousDomaine": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Découvrir l’eau : y entrer, s’y déplacer, mettre la tête sous l’eau",
+      "nom": "Découvrir l’eau : y entrer, s’y déplacer, mettre la tête sous l’eau",
       "description": "Prendre ses aises dans l’eau : y entrer et en sortir sans aide, s’y déplacer et immerger la tête. L’aisance aquatique est particulièrement visée avant l’âge de 7 ans.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Explorer le milieu aquatique et développer une nouvelle locomotion dans l’eau."
       ],
-      "evidence": [
+      "criteres": [
         "Entre dans l’eau et en sort sans aide.",
         "Se déplace avec les épaules immergées.",
         "Immerge complètement la tête pendant plusieurs secondes."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "À la piscine, est-ce que {{prenom}} sait entrer dans l’eau et en sortir sans aide, avancer avec les épaules dans l’eau et mettre la tête sous l’eau quelques secondes ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "À la piscine, est-ce que {{prenom}} sait entrer dans l’eau et en sortir sans aide, avancer avec les épaules dans l’eau et mettre la tête sous l’eau quelques secondes ?",
+      "acquisAnterieurs": [
         "Comprendre l’intérêt des règles de sécurité (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 24,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -1020,29 +954,27 @@
     {
       "id": "fr-eps-gs-equi-04",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Construire des équilibres",
-      "subdomain": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Construire des équilibres",
+      "sousDomaine": "Tourner, se suspendre, se renverser, grimper, rouler, glisser, nager",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Respecter les règles de sécurité et veiller à celle des autres",
+      "nom": "Respecter les règles de sécurité et veiller à celle des autres",
       "description": "Appliquer les règles de sécurité pour soi et pour les autres, et aider un camarade avec l’adulte : le guider, ou se tenir prêt à le retenir (la « parade »).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Respecter les règles de sécurité pour soi et pour les autres."
       ],
-      "evidence": [
+      "criteres": [
         "Aide ses camarades avec les professeurs pour assurer leur sécurité (guide et parade)."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} respecte les règles de sécurité d’un parcours et sait aider un camarade, en le guidant ou en se tenant prêt à le retenir ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} respecte les règles de sécurité d’un parcours et sait aider un camarade, en le guidant ou en se tenant prêt à le retenir ?",
+      "acquisAnterieurs": [
         "Comprendre l’intérêt des règles de sécurité (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 24,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -1051,31 +983,29 @@
     {
       "id": "fr-eps-gs-expr-01",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "S’exprimer avec son corps",
-      "subdomain": "Explorer, s’exprimer, danser, observer",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "S’exprimer avec son corps",
+      "sousDomaine": "Explorer, s’exprimer, danser, observer",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Enrichir sa danse de nouvelles coordinations, aussi venues du cirque",
+      "nom": "Enrichir sa danse de nouvelles coordinations, aussi venues du cirque",
       "description": "Danser en variant la forme du corps (grand et étiré, ou petit et resserré) et essayer des gestes de cirque, comme jongler avec des foulards ou tenir en équilibre sur une planche posée sur un rouleau.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Enrichir le geste dansé par de nouvelles coordinations motrices, issues également des arts du cirque."
       ],
-      "evidence": [
+      "criteres": [
         "Danse « grand » (le corps étiré) ou danse « petit » (le corps resserré).",
         "Jongle avec deux foulards.",
         "S’équilibre sur un rolla bolla (planche posée sur un rouleau), etc."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait danser « grand », le corps tout étiré, puis « petit », le corps resserré, ou jongler avec deux foulards ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait danser « grand », le corps tout étiré, puis « petit », le corps resserré, ou jongler avec deux foulards ?",
+      "acquisAnterieurs": [
         "Découvrir et explorer le geste dansé (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 25,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -1084,30 +1014,28 @@
     {
       "id": "fr-eps-gs-expr-02",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "S’exprimer avec son corps",
-      "subdomain": "Explorer, s’exprimer, danser, observer",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "S’exprimer avec son corps",
+      "sousDomaine": "Explorer, s’exprimer, danser, observer",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Utiliser tout l’espace scénique pour créer des effets",
+      "nom": "Utiliser tout l’espace scénique pour créer des effets",
       "description": "Occuper toute la scène en jouant sur la vitesse et la façon de bouger (lent, rapide, fluide, saccadé), à partir d’objets, de musiques ou de façons de se déplacer qui servent de point de départ (les « inducteurs »).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Explorer l’ensemble de l’espace scénique en variant les inducteurs (objets, mondes sonores, modes de déplacements, etc.) pour créer des effets."
       ],
-      "evidence": [
+      "criteres": [
         "Reproduit un mouvement très lent ou très rapide, de façon continue, fluide, discontinue, saccadée, sur une musique.",
         "Utilise l’espace scénique en dansant."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Sur une musique, est-ce que {{prenom}} sait faire un même mouvement très lentement puis très vite, de façon fluide puis saccadée, en se déplaçant sur toute la « scène » ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Sur une musique, est-ce que {{prenom}} sait faire un même mouvement très lentement puis très vite, de façon fluide puis saccadée, en se déplaçant sur toute la « scène » ?",
+      "acquisAnterieurs": [
         "Découvrir l’espace scénique (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 25,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -1116,31 +1044,29 @@
     {
       "id": "fr-eps-gs-expr-03",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "S’exprimer avec son corps",
-      "subdomain": "Explorer, s’exprimer, danser, observer",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "S’exprimer avec son corps",
+      "sousDomaine": "Explorer, s’exprimer, danser, observer",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Danser à plusieurs en créant et en reproduisant des gestes",
+      "nom": "Danser à plusieurs en créant et en reproduisant des gestes",
       "description": "Danser en solo, à deux ou en groupe : inventer et reproduire des gestes, danser en miroir ou en contact, et suivre une petite chorégraphie (entrée, développement, fin).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Danser, seul ou à plusieurs, en créant et en reproduisant un ou plusieurs gestes et déplacements."
       ],
-      "evidence": [
+      "criteres": [
         "Danse en miroir, en parallèle, en contact, en prenant appui sur son partenaire, etc.",
         "Danse par deux, en demi-groupe, en groupe, en respectant une chorégraphie simple (une entrée en scène, un développement, une fin marquée)."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait danser en miroir face à un partenaire, ou enchainer une petite danse avec une entrée en scène, un milieu et une fin bien marquée ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Est-ce que {{prenom}} sait danser en miroir face à un partenaire, ou enchainer une petite danse avec une entrée en scène, un milieu et une fin bien marquée ?",
+      "acquisAnterieurs": [
         "Découvrir et explorer le geste dansé (MS)",
         "Oser s’exprimer avec son corps, en solo et en groupe (PS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 25,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -1149,31 +1075,29 @@
     {
       "id": "fr-eps-gs-expr-04",
       "programme": "eps-c1",
-      "type": "META",
-      "subject": "Activités physiques",
-      "domain": "S’exprimer avec son corps",
-      "subdomain": "Explorer, s’exprimer, danser, observer",
-      "level": "GS",
+      "nature": "stratégie",
+      "matiere": "Activités physiques",
+      "domaine": "S’exprimer avec son corps",
+      "sousDomaine": "Explorer, s’exprimer, danser, observer",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Regarder danser les autres, dire une émotion et donner un conseil",
+      "nom": "Regarder danser les autres, dire une émotion et donner un conseil",
       "description": "Regarder la danse de façon active : observer des camarades qui dansent, dire l’émotion ressentie et proposer un conseil pour les aider à progresser.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Adopter une posture de spectateur et de spectatrice actifs."
       ],
-      "evidence": [
+      "criteres": [
         "Observe ses camarades danser.",
         "Exprime verbalement une émotion.",
         "Formule un conseil pour les faire progresser."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Après avoir regardé quelqu’un danser, est-ce que {{prenom}} sait dire ce que la danse a fait ressentir et donner un petit conseil pour l’améliorer ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Après avoir regardé quelqu’un danser, est-ce que {{prenom}} sait dire ce que la danse a fait ressentir et donner un petit conseil pour l’améliorer ?",
+      "acquisAnterieurs": [
         "Regarder des danses et dire ce que l’on ressent (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 25,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -1182,29 +1106,27 @@
     {
       "id": "fr-eps-gs-coop-01",
       "programme": "eps-c1",
-      "type": "META",
-      "subject": "Activités physiques",
-      "domain": "Coopérer et s’opposer",
-      "subdomain": "Coopérer, s’opposer, respecter",
-      "level": "GS",
+      "nature": "stratégie",
+      "matiere": "Activités physiques",
+      "domaine": "Coopérer et s’opposer",
+      "sousDomaine": "Coopérer, s’opposer, respecter",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Élaborer une stratégie pour gagner un jeu",
+      "nom": "Élaborer une stratégie pour gagner un jeu",
       "description": "Réfléchir, individuellement ou avec son équipe, à la meilleure façon de gagner, dans des jeux comme « Protéger son trésor ».",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Élaborer seul ou à plusieurs des stratégies pour gagner un jeu."
       ],
-      "evidence": [
+      "criteres": [
         "Construit une stratégie individuelle ou collective (jeux Protéger son trésor, Les renards, les poules et les serpents)."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Avant ou pendant un jeu d’équipe comme « Protéger son trésor », est-ce que {{prenom}} sait proposer une idée pour gagner, par exemple qui garde le trésor et qui attaque ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Avant ou pendant un jeu d’équipe comme « Protéger son trésor », est-ce que {{prenom}} sait proposer une idée pour gagner, par exemple qui garde le trésor et qui attaque ?",
+      "acquisAnterieurs": [
         "Jouer en coopérant avec d’autres (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 26,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -1213,29 +1135,27 @@
     {
       "id": "fr-eps-gs-coop-02",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Coopérer et s’opposer",
-      "subdomain": "Coopérer, s’opposer, respecter",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Coopérer et s’opposer",
+      "sousDomaine": "Coopérer, s’opposer, respecter",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Jouer attaquant, défenseur ou arbitre",
+      "nom": "Jouer attaquant, défenseur ou arbitre",
       "description": "Tenir différents rôles dans un jeu d’équipe : attaquer pour atteindre une cible, défendre pour empêcher l’autre équipe d’y arriver, ou arbitrer en faisant respecter les règles.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Jouer en exerçant des rôles différents : attaquant, attaquante, défenseur, défenseuse et arbitre."
       ],
-      "evidence": [
+      "criteres": [
         "Atteint une cible (panier, but, zone, etc.) tout en empêchant l’autre équipe d’y parvenir."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Dans un jeu de ballon à deux équipes, est-ce que {{prenom}} sait essayer de marquer tout en empêchant l’autre équipe de marquer, et peut aussi tenir le rôle d’arbitre ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Dans un jeu de ballon à deux équipes, est-ce que {{prenom}} sait essayer de marquer tout en empêchant l’autre équipe de marquer, et peut aussi tenir le rôle d’arbitre ?",
+      "acquisAnterieurs": [
         "Jouer le rôle d’attaquant ou de défenseur (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 26,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -1244,30 +1164,28 @@
     {
       "id": "fr-eps-gs-coop-03",
       "programme": "eps-c1",
-      "type": "PROCEDURAL",
-      "subject": "Activités physiques",
-      "domain": "Coopérer et s’opposer",
-      "subdomain": "Coopérer, s’opposer, respecter",
-      "level": "GS",
+      "nature": "savoir-faire",
+      "matiere": "Activités physiques",
+      "domaine": "Coopérer et s’opposer",
+      "sousDomaine": "Coopérer, s’opposer, respecter",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "S’opposer à un adversaire au corps à corps sans faire mal",
+      "nom": "S’opposer à un adversaire au corps à corps sans faire mal",
       "description": "Dans des jeux de lutte, pousser ou tirer un adversaire pour le sortir d’une zone, ou l’immobiliser au sol, en respectant les règles et sans faire mal.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Éprouver le plaisir de coopérer et de s’opposer dans le respect des autres et des règles communes."
       ],
-      "evidence": [
+      "criteres": [
         "Sort son adversaire d’une zone en le poussant ou en le tirant.",
         "Immobilise son adversaire au sol sans faire mal (jeux Décrocher le coquillage du rocher, Sortir les ours de leur tanière)."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Dans un jeu de lutte, est-ce que {{prenom}} sait pousser ou tirer un adversaire pour le faire sortir d’une zone, sans faire mal ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Dans un jeu de lutte, est-ce que {{prenom}} sait pousser ou tirer un adversaire pour le faire sortir d’une zone, sans faire mal ?",
+      "acquisAnterieurs": [
         "Coopérer en respectant les règles et accepter de perdre (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 26,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
@@ -1276,274 +1194,306 @@
     {
       "id": "fr-eps-gs-coop-04",
       "programme": "eps-c1",
-      "type": "META",
-      "subject": "Activités physiques",
-      "domain": "Coopérer et s’opposer",
-      "subdomain": "Coopérer, s’opposer, respecter",
-      "level": "GS",
+      "nature": "stratégie",
+      "matiere": "Activités physiques",
+      "domaine": "Coopérer et s’opposer",
+      "sousDomaine": "Coopérer, s’opposer, respecter",
+      "classe": "GS",
       "cycle": 1,
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "name": "Accepter les contraintes d’une stratégie d’équipe",
+      "nom": "Accepter les contraintes d’une stratégie d’équipe",
       "description": "Jouer pour son équipe en acceptant le rôle et les consignes décidés ensemble, même quand on aurait préféré faire autrement.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Éprouver le plaisir de coopérer et de s’opposer dans le respect des autres et des règles communes."
       ],
-      "evidence": [
+      "criteres": [
         "Accepte les contraintes liées à l’élaboration d’une stratégie au sein d’une équipe (jeu La forêt, jeux d’attaque et de défense d’un territoire)."
       ],
-      "period": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
-      "assessmentPrompt": "Dans un jeu d’équipe, est-ce que {{prenom}} accepte le rôle décidé avec les autres (par exemple rester en défense) et le tient jusqu’au bout ?",
-      "priorKnowledge": [
+      "periode": "à partir de 5 ans ou dès que les apprentissages précédents ont pu être observés",
+      "question": "Dans un jeu d’équipe, est-ce que {{prenom}} accepte le rôle décidé avec les autres (par exemple rester en défense) et le tient jusqu’au bout ?",
+      "acquisAnterieurs": [
         "Coopérer en respectant les règles et accepter de perdre (MS)"
       ],
       "source": {
-        "file": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+        "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
         "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
         "page": 26,
         "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a"
       }
     }
   ],
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-eps-ms-dep-01",
-      "prerequisiteId": "fr-eps-ps-dep-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Manipuler et lancer des objets de différentes façons » (PS)."
+      "de": "fr-eps-ps-dep-01",
+      "vers": "fr-eps-ms-dep-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Manipuler et lancer des objets de différentes façons » (PS)."
     },
     {
-      "topicId": "fr-eps-gs-dep-01",
-      "prerequisiteId": "fr-eps-ms-dep-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Lancer loin de manière coordonnée » (MS)."
+      "de": "fr-eps-ms-dep-01",
+      "vers": "fr-eps-gs-dep-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Lancer loin de manière coordonnée » (MS)."
     },
     {
-      "topicId": "fr-eps-ms-dep-02",
-      "prerequisiteId": "fr-eps-ps-dep-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Courir de manière variée et coordonnée » (PS)."
+      "de": "fr-eps-ps-dep-02",
+      "vers": "fr-eps-ms-dep-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Courir de manière variée et coordonnée » (PS)."
     },
     {
-      "topicId": "fr-eps-gs-dep-02",
-      "prerequisiteId": "fr-eps-ms-dep-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Passer d’une course sur une durée courte à une course de plus en plus longue."
+      "de": "fr-eps-ms-dep-02",
+      "vers": "fr-eps-gs-dep-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Passer d’une course sur une durée courte à une course de plus en plus longue."
     },
     {
-      "topicId": "fr-eps-gs-dep-03",
-      "prerequisiteId": "fr-eps-ms-dep-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Courir vite en ligne droite sur une courte distance » (MS)."
+      "de": "fr-eps-ms-dep-02",
+      "vers": "fr-eps-gs-dep-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Courir vite en ligne droite sur une courte distance » (MS)."
     },
     {
-      "topicId": "fr-eps-gs-dep-03",
-      "prerequisiteId": "fr-eps-ms-dep-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Franchir un obstacle en courant s’appuie sur les sauts au-dessus d’obstacles (MS)."
+      "de": "fr-eps-ms-dep-03",
+      "vers": "fr-eps-gs-dep-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Franchir un obstacle en courant s’appuie sur les sauts au-dessus d’obstacles (MS)."
     },
     {
-      "topicId": "fr-eps-ms-dep-03",
-      "prerequisiteId": "fr-eps-ps-dep-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Sauter sans élan par-dessus un obstacle » (PS)."
+      "de": "fr-eps-ps-dep-03",
+      "vers": "fr-eps-ms-dep-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Sauter sans élan par-dessus un obstacle » (PS)."
     },
     {
-      "topicId": "fr-eps-gs-dep-04",
-      "prerequisiteId": "fr-eps-ms-dep-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Sauter avec élan suppose de savoir d’abord sauter sans élan (MS)."
+      "de": "fr-eps-ms-dep-03",
+      "vers": "fr-eps-gs-dep-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Sauter avec élan suppose de savoir d’abord sauter sans élan (MS)."
     },
     {
-      "topicId": "fr-eps-gs-dep-04",
-      "prerequisiteId": "fr-eps-ms-dep-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Lancer avec élan s’appuie sur un lancer déjà coordonné (MS)."
+      "de": "fr-eps-ms-dep-01",
+      "vers": "fr-eps-gs-dep-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Lancer avec élan s’appuie sur un lancer déjà coordonné (MS)."
     },
     {
-      "topicId": "fr-eps-ms-dep-04",
-      "prerequisiteId": "fr-eps-ps-dep-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Se repérer dans un lieu proche et connu grâce à des indices » (PS)."
+      "de": "fr-eps-ps-dep-04",
+      "vers": "fr-eps-ms-dep-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Se repérer dans un lieu proche et connu grâce à des indices » (PS)."
     },
     {
-      "topicId": "fr-eps-gs-dep-05",
-      "prerequisiteId": "fr-eps-ms-dep-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Se repérer dans l’école grâce à des indices et des photos » (MS)."
+      "de": "fr-eps-ms-dep-04",
+      "vers": "fr-eps-gs-dep-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Se repérer dans l’école grâce à des indices et des photos » (MS)."
     },
     {
-      "topicId": "fr-eps-ms-equi-01",
-      "prerequisiteId": "fr-eps-ps-equi-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Se déplacer de façons variées : grimper, ramper, à quatre pattes » (PS)."
+      "de": "fr-eps-ps-equi-01",
+      "vers": "fr-eps-ms-equi-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Se déplacer de façons variées : grimper, ramper, à quatre pattes » (PS)."
     },
     {
-      "topicId": "fr-eps-gs-equi-01",
-      "prerequisiteId": "fr-eps-ms-equi-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Trouver son équilibre en perdant ses repères habituels » (MS)."
+      "de": "fr-eps-ms-equi-01",
+      "vers": "fr-eps-gs-equi-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Trouver son équilibre en perdant ses repères habituels » (MS)."
     },
     {
-      "topicId": "fr-eps-ms-equi-02",
-      "prerequisiteId": "fr-eps-ps-equi-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Rouler en tricycle, en patinette ou en draisienne » (PS)."
+      "de": "fr-eps-ps-equi-02",
+      "vers": "fr-eps-ms-equi-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Rouler en tricycle, en patinette ou en draisienne » (PS)."
     },
     {
-      "topicId": "fr-eps-gs-equi-02",
-      "prerequisiteId": "fr-eps-ms-equi-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Se déplacer en équilibre sur un engin et savoir s’arrêter » (MS)."
+      "de": "fr-eps-ms-equi-02",
+      "vers": "fr-eps-gs-equi-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Se déplacer en équilibre sur un engin et savoir s’arrêter » (MS)."
     },
     {
-      "topicId": "fr-eps-gs-equi-04",
-      "prerequisiteId": "fr-eps-ms-equi-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Comprendre l’intérêt des règles de sécurité » (MS)."
+      "de": "fr-eps-ms-equi-03",
+      "vers": "fr-eps-gs-equi-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Comprendre l’intérêt des règles de sécurité » (MS)."
     },
     {
-      "topicId": "fr-eps-gs-equi-03",
-      "prerequisiteId": "fr-eps-ms-equi-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Le milieu aquatique, environnement inhabituel, demande de comprendre les règles de sécurité (MS)."
+      "de": "fr-eps-ms-equi-03",
+      "vers": "fr-eps-gs-equi-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Le milieu aquatique, environnement inhabituel, demande de comprendre les règles de sécurité (MS)."
     },
     {
-      "topicId": "fr-eps-ms-expr-01",
-      "prerequisiteId": "fr-eps-ps-expr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Explorer le mouvement pour exprimer quelque chose » (PS)."
+      "de": "fr-eps-ps-expr-01",
+      "vers": "fr-eps-ms-expr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Explorer le mouvement pour exprimer quelque chose » (PS)."
     },
     {
-      "topicId": "fr-eps-ms-expr-01",
-      "prerequisiteId": "fr-eps-ps-expr-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Reproduire des gestes dansés s’appuie sur l’observation et la reproduction de mouvements (PS)."
+      "de": "fr-eps-ps-expr-03",
+      "vers": "fr-eps-ms-expr-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Reproduire des gestes dansés s’appuie sur l’observation et la reproduction de mouvements (PS)."
     },
     {
-      "topicId": "fr-eps-ms-expr-02",
-      "prerequisiteId": "fr-eps-ps-expr-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Occuper la scène s’appuie sur le fait d’oser évoluer dans l’espace devant les autres (PS)."
+      "de": "fr-eps-ps-expr-02",
+      "vers": "fr-eps-ms-expr-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Occuper la scène s’appuie sur le fait d’oser évoluer dans l’espace devant les autres (PS)."
     },
     {
-      "topicId": "fr-eps-gs-expr-01",
-      "prerequisiteId": "fr-eps-ms-expr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Découvrir et explorer le geste dansé » (MS)."
+      "de": "fr-eps-ms-expr-01",
+      "vers": "fr-eps-gs-expr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Découvrir et explorer le geste dansé » (MS)."
     },
     {
-      "topicId": "fr-eps-gs-expr-02",
-      "prerequisiteId": "fr-eps-ms-expr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Découvrir l’espace scénique » (MS)."
+      "de": "fr-eps-ms-expr-02",
+      "vers": "fr-eps-gs-expr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Découvrir l’espace scénique » (MS)."
     },
     {
-      "topicId": "fr-eps-gs-expr-03",
-      "prerequisiteId": "fr-eps-ms-expr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Créer et reproduire des gestes à plusieurs suppose d’avoir exploré le geste dansé (MS)."
+      "de": "fr-eps-ms-expr-01",
+      "vers": "fr-eps-gs-expr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Créer et reproduire des gestes à plusieurs suppose d’avoir exploré le geste dansé (MS)."
     },
     {
-      "topicId": "fr-eps-gs-expr-03",
-      "prerequisiteId": "fr-eps-ps-expr-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Danser à plusieurs prolonge le fait d’oser s’exprimer avec les autres (PS)."
+      "de": "fr-eps-ps-expr-02",
+      "vers": "fr-eps-gs-expr-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Danser à plusieurs prolonge le fait d’oser s’exprimer avec les autres (PS)."
     },
     {
-      "topicId": "fr-eps-gs-expr-04",
-      "prerequisiteId": "fr-eps-ms-expr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Regarder des danses et dire ce que l’on ressent » (MS)."
+      "de": "fr-eps-ms-expr-03",
+      "vers": "fr-eps-gs-expr-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Regarder des danses et dire ce que l’on ressent » (MS)."
     },
     {
-      "topicId": "fr-eps-ms-coop-01",
-      "prerequisiteId": "fr-eps-ps-coop-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Coopérer suppose de savoir tenir un rôle dans un jeu simple (PS)."
+      "de": "fr-eps-ps-coop-01",
+      "vers": "fr-eps-ms-coop-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Coopérer suppose de savoir tenir un rôle dans un jeu simple (PS)."
     },
     {
-      "topicId": "fr-eps-ms-coop-02",
-      "prerequisiteId": "fr-eps-ps-coop-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Tenir le rôle d’attaquant ou de défenseur prolonge l’appropriation d’un rôle dans un jeu simple (PS)."
+      "de": "fr-eps-ps-coop-01",
+      "vers": "fr-eps-ms-coop-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Tenir le rôle d’attaquant ou de défenseur prolonge l’appropriation d’un rôle dans un jeu simple (PS)."
     },
     {
-      "topicId": "fr-eps-ms-coop-02",
-      "prerequisiteId": "fr-eps-ps-coop-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Poursuivre ou esquiver (PS) prépare les rôles d’attaque et de défense."
+      "de": "fr-eps-ps-coop-02",
+      "vers": "fr-eps-ms-coop-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Poursuivre ou esquiver (PS) prépare les rôles d’attaque et de défense."
     },
     {
-      "topicId": "fr-eps-ms-coop-03",
-      "prerequisiteId": "fr-eps-ps-coop-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Prendre plaisir à jouer en respectant les autres et les règles » (PS)."
+      "de": "fr-eps-ps-coop-03",
+      "vers": "fr-eps-ms-coop-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Prendre plaisir à jouer en respectant les autres et les règles » (PS)."
     },
     {
-      "topicId": "fr-eps-gs-coop-01",
-      "prerequisiteId": "fr-eps-ms-coop-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Élaborer une stratégie collective suppose de savoir jouer en coopérant (MS)."
+      "de": "fr-eps-ms-coop-01",
+      "vers": "fr-eps-gs-coop-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Élaborer une stratégie collective suppose de savoir jouer en coopérant (MS)."
     },
     {
-      "topicId": "fr-eps-gs-coop-02",
-      "prerequisiteId": "fr-eps-ms-coop-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Jouer le rôle d’attaquant ou de défenseur » (MS)."
+      "de": "fr-eps-ms-coop-02",
+      "vers": "fr-eps-gs-coop-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Jouer le rôle d’attaquant ou de défenseur » (MS)."
     },
     {
-      "topicId": "fr-eps-gs-coop-03",
-      "prerequisiteId": "fr-eps-ms-coop-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "S’opposer sans faire mal prolonge le respect des autres et des règles communes (MS)."
+      "de": "fr-eps-ms-coop-03",
+      "vers": "fr-eps-gs-coop-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "S’opposer sans faire mal prolonge le respect des autres et des règles communes (MS)."
     },
     {
-      "topicId": "fr-eps-gs-coop-04",
-      "prerequisiteId": "fr-eps-gs-coop-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Accepter les contraintes d’une stratégie suppose qu’une stratégie ait été élaborée."
+      "de": "fr-eps-gs-coop-01",
+      "vers": "fr-eps-gs-coop-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Accepter les contraintes d’une stratégie suppose qu’une stratégie ait été élaborée."
     },
     {
-      "topicId": "fr-eps-gs-coop-04",
-      "prerequisiteId": "fr-eps-ms-coop-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "S’appuie sur la coopération dans le respect des règles communes (MS)."
+      "de": "fr-eps-ms-coop-03",
+      "vers": "fr-eps-gs-coop-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "S’appuie sur la coopération dans le respect des règles communes (MS)."
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extraitLe": "2026-10-23"
 }

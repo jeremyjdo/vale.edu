@@ -1,0 +1,644 @@
+{
+  "jeuDeDonnees": "Notions des programmes officiels français",
+  "version": "0.4",
+  "genereLe": "2026-10-26T23:26:27",
+  "programmes": {
+    "maths-c2": {
+      "matiere": "Mathématiques",
+      "classes": [
+        "CP",
+        "CE1",
+        "CE2"
+      ],
+      "fichier": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%204%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20du%20cycle%202-403821.pdf",
+      "bo": "BO n° 41 du 31 octobre 2024",
+      "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed",
+      "extraitLe": "2026-10-22",
+      "suit": "maths-c1"
+    },
+    "francais-c2": {
+      "matiere": "Français",
+      "classes": [
+        "CP",
+        "CE1",
+        "CE2"
+      ],
+      "fichier": "cycle-2-cp-ce1-ce2/francais-c2-BO41-2024.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%203%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20du%20cycle%202-403818.pdf",
+      "bo": "BO n° 41 du 31 octobre 2024",
+      "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a",
+      "extraitLe": "2026-10-22",
+      "suit": "langage-c1"
+    },
+    "maths-c3": {
+      "matiere": "Mathématiques",
+      "classes": [
+        "CM1",
+        "CM2",
+        "6e"
+      ],
+      "fichier": "cycle-3-cm1-cm2-6e/maths-c3-BO16-2025.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/programme-de-math-matiques-pour-le-cycle-3-439827.pdf",
+      "bo": "BO n° 16 du 17 avril 2025",
+      "sha256": "f3f79a75ca8be7f54409b8b7cee3eafd769c23d12e6c822a253454e2c703b508",
+      "extraitLe": "2026-10-22",
+      "suit": "maths-c2"
+    },
+    "francais-c3": {
+      "matiere": "Français",
+      "classes": [
+        "CM1",
+        "CM2",
+        "6e"
+      ],
+      "fichier": "cycle-3-cm1-cm2-6e/francais-c3-BO16-2025.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/programme-de-fran-ais-pour-le-cycle-3-439824.pdf",
+      "bo": "BO n° 16 du 17 avril 2025",
+      "sha256": "e7c27f55c212b5ebb92ba8b60b6b1b0761a2301e7c0d0d780171c4cfb6e121ae",
+      "extraitLe": "2026-10-23",
+      "suit": "francais-c2"
+    },
+    "maths-c4": {
+      "matiere": "Mathématiques",
+      "classes": [
+        "5e",
+        "4e",
+        "3e"
+      ],
+      "fichier": "cycle-4-5e-4e-3e/maths-c4-BO10-2026.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf",
+      "bo": "BO n° 10 du 5 mars 2026",
+      "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9",
+      "extraitLe": "2026-10-23",
+      "suit": "maths-c3"
+    },
+    "francais-c4": {
+      "matiere": "Français",
+      "classes": [
+        "5e",
+        "4e",
+        "3e"
+      ],
+      "fichier": "cycle-4-5e-4e-3e/francais-c4-BO10-2026.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf",
+      "bo": "BO n° 10 du 5 mars 2026",
+      "sha256": "19359a2d376f73f4d41ceb1098bff9ea4f69ab2abb63dc486e67ea30cd338187",
+      "extraitLe": "2026-10-23",
+      "suit": "francais-c3"
+    },
+    "qlm-c2": {
+      "matiere": "Questionner le monde",
+      "classes": [
+        "CP",
+        "CE1",
+        "CE2",
+        "Cycle 2"
+      ],
+      "fichier": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/88/5/ensel714_annexe1_1312885.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881",
+      "extraitLe": "2026-10-23"
+    },
+    "hg-c3": {
+      "matiere": "Histoire-géographie",
+      "classes": [
+        "CM1",
+        "CM2",
+        "6e"
+      ],
+      "fichier": "cycle-3-cm1-cm2-6e/histoire-geo-c3-BO22-2026.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-4-programme-d-histoire-geographie-cycle-3-516779.pdf",
+      "bo": "BO n° 22 du 28 mai 2026",
+      "sha256": "da8530cf06ab706f181fd83c524c4a0b30ac765d74955f8ae1102513b207daae",
+      "extraitLe": "2026-10-23",
+      "suit": "qlm-c2"
+    },
+    "sciences-c3": {
+      "matiere": "Sciences et technologie",
+      "classes": [
+        "CM1",
+        "CM2",
+        "6e",
+        "CM1-CM2",
+        "Cycle 3"
+      ],
+      "fichier": "cycle-3-cm1-cm2-6e/sciences-techno-c3-BO24-2026.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-2-programme-de-sciences-et-technologie-du-cycle-3-517292.pdf",
+      "bo": "BO n° 24 du 11 juin 2026",
+      "sha256": "066f97ef190f5f1cbc167773bcb7edf25fbcfe4b40c4b3a6a8aa863f174b1c7e",
+      "extraitLe": "2026-10-23",
+      "suit": "qlm-c2"
+    },
+    "lv-cm": {
+      "matiere": "Langues vivantes",
+      "classes": [
+        "CM1",
+        "CM2"
+      ],
+      "fichier": "cycle-3-cm1-cm2-6e/langues-vivantes-cm-BO12-2026.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20langues%20vivantes%20%C3%A9trang%C3%A8res%20et%20r%C3%A9gionales%20pour%20les%20classes%20de%20cours%20moyen%20%28cycle%203%29-481190.pdf",
+      "bo": "BO n° 12 du 19 mars 2026",
+      "sha256": "5a2a35ac1ce93df468c52c3b335861a48f5b42c4c49c958dae3fb9b2b5cb4006",
+      "extraitLe": "2026-10-23",
+      "suit": "lv-c2"
+    },
+    "emc": {
+      "matiere": "Enseignement moral et civique",
+      "classes": [
+        "CP",
+        "CE1",
+        "CE2",
+        "CM1",
+        "CM2",
+        "6e",
+        "5e",
+        "4e",
+        "3e"
+      ],
+      "fichier": "commun/emc-cp-terminale-BO24-2024.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%94%20Programme%20d%E2%80%99enseignement%20moral%20et%20civique%20du%20cours%20pr%C3%A9paratoire%20%C3%A0%20la%20classe%20terminale%20des%20voies%20g%C3%A9n%C3%A9rale%2C%20technologique%20et%20professionnelle%20et%20des%20classes%20pr%C3%A9parant%20au%20CAP-402159.pdf",
+      "bo": "BO n° 24 du 13 juin 2024",
+      "sha256": "0f28566133a4d9b8a3da3ee5648fd3f2c1915fe25bea4d05aa8b9894a1544761",
+      "extraitLe": "2026-10-23"
+    },
+    "hg-c2": {
+      "matiere": "Histoire-géographie",
+      "classes": [
+        "CP",
+        "CE1",
+        "CE2"
+      ],
+      "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-3-programme-d-histoire-geographie-cycle-2-516776.pdf",
+      "bo": "BO n° 22 du 28 mai 2026",
+      "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762",
+      "extraitLe": "2026-10-23",
+      "suit": "reperes-c1",
+      "remplace": [
+        "qlm-c2"
+      ]
+    },
+    "sciences-c2": {
+      "matiere": "Sciences et technologie",
+      "classes": [
+        "CP",
+        "CE1",
+        "CE2",
+        "Cycle 2"
+      ],
+      "fichier": "cycle-2-cp-ce1-ce2/sciences-techno-c2-BO24-2026.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-1-programme-de-sciences-et-technologie-du-cycle-2-517289.pdf",
+      "bo": "BO n° 24 du 11 juin 2026",
+      "sha256": "60c8f0d7e2aa4f59cb61bc5d81e3d5828e93d2ddadade5a2c15b7ff9793b518b",
+      "extraitLe": "2026-10-23",
+      "suit": "monde-c1",
+      "remplace": [
+        "qlm-c2"
+      ]
+    },
+    "lv-c2": {
+      "matiere": "Langues vivantes",
+      "classes": [
+        "CP",
+        "CE1",
+        "CE2"
+      ],
+      "fichier": "cycle-2-cp-ce1-ce2/langues-vivantes-c2-BO12-2026.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20langues%20vivantes%20%C3%A9trang%C3%A8res%20et%20r%C3%A9gionales%20pour%20le%20cycle%202%20-481187.pdf",
+      "bo": "BO n° 12 du 19 mars 2026",
+      "sha256": "b3257eda417467b1788ea21e41c06211a7c0f6f9493e2eb8330691ed08f63cb9",
+      "extraitLe": "2026-10-23"
+    },
+    "eps-c2": {
+      "matiere": "Éducation physique et sportive",
+      "classes": [
+        "CP",
+        "CE1",
+        "CE2"
+      ],
+      "fichier": "cycle-2-cp-ce1-ce2/eps-c2-BO22-2026.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-1-programme-d-education-physique-et-sportive-cycle-2-516770.pdf",
+      "bo": "BO n° 22 du 28 mai 2026",
+      "sha256": "fca8461058d25e7a50a6e0e909acc4e66189b89fcdd00dc0b39555842cf61259",
+      "extraitLe": "2026-10-23",
+      "suit": "eps-c1"
+    },
+    "eps-c3": {
+      "matiere": "Éducation physique et sportive",
+      "classes": [
+        "CM1",
+        "CM2",
+        "CM1-CM2",
+        "6e"
+      ],
+      "fichier": "cycle-3-cm1-cm2-6e/eps-c3-BO22-2026.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/annexe-2-programme-d-education-physique-et-sportive-cycle-3-516773.pdf",
+      "bo": "BO n° 22 du 28 mai 2026",
+      "sha256": "5231ddd3bed80cb78cc0489e9d003b746b734dae4a55bd4a5f05973317ff49ed",
+      "extraitLe": "2026-10-23",
+      "suit": "eps-c2"
+    },
+    "evar-c1": {
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "classes": [
+        "PS",
+        "MS",
+        "GS",
+        "Cycle 1"
+      ],
+      "fichier": "cycle-1-maternelle/evar-maternelle-BO6-2025.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Programme%20d%E2%80%99%C3%A9ducation%20%C3%A0%20la%20vie%20affective%20et%20relationnelle%20%C3%A0%20l%E2%80%99%C3%A9cole%20maternelle-405258.pdf",
+      "bo": "BO n° 6 du 6 février 2025",
+      "sha256": "7090b6e2cba1009b063a8bac2ab390f63cfc55aa38256b21e3024e897dba9a97",
+      "extraitLe": "2026-10-23"
+    },
+    "evar-elem": {
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "classes": [
+        "CP",
+        "CE1",
+        "CE2",
+        "CM1",
+        "CM2"
+      ],
+      "fichier": "commun/evar-elementaire-BO6-2025.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Programme%20d%E2%80%99%C3%A9ducation%20%C3%A0%20la%20vie%20affective%20et%20relationnelle%20%C3%A0%20l%E2%80%99%C3%A9cole%20%C3%A9l%C3%A9mentaire-405261.pdf",
+      "bo": "BO n° 6 du 6 février 2025",
+      "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc",
+      "extraitLe": "2026-10-23",
+      "suit": "evar-c1"
+    },
+    "evars-college": {
+      "matiere": "Éducation à la vie affective et relationnelle, et à la sexualité",
+      "classes": [
+        "6e",
+        "5e",
+        "4e",
+        "3e"
+      ],
+      "fichier": "commun/evars-college-BO6-2025.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Programme%20d%E2%80%99%C3%A9ducation%20%C3%A0%20la%20vie%20affective%20et%20relationnelle%2C%20et%20%C3%A0%20la%20sexualit%C3%A9%20au%20coll%C3%A8ge-405264.pdf",
+      "bo": "BO n° 6 du 6 février 2025",
+      "sha256": "050b18155057cf836f42f199435d98eea36ba6e87439f593247f56c402edad5f",
+      "extraitLe": "2026-10-23",
+      "suit": "evar-elem"
+    },
+    "langage-c1": {
+      "matiere": "Langage oral et écrit",
+      "classes": [
+        "PS",
+        "MS",
+        "GS",
+        "Cycle 1"
+      ],
+      "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-cycle-1-consolide-127565.pdf",
+      "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+      "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a",
+      "extraitLe": "2026-10-23"
+    },
+    "eps-c1": {
+      "matiere": "Activités physiques",
+      "classes": [
+        "PS",
+        "MS",
+        "GS",
+        "Cycle 1"
+      ],
+      "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-cycle-1-consolide-127565.pdf",
+      "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+      "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a",
+      "extraitLe": "2026-10-23"
+    },
+    "arts-c1": {
+      "matiere": "Activités artistiques",
+      "classes": [
+        "PS",
+        "MS",
+        "GS",
+        "Cycle 1"
+      ],
+      "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-cycle-1-consolide-127565.pdf",
+      "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+      "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a",
+      "extraitLe": "2026-10-23"
+    },
+    "maths-c1": {
+      "matiere": "Premiers outils mathématiques",
+      "classes": [
+        "PS",
+        "MS",
+        "GS",
+        "Cycle 1"
+      ],
+      "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-cycle-1-consolide-127565.pdf",
+      "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+      "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a",
+      "extraitLe": "2026-10-23"
+    },
+    "reperes-c1": {
+      "matiere": "Se repérer dans le temps et l'espace",
+      "classes": [
+        "PS",
+        "MS",
+        "GS",
+        "Cycle 1"
+      ],
+      "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-cycle-1-consolide-127565.pdf",
+      "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+      "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a",
+      "extraitLe": "2026-10-23"
+    },
+    "monde-c1": {
+      "matiere": "Découvrir le monde du vivant, de la matière et des objets",
+      "classes": [
+        "PS",
+        "MS",
+        "GS",
+        "Cycle 1"
+      ],
+      "fichier": "cycle-1-maternelle/programme-maternelle-consolide-BO19-2026.pdf",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-cycle-1-consolide-127565.pdf",
+      "bo": "BO n° 41 du 31 octobre 2024 + BO n° 19 du 7 mai 2026",
+      "sha256": "15f244ef5937eaead0a4eb85cb11fceb34cb8a0ac0453ec0a6df5b12006bee8a",
+      "extraitLe": "2026-10-23"
+    },
+    "ap-c2": {
+      "matiere": "Arts plastiques",
+      "classes": [
+        "CP",
+        "CE1",
+        "CE2",
+        "Cycle 2"
+      ],
+      "fichier": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/88/5/ensel714_annexe1_1312885.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881",
+      "extraitLe": "2026-10-23",
+      "suit": "arts-c1"
+    },
+    "em-c2": {
+      "matiere": "Éducation musicale",
+      "classes": [
+        "CP",
+        "CE1",
+        "CE2",
+        "Cycle 2"
+      ],
+      "fichier": "cycle-2-cp-ce1-ce2/programmes-c2-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/88/5/ensel714_annexe1_1312885.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "a4c0900b4d9127391f2c096bfc3c2d6460d9432b8f0cdce87b2bae16bcd5f881",
+      "extraitLe": "2026-10-23",
+      "suit": "arts-c1"
+    },
+    "ap-c3": {
+      "matiere": "Arts plastiques",
+      "classes": [
+        "CM1",
+        "CM2",
+        "6e",
+        "CM1-CM2",
+        "Cycle 3"
+      ],
+      "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/88/7/ensel714_annexe2_1312887.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3",
+      "extraitLe": "2026-10-23",
+      "suit": "ap-c2"
+    },
+    "em-c3": {
+      "matiere": "Éducation musicale",
+      "classes": [
+        "CM1",
+        "CM2",
+        "6e",
+        "CM1-CM2",
+        "Cycle 3"
+      ],
+      "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/88/7/ensel714_annexe2_1312887.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3",
+      "extraitLe": "2026-10-23",
+      "suit": "em-c2"
+    },
+    "hda-c3": {
+      "matiere": "Histoire des arts",
+      "classes": [
+        "CM1",
+        "CM2",
+        "6e",
+        "CM1-CM2",
+        "Cycle 3"
+      ],
+      "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/88/7/ensel714_annexe2_1312887.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3",
+      "extraitLe": "2026-10-23"
+    },
+    "ap-c4": {
+      "matiere": "Arts plastiques",
+      "classes": [
+        "5e",
+        "4e",
+        "3e",
+        "Cycle 4"
+      ],
+      "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/89/1/ensel714_annexe3_1312891.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb",
+      "extraitLe": "2026-10-23",
+      "suit": "ap-c3"
+    },
+    "em-c4": {
+      "matiere": "Éducation musicale",
+      "classes": [
+        "5e",
+        "4e",
+        "3e",
+        "Cycle 4"
+      ],
+      "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/89/1/ensel714_annexe3_1312891.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb",
+      "extraitLe": "2026-10-23",
+      "suit": "em-c3"
+    },
+    "hda-c4": {
+      "matiere": "Histoire des arts",
+      "classes": [
+        "5e",
+        "4e",
+        "3e",
+        "Cycle 4"
+      ],
+      "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/89/1/ensel714_annexe3_1312891.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb",
+      "extraitLe": "2026-10-23",
+      "suit": "hda-c3"
+    },
+    "hg-c4": {
+      "matiere": "Histoire-géographie",
+      "classes": [
+        "5e",
+        "4e",
+        "3e",
+        "Cycle 4"
+      ],
+      "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/89/1/ensel714_annexe3_1312891.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb",
+      "extraitLe": "2026-10-23",
+      "suit": "hg-c3"
+    },
+    "pc-c4": {
+      "matiere": "Physique-chimie",
+      "classes": [
+        "5e",
+        "4e",
+        "3e",
+        "Cycle 4"
+      ],
+      "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/89/1/ensel714_annexe3_1312891.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb",
+      "extraitLe": "2026-10-23",
+      "suit": "sciences-c3"
+    },
+    "svt-c4": {
+      "matiere": "Sciences de la vie et de la Terre",
+      "classes": [
+        "5e",
+        "4e",
+        "3e",
+        "Cycle 4"
+      ],
+      "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/89/1/ensel714_annexe3_1312891.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb",
+      "extraitLe": "2026-10-23",
+      "suit": "sciences-c3"
+    },
+    "eps-c4": {
+      "matiere": "Éducation physique et sportive",
+      "classes": [
+        "5e",
+        "4e",
+        "3e",
+        "Cycle 4"
+      ],
+      "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/89/1/ensel714_annexe3_1312891.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb",
+      "extraitLe": "2026-10-23",
+      "suit": "eps-c3"
+    },
+    "emi-c4": {
+      "matiere": "Éducation aux médias et à l'information",
+      "classes": [
+        "5e",
+        "4e",
+        "3e",
+        "Cycle 4"
+      ],
+      "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+      "url": "https://cache.media.education.gouv.fr/file/31/89/1/ensel714_annexe3_1312891.pdf",
+      "bo": "BO n° 31 du 30 juillet 2020",
+      "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb",
+      "extraitLe": "2026-10-23"
+    },
+    "tec-c4": {
+      "matiere": "Technologie",
+      "classes": [
+        "5e",
+        "4e",
+        "3e",
+        "Cycle 4"
+      ],
+      "fichier": "cycle-4-5e-4e-3e/technologie-c4-BO9-2024.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%94%20Programme%20de%20technologie%20du%20cycle%204-368016.pdf",
+      "bo": "BO n° 9 du 29 février 2024",
+      "sha256": "60ed416d187fe449ca2639bc0efe289af61d88a32b618e05f5e5ee7dd08a4086",
+      "extraitLe": "2026-10-23",
+      "suit": "sciences-c3"
+    },
+    "anglais-college": {
+      "matiere": "Anglais",
+      "classes": [
+        "6e",
+        "5e",
+        "4e",
+        "3e"
+      ],
+      "fichier": "langues-vivantes-college/anglais-college-BO22-2025.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/annexe-3-programme-d-anglais-pour-les-classes-de-coll-ge-440358.pdf",
+      "bo": "BO n° 22 du 29 mai 2025",
+      "sha256": "2484ed439d3dc22aeba62f266f6de69f84d0ae563e64054e4bba2bb2c4735a6f",
+      "extraitLe": "2026-10-23",
+      "suit": "lv-cm"
+    },
+    "espagnol-college": {
+      "matiere": "Espagnol",
+      "classes": [
+        "6e",
+        "5e",
+        "4e",
+        "3e"
+      ],
+      "fichier": "langues-vivantes-college/espagnol-college-BO22-2025.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/annexe-9-programme-d-espagnol-pour-les-classes-de-coll-ge-440373.pdf",
+      "bo": "BO n° 22 du 29 mai 2025",
+      "sha256": "fc54fc61547863f03eb1526175bf144eb2fc4dee79190aed3e209b875515c4ff",
+      "extraitLe": "2026-10-23",
+      "suit": "lv-cm"
+    },
+    "allemand-college": {
+      "matiere": "Allemand",
+      "classes": [
+        "6e",
+        "5e",
+        "4e",
+        "3e"
+      ],
+      "fichier": "langues-vivantes-college/allemand-college-BO22-2025.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/annexe-1-programme-d-allemand-pour-les-classes-de-coll-ge-440355.pdf",
+      "bo": "BO n° 22 du 29 mai 2025",
+      "sha256": "0726a63f13daf30debe33e056cc81469fe3ac5aa46da20ecfb2e24ab17f81e4c",
+      "extraitLe": "2026-10-23",
+      "suit": "lv-cm"
+    },
+    "italien-college": {
+      "matiere": "Italien",
+      "classes": [
+        "6e",
+        "5e",
+        "4e",
+        "3e"
+      ],
+      "fichier": "langues-vivantes-college/italien-college-BO22-2025.pdf",
+      "url": "https://www.education.gouv.fr/sites/default/files/annexe-13-programme-d-italien-pour-les-classes-de-coll-ge-440385.pdf",
+      "bo": "BO n° 22 du 29 mai 2025",
+      "sha256": "fae520542860727061f2a32529188cd60c1c32bcc12aa649bfadb8d1207f335d",
+      "extraitLe": "2026-10-23",
+      "suit": "lv-cm"
+    }
+  }
+}

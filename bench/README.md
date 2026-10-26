@@ -36,14 +36,14 @@ Ce dossier situe vale.edu parmi les projets qui structurent des programmes scola
 - **Prérequis** : c'est l'apport principal par rapport aux projets français ouverts relevés.
 - **Traçabilité** : chaque notion cite l'objectif mot pour mot, avec le BO, la page et l'empreinte du PDF.
 - **Périmètre** : toutes les matières de la PS à la 3e ; les autres projets français couvrent un cycle ou une matière.
-- **Format** : celui de Marble, ce qui permet de rapprocher les deux bases.
+- **Format** : texte officiel et notions séparés, liens typés entre notions, noms de champs en français.
 - **Public** : parents autant qu'enseignants, avec des descriptions simples et des questions de vérification.
 - **Limite** : les prérequis déduits n'ont pas encore été relus par des enseignants, contrairement au référentiel SmartEnseigno, construit par l'IREM de Grenoble.
 
 ## Interopérabilité
 
 Formats d'échange relevés, qui pourraient servir d'exports :
-- **JSON au format Marble** : déjà utilisé par vale.edu ;
+- **JSON au format Marble** : pour croiser vale.edu avec la taxonomie de Marble ;
 - **CSV par programme** : le format des petits jeux de données d'enseignants sur la Forge ;
 - **CASE** (1EdTech), outillé par OpenSALT : le format standard d'échange des référentiels de compétences ;
 - **serveur MCP** : Marble et Learning Commons en ont un, pour l'usage par des assistants IA.

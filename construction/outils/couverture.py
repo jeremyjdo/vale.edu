@@ -56,7 +56,7 @@ if current:
 bullets = [b for b, p in bullets if pages is None or p in pages]
 
 blob = "|".join(norm(o) for f in args[1:] for n in json.load(open(f)).get("notions", [])
-                for o in n.get("officialObjectives", []))
+                for o in n.get("objectifsOfficiels", []))
 missing = [b for b in bullets if norm(b)[:40] not in blob]
 print(f"{len(bullets)} puces détectées, {len(bullets) - len(missing)} retrouvées dans les notions")
 for b in missing:

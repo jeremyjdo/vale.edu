@@ -1,7 +1,7 @@
 {
   "programme": "hda-c3",
-  "level": "multiple",
-  "themeCodes": {
+  "classe": "multiple",
+  "codesThemes": {
     "avis": "Donner un avis argumenté sur ce que représente ou exprime une œuvre d’art",
     "ana": "Dégager d’une œuvre d’art, par l’observation ou l’écoute, ses principales caractéristiques techniques et formelles",
     "sit": "Relier des caractéristiques d’une œuvre d’art à des usages, ainsi qu’au contexte historique et culturel de sa création",
@@ -11,30 +11,28 @@
     {
       "id": "fr-hda-c3-avis-01",
       "programme": "hda-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Identifier",
-      "subdomain": "Donner un avis argumenté sur ce que représente ou exprime une œuvre d’art",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Identifier",
+      "sousDomaine": "Donner un avis argumenté sur ce que représente ou exprime une œuvre d’art",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Identifier personnages, objets, espaces et éclairages dans une œuvre",
+      "nom": "Identifier personnages, objets, espaces et éclairages dans une œuvre",
       "description": "Observer une œuvre pour y reconnaître des personnages de la mythologie ou des religions, des objets, le type de lieu représenté et la façon dont la lumière est utilisée.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Observer et identifier des personnages mythologiques ou religieux, des objets, des types d’espaces, des éclairages."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie des personnages mythologiques ou religieux représentés dans une œuvre.",
         "Repère les objets, les types d’espaces et les éclairages d’une œuvre.",
         "Nomme ce qui est observé avec un lexique simple et adapté."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître, dans un tableau représentant une scène mythologique, le personnage principal et dire d’où vient la lumière ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait reconnaître, dans un tableau représentant une scène mythologique, le personnage principal et dire d’où vient la lumière ?",
+      "acquisAnterieurs": [
         "Repérer les éléments du langage plastique dans une production : couleurs, formes, matières, support… (arts plastiques, Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 52,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -43,27 +41,25 @@
     {
       "id": "fr-hda-c3-avis-02",
       "programme": "hda-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Identifier",
-      "subdomain": "Donner un avis argumenté sur ce que représente ou exprime une œuvre d’art",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Identifier",
+      "sousDomaine": "Donner un avis argumenté sur ce que représente ou exprime une œuvre d’art",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Connaître des mythes antiques et des récits fondateurs",
+      "nom": "Connaître des mythes antiques et des récits fondateurs",
       "description": "Connaître quelques grands mythes de l’Antiquité et des récits fondateurs, notamment bibliques, pour comprendre les nombreuses œuvres d’art qui les représentent.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaissance de mythes antiques et récits fondateurs, notamment bibliques."
       ],
-      "evidence": [
+      "criteres": [
         "Raconte un mythe antique ou un récit fondateur étudié en classe.",
         "Reconnaît, dans une œuvre, la scène d’un mythe ou d’un récit fondateur connu.",
         "S’entraîne à raconter des histoires, en groupe ou au moyen d’enregistrements numériques."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter un mythe antique étudié en classe et reconnaître une de ses scènes dans une œuvre d’art ?",
+      "question": "Est-ce que {{prenom}} sait raconter un mythe antique étudié en classe et reconnaître une de ses scènes dans une œuvre d’art ?",
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 52,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -72,29 +68,27 @@
     {
       "id": "fr-hda-c3-avis-03",
       "programme": "hda-c3",
-      "type": "LANGUAGE",
-      "subject": "Histoire des arts",
-      "domain": "Identifier",
-      "subdomain": "Donner un avis argumenté sur ce que représente ou exprime une œuvre d’art",
-      "level": "Cycle 3",
+      "nature": "vocabulaire",
+      "matiere": "Histoire des arts",
+      "domaine": "Identifier",
+      "sousDomaine": "Donner un avis argumenté sur ce que représente ou exprime une œuvre d’art",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Résumer une action représentée et caractériser les personnages",
+      "nom": "Résumer une action représentée et caractériser les personnages",
       "description": "Raconter en quelques phrases ce qui se passe dans un tableau, une pièce de théâtre ou un film, et décrire les personnages, en choisissant le bon type de discours (raconter, décrire, expliquer, résumer…).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Résumer une action représentée en image, déroulée sur scène ou sur un écran, et en caractériser les personnages.",
         "Caractéristiques et spécificités des discours (raconter, décrire, expliquer, argumenter, résumer, etc.)."
       ],
-      "evidence": [
+      "criteres": [
         "Résume une action représentée par un tableau, une pièce de théâtre, une séquence cinématographique ou une chorégraphie.",
         "Caractérise les personnages de l’action représentée.",
         "Recrée une action ou une situation sous forme chorégraphiée.",
         "Choisit le type de discours adapté : raconter, décrire, expliquer, argumenter, résumer."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait résumer en quelques phrases ce qui se passe dans une scène de film vue en classe et dire comment sont les personnages ?",
+      "question": "Est-ce que {{prenom}} sait résumer en quelques phrases ce qui se passe dans une scène de film vue en classe et dire comment sont les personnages ?",
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 52,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -103,29 +97,27 @@
     {
       "id": "fr-hda-c3-avis-04",
       "programme": "hda-c3",
-      "type": "LANGUAGE",
-      "subject": "Histoire des arts",
-      "domain": "Identifier",
-      "subdomain": "Donner un avis argumenté sur ce que représente ou exprime une œuvre d’art",
-      "level": "Cycle 3",
+      "nature": "vocabulaire",
+      "matiere": "Histoire des arts",
+      "domaine": "Identifier",
+      "sousDomaine": "Donner un avis argumenté sur ce que représente ou exprime une œuvre d’art",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Caractériser un morceau de musique en termes simples",
+      "nom": "Caractériser un morceau de musique en termes simples",
       "description": "Dire avec des mots simples comment est une musique : son caractère, son allure, ce qu’elle évoque.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Caractériser un morceau de musique en termes simples."
       ],
-      "evidence": [
+      "criteres": [
         "Caractérise un morceau de musique avec des mots simples.",
         "S’exprime à l’oral ou à l’écrit à partir d’un extrait musical instrumental, éventuellement dans le cadre d’un travail d’imagination."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, en quelques mots simples, si un extrait musical est calme ou agité, lent ou rapide, et ce qu’il évoque ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire, en quelques mots simples, si un extrait musical est calme ou agité, lent ou rapide, et ce qu’il évoque ?",
+      "acquisAnterieurs": [
         "Lexique élémentaire pour décrire la musique : timbre, hauteur, formes simples, intensité, tempo (éducation musicale, Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 52,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -134,33 +126,31 @@
     {
       "id": "fr-hda-c3-avis-05",
       "programme": "hda-c3",
-      "type": "LANGUAGE",
-      "subject": "Histoire des arts",
-      "domain": "Identifier",
-      "subdomain": "Donner un avis argumenté sur ce que représente ou exprime une œuvre d’art",
-      "level": "Cycle 3",
+      "nature": "vocabulaire",
+      "matiere": "Histoire des arts",
+      "domaine": "Identifier",
+      "sousDomaine": "Donner un avis argumenté sur ce que représente ou exprime une œuvre d’art",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Exprimer un ressenti et un avis argumenté sur une œuvre",
+      "nom": "Exprimer un ressenti et un avis argumenté sur une œuvre",
       "description": "Dire ce qu’une œuvre fait ressentir et ce qu’on en pense, avec le vocabulaire des émotions et des sentiments, en justifiant son avis par ce qu’on a observé ou entendu.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Exprimer un ressenti et un avis devant une œuvre, étayés à l’aide d’une première analyse.",
         "Lexique des émotions et des sentiments."
       ],
-      "evidence": [
+      "criteres": [
         "Exprime un ressenti et un avis devant une œuvre, étayés à l’aide d’une première analyse.",
         "Emploie le lexique des émotions et des sentiments pour parler d’une œuvre.",
         "Donne un avis argumenté sur ce que représente ou exprime une œuvre d’art.",
         "Prend la parole, débat ou joue un rôle à propos d’une œuvre."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qu’une sculpture ou une musique fait ressentir, avec des mots précis (inquiétude, joie, calme…), et justifier cet avis par un détail observé ou entendu ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire ce qu’une sculpture ou une musique fait ressentir, avec des mots précis (inquiétude, joie, calme…), et justifier cet avis par un détail observé ou entendu ?",
+      "acquisAnterieurs": [
         "Exprimer ses émotions lors de la rencontre avec des œuvres d’art, manifester son intérêt pour la rencontre directe avec des œuvres (arts plastiques, Cycle 2)",
         "Exprimer ses émotions, ses sentiments et ses préférences artistiques (éducation musicale, Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 52,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -169,32 +159,30 @@
     {
       "id": "fr-hda-c3-ana-01",
       "programme": "hda-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Analyser",
-      "subdomain": "Dégager d’une œuvre d’art, par l’observation ou l’écoute, ses principales caractéristiques techniques et formelles",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Analyser",
+      "sousDomaine": "Dégager d’une œuvre d’art, par l’observation ou l’écoute, ses principales caractéristiques techniques et formelles",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Identifier les matériaux d’une œuvre et la façon dont ils ont été travaillés",
+      "nom": "Identifier les matériaux d’une œuvre et la façon dont ils ont été travaillés",
       "description": "Reconnaître de quoi une œuvre est faite (y compris les sons, pour une musique) et comment l’artiste a façonné ces matériaux, en s’appuyant sur les grandes familles de matériaux.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier des matériaux, y compris sonores, et la manière dont l’artiste leur a donné forme.",
         "Caractéristiques des familles de matériaux."
       ],
-      "evidence": [
+      "criteres": [
         "Observe et décrit une œuvre en deux dimensions, un volume, un objet d’art, de design ou d’artisanat, un instrument de musique.",
         "Identifie les matériaux, y compris sonores, d’une œuvre et la manière dont l’artiste leur a donné forme.",
         "Distingue, dans une description, les éléments relevant de la présence matérielle : matériaux, dimensions, fabrication.",
         "Construit une description par l’expression écrite, le relevé, le dessin ou le schéma."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, devant une statue ou un objet d’art, en quel matériau l’œuvre est faite et comment l’artiste l’a travaillée (taillée, modelée, assemblée) ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire, devant une statue ou un objet d’art, en quel matériau l’œuvre est faite et comment l’artiste l’a travaillée (taillée, modelée, assemblée) ?",
+      "acquisAnterieurs": [
         "Repérer les éléments du langage plastique dans une production : couleurs, formes, matières, support… (arts plastiques, Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 53,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -203,30 +191,28 @@
     {
       "id": "fr-hda-c3-ana-02",
       "programme": "hda-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Analyser",
-      "subdomain": "Dégager d’une œuvre d’art, par l’observation ou l’écoute, ses principales caractéristiques techniques et formelles",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Analyser",
+      "sousDomaine": "Dégager d’une œuvre d’art, par l’observation ou l’écoute, ses principales caractéristiques techniques et formelles",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Retrouver des formes géométriques et leur agencement dans une œuvre",
+      "nom": "Retrouver des formes géométriques et leur agencement dans une œuvre",
       "description": "Repérer les formes géométriques (carrés, cercles, triangles…) qui composent une façade, un tableau, un pavement ou un tapis, et comprendre comment elles sont organisées.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Retrouver des formes géométriques et comprendre leur agencement dans une façade, un tableau, un pavement, un tapis."
       ],
-      "evidence": [
+      "criteres": [
         "Retrouve les formes géométriques d’une façade, d’un tableau, d’un pavement ou d’un tapis.",
         "Décrit l’agencement de ces formes.",
         "Relève ces formes par le dessin ou le schéma."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer les formes géométriques d’une façade ou d’un tapis et décrire comment elles se répètent ou s’organisent ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait repérer les formes géométriques d’une façade ou d’un tapis et décrire comment elles se répètent ou s’organisent ?",
+      "acquisAnterieurs": [
         "Reconnaître et nommer carré, rectangle, losange et triangles (mathématiques, CE2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 53,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -235,26 +221,24 @@
     {
       "id": "fr-hda-c3-ana-03",
       "programme": "hda-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Analyser",
-      "subdomain": "Dégager d’une œuvre d’art, par l’observation ou l’écoute, ses principales caractéristiques techniques et formelles",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Analyser",
+      "sousDomaine": "Dégager d’une œuvre d’art, par l’observation ou l’écoute, ses principales caractéristiques techniques et formelles",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Dégager des éléments de sens d’une forme artistique",
+      "nom": "Dégager des éléments de sens d’une forme artistique",
       "description": "Comprendre que les formes, les couleurs ou les sons d’une œuvre ne sont pas là par hasard et peuvent porter un sens ou indiquer un usage.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Dégager d’une forme artistique des éléments de sens."
       ],
-      "evidence": [
+      "criteres": [
         "Dégage d’une forme artistique des éléments de sens.",
         "Distingue, dans une description, les éléments qui indiquent un usage ou un sens."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi, dans un tableau, un personnage est représenté plus grand que les autres, et ce que ce choix signifie ?",
+      "question": "Est-ce que {{prenom}} sait expliquer pourquoi, dans un tableau, un personnage est représenté plus grand que les autres, et ce que ce choix signifie ?",
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 53,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -263,31 +247,29 @@
     {
       "id": "fr-hda-c3-ana-04",
       "programme": "hda-c3",
-      "type": "LANGUAGE",
-      "subject": "Histoire des arts",
-      "domain": "Analyser",
-      "subdomain": "Dégager d’une œuvre d’art, par l’observation ou l’écoute, ses principales caractéristiques techniques et formelles",
-      "level": "Cycle 3",
+      "nature": "vocabulaire",
+      "matiere": "Histoire des arts",
+      "domaine": "Analyser",
+      "sousDomaine": "Dégager d’une œuvre d’art, par l’observation ou l’écoute, ses principales caractéristiques techniques et formelles",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Spécificités des champs artistiques et lexique correspondant",
+      "nom": "Spécificités des champs artistiques et lexique correspondant",
       "description": "Savoir que chaque art (peinture, architecture, musique, cinéma…) a ses propres caractéristiques et ses propres mots pour le décrire : un plan au cinéma, un thème en musique…",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Caractéristiques et spécificités des champs artistiques et éléments de lexique correspondants."
       ],
-      "evidence": [
+      "criteres": [
         "Écoute un extrait musical en relevant les événements musicaux : changements de timbres, de mouvements ou de thèmes.",
         "Observe une séquence filmique en relevant plans, personnages, action.",
         "Décrit une œuvre en identifiant ses principales caractéristiques techniques et formelles à l’aide d’un lexique simple et adapté.",
         "Distingue, dans une description, les caractéristiques d’un langage formel."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait employer le mot juste selon l’art concerné, par exemple « plan » pour un film ou « thème » pour une musique, en décrivant une œuvre ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait employer le mot juste selon l’art concerné, par exemple « plan » pour un film ou « thème » pour une musique, en décrivant une œuvre ?",
+      "acquisAnterieurs": [
         "Lexique élémentaire pour décrire la musique : timbre, hauteur, formes simples, intensité, tempo (éducation musicale, Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 53,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -296,29 +278,27 @@
     {
       "id": "fr-hda-c3-sit-01",
       "programme": "hda-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Situer",
-      "subdomain": "Relier des caractéristiques d’une œuvre d’art à des usages, ainsi qu’au contexte historique et culturel de sa création",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Situer",
+      "sousDomaine": "Relier des caractéristiques d’une œuvre d’art à des usages, ainsi qu’au contexte historique et culturel de sa création",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Relier des œuvres d’une même époque à l’histoire, la géographie ou un texte",
+      "nom": "Relier des œuvres d’une même époque à l’histoire, la géographie ou un texte",
       "description": "Rapprocher une ou plusieurs œuvres créées à la même époque (« contemporaines entre elles ») d’un fait historique, d’une période, d’une région du monde ou d’un texte étudiés en histoire, en géographie ou en français.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Mettre en relation une ou plusieurs œuvres contemporaines entre elles et un fait historique, une époque, une aire géographique ou un texte, étudiés en histoire, en géographie ou en français."
       ],
-      "evidence": [
+      "criteres": [
         "Met en relation des œuvres d’une même époque avec un fait historique, une époque, une aire géographique ou un texte étudiés en classe.",
         "Prépare avec d’autres une présentation commune, éventuellement scénographiée ou appuyée sur des supports numériques."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait relier un château ou une peinture étudiés en classe à la période de l’histoire à laquelle ils appartiennent ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait relier un château ou une peinture étudiés en classe à la période de l’histoire à laquelle ils appartiennent ?",
+      "acquisAnterieurs": [
         "Repérer les grandes périodes de l’histoire (questionner le monde, CE2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 53,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -327,26 +307,24 @@
     {
       "id": "fr-hda-c3-sit-02",
       "programme": "hda-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Situer",
-      "subdomain": "Relier des caractéristiques d’une œuvre d’art à des usages, ainsi qu’au contexte historique et culturel de sa création",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Situer",
+      "sousDomaine": "Relier des caractéristiques d’une œuvre d’art à des usages, ainsi qu’au contexte historique et culturel de sa création",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Comparer un texte connu et ses illustrations ou adaptations",
+      "nom": "Comparer un texte connu et ses illustrations ou adaptations",
       "description": "Comparer un texte connu (fable, récit, poème, mythe…) avec plusieurs de ses illustrations ou adaptations en image, en musique, au théâtre, en danse ou au cinéma, faites à différentes époques, en voyant ce que chaque art apporte.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Mettre en relation un texte connu (récit, fable, poésie, texte religieux ou mythologique) et plusieurs de ses illustrations ou transpositions visuelles, musicales, scéniques, chorégraphiques ou filmiques, issues de diverses époques, en soulignant le propre du langage de chacune."
       ],
-      "evidence": [
+      "criteres": [
         "Met en relation un texte connu et plusieurs de ses illustrations ou transpositions issues de diverses époques.",
         "Souligne ce qui est propre au langage de chaque transposition : visuelle, musicale, scénique, chorégraphique ou filmique."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait comparer deux illustrations d’une même fable, réalisées à des époques différentes, et dire ce que chacune met en valeur ?",
+      "question": "Est-ce que {{prenom}} sait comparer deux illustrations d’une même fable, réalisées à des époques différentes, et dire ce que chacune met en valeur ?",
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 53,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -355,30 +333,28 @@
     {
       "id": "fr-hda-c3-sit-03",
       "programme": "hda-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Situer",
-      "subdomain": "Relier des caractéristiques d’une œuvre d’art à des usages, ainsi qu’au contexte historique et culturel de sa création",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Situer",
+      "sousDomaine": "Relier des caractéristiques d’une œuvre d’art à des usages, ainsi qu’au contexte historique et culturel de sa création",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Relier œuvres et objets mobiliers aux usages et modes de vie",
+      "nom": "Relier œuvres et objets mobiliers aux usages et modes de vie",
       "description": "Comprendre que les œuvres, les meubles et les objets d’une époque renseignent sur la façon de vivre des gens, et qu’on aménage un lieu en fonction de son usage.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Mettre en relation des œuvres et objets mobiliers et des usages et modes de vie."
       ],
-      "evidence": [
+      "criteres": [
         "Met en relation des œuvres et objets mobiliers avec des usages et modes de vie.",
         "Observe, lors de la visite d’une maison de collectionneur ou d’artiste ou d’un bâtiment officiel, les détails de l’architecture et la place de l’art.",
         "Conçoit, à partir d’une appréciation des usages et d’une sélection de références, un projet de réaménagement d’une partie de l’école (espace, décor, mobilier)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer, devant un meuble ancien ou une pièce de château, ce que ces objets révèlent de la façon de vivre de l’époque ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer, devant un meuble ancien ou une pièce de château, ce que ces objets révèlent de la façon de vivre de l’époque ?",
+      "acquisAnterieurs": [
         "L’évolution des modes de vie et des techniques à travers les époques (questionner le monde, CE2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 53,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -387,32 +363,30 @@
     {
       "id": "fr-hda-c3-sit-04",
       "programme": "hda-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Situer",
-      "subdomain": "Relier des caractéristiques d’une œuvre d’art à des usages, ainsi qu’au contexte historique et culturel de sa création",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Situer",
+      "sousDomaine": "Relier des caractéristiques d’une œuvre d’art à des usages, ainsi qu’au contexte historique et culturel de sa création",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Situer une œuvre dans une période et une aire géographique",
+      "nom": "Situer une œuvre dans une période et une aire géographique",
       "description": "Proposer, en s’appuyant sur quelques grandes caractéristiques d’une œuvre, une époque et une région du monde où elle a pu être créée, quitte à se tromper, et ranger les œuvres connues par époques dans un premier « musée imaginaire ».",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Émettre une proposition argumentée, fondée sur quelques grandes caractéristiques d’une œuvre, pour situer celle-ci dans une période et une aire géographique, au risque de l’erreur.",
         "Constitution d’un premier « musée imaginaire » classé par époques.",
         "Premiers éléments de lexique stylistique."
       ],
-      "evidence": [
+      "criteres": [
         "Émet une proposition argumentée pour situer une œuvre dans une période et une aire géographique, au risque de l’erreur.",
         "Constitue un premier « musée imaginaire » classé par époques.",
         "Emploie quelques premiers éléments de lexique stylistique."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait proposer, en s’appuyant sur deux ou trois indices, l’époque à laquelle un monument a été construit, et le ranger dans le « musée imaginaire » de la classe ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait proposer, en s’appuyant sur deux ou trois indices, l’époque à laquelle un monument a été construit, et le ranger dans le « musée imaginaire » de la classe ?",
+      "acquisAnterieurs": [
         "Repérer les grandes périodes de l’histoire (questionner le monde, CE2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 53,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -421,26 +395,24 @@
     {
       "id": "fr-hda-c3-sit-05",
       "programme": "hda-c3",
-      "type": "PROCEDURAL",
-      "subject": "Histoire des arts",
-      "domain": "Situer",
-      "subdomain": "Relier des caractéristiques d’une œuvre d’art à des usages, ainsi qu’au contexte historique et culturel de sa création",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Histoire des arts",
+      "domaine": "Situer",
+      "sousDomaine": "Relier des caractéristiques d’une œuvre d’art à des usages, ainsi qu’au contexte historique et culturel de sa création",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Identifier une œuvre grâce à sa fiche signalétique ou à son cartel",
+      "nom": "Identifier une œuvre grâce à sa fiche signalétique ou à son cartel",
       "description": "Lire ou remplir la petite étiquette (le cartel) ou la fiche qui identifie une œuvre : en général l’artiste, le titre, la date, la technique et le lieu de conservation.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Fiche signalétique/cartel pour identifier une œuvre d’art."
       ],
-      "evidence": [
+      "criteres": [
         "Lit le cartel d’une œuvre pour l’identifier.",
         "Complète la fiche signalétique d’une œuvre étudiée."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver, sur le cartel d’une œuvre au musée, le nom de l’artiste, le titre et la date ?",
+      "question": "Est-ce que {{prenom}} sait retrouver, sur le cartel d’une œuvre au musée, le nom de l’artiste, le titre et la date ?",
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 53,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -449,26 +421,24 @@
     {
       "id": "fr-hda-c3-rep-01",
       "programme": "hda-c3",
-      "type": "PROCEDURAL",
-      "subject": "Histoire des arts",
-      "domain": "Se repérer",
-      "subdomain": "Se repérer dans un musée, un lieu d’art, un site patrimonial",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Histoire des arts",
+      "domaine": "Se repérer",
+      "sousDomaine": "Se repérer dans un musée, un lieu d’art, un site patrimonial",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Préparer une sortie culturelle par une recherche guidée",
+      "nom": "Préparer une sortie culturelle par une recherche guidée",
       "description": "Avant une visite (musée, monument, site), chercher avec la classe et selon des consignes précises des informations sur le lieu et les œuvres à découvrir.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Effectuer une recherche (dans le cadre d’un exercice collectif et sur la base de consignes précises) en vue de préparer une sortie culturelle."
       ],
-      "evidence": [
+      "criteres": [
         "Effectue, dans le cadre d’un exercice collectif et selon des consignes précises, une recherche pour préparer une sortie culturelle.",
         "Rapporte à la classe une information trouvée sur le lieu ou les œuvres à découvrir."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait, avant la visite d’un musée, retrouver avec la classe quelques informations sur ce lieu et sur une œuvre qui y est exposée, en suivant les consignes données ?",
+      "question": "Est-ce que {{prenom}} sait, avant la visite d’un musée, retrouver avec la classe quelques informations sur ce lieu et sur une œuvre qui y est exposée, en suivant les consignes données ?",
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 54,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -477,33 +447,31 @@
     {
       "id": "fr-hda-c3-rep-02",
       "programme": "hda-c3",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire des arts",
-      "domain": "Se repérer",
-      "subdomain": "Se repérer dans un musée, un lieu d’art, un site patrimonial",
-      "level": "Cycle 3",
+      "nature": "représentation",
+      "matiere": "Histoire des arts",
+      "domaine": "Se repérer",
+      "sousDomaine": "Se repérer dans un musée, un lieu d’art, un site patrimonial",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Se repérer dans un musée grâce aux plans et aux indications",
+      "nom": "Se repérer dans un musée grâce aux plans et aux indications",
       "description": "Lire le plan d’un musée ou d’un lieu d’art et suivre les indications pour trouver une salle ou une œuvre, en adaptant son comportement au lieu.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Se repérer dans un musée ou un lieu d’art par la lecture et la compréhension des plans et indications.",
         "Identification et localisation d’une œuvre ou d’une salle."
       ],
-      "evidence": [
+      "criteres": [
         "Se repère dans un musée ou un lieu d’art par la lecture et la compréhension des plans et indications.",
         "Localise une œuvre ou une salle.",
         "Participe à la visite d’un musée ou d’un lieu patrimonial sous forme de jeu de piste.",
         "Adapte son comportement au lieu visité."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait, avec le plan du musée, retrouver la salle où se trouve une œuvre précise lors d’un jeu de piste ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait, avec le plan du musée, retrouver la salle où se trouve une œuvre précise lors d’un jeu de piste ?",
+      "acquisAnterieurs": [
         "Lire un plan ou une carte : titre, échelle, orientation, légende (questionner le monde, Cycle 2)",
         "Observer, écouter et se conduire selon les codes appropriés dans des lieux d’art et de culture (cycles 1 et 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 54,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -512,29 +480,27 @@
     {
       "id": "fr-hda-c3-rep-03",
       "programme": "hda-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Se repérer",
-      "subdomain": "Se repérer dans un musée, un lieu d’art, un site patrimonial",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Se repérer",
+      "sousDomaine": "Se repérer dans un musée, un lieu d’art, un site patrimonial",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "L’organisation d’un musée et ses métiers",
+      "nom": "L’organisation d’un musée et ses métiers",
       "description": "Comprendre les grands principes de l’organisation d’un musée et connaître les métiers qui conservent, restaurent et font connaître les œuvres.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Premiers grands principes d’organisation muséale.",
         "Métiers de la conservation, de la restauration et de la diffusion."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie la fonction des principaux acteurs d’un musée ou d’un centre d’art.",
         "Cite des métiers de la conservation, de la restauration et de la diffusion.",
         "Décrit quelques grands principes d’organisation d’un musée.",
         "Découvre le travail de restauration lors de la visite d’un atelier de restauration."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer la différence entre le travail d’un restaurateur d’œuvres et celui d’un guide de musée ?",
+      "question": "Est-ce que {{prenom}} sait expliquer la différence entre le travail d’un restaurateur d’œuvres et celui d’un guide de musée ?",
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 54,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -543,27 +509,25 @@
     {
       "id": "fr-hda-c3-rep-04",
       "programme": "hda-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Se repérer",
-      "subdomain": "Se repérer dans un musée, un lieu d’art, un site patrimonial",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Se repérer",
+      "sousDomaine": "Se repérer dans un musée, un lieu d’art, un site patrimonial",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "La vulnérabilité du patrimoine",
+      "nom": "La vulnérabilité du patrimoine",
       "description": "Prendre conscience que les œuvres, les monuments et les vestiges du passé sont fragiles, et qu’il faut les protéger, les restaurer ou les étudier avant qu’ils ne disparaissent.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Être sensibilisé à la vulnérabilité du patrimoine."
       ],
-      "evidence": [
+      "criteres": [
         "Explique pourquoi une œuvre ou un site patrimonial doit être protégé.",
         "Découvre le rôle de la restauration lors de la visite d’un atelier de restauration.",
         "Découvre le rôle de l’archéologie préventive lors de la visite d’un chantier."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi il est interdit de toucher les œuvres dans un musée, ou pourquoi des archéologues fouillent un terrain avant la construction d’un bâtiment ?",
+      "question": "Est-ce que {{prenom}} sait expliquer pourquoi il est interdit de toucher les œuvres dans un musée, ou pourquoi des archéologues fouillent un terrain avant la construction d’un bâtiment ?",
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 54,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -572,96 +536,103 @@
     {
       "id": "fr-hda-c3-rep-05",
       "programme": "hda-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Se repérer",
-      "subdomain": "Se repérer dans un musée, un lieu d’art, un site patrimonial",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Se repérer",
+      "sousDomaine": "Se repérer dans un musée, un lieu d’art, un site patrimonial",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Repérer la marque des arts du passé et du présent dans son environnement",
+      "nom": "Repérer la marque des arts du passé et du présent dans son environnement",
       "description": "Remarquer, autour de l’école ou du domicile, les traces de l’art et du patrimoine : monuments, sculptures, façades, vestiges anciens ou créations récentes.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier la marque des arts du passé et du présent dans son environnement."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie la marque des arts du passé et du présent dans son environnement.",
         "Observe et relève en photographie des traces du passé dans l’environnement immédiat de l’école ou du collège."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer, dans le quartier de l’école, un bâtiment ancien ou une œuvre récente, et expliquer à quoi on reconnaît son époque ?",
+      "question": "Est-ce que {{prenom}} sait repérer, dans le quartier de l’école, un bâtiment ancien ou une œuvre récente, et expliquer à quoi on reconnaît son époque ?",
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 52,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
       }
     }
   ],
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-hda-c3-avis-01",
-      "prerequisiteId": "fr-hda-c3-avis-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Identifier un personnage mythologique ou religieux suppose de connaître le mythe ou le récit d’où il vient."
+      "de": "fr-hda-c3-avis-02",
+      "vers": "fr-hda-c3-avis-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Identifier un personnage mythologique ou religieux suppose de connaître le mythe ou le récit d’où il vient."
     },
     {
-      "topicId": "fr-hda-c3-avis-05",
-      "prerequisiteId": "fr-hda-c3-avis-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Un avis argumenté s’appuie sur ce qui a été identifié dans l’œuvre."
+      "de": "fr-hda-c3-avis-01",
+      "vers": "fr-hda-c3-avis-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Un avis argumenté s’appuie sur ce qui a été identifié dans l’œuvre."
     },
     {
-      "topicId": "fr-hda-c3-avis-05",
-      "prerequisiteId": "fr-hda-c3-ana-03",
-      "strength": "soft",
-      "origin": "texte",
-      "reason": "L’attendu de fin de cycle demande un avis étayé à l’aide d’une première analyse."
+      "de": "fr-hda-c3-ana-03",
+      "vers": "fr-hda-c3-avis-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "texte",
+      "raison": "L’attendu de fin de cycle demande un avis étayé à l’aide d’une première analyse."
     },
     {
-      "topicId": "fr-hda-c3-ana-03",
-      "prerequisiteId": "fr-hda-c3-ana-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Dégager le sens d’une forme s’appuie sur l’observation de ses matériaux et de sa fabrication."
+      "de": "fr-hda-c3-ana-01",
+      "vers": "fr-hda-c3-ana-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Dégager le sens d’une forme s’appuie sur l’observation de ses matériaux et de sa fabrication."
     },
     {
-      "topicId": "fr-hda-c3-sit-02",
-      "prerequisiteId": "fr-hda-c3-avis-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Comparer les transpositions d’un texte religieux ou mythologique suppose de connaître ce récit."
+      "de": "fr-hda-c3-avis-02",
+      "vers": "fr-hda-c3-sit-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Comparer les transpositions d’un texte religieux ou mythologique suppose de connaître ce récit."
     },
     {
-      "topicId": "fr-hda-c3-sit-04",
-      "prerequisiteId": "fr-hda-c3-sit-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Situer une œuvre dans une période prolonge la mise en relation d’œuvres avec une époque étudiée."
+      "de": "fr-hda-c3-sit-01",
+      "vers": "fr-hda-c3-sit-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Situer une œuvre dans une période prolonge la mise en relation d’œuvres avec une époque étudiée."
     },
     {
-      "topicId": "fr-hda-c3-sit-04",
-      "prerequisiteId": "fr-hda-c3-ana-01",
-      "strength": "soft",
-      "origin": "texte",
-      "reason": "L’attendu demande une proposition fondée sur quelques grandes caractéristiques de l’œuvre."
+      "de": "fr-hda-c3-ana-01",
+      "vers": "fr-hda-c3-sit-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "texte",
+      "raison": "L’attendu demande une proposition fondée sur quelques grandes caractéristiques de l’œuvre."
     },
     {
-      "topicId": "fr-hda-c3-rep-04",
-      "prerequisiteId": "fr-hda-c3-rep-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les métiers de la conservation et de la restauration montrent pourquoi et comment on protège le patrimoine."
+      "de": "fr-hda-c3-rep-03",
+      "vers": "fr-hda-c3-rep-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les métiers de la conservation et de la restauration montrent pourquoi et comment on protège le patrimoine."
     },
     {
-      "topicId": "fr-hda-c3-rep-05",
-      "prerequisiteId": "fr-hda-c3-sit-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Reconnaître la marque des arts du passé suppose de savoir situer une œuvre dans une période."
+      "de": "fr-hda-c3-sit-04",
+      "vers": "fr-hda-c3-rep-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Reconnaître la marque des arts du passé suppose de savoir situer une œuvre dans une période."
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extraitLe": "2026-10-23"
 }

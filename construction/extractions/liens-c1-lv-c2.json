@@ -1,64 +1,71 @@
 {
   "programme": "lv-c2",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-lv-cp-comot-01",
-      "prerequisiteId": "fr-lan-ms-div-01",
-      "strength": "soft",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit qu’au CP l’enseignement prend appui sur l’éveil à la diversité linguistique de la maternelle ; Prolonge « Jouer et chanter dans une autre langue » (MS), où l’on retient des formules pour saluer"
+      "de": "fr-lan-ms-div-01",
+      "vers": "fr-lv-cp-comot-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit qu’au CP l’enseignement prend appui sur l’éveil à la diversité linguistique de la maternelle ; Prolonge « Jouer et chanter dans une autre langue » (MS), où l’on retient des formules pour saluer"
     },
     {
-      "topicId": "fr-lv-cp-cohis-03",
-      "prerequisiteId": "fr-lan-ms-div-01",
-      "strength": "soft",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit qu’au CP l’enseignement prend appui sur l’éveil à la diversité linguistique de la maternelle ; Prolonge « Jouer et chanter dans une autre langue » (MS), où l’on retient quelques mots isolés"
+      "de": "fr-lan-ms-div-01",
+      "vers": "fr-lv-cp-cohis-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit qu’au CP l’enseignement prend appui sur l’éveil à la diversité linguistique de la maternelle ; Prolonge « Jouer et chanter dans une autre langue » (MS), où l’on retient quelques mots isolés"
     },
     {
-      "topicId": "fr-lv-cp-phon-01",
-      "prerequisiteId": "fr-lan-ms-div-02",
-      "strength": "soft",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que les premiers jalons phonologiques posés au cycle 1 sont renforcés ; Prolonge « Comparer une histoire en français et dans une autre langue » (MS), où l’on repère des sons absents du français"
+      "de": "fr-lan-ms-div-02",
+      "vers": "fr-lv-cp-phon-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que les premiers jalons phonologiques posés au cycle 1 sont renforcés ; Prolonge « Comparer une histoire en français et dans une autre langue » (MS), où l’on repère des sons absents du français"
     },
     {
-      "topicId": "fr-lv-cp-cohis-02",
-      "prerequisiteId": "fr-lan-ps-div-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Écouter des histoires connues dans une autre langue (PS) prépare à suivre une histoire dans la langue apprise"
+      "de": "fr-lan-ps-div-01",
+      "vers": "fr-lv-cp-cohis-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Écouter des histoires connues dans une autre langue (PS) prépare à suivre une histoire dans la langue apprise"
     },
     {
-      "topicId": "fr-lv-cp-coagi-01",
-      "prerequisiteId": "fr-lan-ms-div-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "En MS, l’élève retient des consignes simples dans une autre langue pour réaliser une activité"
+      "de": "fr-lan-ms-div-01",
+      "vers": "fr-lv-cp-coagi-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "En MS, l’élève retient des consignes simples dans une autre langue pour réaliser une activité"
     },
     {
-      "topicId": "fr-lv-cp-repro-01",
-      "prerequisiteId": "fr-lan-ms-div-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "En MS, l’élève mémorise chants, comptines et tournures pour se présenter dans une autre langue"
+      "de": "fr-lan-ms-div-01",
+      "vers": "fr-lv-cp-repro-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "En MS, l’élève mémorise chants, comptines et tournures pour se présenter dans une autre langue"
     },
     {
-      "topicId": "fr-lv-cp-phon-02",
-      "prerequisiteId": "fr-lan-ms-syl-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Appuyer sur la bonne syllabe suppose de savoir découper un mot en syllabes et repérer une syllabe (MS)"
+      "de": "fr-lan-ms-syl-01",
+      "vers": "fr-lv-cp-phon-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Appuyer sur la bonne syllabe suppose de savoir découper un mot en syllabes et repérer une syllabe (MS)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "langage-c1": "2026-10-23",
     "lv-c2": "2026-10-23"

@@ -1,5 +1,6 @@
 """Constantes et chargement partagés par les outils de construction de la base."""
 import glob
+import hashlib
 import json
 import os
 import sys
@@ -26,9 +27,18 @@ NIVEAUX = {
     "Cycle 3": ("c3", 3, 9, 12), "Cycle 4": ("c4", 4, 12, 15),
 }
 ORDRE_NIVEAUX = list(NIVEAUX)
-TYPES = {"CONCEPTUAL", "PROCEDURAL", "REPRESENTATIONAL", "LANGUAGE", "META"}
-TYPES_FR = {"CONCEPTUAL": "compréhension", "PROCEDURAL": "savoir-faire",
-            "REPRESENTATIONAL": "représentation", "LANGUAGE": "vocabulaire", "META": "stratégie"}
+# Nature d'une notion : comprendre une idée, savoir-faire, passer d'une représentation à une autre,
+# vocabulaire de la matière, stratégie sur sa propre démarche
+NATURES = ["compréhension", "savoir-faire", "représentation", "vocabulaire", "stratégie"]
+FORCES = {"indispensable", "utile"}
+# Version du format des données publiées dans data/
+VERSION = "0.4"
+
+
+def id_objectif(code, classe, programme, texte):
+    """Identifiant stable d'un objectif officiel : il ne change que si son texte change."""
+    empreinte = hashlib.sha1(f"{programme}|{classe}|{texte}".encode()).hexdigest()[:8]
+    return f"fr-{code}-{NIVEAUX[classe][0]}-objectif-{empreinte}"
 
 
 def registre():
@@ -36,9 +46,9 @@ def registre():
 
 
 def charger(fichiers=None):
-    """Charge les fichiers d'extraction (par défaut : tous). Renvoie (notions, prérequis, par_fichier)."""
+    """Charge les fichiers d'extraction (par défaut : tous). Renvoie (notions, liens, par_fichier)."""
     fichiers = fichiers or sorted(glob.glob(os.path.join(EXTRACTIONS, "*.json")))
-    notions, prereqs, par_fichier = [], [], {}
+    notions, liens, par_fichier = [], [], {}
     for f in fichiers:
         try:
             d = json.load(open(f))
@@ -50,5 +60,5 @@ def charger(fichiers=None):
         for n in d.get("notions", []):
             n.setdefault("programme", d.get("programme"))
             notions.append(n)
-        prereqs += d.get("prerequisites", [])
-    return notions, prereqs, par_fichier
+        liens += d.get("liens", [])
+    return notions, liens, par_fichier

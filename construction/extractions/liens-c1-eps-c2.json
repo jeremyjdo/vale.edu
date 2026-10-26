@@ -1,248 +1,278 @@
 {
   "programme": "eps-c2",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-eps-cp-cour-01",
-      "prerequisiteId": "fr-eps-gs-dep-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Courir vite et franchir un obstacle sans ralentir » (GS) : courir vite commence par un départ rapide"
+      "de": "fr-eps-gs-dep-03",
+      "vers": "fr-eps-cp-cour-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Courir vite et franchir un obstacle sans ralentir » (GS) : courir vite commence par un départ rapide"
     },
     {
-      "topicId": "fr-eps-cp-cour-02",
-      "prerequisiteId": "fr-eps-gs-dep-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Courir vite et franchir un obstacle sans ralentir » (GS)"
+      "de": "fr-eps-gs-dep-03",
+      "vers": "fr-eps-cp-cour-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Courir vite et franchir un obstacle sans ralentir » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-cour-03",
-      "prerequisiteId": "fr-eps-gs-dep-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Courir vite et franchir un obstacle sans ralentir » (GS)"
+      "de": "fr-eps-gs-dep-03",
+      "vers": "fr-eps-cp-cour-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Courir vite et franchir un obstacle sans ralentir » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-cour-04",
-      "prerequisiteId": "fr-eps-gs-dep-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Courir de plus en plus longtemps sans s’arrêter » (GS)"
+      "de": "fr-eps-gs-dep-02",
+      "vers": "fr-eps-cp-cour-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Courir de plus en plus longtemps sans s’arrêter » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-saut-01",
-      "prerequisiteId": "fr-eps-gs-dep-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Prendre de l’élan pour sauter haut ou loin, ou pour lancer » (GS) : impulsion sur un pied ou deux pieds"
+      "de": "fr-eps-gs-dep-04",
+      "vers": "fr-eps-cp-saut-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Prendre de l’élan pour sauter haut ou loin, ou pour lancer » (GS) : impulsion sur un pied ou deux pieds"
     },
     {
-      "topicId": "fr-eps-cp-lanc-01",
-      "prerequisiteId": "fr-eps-gs-dep-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lancer loin et avec précision différents objets » (GS)"
+      "de": "fr-eps-gs-dep-01",
+      "vers": "fr-eps-cp-lanc-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lancer loin et avec précision différents objets » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-orie-01",
-      "prerequisiteId": "fr-eps-gs-dep-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Se repérer dans un lieu moins connu grâce à des photos » (GS)"
+      "de": "fr-eps-gs-dep-05",
+      "vers": "fr-eps-cp-orie-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Se repérer dans un lieu moins connu grâce à des photos » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-res-01",
-      "prerequisiteId": "fr-eps-gs-dep-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "En GS, on lance vers des zones de plus en plus éloignées : premiers repères concrets d’une performance"
+      "de": "fr-eps-gs-dep-01",
+      "vers": "fr-eps-cp-res-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "En GS, on lance vers des zones de plus en plus éloignées : premiers repères concrets d’une performance"
     },
     {
-      "topicId": "fr-eps-cp-terr-01",
-      "prerequisiteId": "fr-eps-gs-equi-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Enchainer plusieurs actions d’équilibre » (GS) : tourner, se renverser"
+      "de": "fr-eps-gs-equi-01",
+      "vers": "fr-eps-cp-terr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Enchainer plusieurs actions d’équilibre » (GS) : tourner, se renverser"
     },
     {
-      "topicId": "fr-eps-cp-terr-02",
-      "prerequisiteId": "fr-eps-gs-equi-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Enchainer plusieurs actions d’équilibre » (GS) : sauter puis enchaîner"
+      "de": "fr-eps-gs-equi-01",
+      "vers": "fr-eps-cp-terr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Enchainer plusieurs actions d’équilibre » (GS) : sauter puis enchaîner"
     },
     {
-      "topicId": "fr-eps-cp-terr-03",
-      "prerequisiteId": "fr-eps-gs-equi-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Enchainer plusieurs actions d’équilibre » (GS) : déplacement en quadrupédie"
+      "de": "fr-eps-gs-equi-01",
+      "vers": "fr-eps-cp-terr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Enchainer plusieurs actions d’équilibre » (GS) : déplacement en quadrupédie"
     },
     {
-      "topicId": "fr-eps-cp-terr-04",
-      "prerequisiteId": "fr-eps-gs-equi-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Enchainer plusieurs actions d’équilibre » (GS)"
+      "de": "fr-eps-gs-equi-01",
+      "vers": "fr-eps-cp-terr-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Enchainer plusieurs actions d’équilibre » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-terr-05",
-      "prerequisiteId": "fr-eps-gs-equi-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Enchainer plusieurs actions d’équilibre » (GS) : se suspendre, grimper"
+      "de": "fr-eps-gs-equi-01",
+      "vers": "fr-eps-cp-terr-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Enchainer plusieurs actions d’équilibre » (GS) : se suspendre, grimper"
     },
     {
-      "topicId": "fr-eps-cp-loco-01",
-      "prerequisiteId": "fr-eps-gs-equi-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Maitriser ses trajectoires sur patins, skis ou vélo à deux roues » (GS)"
+      "de": "fr-eps-gs-equi-02",
+      "vers": "fr-eps-cp-loco-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Maitriser ses trajectoires sur patins, skis ou vélo à deux roues » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-nat-01",
-      "prerequisiteId": "fr-eps-gs-equi-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Découvrir l’eau : y entrer, s’y déplacer, mettre la tête sous l’eau » (GS)"
+      "de": "fr-eps-gs-equi-03",
+      "vers": "fr-eps-cp-nat-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Découvrir l’eau : y entrer, s’y déplacer, mettre la tête sous l’eau » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-secu-01",
-      "prerequisiteId": "fr-eps-gs-equi-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Respecter les règles de sécurité et veiller à celle des autres » (GS)"
+      "de": "fr-eps-gs-equi-04",
+      "vers": "fr-eps-cp-secu-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Respecter les règles de sécurité et veiller à celle des autres » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-art-01",
-      "prerequisiteId": "fr-eps-gs-expr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Enrichir sa danse de nouvelles coordinations, aussi venues du cirque » (GS)"
+      "de": "fr-eps-gs-expr-01",
+      "vers": "fr-eps-cp-art-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Enrichir sa danse de nouvelles coordinations, aussi venues du cirque » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-art-02",
-      "prerequisiteId": "fr-eps-gs-expr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Utiliser tout l’espace scénique pour créer des effets » (GS)"
+      "de": "fr-eps-gs-expr-02",
+      "vers": "fr-eps-cp-art-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Utiliser tout l’espace scénique pour créer des effets » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-ench-01",
-      "prerequisiteId": "fr-eps-gs-expr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Danser à plusieurs en créant et en reproduisant des gestes » (GS) : reproduire une petite chorégraphie avec entrée, développement et fin"
+      "de": "fr-eps-gs-expr-03",
+      "vers": "fr-eps-cp-ench-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Danser à plusieurs en créant et en reproduisant des gestes » (GS) : reproduire une petite chorégraphie avec entrée, développement et fin"
     },
     {
-      "topicId": "fr-eps-cp-emo-01",
-      "prerequisiteId": "fr-eps-ms-expr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Découvrir et explorer le geste dansé » (MS) : chercher des gestes qui expriment la joie, la colère, la peur"
+      "de": "fr-eps-ms-expr-01",
+      "vers": "fr-eps-cp-emo-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Découvrir et explorer le geste dansé » (MS) : chercher des gestes qui expriment la joie, la colère, la peur"
     },
     {
-      "topicId": "fr-eps-cp-emo-01",
-      "prerequisiteId": "fr-eps-ps-expr-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Oser danser devant et avec les autres (PS) prépare à accepter d’être regardé"
+      "de": "fr-eps-ps-expr-02",
+      "vers": "fr-eps-cp-emo-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Oser danser devant et avec les autres (PS) prépare à accepter d’être regardé"
     },
     {
-      "topicId": "fr-eps-cp-emo-02",
-      "prerequisiteId": "fr-eps-gs-expr-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Regarder danser les autres, dire une émotion et donner un conseil » (GS)"
+      "de": "fr-eps-gs-expr-04",
+      "vers": "fr-eps-cp-emo-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Regarder danser les autres, dire une émotion et donner un conseil » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-opp-01",
-      "prerequisiteId": "fr-eps-gs-coop-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Jouer attaquant, défenseur ou arbitre » (GS)"
+      "de": "fr-eps-gs-coop-02",
+      "vers": "fr-eps-cp-opp-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Jouer attaquant, défenseur ou arbitre » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-opp-01",
-      "prerequisiteId": "fr-eps-ps-dep-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Attraper et lancer des balles (PS) sert ensuite à se faire des passes"
+      "de": "fr-eps-ps-dep-01",
+      "vers": "fr-eps-cp-opp-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Attraper et lancer des balles (PS) sert ensuite à se faire des passes"
     },
     {
-      "topicId": "fr-eps-cp-opp-02",
-      "prerequisiteId": "fr-eps-gs-coop-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « S’opposer à un adversaire au corps à corps sans faire mal » (GS)"
+      "de": "fr-eps-gs-coop-03",
+      "vers": "fr-eps-cp-opp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « S’opposer à un adversaire au corps à corps sans faire mal » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-opp-03",
-      "prerequisiteId": "fr-eps-gs-coop-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Jouer attaquant, défenseur ou arbitre » (GS) : jeux d’attaque et de défense d’une zone"
+      "de": "fr-eps-gs-coop-02",
+      "vers": "fr-eps-cp-opp-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Jouer attaquant, défenseur ou arbitre » (GS) : jeux d’attaque et de défense d’une zone"
     },
     {
-      "topicId": "fr-eps-cp-marq-01",
-      "prerequisiteId": "fr-eps-gs-coop-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Jouer attaquant, défenseur ou arbitre » (GS)"
+      "de": "fr-eps-gs-coop-02",
+      "vers": "fr-eps-cp-marq-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Jouer attaquant, défenseur ou arbitre » (GS)"
     },
     {
-      "topicId": "fr-eps-cp-regl-01",
-      "prerequisiteId": "fr-eps-gs-coop-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Jouer attaquant, défenseur ou arbitre » (GS) : connaître la cible à atteindre et faire respecter les règles"
+      "de": "fr-eps-gs-coop-02",
+      "vers": "fr-eps-cp-regl-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Jouer attaquant, défenseur ou arbitre » (GS) : connaître la cible à atteindre et faire respecter les règles"
     },
     {
-      "topicId": "fr-eps-cp-regl-02",
-      "prerequisiteId": "fr-eps-ms-coop-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Coopérer en respectant les règles et accepter de perdre » (MS)"
+      "de": "fr-eps-ms-coop-03",
+      "vers": "fr-eps-cp-regl-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Coopérer en respectant les règles et accepter de perdre » (MS)"
     },
     {
-      "topicId": "fr-eps-cp-regl-02",
-      "prerequisiteId": "fr-eps-gs-coop-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Jouer avec tous suppose d’accepter le rôle et les consignes décidés en équipe (GS)"
+      "de": "fr-eps-gs-coop-04",
+      "vers": "fr-eps-cp-regl-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Jouer avec tous suppose d’accepter le rôle et les consignes décidés en équipe (GS)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "eps-c1": "2026-10-23",
     "eps-c2": "2026-10-23"

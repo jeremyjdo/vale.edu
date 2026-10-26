@@ -1,368 +1,413 @@
 {
   "programme": "francais-c2",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-fr-cp-idm-01",
-      "prerequisiteId": "fr-lan-gs-slet-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Connaitre le son des lettres, hormis p, t, k, b, d, g » (GS)"
+      "de": "fr-lan-gs-slet-01",
+      "vers": "fr-fr-cp-idm-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Connaitre le son des lettres, hormis p, t, k, b, d, g » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-idm-01",
-      "prerequisiteId": "fr-lan-gs-syl-03",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": false,
-      "reason": "Le programme fonde le décodage sur les compétences phonologiques acquises à l’école maternelle"
+      "de": "fr-lan-gs-syl-03",
+      "vers": "fr-fr-cp-idm-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": false,
+      "raison": "Le programme fonde le décodage sur les compétences phonologiques acquises à l’école maternelle"
     },
     {
-      "topicId": "fr-fr-cp-idm-01",
-      "prerequisiteId": "fr-lan-gs-oe-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": false,
-      "reason": "Le programme s’appuie sur le principe alphabétique acquis en fin de maternelle"
+      "de": "fr-lan-gs-oe-02",
+      "vers": "fr-fr-cp-idm-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": false,
+      "raison": "Le programme s’appuie sur le principe alphabétique acquis en fin de maternelle"
     },
     {
-      "topicId": "fr-fr-cp-idm-02",
-      "prerequisiteId": "fr-lan-gs-syl-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Fusionner des syllabes écrites suppose de savoir manipuler les syllabes à l’oral"
+      "de": "fr-lan-gs-syl-01",
+      "vers": "fr-fr-cp-idm-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Fusionner des syllabes écrites suppose de savoir manipuler les syllabes à l’oral"
     },
     {
-      "topicId": "fr-fr-cp-idm-02",
-      "prerequisiteId": "fr-lan-gs-oe-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Déchiffrer suppose de savoir découper l’oral en mots, syllabes et sons"
+      "de": "fr-lan-gs-oe-01",
+      "vers": "fr-fr-cp-idm-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Déchiffrer suppose de savoir découper l’oral en mots, syllabes et sons"
     },
     {
-      "topicId": "fr-fr-cp-lvh-01",
-      "prerequisiteId": "fr-lan-gs-art-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Lire à voix haute de façon intelligible suppose de prononcer correctement les sons du français"
+      "de": "fr-lan-gs-art-02",
+      "vers": "fr-fr-cp-lvh-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Lire à voix haute de façon intelligible suppose de prononcer correctement les sons du français"
     },
     {
-      "topicId": "fr-fr-cp-lvh-05",
-      "prerequisiteId": "fr-lan-gs-son-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Mettre le ton s’appuie sur l’usage de la hauteur et de l’intensité de la voix"
+      "de": "fr-lan-gs-son-01",
+      "vers": "fr-fr-cp-lvh-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Mettre le ton s’appuie sur l’usage de la hauteur et de l’intensité de la voix"
     },
     {
-      "topicId": "fr-fr-cp-comp-01",
-      "prerequisiteId": "fr-lan-gs-comp-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre et raconter une histoire aux personnages multiples » (GS)"
+      "de": "fr-lan-gs-comp-02",
+      "vers": "fr-fr-cp-comp-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre et raconter une histoire aux personnages multiples » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-comp-02",
-      "prerequisiteId": "fr-lan-gs-voc-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre le sens figuré et deviner le sens d’un mot inconnu » (GS)"
+      "de": "fr-lan-gs-voc-04",
+      "vers": "fr-fr-cp-comp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre le sens figuré et deviner le sens d’un mot inconnu » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-comp-03",
-      "prerequisiteId": "fr-lan-ps-syn-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Comprendre qu’un « il » reprend un nom s’appuie sur l’usage oral des pronoms il, elle, ils, elles"
+      "de": "fr-lan-ps-syn-01",
+      "vers": "fr-fr-cp-comp-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Comprendre qu’un « il » reprend un nom s’appuie sur l’usage oral des pronoms il, elle, ils, elles"
     },
     {
-      "topicId": "fr-fr-cp-comp-04",
-      "prerequisiteId": "fr-lan-gs-comp-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre les émotions et les intentions des personnages » (GS)"
+      "de": "fr-lan-gs-comp-03",
+      "vers": "fr-fr-cp-comp-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre les émotions et les intentions des personnages » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-lect-01",
-      "prerequisiteId": "fr-lan-c1-lect-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme poursuit au cycle 2 le parcours de lecteur initié à l’école maternelle"
+      "de": "fr-lan-c1-lect-01",
+      "vers": "fr-fr-cp-lect-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme poursuit au cycle 2 le parcours de lecteur initié à l’école maternelle"
     },
     {
-      "topicId": "fr-fr-cp-lect-01",
-      "prerequisiteId": "fr-lan-gs-sup-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Découvrir des œuvres variées s’appuie sur la distinction des types d’écrits (conte, documentaire…)"
+      "de": "fr-lan-gs-sup-01",
+      "vers": "fr-fr-cp-lect-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Découvrir des œuvres variées s’appuie sur la distinction des types d’écrits (conte, documentaire…)"
     },
     {
-      "topicId": "fr-fr-cp-lect-02",
-      "prerequisiteId": "fr-lan-gs-comp-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Connaitre les personnages typiques des contes » (GS)"
+      "de": "fr-lan-gs-comp-01",
+      "vers": "fr-fr-cp-lect-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Connaitre les personnages typiques des contes » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-lect-03",
-      "prerequisiteId": "fr-lan-c1-lect-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Prendre gout aux livres et choisir un livre selon ses gouts » (maternelle)"
+      "de": "fr-lan-c1-lect-01",
+      "vers": "fr-fr-cp-lect-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Prendre gout aux livres et choisir un livre selon ses gouts » (maternelle)"
     },
     {
-      "topicId": "fr-fr-cp-lect-04",
-      "prerequisiteId": "fr-lan-gs-comp-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Relier une histoire à sa propre expérience » (GS)"
+      "de": "fr-lan-gs-comp-04",
+      "vers": "fr-fr-cp-lect-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Relier une histoire à sa propre expérience » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-curs-01",
-      "prerequisiteId": "fr-lan-gs-gest-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme poursuit au CP le geste d’écriture cursive, non achevé en fin de grande section"
+      "de": "fr-lan-gs-gest-02",
+      "vers": "fr-fr-cp-curs-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme poursuit au CP le geste d’écriture cursive, non achevé en fin de grande section"
     },
     {
-      "topicId": "fr-fr-cp-curs-01",
-      "prerequisiteId": "fr-lan-gs-gest-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Tracer les lettres cursives suppose de tenir le stylo avec la pince des doigts"
+      "de": "fr-lan-gs-gest-01",
+      "vers": "fr-fr-cp-curs-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Tracer les lettres cursives suppose de tenir le stylo avec la pince des doigts"
     },
     {
-      "topicId": "fr-fr-cp-dict-01",
-      "prerequisiteId": "fr-lan-gs-prod-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Écrire un mot en s’aidant des sons et des lettres » (GS)"
+      "de": "fr-lan-gs-prod-02",
+      "vers": "fr-fr-cp-dict-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Écrire un mot en s’aidant des sons et des lettres » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-dict-01",
-      "prerequisiteId": "fr-lan-gs-oe-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Encoder un mot suppose de le découper en syllabes puis en sons"
+      "de": "fr-lan-gs-oe-01",
+      "vers": "fr-fr-cp-dict-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Encoder un mot suppose de le découper en syllabes puis en sons"
     },
     {
-      "topicId": "fr-fr-cp-cop-03",
-      "prerequisiteId": "fr-lan-gs-prod-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Copier un mot entier de mémoire s’appuie sur la mémorisation de l’écriture de mots simples"
+      "de": "fr-lan-gs-prod-01",
+      "vers": "fr-fr-cp-cop-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Copier un mot entier de mémoire s’appuie sur la mémorisation de l’écriture de mots simples"
     },
     {
-      "topicId": "fr-fr-cp-prod-01",
-      "prerequisiteId": "fr-lan-gs-prod-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme prolonge au cycle 2 les essais d’écriture conduits à l’école maternelle"
+      "de": "fr-lan-gs-prod-02",
+      "vers": "fr-fr-cp-prod-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme prolonge au cycle 2 les essais d’écriture conduits à l’école maternelle"
     },
     {
-      "topicId": "fr-fr-cp-prod-01",
-      "prerequisiteId": "fr-lan-gs-prod-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Écrire ses premiers mots réutilise l’écriture mémorisée de mots transparents et de syllabes"
+      "de": "fr-lan-gs-prod-01",
+      "vers": "fr-fr-cp-prod-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Écrire ses premiers mots réutilise l’écriture mémorisée de mots transparents et de syllabes"
     },
     {
-      "topicId": "fr-fr-cp-prod-02",
-      "prerequisiteId": "fr-lan-gs-prod-05",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme prolonge au cycle 2 les dictées à l’adulte conduites à l’école maternelle"
+      "de": "fr-lan-gs-prod-05",
+      "vers": "fr-fr-cp-prod-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme prolonge au cycle 2 les dictées à l’adulte conduites à l’école maternelle"
     },
     {
-      "topicId": "fr-fr-cp-prod-03",
-      "prerequisiteId": "fr-lan-gs-prod-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Produire un court écrit suppose de savoir que l’écrit suit des règles : majuscule, point, mise en page"
+      "de": "fr-lan-gs-prod-04",
+      "vers": "fr-fr-cp-prod-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Produire un court écrit suppose de savoir que l’écrit suit des règles : majuscule, point, mise en page"
     },
     {
-      "topicId": "fr-fr-cp-prod-05",
-      "prerequisiteId": "fr-lan-gs-prod-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Mener un écrit jusqu’au bout : préparer, dicter, relire » (GS)"
+      "de": "fr-lan-gs-prod-05",
+      "vers": "fr-fr-cp-prod-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Mener un écrit jusqu’au bout : préparer, dicter, relire » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-ecou-01",
-      "prerequisiteId": "fr-lan-gs-son-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Retenir l’essentiel d’un message oral suppose l’écoute attentive et la mémoire auditive"
+      "de": "fr-lan-gs-son-02",
+      "vers": "fr-fr-cp-ecou-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Retenir l’essentiel d’un message oral suppose l’écoute attentive et la mémoire auditive"
     },
     {
-      "topicId": "fr-fr-cp-dire-01",
-      "prerequisiteId": "fr-lan-gs-disc-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Se faire comprendre de quelqu’un qui n’était pas là » (GS)"
+      "de": "fr-lan-gs-disc-02",
+      "vers": "fr-fr-cp-dire-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Se faire comprendre de quelqu’un qui n’était pas là » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-dire-01",
-      "prerequisiteId": "fr-lan-gs-syn-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Enchainer ses idées à l’oral s’appuie sur les mots de liaison appris en maternelle (parce que, quand, si…)"
+      "de": "fr-lan-gs-syn-03",
+      "vers": "fr-fr-cp-dire-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Enchainer ses idées à l’oral s’appuie sur les mots de liaison appris en maternelle (parce que, quand, si…)"
     },
     {
-      "topicId": "fr-fr-cp-dire-02",
-      "prerequisiteId": "fr-lan-gs-disc-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Converser et reformuler son propos s’il n’est pas compris » (GS)"
+      "de": "fr-lan-gs-disc-03",
+      "vers": "fr-fr-cp-dire-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Converser et reformuler son propos s’il n’est pas compris » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-dire-03",
-      "prerequisiteId": "fr-lan-ms-disc-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Réciter un court texte appris par cœur » (MS)"
+      "de": "fr-lan-ms-disc-03",
+      "vers": "fr-fr-cp-dire-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Réciter un court texte appris par cœur » (MS)"
     },
     {
-      "topicId": "fr-fr-cp-ech-01",
-      "prerequisiteId": "fr-lan-gs-disc-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Converser et reformuler son propos s’il n’est pas compris » (GS)"
+      "de": "fr-lan-gs-disc-03",
+      "vers": "fr-fr-cp-ech-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Converser et reformuler son propos s’il n’est pas compris » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-enr-01",
-      "prerequisiteId": "fr-lan-gs-voc-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme demande d’enrichir au CP le vocabulaire appris au cycle 1"
+      "de": "fr-lan-gs-voc-01",
+      "vers": "fr-fr-cp-enr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme demande d’enrichir au CP le vocabulaire appris au cycle 1"
     },
     {
-      "topicId": "fr-fr-cp-enr-01",
-      "prerequisiteId": "fr-lan-gs-voc-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Enrichir le vocabulaire prolonge les réseaux de mots construits en maternelle"
+      "de": "fr-lan-gs-voc-02",
+      "vers": "fr-fr-cp-enr-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Enrichir le vocabulaire prolonge les réseaux de mots construits en maternelle"
     },
     {
-      "topicId": "fr-fr-cp-enr-02",
-      "prerequisiteId": "fr-lan-gs-voc-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre le sens figuré et deviner le sens d’un mot inconnu » (GS)"
+      "de": "fr-lan-gs-voc-04",
+      "vers": "fr-fr-cp-enr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre le sens figuré et deviner le sens d’un mot inconnu » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-enr-03",
-      "prerequisiteId": "fr-lan-gs-prod-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Se servir de l’alphabet pour retrouver une lettre » (GS)"
+      "de": "fr-lan-gs-prod-03",
+      "vers": "fr-fr-cp-enr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Se servir de l’alphabet pour retrouver une lettre » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-rel-01",
-      "prerequisiteId": "fr-lan-gs-voc-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Trouver le mot qui regroupe une catégorie » (GS)"
+      "de": "fr-lan-gs-voc-02",
+      "vers": "fr-fr-cp-rel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Trouver le mot qui regroupe une catégorie » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-rel-02",
-      "prerequisiteId": "fr-lan-gs-voc-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Construire des mots de la même famille » (GS)"
+      "de": "fr-lan-gs-voc-03",
+      "vers": "fr-fr-cp-rel-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Construire des mots de la même famille » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-rel-04",
-      "prerequisiteId": "fr-lan-ms-voc-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer les mots à plusieurs sens et les synonymes » (MS)"
+      "de": "fr-lan-ms-voc-04",
+      "vers": "fr-fr-cp-rel-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer les mots à plusieurs sens et les synonymes » (MS)"
     },
     {
-      "topicId": "fr-fr-cp-reem-01",
-      "prerequisiteId": "fr-lan-gs-voc-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme demande de réemployer et mémoriser au CP le vocabulaire appris en maternelle"
+      "de": "fr-lan-gs-voc-01",
+      "vers": "fr-fr-cp-reem-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme demande de réemployer et mémoriser au CP le vocabulaire appris en maternelle"
     },
     {
-      "topicId": "fr-fr-cp-orl-01",
-      "prerequisiteId": "fr-lan-gs-prod-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Mémoriser l’écriture de mots simples pour les réécrire » (GS)"
+      "de": "fr-lan-gs-prod-01",
+      "vers": "fr-fr-cp-orl-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Mémoriser l’écriture de mots simples pour les réécrire » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-orl-04",
-      "prerequisiteId": "fr-lan-ms-art-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Reconnaitre les graphies de an, on, in s’appuie sur la distinction à l’oreille de ces voyelles nasales"
+      "de": "fr-lan-ms-art-01",
+      "vers": "fr-fr-cp-orl-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Reconnaitre les graphies de an, on, in s’appuie sur la distinction à l’oreille de ces voyelles nasales"
     },
     {
-      "topicId": "fr-fr-cp-phr-01",
-      "prerequisiteId": "fr-lan-gs-prod-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Savoir qu’écrire suit des règles (majuscule, point, mise en page) » (GS)"
+      "de": "fr-lan-gs-prod-04",
+      "vers": "fr-fr-cp-phr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Savoir qu’écrire suit des règles (majuscule, point, mise en page) » (GS)"
     },
     {
-      "topicId": "fr-fr-cp-phr-01",
-      "prerequisiteId": "fr-lan-gs-sup-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Reconnaitre une phrase suppose les mots pour parler de l’écrit : ligne, majuscule, point"
+      "de": "fr-lan-gs-sup-02",
+      "vers": "fr-fr-cp-phr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Reconnaitre une phrase suppose les mots pour parler de l’écrit : ligne, majuscule, point"
     },
     {
-      "topicId": "fr-fr-cp-org-05",
-      "prerequisiteId": "fr-lan-gs-syn-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Observer les terminaisons -ons et -ez s’appuie sur l’emploi oral de nous et vous avec le bon verbe"
+      "de": "fr-lan-gs-syn-01",
+      "vers": "fr-fr-cp-org-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Observer les terminaisons -ons et -ez s’appuie sur l’emploi oral de nous et vous avec le bon verbe"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "francais-c2": "2026-10-22",
     "langage-c1": "2026-10-23"

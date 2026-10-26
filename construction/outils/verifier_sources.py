@@ -6,8 +6,8 @@ Usage :
 
 1. Empreintes : chaque PDF de programmes-officiels/ est comparé à son SHA-256 enregistré dans
    programmes-officiels/sources.json. Une différence signale un fichier modifié.
-2. Fidélité : chaque phrase de `officialObjectives` doit se retrouver dans le texte du PDF cité par
-   `source.file`. Les notions dont le texte n'est plus retrouvé sont listées : ce sont celles à revoir
+2. Fidélité : chaque phrase de `objectifsOfficiels` doit se retrouver dans le texte du PDF cité par
+   `source.fichier`. Les notions dont le texte n'est plus retrouvé sont listées : ce sont celles à revoir
    si le programme a changé (ou celles mal recopiées).
 3. En ligne : si le PDF publié a changé, la nouvelle version est enregistrée à part (jamais à la place
    de l'ancienne) et la vérification de fidélité est refaite sur elle, pour lister les notions touchées.
@@ -66,13 +66,13 @@ def fidelite(notions, pdf_pour):
     """Renvoie {programme: Counter(statut)} et la liste des notions non retrouvées."""
     stats, absentes = defaultdict(Counter), []
     for n in notions:
-        pdf = pdf_pour(n["source"]["file"])
+        pdf = pdf_pour(n["source"]["fichier"])
         texte, ocr = texte_pdf(pdf)
         if len(texte) < 1000:
             stats[n["programme"]]["PDF image, non vérifiable"] += 1
             continue
         suffixe = " (OCR)" if ocr else ""
-        segs = [s for o in n["officialObjectives"] for s in segments(o)]
+        segs = [s for o in n["objectifsOfficiels"] for s in segments(o)]
         trouves = sum(1 for s in segs if s in texte)
         if segs and trouves == len(segs):
             stats[n["programme"]]["retrouvée" + suffixe] += 1
@@ -80,7 +80,7 @@ def fidelite(notions, pdf_pour):
             stats[n["programme"]]["partielle" + suffixe] += 1
         else:
             stats[n["programme"]]["non retrouvée" + suffixe] += 1
-            absentes.append((n["id"], n["source"]["page"], n["officialObjectives"][0][:90]))
+            absentes.append((n["id"], n["source"]["page"], n["objectifsOfficiels"][0][:90]))
     return stats, absentes
 
 
@@ -131,6 +131,6 @@ if "--en-ligne" in sys.argv:
             print(f"    pour l'adopter : python3 outils/preparer_pdf.py {rel} --depuis {cible} --bo \"<BO de la nouvelle version>\"")
     print(f"  {len(MANIFESTE) - len(nouvelles)} PDF inchangés en ligne")
     if nouvelles:
-        touchees = [n for n in notions if n["source"]["file"] in nouvelles]
+        touchees = [n for n in notions if n["source"]["fichier"] in nouvelles]
         stats, absentes = fidelite(touchees, lambda f: nouvelles.get(f, os.path.join(PROGRAMMES, f)))
         afficher(stats, absentes, "Notions à revoir avec les nouvelles versions")

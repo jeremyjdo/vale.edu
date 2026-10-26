@@ -1,7 +1,7 @@
 {
   "programme": "evar-elem",
-  "level": "multiple",
-  "themeCodes": {
+  "classe": "multiple",
+  "codesThemes": {
     "corps": "Se connaître, vivre et grandir avec son corps",
     "rel": "Rencontrer les autres et construire des relations, s’y épanouir",
     "soc": "Trouver sa place dans la société, y être libre et responsable"
@@ -10,29 +10,27 @@
     {
       "id": "fr-eva-cp-corps-01",
       "programme": "evar-elem",
-      "type": "LANGUAGE",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître son corps. Comprendre ce qu’est l’intimité",
-      "level": "CP",
+      "nature": "vocabulaire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître son corps. Comprendre ce qu’est l’intimité",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Nommer les parties du corps, dont les parties intimes, avec les mots justes",
+      "nom": "Nommer les parties du corps, dont les parties intimes, avec les mots justes",
       "description": "Connaître le nom exact de toutes les parties du corps, y compris les parties intimes, avec un vocabulaire scientifique plutôt qu’avec des mots enfantins.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Nommer les parties du corps, dont les parties intimes, avec un vocabulaire scientifique précis."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie et nomme les parties du corps, dont les parties intimes, avec un vocabulaire scientifique.",
         "Remplace un mot familier par le mot scientifique correspondant."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} connaît les mots justes pour nommer toutes les parties du corps, y compris les parties intimes ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} connaît les mots justes pour nommer toutes les parties du corps, y compris les parties intimes ?",
+      "acquisAnterieurs": [
         "Nommer les différentes parties du corps, en allant des mots spontanés vers un vocabulaire scientifique (école maternelle, avant 4 ans et à partir de 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 10,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -41,29 +39,27 @@
     {
       "id": "fr-eva-cp-corps-02",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître son corps. Comprendre ce qu’est l’intimité",
-      "level": "CP",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître son corps. Comprendre ce qu’est l’intimité",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Points communs et différences physiques entre filles et garçons",
+      "nom": "Points communs et différences physiques entre filles et garçons",
       "description": "Savoir dire ce qui est commun et ce qui est différent dans le corps des filles et des garçons, avec un vocabulaire précis.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier les points communs et les différences physiques entre les filles et les garçons."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie les points communs physiques entre les filles et les garçons.",
         "Identifie les différences physiques entre les filles et les garçons avec un vocabulaire scientifique."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, avec les mots justes, ce qui est commun et ce qui est différent entre le corps des filles et celui des garçons ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire, avec les mots justes, ce qui est commun et ce qui est différent entre le corps des filles et celui des garçons ?",
+      "acquisAnterieurs": [
         "Identifier les ressemblances et les différences physiques entre les filles et les garçons (école maternelle, à partir de 5 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 10,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -72,30 +68,28 @@
     {
       "id": "fr-eva-cp-corps-03",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître son corps. Comprendre ce qu’est l’intimité",
-      "level": "CP",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître son corps. Comprendre ce qu’est l’intimité",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Définir ce qu’est son intimité et celle des autres",
+      "nom": "Définir ce qu’est son intimité et celle des autres",
       "description": "Comprendre que l’intimité ne concerne pas seulement le corps, mais aussi les pensées et ce que l’on écrit, et que les autres ont, eux aussi, leur intimité.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Définir ce qu’est son intimité (corps, pensées, écrits) et celle des autres."
       ],
-      "evidence": [
+      "criteres": [
         "Explique, à partir de textes et d’albums, ce qu’est l’intimité : le corps, les pensées, les écrits.",
         "Explique que les autres ont aussi leur intimité.",
         "Repère des lieux de la vie quotidienne où la question de l’intimité et du respect du corps se pose : soins par un professionnel, toilettes, vestiaires, boîte à secrets."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait que l’intimité, c’est son corps mais aussi ses pensées et ses écrits, et que chacun a la sienne ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait que l’intimité, c’est son corps mais aussi ses pensées et ses écrits, et que chacun a la sienne ?",
+      "acquisAnterieurs": [
         "Prendre conscience de ce qu’est l’intimité : parties intimes du corps, espaces d’intimité, mots et gestes associés (école maternelle, avant 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 11,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -104,30 +98,28 @@
     {
       "id": "fr-eva-cp-corps-04",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître son corps. Comprendre ce qu’est l’intimité",
-      "level": "CP",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître son corps. Comprendre ce qu’est l’intimité",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Toute personne a droit au respect de son intimité",
+      "nom": "Toute personne a droit au respect de son intimité",
       "description": "Comprendre que chacun, enfant comme adulte, a le droit qu’on respecte son intimité, et savoir comment réagir si quelqu’un ne la respecte pas, par exemple par un contact non souhaité.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre que toute personne a le droit au respect de son intimité."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que toute personne a le droit au respect de son intimité.",
         "Dit comment réagir si quelqu’un ne respecte pas son intimité, par exemple par un contact non souhaité.",
         "Respecte l’intimité des autres dans les lieux concernés (toilettes, vestiaires)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait quoi faire si quelqu’un ne respecte pas son intimité, par exemple par un contact non souhaité ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait quoi faire si quelqu’un ne respecte pas son intimité, par exemple par un contact non souhaité ?",
+      "acquisAnterieurs": [
         "Identifier les espaces où chacun a droit à son intimité par rapport aux adultes et aux autres élèves (école maternelle, avant 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 11,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -136,29 +128,27 @@
     {
       "id": "fr-eva-cp-corps-05",
       "programme": "evar-elem",
-      "type": "META",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître son corps. Comprendre ce qu’est l’intimité",
-      "level": "CP",
+      "nature": "stratégie",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître son corps. Comprendre ce qu’est l’intimité",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Mieux se connaître : comment on a grandi, où l’on se sent bien",
+      "nom": "Mieux se connaître : comment on a grandi, où l’on se sent bien",
       "description": "Mieux se connaître en observant comment on a grandi depuis la naissance et en réfléchissant à la façon dont on se sent dans différents lieux.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer sa connaissance de soi."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie, à partir de documents variés, des changements communs aux enfants au cours de leur développement, de la naissance à six ans.",
         "Exprime comment différents lieux sont perçus : « ici je peux être tranquille », « ici je me sens en sécurité si je me déshabille », « ici je peux avoir une conversation intime »."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter comment on change entre la naissance et six ans, et dire dans quels lieux on se sent tranquille ou en sécurité ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait raconter comment on change entre la naissance et six ans, et dire dans quels lieux on se sent tranquille ou en sécurité ?",
+      "acquisAnterieurs": [
         "Développer sa connaissance de soi (école maternelle, avant 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 11,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -167,31 +157,29 @@
     {
       "id": "fr-eva-cp-rel-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre la diversité des émotions et des sentiments : les siens et ceux des autres",
-      "level": "CP",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre la diversité des émotions et des sentiments : les siens et ceux des autres",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Identifier, nommer et gérer ses émotions et ses sentiments",
+      "nom": "Identifier, nommer et gérer ses émotions et ses sentiments",
       "description": "Reconnaître et mettre des mots précis sur ce que l’on ressent (émotions, sentiments) dans différentes situations, pour mieux les comprendre et les gérer.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre, identifier et nommer ses sentiments et ses émotions, savoir les gérer."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme les émotions ressenties dans diverses situations de classe : lecture d’un poème, écoute de musique, conflit, réussite ou difficulté.",
         "Enrichit au fil de l’année des affiches de mots désignant des émotions et des sentiments.",
         "Identifie les émotions de personnages sur des images ou des photographies et explique comment on le sait.",
         "Relie, dans une œuvre de littérature jeunesse, les actions des personnages à leurs émotions."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer l’émotion ressentie dans une situation (une réussite, une difficulté, une dispute) et la reconnaître chez le personnage d’une histoire ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait nommer l’émotion ressentie dans une situation (une réussite, une difficulté, une dispute) et la reconnaître chez le personnage d’une histoire ?",
+      "acquisAnterieurs": [
         "Identifier ses émotions et ses sentiments et ceux des autres (école maternelle, à partir de 5 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 11,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -200,30 +188,28 @@
     {
       "id": "fr-eva-cp-rel-02",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre la diversité des émotions et des sentiments : les siens et ceux des autres",
-      "level": "CP",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre la diversité des émotions et des sentiments : les siens et ceux des autres",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Exprimer ses émotions et ses sentiments de façon appropriée",
+      "nom": "Exprimer ses émotions et ses sentiments de façon appropriée",
       "description": "Dire ce que l’on ressent au bon moment et de la bonne manière, à l’oral ou à l’écrit, sans agressivité envers les autres.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Exprimer ses sentiments et ses émotions de façon appropriée."
       ],
-      "evidence": [
+      "criteres": [
         "Exprime ce que l’on ressent sans agressivité envers l’autre.",
         "Imagine à l’écrit ce que peuvent ressentir des personnages d’une histoire.",
         "Utilise les mots des affiches de la classe pour exprimer son ressenti."
       ],
-      "assessmentPrompt": "Quand {{prenom}} est en colère ou triste, est-ce que {{prenom}} arrive à le dire avec des mots, sans s’en prendre aux autres ?",
-      "priorKnowledge": [
+      "question": "Quand {{prenom}} est en colère ou triste, est-ce que {{prenom}} arrive à le dire avec des mots, sans s’en prendre aux autres ?",
+      "acquisAnterieurs": [
         "Communiquer de façon efficace et constructive, s’exprimer par des messages clairs (école maternelle, à partir de 5 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 11,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -232,30 +218,28 @@
     {
       "id": "fr-eva-cp-rel-03",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre la diversité des émotions et des sentiments : les siens et ceux des autres",
-      "level": "CP",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre la diversité des émotions et des sentiments : les siens et ceux des autres",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Résoudre un conflit de façon constructive",
+      "nom": "Résoudre un conflit de façon constructive",
       "description": "Lors d’une dispute, chercher une solution avec l’aide d’un adulte, en disant ce que l’on ressent sans agressivité.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Résoudre des conflits de façon constructive."
       ],
-      "evidence": [
+      "criteres": [
         "Participe à un temps de médiation de conflit avec un adulte.",
         "Exprime pendant la médiation ce que l’on ressent, sans agressivité envers l’autre.",
         "Nomme les émotions ressenties lors du conflit."
       ],
-      "assessmentPrompt": "Après une dispute avec un camarade, est-ce que {{prenom}} accepte d’en parler avec un adulte et de dire ce qui s’est passé sans agressivité ?",
-      "priorKnowledge": [
+      "question": "Après une dispute avec un camarade, est-ce que {{prenom}} accepte d’en parler avec un adulte et de dire ce qui s’est passé sans agressivité ?",
+      "acquisAnterieurs": [
         "Utiliser un « message clair » lors d’un conflit (école maternelle, à partir de 5 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 11,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -264,30 +248,28 @@
     {
       "id": "fr-eva-cp-soc-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Appartenir à une famille, comprendre la nature, la fonction et le sens des liens familiaux",
-      "level": "CP",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Appartenir à une famille, comprendre la nature, la fonction et le sens des liens familiaux",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Identifier les liens familiaux et la diversité des familles",
+      "nom": "Identifier les liens familiaux et la diversité des familles",
       "description": "Savoir nommer les liens dans une famille (parents, frères et sœurs, grands-parents…) et découvrir qu’il existe beaucoup de façons de former une famille.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier différents liens familiaux, se rendre compte de la diversité des structures familiales."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie les liens familiaux à partir de son histoire ou d’une histoire fictive (frise de vie).",
         "Cite différents types de familles rencontrés dans des albums : hétéroparentale, monoparentale, homoparentale, adoptive, recomposée, sans enfant.",
         "Observe différentes représentations des familles dans la peinture ou la photographie."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer les liens dans une famille (parents, grands-parents, frères et sœurs, cousins) et sait qu’il existe toutes sortes de familles ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer les liens dans une famille (parents, grands-parents, frères et sœurs, cousins) et sait qu’il existe toutes sortes de familles ?",
+      "acquisAnterieurs": [
         "Découvrir les différentes structures familiales à partir de son environnement proche (école maternelle, à partir de 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 11,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -296,29 +278,27 @@
     {
       "id": "fr-eva-cp-soc-02",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Appartenir à une famille, comprendre la nature, la fonction et le sens des liens familiaux",
-      "level": "CP",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Appartenir à une famille, comprendre la nature, la fonction et le sens des liens familiaux",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Respecter la diversité des familles",
+      "nom": "Respecter la diversité des familles",
       "description": "Respecter toutes les familles, quelle que soit leur composition (un ou deux parents, famille recomposée, adoptive…).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Respecter la diversité des structures familiales."
       ],
-      "evidence": [
+      "criteres": [
         "Explique qu’il existe une grande variété de familles et qu’elles doivent toutes être respectées.",
         "Rédige un récit de vie fictif en faisant parler des personnages représentés."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} parle avec respect des familles qui ne ressemblent pas à la sienne ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} parle avec respect des familles qui ne ressemblent pas à la sienne ?",
+      "acquisAnterieurs": [
         "Appréhender, comprendre et respecter les différentes structures familiales (école maternelle, à partir de 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 11,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -327,29 +307,27 @@
     {
       "id": "fr-eva-cp-soc-03",
       "programme": "evar-elem",
-      "type": "META",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Appartenir à une famille, comprendre la nature, la fonction et le sens des liens familiaux",
-      "level": "CP",
+      "nature": "stratégie",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Appartenir à une famille, comprendre la nature, la fonction et le sens des liens familiaux",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Parler de soi et de sa famille pour mieux se connaître",
+      "nom": "Parler de soi et de sa famille pour mieux se connaître",
       "description": "Parler de soi et de sa famille, à l’oral, à l’écrit ou en dessinant : cela aide à se connaître et à tisser des liens avec les autres.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer la connaissance de soi et les liens sociaux."
       ],
-      "evidence": [
+      "criteres": [
         "Parle de soi et de sa famille à l’écrit, à l’oral ou en dessinant.",
         "Situe des étapes de sa vie sur une frise de vie."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} aime raconter sa famille et son histoire, par un dessin, un petit texte ou à l’oral ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} aime raconter sa famille et son histoire, par un dessin, un petit texte ou à l’oral ?",
+      "acquisAnterieurs": [
         "Développer des liens sociaux : aller vers l’autre, entrer en relation (école maternelle, à partir de 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 11,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -358,26 +336,24 @@
     {
       "id": "fr-eva-ce1-corps-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Grandir, avoir une bonne connaissance et estime de soi, protéger son intimité",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Grandir, avoir une bonne connaissance et estime de soi, protéger son intimité",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Comprendre que grandir entraîne des changements physiques",
+      "nom": "Comprendre que grandir entraîne des changements physiques",
       "description": "Comprendre qu’en grandissant, le corps change.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre que la croissance entraîne des changements physiques."
       ],
-      "evidence": [
+      "criteres": [
         "Explique avec ses mots que la croissance entraîne des changements physiques.",
         "Donne des exemples de changements physiques liés à la croissance."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer que le corps change en grandissant et en donner quelques exemples ?",
+      "question": "Est-ce que {{prenom}} sait expliquer que le corps change en grandissant et en donner quelques exemples ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 12,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -386,28 +362,26 @@
     {
       "id": "fr-eva-ce1-corps-02",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Grandir, avoir une bonne connaissance et estime de soi, protéger son intimité",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Grandir, avoir une bonne connaissance et estime de soi, protéger son intimité",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Chaque corps est unique",
+      "nom": "Chaque corps est unique",
       "description": "Prendre conscience que chaque personne a un corps unique, avec des différences de taille, de forme et de fonctionnement, et que cette diversité est normale.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Prendre conscience que chaque personne a un corps unique et qu’il existe des différences en termes de taille, de morphologie, de fonctionnement et de caractéristiques, etc."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que chaque personne a un corps unique.",
         "Décrit des différences de taille, de morphologie ou de fonctionnement entre les personnes.",
         "Observe les ressemblances et les différences physiques entre les filles et les garçons dans des œuvres d’art adaptées à son âge (peinture, sculpture).",
         "Discute de la manière dont la diversité des corps est représentée, ou non."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait que chaque corps est unique et que les différences de taille ou de forme sont normales ?",
+      "question": "Est-ce que {{prenom}} sait que chaque corps est unique et que les différences de taille ou de forme sont normales ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 12,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -416,27 +390,25 @@
     {
       "id": "fr-eva-ce1-corps-03",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Grandir, avoir une bonne connaissance et estime de soi, protéger son intimité",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Grandir, avoir une bonne connaissance et estime de soi, protéger son intimité",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Respecter son corps, celui des autres et leurs différences",
+      "nom": "Respecter son corps, celui des autres et leurs différences",
       "description": "Apprendre à respecter son propre corps et celui des autres, avec leurs différences, et réfléchir à l’effet du regard des autres sur l’image qu’on a de soi.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Apprendre à respecter son corps, celui des autres, leurs différences, leur singularité."
       ],
-      "evidence": [
+      "criteres": [
         "Réfléchit, à partir d’albums, à ce qui peut influencer la perception de soi ou des autres.",
         "Décrit l’impact du regard des autres.",
         "Identifie ce que le respect apporte dans les relations aux autres."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} comprend qu’une remarque sur le corps de quelqu’un peut blesser, et qu’il faut respecter le corps de chacun ?",
+      "question": "Est-ce que {{prenom}} comprend qu’une remarque sur le corps de quelqu’un peut blesser, et qu’il faut respecter le corps de chacun ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 12,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -445,26 +417,24 @@
     {
       "id": "fr-eva-ce1-corps-04",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Grandir, avoir une bonne connaissance et estime de soi, protéger son intimité",
-      "level": "CE1",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Grandir, avoir une bonne connaissance et estime de soi, protéger son intimité",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Protéger son intimité : avoir un espace à soi",
+      "nom": "Protéger son intimité : avoir un espace à soi",
       "description": "Préserver son intimité, c’est pouvoir disposer d’un espace où l’on se sent bien et où l’on peut s’isoler. L’enfant apprend à reconnaître ce besoin et à le faire respecter.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Savoir protéger son intimité : préserver son intimité, c’est pouvoir créer un espace où l'on se sent bien, un espace à soi où l'on peut s’isoler."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que préserver son intimité, c’est pouvoir créer un espace où l’on se sent bien, un espace à soi où l’on peut s’isoler.",
         "Exprime son besoin d’un moment ou d’un espace à soi."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait exprimer le besoin d’un moment ou d’un espace à soi, et le faire respecter ?",
+      "question": "Est-ce que {{prenom}} sait exprimer le besoin d’un moment ou d’un espace à soi, et le faire respecter ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 12,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -473,26 +443,24 @@
     {
       "id": "fr-eva-ce1-corps-05",
       "programme": "evar-elem",
-      "type": "META",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Grandir, avoir une bonne connaissance et estime de soi, protéger son intimité",
-      "level": "CE1",
+      "nature": "stratégie",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Grandir, avoir une bonne connaissance et estime de soi, protéger son intimité",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Mieux se connaître : ses qualités, ses goûts, ses valeurs",
+      "nom": "Mieux se connaître : ses qualités, ses goûts, ses valeurs",
       "description": "Apprendre à se connaître et à avoir une bonne image de soi, en identifiant ses qualités, ses goûts, ses valeurs et ses buts.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer une bonne connaissance de soi."
       ],
-      "evidence": [
+      "criteres": [
         "Complète son « blason » avec ses qualités, ses goûts, ses valeurs, ses buts.",
         "Cite quelques-unes de ses qualités."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait citer quelques-unes de ses qualités et de ses goûts ?",
+      "question": "Est-ce que {{prenom}} sait citer quelques-unes de ses qualités et de ses goûts ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 12,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -501,30 +469,28 @@
     {
       "id": "fr-eva-ce1-rel-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre les différentes dimensions (affectives, éthiques, sociales et légales) d’une relation humaine",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre les différentes dimensions (affectives, éthiques, sociales et légales) d’une relation humaine",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Distinguer l’amitié et l’amour",
+      "nom": "Distinguer l’amitié et l’amour",
       "description": "Faire la différence entre plusieurs sentiments et types de relations, notamment l’amitié et l’amour.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier et différencier plusieurs types de sentiments et de relations amoureuses et amicales."
       ],
-      "evidence": [
+      "criteres": [
         "Distingue plusieurs types de sentiments et de relations, amicales et amoureuses.",
         "Exprime, à l’oral ou à l’écrit, ses propres représentations de l’amitié ou de l’amour, à partir d’albums.",
         "Repère la diversité des relations entre personnes dans des œuvres (poésie, théâtre, romans, musique)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer avec ses mots la différence entre être ami avec quelqu’un et être amoureux ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer avec ses mots la différence entre être ami avec quelqu’un et être amoureux ?",
+      "acquisAnterieurs": [
         "Identifier différents types de sentiments, par exemple l’amitié et l’amour (école maternelle, à partir de 5 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 12,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -533,30 +499,28 @@
     {
       "id": "fr-eva-ce1-rel-02",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre les différentes dimensions (affectives, éthiques, sociales et légales) d’une relation humaine",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre les différentes dimensions (affectives, éthiques, sociales et légales) d’une relation humaine",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Décrire ce qui fait une relation positive",
+      "nom": "Décrire ce qui fait une relation positive",
       "description": "Savoir dire ce qui rend une relation agréable et saine : la confiance, l’échange, le respect, le soutien, l’empathie et l’entraide.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Décrire les principales composantes d’une relation positive (par exemple, la confiance, l’échange, le respect, le soutien, l’empathie et l’entraide)."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit les principales composantes d’une relation positive : confiance, échange, respect, soutien, empathie, entraide.",
         "Propose des manières de témoigner de la confiance, du respect et de la compréhension à un ami.",
         "Participe à une activité de collaboration : arbre des qualités de la classe, fresque, défi collectif."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qui fait un bon ami : quelqu’un en qui on a confiance, qui respecte, qui aide… ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire ce qui fait un bon ami : quelqu’un en qui on a confiance, qui respecte, qui aide… ?",
+      "acquisAnterieurs": [
         "Définir et prendre conscience de ce qu’est l’amitié ; décrire les composantes positives d’une relation (école maternelle, à partir de 5 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 12,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -565,26 +529,24 @@
     {
       "id": "fr-eva-ce1-rel-03",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre les différentes dimensions (affectives, éthiques, sociales et légales) d’une relation humaine",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre les différentes dimensions (affectives, éthiques, sociales et légales) d’une relation humaine",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Le genre, le handicap ou la santé n’empêchent pas l’amitié",
+      "nom": "Le genre, le handicap ou la santé n’empêchent pas l’amitié",
       "description": "Comprendre qu’on peut être ami avec n’importe qui : être une fille ou un garçon, avoir un handicap ou une maladie n’est pas un obstacle à l’amitié.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Prendre conscience que le genre, le handicap ou l’état de santé ne sont pas un obstacle pour nouer des amitiés."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que le genre, le handicap ou l’état de santé ne sont pas un obstacle pour nouer des amitiés.",
         "Commente des albums sur l’amitié entre filles, entre garçons, entre filles et garçons."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} pense qu’on peut être ami avec une fille comme avec un garçon, ou avec un enfant qui a un handicap ou une maladie ?",
+      "question": "Est-ce que {{prenom}} pense qu’on peut être ami avec une fille comme avec un garçon, ou avec un enfant qui a un handicap ou une maladie ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 12,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -593,27 +555,25 @@
     {
       "id": "fr-eva-ce1-rel-04",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre les différentes dimensions (affectives, éthiques, sociales et légales) d’une relation humaine",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre les différentes dimensions (affectives, éthiques, sociales et légales) d’une relation humaine",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Aimer qui l’on veut, avoir ses préférences et respecter celles des autres",
+      "nom": "Aimer qui l’on veut, avoir ses préférences et respecter celles des autres",
       "description": "Comprendre que chacun a le droit d’apprécier et d’aimer qui il veut, d’avoir des préférences et de les exprimer, et qu’il est important de respecter les différences.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre qu’il est possible d’apprécier et aimer qui on veut, d’avoir et d’exprimer ses préférences, et prendre conscience de l’importance de respecter les différences."
       ],
-      "evidence": [
+      "criteres": [
         "Explique qu’il est possible d’apprécier et d’aimer qui on veut.",
         "Exprime ses préférences de façon respectueuse.",
         "Participe à une discussion argumentée : qu’est-ce qu’aimer ? Pourquoi avons-nous besoin d’amis ? Peut-on avoir été amoureux et ne plus l’être ?"
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’on a le droit d’aimer qui l’on veut et d’avoir ses préférences, tout en respectant celles des autres ?",
+      "question": "Est-ce que {{prenom}} sait qu’on a le droit d’aimer qui l’on veut et d’avoir ses préférences, tout en respectant celles des autres ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 12,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -622,26 +582,24 @@
     {
       "id": "fr-eva-ce1-rel-05",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre les différentes dimensions (affectives, éthiques, sociales et légales) d’une relation humaine",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre les différentes dimensions (affectives, éthiques, sociales et légales) d’une relation humaine",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Identifier ses droits et ses devoirs dans les relations",
+      "nom": "Identifier ses droits et ses devoirs dans les relations",
       "description": "À partir d’exemples simples de la vie de tous les jours, repérer ce que l’on a le droit de faire et ce que l’on doit aux autres dans une relation.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier ses droits et ses devoirs au travers d’exemples simples."
       ],
-      "evidence": [
+      "criteres": [
         "Donne, à partir d’exemples simples de la vie de classe, des droits que l’on a et des devoirs envers les autres.",
         "Cite des gestes ou des paroles qui peuvent blesser ou faire souffrir."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait donner un exemple d’un droit que l’on a et d’un devoir que l’on a envers les autres, à l’école ou entre amis ?",
+      "question": "Est-ce que {{prenom}} sait donner un exemple d’un droit que l’on a et d’un devoir que l’on a envers les autres, à l’école ou entre amis ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 12,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -650,30 +608,28 @@
     {
       "id": "fr-eva-ce1-soc-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Promouvoir des relations égalitaires, repérer des discriminations issues de stéréotypes, notamment de genre",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Promouvoir des relations égalitaires, repérer des discriminations issues de stéréotypes, notamment de genre",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Définir et repérer des stéréotypes et des discriminations",
+      "nom": "Définir et repérer des stéréotypes et des discriminations",
       "description": "Comprendre ce qu’est un stéréotype (une idée toute faite, par exemple sur les couleurs « de filles » ou « de garçons ») et une discrimination (traiter quelqu’un moins bien à cause de ce qu’il est), et savoir les repérer.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Savoir définir et repérer des stéréotypes, notamment de genre, et des discriminations."
       ],
-      "evidence": [
+      "criteres": [
         "Définit avec ses mots ce qu’est un stéréotype, notamment de genre.",
         "Repère des stéréotypes dans des catalogues de jouets, des publicités ou le choix des couleurs des emballages.",
         "Repère une discrimination dans une situation simple."
       ],
-      "assessmentPrompt": "En feuilletant un catalogue de jouets, est-ce que {{prenom}} repère quand certains jouets sont présentés comme « pour les filles » ou « pour les garçons » ?",
-      "priorKnowledge": [
+      "question": "En feuilletant un catalogue de jouets, est-ce que {{prenom}} repère quand certains jouets sont présentés comme « pour les filles » ou « pour les garçons » ?",
+      "acquisAnterieurs": [
         "Repérer, dans des albums ou des imagiers, les assignations de rôle et les stéréotypes (école maternelle, avant 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 13,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -682,27 +638,25 @@
     {
       "id": "fr-eva-ce1-soc-02",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Promouvoir des relations égalitaires, repérer des discriminations issues de stéréotypes, notamment de genre",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Promouvoir des relations égalitaires, repérer des discriminations issues de stéréotypes, notamment de genre",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Les stéréotypes changent selon les lieux et les époques",
+      "nom": "Les stéréotypes changent selon les lieux et les époques",
       "description": "Découvrir que les idées toutes faites sur les filles et les garçons ne sont pas les mêmes partout ni à toutes les époques.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Prendre conscience que les stéréotypes, notamment de genre, varient selon les lieux et les époques."
       ],
-      "evidence": [
+      "criteres": [
         "Compare des représentations stéréotypées à partir de documents historiques (tableaux, affiches).",
         "Explique qu’un stéréotype peut varier d’un lieu ou d’une époque à l’autre.",
         "Repère, dans des albums, la place donnée aux filles et aux garçons, aux femmes et aux hommes, dans la société."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait, en regardant une vieille affiche ou un tableau ancien, que les idées sur ce que « doivent » faire les filles ou les garçons ont changé avec le temps ?",
+      "question": "Est-ce que {{prenom}} sait, en regardant une vieille affiche ou un tableau ancien, que les idées sur ce que « doivent » faire les filles ou les garçons ont changé avec le temps ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 13,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -711,27 +665,25 @@
     {
       "id": "fr-eva-ce1-soc-03",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Promouvoir des relations égalitaires, repérer des discriminations issues de stéréotypes, notamment de genre",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Promouvoir des relations égalitaires, repérer des discriminations issues de stéréotypes, notamment de genre",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Comprendre que les stéréotypes peuvent conduire à des discriminations",
+      "nom": "Comprendre que les stéréotypes peuvent conduire à des discriminations",
       "description": "Comprendre qu’une idée toute faite peut faire naître des préjugés et conduire à traiter quelqu’un injustement.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Prendre conscience que les stéréotypes peuvent entraîner des préjugés et des discriminations."
       ],
-      "evidence": [
+      "criteres": [
         "Explique, sur un exemple, comment un stéréotype peut entraîner un préjugé ou une discrimination.",
         "Observe qui joue à quoi et où pendant la récréation.",
         "Propose des stratégies pour une organisation et une utilisation plus égalitaires des espaces partagés de l’école."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} comprend qu’une idée toute faite, comme « ce jeu de la cour, c’est pour les garçons », peut empêcher certains enfants de jouer ?",
+      "question": "Est-ce que {{prenom}} comprend qu’une idée toute faite, comme « ce jeu de la cour, c’est pour les garçons », peut empêcher certains enfants de jouer ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 13,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -740,30 +692,28 @@
     {
       "id": "fr-eva-ce1-soc-04",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Promouvoir des relations égalitaires, repérer des discriminations issues de stéréotypes, notamment de genre",
-      "level": "CE1",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Promouvoir des relations égalitaires, repérer des discriminations issues de stéréotypes, notamment de genre",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Développer des relations constructives : accepter, coopérer, s’entraider",
+      "nom": "Développer des relations constructives : accepter, coopérer, s’entraider",
       "description": "Accepter les autres, collaborer, coopérer et s’entraider, par exemple en veillant à ce que personne ne reste seul dans la cour.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer des relations sociales constructives (comportements tels que l’acceptation, la collaboration, la coopération, l’entraide)."
       ],
-      "evidence": [
+      "criteres": [
         "Respecte son adversaire, ses coéquipiers et ses coéquipières lors de tournois sportifs mixtes, sans discrimination.",
         "Pratique des activités collaboratives avec tous les élèves.",
         "Repère les élèves isolés dans la cour et leur propose un jeu."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} pense à proposer un jeu à un enfant qui reste seul dans la cour ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} pense à proposer un jeu à un enfant qui reste seul dans la cour ?",
+      "acquisAnterieurs": [
         "Développer l’empathie et des relations sociales constructives : collaboration, coopération, entraide (école maternelle, à partir de 5 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 13,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -772,26 +722,24 @@
     {
       "id": "fr-eva-ce1-soc-05",
       "programme": "evar-elem",
-      "type": "META",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Promouvoir des relations égalitaires, repérer des discriminations issues de stéréotypes, notamment de genre",
-      "level": "CE1",
+      "nature": "stratégie",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Promouvoir des relations égalitaires, repérer des discriminations issues de stéréotypes, notamment de genre",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Penser de façon critique : repérer les influences",
+      "nom": "Penser de façon critique : repérer les influences",
       "description": "Commencer à réfléchir par soi-même, en repérant ce qui influence nos idées et nos choix (la publicité, le groupe).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Savoir penser de façon critique (biais, influences)."
       ],
-      "evidence": [
+      "criteres": [
         "Participe à un débat sur l’influence du groupe et l’importance de ne pas se moquer.",
         "Repère l’influence d’une publicité ou d’un catalogue sur ce que l’on pense des filles et des garçons."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} se demande parfois si une publicité ou l’avis des copains influence ses idées ou ses choix ?",
+      "question": "Est-ce que {{prenom}} se demande parfois si une publicité ou l’avis des copains influence ses idées ou ses choix ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 13,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -800,27 +748,25 @@
     {
       "id": "fr-eva-ce2-corps-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Se sentir bien dans son corps et en prendre soin",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Se sentir bien dans son corps et en prendre soin",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Apprécier son corps et en prendre soin",
+      "nom": "Apprécier son corps et en prendre soin",
       "description": "Comprendre pourquoi il est important d’apprécier son corps et d’en prendre soin, et ce que veut dire « être en bonne santé ».",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Prendre conscience de l’importance d’apprécier et de prendre soin de son corps."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit à l’écrit ce que signifient « être en bonne santé », « ne pas être en forme », « aller bien », « aller mal ».",
         "Explique que la bonne santé concerne la santé physique, la santé mentale et la santé sociale (les relations avec les autres).",
         "Identifie ses qualités et ses forces : ce que l’on sait bien faire et qui rend heureux."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce que veut dire « être en bonne santé », pour le corps mais aussi pour le moral et les relations avec les autres ?",
+      "question": "Est-ce que {{prenom}} sait expliquer ce que veut dire « être en bonne santé », pour le corps mais aussi pour le moral et les relations avec les autres ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 13,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -829,29 +775,27 @@
     {
       "id": "fr-eva-ce2-corps-02",
       "programme": "evar-elem",
-      "type": "META",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Se sentir bien dans son corps et en prendre soin",
-      "level": "CE2",
+      "nature": "stratégie",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Se sentir bien dans son corps et en prendre soin",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Être attentif à soi et à ce que l’on ressent",
+      "nom": "Être attentif à soi et à ce que l’on ressent",
       "description": "Apprendre à prêter attention à ce que l’on ressent pendant ses activités, pour savoir si l’on va bien ou non.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer sa capacité d’attention à soi."
       ],
-      "evidence": [
+      "criteres": [
         "Prête attention à ce que l’on ressent lors de différentes activités.",
         "Évalue son état de santé et de bien-être avec des mots simples : « je vais bien », « je ne suis pas en forme »."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, après une journée ou une activité, si ça va bien ou pas, et pourquoi ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire, après une journée ou une activité, si ça va bien ou pas, et pourquoi ?",
+      "acquisAnterieurs": [
         "Renforcer son attention à ses sensations (école maternelle, à partir de 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 13,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -860,27 +804,25 @@
     {
       "id": "fr-eva-ce2-corps-03",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Se sentir bien dans son corps et en prendre soin",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Se sentir bien dans son corps et en prendre soin",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Repérer ce qui est bon pour sa santé et faire de bons choix",
+      "nom": "Repérer ce qui est bon pour sa santé et faire de bons choix",
       "description": "Reconnaître les habitudes qui font du bien à sa santé et à son bien-être, et apprendre à faire des choix bons pour soi et pour les autres.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Être capable de repérer les comportements favorables à sa santé et apprendre à faire des choix favorables à soi et aux autres."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie, à partir de situations du quotidien, des pratiques favorables à la santé et au bien-être, et les met en œuvre.",
         "Identifie ce qui peut influencer sa santé physique, mentale et sociale.",
         "Fait, dans une situation donnée, un choix favorable à soi et aux autres."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait citer des habitudes qui font du bien au corps et au moral, et essaie de les appliquer ?",
+      "question": "Est-ce que {{prenom}} sait citer des habitudes qui font du bien au corps et au moral, et essaie de les appliquer ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 13,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -889,30 +831,28 @@
     {
       "id": "fr-eva-ce2-corps-04",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Se sentir bien dans son corps et en prendre soin",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Se sentir bien dans son corps et en prendre soin",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Savoir demander de l’aide et connaître les numéros d’urgence 15 et 119",
+      "nom": "Savoir demander de l’aide et connaître les numéros d’urgence 15 et 119",
       "description": "Quand ça ne va pas, savoir vers qui se tourner et comment contacter ces personnes, et connaître les numéros d’urgence : le 15 (urgence médicale) et le 119 (enfance en danger).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Savoir demander de l’aide."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie les personnes-ressources en cas de problème et la manière de les contacter.",
         "Cite les numéros d’urgence : le 15 et le 119.",
         "Demande de l’aide si nécessaire, après avoir évalué comment on se sent."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait vers qui se tourner en cas de problème et connaît les numéros d’urgence 15 et 119 ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait vers qui se tourner en cas de problème et connaît les numéros d’urgence 15 et 119 ?",
+      "acquisAnterieurs": [
         "Savoir demander de l’aide pour soi ou pour les autres (école maternelle, à partir de 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 13,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -921,32 +861,30 @@
     {
       "id": "fr-eva-ce2-rel-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre ce qu’est le consentement, les différentes manières de le solliciter et de l’exprimer ou d’accepter et de respecter un refus",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre ce qu’est le consentement, les différentes manières de le solliciter et de l’exprimer ou d’accepter et de respecter un refus",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Le consentement : le demander, l’exprimer, refuser",
+      "nom": "Le consentement : le demander, l’exprimer, refuser",
       "description": "Comprendre que consentir, c’est être d’accord librement, et savoir dire oui, dire non, demander l’accord de l’autre et accepter son refus.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Définir ce qu’est le consentement, savoir comment l’exprimer, comment refuser."
       ],
-      "evidence": [
+      "criteres": [
         "Définit avec ses mots ce qu’est le consentement.",
         "Distingue, dans des situations de la vie quotidienne, quand dire « oui » et quand dire « non ».",
         "Demande le consentement de l’autre avant de lui prendre la main, de s’assoir juste à côté ou de lui prendre un objet.",
         "Accepte et respecte le refus de l’autre.",
         "Reconnaît, dans un album, une situation de consentement et une situation d’absence de consentement."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce que veut dire « être d’accord », demande avant de prendre l’objet ou la main d’un camarade, et accepte un « non » ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer ce que veut dire « être d’accord », demande avant de prendre l’objet ou la main d’un camarade, et accepte un « non » ?",
+      "acquisAnterieurs": [
         "Exprimer son accord ou son refus, et envisager et respecter le refus de l’autre (école maternelle, avant 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 14,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -955,27 +893,25 @@
     {
       "id": "fr-eva-ce2-rel-02",
       "programme": "evar-elem",
-      "type": "META",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre ce qu’est le consentement, les différentes manières de le solliciter et de l’exprimer ou d’accepter et de respecter un refus",
-      "level": "CE2",
+      "nature": "stratégie",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre ce qu’est le consentement, les différentes manières de le solliciter et de l’exprimer ou d’accepter et de respecter un refus",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Savoir quoi faire quand on hésite entre oui et non",
+      "nom": "Savoir quoi faire quand on hésite entre oui et non",
       "description": "Comprendre qu’on a le droit d’hésiter et de changer d’avis, qu’un doute ne veut pas dire « oui », et qu’on peut prendre le temps de décider.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Savoir quoi faire lorsqu’on hésite entre « oui » et « non »."
       ],
-      "evidence": [
+      "criteres": [
         "Explique qu’on a le droit d’hésiter et qu’une hésitation ou un doute ne doivent pas être considérés comme un « oui ».",
         "Explique qu’on a le droit de changer d’avis : un « oui » ou un « non » n’est pas définitif.",
         "Se donne le temps d’une décision éclairée et réfléchie."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’on a le droit d’hésiter ou de changer d’avis, et qu’un « je ne sais pas » ne veut pas dire « oui » ?",
+      "question": "Est-ce que {{prenom}} sait qu’on a le droit d’hésiter ou de changer d’avis, et qu’un « je ne sais pas » ne veut pas dire « oui » ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 14,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -984,31 +920,29 @@
     {
       "id": "fr-eva-ce2-rel-03",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre ce qu’est le consentement, les différentes manières de le solliciter et de l’exprimer ou d’accepter et de respecter un refus",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre ce qu’est le consentement, les différentes manières de le solliciter et de l’exprimer ou d’accepter et de respecter un refus",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Avoir droit au respect de son corps et repérer les gestes déplacés",
+      "nom": "Avoir droit au respect de son corps et repérer les gestes déplacés",
       "description": "Comprendre que chacun a droit au respect de son corps de la part de tout le monde, enfant ou adulte, proche ou inconnu, et qu’il existe des mots et des gestes déplacés ou abusifs qui font du mal et ne sont pas acceptables.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre que chaque personne a droit au respect de son corps de la part de toute personne (jeune ou adulte, familière ou non familière) et prendre conscience qu’il existe des mots et des gestes déplacés ou abusifs, qui font violence à l’intégrité personnelle et corporelle."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que chaque personne a droit au respect de son corps de la part de toute personne, jeune ou adulte, familière ou non.",
         "Reconnaît, à partir d’albums, des mots et des gestes déplacés ou abusifs.",
         "Explique que l’absence de consentement est une violation des droits qui est néfaste.",
         "Réfléchit aux façons de se protéger."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait que son corps doit être respecté par tout le monde, y compris par les adultes et les personnes connues, et qu’un geste ou un mot qui met mal à l’aise n’est pas acceptable ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait que son corps doit être respecté par tout le monde, y compris par les adultes et les personnes connues, et qu’un geste ou un mot qui met mal à l’aise n’est pas acceptable ?",
+      "acquisAnterieurs": [
         "Savoir qu’il existe des comportements interdits même avec un adulte de confiance (école maternelle, à partir de 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 14,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1017,30 +951,28 @@
     {
       "id": "fr-eva-ce2-rel-04",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre ce qu’est le consentement, les différentes manières de le solliciter et de l’exprimer ou d’accepter et de respecter un refus",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre ce qu’est le consentement, les différentes manières de le solliciter et de l’exprimer ou d’accepter et de respecter un refus",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Identifier un adulte de confiance et savoir où chercher de l’aide",
+      "nom": "Identifier un adulte de confiance et savoir où chercher de l’aide",
       "description": "Savoir à quel adulte de confiance parler et où trouver de l’aide si l’on est témoin ou victime d’une situation où le consentement n’est pas respecté, ou de violences.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Savoir identifier un adulte de confiance et où chercher de l’aide."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme des adultes de confiance, à l’école et en dehors.",
         "Explique l’importance d’une intervention ou d’une aide extérieure.",
         "Indique où chercher du soutien si l’on est témoin ou victime de violences."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait à quel adulte de confiance parler, à l’école ou ailleurs, si quelqu’un ne respecte pas son corps ou celui d’un camarade ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait à quel adulte de confiance parler, à l’école ou ailleurs, si quelqu’un ne respecte pas son corps ou celui d’un camarade ?",
+      "acquisAnterieurs": [
         "Définir et identifier un adulte de confiance (école maternelle, à partir de 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 14,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1049,26 +981,24 @@
     {
       "id": "fr-eva-ce2-rel-05",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre ce qu’est le consentement, les différentes manières de le solliciter et de l’exprimer ou d’accepter et de respecter un refus",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre ce qu’est le consentement, les différentes manières de le solliciter et de l’exprimer ou d’accepter et de respecter un refus",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Demander de l’aide pour soi ou pour venir en aide à un camarade",
+      "nom": "Demander de l’aide pour soi ou pour venir en aide à un camarade",
       "description": "Oser demander de l’aide quand on en a besoin, et imaginer des solutions pour aider un camarade en difficulté.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Savoir demander de l’aide."
       ],
-      "evidence": [
+      "criteres": [
         "Demande de l’aide à un adulte de confiance quand une situation pose problème.",
         "Imagine, dans un dialogue écrit et des scènes jouées, plusieurs solutions pour venir en aide à un élève qui en a besoin."
       ],
-      "assessmentPrompt": "Si un camarade a besoin d’aide, est-ce que {{prenom}} sait imaginer comment l’aider ou à qui en parler ?",
+      "question": "Si un camarade a besoin d’aide, est-ce que {{prenom}} sait imaginer comment l’aider ou à qui en parler ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 14,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1077,26 +1007,24 @@
     {
       "id": "fr-eva-ce2-rel-06",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Comprendre ce qu’est le consentement, les différentes manières de le solliciter et de l’exprimer ou d’accepter et de respecter un refus",
-      "level": "CE2",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Comprendre ce qu’est le consentement, les différentes manières de le solliciter et de l’exprimer ou d’accepter et de respecter un refus",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Développer des relations constructives en respectant l’accord de chacun",
+      "nom": "Développer des relations constructives en respectant l’accord de chacun",
       "description": "Construire de bonnes relations avec les autres en demandant leur accord et en respectant leurs réponses.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer des relations sociales constructives."
       ],
-      "evidence": [
+      "criteres": [
         "Demande l’accord de ses camarades avant un contact ou avant de prendre un objet, et respecte leur réponse.",
         "Coopère avec ses camarades pour imaginer et jouer des scènes où l’on vient en aide à un élève."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} entretient de bonnes relations avec ses camarades en demandant leur accord et en respectant leurs réponses ?",
+      "question": "Est-ce que {{prenom}} entretient de bonnes relations avec ses camarades en demandant leur accord et en respectant leurs réponses ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 14,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1105,26 +1033,24 @@
     {
       "id": "fr-eva-ce2-soc-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Connaître ses droits",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Connaître ses droits",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Connaître ses droits et les droits fondamentaux de chacun",
+      "nom": "Connaître ses droits et les droits fondamentaux de chacun",
       "description": "Comprendre que chaque personne, enfant ou adulte, a des droits fondamentaux (les droits humains) qui doivent être reconnus et respectés.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaître ses droits et reconnaître que chaque individu a des droits fondamentaux qui doivent être reconnus."
       ],
-      "evidence": [
+      "criteres": [
         "Explique, avec des mots simples, ce que sont les droits humains et qu’ils s’appliquent à chaque individu.",
         "Discute des mots « liberté » et « égalité » à partir de textes adaptés ou de situations vécues en classe."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait que chaque personne, enfant compris, a des droits qui doivent être respectés, et peut en citer un ou deux ?",
+      "question": "Est-ce que {{prenom}} sait que chaque personne, enfant compris, a des droits qui doivent être respectés, et peut en citer un ou deux ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 14,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1133,27 +1059,25 @@
     {
       "id": "fr-eva-ce2-soc-02",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Connaître ses droits",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Connaître ses droits",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Connaître la Convention internationale des droits de l’enfant",
+      "nom": "Connaître la Convention internationale des droits de l’enfant",
       "description": "Savoir qu’il existe un texte international qui protège les enfants, et connaître ses principaux droits, notamment le droit d’être protégé de la violence, de la maltraitance et de toute forme d’abus.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Savoir ce qu’est la Convention internationale des droits de l’enfant."
       ],
-      "evidence": [
+      "criteres": [
         "Explique ce qu’est la Convention internationale des droits de l’enfant.",
         "Écrit les légendes d’affiches représentant les douze droits principaux (par exemple celles de l’Unicef).",
         "Connaît notamment les articles 16 et 19 : le droit d’être protégé de la violence, de la maltraitance et de toute forme d’abus et d’exploitation."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’il existe une Convention qui protège les droits des enfants, et peut citer le droit d’être protégé de la violence ?",
+      "question": "Est-ce que {{prenom}} sait qu’il existe une Convention qui protège les droits des enfants, et peut citer le droit d’être protégé de la violence ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 14,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1162,26 +1086,24 @@
     {
       "id": "fr-eva-ce2-soc-03",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Connaître ses droits",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Connaître ses droits",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Agir pour le respect de la diversité et des différences",
+      "nom": "Agir pour le respect de la diversité et des différences",
       "description": "Comprendre que chacun peut contribuer, par ses paroles et ses actes, à ce que les différences de chacun soient respectées.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Prendre conscience du rôle que chacune et chacun peut avoir dans le respect de la diversité et de la différence."
       ],
-      "evidence": [
+      "criteres": [
         "Explique le rôle que chacun peut avoir dans le respect de la diversité et de la différence.",
         "Relie les droits de l’enfant à des situations concrètes vécues en classe."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait donner un exemple de ce que chacun peut faire, à son niveau, pour que les différences des autres soient respectées ?",
+      "question": "Est-ce que {{prenom}} sait donner un exemple de ce que chacun peut faire, à son niveau, pour que les différences des autres soient respectées ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 14,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1190,27 +1112,25 @@
     {
       "id": "fr-eva-cm1-corps-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître les changements de son corps",
-      "level": "CM1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître les changements de son corps",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Connaître les principaux changements de la puberté",
+      "nom": "Connaître les principaux changements de la puberté",
       "description": "Savoir ce qu’est la puberté (la période où le corps se transforme et devient capable de se reproduire) et en connaître les principaux changements chez les filles et chez les garçons.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaître les principaux changements à la puberté."
       ],
-      "evidence": [
+      "criteres": [
         "Construit une définition scientifique de la puberté à partir de ses représentations.",
         "Relie la puberté à la capacité à se reproduire.",
         "Compare les similitudes et les différences entre les filles et les garçons dans les modifications qui apparaissent à la puberté."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer avec ses mots ce qu’est la puberté et citer quelques changements du corps qu’elle entraîne ?",
+      "question": "Est-ce que {{prenom}} sait expliquer avec ses mots ce qu’est la puberté et citer quelques changements du corps qu’elle entraîne ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1219,26 +1139,24 @@
     {
       "id": "fr-eva-cm1-corps-02",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître les changements de son corps",
-      "level": "CM1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître les changements de son corps",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Les changements de la puberté sont normaux et se respectent",
+      "nom": "Les changements de la puberté sont normaux et se respectent",
       "description": "Comprendre que les transformations de la puberté sont normales et qu’il faut les respecter, chez soi comme chez les autres.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Prendre conscience que ces changements sont normaux et apprendre à les respecter."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que les changements de la puberté sont normaux.",
         "Parle de ces changements, chez soi et chez les autres, avec respect."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} comprend que les changements du corps à la puberté sont normaux, et qu’il faut les respecter chez tout le monde ?",
+      "question": "Est-ce que {{prenom}} comprend que les changements du corps à la puberté sont normaux, et qu’il faut les respecter chez tout le monde ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1247,26 +1165,24 @@
     {
       "id": "fr-eva-cm1-corps-03",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître les changements de son corps",
-      "level": "CM1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître les changements de son corps",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Se sentir bien dans son corps et l’écouter",
+      "nom": "Se sentir bien dans son corps et l’écouter",
       "description": "Comprendre qu’il est important d’être à l’aise dans son corps, surtout quand il change, et d’être attentif à ce qu’il nous dit.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre qu’il est important de se sentir bien dans son corps et de l’écouter."
       ],
-      "evidence": [
+      "criteres": [
         "Explique pourquoi il est important de se sentir bien dans son corps.",
         "Explique pourquoi il est important d’écouter son corps."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} comprend pourquoi il est important de se sentir bien dans son corps et d’écouter ce qu’il ressent ?",
+      "question": "Est-ce que {{prenom}} comprend pourquoi il est important de se sentir bien dans son corps et d’écouter ce qu’il ressent ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1275,26 +1191,24 @@
     {
       "id": "fr-eva-cm1-corps-04",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître les changements de son corps",
-      "level": "CM1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître les changements de son corps",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "La puberté arrive à des âges différents selon chacun",
+      "nom": "La puberté arrive à des âges différents selon chacun",
       "description": "Savoir que la puberté ne commence pas au même âge pour tout le monde et ne produit pas les mêmes effets chez chacun.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre que la puberté se produit à des âges différents selon les individus et qu’elle n’a pas les mêmes effets."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que la puberté se produit à des âges différents selon les individus.",
         "Explique qu’elle n’a pas les mêmes effets chez tous."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait que la puberté ne commence pas au même âge pour tout le monde, et que c’est normal ?",
+      "question": "Est-ce que {{prenom}} sait que la puberté ne commence pas au même âge pour tout le monde, et que c’est normal ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1303,27 +1217,25 @@
     {
       "id": "fr-eva-cm1-corps-05",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître les changements de son corps",
-      "level": "CM1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître les changements de son corps",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Comprendre pourquoi se moquer de quelqu’un fait du mal",
+      "nom": "Comprendre pourquoi se moquer de quelqu’un fait du mal",
       "description": "Comprendre que les moqueries, notamment sur les changements du corps, blessent celui qui les subit, et apprendre à ne pas y participer et à réagir.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre pourquoi se moquer de quelqu’un est un comportement néfaste."
       ],
-      "evidence": [
+      "criteres": [
         "Repère ce qui relève d’une brimade, d’une humiliation ou d’une stigmatisation en lien avec les changements du corps à la puberté.",
         "Décrit l’impact négatif que cela peut avoir sur celui qui les subit.",
         "Refuse d’y contribuer et y réagit de manière adaptée."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} comprend pourquoi se moquer du corps de quelqu’un, par exemple pendant la puberté, peut faire beaucoup de mal ?",
+      "question": "Est-ce que {{prenom}} comprend pourquoi se moquer du corps de quelqu’un, par exemple pendant la puberté, peut faire beaucoup de mal ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1332,26 +1244,24 @@
     {
       "id": "fr-eva-cm1-corps-06",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître les changements de son corps",
-      "level": "CM1",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître les changements de son corps",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Parler des autres et aux autres de manière positive",
+      "nom": "Parler des autres et aux autres de manière positive",
       "description": "Apprendre à choisir des mots bienveillants quand on parle à quelqu’un ou de quelqu’un.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Apprendre à parler des autres et aux autres de manière positive."
       ],
-      "evidence": [
+      "criteres": [
         "Parle de ses camarades et à ses camarades avec des mots positifs.",
         "Reformule de manière positive une remarque qui pourrait blesser."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait parler des autres et aux autres avec des mots bienveillants, même quand on n’est pas d’accord ?",
+      "question": "Est-ce que {{prenom}} sait parler des autres et aux autres avec des mots bienveillants, même quand on n’est pas d’accord ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1360,27 +1270,25 @@
     {
       "id": "fr-eva-cm1-rel-01",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
-      "level": "CM1",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Écouter les autres et faire preuve d’empathie",
+      "nom": "Écouter les autres et faire preuve d’empathie",
       "description": "Développer son écoute et son attention aux autres, en essayant de comprendre ce qu’ils ressentent.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Développer sa capacité d’écoute et l’attention portée aux autres."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie les émotions et les sentiments de personnages dans des situations fictives et les relie à leurs actions.",
         "Fait preuve d’empathie lors de temps de médiation ou de résolution de conflits en classe.",
         "Prend en compte ce que ressent l’autre."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} prend le temps d’écouter un camarade et d’essayer de comprendre ce qu’il ressent ?",
+      "question": "Est-ce que {{prenom}} prend le temps d’écouter un camarade et d’essayer de comprendre ce qu’il ressent ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1389,26 +1297,24 @@
     {
       "id": "fr-eva-cm1-rel-02",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
-      "level": "CM1",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Résoudre des conflits de façon constructive",
+      "nom": "Résoudre des conflits de façon constructive",
       "description": "Gérer un désaccord sans violence, en trouvant des aides pour gérer ses émotions difficiles, puis en cherchant une issue, avec ou sans l’aide d’un adulte.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Résoudre des conflits de façon constructive."
       ],
-      "evidence": [
+      "criteres": [
         "Participe à des temps de médiation ou de résolution de conflits en classe.",
         "Identifie les aides pour gérer ses émotions difficiles comme la colère ou l’anxiété : signaler une difficulté avec une carte ou un code, s’isoler dans un lieu spécifique."
       ],
-      "assessmentPrompt": "Lors d’un conflit, est-ce que {{prenom}} sait gérer sa colère (par exemple en s’isolant un moment) puis chercher une solution ?",
+      "question": "Lors d’un conflit, est-ce que {{prenom}} sait gérer sa colère (par exemple en s’isolant un moment) puis chercher une solution ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1417,27 +1323,25 @@
     {
       "id": "fr-eva-cm1-rel-03",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
-      "level": "CM1",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Exprimer son consentement ou son refus",
+      "nom": "Exprimer son consentement ou son refus",
       "description": "Dire clairement si l’on est d’accord ou non, en tenant compte de ce que ressent l’autre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Exprimer son consentement ou son refus."
       ],
-      "evidence": [
+      "criteres": [
         "Exprime son consentement ou son refus dans des jeux de rôle.",
         "Prend en compte ce que ressent l’autre dans ces situations.",
         "Liste, en rejouant plusieurs fois une situation, les différentes réactions possibles et leurs conséquences."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire clairement « oui » ou « non » à un camarade, avec respect ?",
+      "question": "Est-ce que {{prenom}} sait dire clairement « oui » ou « non » à un camarade, avec respect ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1446,28 +1350,26 @@
     {
       "id": "fr-eva-cm1-rel-04",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
-      "level": "CM1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Définir et reconnaître le harcèlement et ses différentes formes",
+      "nom": "Définir et reconnaître le harcèlement et ses différentes formes",
       "description": "Savoir ce qu’est le harcèlement (une violence qui se répète et isole la victime) et le distinguer d’une dispute ou d’une moquerie, y compris sous ses formes sexistes et sexuelles.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Définir et reconnaître le harcèlement et ses différentes formes, en particulier le harcèlement sexiste et sexuel."
       ],
-      "evidence": [
+      "criteres": [
         "Distingue, dans des situations fictives, le harcèlement, l’intimidation, les disputes et les moqueries.",
         "Caractérise le harcèlement : une violence sous différentes formes, une récurrence, un isolement de la victime.",
         "Explique que le harcèlement se fonde sur le rejet de la différence et sur la stigmatisation.",
         "Reconnaît le harcèlement sexiste et sexuel comme une forme de harcèlement."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait faire la différence entre une dispute ponctuelle et du harcèlement, quand un enfant est visé de façon répétée et mis à l’écart ?",
+      "question": "Est-ce que {{prenom}} sait faire la différence entre une dispute ponctuelle et du harcèlement, quand un enfant est visé de façon répétée et mis à l’écart ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1476,27 +1378,25 @@
     {
       "id": "fr-eva-cm1-rel-05",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
-      "level": "CM1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Le harcèlement est grave et peut être sanctionné par la loi",
+      "nom": "Le harcèlement est grave et peut être sanctionné par la loi",
       "description": "Comprendre que harceler ou intimider quelqu’un est irrespectueux, fait beaucoup de mal, a des conséquences graves et peut être sanctionné par la loi.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre que tout acte de harcèlement ou d’intimidation est irrespectueux et néfaste, qu’il a des conséquences graves et peut être sanctionné par la loi."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que tout acte de harcèlement ou d’intimidation est irrespectueux et néfaste.",
         "Décrit les conséquences graves du harcèlement.",
         "Indique que le harcèlement peut être sanctionné par la loi."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait que le harcèlement fait beaucoup de mal et qu’il peut être sanctionné par la loi ?",
+      "question": "Est-ce que {{prenom}} sait que le harcèlement fait beaucoup de mal et qu’il peut être sanctionné par la loi ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1505,28 +1405,26 @@
     {
       "id": "fr-eva-cm1-rel-06",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
-      "level": "CM1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "La victime n’est jamais responsable ; le témoin doit signaler",
+      "nom": "La victime n’est jamais responsable ; le témoin doit signaler",
       "description": "Comprendre qu’une victime de harcèlement n’est jamais responsable de ce qu’elle subit, et que chaque témoin a la responsabilité de signaler ce qu’il voit.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Prendre conscience que les victimes n’en sont jamais responsables et qu’il est de la responsabilité de chaque témoin de signaler les actes de harcèlement ou d’intimidation."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que les victimes de harcèlement n’en sont jamais responsables.",
         "Explique qu’il est de la responsabilité de chaque témoin de signaler les actes de harcèlement ou d’intimidation.",
         "Propose des manières de réagir pour prévenir ou faire cesser une situation de harcèlement.",
         "Identifie comment les pairs peuvent influencer les comportements et réfléchit aux moyens de résister à une pression négative."
       ],
-      "assessmentPrompt": "Si {{prenom}} voyait un camarade se faire harceler, est-ce que {{prenom}} saurait que ce n’est pas la faute de la victime et qu’il faut en parler à un adulte ?",
+      "question": "Si {{prenom}} voyait un camarade se faire harceler, est-ce que {{prenom}} saurait que ce n’est pas la faute de la victime et qu’il faut en parler à un adulte ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1535,27 +1433,25 @@
     {
       "id": "fr-eva-cm1-rel-07",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
-      "level": "CM1",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Apprendre à développer des relations constructives et à repérer les situations de harcèlement",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Savoir où et comment demander de l’aide, pour soi ou pour un autre",
+      "nom": "Savoir où et comment demander de l’aide, pour soi ou pour un autre",
       "description": "Savoir vers qui se tourner en cas de harcèlement, pour soi ou pour un camarade : un adulte de confiance, ou le numéro d’alerte 3018.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Savoir où et comment demander de l’aide pour soi ou autrui."
       ],
-      "evidence": [
+      "criteres": [
         "Explique l’importance pour une victime de chercher du soutien.",
         "Cite des actions pour soutenir une victime : écoute empathique, soutien solidaire, alerte d’un adulte de confiance.",
         "Cite le numéro d’alerte 3018."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait comment soutenir un camarade harcelé et à qui donner l’alerte (un adulte de confiance, le 3018) ?",
+      "question": "Est-ce que {{prenom}} sait comment soutenir un camarade harcelé et à qui donner l’alerte (un adulte de confiance, le 3018) ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 15,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1564,26 +1460,24 @@
     {
       "id": "fr-eva-cm1-soc-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Promouvoir des relations égalitaires et positives ; comprendre les stéréotypes pour lutter contre les discriminations",
-      "level": "CM1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Promouvoir des relations égalitaires et positives ; comprendre les stéréotypes pour lutter contre les discriminations",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Définir les stéréotypes et les préjugés",
+      "nom": "Définir les stéréotypes et les préjugés",
       "description": "Savoir expliquer ce qu’est un stéréotype (une idée toute faite sur un groupe de personnes) et un préjugé (un jugement porté à l’avance, sans connaître).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Définir ce que sont les stéréotypes et les préjugés."
       ],
-      "evidence": [
+      "criteres": [
         "Définit ce qu’est un stéréotype.",
         "Définit ce qu’est un préjugé et le distingue d’un stéréotype."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer avec ses mots ce qu’est un stéréotype et ce qu’est un préjugé ?",
+      "question": "Est-ce que {{prenom}} sait expliquer avec ses mots ce qu’est un stéréotype et ce qu’est un préjugé ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 16,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1592,27 +1486,25 @@
     {
       "id": "fr-eva-cm1-soc-02",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Promouvoir des relations égalitaires et positives ; comprendre les stéréotypes pour lutter contre les discriminations",
-      "level": "CM1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Promouvoir des relations égalitaires et positives ; comprendre les stéréotypes pour lutter contre les discriminations",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "L’influence des stéréotypes de genre sur la vie des personnes",
+      "nom": "L’influence des stéréotypes de genre sur la vie des personnes",
       "description": "Comprendre comment les idées toutes faites sur les filles et les garçons, les femmes et les hommes, influencent la vie de chacun et peuvent créer des inégalités et des discriminations.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre en quoi les stéréotypes et les représentations liées au genre ont une influence sur la manière dont les individus vivent leur vie et peuvent être à l’origine de discriminations."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie, à partir d’articles de presse, de données chiffrées (pourcentages, proportions, graphiques) ou de textes de loi, des inégalités entre les femmes et les hommes, dans l’histoire ou de nos jours.",
         "Recherche les conceptions du genre ou les stéréotypes à l’origine de ces inégalités.",
         "Explique comment un stéréotype de genre peut être à l’origine d’une discrimination."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait donner un exemple d’inégalité entre femmes et hommes et dire quelle idée toute faite peut en être à l’origine ?",
+      "question": "Est-ce que {{prenom}} sait donner un exemple d’inégalité entre femmes et hommes et dire quelle idée toute faite peut en être à l’origine ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 16,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1621,27 +1513,25 @@
     {
       "id": "fr-eva-cm1-soc-03",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Promouvoir des relations égalitaires et positives ; comprendre les stéréotypes pour lutter contre les discriminations",
-      "level": "CM1",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Promouvoir des relations égalitaires et positives ; comprendre les stéréotypes pour lutter contre les discriminations",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Agir contre les stéréotypes, les préjugés et les discriminations",
+      "nom": "Agir contre les stéréotypes, les préjugés et les discriminations",
       "description": "Passer de la compréhension à l’action : réagir face à un stéréotype ou à une discrimination et défendre l’égalité entre les filles et les garçons.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Agir pour lutter contre les stéréotypes, les préjugés et les discriminations."
       ],
-      "evidence": [
+      "criteres": [
         "Étudie des extraits de la Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes.",
         "Décrit et analyse une campagne de sensibilisation institutionnelle à l’égalité femmes-hommes.",
         "Propose une action concrète contre un stéréotype ou une discrimination."
       ],
-      "assessmentPrompt": "Face à une remarque du type « c’est un truc de filles », est-ce que {{prenom}} sait réagir et défendre l’égalité ?",
+      "question": "Face à une remarque du type « c’est un truc de filles », est-ce que {{prenom}} sait réagir et défendre l’égalité ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 16,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1650,30 +1540,28 @@
     {
       "id": "fr-eva-cm1-soc-04",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Promouvoir des relations égalitaires et positives ; comprendre les stéréotypes pour lutter contre les discriminations",
-      "level": "CM1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Promouvoir des relations égalitaires et positives ; comprendre les stéréotypes pour lutter contre les discriminations",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Choisir librement une activité ou un métier, fille ou garçon",
+      "nom": "Choisir librement une activité ou un métier, fille ou garçon",
       "description": "Comprendre que l’on peut choisir une activité ou un métier selon ses motivations et ses compétences, que l’on soit une fille ou un garçon.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre qu’on peut choisir librement une activité ou un métier (qu’on soit une fille ou un garçon) en fonction de ses motivations ou de ses compétences."
       ],
-      "evidence": [
+      "criteres": [
         "Cite des femmes ayant joué un rôle important dans l’histoire, les arts, les sciences ou le sport.",
         "Donne des exemples de femmes exerçant des métiers traditionnellement associés à la masculinité et d’hommes exerçant des métiers traditionnellement associés à la féminité.",
         "Explique que le choix d’un métier dépend des motivations et des compétences, pas du fait d’être une fille ou un garçon."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} connaît des femmes et des hommes qui exercent des métiers longtemps réservés à l’autre sexe, et pense pouvoir choisir son futur métier selon ses envies ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} connaît des femmes et des hommes qui exercent des métiers longtemps réservés à l’autre sexe, et pense pouvoir choisir son futur métier selon ses envies ?",
+      "acquisAnterieurs": [
         "Comprendre qu’une activité ou un métier peuvent être choisis indifféremment par les filles ou les garçons (école maternelle, avant 4 ans)"
       ],
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 16,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1682,26 +1570,24 @@
     {
       "id": "fr-eva-cm1-soc-05",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Promouvoir des relations égalitaires et positives ; comprendre les stéréotypes pour lutter contre les discriminations",
-      "level": "CM1",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Promouvoir des relations égalitaires et positives ; comprendre les stéréotypes pour lutter contre les discriminations",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Se sentir libre de ses choix d’activités et de passions",
+      "nom": "Se sentir libre de ses choix d’activités et de passions",
       "description": "Oser choisir une activité ou une passion qui plaît vraiment, sans se laisser arrêter par ce que « font d’habitude » les filles ou les garçons.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Se sentir libre de ses choix pour une activité ou une passion."
       ],
-      "evidence": [
+      "criteres": [
         "Exprime et justifie un choix personnel d’activité ou de passion.",
         "Explique qu’on peut choisir une activité sans tenir compte des stéréotypes."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} se sent libre de choisir une activité ou une passion qui lui plaît, même si elle est souvent associée à l’autre sexe ?",
+      "question": "Est-ce que {{prenom}} se sent libre de choisir une activité ou une passion qui lui plaît, même si elle est souvent associée à l’autre sexe ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 16,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1710,26 +1596,24 @@
     {
       "id": "fr-eva-cm1-soc-06",
       "programme": "evar-elem",
-      "type": "META",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Promouvoir des relations égalitaires et positives ; comprendre les stéréotypes pour lutter contre les discriminations",
-      "level": "CM1",
+      "nature": "stratégie",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Promouvoir des relations égalitaires et positives ; comprendre les stéréotypes pour lutter contre les discriminations",
+      "classe": "CM1",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "name": "Penser de façon critique et résister à la pression sociale",
+      "nom": "Penser de façon critique et résister à la pression sociale",
       "description": "Apprendre à garder son propre avis face à la pression du groupe, de la publicité ou des réseaux sociaux, sans préjugés ni discriminations.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Savoir penser de façon critique : apprendre à résister à la pression sociale sans préjugés ni discriminations."
       ],
-      "evidence": [
+      "criteres": [
         "Analyse les incidences des idéaux de beauté diffusés par les médias (réseaux sociaux, publicités), la littérature, la musique ou le cinéma sur l’image et l’estime de soi.",
         "Résiste, dans une situation donnée, à une pression sociale, sans préjugés ni discriminations."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} arrive à garder son propre avis quand une publicité ou le groupe pousse à penser ou à paraître d’une certaine façon ?",
+      "question": "Est-ce que {{prenom}} arrive à garder son propre avis quand une publicité ou le groupe pousse à penser ou à paraître d’une certaine façon ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 16,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1738,26 +1622,24 @@
     {
       "id": "fr-eva-cm2-corps-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître et comprendre les changements de son corps et celui des autres",
-      "level": "CM2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître et comprendre les changements de son corps et celui des autres",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Décrire et expliquer les changements du corps à la puberté",
+      "nom": "Décrire et expliquer les changements du corps à la puberté",
       "description": "Connaître de façon plus précise les changements physiques de la puberté, chez les filles et chez les garçons, et savoir qu’ils n’arrivent pas au même moment chez tous les enfants.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaître les changements du corps lors de la puberté et savoir qu’ils ne se produisent pas au même moment chez tous les enfants."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit et explique, à partir de documents scientifiques, les changements physiques liés à la puberté.",
         "Explique que ces changements ne se produisent pas au même moment chez tous les enfants."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire les principaux changements du corps à la puberté, et sait qu’ils n’arrivent pas au même âge pour tous ?",
+      "question": "Est-ce que {{prenom}} sait décrire les principaux changements du corps à la puberté, et sait qu’ils n’arrivent pas au même âge pour tous ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 16,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1766,26 +1648,24 @@
     {
       "id": "fr-eva-cm2-corps-02",
       "programme": "evar-elem",
-      "type": "LANGUAGE",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître et comprendre les changements de son corps et celui des autres",
-      "level": "CM2",
+      "nature": "vocabulaire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître et comprendre les changements de son corps et celui des autres",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Nommer les organes reproducteurs et leur fonction",
+      "nom": "Nommer les organes reproducteurs et leur fonction",
       "description": "Connaître le nom scientifique des organes reproducteurs, chez la fille et chez le garçon, et à quoi ils servent, en lien avec le programme de sciences.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Nommer le nom et la fonction des organes reproducteurs."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme les organes reproducteurs avec un vocabulaire scientifique.",
         "Indique la fonction de chacun de ces organes."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} connaît le nom des organes reproducteurs et sait à quoi ils servent ?",
+      "question": "Est-ce que {{prenom}} connaît le nom des organes reproducteurs et sait à quoi ils servent ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 16,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1794,27 +1674,25 @@
     {
       "id": "fr-eva-cm2-corps-03",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Se connaître, vivre et grandir avec son corps",
-      "subdomain": "Connaître et comprendre les changements de son corps et celui des autres",
-      "level": "CM2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Se connaître, vivre et grandir avec son corps",
+      "sousDomaine": "Connaître et comprendre les changements de son corps et celui des autres",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Comprendre les règles, sans tabou ni moquerie",
+      "nom": "Comprendre les règles, sans tabou ni moquerie",
       "description": "Apprendre scientifiquement ce que sont les règles (menstruations) et comprendre qu’elles font partie, de façon normale et naturelle, du développement des filles : on peut en parler, et on ne s’en moque pas.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Apprendre scientifiquement ce que sont les menstruations (règles) et qu’elles sont une composante normale et naturelle du développement physique des filles, et ne doivent pas faire l’objet de tabous ou de moqueries."
       ],
-      "evidence": [
+      "criteres": [
         "Explique, à partir de documents scientifiques, le mécanisme des règles.",
         "Décrit l’impact des règles sur la vie quotidienne.",
         "Explique que les règles sont une composante normale et naturelle du développement physique des filles, qui ne doit faire l’objet ni de tabous ni de moqueries."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer simplement ce que sont les règles et comprend que c’est naturel, qu’on peut en parler et qu’on ne s’en moque pas ?",
+      "question": "Est-ce que {{prenom}} sait expliquer simplement ce que sont les règles et comprend que c’est naturel, qu’on peut en parler et qu’on ne s’en moque pas ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 16,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1823,28 +1701,26 @@
     {
       "id": "fr-eva-cm2-rel-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
-      "level": "CM2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Différents types de relations affectives et façons d’exprimer son amour",
+      "nom": "Différents types de relations affectives et façons d’exprimer son amour",
       "description": "Comprendre qu’il existe plusieurs sortes de liens affectifs (entre amis, entre parents, dans la famille, entre partenaires) et différentes façons, appropriées, de montrer son affection.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Savoir que les relations entre individus peuvent traduire différents types de relations affectives (par exemple, l’affection entre amis, l’amour entre parents, l’amour au sein de la famille, l’amour entre partenaires) et qu’il existe des façons différentes d’exprimer son amour."
       ],
-      "evidence": [
+      "criteres": [
         "Cite différents types de relations affectives : l’affection entre amis, l’amour entre parents, l’amour au sein de la famille, l’amour entre partenaires.",
         "Repère les différentes façons d’exprimer ses sentiments selon les personnes (parents, famille, amis).",
         "Distingue les gestes et attitudes appropriés pour exprimer ses sentiments de ceux qui ne sont pas acceptables et doivent être signalés.",
         "Définit avec d’autres ce qu’est l’amitié, après avoir comparé ses représentations aux leurs."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’on ne montre pas son affection de la même façon à un ami ou à un membre de sa famille, et que certains gestes ne sont pas acceptables ?",
+      "question": "Est-ce que {{prenom}} sait qu’on ne montre pas son affection de la même façon à un ami ou à un membre de sa famille, et que certains gestes ne sont pas acceptables ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 17,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1853,27 +1729,25 @@
     {
       "id": "fr-eva-cm2-rel-02",
       "programme": "evar-elem",
-      "type": "LANGUAGE",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
-      "level": "CM2",
+      "nature": "vocabulaire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Nommer les sentiments éprouvés dans les relations",
+      "nom": "Nommer les sentiments éprouvés dans les relations",
       "description": "Enrichir son vocabulaire pour nommer les sentiments positifs (amour, confiance, respect, loyauté, solidarité) et négatifs (jalousie, déception, tristesse, culpabilité) que l’on peut ressentir avec les autres.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Nommer divers sentiments qui peuvent être éprouvés dans les relations interpersonnelles."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie, dans des œuvres littéraires ou une chanson, des sentiments positifs : amour, confiance, respect, loyauté, solidarité.",
         "Identifie des sentiments négatifs : jalousie, déception, tristesse, culpabilité.",
         "Nomme les sentiments éprouvés dans une relation décrite."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer des sentiments comme la confiance, la loyauté, la jalousie ou la culpabilité, et dire quand on peut les ressentir ?",
+      "question": "Est-ce que {{prenom}} sait nommer des sentiments comme la confiance, la loyauté, la jalousie ou la culpabilité, et dire quand on peut les ressentir ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 17,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1882,27 +1756,25 @@
     {
       "id": "fr-eva-cm2-rel-03",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
-      "level": "CM2",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Exprimer ses émotions avec des mots clairs et sans moquerie",
+      "nom": "Exprimer ses émotions avec des mots clairs et sans moquerie",
       "description": "Savoir exprimer ce que l’on ressent par des formulations claires, dans un cadre sécurisant, et respecter les règles d’une communication respectueuse.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Exprimer ses émotions."
       ],
-      "evidence": [
+      "criteres": [
         "Communique avec des formulations claires et sans moquerie.",
         "Rappelle les règles d’une communication efficace et respectueuse au début d’une séance.",
         "Exprime ses émotions aux personnes que l’on aime par des gestes et des attitudes appropriés."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} arrive à dire ce qu’on ressent avec des mots clairs, et à écouter les autres sans se moquer ?",
+      "question": "Est-ce que {{prenom}} arrive à dire ce qu’on ressent avec des mots clairs, et à écouter les autres sans se moquer ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 17,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1911,27 +1783,25 @@
     {
       "id": "fr-eva-cm2-rel-04",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
-      "level": "CM2",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Demander, donner ou refuser son consentement, respecter le refus",
+      "nom": "Demander, donner ou refuser son consentement, respecter le refus",
       "description": "Savoir demander l’accord de l’autre et s’assurer qu’il est vraiment d’accord, dire oui ou non pour soi-même, et respecter le refus des autres.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Demander et s’assurer du consentement ; exprimer son consentement ou son refus ; comprendre et respecter le refus des autres."
       ],
-      "evidence": [
+      "criteres": [
         "Demande et s’assure du consentement de l’autre.",
         "Exprime son consentement ou son refus.",
         "Respecte le refus des autres sans insister."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} vérifie que l’autre est vraiment d’accord avant un geste ou un jeu, et accepte un refus sans insister ?",
+      "question": "Est-ce que {{prenom}} vérifie que l’autre est vraiment d’accord avant un geste ou un jeu, et accepte un refus sans insister ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 17,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1940,28 +1810,26 @@
     {
       "id": "fr-eva-cm2-rel-05",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
-      "level": "CM2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Reconnaître les différentes formes de violences et les relations d’emprise",
+      "nom": "Reconnaître les différentes formes de violences et les relations d’emprise",
       "description": "Savoir que certains mots et certains gestes sont des violences (verbales, physiques, psychologiques, sexistes ou sexuelles, y compris l’inceste), apprendre à reconnaître ces situations et à percevoir les relations d’emprise, où une personne prend le contrôle d’une autre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre qu’il existe des mots et des gestes qui constituent des violences : violences verbales, physiques, psychologiques, sexistes, sexuelles (dont l’inceste) ; savoir identifier ces situations et percevoir les relations d’emprise."
       ],
-      "evidence": [
+      "criteres": [
         "Définit les violences physiques, psychologiques, verbales et sexuelles, dont l’inceste.",
         "Identifie, dans une situation décrite, des mots ou des gestes qui constituent des violences.",
         "Distingue un secret d’une situation de danger ou de violence qu’il est important de signaler.",
         "Perçoit, dans une situation décrite, une relation d’emprise."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’il existe des violences en paroles, en gestes ou dans la façon de traiter quelqu’un, et qu’un secret qui fait mal doit être confié à un adulte ?",
+      "question": "Est-ce que {{prenom}} sait qu’il existe des violences en paroles, en gestes ou dans la façon de traiter quelqu’un, et qu’un secret qui fait mal doit être confié à un adulte ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 17,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1970,26 +1838,24 @@
     {
       "id": "fr-eva-cm2-rel-06",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
-      "level": "CM2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Les victimes de violences sexuelles ne sont jamais responsables",
+      "nom": "Les victimes de violences sexuelles ne sont jamais responsables",
       "description": "Comprendre que les violences sexuelles, quel que soit leur auteur, sont toujours une atteinte aux droits humains, et que la victime n’en est jamais responsable.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Prendre conscience que les violences sexuelles, quel qu’en soit l’auteur, constituent toujours une violation des droits humains et que les victimes n’en sont jamais responsables."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que les violences sexuelles, quel qu’en soit l’auteur, constituent toujours une violation des droits humains.",
         "Affirme que les victimes n’en sont jamais responsables."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait que, si quelqu’un subit des violences, ce n’est jamais sa faute, quelle que soit la personne qui les commet ?",
+      "question": "Est-ce que {{prenom}} sait que, si quelqu’un subit des violences, ce n’est jamais sa faute, quelle que soit la personne qui les commet ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 17,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -1998,27 +1864,25 @@
     {
       "id": "fr-eva-cm2-rel-07",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Rencontrer les autres et construire des relations, s’y épanouir",
-      "subdomain": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
-      "level": "CM2",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Rencontrer les autres et construire des relations, s’y épanouir",
+      "sousDomaine": "Promouvoir des relations positives, apprendre à repérer et se protéger des violences sexistes et sexuelles",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Chercher de l’aide en cas de violences : adulte de confiance, 119, 3018",
+      "nom": "Chercher de l’aide en cas de violences : adulte de confiance, 119, 3018",
       "description": "Savoir à qui parler et à qui demander de l’aide si l’on est victime de violences, ou pour un autre : un adulte de confiance, ou le 119 (enfance en danger) et le 3018 (harcèlement) s’il est difficile d’aller voir un adulte.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Savoir comment chercher de l’aide et du soutien lorsque l’on est victime de violences."
       ],
-      "evidence": [
+      "criteres": [
         "Explique comment identifier un adulte de confiance à qui se confier.",
         "Réfléchit avec d’autres à qui parler et à qui demander de l’aide, pour soi ou pour autrui.",
         "Cite les numéros d’urgence : le 119 (enfance en danger) et le 3018 (harcèlement)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait à qui parler en cas de violence, et connaît le 119 et le 3018 pour le cas où il serait difficile de parler à un adulte de confiance ?",
+      "question": "Est-ce que {{prenom}} sait à qui parler en cas de violence, et connaît le 119 et le 3018 pour le cas où il serait difficile de parler à un adulte de confiance ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 17,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -2027,27 +1891,25 @@
     {
       "id": "fr-eva-cm2-soc-01",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Prévenir les risques liés à l’usage du numérique et d’Internet",
-      "level": "CM2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Prévenir les risques liés à l’usage du numérique et d’Internet",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Comprendre la majorité numérique et son rôle de protection",
+      "nom": "Comprendre la majorité numérique et son rôle de protection",
       "description": "Comprendre ce qu’est la majorité numérique (fixée à 15 ans) et pourquoi elle existe : protéger les enfants. Les réseaux sociaux sont interdits aux moins de 13 ans.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre ce qu’est la majorité numérique et son objectif de protection des enfants."
       ],
-      "evidence": [
+      "criteres": [
         "Explique ce qu’est la majorité numérique, fixée à 15 ans, et son objectif de protection des enfants.",
         "Cite l’interdiction des réseaux sociaux aux moins de 13 ans.",
         "Cite des protections prévues par la loi : droit à l’image, protection des mineurs contre la pornographie en ligne."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait ce qu’est la majorité numérique et pourquoi les réseaux sociaux ne sont pas autorisés avant un certain âge ?",
+      "question": "Est-ce que {{prenom}} sait ce qu’est la majorité numérique et pourquoi les réseaux sociaux ne sont pas autorisés avant un certain âge ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 17,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -2056,28 +1918,26 @@
     {
       "id": "fr-eva-cm2-soc-02",
       "programme": "evar-elem",
-      "type": "PROCEDURAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Prévenir les risques liés à l’usage du numérique et d’Internet",
-      "level": "CM2",
+      "nature": "savoir-faire",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Prévenir les risques liés à l’usage du numérique et d’Internet",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Se protéger sur Internet et savoir à qui parler si quelque chose fait peur",
+      "nom": "Se protéger sur Internet et savoir à qui parler si quelque chose fait peur",
       "description": "Adopter de bons réflexes sur Internet (droit à l’image, vie privée) et savoir à quel adulte de confiance s’adresser si l’on voit quelque chose qui perturbe ou fait peur.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Devenir acteur de sa protection sur Internet et savoir identifier un adulte de confiance à qui s’adresser si quelque chose qui a été vu sur Internet ou sur les réseaux sociaux perturbe ou fait peur."
       ],
-      "evidence": [
+      "criteres": [
         "Évalue ses représentations et ses connaissances sur les risques et la protection sur Internet, les réseaux sociaux et les plateformes de jeux vidéo.",
         "Applique des règles de protection : droit à l’image, protection de la vie privée.",
         "Identifie un adulte de confiance à qui s’adresser si quelque chose vu sur Internet ou sur les réseaux sociaux perturbe ou fait peur.",
         "Cite des dispositifs de signalement."
       ],
-      "assessmentPrompt": "Si {{prenom}} voyait sur Internet quelque chose qui fait peur ou met mal à l’aise, est-ce que {{prenom}} saurait à quel adulte en parler ?",
+      "question": "Si {{prenom}} voyait sur Internet quelque chose qui fait peur ou met mal à l’aise, est-ce que {{prenom}} saurait à quel adulte en parler ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 17,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
@@ -2086,517 +1946,584 @@
     {
       "id": "fr-eva-cm2-soc-03",
       "programme": "evar-elem",
-      "type": "CONCEPTUAL",
-      "subject": "Éducation à la vie affective et relationnelle",
-      "domain": "Trouver sa place dans la société, y être libre et responsable",
-      "subdomain": "Prévenir les risques liés à l’usage du numérique et d’Internet",
-      "level": "CM2",
+      "nature": "compréhension",
+      "matiere": "Éducation à la vie affective et relationnelle",
+      "domaine": "Trouver sa place dans la société, y être libre et responsable",
+      "sousDomaine": "Prévenir les risques liés à l’usage du numérique et d’Internet",
+      "classe": "CM2",
       "cycle": 3,
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "name": "Connaître les dangers d’Internet et des réseaux sociaux",
+      "nom": "Connaître les dangers d’Internet et des réseaux sociaux",
       "description": "Comprendre qu’Internet et les réseaux sociaux présentent des dangers (cyberharcèlement, atteintes à la vie privée, images violentes ou choquantes, contenus sexuels interdits aux mineurs) et demandent des précautions particulières.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Prendre conscience que l’utilisation d’Internet et des réseaux sociaux présente des dangers et nécessite des mesures particulières, notamment car des images et des médias sexuellement explicites, interdits pour les mineurs, violents et choquants y sont accessibles."
       ],
-      "evidence": [
+      "criteres": [
         "Cite des risques liés à Internet et aux réseaux sociaux : cyberharcèlement, cyberviolences, atteintes à la vie privée et au droit à l’image.",
         "Explique que des images et des médias sexuellement explicites, violents et choquants, interdits pour les mineurs, y sont accessibles.",
         "Explique pourquoi l’usage d’Internet nécessite des mesures particulières de protection."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait qu’on peut tomber sur Internet sur des images choquantes ou réservées aux adultes, et qu’il faut des précautions particulières ?",
+      "question": "Est-ce que {{prenom}} sait qu’on peut tomber sur Internet sur des images choquantes ou réservées aux adultes, et qu’il faut des précautions particulières ?",
       "source": {
-        "file": "commun/evar-elementaire-BO6-2025.pdf",
+        "fichier": "commun/evar-elementaire-BO6-2025.pdf",
         "bo": "BO n° 6 du 6 février 2025",
         "page": 17,
         "sha256": "d4e5425df3e36312a9d02a331acf9db08fa97619e18bfcbb0307afe22b8ee0fc"
       }
     }
   ],
-  "prerequisites": [
-    {
-      "topicId": "fr-eva-cp-corps-02",
-      "prerequisiteId": "fr-eva-cp-corps-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Décrire les différences physiques avec précision suppose le vocabulaire du corps."
-    },
-    {
-      "topicId": "fr-eva-cp-corps-04",
-      "prerequisiteId": "fr-eva-cp-corps-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Le droit au respect de l’intimité suppose de savoir ce qu’est l’intimité."
-    },
-    {
-      "topicId": "fr-eva-cp-rel-02",
-      "prerequisiteId": "fr-eva-cp-rel-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Exprimer ses émotions de façon appropriée suppose de savoir les identifier et les nommer."
-    },
-    {
-      "topicId": "fr-eva-cp-rel-03",
-      "prerequisiteId": "fr-eva-cp-rel-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Résoudre un conflit suppose d’exprimer ses émotions sans agressivité."
-    },
-    {
-      "topicId": "fr-eva-cp-soc-02",
-      "prerequisiteId": "fr-eva-cp-soc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Respecter la diversité des familles suppose de la connaître."
-    },
-    {
-      "topicId": "fr-eva-cp-soc-03",
-      "prerequisiteId": "fr-eva-cp-soc-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Parler de sa famille s’appuie sur la connaissance des liens familiaux."
-    },
-    {
-      "topicId": "fr-eva-ce1-corps-01",
-      "prerequisiteId": "fr-eva-cp-corps-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "S’appuie sur les changements observés de la naissance à six ans (CP)."
-    },
-    {
-      "topicId": "fr-eva-ce1-corps-02",
-      "prerequisiteId": "fr-eva-cp-corps-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Prolonge l’observation des différences physiques entre filles et garçons (CP)."
-    },
-    {
-      "topicId": "fr-eva-ce1-corps-03",
-      "prerequisiteId": "fr-eva-ce1-corps-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Respecter les différences suppose de savoir que chaque corps est unique."
-    },
-    {
-      "topicId": "fr-eva-ce1-corps-04",
-      "prerequisiteId": "fr-eva-cp-corps-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Toute personne a droit au respect de son intimité » (CP)."
-    },
-    {
-      "topicId": "fr-eva-ce1-corps-05",
-      "prerequisiteId": "fr-eva-cp-corps-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Mieux se connaître » (CP)."
-    },
-    {
-      "topicId": "fr-eva-ce1-rel-01",
-      "prerequisiteId": "fr-eva-cp-rel-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Différencier des sentiments suppose de savoir les nommer (CP)."
-    },
-    {
-      "topicId": "fr-eva-ce1-rel-02",
-      "prerequisiteId": "fr-eva-ce1-rel-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Décrire une relation positive s’appuie sur la distinction des types de relations."
+  "liens": [
+    {
+      "de": "fr-eva-cp-corps-01",
+      "vers": "fr-eva-cp-corps-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Décrire les différences physiques avec précision suppose le vocabulaire du corps."
     },
-    {
-      "topicId": "fr-eva-ce1-rel-03",
-      "prerequisiteId": "fr-eva-ce1-rel-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "S’appuie sur la réflexion sur l’amitié."
+    {
+      "de": "fr-eva-cp-corps-03",
+      "vers": "fr-eva-cp-corps-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Le droit au respect de l’intimité suppose de savoir ce qu’est l’intimité."
     },
-    {
-      "topicId": "fr-eva-ce1-rel-04",
-      "prerequisiteId": "fr-eva-ce1-rel-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Aimer qui l’on veut suppose de distinguer amitié et amour."
+    {
+      "de": "fr-eva-cp-rel-01",
+      "vers": "fr-eva-cp-rel-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Exprimer ses émotions de façon appropriée suppose de savoir les identifier et les nommer."
     },
-    {
-      "topicId": "fr-eva-ce1-soc-02",
-      "prerequisiteId": "fr-eva-ce1-soc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Comparer des stéréotypes suppose de savoir les définir et les repérer."
+    {
+      "de": "fr-eva-cp-rel-02",
+      "vers": "fr-eva-cp-rel-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Résoudre un conflit suppose d’exprimer ses émotions sans agressivité."
     },
-    {
-      "topicId": "fr-eva-ce1-soc-03",
-      "prerequisiteId": "fr-eva-ce1-soc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Le lien entre stéréotypes et discriminations suppose de connaître ces deux notions."
+    {
+      "de": "fr-eva-cp-soc-01",
+      "vers": "fr-eva-cp-soc-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Respecter la diversité des familles suppose de la connaître."
     },
-    {
-      "topicId": "fr-eva-ce1-soc-05",
-      "prerequisiteId": "fr-eva-ce1-soc-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Repérer les influences s’appuie sur le repérage des stéréotypes."
+    {
+      "de": "fr-eva-cp-soc-01",
+      "vers": "fr-eva-cp-soc-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Parler de sa famille s’appuie sur la connaissance des liens familiaux."
     },
-    {
-      "topicId": "fr-eva-ce2-corps-01",
-      "prerequisiteId": "fr-eva-ce1-corps-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Prolonge le respect de son corps (CE1)."
+    {
+      "de": "fr-eva-cp-corps-05",
+      "vers": "fr-eva-ce1-corps-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "S’appuie sur les changements observés de la naissance à six ans (CP)."
     },
-    {
-      "topicId": "fr-eva-ce2-corps-03",
-      "prerequisiteId": "fr-eva-ce2-corps-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Faire des choix favorables à sa santé suppose de savoir ce qu’est être en bonne santé."
+    {
+      "de": "fr-eva-cp-corps-02",
+      "vers": "fr-eva-ce1-corps-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Prolonge l’observation des différences physiques entre filles et garçons (CP)."
     },
-    {
-      "topicId": "fr-eva-ce2-corps-04",
-      "prerequisiteId": "fr-eva-ce2-corps-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Demander de l’aide suppose de repérer que l’on ne va pas bien."
+    {
+      "de": "fr-eva-ce1-corps-02",
+      "vers": "fr-eva-ce1-corps-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Respecter les différences suppose de savoir que chaque corps est unique."
     },
-    {
-      "topicId": "fr-eva-ce2-rel-02",
-      "prerequisiteId": "fr-eva-ce2-rel-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Gérer l’hésitation suppose de savoir ce qu’est le consentement."
+    {
+      "de": "fr-eva-cp-corps-04",
+      "vers": "fr-eva-ce1-corps-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Toute personne a droit au respect de son intimité » (CP)."
     },
-    {
-      "topicId": "fr-eva-ce2-rel-03",
-      "prerequisiteId": "fr-eva-ce2-rel-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Le respect du corps s’appuie sur la notion de consentement."
+    {
+      "de": "fr-eva-cp-corps-05",
+      "vers": "fr-eva-ce1-corps-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Mieux se connaître » (CP)."
     },
-    {
-      "topicId": "fr-eva-ce2-rel-03",
-      "prerequisiteId": "fr-eva-cp-corps-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Prolonge le droit au respect de son intimité (CP)."
+    {
+      "de": "fr-eva-cp-rel-01",
+      "vers": "fr-eva-ce1-rel-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Différencier des sentiments suppose de savoir les nommer (CP)."
     },
-    {
-      "topicId": "fr-eva-ce2-rel-04",
-      "prerequisiteId": "fr-eva-ce2-corps-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "S’appuie sur l’identification des personnes-ressources."
+    {
+      "de": "fr-eva-ce1-rel-01",
+      "vers": "fr-eva-ce1-rel-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Décrire une relation positive s’appuie sur la distinction des types de relations."
     },
-    {
-      "topicId": "fr-eva-ce2-rel-05",
-      "prerequisiteId": "fr-eva-ce2-rel-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Demander de l’aide suppose de savoir à qui s’adresser."
+    {
+      "de": "fr-eva-ce1-rel-01",
+      "vers": "fr-eva-ce1-rel-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "S’appuie sur la réflexion sur l’amitié."
     },
-    {
-      "topicId": "fr-eva-ce2-rel-06",
-      "prerequisiteId": "fr-eva-ce2-rel-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Respecter l’accord de chacun s’appuie sur la notion de consentement."
+    {
+      "de": "fr-eva-ce1-rel-01",
+      "vers": "fr-eva-ce1-rel-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Aimer qui l’on veut suppose de distinguer amitié et amour."
     },
-    {
-      "topicId": "fr-eva-ce2-rel-06",
-      "prerequisiteId": "fr-eva-ce1-soc-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Prolonge « Développer des relations constructives » (CE1)."
+    {
+      "de": "fr-eva-ce1-soc-01",
+      "vers": "fr-eva-ce1-soc-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Comparer des stéréotypes suppose de savoir les définir et les repérer."
     },
-    {
-      "topicId": "fr-eva-ce2-soc-01",
-      "prerequisiteId": "fr-eva-ce1-rel-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Identifier ses droits et ses devoirs » (CE1)."
+    {
+      "de": "fr-eva-ce1-soc-01",
+      "vers": "fr-eva-ce1-soc-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Le lien entre stéréotypes et discriminations suppose de connaître ces deux notions."
     },
-    {
-      "topicId": "fr-eva-ce2-soc-02",
-      "prerequisiteId": "fr-eva-ce2-soc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Les droits de l’enfant s’inscrivent dans les droits fondamentaux."
+    {
+      "de": "fr-eva-ce1-soc-01",
+      "vers": "fr-eva-ce1-soc-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Repérer les influences s’appuie sur le repérage des stéréotypes."
     },
-    {
-      "topicId": "fr-eva-ce2-soc-03",
-      "prerequisiteId": "fr-eva-ce2-soc-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Agir pour la diversité s’appuie sur la connaissance des droits de chacun."
+    {
+      "de": "fr-eva-ce1-corps-03",
+      "vers": "fr-eva-ce2-corps-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Prolonge le respect de son corps (CE1)."
     },
-    {
-      "topicId": "fr-eva-cm1-corps-01",
-      "prerequisiteId": "fr-eva-ce1-corps-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Grandir entraîne des changements physiques » (CE1)."
+    {
+      "de": "fr-eva-ce2-corps-01",
+      "vers": "fr-eva-ce2-corps-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Faire des choix favorables à sa santé suppose de savoir ce qu’est être en bonne santé."
     },
-    {
-      "topicId": "fr-eva-cm1-corps-02",
-      "prerequisiteId": "fr-eva-cm1-corps-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Comprendre que ces changements sont normaux suppose de les connaître."
+    {
+      "de": "fr-eva-ce2-corps-02",
+      "vers": "fr-eva-ce2-corps-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Demander de l’aide suppose de repérer que l’on ne va pas bien."
     },
-    {
-      "topicId": "fr-eva-cm1-corps-03",
-      "prerequisiteId": "fr-eva-ce2-corps-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Prolonge « Apprécier son corps et en prendre soin » (CE2)."
+    {
+      "de": "fr-eva-ce2-rel-01",
+      "vers": "fr-eva-ce2-rel-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Gérer l’hésitation suppose de savoir ce qu’est le consentement."
     },
-    {
-      "topicId": "fr-eva-cm1-corps-04",
-      "prerequisiteId": "fr-eva-cm1-corps-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Les différences de rythme supposent de connaître les changements de la puberté."
+    {
+      "de": "fr-eva-ce2-rel-01",
+      "vers": "fr-eva-ce2-rel-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Le respect du corps s’appuie sur la notion de consentement."
     },
-    {
-      "topicId": "fr-eva-cm1-corps-05",
-      "prerequisiteId": "fr-eva-cm1-corps-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "S’appuie sur l’idée que les changements du corps sont normaux."
+    {
+      "de": "fr-eva-cp-corps-04",
+      "vers": "fr-eva-ce2-rel-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Prolonge le droit au respect de son intimité (CP)."
     },
-    {
-      "topicId": "fr-eva-cm1-corps-06",
-      "prerequisiteId": "fr-eva-cm1-corps-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Parler positivement des autres prolonge le refus des moqueries."
+    {
+      "de": "fr-eva-ce2-corps-04",
+      "vers": "fr-eva-ce2-rel-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "S’appuie sur l’identification des personnes-ressources."
     },
-    {
-      "topicId": "fr-eva-cm1-rel-01",
-      "prerequisiteId": "fr-eva-cp-rel-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "L’empathie suppose de savoir identifier les émotions (CP)."
+    {
+      "de": "fr-eva-ce2-rel-04",
+      "vers": "fr-eva-ce2-rel-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Demander de l’aide suppose de savoir à qui s’adresser."
     },
-    {
-      "topicId": "fr-eva-cm1-rel-02",
-      "prerequisiteId": "fr-eva-cp-rel-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Résoudre un conflit de façon constructive » (CP)."
+    {
+      "de": "fr-eva-ce2-rel-01",
+      "vers": "fr-eva-ce2-rel-06",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Respecter l’accord de chacun s’appuie sur la notion de consentement."
     },
-    {
-      "topicId": "fr-eva-cm1-rel-03",
-      "prerequisiteId": "fr-eva-ce2-rel-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge le travail sur le consentement (CE2)."
+    {
+      "de": "fr-eva-ce1-soc-04",
+      "vers": "fr-eva-ce2-rel-06",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Prolonge « Développer des relations constructives » (CE1)."
     },
-    {
-      "topicId": "fr-eva-cm1-rel-04",
-      "prerequisiteId": "fr-eva-cm1-corps-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Distinguer harcèlement et moquerie s’appuie sur le travail sur les moqueries."
+    {
+      "de": "fr-eva-ce1-rel-05",
+      "vers": "fr-eva-ce2-soc-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Identifier ses droits et ses devoirs » (CE1)."
     },
-    {
-      "topicId": "fr-eva-cm1-rel-05",
-      "prerequisiteId": "fr-eva-cm1-rel-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Mesurer la gravité du harcèlement suppose de savoir le reconnaître."
+    {
+      "de": "fr-eva-ce2-soc-01",
+      "vers": "fr-eva-ce2-soc-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Les droits de l’enfant s’inscrivent dans les droits fondamentaux."
     },
-    {
-      "topicId": "fr-eva-cm1-rel-06",
-      "prerequisiteId": "fr-eva-cm1-rel-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Le rôle du témoin suppose de savoir reconnaître le harcèlement."
+    {
+      "de": "fr-eva-ce2-soc-01",
+      "vers": "fr-eva-ce2-soc-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Agir pour la diversité s’appuie sur la connaissance des droits de chacun."
     },
-    {
-      "topicId": "fr-eva-cm1-rel-07",
-      "prerequisiteId": "fr-eva-cm1-rel-06",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Alerter s’appuie sur la responsabilité de chaque témoin."
+    {
+      "de": "fr-eva-ce1-corps-01",
+      "vers": "fr-eva-cm1-corps-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Grandir entraîne des changements physiques » (CE1)."
     },
-    {
-      "topicId": "fr-eva-cm1-rel-07",
-      "prerequisiteId": "fr-eva-ce2-rel-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Demander de l’aide pour soi ou pour un camarade » (CE2)."
+    {
+      "de": "fr-eva-cm1-corps-01",
+      "vers": "fr-eva-cm1-corps-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Comprendre que ces changements sont normaux suppose de les connaître."
     },
-    {
-      "topicId": "fr-eva-cm1-soc-01",
-      "prerequisiteId": "fr-eva-ce1-soc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Définir et repérer des stéréotypes » (CE1)."
+    {
+      "de": "fr-eva-ce2-corps-01",
+      "vers": "fr-eva-cm1-corps-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Prolonge « Apprécier son corps et en prendre soin » (CE2)."
     },
-    {
-      "topicId": "fr-eva-cm1-soc-02",
-      "prerequisiteId": "fr-eva-cm1-soc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Analyser l’influence des stéréotypes suppose de savoir les définir."
+    {
+      "de": "fr-eva-cm1-corps-01",
+      "vers": "fr-eva-cm1-corps-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Les différences de rythme supposent de connaître les changements de la puberté."
     },
-    {
-      "topicId": "fr-eva-cm1-soc-02",
-      "prerequisiteId": "fr-eva-ce1-soc-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Prolonge le lien entre stéréotypes et discriminations (CE1)."
+    {
+      "de": "fr-eva-cm1-corps-02",
+      "vers": "fr-eva-cm1-corps-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "S’appuie sur l’idée que les changements du corps sont normaux."
     },
-    {
-      "topicId": "fr-eva-cm1-soc-03",
-      "prerequisiteId": "fr-eva-cm1-soc-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Agir contre les stéréotypes suppose de comprendre leurs effets."
+    {
+      "de": "fr-eva-cm1-corps-05",
+      "vers": "fr-eva-cm1-corps-06",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Parler positivement des autres prolonge le refus des moqueries."
     },
-    {
-      "topicId": "fr-eva-cm1-soc-05",
-      "prerequisiteId": "fr-eva-cm1-soc-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Se sentir libre de ses choix s’appuie sur l’idée qu’on peut choisir librement."
+    {
+      "de": "fr-eva-cp-rel-01",
+      "vers": "fr-eva-cm1-rel-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "L’empathie suppose de savoir identifier les émotions (CP)."
     },
-    {
-      "topicId": "fr-eva-cm1-soc-06",
-      "prerequisiteId": "fr-eva-ce1-soc-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Penser de façon critique : repérer les influences » (CE1)."
+    {
+      "de": "fr-eva-cp-rel-03",
+      "vers": "fr-eva-cm1-rel-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Résoudre un conflit de façon constructive » (CP)."
     },
-    {
-      "topicId": "fr-eva-cm2-corps-01",
-      "prerequisiteId": "fr-eva-cm1-corps-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge les changements de la puberté et leurs âges différents selon chacun (CM1)."
+    {
+      "de": "fr-eva-ce2-rel-01",
+      "vers": "fr-eva-cm1-rel-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge le travail sur le consentement (CE2)."
     },
-    {
-      "topicId": "fr-eva-cm2-corps-02",
-      "prerequisiteId": "fr-eva-cp-corps-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Nommer les organes reproducteurs prolonge le vocabulaire scientifique du corps (CP)."
+    {
+      "de": "fr-eva-cm1-corps-05",
+      "vers": "fr-eva-cm1-rel-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Distinguer harcèlement et moquerie s’appuie sur le travail sur les moqueries."
     },
-    {
-      "topicId": "fr-eva-cm2-corps-02",
-      "prerequisiteId": "fr-eva-cm1-corps-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "La puberté a été reliée à la capacité à se reproduire (CM1)."
+    {
+      "de": "fr-eva-cm1-rel-04",
+      "vers": "fr-eva-cm1-rel-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Mesurer la gravité du harcèlement suppose de savoir le reconnaître."
     },
-    {
-      "topicId": "fr-eva-cm2-corps-03",
-      "prerequisiteId": "fr-eva-cm2-corps-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Comprendre le mécanisme des règles suppose de connaître les organes reproducteurs."
+    {
+      "de": "fr-eva-cm1-rel-04",
+      "vers": "fr-eva-cm1-rel-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Le rôle du témoin suppose de savoir reconnaître le harcèlement."
     },
-    {
-      "topicId": "fr-eva-cm2-corps-03",
-      "prerequisiteId": "fr-eva-cm1-corps-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Refuser les moqueries sur les règles prolonge le travail sur les moqueries (CM1)."
+    {
+      "de": "fr-eva-cm1-rel-06",
+      "vers": "fr-eva-cm1-rel-07",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Alerter s’appuie sur la responsabilité de chaque témoin."
     },
-    {
-      "topicId": "fr-eva-cm2-rel-01",
-      "prerequisiteId": "fr-eva-ce1-rel-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Distinguer l’amitié et l’amour » (CE1)."
+    {
+      "de": "fr-eva-ce2-rel-05",
+      "vers": "fr-eva-cm1-rel-07",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Demander de l’aide pour soi ou pour un camarade » (CE2)."
     },
-    {
-      "topicId": "fr-eva-cm2-rel-02",
-      "prerequisiteId": "fr-eva-cp-rel-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge le vocabulaire des émotions et des sentiments (CP)."
+    {
+      "de": "fr-eva-ce1-soc-01",
+      "vers": "fr-eva-cm1-soc-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Définir et repérer des stéréotypes » (CE1)."
     },
-    {
-      "topicId": "fr-eva-cm2-rel-03",
-      "prerequisiteId": "fr-eva-cp-rel-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Exprimer ses émotions de façon appropriée » (CP)."
+    {
+      "de": "fr-eva-cm1-soc-01",
+      "vers": "fr-eva-cm1-soc-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Analyser l’influence des stéréotypes suppose de savoir les définir."
     },
-    {
-      "topicId": "fr-eva-cm2-rel-04",
-      "prerequisiteId": "fr-eva-cm1-rel-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Exprimer son consentement ou son refus » (CM1)."
+    {
+      "de": "fr-eva-ce1-soc-03",
+      "vers": "fr-eva-cm1-soc-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Prolonge le lien entre stéréotypes et discriminations (CE1)."
     },
-    {
-      "topicId": "fr-eva-cm2-rel-05",
-      "prerequisiteId": "fr-eva-ce2-rel-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge le repérage des mots et gestes déplacés ou abusifs (CE2)."
+    {
+      "de": "fr-eva-cm1-soc-02",
+      "vers": "fr-eva-cm1-soc-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Agir contre les stéréotypes suppose de comprendre leurs effets."
     },
-    {
-      "topicId": "fr-eva-cm2-rel-06",
-      "prerequisiteId": "fr-eva-cm2-rel-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Suppose de savoir reconnaître les violences sexuelles."
+    {
+      "de": "fr-eva-cm1-soc-04",
+      "vers": "fr-eva-cm1-soc-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Se sentir libre de ses choix s’appuie sur l’idée qu’on peut choisir librement."
     },
-    {
-      "topicId": "fr-eva-cm2-rel-06",
-      "prerequisiteId": "fr-eva-ce2-soc-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "S’appuie sur la notion de droits humains (CE2)."
+    {
+      "de": "fr-eva-ce1-soc-05",
+      "vers": "fr-eva-cm1-soc-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Penser de façon critique : repérer les influences » (CE1)."
     },
-    {
-      "topicId": "fr-eva-cm2-rel-07",
-      "prerequisiteId": "fr-eva-cm1-rel-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Prolonge « Savoir où et comment demander de l’aide » (CM1)."
+    {
+      "de": "fr-eva-cm1-corps-04",
+      "vers": "fr-eva-cm2-corps-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge les changements de la puberté et leurs âges différents selon chacun (CM1)."
     },
-    {
-      "topicId": "fr-eva-cm2-rel-07",
-      "prerequisiteId": "fr-eva-cm2-rel-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Chercher de l’aide suppose de reconnaître une situation de violence."
+    {
+      "de": "fr-eva-cp-corps-01",
+      "vers": "fr-eva-cm2-corps-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Nommer les organes reproducteurs prolonge le vocabulaire scientifique du corps (CP)."
     },
-    {
-      "topicId": "fr-eva-cm2-soc-01",
-      "prerequisiteId": "fr-eva-ce2-soc-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "La majorité numérique protège les droits de l’enfant (CE2)."
+    {
+      "de": "fr-eva-cm1-corps-01",
+      "vers": "fr-eva-cm2-corps-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "La puberté a été reliée à la capacité à se reproduire (CM1)."
     },
-    {
-      "topicId": "fr-eva-cm2-soc-02",
-      "prerequisiteId": "fr-eva-ce2-rel-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "S’appuie sur l’identification d’un adulte de confiance (CE2)."
+    {
+      "de": "fr-eva-cm2-corps-02",
+      "vers": "fr-eva-cm2-corps-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Comprendre le mécanisme des règles suppose de connaître les organes reproducteurs."
     },
-    {
-      "topicId": "fr-eva-cm2-soc-02",
-      "prerequisiteId": "fr-eva-cm2-soc-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Se protéger suppose de connaître les dangers d’Internet."
+    {
+      "de": "fr-eva-cm1-corps-05",
+      "vers": "fr-eva-cm2-corps-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Refuser les moqueries sur les règles prolonge le travail sur les moqueries (CM1)."
     },
-    {
-      "topicId": "fr-eva-cm2-soc-03",
-      "prerequisiteId": "fr-eva-cm2-soc-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les dangers d’Internet expliquent l’objectif de la majorité numérique."
+    {
+      "de": "fr-eva-ce1-rel-01",
+      "vers": "fr-eva-cm2-rel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Distinguer l’amitié et l’amour » (CE1)."
+    },
+    {
+      "de": "fr-eva-cp-rel-01",
+      "vers": "fr-eva-cm2-rel-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge le vocabulaire des émotions et des sentiments (CP)."
+    },
+    {
+      "de": "fr-eva-cp-rel-02",
+      "vers": "fr-eva-cm2-rel-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Exprimer ses émotions de façon appropriée » (CP)."
+    },
+    {
+      "de": "fr-eva-cm1-rel-03",
+      "vers": "fr-eva-cm2-rel-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Exprimer son consentement ou son refus » (CM1)."
+    },
+    {
+      "de": "fr-eva-ce2-rel-03",
+      "vers": "fr-eva-cm2-rel-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge le repérage des mots et gestes déplacés ou abusifs (CE2)."
+    },
+    {
+      "de": "fr-eva-cm2-rel-05",
+      "vers": "fr-eva-cm2-rel-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Suppose de savoir reconnaître les violences sexuelles."
+    },
+    {
+      "de": "fr-eva-ce2-soc-01",
+      "vers": "fr-eva-cm2-rel-06",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "S’appuie sur la notion de droits humains (CE2)."
+    },
+    {
+      "de": "fr-eva-cm1-rel-07",
+      "vers": "fr-eva-cm2-rel-07",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Prolonge « Savoir où et comment demander de l’aide » (CM1)."
+    },
+    {
+      "de": "fr-eva-cm2-rel-05",
+      "vers": "fr-eva-cm2-rel-07",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Chercher de l’aide suppose de reconnaître une situation de violence."
+    },
+    {
+      "de": "fr-eva-ce2-soc-02",
+      "vers": "fr-eva-cm2-soc-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "La majorité numérique protège les droits de l’enfant (CE2)."
+    },
+    {
+      "de": "fr-eva-ce2-rel-04",
+      "vers": "fr-eva-cm2-soc-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "S’appuie sur l’identification d’un adulte de confiance (CE2)."
+    },
+    {
+      "de": "fr-eva-cm2-soc-03",
+      "vers": "fr-eva-cm2-soc-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Se protéger suppose de connaître les dangers d’Internet."
+    },
+    {
+      "de": "fr-eva-cm2-soc-01",
+      "vers": "fr-eva-cm2-soc-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les dangers d’Internet expliquent l’objectif de la majorité numérique."
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extraitLe": "2026-10-23"
 }

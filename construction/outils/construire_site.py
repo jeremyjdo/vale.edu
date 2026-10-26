@@ -6,7 +6,7 @@ Usage :
                                                        # même page sans en-tête HTML, pour une publication en ligne ;
                                                        # --lien donne l'adresse publique, pour le bouton « Copier le lien »
 
-La page reprend data/notions.json et data/prerequis.json, compressés et intégrés à la page : elle se met à jour
+La page reprend le jeu de données data/ (programmes, objectifs, notions et liens), compressé et intégré à la page : elle se met à jour
 à chaque assemblage (assembler.py l'appelle). Le modèle de la page est site/modele.html.
 Une matière absente de FAMILLES forme sa propre bande sur la carte : ajoute-la à la bonne famille.
 """
@@ -17,7 +17,7 @@ import os
 import sys
 from collections import defaultdict
 
-from commun import DONNEES, NIVEAUX, ORDRE_NIVEAUX, PROGRAMMES, SITE, TYPES_FR, registre
+from commun import DONNEES, NATURES, NIVEAUX, ORDRE_NIVEAUX, PROGRAMMES, SITE, registre
 
 MODELE = os.path.join(SITE, "modele.html")
 SORTIE = os.path.join(SITE, "index.html")
@@ -63,8 +63,8 @@ def notion_par_defaut(notions, liens):
     remonte sur le plus de classes, sans être trop longue."""
     avant = defaultdict(list)
     for l in liens:
-        avant[l["topicId"]].append(l["prerequisiteId"])
-    niveau = {n["id"]: n["level"] for n in notions}
+        avant[l["vers"]].append(l["de"])
+    niveau = {n["id"]: n["classe"] for n in notions}
 
     def ancetres(i):
         vus, pile = set(), [i]
@@ -77,7 +77,7 @@ def notion_par_defaut(notions, liens):
 
     candidats = []
     for i, n in enumerate(notions):
-        if n["subject"] == "Mathématiques" and n["level"] in ("CE2", "CM1", "CM2", "6e"):
+        if n["matiere"] == "Mathématiques" and n["classe"] in ("CE2", "CM1", "CM2", "6e"):
             a = ancetres(n["id"])
             if 12 <= len(a) <= 70:
                 candidats.append((len({niveau[x] for x in a}), -len(a), -i))
@@ -85,8 +85,10 @@ def notion_par_defaut(notions, liens):
 
 
 def donnees():
-    base = json.load(open(os.path.join(DONNEES, "notions.json")))
-    liens = json.load(open(os.path.join(DONNEES, "prerequis.json")))["prerequisites"]
+    lire = lambda nom: json.load(open(os.path.join(DONNEES, f"{nom}.json")))
+    base = lire("notions")
+    liens = lire("liens")["liens"]
+    textes_objectifs = {o["id"]: o["texte"] for o in lire("objectifs")["objectifs"]}
     manifeste = json.load(open(os.path.join(PROGRAMMES, "sources.json")))["sources"]
     reg = registre()
     notions = base["notions"]
@@ -94,19 +96,19 @@ def donnees():
     familles = [dict(f) for f in FAMILLES]
     famille_de = {apostrophes(m): i for i, f in enumerate(familles) for m in f["matieres"]}
     for n in notions:
-        if apostrophes(n["subject"]) not in famille_de:
-            famille_de[apostrophes(n["subject"])] = len(familles)
-            familles.append({"court": n["subject"], "nom": n["subject"], "matieres": [n["subject"]]})
+        if apostrophes(n["matiere"]) not in famille_de:
+            famille_de[apostrophes(n["matiere"])] = len(familles)
+            familles.append({"court": n["matiere"], "nom": n["matiere"], "matieres": [n["matiere"]]})
 
     remplace_par = defaultdict(list)
     for k, v in reg.items():
         for ancien in v.get("remplace", []):
             remplace_par[ancien].append(k)
     programmes = {}
-    for k, v in base["programmes"].items():
+    for k, v in lire("programmes")["programmes"].items():
         programmes[k] = {
-            "m": v["subject"], "fam": famille_de[apostrophes(v["subject"])], "niv": v["levels"], "bo": v["bo"],
-            "pdf": v["file"], "url": manifeste.get(v["file"], {}).get("url", ""), "ex": v.get("extractedAt", ""),
+            "m": v["matiere"], "fam": famille_de[apostrophes(v["matiere"])], "niv": v["classes"], "bo": v["bo"],
+            "pdf": v["fichier"], "url": v.get("url") or "", "ex": v.get("extraitLe") or "",
             "remplace": reg.get(k, {}).get("remplace", []), "remplacePar": remplace_par.get(k, []),
         }
 
@@ -134,34 +136,33 @@ def donnees():
             textes.append(s)
         return index_texte[s]
 
-    types = list(TYPES_FR)
     position = {n["id"]: i for i, n in enumerate(notions)}
     lignes = []
     for n in notions:
         src = n["source"]
         lignes.append([
-            n["id"], n["programme"], types.index(n["type"]), t(n["domain"]), t(n.get("subdomain") or ""),
-            n["level"], n["name"], n["description"], n["officialObjectives"], n["evidence"],
-            n["assessmentPrompt"], t(n["period"]) if n.get("period") else -1, src.get("page", 0),
-            src.get("examples", ""), src.get("examplesPage", 0),
+            n["id"], n["programme"], NATURES.index(n["nature"]), t(n["domaine"]), t(n.get("sousDomaine") or ""),
+            n["classe"], n["nom"], n["description"], [textes_objectifs[o] for o in n["objectifs"]], n["criteres"],
+            n["question"], t(n["periode"]) if n.get("periode") else -1, src.get("page", 0),
+            src.get("exemples", ""), src.get("exemplesPage", 0),
         ])
-    exemples = {n["source"]["examples"] for n in notions if n["source"].get("examples")}
+    exemples = {n["source"]["exemples"] for n in notions if n["source"].get("exemples")}
     return {
-        "genere": base["generatedAt"],
+        "genere": base["genereLe"],
         "colonnes": colonnes,
         "cycles": [{"nom": f"Cycle {k}", "sous": NOMS_CYCLES.get(k, ""), "de": min(v), "a": max(v)}
                    for k, v in sorted(cols_du_cycle.items())],
         "ages": {n: f"{v[2]}-{v[3]} ans" for n, v in NIVEAUX.items()},
         "etendues": etendues,
-        "types": [[k, TYPES_FR[k]] for k in types],
+        "types": [[k, k] for k in NATURES],
         "familles": familles,
         "programmes": programmes,
         "urls": {f: manifeste[f]["url"] for f in exemples if f in manifeste},
         "textes": textes,
         "n": lignes,
-        "l": [[position[l["topicId"]], position[l["prerequisiteId"]], int(l["strength"] == "hard"),
-               int(l["origin"] == "texte"), int(bool(l.get("continuation"))), l.get("reason", "")]
-              for l in liens if l["topicId"] in position and l["prerequisiteId"] in position],
+        "l": [[position[l["vers"]], position[l["de"]], int(l["force"] == "indispensable"),
+               int(l["origine"] == "texte"), int(bool(l.get("continuite"))), l.get("raison", "")]
+              for l in liens if l["vers"] in position and l["de"] in position],
         "defaut": notion_par_defaut(notions, liens),
     }
 

@@ -1,664 +1,746 @@
 {
   "programme": "lv-cm",
-  "prerequisites": [
-    {
-      "topicId": "fr-lv-cm1-cohis-01",
-      "prerequisiteId": "fr-lv-ce2-cohis-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître à l’oral l’alphabet et les nombres jusqu’à 100 (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-cohis-02",
-      "prerequisiteId": "fr-lv-ce2-cohis-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître les mots familiers d’une histoire (jours, nombres…) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-cohis-03",
-      "prerequisiteId": "fr-lv-ce2-cohis-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer une émotion grâce à l’intonation de la phrase » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-cohis-04",
-      "prerequisiteId": "fr-lv-ce2-cohis-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître des tournures apprises dans un témoignage (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-cohis-05",
-      "prerequisiteId": "fr-lv-ce2-phon-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Entendre les marques du pluriel s’appuie sur les prononciations du pluriel (-s) travaillées au CE2"
-    },
-    {
-      "topicId": "fr-lv-cm1-comsg-01",
-      "prerequisiteId": "fr-lv-ce2-comot-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre les formules d’accueil et les consignes du rituel » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-comsg-01",
-      "prerequisiteId": "fr-lv-ce2-comot-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Les formules d’encouragement et de félicitations comprises au CE2 font partie des interactions courantes à repérer"
-    },
-    {
-      "topicId": "fr-lv-cm1-comsg-02",
-      "prerequisiteId": "fr-lv-ce2-comot-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer des mots familiers : la date et la météo du jour » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-comsg-03",
-      "prerequisiteId": "fr-lv-ce2-comot-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître les mots interrogatifs, dont « quand » (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-comsg-04",
-      "prerequisiteId": "fr-lv-ce2-comot-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre qui parle et de qui l’on parle (pronoms, possessifs) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-comsg-06",
-      "prerequisiteId": "fr-lv-ce2-comot-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre l’expression des préférences (préférer, mieux) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-comsg-07",
-      "prerequisiteId": "fr-lv-ce2-comot-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître les émotions à l’intonation dans un dialogue » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-coagi-01",
-      "prerequisiteId": "fr-lv-ce2-coagi-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Suivre une suite de consignes pour fabriquer un objet » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-coagi-02",
-      "prerequisiteId": "fr-lv-ce2-coagi-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre ce qu’on peut ou ne peut pas faire (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-coagi-03",
-      "prerequisiteId": "fr-lv-ce2-coagi-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Faire les gestes d’une comptine (mots de position) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-coagi-04",
-      "prerequisiteId": "fr-lv-ce2-comot-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer des mots familiers : la date et la météo du jour » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-phon-01",
-      "prerequisiteId": "fr-lv-ce2-phon-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Prononcer le pluriel et distinguer des sons proches » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-phon-01",
-      "prerequisiteId": "fr-lv-ce2-repro-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire à voix haute une phrase déjà connue (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-phon-02",
-      "prerequisiteId": "fr-lv-ce2-phon-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Marquer l’accent et le rythme des mots » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-pres-01",
-      "prerequisiteId": "fr-lv-ce2-decr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dire ce qu’on fait et décrire quelqu’un (il, elle) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-pres-02",
-      "prerequisiteId": "fr-lv-ce2-decr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dire ce qu’on fait et décrire quelqu’un (il, elle) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-pres-03",
-      "prerequisiteId": "fr-lv-ce2-decr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Décrire son emploi du temps et ses habitudes » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-pres-04",
-      "prerequisiteId": "fr-lv-ce2-decr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Décrire son emploi du temps et ses habitudes » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-rac-01",
-      "prerequisiteId": "fr-lv-ce2-rac-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Raconter un album écouté et donner son avis » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-rac-02",
-      "prerequisiteId": "fr-lv-ce2-rac-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Raconter un album écouté et donner son avis » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-rac-03",
-      "prerequisiteId": "fr-lv-ce2-rac-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Raconter un album écouté et donner son avis » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-rac-04",
-      "prerequisiteId": "fr-lv-ce2-rac-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Raconter un album écouté et donner son avis » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-rac-04",
-      "prerequisiteId": "fr-lv-ce2-cohis-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Compter dans la langue suppose de reconnaître à l’oral les nombres jusqu’à 100"
-    },
-    {
-      "topicId": "fr-lv-cm1-rac-05",
-      "prerequisiteId": "fr-lv-ce2-rac-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Décrire une image en situant ses éléments » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-rac-06",
-      "prerequisiteId": "fr-lv-ce2-rac-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dire la date et raconter dans l’ordre (d’abord, ensuite) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-rac-07",
-      "prerequisiteId": "fr-lv-ce2-rac-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dire une partie d’une histoire répétitive (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-rac-08",
-      "prerequisiteId": "fr-lv-ce2-rac-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Raconter un album écouté et donner son avis » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-rac-08",
-      "prerequisiteId": "fr-lv-ce2-rac-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Résumer les moments clés d’une histoire suppose de savoir raconter des événements dans l’ordre (d’abord, ensuite)"
-    },
-    {
-      "topicId": "fr-lv-cm1-decr-02",
-      "prerequisiteId": "fr-lv-ce2-repro-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Parler de ses affaires avec des formules mémorisées » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-decr-05",
-      "prerequisiteId": "fr-lv-ce2-decr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dire ce qu’on fait et décrire quelqu’un (il, elle) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-ech-01",
-      "prerequisiteId": "fr-lv-ce2-ech-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Poser des questions dans un jeu (quelle heure est-il ?) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-ech-02",
-      "prerequisiteId": "fr-lv-ce2-ech-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Donner des consignes à un camarade dans un jeu de dessin » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-ech-03",
-      "prerequisiteId": "fr-lv-ce2-ech-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dire ce qui est permis ou interdit (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-ech-04",
-      "prerequisiteId": "fr-lv-ce2-ech-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Répondre avec une réponse courte » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-emo-01",
-      "prerequisiteId": "fr-lv-ce2-emo-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dire son ressenti pendant une activité » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-emo-01",
-      "prerequisiteId": "fr-lv-ce2-emo-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Exprimer ses émotions face à une découverte » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-emo-02",
-      "prerequisiteId": "fr-lv-ce2-emo-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Réagir avec des onomatopées et des phrases courtes (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-clar-01",
-      "prerequisiteId": "fr-lv-ce2-clar-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Épeler son prénom avec l’alphabet de la langue » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-clar-02",
-      "prerequisiteId": "fr-lv-ce2-clar-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Demander une précision ou de répéter » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-clar-03",
-      "prerequisiteId": "fr-lv-ce2-clar-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Demander comment se dit et s’épelle un mot (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-clar-04",
-      "prerequisiteId": "fr-lv-ce2-clar-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Expliquer autrement une consigne mal comprise (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-cont-01",
-      "prerequisiteId": "fr-lv-ce2-conv-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Aborder quelqu’un et prendre congé dans une saynète » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-cont-02",
-      "prerequisiteId": "fr-lv-ce2-conv-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Clore une conversation avec des expressions courantes (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-cont-03",
-      "prerequisiteId": "fr-lv-ce2-conv-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Utiliser des formules de politesse variées » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-cont-04",
-      "prerequisiteId": "fr-lv-ce2-conv-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Relancer l’échange par des questions (qui, quoi, quand) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-cont-05",
-      "prerequisiteId": "fr-lv-ce2-conv-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Relancer l’échange par des questions (qui, quoi, quand) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-ctex-01",
-      "prerequisiteId": "fr-lv-ce2-ceinf-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Trouver une information grâce aux images et aux mots connus » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-ctex-02",
-      "prerequisiteId": "fr-lv-ce2-cemot-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire des mots familiers déjà connus à l’oral » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-ctex-03",
-      "prerequisiteId": "fr-lv-ce2-cemot-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire les nombres écrits en lettres (one, five, ten) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-ctex-03",
-      "prerequisiteId": "fr-lv-ce2-cemot-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Lire les nombres en lettres prolonge le repérage des nombres, horaires et prix écrits vu au CE2"
-    },
-    {
-      "topicId": "fr-lv-cm1-ctex-04",
-      "prerequisiteId": "fr-lv-ce2-cemot-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître à l’écrit les mots de la famille » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-ctex-05",
-      "prerequisiteId": "fr-lv-ce2-cemot-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître à l’écrit les mots des activités quotidiennes (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-ctex-06",
-      "prerequisiteId": "fr-lv-ce2-ceinf-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître un type d’écrit à sa mise en forme (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-trame-01",
-      "prerequisiteId": "fr-lv-ce2-cemot-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître à l’écrit les mots de la famille » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-trame-02",
-      "prerequisiteId": "fr-lv-ce2-ceinf-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Relever des informations sur des journées d’enfants (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-ceagi-02",
-      "prerequisiteId": "fr-lv-ce2-ceinf-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Trouver une information grâce aux images et aux mots connus » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-ceagi-03",
-      "prerequisiteId": "fr-lv-ce2-coagi-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Suivre une suite de consignes pour fabriquer un objet » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-copie-01",
-      "prerequisiteId": "fr-lv-ce2-copie-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Prolonge « Recopier la date et des mots affichés » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
-    },
-    {
-      "topicId": "fr-lv-cm1-copie-01",
-      "prerequisiteId": "fr-lv-ce2-copie-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Prolonge « Recopier une phrase courte déjà travaillée » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
-    },
-    {
-      "topicId": "fr-lv-cm1-copie-02",
-      "prerequisiteId": "fr-lv-ce2-copie-03",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Prolonge « Écrire des mots connus sous la dictée et les épeler » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
-    },
-    {
-      "topicId": "fr-lv-cm1-erac-01",
-      "prerequisiteId": "fr-lv-ce2-rac-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Raconter un album écouté et donner son avis » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-erac-02",
-      "prerequisiteId": "fr-lv-ce2-copie-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Prolonge « Recopier la date et des mots affichés » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
-    },
-    {
-      "topicId": "fr-lv-cm1-erac-03",
-      "prerequisiteId": "fr-lv-ce2-copie-05",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Prolonge « Se présenter et se décrire par écrit (A1) » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
-    },
-    {
-      "topicId": "fr-lv-cm1-erac-03",
-      "prerequisiteId": "fr-lv-ce2-copie-04",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Prolonge « Écrire d’où l’on vient et où l’on vit (A1) » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
-    },
-    {
-      "topicId": "fr-lv-cm1-struc-03",
-      "prerequisiteId": "fr-lv-ce2-copie-07",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Prolonge « Écrire une carte de vœux avec des formules toutes faites » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
-    },
-    {
-      "topicId": "fr-lv-cm1-ecri-01",
-      "prerequisiteId": "fr-lv-ce2-copie-06",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Prolonge « Écrire ses goûts » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
-    },
-    {
-      "topicId": "fr-lv-cm1-ecri-02",
-      "prerequisiteId": "fr-lv-ce2-coop-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Dire par écrit son accord réutilise les formules d’accord pratiquées à l’oral au CE2 (« ok? », « all right »)"
-    },
-    {
-      "topicId": "fr-lv-cm1-cult-01",
-      "prerequisiteId": "fr-lv-ce2-cult-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Interrompre poliment pour dire qu’on ne comprend pas une tradition (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-cult-01",
-      "prerequisiteId": "fr-lv-ce2-cult-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer des différences culturelles : le repas de fête (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-expl-01",
-      "prerequisiteId": "fr-lv-ce2-expl-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Transmettre à l’adulte le besoin d’un camarade » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-expl-02",
-      "prerequisiteId": "fr-lv-ce2-expl-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Présenter quelqu’un sur une photo (« Look! Here is… ») » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-expl-03",
-      "prerequisiteId": "fr-lv-ce2-expl-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Présenter quelqu’un sur une photo (« Look! Here is… ») » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-expl-04",
-      "prerequisiteId": "fr-lv-ce2-coop-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Montrer sur une carte en présentant (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-coop-01",
-      "prerequisiteId": "fr-lv-ce2-coop-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Accueillir un nouvel élève (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-coop-02",
-      "prerequisiteId": "fr-lv-ce2-coop-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Animer un jeu de bingo avec des verbes d’action (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-coop-03",
-      "prerequisiteId": "fr-lv-ce2-coop-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Jouer le médiateur pour vérifier la compréhension (A1) » (CE2)"
-    },
-    {
-      "topicId": "fr-lv-cm1-coop-03",
-      "prerequisiteId": "fr-lv-ce2-coop-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Se répartir les tâches et demander l’accord » (CE2)"
+  "liens": [
+    {
+      "de": "fr-lv-ce2-cohis-01",
+      "vers": "fr-lv-cm1-cohis-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître à l’oral l’alphabet et les nombres jusqu’à 100 (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-cohis-03",
+      "vers": "fr-lv-cm1-cohis-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître les mots familiers d’une histoire (jours, nombres…) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-cohis-04",
+      "vers": "fr-lv-cm1-cohis-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer une émotion grâce à l’intonation de la phrase » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-cohis-02",
+      "vers": "fr-lv-cm1-cohis-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître des tournures apprises dans un témoignage (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-phon-01",
+      "vers": "fr-lv-cm1-cohis-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Entendre les marques du pluriel s’appuie sur les prononciations du pluriel (-s) travaillées au CE2"
+    },
+    {
+      "de": "fr-lv-ce2-comot-01",
+      "vers": "fr-lv-cm1-comsg-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre les formules d’accueil et les consignes du rituel » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-comot-02",
+      "vers": "fr-lv-cm1-comsg-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Les formules d’encouragement et de félicitations comprises au CE2 font partie des interactions courantes à repérer"
+    },
+    {
+      "de": "fr-lv-ce2-comot-07",
+      "vers": "fr-lv-cm1-comsg-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer des mots familiers : la date et la météo du jour » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-comot-03",
+      "vers": "fr-lv-cm1-comsg-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître les mots interrogatifs, dont « quand » (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-comot-04",
+      "vers": "fr-lv-cm1-comsg-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre qui parle et de qui l’on parle (pronoms, possessifs) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-comot-05",
+      "vers": "fr-lv-cm1-comsg-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre l’expression des préférences (préférer, mieux) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-comot-06",
+      "vers": "fr-lv-cm1-comsg-07",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître les émotions à l’intonation dans un dialogue » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-coagi-01",
+      "vers": "fr-lv-cm1-coagi-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Suivre une suite de consignes pour fabriquer un objet » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-coagi-03",
+      "vers": "fr-lv-cm1-coagi-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre ce qu’on peut ou ne peut pas faire (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-coagi-02",
+      "vers": "fr-lv-cm1-coagi-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Faire les gestes d’une comptine (mots de position) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-comot-07",
+      "vers": "fr-lv-cm1-coagi-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer des mots familiers : la date et la météo du jour » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-phon-01",
+      "vers": "fr-lv-cm1-phon-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Prononcer le pluriel et distinguer des sons proches » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-repro-02",
+      "vers": "fr-lv-cm1-phon-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire à voix haute une phrase déjà connue (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-phon-02",
+      "vers": "fr-lv-cm1-phon-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Marquer l’accent et le rythme des mots » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-decr-01",
+      "vers": "fr-lv-cm1-pres-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dire ce qu’on fait et décrire quelqu’un (il, elle) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-decr-01",
+      "vers": "fr-lv-cm1-pres-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dire ce qu’on fait et décrire quelqu’un (il, elle) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-decr-02",
+      "vers": "fr-lv-cm1-pres-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Décrire son emploi du temps et ses habitudes » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-decr-02",
+      "vers": "fr-lv-cm1-pres-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Décrire son emploi du temps et ses habitudes » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-rac-01",
+      "vers": "fr-lv-cm1-rac-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Raconter un album écouté et donner son avis » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-rac-01",
+      "vers": "fr-lv-cm1-rac-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Raconter un album écouté et donner son avis » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-rac-01",
+      "vers": "fr-lv-cm1-rac-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Raconter un album écouté et donner son avis » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-rac-01",
+      "vers": "fr-lv-cm1-rac-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Raconter un album écouté et donner son avis » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-cohis-01",
+      "vers": "fr-lv-cm1-rac-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Compter dans la langue suppose de reconnaître à l’oral les nombres jusqu’à 100"
+    },
+    {
+      "de": "fr-lv-ce2-rac-02",
+      "vers": "fr-lv-cm1-rac-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Décrire une image en situant ses éléments » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-rac-03",
+      "vers": "fr-lv-cm1-rac-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dire la date et raconter dans l’ordre (d’abord, ensuite) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-rac-04",
+      "vers": "fr-lv-cm1-rac-07",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dire une partie d’une histoire répétitive (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-rac-01",
+      "vers": "fr-lv-cm1-rac-08",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Raconter un album écouté et donner son avis » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-rac-03",
+      "vers": "fr-lv-cm1-rac-08",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Résumer les moments clés d’une histoire suppose de savoir raconter des événements dans l’ordre (d’abord, ensuite)"
+    },
+    {
+      "de": "fr-lv-ce2-repro-01",
+      "vers": "fr-lv-cm1-decr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Parler de ses affaires avec des formules mémorisées » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-decr-01",
+      "vers": "fr-lv-cm1-decr-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dire ce qu’on fait et décrire quelqu’un (il, elle) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-ech-01",
+      "vers": "fr-lv-cm1-ech-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Poser des questions dans un jeu (quelle heure est-il ?) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-ech-02",
+      "vers": "fr-lv-cm1-ech-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Donner des consignes à un camarade dans un jeu de dessin » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-ech-04",
+      "vers": "fr-lv-cm1-ech-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dire ce qui est permis ou interdit (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-ech-03",
+      "vers": "fr-lv-cm1-ech-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Répondre avec une réponse courte » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-emo-02",
+      "vers": "fr-lv-cm1-emo-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dire son ressenti pendant une activité » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-emo-01",
+      "vers": "fr-lv-cm1-emo-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Exprimer ses émotions face à une découverte » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-emo-03",
+      "vers": "fr-lv-cm1-emo-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Réagir avec des onomatopées et des phrases courtes (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-clar-02",
+      "vers": "fr-lv-cm1-clar-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Épeler son prénom avec l’alphabet de la langue » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-clar-01",
+      "vers": "fr-lv-cm1-clar-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Demander une précision ou de répéter » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-clar-03",
+      "vers": "fr-lv-cm1-clar-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Demander comment se dit et s’épelle un mot (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-clar-04",
+      "vers": "fr-lv-cm1-clar-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Expliquer autrement une consigne mal comprise (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-conv-01",
+      "vers": "fr-lv-cm1-cont-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Aborder quelqu’un et prendre congé dans une saynète » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-conv-04",
+      "vers": "fr-lv-cm1-cont-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Clore une conversation avec des expressions courantes (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-conv-02",
+      "vers": "fr-lv-cm1-cont-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Utiliser des formules de politesse variées » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-conv-03",
+      "vers": "fr-lv-cm1-cont-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Relancer l’échange par des questions (qui, quoi, quand) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-conv-03",
+      "vers": "fr-lv-cm1-cont-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Relancer l’échange par des questions (qui, quoi, quand) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-ceinf-01",
+      "vers": "fr-lv-cm1-ctex-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Trouver une information grâce aux images et aux mots connus » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-cemot-01",
+      "vers": "fr-lv-cm1-ctex-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire des mots familiers déjà connus à l’oral » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-cemot-02",
+      "vers": "fr-lv-cm1-ctex-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire les nombres écrits en lettres (one, five, ten) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-cemot-03",
+      "vers": "fr-lv-cm1-ctex-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Lire les nombres en lettres prolonge le repérage des nombres, horaires et prix écrits vu au CE2"
+    },
+    {
+      "de": "fr-lv-ce2-cemot-04",
+      "vers": "fr-lv-cm1-ctex-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître à l’écrit les mots de la famille » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-cemot-05",
+      "vers": "fr-lv-cm1-ctex-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître à l’écrit les mots des activités quotidiennes (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-ceinf-05",
+      "vers": "fr-lv-cm1-ctex-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître un type d’écrit à sa mise en forme (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-cemot-04",
+      "vers": "fr-lv-cm1-trame-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître à l’écrit les mots de la famille » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-ceinf-04",
+      "vers": "fr-lv-cm1-trame-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Relever des informations sur des journées d’enfants (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-ceinf-01",
+      "vers": "fr-lv-cm1-ceagi-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Trouver une information grâce aux images et aux mots connus » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-coagi-01",
+      "vers": "fr-lv-cm1-ceagi-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Suivre une suite de consignes pour fabriquer un objet » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-copie-01",
+      "vers": "fr-lv-cm1-copie-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Prolonge « Recopier la date et des mots affichés » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
+    },
+    {
+      "de": "fr-lv-ce2-copie-02",
+      "vers": "fr-lv-cm1-copie-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Prolonge « Recopier une phrase courte déjà travaillée » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
+    },
+    {
+      "de": "fr-lv-ce2-copie-03",
+      "vers": "fr-lv-cm1-copie-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Prolonge « Écrire des mots connus sous la dictée et les épeler » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
+    },
+    {
+      "de": "fr-lv-ce2-rac-01",
+      "vers": "fr-lv-cm1-erac-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Raconter un album écouté et donner son avis » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-copie-01",
+      "vers": "fr-lv-cm1-erac-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Prolonge « Recopier la date et des mots affichés » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
+    },
+    {
+      "de": "fr-lv-ce2-copie-05",
+      "vers": "fr-lv-cm1-erac-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Prolonge « Se présenter et se décrire par écrit (A1) » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
+    },
+    {
+      "de": "fr-lv-ce2-copie-04",
+      "vers": "fr-lv-cm1-erac-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Prolonge « Écrire d’où l’on vient et où l’on vit (A1) » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
+    },
+    {
+      "de": "fr-lv-ce2-copie-07",
+      "vers": "fr-lv-cm1-struc-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Prolonge « Écrire une carte de vœux avec des formules toutes faites » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
+    },
+    {
+      "de": "fr-lv-ce2-copie-06",
+      "vers": "fr-lv-cm1-ecri-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Prolonge « Écrire ses goûts » (CE2) ; le programme poursuit au CM1 l’expression écrite découverte au CE2"
+    },
+    {
+      "de": "fr-lv-ce2-coop-02",
+      "vers": "fr-lv-cm1-ecri-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Dire par écrit son accord réutilise les formules d’accord pratiquées à l’oral au CE2 (« ok? », « all right »)"
+    },
+    {
+      "de": "fr-lv-ce2-cult-02",
+      "vers": "fr-lv-cm1-cult-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Interrompre poliment pour dire qu’on ne comprend pas une tradition (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-cult-01",
+      "vers": "fr-lv-cm1-cult-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer des différences culturelles : le repas de fête (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-expl-01",
+      "vers": "fr-lv-cm1-expl-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Transmettre à l’adulte le besoin d’un camarade » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-expl-02",
+      "vers": "fr-lv-cm1-expl-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Présenter quelqu’un sur une photo (« Look! Here is… ») » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-expl-02",
+      "vers": "fr-lv-cm1-expl-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Présenter quelqu’un sur une photo (« Look! Here is… ») » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-coop-05",
+      "vers": "fr-lv-cm1-expl-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Montrer sur une carte en présentant (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-coop-01",
+      "vers": "fr-lv-cm1-coop-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Accueillir un nouvel élève (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-coop-04",
+      "vers": "fr-lv-cm1-coop-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Animer un jeu de bingo avec des verbes d’action (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-coop-03",
+      "vers": "fr-lv-cm1-coop-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Jouer le médiateur pour vérifier la compréhension (A1) » (CE2)"
+    },
+    {
+      "de": "fr-lv-ce2-coop-02",
+      "vers": "fr-lv-cm1-coop-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Se répartir les tâches et demander l’accord » (CE2)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "lv-c2": "2026-10-23",
     "lv-cm": "2026-10-23"

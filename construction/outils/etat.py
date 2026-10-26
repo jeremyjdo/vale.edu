@@ -20,7 +20,7 @@ from commun import DONNEES, EXTRACTIONS, PROGRAMMES, RACINE, SITE, charger, regi
 
 MANIFESTE = json.load(open(os.path.join(PROGRAMMES, "sources.json")))["sources"]
 reg = registre()
-notions, prereqs, par_fichier = charger()
+notions, liens, par_fichier = charger()
 by_id = {n["id"]: n for n in notions}
 prog_de = {n["id"]: n["programme"] for n in notions}
 fichiers_de = defaultdict(list)
@@ -28,11 +28,11 @@ extraction = {}
 for f, d in par_fichier.items():
     if "notions" in d:
         fichiers_de[d["programme"]].append(os.path.basename(f))
-        extraction[d["programme"]] = max(extraction.get(d["programme"], ""), d.get("extractedAt", ""))
-# Fichier d'origine de chaque prérequis
+        extraction[d["programme"]] = max(extraction.get(d["programme"], ""), d.get("extraitLe", ""))
+# Fichier d'origine de chaque lien
 origine = []
 for f, d in par_fichier.items():
-    origine += [(os.path.basename(f), p) for p in d.get("prerequisites", [])]
+    origine += [(os.path.basename(f), l) for l in d.get("liens", [])]
 
 
 def sha(path):
@@ -48,21 +48,21 @@ if "--programme" in sys.argv:
     print(f"# Impact d'une ré-extraction de {cle} ({info['subject']}, {', '.join(info['levels'])})\n")
     print(f"PDF : programmes-officiels/{info['file']} ({info['bo']})")
     print(f"Extraction : {', '.join(fichiers_de[cle]) or 'aucune'}, {len(ids)} notions, le {extraction.get(cle)}")
-    entrants = Counter((f, prog_de.get(p["topicId"])) for f, p in origine
-                       if p["prerequisiteId"] in ids and p["topicId"] not in ids)
-    sortants = Counter((f, prog_de.get(p["prerequisiteId"])) for f, p in origine
-                       if p["topicId"] in ids and p["prerequisiteId"] not in ids)
+    entrants = Counter((f, prog_de.get(l["vers"])) for f, l in origine
+                       if l["de"] in ids and l["vers"] not in ids)
+    sortants = Counter((f, prog_de.get(l["de"])) for f, l in origine
+                       if l["vers"] in ids and l["de"] not in ids)
     print("\nLiens d'autres programmes vers celui-ci (à refaire si les id changent) :")
     for (f, p), c in sorted(entrants.items()) or [(("—", "—"), 0)]:
         print(f"  - {f} : {c} lien(s) depuis {p}")
     print("Liens de celui-ci vers d'autres programmes (à refaire après la ré-extraction) :")
     for (f, p), c in sorted(sortants.items()) or [(("—", "—"), 0)]:
         print(f"  - {f} : {c} lien(s) vers {p}")
-    noms = {by_id[i]["name"] for i in ids}
+    noms = {by_id[i]["nom"] for i in ids}
     cites = Counter(n["programme"] for n in notions if n["programme"] != cle
-                    for pk in n.get("priorKnowledge", []) if any(nom in pk for nom in noms))
+                    for acquis in n.get("acquisAnterieurs", []) if any(nom in acquis for nom in noms))
     if cites:
-        print("priorKnowledge qui citent ses notions : " + ", ".join(f"{p} ({c})" for p, c in cites.most_common()))
+        print("acquisAnterieurs qui citent ses notions : " + ", ".join(f"{p} ({c})" for p, c in cites.most_common()))
     suivants = [k for k, v in reg.items() if v.get("follows") == cle]
     print(f"Programmes qui lui font suite (follows) : {', '.join(suivants) or 'aucun'}")
     print(f"Programme précédent : {info.get('follows') or 'aucun'}")
@@ -95,7 +95,7 @@ actions += [f"Générer le texte : python3 outils/preparer_pdf.py {r}" for r in 
 sans_manifeste = sorted(k for k, v in reg.items() if v["file"] not in MANIFESTE)
 a_extraire = [k for k in reg if k not in extraction and k not in sans_manifeste]
 perimes = Counter(n["programme"] for n in notions
-                  if n["source"].get("file") in MANIFESTE and n["source"].get("sha256") != MANIFESTE[n["source"]["file"]]["sha256"])
+                  if n["source"].get("fichier") in MANIFESTE and n["source"].get("sha256") != MANIFESTE[n["source"]["fichier"]]["sha256"])
 print(f"Programmes : {len(reg)} au registre, {len(extraction)} extraits, {len(a_extraire)} à extraire, "
       f"{len(perimes)} tiré(s) d'une ancienne version de leur PDF")
 actions += [f"Programme {k} : son PDF {reg[k]['file']} n'est pas dans le manifeste (preparer_pdf.py)" for k in sans_manifeste]
@@ -115,12 +115,12 @@ for f, d in par_fichier.items():
     for p, quand in cibles.items():
         if extraction.get(p) and (quand or "") < extraction[p]:
             a_relier.append((os.path.basename(f), f"{p} ré-extrait le {extraction[p]}"))
-casses = [(f, p) for f, p in origine if p["topicId"] not in by_id or p["prerequisiteId"] not in by_id]
+casses = [(f, l) for f, l in origine if l["vers"] not in by_id or l["de"] not in by_id]
 sans_suite = []
 for k, v in reg.items():
     precedent = v.get("follows")
     if k in extraction and precedent in extraction and not any(
-            prog_de.get(p["topicId"]) == k and prog_de.get(p["prerequisiteId"]) == precedent for p in prereqs):
+            prog_de.get(l["vers"]) == k and prog_de.get(l["de"]) == precedent for l in liens):
         sans_suite.append((k, precedent))
 print(f"Liaisons : {len(a_relier)} fichier(s) de liens à refaire, {len(casses)} lien(s) cassé(s), "
       f"{len(sans_suite)} programme(s) sans lien avec le précédent")

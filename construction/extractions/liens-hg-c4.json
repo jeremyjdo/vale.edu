@@ -1,696 +1,782 @@
 {
   "programme": "hg-c4",
-  "prerequisites": [
-    {
-      "topicId": "fr-hg-c4-comp-01",
-      "prerequisiteId": "fr-hg-6e-tps-04",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Situer les grandes périodes de l’histoire sur une frise chronologique » (6e)"
-    },
-    {
-      "topicId": "fr-hg-c4-comp-01",
-      "prerequisiteId": "fr-hg-6e-tps-05",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Le découpage du temps historique est une convention » (6e)"
-    },
-    {
-      "topicId": "fr-hg-c4-comp-02",
-      "prerequisiteId": "fr-hg-6e-plan-03",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Situer les continents, les océans et la France sur un planisphère » (6e)"
-    },
-    {
-      "topicId": "fr-hg-c4-comp-02",
-      "prerequisiteId": "fr-hg-6e-plan-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Les principaux parallèles et méridiens » (6e)"
-    },
-    {
-      "topicId": "fr-hg-c4-comp-02",
-      "prerequisiteId": "fr-hg-6e-plan-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Comparer des projections cartographiques et leurs déformations » (6e)"
-    },
-    {
-      "topicId": "fr-hg-c4-comp-03",
-      "prerequisiteId": "fr-hg-6e-mh-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Questionner une trace du passé et la fiabilité d’une source » (6e)"
-    },
-    {
-      "topicId": "fr-hg-c4-comp-04",
-      "prerequisiteId": "fr-hg-6e-mh-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Vérifier d’où vient une information trouvée en ligne prolonge le questionnement de la fiabilité d’une source (6e)"
-    },
-    {
-      "topicId": "fr-hg-c4-comp-05",
-      "prerequisiteId": "fr-hg-6e-mh-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Questionner une trace du passé et la fiabilité d’une source » (6e)"
-    },
-    {
-      "topicId": "fr-hg-c4-comp-06",
-      "prerequisiteId": "fr-hg-6e-mg-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Lire et réaliser une carte ou un schéma » (6e)"
-    },
-    {
-      "topicId": "fr-hg-c4-comp-06",
-      "prerequisiteId": "fr-hg-6e-mh-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Différencier un récit fictionnel d’un récit historique » (6e)"
-    },
-    {
-      "topicId": "fr-hg-5e-chr-01",
-      "prerequisiteId": "fr-hg-6e-tps-04",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": false,
-      "reason": "Le programme dit que la 5e prolonge la 6e, qui va de la préhistoire à l’Antiquité ; Situer le Moyen Âge à la suite de l’Antiquité parmi les grandes périodes"
-    },
-    {
-      "topicId": "fr-hg-5e-chr-01",
-      "prerequisiteId": "fr-hg-cm1-moy-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Situer le Moyen Âge sur une frise chronologique (476-1492) » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-5e-chr-02",
-      "prerequisiteId": "fr-hg-6e-ori-06",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que l’histoire du fait religieux abordée en 6e est complétée et approfondie ; Prolonge « La naissance du judaïsme, un premier monothéisme » (6e)"
-    },
-    {
-      "topicId": "fr-hg-5e-chr-03",
-      "prerequisiteId": "fr-hg-6e-gre-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Localiser l’espace méditerranéen, déjà fait en 6e pour le monde grec"
-    },
-    {
-      "topicId": "fr-hg-5e-feo-01",
-      "prerequisiteId": "fr-hg-6e-neo-03",
-      "strength": "soft",
-      "origin": "texte",
-      "continuation": false,
-      "reason": "Le programme dit que la conquête des terres reprend, après le Néolithique vu en 6e, le lien entre êtres humains et environnement ; Le défrichement et l’exploitation des campagnes reprennent le lien entre agriculture et environnement"
-    },
-    {
-      "topicId": "fr-hg-5e-feo-01",
-      "prerequisiteId": "fr-hg-cm1-moy-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La seigneurie et le château du seigneur » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-5e-feo-01",
-      "prerequisiteId": "fr-hg-cm1-moy-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "La domination des campagnes est aussi celle de l’Église : s’appuie sur le rôle de la paroisse vu au CM1"
-    },
-    {
-      "topicId": "fr-hg-5e-feo-02",
-      "prerequisiteId": "fr-hg-cm1-moy-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les modes de vie au Moyen Âge : seigneurs, paysans et habitants des villes » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-5e-ren-01",
-      "prerequisiteId": "fr-hg-cm1-exp-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les progrès techniques qui permettent les grandes explorations » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-5e-ren-01",
-      "prerequisiteId": "fr-hg-cm1-exp-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Localiser les premiers empires coloniaux en Amérique sur une carte » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-5e-ren-03",
-      "prerequisiteId": "fr-hg-cm1-mon-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "A découvert la Renaissance au CM1 avec François Ier, roi mécène"
-    },
-    {
-      "topicId": "fr-hg-5e-ren-04",
-      "prerequisiteId": "fr-hg-cm1-mon-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Henri IV ramène la paix après les guerres de religion » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-5e-ren-05",
-      "prerequisiteId": "fr-hg-cm1-mon-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que la figure royale du XVIe au XVIIe siècle a déjà été abordée au cycle 3 ; Prolonge « Situer les règnes de François Ier, Henri IV et Louis XIV sur une frise » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-5e-ren-05",
-      "prerequisiteId": "fr-hg-cm1-mon-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que la figure royale du XVIe au XVIIe siècle a déjà été abordée au cycle 3 ; Prolonge « François Ier, roi mécène de la Renaissance » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-5e-ren-05",
-      "prerequisiteId": "fr-hg-cm1-mon-03",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que la figure royale du XVIe au XVIIe siècle a déjà été abordée au cycle 3 ; Prolonge « Henri IV ramène la paix après les guerres de religion » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-5e-ren-05",
-      "prerequisiteId": "fr-hg-cm1-mon-04",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que la figure royale du XVIe au XVIIe siècle a déjà été abordée au cycle 3 ; Prolonge « Louis XIV, Versailles et la monarchie absolue » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-4e-lum-01",
-      "prerequisiteId": "fr-hg-cm1-exp-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La traite des esclaves et la vie dans les plantations » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-4e-lum-01",
-      "prerequisiteId": "fr-hg-cm1-exp-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les échanges avec les colonies et les denrées venues d’Amérique » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-4e-lum-02",
-      "prerequisiteId": "fr-hg-cm1-rev-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les idées des Lumières » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-4e-lum-03",
-      "prerequisiteId": "fr-hg-cm1-rev-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La Déclaration des droits de l’homme et du citoyen (26 août 1789) » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-4e-lum-03",
-      "prerequisiteId": "fr-hg-cm2-emp-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La chute du roi et la naissance de la République (1792) » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-4e-lum-04",
-      "prerequisiteId": "fr-hg-cm2-emp-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les réformes de Napoléon et la remise en cause d’acquis de la Révolution » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-4e-eum-01",
-      "prerequisiteId": "fr-hg-cm2-ind-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les progrès techniques du XIXe siècle et la vie quotidienne » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-4e-eum-02",
-      "prerequisiteId": "fr-hg-6e-peup-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Expliquer la croissance de la population européenne avec la natalité et la mortalité"
-    },
-    {
-      "topicId": "fr-hg-4e-eum-03",
-      "prerequisiteId": "fr-hg-cm2-ind-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Ouvriers et bourgeois dans la France du XIXe siècle » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-4e-eum-04",
-      "prerequisiteId": "fr-hg-cm2-repu-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Localiser l’empire colonial français au début du XXe siècle » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-4e-eum-06",
-      "prerequisiteId": "fr-hg-cm2-emp-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Le combat pour l’abolition de l’esclavage (1794-1802) » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-4e-eum-07",
-      "prerequisiteId": "fr-hg-cm2-ind-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Les progrès de la médecine (Pasteur) sont un premier exemple des avancées scientifiques du XIXe siècle"
-    },
-    {
-      "topicId": "fr-hg-4e-fxix-01",
-      "prerequisiteId": "fr-hg-cm2-emp-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La participation des Français et des Françaises à la vie politique » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-4e-fxix-01",
-      "prerequisiteId": "fr-hg-cm2-repu-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les grandes lois de la République (1848-1905) » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-4e-fxix-02",
-      "prerequisiteId": "fr-hg-cm2-repu-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les lieux, les symboles et les rites de la République » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-4e-fxix-02",
-      "prerequisiteId": "fr-hg-cm2-repu-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les grandes lois de la République (1848-1905) » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-4e-fxix-03",
-      "prerequisiteId": "fr-hg-cm2-ind-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Les conditions de vie des ouvrières et des bourgeoises s’inscrivent dans la société du XIXe siècle vue au CM2"
-    },
-    {
-      "topicId": "fr-hg-3e-gue-01",
-      "prerequisiteId": "fr-hg-cm2-pgm-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Une guerre qui mobilise toute la population, dont les femmes » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-gue-01",
-      "prerequisiteId": "fr-hg-cm2-pgm-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La vie des soldats sur le front » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-gue-01",
-      "prerequisiteId": "fr-hg-cm2-pgm-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Le bilan humain de la Première Guerre mondiale » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-gue-04",
-      "prerequisiteId": "fr-hg-cm2-sgm-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les grandes étapes de la Seconde Guerre mondiale en France » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-gue-04",
-      "prerequisiteId": "fr-hg-cm2-sgm-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Le bilan humain de la Seconde Guerre mondiale » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-gue-05",
-      "prerequisiteId": "fr-hg-cm2-sgm-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Le régime de Vichy et la persécution des Juifs et des Tsiganes » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-gue-06",
-      "prerequisiteId": "fr-hg-cm2-sgm-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La vie quotidienne sous l’Occupation » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-gue-06",
-      "prerequisiteId": "fr-hg-cm2-sgm-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La Résistance : le général de Gaulle ou Jean Moulin » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-gue-06",
-      "prerequisiteId": "fr-hg-cm2-sgm-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Le régime de Vichy et la persécution des Juifs et des Tsiganes » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-mon-03",
-      "prerequisiteId": "fr-hg-cm2-trans-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La France, actrice de la construction européenne » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-rep-01",
-      "prerequisiteId": "fr-hg-cm2-trans-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Une République sociale : réformes sociales et droits des femmes » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-rep-02",
-      "prerequisiteId": "fr-hg-cm2-trans-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Une République sociale : réformes sociales et droits des femmes » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-rep-03",
-      "prerequisiteId": "fr-hg-cm2-trans-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La fondation de la Ve République (1958) » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-rep-04",
-      "prerequisiteId": "fr-hg-cm2-trans-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les transformations de la société française depuis 1945 » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-5e-dem-01",
-      "prerequisiteId": "fr-hg-cm1-ineg-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Les ODD visent notamment l’accès de tous à l’eau, à la santé et à l’éducation, dont les inégalités sont vues au CM1"
-    },
-    {
-      "topicId": "fr-hg-5e-dem-02",
-      "prerequisiteId": "fr-hg-6e-peup-03",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que ce thème part des acquis de 6e sur le peuplement ; Prolonge « Deux foyers de peuplement : forte natalité ou fort vieillissement » (6e)"
-    },
-    {
-      "topicId": "fr-hg-5e-dem-02",
-      "prerequisiteId": "fr-hg-6e-peup-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que ce thème part des acquis de 6e sur le peuplement ; Prolonge « Localiser les grands foyers de peuplement et les flux migratoires » (6e)"
-    },
-    {
-      "topicId": "fr-hg-5e-dem-02",
-      "prerequisiteId": "fr-hg-6e-peup-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": false,
-      "reason": "Le programme dit que ce thème part des acquis de 6e sur le peuplement ; Utiliser natalité, mortalité et solde naturel pour décrire la croissance démographique"
-    },
-    {
-      "topicId": "fr-hg-5e-dem-03",
-      "prerequisiteId": "fr-hg-cm1-ineg-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les inégalités d’accès à l’eau, à la santé ou à l’éducation » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-5e-res-01",
-      "prerequisiteId": "fr-hg-cm2-eau-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « L’eau douce, une ressource limitée » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-5e-res-01",
-      "prerequisiteId": "fr-hg-cm2-eau-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les différents usages de l’eau en France » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-5e-res-02",
-      "prerequisiteId": "fr-hg-cm1-nour-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Localiser des pays à ration alimentaire très riche ou insuffisante » (CM1)"
-    },
-    {
-      "topicId": "fr-hg-5e-res-02",
-      "prerequisiteId": "fr-hg-cm1-nour-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Nourrir l’humanité suppose de comprendre comment un aliment est produit puis transformé"
-    },
-    {
-      "topicId": "fr-hg-5e-env-01",
-      "prerequisiteId": "fr-hg-6e-risq-04",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que ce thème remobilise les acquis de géographie du cycle 3 ; Prolonge « Le dérèglement climatique aggrave les risques naturels » (6e)"
-    },
-    {
-      "topicId": "fr-hg-5e-env-02",
-      "prerequisiteId": "fr-hg-6e-risq-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que ce thème remobilise les acquis de géographie du cycle 3 ; Prolonge « Qu’est-ce qu’un risque ? » (6e)"
-    },
-    {
-      "topicId": "fr-hg-5e-env-02",
-      "prerequisiteId": "fr-hg-6e-risq-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que ce thème remobilise les acquis de géographie du cycle 3 ; Prolonge « Risques naturels et risques anthropiques » (6e)"
-    },
-    {
-      "topicId": "fr-hg-5e-env-02",
-      "prerequisiteId": "fr-hg-6e-risq-05",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que ce thème remobilise les acquis de géographie du cycle 3 ; Prolonge « Des sociétés inégalement vulnérables face à un même risque » (6e)"
-    },
-    {
-      "topicId": "fr-hg-4e-urb-02",
-      "prerequisiteId": "fr-hg-6e-metro-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit qu’en 6e les élèves ont abordé la question urbaine à partir de « l’habiter » ; Prolonge « La notion de métropole » (6e)"
-    },
-    {
-      "topicId": "fr-hg-4e-urb-02",
-      "prerequisiteId": "fr-hg-6e-metro-02",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit qu’en 6e les élèves ont abordé la question urbaine à partir de « l’habiter » ; Prolonge « Les fonctions d’une métropole lues dans ses paysages » (6e)"
-    },
-    {
-      "topicId": "fr-hg-4e-urb-02",
-      "prerequisiteId": "fr-hg-6e-metro-03",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit qu’en 6e les élèves ont abordé la question urbaine à partir de « l’habiter » ; Prolonge « Des populations et des façons de vivre variées dans une métropole » (6e)"
-    },
-    {
-      "topicId": "fr-hg-4e-urb-03",
-      "prerequisiteId": "fr-hg-6e-metro-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Les grandes métropoles mondiales vues en 6e sont les villes les plus connectées"
-    },
-    {
-      "topicId": "fr-hg-4e-mob-01",
-      "prerequisiteId": "fr-hg-6e-peup-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Localiser les grands foyers de peuplement et les flux migratoires » (6e)"
-    },
-    {
-      "topicId": "fr-hg-4e-mond-01",
-      "prerequisiteId": "fr-hg-6e-plan-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Situer les océans et les continents sur un planisphère"
-    },
-    {
-      "topicId": "fr-hg-4e-mond-03",
-      "prerequisiteId": "fr-hg-cm1-ineg-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Localiser l’Afrique et ses grands ensembles parmi les aires régionales du monde"
-    },
-    {
-      "topicId": "fr-hg-3e-dyn-01",
-      "prerequisiteId": "fr-hg-6e-metro-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La notion de métropole » (6e)"
-    },
-    {
-      "topicId": "fr-hg-3e-dyn-01",
-      "prerequisiteId": "fr-hg-cm2-terr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les grandes villes et les grands axes de transport en France » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-dyn-03",
-      "prerequisiteId": "fr-hg-6e-contr-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « S’adapter aux contraintes : littoral menacé ou haute montagne » (6e)"
-    },
-    {
-      "topicId": "fr-hg-3e-dyn-03",
-      "prerequisiteId": "fr-hg-cm2-eau-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Localiser les massifs de montagne, espaces de faible densité"
-    },
-    {
-      "topicId": "fr-hg-3e-amen-01",
-      "prerequisiteId": "fr-hg-cm2-terr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Distinguer commune, département et Région, acteurs de l’aménagement"
-    },
-    {
-      "topicId": "fr-hg-3e-amen-01",
-      "prerequisiteId": "fr-hg-cm2-ue-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Un aménagement réalisé avec le soutien de l’UE près de l’école » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-amen-02",
-      "prerequisiteId": "fr-hg-cm2-terr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Les Régions françaises vues au CM2 incluent les Régions d’outre-mer"
-    },
-    {
-      "topicId": "fr-hg-3e-ue-01",
-      "prerequisiteId": "fr-hg-cm2-ue-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Ne pas confondre l’Europe et l’Union européenne » (CM2)"
-    },
-    {
-      "topicId": "fr-hg-3e-ue-01",
-      "prerequisiteId": "fr-hg-cm2-ue-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Localiser dix pays de l’Union européenne, dont les six fondateurs » (CM2)"
+  "liens": [
+    {
+      "de": "fr-hg-6e-tps-04",
+      "vers": "fr-hg-c4-comp-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Situer les grandes périodes de l’histoire sur une frise chronologique » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-tps-05",
+      "vers": "fr-hg-c4-comp-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Le découpage du temps historique est une convention » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-plan-03",
+      "vers": "fr-hg-c4-comp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Situer les continents, les océans et la France sur un planisphère » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-plan-02",
+      "vers": "fr-hg-c4-comp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Les principaux parallèles et méridiens » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-plan-01",
+      "vers": "fr-hg-c4-comp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Comparer des projections cartographiques et leurs déformations » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-mh-02",
+      "vers": "fr-hg-c4-comp-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Questionner une trace du passé et la fiabilité d’une source » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-mh-02",
+      "vers": "fr-hg-c4-comp-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Vérifier d’où vient une information trouvée en ligne prolonge le questionnement de la fiabilité d’une source (6e)"
+    },
+    {
+      "de": "fr-hg-6e-mh-02",
+      "vers": "fr-hg-c4-comp-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Questionner une trace du passé et la fiabilité d’une source » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-mg-01",
+      "vers": "fr-hg-c4-comp-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Lire et réaliser une carte ou un schéma » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-mh-01",
+      "vers": "fr-hg-c4-comp-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que les compétences travaillées au cycle 3 sont approfondies au cycle 4 ; Prolonge « Différencier un récit fictionnel d’un récit historique » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-tps-04",
+      "vers": "fr-hg-5e-chr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": false,
+      "raison": "Le programme dit que la 5e prolonge la 6e, qui va de la préhistoire à l’Antiquité ; Situer le Moyen Âge à la suite de l’Antiquité parmi les grandes périodes"
+    },
+    {
+      "de": "fr-hg-cm1-moy-01",
+      "vers": "fr-hg-5e-chr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Situer le Moyen Âge sur une frise chronologique (476-1492) » (CM1)"
+    },
+    {
+      "de": "fr-hg-6e-ori-06",
+      "vers": "fr-hg-5e-chr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que l’histoire du fait religieux abordée en 6e est complétée et approfondie ; Prolonge « La naissance du judaïsme, un premier monothéisme » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-gre-01",
+      "vers": "fr-hg-5e-chr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Localiser l’espace méditerranéen, déjà fait en 6e pour le monde grec"
+    },
+    {
+      "de": "fr-hg-6e-neo-03",
+      "vers": "fr-hg-5e-feo-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "texte",
+      "continuite": false,
+      "raison": "Le programme dit que la conquête des terres reprend, après le Néolithique vu en 6e, le lien entre êtres humains et environnement ; Le défrichement et l’exploitation des campagnes reprennent le lien entre agriculture et environnement"
+    },
+    {
+      "de": "fr-hg-cm1-moy-02",
+      "vers": "fr-hg-5e-feo-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La seigneurie et le château du seigneur » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-moy-04",
+      "vers": "fr-hg-5e-feo-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "La domination des campagnes est aussi celle de l’Église : s’appuie sur le rôle de la paroisse vu au CM1"
+    },
+    {
+      "de": "fr-hg-cm1-moy-03",
+      "vers": "fr-hg-5e-feo-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les modes de vie au Moyen Âge : seigneurs, paysans et habitants des villes » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-exp-01",
+      "vers": "fr-hg-5e-ren-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les progrès techniques qui permettent les grandes explorations » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-exp-02",
+      "vers": "fr-hg-5e-ren-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Localiser les premiers empires coloniaux en Amérique sur une carte » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-mon-02",
+      "vers": "fr-hg-5e-ren-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "A découvert la Renaissance au CM1 avec François Ier, roi mécène"
+    },
+    {
+      "de": "fr-hg-cm1-mon-03",
+      "vers": "fr-hg-5e-ren-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Henri IV ramène la paix après les guerres de religion » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-mon-01",
+      "vers": "fr-hg-5e-ren-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que la figure royale du XVIe au XVIIe siècle a déjà été abordée au cycle 3 ; Prolonge « Situer les règnes de François Ier, Henri IV et Louis XIV sur une frise » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-mon-02",
+      "vers": "fr-hg-5e-ren-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que la figure royale du XVIe au XVIIe siècle a déjà été abordée au cycle 3 ; Prolonge « François Ier, roi mécène de la Renaissance » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-mon-03",
+      "vers": "fr-hg-5e-ren-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que la figure royale du XVIe au XVIIe siècle a déjà été abordée au cycle 3 ; Prolonge « Henri IV ramène la paix après les guerres de religion » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-mon-04",
+      "vers": "fr-hg-5e-ren-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que la figure royale du XVIe au XVIIe siècle a déjà été abordée au cycle 3 ; Prolonge « Louis XIV, Versailles et la monarchie absolue » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-exp-04",
+      "vers": "fr-hg-4e-lum-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La traite des esclaves et la vie dans les plantations » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-exp-05",
+      "vers": "fr-hg-4e-lum-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les échanges avec les colonies et les denrées venues d’Amérique » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-rev-02",
+      "vers": "fr-hg-4e-lum-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les idées des Lumières » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-rev-05",
+      "vers": "fr-hg-4e-lum-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La Déclaration des droits de l’homme et du citoyen (26 août 1789) » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm2-emp-02",
+      "vers": "fr-hg-4e-lum-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La chute du roi et la naissance de la République (1792) » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-emp-05",
+      "vers": "fr-hg-4e-lum-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les réformes de Napoléon et la remise en cause d’acquis de la Révolution » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-ind-01",
+      "vers": "fr-hg-4e-eum-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les progrès techniques du XIXe siècle et la vie quotidienne » (CM2)"
+    },
+    {
+      "de": "fr-hg-6e-peup-02",
+      "vers": "fr-hg-4e-eum-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Expliquer la croissance de la population européenne avec la natalité et la mortalité"
+    },
+    {
+      "de": "fr-hg-cm2-ind-03",
+      "vers": "fr-hg-4e-eum-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Ouvriers et bourgeois dans la France du XIXe siècle » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-repu-03",
+      "vers": "fr-hg-4e-eum-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Localiser l’empire colonial français au début du XXe siècle » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-emp-03",
+      "vers": "fr-hg-4e-eum-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Le combat pour l’abolition de l’esclavage (1794-1802) » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-ind-02",
+      "vers": "fr-hg-4e-eum-07",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Les progrès de la médecine (Pasteur) sont un premier exemple des avancées scientifiques du XIXe siècle"
+    },
+    {
+      "de": "fr-hg-cm2-emp-01",
+      "vers": "fr-hg-4e-fxix-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La participation des Français et des Françaises à la vie politique » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-repu-01",
+      "vers": "fr-hg-4e-fxix-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les grandes lois de la République (1848-1905) » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-repu-02",
+      "vers": "fr-hg-4e-fxix-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les lieux, les symboles et les rites de la République » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-repu-01",
+      "vers": "fr-hg-4e-fxix-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les grandes lois de la République (1848-1905) » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-ind-03",
+      "vers": "fr-hg-4e-fxix-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Les conditions de vie des ouvrières et des bourgeoises s’inscrivent dans la société du XIXe siècle vue au CM2"
+    },
+    {
+      "de": "fr-hg-cm2-pgm-04",
+      "vers": "fr-hg-3e-gue-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Une guerre qui mobilise toute la population, dont les femmes » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-pgm-03",
+      "vers": "fr-hg-3e-gue-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La vie des soldats sur le front » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-pgm-05",
+      "vers": "fr-hg-3e-gue-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Le bilan humain de la Première Guerre mondiale » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-sgm-01",
+      "vers": "fr-hg-3e-gue-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les grandes étapes de la Seconde Guerre mondiale en France » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-sgm-05",
+      "vers": "fr-hg-3e-gue-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Le bilan humain de la Seconde Guerre mondiale » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-sgm-04",
+      "vers": "fr-hg-3e-gue-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Le régime de Vichy et la persécution des Juifs et des Tsiganes » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-sgm-02",
+      "vers": "fr-hg-3e-gue-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La vie quotidienne sous l’Occupation » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-sgm-03",
+      "vers": "fr-hg-3e-gue-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La Résistance : le général de Gaulle ou Jean Moulin » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-sgm-04",
+      "vers": "fr-hg-3e-gue-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Le régime de Vichy et la persécution des Juifs et des Tsiganes » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-trans-04",
+      "vers": "fr-hg-3e-mon-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La France, actrice de la construction européenne » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-trans-01",
+      "vers": "fr-hg-3e-rep-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Une République sociale : réformes sociales et droits des femmes » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-trans-01",
+      "vers": "fr-hg-3e-rep-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Une République sociale : réformes sociales et droits des femmes » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-trans-02",
+      "vers": "fr-hg-3e-rep-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La fondation de la Ve République (1958) » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-trans-03",
+      "vers": "fr-hg-3e-rep-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les transformations de la société française depuis 1945 » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm1-ineg-01",
+      "vers": "fr-hg-5e-dem-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Les ODD visent notamment l’accès de tous à l’eau, à la santé et à l’éducation, dont les inégalités sont vues au CM1"
+    },
+    {
+      "de": "fr-hg-6e-peup-03",
+      "vers": "fr-hg-5e-dem-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que ce thème part des acquis de 6e sur le peuplement ; Prolonge « Deux foyers de peuplement : forte natalité ou fort vieillissement » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-peup-01",
+      "vers": "fr-hg-5e-dem-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que ce thème part des acquis de 6e sur le peuplement ; Prolonge « Localiser les grands foyers de peuplement et les flux migratoires » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-peup-02",
+      "vers": "fr-hg-5e-dem-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": false,
+      "raison": "Le programme dit que ce thème part des acquis de 6e sur le peuplement ; Utiliser natalité, mortalité et solde naturel pour décrire la croissance démographique"
+    },
+    {
+      "de": "fr-hg-cm1-ineg-01",
+      "vers": "fr-hg-5e-dem-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les inégalités d’accès à l’eau, à la santé ou à l’éducation » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm2-eau-01",
+      "vers": "fr-hg-5e-res-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « L’eau douce, une ressource limitée » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-eau-02",
+      "vers": "fr-hg-5e-res-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les différents usages de l’eau en France » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm1-nour-02",
+      "vers": "fr-hg-5e-res-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Localiser des pays à ration alimentaire très riche ou insuffisante » (CM1)"
+    },
+    {
+      "de": "fr-hg-cm1-nour-04",
+      "vers": "fr-hg-5e-res-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Nourrir l’humanité suppose de comprendre comment un aliment est produit puis transformé"
+    },
+    {
+      "de": "fr-hg-6e-risq-04",
+      "vers": "fr-hg-5e-env-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que ce thème remobilise les acquis de géographie du cycle 3 ; Prolonge « Le dérèglement climatique aggrave les risques naturels » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-risq-01",
+      "vers": "fr-hg-5e-env-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que ce thème remobilise les acquis de géographie du cycle 3 ; Prolonge « Qu’est-ce qu’un risque ? » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-risq-02",
+      "vers": "fr-hg-5e-env-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que ce thème remobilise les acquis de géographie du cycle 3 ; Prolonge « Risques naturels et risques anthropiques » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-risq-05",
+      "vers": "fr-hg-5e-env-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que ce thème remobilise les acquis de géographie du cycle 3 ; Prolonge « Des sociétés inégalement vulnérables face à un même risque » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-metro-01",
+      "vers": "fr-hg-4e-urb-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit qu’en 6e les élèves ont abordé la question urbaine à partir de « l’habiter » ; Prolonge « La notion de métropole » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-metro-02",
+      "vers": "fr-hg-4e-urb-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit qu’en 6e les élèves ont abordé la question urbaine à partir de « l’habiter » ; Prolonge « Les fonctions d’une métropole lues dans ses paysages » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-metro-03",
+      "vers": "fr-hg-4e-urb-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit qu’en 6e les élèves ont abordé la question urbaine à partir de « l’habiter » ; Prolonge « Des populations et des façons de vivre variées dans une métropole » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-metro-04",
+      "vers": "fr-hg-4e-urb-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Les grandes métropoles mondiales vues en 6e sont les villes les plus connectées"
+    },
+    {
+      "de": "fr-hg-6e-peup-01",
+      "vers": "fr-hg-4e-mob-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Localiser les grands foyers de peuplement et les flux migratoires » (6e)"
+    },
+    {
+      "de": "fr-hg-6e-plan-03",
+      "vers": "fr-hg-4e-mond-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Situer les océans et les continents sur un planisphère"
+    },
+    {
+      "de": "fr-hg-cm1-ineg-02",
+      "vers": "fr-hg-4e-mond-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Localiser l’Afrique et ses grands ensembles parmi les aires régionales du monde"
+    },
+    {
+      "de": "fr-hg-6e-metro-01",
+      "vers": "fr-hg-3e-dyn-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La notion de métropole » (6e)"
+    },
+    {
+      "de": "fr-hg-cm2-terr-01",
+      "vers": "fr-hg-3e-dyn-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les grandes villes et les grands axes de transport en France » (CM2)"
+    },
+    {
+      "de": "fr-hg-6e-contr-04",
+      "vers": "fr-hg-3e-dyn-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « S’adapter aux contraintes : littoral menacé ou haute montagne » (6e)"
+    },
+    {
+      "de": "fr-hg-cm2-eau-05",
+      "vers": "fr-hg-3e-dyn-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Localiser les massifs de montagne, espaces de faible densité"
+    },
+    {
+      "de": "fr-hg-cm2-terr-02",
+      "vers": "fr-hg-3e-amen-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Distinguer commune, département et Région, acteurs de l’aménagement"
+    },
+    {
+      "de": "fr-hg-cm2-ue-03",
+      "vers": "fr-hg-3e-amen-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Un aménagement réalisé avec le soutien de l’UE près de l’école » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-terr-03",
+      "vers": "fr-hg-3e-amen-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Les Régions françaises vues au CM2 incluent les Régions d’outre-mer"
+    },
+    {
+      "de": "fr-hg-cm2-ue-01",
+      "vers": "fr-hg-3e-ue-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Ne pas confondre l’Europe et l’Union européenne » (CM2)"
+    },
+    {
+      "de": "fr-hg-cm2-ue-02",
+      "vers": "fr-hg-3e-ue-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Localiser dix pays de l’Union européenne, dont les six fondateurs » (CM2)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "hg-c3": "2026-10-23",
     "hg-c4": "2026-10-23"

@@ -1,176 +1,197 @@
 {
   "programme": "em-c2",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-em-c2-cha-01",
-      "prerequisiteId": "fr-art-gs-ecou-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer des éléments musicaux dans une œuvre » (GS) : rechanter un motif mélodique entendu"
+      "de": "fr-art-gs-ecou-02",
+      "vers": "fr-em-c2-cha-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer des éléments musicaux dans une œuvre » (GS) : rechanter un motif mélodique entendu"
     },
     {
-      "topicId": "fr-em-c2-cha-01",
-      "prerequisiteId": "fr-art-ms-instr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reproduire un rythme simple en groupe » (MS)"
+      "de": "fr-art-ms-instr-03",
+      "vers": "fr-em-c2-cha-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reproduire un rythme simple en groupe » (MS)"
     },
     {
-      "topicId": "fr-em-c2-cha-03",
-      "prerequisiteId": "fr-art-gs-voix-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Connaitre au moins dix comptines ou chants » (GS)"
+      "de": "fr-art-gs-voix-03",
+      "vers": "fr-em-c2-cha-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Connaitre au moins dix comptines ou chants » (GS)"
     },
     {
-      "topicId": "fr-em-c2-cha-04",
-      "prerequisiteId": "fr-art-gs-voix-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Chanter avec les autres en respectant le tempo et les nuances » (GS)"
+      "de": "fr-art-gs-voix-02",
+      "vers": "fr-em-c2-cha-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Chanter avec les autres en respectant le tempo et les nuances » (GS)"
     },
     {
-      "topicId": "fr-em-c2-cha-05",
-      "prerequisiteId": "fr-art-gs-prat-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Enchainer des émotions avec le corps et la voix » (GS)"
+      "de": "fr-art-gs-prat-01",
+      "vers": "fr-em-c2-cha-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Enchainer des émotions avec le corps et la voix » (GS)"
     },
     {
-      "topicId": "fr-em-c2-cha-05",
-      "prerequisiteId": "fr-art-ms-ecou-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Bouger en suivant une musique (MS) prépare les gestes qui accompagnent le chant"
+      "de": "fr-art-ms-ecou-01",
+      "vers": "fr-em-c2-cha-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Bouger en suivant une musique (MS) prépare les gestes qui accompagnent le chant"
     },
     {
-      "topicId": "fr-em-c2-cha-06",
-      "prerequisiteId": "fr-art-ps-voix-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Chanter de façon audible et compréhensible » (PS) : articuler pour être compris"
+      "de": "fr-art-ps-voix-02",
+      "vers": "fr-em-c2-cha-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Chanter de façon audible et compréhensible » (PS) : articuler pour être compris"
     },
     {
-      "topicId": "fr-em-c2-cha-07",
-      "prerequisiteId": "fr-art-gs-voix-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Inventer avec sa voix » (GS)"
+      "de": "fr-art-gs-voix-01",
+      "vers": "fr-em-c2-cha-07",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Inventer avec sa voix » (GS)"
     },
     {
-      "topicId": "fr-em-c2-cha-08",
-      "prerequisiteId": "fr-art-ms-voix-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Nommer fort, doux, aigu, grave suppose d’avoir produit ces sons avec sa voix (MS)"
+      "de": "fr-art-ms-voix-01",
+      "vers": "fr-em-c2-cha-08",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Nommer fort, doux, aigu, grave suppose d’avoir produit ces sons avec sa voix (MS)"
     },
     {
-      "topicId": "fr-em-c2-eco-01",
-      "prerequisiteId": "fr-art-gs-ecou-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer des éléments musicaux dans une œuvre » (GS)"
+      "de": "fr-art-gs-ecou-02",
+      "vers": "fr-em-c2-eco-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer des éléments musicaux dans une œuvre » (GS)"
     },
     {
-      "topicId": "fr-em-c2-eco-02",
-      "prerequisiteId": "fr-art-gs-ecou-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer des éléments musicaux dans une œuvre » (GS)"
+      "de": "fr-art-gs-ecou-02",
+      "vers": "fr-em-c2-eco-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer des éléments musicaux dans une œuvre » (GS)"
     },
     {
-      "topicId": "fr-em-c2-eco-03",
-      "prerequisiteId": "fr-art-gs-ecou-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer des éléments musicaux dans une œuvre » (GS)"
+      "de": "fr-art-gs-ecou-02",
+      "vers": "fr-em-c2-eco-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer des éléments musicaux dans une œuvre » (GS)"
     },
     {
-      "topicId": "fr-em-c2-eco-04",
-      "prerequisiteId": "fr-art-gs-ecou-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Décrire le rythme (lent, rapide) et les nuances en GS amorce le lexique musical"
+      "de": "fr-art-gs-ecou-02",
+      "vers": "fr-em-c2-eco-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Décrire le rythme (lent, rapide) et les nuances en GS amorce le lexique musical"
     },
     {
-      "topicId": "fr-em-c2-eco-05",
-      "prerequisiteId": "fr-art-gs-ecou-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Connaitre au moins trois œuvres musicales du patrimoine » (GS)"
+      "de": "fr-art-gs-ecou-03",
+      "vers": "fr-em-c2-eco-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Connaitre au moins trois œuvres musicales du patrimoine » (GS)"
     },
     {
-      "topicId": "fr-em-c2-exp-01",
-      "prerequisiteId": "fr-art-gs-instr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Explorer le lien entre le son et le geste » (GS)"
+      "de": "fr-art-gs-instr-01",
+      "vers": "fr-em-c2-exp-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Explorer le lien entre le son et le geste » (GS)"
     },
     {
-      "topicId": "fr-em-c2-exp-02",
-      "prerequisiteId": "fr-art-gs-ecou-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Traduire la musique en dessin » (GS)"
+      "de": "fr-art-gs-ecou-01",
+      "vers": "fr-em-c2-exp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Traduire la musique en dessin » (GS)"
     },
     {
-      "topicId": "fr-em-c2-exp-03",
-      "prerequisiteId": "fr-art-gs-instr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Créer un paysage sonore » (GS)"
+      "de": "fr-art-gs-instr-02",
+      "vers": "fr-em-c2-exp-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Créer un paysage sonore » (GS)"
     },
     {
-      "topicId": "fr-em-c2-exp-04",
-      "prerequisiteId": "fr-art-gs-voix-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Chanter avec les autres en respectant le tempo et les nuances » (GS) : trouver sa place dans un collectif chantant"
+      "de": "fr-art-gs-voix-02",
+      "vers": "fr-em-c2-exp-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Chanter avec les autres en respectant le tempo et les nuances » (GS) : trouver sa place dans un collectif chantant"
     },
     {
-      "topicId": "fr-em-c2-ech-01",
-      "prerequisiteId": "fr-art-ms-ecou-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dire ses émotions après l’écoute d’une musique » (MS)"
+      "de": "fr-art-ms-ecou-02",
+      "vers": "fr-em-c2-ech-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dire ses émotions après l’écoute d’une musique » (MS)"
     },
     {
-      "topicId": "fr-em-c2-ech-02",
-      "prerequisiteId": "fr-art-ms-spec-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Dire ce que l’on a aimé dans un spectacle et écouter les autres » (MS)"
+      "de": "fr-art-ms-spec-02",
+      "vers": "fr-em-c2-ech-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Dire ce que l’on a aimé dans un spectacle et écouter les autres » (MS)"
     },
     {
-      "topicId": "fr-em-c2-ech-03",
-      "prerequisiteId": "fr-art-gs-instr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Créer collectivement une production musicale » (GS)"
+      "de": "fr-art-gs-instr-03",
+      "vers": "fr-em-c2-ech-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Créer collectivement une production musicale » (GS)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "arts-c1": "2026-10-23",
     "em-c2": "2026-10-23"

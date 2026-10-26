@@ -1,208 +1,233 @@
 {
   "programme": "hg-c2",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-hg-cp-nat-01",
-      "prerequisiteId": "fr-rep-ps-tps-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Identifier les principaux moments d’une journée » (PS) : distinguer le jour et la nuit avant d’expliquer leur alternance"
+      "de": "fr-rep-ps-tps-02",
+      "vers": "fr-hg-cp-nat-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Identifier les principaux moments d’une journée » (PS) : distinguer le jour et la nuit avant d’expliquer leur alternance"
     },
     {
-      "topicId": "fr-hg-cp-nat-02",
-      "prerequisiteId": "fr-rep-gs-tps-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Connaître les saisons » (GS)"
+      "de": "fr-rep-gs-tps-06",
+      "vers": "fr-hg-cp-nat-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Connaître les saisons » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-cal-01",
-      "prerequisiteId": "fr-rep-ms-tps-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Savoir que la semaine est une suite de sept jours » (MS)"
+      "de": "fr-rep-ms-tps-03",
+      "vers": "fr-hg-cp-cal-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Savoir que la semaine est une suite de sept jours » (MS)"
     },
     {
-      "topicId": "fr-hg-cp-cal-02",
-      "prerequisiteId": "fr-rep-gs-tps-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Situer un évènement dans la semaine » (GS)"
+      "de": "fr-rep-gs-tps-01",
+      "vers": "fr-hg-cp-cal-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Situer un évènement dans la semaine » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-cal-03",
-      "prerequisiteId": "fr-rep-gs-tps-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Nommer la plupart des mois de l’année » (GS)"
+      "de": "fr-rep-gs-tps-05",
+      "vers": "fr-hg-cp-cal-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Nommer la plupart des mois de l’année » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-cal-04",
-      "prerequisiteId": "fr-rep-gs-tps-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Énoncer la date » (GS)"
+      "de": "fr-rep-gs-tps-03",
+      "vers": "fr-hg-cp-cal-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Énoncer la date » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-cal-05",
-      "prerequisiteId": "fr-rep-gs-dur-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Organiser son activité dans un temps imparti » (GS) : utiliser un sablier"
+      "de": "fr-rep-gs-dur-01",
+      "vers": "fr-hg-cp-cal-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Organiser son activité dans un temps imparti » (GS) : utiliser un sablier"
     },
     {
-      "topicId": "fr-hg-cp-cal-05",
-      "prerequisiteId": "fr-rep-gs-dur-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Mesurer le temps suppose de savoir d’abord comparer des durées (GS)"
+      "de": "fr-rep-gs-dur-02",
+      "vers": "fr-hg-cp-cal-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Mesurer le temps suppose de savoir d’abord comparer des durées (GS)"
     },
     {
-      "topicId": "fr-hg-cp-sit-01",
-      "prerequisiteId": "fr-rep-gs-chr-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Relater des évènements en exprimant succession, antériorité et simultanéité » (GS)"
+      "de": "fr-rep-gs-chr-04",
+      "vers": "fr-hg-cp-sit-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Relater des évènements en exprimant succession, antériorité et simultanéité » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-sit-02",
-      "prerequisiteId": "fr-rep-gs-tps-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Se situer dans l’année grâce à des mois repères » (GS)"
+      "de": "fr-rep-gs-tps-04",
+      "vers": "fr-hg-cp-sit-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Se situer dans l’année grâce à des mois repères » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-sit-03",
-      "prerequisiteId": "fr-rep-gs-dur-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre qu’il existe un passé très éloigné » (GS)"
+      "de": "fr-rep-gs-dur-03",
+      "vers": "fr-hg-cp-sit-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre qu’il existe un passé très éloigné » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-sit-04",
-      "prerequisiteId": "fr-rep-gs-chr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Ordonner des évènements passés de l’année scolaire » (GS)"
+      "de": "fr-rep-gs-chr-03",
+      "vers": "fr-hg-cp-sit-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Ordonner des évènements passés de l’année scolaire » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-ecol-01",
-      "prerequisiteId": "fr-rep-gs-exp-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Se repérer par rapport à son corps : gauche et droite » (GS)"
+      "de": "fr-rep-gs-exp-03",
+      "vers": "fr-hg-cp-ecol-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Se repérer par rapport à son corps : gauche et droite » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-ecol-01",
-      "prerequisiteId": "fr-rep-gs-exp-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Décrire la place d’un objet parmi d’autres (GS) aide à situer les éléments de la classe les uns par rapport aux autres"
+      "de": "fr-rep-gs-exp-02",
+      "vers": "fr-hg-cp-ecol-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Décrire la place d’un objet parmi d’autres (GS) aide à situer les éléments de la classe les uns par rapport aux autres"
     },
     {
-      "topicId": "fr-hg-cp-ecol-02",
-      "prerequisiteId": "fr-rep-ps-env-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Explorer les lieux de l’école » (PS)"
+      "de": "fr-rep-ps-env-01",
+      "vers": "fr-hg-cp-ecol-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Explorer les lieux de l’école » (PS)"
     },
     {
-      "topicId": "fr-hg-cp-ecol-02",
-      "prerequisiteId": "fr-rep-ps-exp-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Aller déposer un objet à la cantine, au dortoir ou dans la cour (PS) fait connaître l’usage des lieux"
+      "de": "fr-rep-ps-exp-05",
+      "vers": "fr-hg-cp-ecol-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Aller déposer un objet à la cantine, au dortoir ou dans la cour (PS) fait connaître l’usage des lieux"
     },
     {
-      "topicId": "fr-hg-cp-ecol-03",
-      "prerequisiteId": "fr-rep-gs-rpr-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Représenter divers éléments sur un plan » (GS)"
+      "de": "fr-rep-gs-rpr-06",
+      "vers": "fr-hg-cp-ecol-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Représenter divers éléments sur un plan » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-ecol-04",
-      "prerequisiteId": "fr-rep-gs-rpr-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Représenter les lieux autour de l’école par des photos et des dessins (GS) prépare à les reconnaître sous divers angles"
+      "de": "fr-rep-gs-rpr-02",
+      "vers": "fr-hg-cp-ecol-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Représenter les lieux autour de l’école par des photos et des dessins (GS) prépare à les reconnaître sous divers angles"
     },
     {
-      "topicId": "fr-hg-cp-ecol-05",
-      "prerequisiteId": "fr-rep-gs-rpr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reproduire un parcours sur un plan » (GS)"
+      "de": "fr-rep-gs-rpr-01",
+      "vers": "fr-hg-cp-ecol-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reproduire un parcours sur un plan » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-ecol-05",
-      "prerequisiteId": "fr-rep-gs-exp-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Suivre un trajet dans l’école en s’aidant d’un dessin ou d’un codage (GS)"
+      "de": "fr-rep-gs-exp-04",
+      "vers": "fr-hg-cp-ecol-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Suivre un trajet dans l’école en s’aidant d’un dessin ou d’un codage (GS)"
     },
     {
-      "topicId": "fr-hg-cp-ecol-06",
-      "prerequisiteId": "fr-rep-gs-rpr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Raconter de mémoire un trajet connu » (GS)"
+      "de": "fr-rep-gs-rpr-03",
+      "vers": "fr-hg-cp-ecol-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Raconter de mémoire un trajet connu » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-ecol-06",
-      "prerequisiteId": "fr-rep-gs-env-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Les repères du trajet (bâtiments publics, équipements) s’appuient sur les lieux du quartier connus en GS"
+      "de": "fr-rep-gs-env-01",
+      "vers": "fr-hg-cp-ecol-06",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Les repères du trajet (bâtiments publics, équipements) s’appuient sur les lieux du quartier connus en GS"
     },
     {
-      "topicId": "fr-hg-cp-mond-01",
-      "prerequisiteId": "fr-rep-gs-exp-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître quelques espaces géographiques sur un planisphère » (GS)"
+      "de": "fr-rep-gs-exp-06",
+      "vers": "fr-hg-cp-mond-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître quelques espaces géographiques sur un planisphère » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-mond-02",
-      "prerequisiteId": "fr-rep-gs-exp-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître quelques espaces géographiques sur un planisphère » (GS)"
+      "de": "fr-rep-gs-exp-06",
+      "vers": "fr-hg-cp-mond-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître quelques espaces géographiques sur un planisphère » (GS)"
     },
     {
-      "topicId": "fr-hg-cp-mond-04",
-      "prerequisiteId": "fr-rep-gs-exp-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Repérer l’est à droite et l’ouest à gauche suppose de distinguer sa gauche de sa droite (GS)"
+      "de": "fr-rep-gs-exp-03",
+      "vers": "fr-hg-cp-mond-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Repérer l’est à droite et l’ouest à gauche suppose de distinguer sa gauche de sa droite (GS)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "hg-c2": "2026-10-23",
     "reperes-c1": "2026-10-23"

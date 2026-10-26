@@ -1,7 +1,7 @@
 {
   "programme": "hda-c4",
-  "level": "multiple",
-  "themeCodes": {
+  "classe": "multiple",
+  "codesThemes": {
     "comp": "Connaissances et compétences associées",
     "att": "Attendus de fin de cycle",
     "obj": "Objectifs généraux : objectifs d’ordre méthodologique",
@@ -11,33 +11,31 @@
     {
       "id": "fr-hda-c4-comp-01",
       "programme": "hda-c4",
-      "type": "LANGUAGE",
-      "subject": "Histoire des arts",
-      "domain": "Compétences travaillées",
-      "subdomain": "Connaissances et compétences associées",
-      "level": "Cycle 4",
+      "nature": "vocabulaire",
+      "matiere": "Histoire des arts",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Connaissances et compétences associées",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "Décrire une œuvre dans sa globalité avec un lexique adapté",
+      "nom": "Décrire une œuvre dans sa globalité avec un lexique adapté",
       "description": "Décrire une œuvre (tableau, bâtiment, sculpture, musique, film, objet…) avec les mots propres à son domaine artistique, en tenant compte de sa forme et de son matériau, pour en donner une description d’ensemble. Il s’agit aussi de voir les liens entre la forme et les autres dimensions de l’œuvre : format, matériau, fonction, charge symbolique.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Utiliser un lexique simple mais adapté au domaine artistique concerné, à sa forme et à son matériau, pour aboutir à la description d’une œuvre dans sa globalité.",
         "Décrire une œuvre d’art en employant un lexique simple adapté."
       ],
-      "evidence": [
+      "criteres": [
         "Analyse une œuvre d’art par ses dimensions matérielle, formelle, de sens et d’usage.",
         "Emploie le lexique propre au domaine artistique de l’œuvre décrite.",
         "Appréhende un espace architectural par ses représentations : maquette, plan, élévation, dessin ou schéma, axonométrie, photographie.",
         "Utilise une grille d’analyse ou de lecture d’un tableau et présente la description obtenue aux autres."
       ],
-      "period": "tout au long du cycle 4",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire une cathédrale en employant des mots justes (nef, façade, vitrail, pierre), en précisant ses matériaux, sa fonction et ce que l’édifice exprime ?",
-      "priorKnowledge": [
+      "periode": "tout au long du cycle 4",
+      "question": "Est-ce que {{prenom}} sait décrire une cathédrale en employant des mots justes (nef, façade, vitrail, pierre), en précisant ses matériaux, sa fonction et ce que l’édifice exprime ?",
+      "acquisAnterieurs": [
         "Décrire une œuvre en identifiant ses principales caractéristiques techniques et formelles à l’aide d’un lexique simple et adapté (Cycle 3, histoire des arts)"
       ],
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 60,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -46,32 +44,30 @@
     {
       "id": "fr-hda-c4-comp-02",
       "programme": "hda-c4",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Compétences travaillées",
-      "subdomain": "Connaissances et compétences associées",
-      "level": "Cycle 4",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Connaissances et compétences associées",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "Associer une œuvre à une époque et une civilisation",
+      "nom": "Associer une œuvre à une époque et une civilisation",
       "description": "À partir d’indices observés dans l’œuvre (matériaux, formes, style, sujet), la rattacher à une époque et à une civilisation, en s’appuyant sur des repères d’histoire et de géographie des civilisations : ruptures, continuités, échanges entre cultures.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Associer une œuvre à une époque et une civilisation en fonction d’éléments de langage artistique.",
         "Associer une œuvre à une époque et une civilisation à partir des éléments observés."
       ],
-      "evidence": [
+      "criteres": [
         "Rattache une œuvre à une époque et à une aire de production à partir d’éléments observés.",
         "Justifie ce rattachement par des éléments de langage artistique (matériau, forme, style).",
         "Mobilise des repères culturels sur les ruptures, les continuités et les circulations entre civilisations."
       ],
-      "period": "tout au long du cycle 4",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait, devant une sculpture inconnue, proposer une époque et une civilisation (grecque, médiévale, Renaissance…) en citant deux indices observés ?",
-      "priorKnowledge": [
+      "periode": "tout au long du cycle 4",
+      "question": "Est-ce que {{prenom}} sait, devant une sculpture inconnue, proposer une époque et une civilisation (grecque, médiévale, Renaissance…) en citant deux indices observés ?",
+      "acquisAnterieurs": [
         "Émettre une proposition argumentée, fondée sur quelques grandes caractéristiques d’une œuvre, pour situer celle-ci dans une période et une aire géographique (Cycle 3, histoire des arts)"
       ],
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 60,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -80,34 +76,32 @@
     {
       "id": "fr-hda-c4-comp-03",
       "programme": "hda-c4",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Compétences travaillées",
-      "subdomain": "Connaissances et compétences associées",
-      "level": "Cycle 4",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Connaissances et compétences associées",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "Amorcer un discours critique et interpréter une œuvre",
+      "nom": "Amorcer un discours critique et interpréter une œuvre",
       "description": "À partir des éléments observés, proposer une première analyse critique et une interprétation d’une œuvre. Au cycle 4, il s’agit de comprendre que les formes artistiques ne sont pas seulement belles : elles ont un sens et expriment une vision du monde propre à une époque et à un lieu.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Amorcer, à l’aide de ces éléments, un discours critique.",
         "Proposer une analyse critique simple et une interprétation d’une œuvre."
       ],
-      "evidence": [
+      "criteres": [
         "Propose une interprétation d’une œuvre en s’appuyant sur des éléments observés.",
         "Utilise différentes grilles d’analyse, de lecture ou d’interprétation d’un tableau.",
         "Prend part à un débat sur des œuvres d’art et des objets patrimoniaux.",
         "À partir d’un tableau et d’un morceau de musique, conçoit une narration (texte d’invention, scène, courte séquence filmée, bande dessinée…)."
       ],
-      "period": "tout au long du cycle 4",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qu’un tableau représentant un roi en majesté cherche à dire du pouvoir, en s’appuyant sur ce qui se voit (pose, costume, décor) ?",
-      "priorKnowledge": [
+      "periode": "tout au long du cycle 4",
+      "question": "Est-ce que {{prenom}} sait expliquer ce qu’un tableau représentant un roi en majesté cherche à dire du pouvoir, en s’appuyant sur ce qui se voit (pose, costume, décor) ?",
+      "acquisAnterieurs": [
         "Exprimer un ressenti et un avis devant une œuvre, étayés à l’aide d’une première analyse (Cycle 3, histoire des arts)",
         "Donner un avis argumenté sur ce que représente ou exprime une œuvre d’art (Cycle 3, histoire des arts)"
       ],
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 60,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -116,32 +110,30 @@
     {
       "id": "fr-hda-c4-comp-04",
       "programme": "hda-c4",
-      "type": "PROCEDURAL",
-      "subject": "Histoire des arts",
-      "domain": "Compétences travaillées",
-      "subdomain": "Connaissances et compétences associées",
-      "level": "Cycle 4",
+      "nature": "savoir-faire",
+      "matiere": "Histoire des arts",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Connaissances et compétences associées",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "Construire un exposé de quelques minutes sur des œuvres",
+      "nom": "Construire un exposé de quelques minutes sur des œuvres",
       "description": "Préparer et présenter un exposé de quelques minutes sur un petit ensemble d’œuvres ou sur une question artistique, et jouer le rôle de médiateur : présenter une œuvre à la classe, réaliser un cartel ou une affiche.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Construire un exposé de quelques minutes sur un petit corpus d’œuvres ou une problématique artistique.",
         "Construire un exposé de quelques minutes sur un petit ensemble d’œuvres ou une problématique artistique."
       ],
-      "evidence": [
+      "criteres": [
         "Présente en quelques minutes un petit ensemble d’œuvres ou une problématique artistique.",
         "Présente brièvement une œuvre, un monument, un bâtiment ou un objet à la classe lors d’une sortie.",
         "Réalise en équipe du matériel d’exposition : affiche ou flyer, idées de scénographie, notice de catalogue ou cartel."
       ],
-      "period": "tout au long du cycle 4",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait présenter en trois minutes deux ou trois œuvres sur un même thème (par exemple le portrait du roi), en les comparant ?",
-      "priorKnowledge": [
+      "periode": "tout au long du cycle 4",
+      "question": "Est-ce que {{prenom}} sait présenter en trois minutes deux ou trois œuvres sur un même thème (par exemple le portrait du roi), en les comparant ?",
+      "acquisAnterieurs": [
         "Fiche signalétique/cartel pour identifier une œuvre d’art (Cycle 3, histoire des arts)"
       ],
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 60,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -150,34 +142,32 @@
     {
       "id": "fr-hda-c4-comp-05",
       "programme": "hda-c4",
-      "type": "PROCEDURAL",
-      "subject": "Histoire des arts",
-      "domain": "Compétences travaillées",
-      "subdomain": "Connaissances et compétences associées",
-      "level": "Cycle 4",
+      "nature": "savoir-faire",
+      "matiere": "Histoire des arts",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Connaissances et compétences associées",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "Rendre compte d’une visite ou d’une rencontre avec un métier du patrimoine",
+      "nom": "Rendre compte d’une visite ou d’une rencontre avec un métier du patrimoine",
       "description": "Après la visite d’un musée, d’un monument, d’une salle de concert ou de spectacle, ou la rencontre avec un professionnel de la conservation, de la restauration ou de la valorisation du patrimoine, en faire un compte rendu personnel sur des supports variés. C’est aussi apprendre à fréquenter ces lieux et à en connaître les codes.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Rendre compte, en termes personnels et en utilisant des supports divers, de la visite d’un lieu de conservation ou de diffusion artistique, ou de la rencontre avec un métier lié à la conservation, la restauration ou la valorisation du patrimoine.",
         "Rendre compte de la visite d’un lieu de conservation ou de diffusion artistique ou de la rencontre avec un métier du patrimoine."
       ],
-      "evidence": [
+      "criteres": [
         "Rend compte en termes personnels d’une expérience artistique vécue, par la pratique ou comme spectateur.",
         "Utilise des supports divers pour rendre compte d’une visite ou d’une rencontre.",
         "Crée une forme numérique courte rendant compte d’une expérience artistique ou de la rencontre d’une œuvre (micro-fiction, mise en scène graphique de documents numérisés, notice appelable par QR-code).",
         "Prépare en petits groupes la visite d’une exposition pour d’autres groupes, des parents ou des élèves plus jeunes."
       ],
-      "period": "tout au long du cycle 4",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter, à l’oral ou dans un petit diaporama, la visite d’un musée ou la rencontre avec un restaurateur d’œuvres, en disant ce qui a marqué et pourquoi ?",
-      "priorKnowledge": [
+      "periode": "tout au long du cycle 4",
+      "question": "Est-ce que {{prenom}} sait raconter, à l’oral ou dans un petit diaporama, la visite d’un musée ou la rencontre avec un restaurateur d’œuvres, en disant ce qui a marqué et pourquoi ?",
+      "acquisAnterieurs": [
         "Se repérer dans un musée ou un centre d’art, adapter son comportement au lieu et identifier la fonction de ses principaux acteurs (Cycle 3, histoire des arts)",
         "Métiers de la conservation, de la restauration et de la diffusion (Cycle 3, histoire des arts)"
       ],
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 60,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -186,32 +176,30 @@
     {
       "id": "fr-hda-c4-att-01",
       "programme": "hda-c4",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Compétences travaillées",
-      "subdomain": "Attendus de fin de cycle",
-      "level": "Cycle 4",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Attendus de fin de cycle",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "Comparer des œuvres : filiations et parentés",
+      "nom": "Comparer des œuvres : filiations et parentés",
       "description": "Rapprocher deux œuvres et justifier le lien par un raisonnement : une filiation entre deux œuvres d’époques différentes (une œuvre qui en reprend ou en transforme une plus ancienne) ou une parenté entre deux œuvres de même époque mais de nature différente (un tableau et une musique, par exemple).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comparer des œuvres d’art entre elles, en dégageant, par un raisonnement fondé, des filiations entre deux œuvres d’époques différentes ou des parentés entre deux œuvres de différente nature, contemporaine l’une de l’autre."
       ],
-      "evidence": [
+      "criteres": [
         "Met en parallèle des œuvres de même période ou de périodes voisines, de domaines différents ou identiques, autour de binômes (linéaire/pictural, plan/profondeur, statisme/mouvement, héritage/innovation…).",
         "Compare des techniques et matériaux observés dans des œuvres ou bâtiments anciens avec ceux du collège et de son environnement.",
         "Relie, en argumentant, des œuvres étudiées en classe à d’autres vues ou entendues lors de sorties, de projets ou de voyages.",
         "Compare, sur écoute, des écritures littéraires ou musicales anciennes avec leurs retranscriptions modernes."
       ],
-      "period": "tout au long du cycle 4",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qu’une façade de bâtiment du XIXe siècle emprunte à un temple grec, ou ce qui rapproche un tableau et une musique de la même époque ?",
-      "priorKnowledge": [
+      "periode": "tout au long du cycle 4",
+      "question": "Est-ce que {{prenom}} sait expliquer ce qu’une façade de bâtiment du XIXe siècle emprunte à un temple grec, ou ce qui rapproche un tableau et une musique de la même époque ?",
+      "acquisAnterieurs": [
         "Mettre en relation une ou plusieurs œuvres contemporaines entre elles et un fait historique, une époque, une aire géographique ou un texte (Cycle 3, histoire des arts)"
       ],
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 60,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -220,27 +208,25 @@
     {
       "id": "fr-hda-c4-obj-01",
       "programme": "hda-c4",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Objectifs généraux",
-      "subdomain": "Objectifs d’ordre méthodologique",
-      "level": "Cycle 4",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Objectifs généraux",
+      "sousDomaine": "Objectifs d’ordre méthodologique",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "Distinguer une œuvre vue en vrai de sa reproduction",
+      "nom": "Distinguer une œuvre vue en vrai de sa reproduction",
       "description": "Comprendre qu’on ne vit pas la même chose devant l’œuvre réelle (sa taille, sa matière, sa présence, le son en direct) qu’en regardant une reproduction, une photographie, une vidéo ou en écoutant un enregistrement.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "comprendre la différence entre la présence d’une œuvre, le contact avec elle, et l’image que donnent d’elle une reproduction, une captation ou un enregistrement."
       ],
-      "evidence": [
+      "criteres": [
         "Compare une œuvre vue ou entendue lors d’une sortie avec sa reproduction ou son enregistrement étudiés en classe.",
         "Explique ce qu’une reproduction, une captation ou un enregistrement ne restitue pas d’une œuvre."
       ],
-      "period": "tout au long du cycle 4",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, après avoir vu un tableau au musée, ce qui change par rapport à sa reproduction dans un livre (taille, couleurs, matière de la peinture) ?",
+      "periode": "tout au long du cycle 4",
+      "question": "Est-ce que {{prenom}} sait dire, après avoir vu un tableau au musée, ce qui change par rapport à sa reproduction dans un livre (taille, couleurs, matière de la peinture) ?",
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 58,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -249,37 +235,35 @@
     {
       "id": "fr-hda-c4-them-01",
       "programme": "hda-c4",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Thématiques, objets d’étude possibles",
-      "subdomain": "1. Arts et société à l’époque antique et au haut Moyen Âge",
-      "level": "Cycle 4",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Thématiques, objets d’étude possibles",
+      "sousDomaine": "1. Arts et société à l’époque antique et au haut Moyen Âge",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "Arts et société de l’Antiquité au haut Moyen Âge",
+      "nom": "Arts et société de l’Antiquité au haut Moyen Âge",
       "description": "Découvrir les arts de l’Antiquité et du haut Moyen Âge : le passage de la ville antique à la ville médiévale, les formes et le décor de l’architecture antique (colonnes, frontons, mosaïques), l’illustration des grands mythes et la représentation du corps humain. Thématique liée en particulier aux langues et cultures de l’Antiquité, au français et à l’histoire.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Arts et société à l’époque antique et au haut Moyen Âge",
         "De la ville antique à la ville médiévale.",
         "Formes et décor de l’architecture antique.",
         "Les mythes fondateurs et leur illustration.",
         "La représentation de la personne humaine."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme quelques œuvres majeures de l’Antiquité ou du haut Moyen Âge et les rattache à leur époque et à leur aire de production.",
         "Dégage les éléments constitutifs d’une de ces œuvres en termes de matériau, de forme, de sens et de fonction.",
         "Reconnaît dans une œuvre l’illustration d’un mythe fondateur.",
         "Compare la représentation de la personne humaine dans deux œuvres d’époques différentes."
       ],
-      "period": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître, sur un vase grec ou une mosaïque romaine, l’illustration d’un mythe connu, et dire à quelle époque et à quelle civilisation l’œuvre appartient ?",
-      "priorKnowledge": [
+      "periode": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
+      "question": "Est-ce que {{prenom}} sait reconnaître, sur un vase grec ou une mosaïque romaine, l’illustration d’un mythe connu, et dire à quelle époque et à quelle civilisation l’œuvre appartient ?",
+      "acquisAnterieurs": [
         "Connaissance de mythes antiques et récits fondateurs, notamment bibliques (Cycle 3, histoire des arts)",
         "L’unité et la diversité du monde grec (6e, histoire-géographie)"
       ],
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 60,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -288,17 +272,15 @@
     {
       "id": "fr-hda-c4-them-02",
       "programme": "hda-c4",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Thématiques, objets d’étude possibles",
-      "subdomain": "2. Formes et circulations artistiques (IXe-XVe s.)",
-      "level": "Cycle 4",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Thématiques, objets d’étude possibles",
+      "sousDomaine": "2. Formes et circulations artistiques (IXe-XVe s.)",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "Formes et circulations artistiques au Moyen Âge (IXe-XVe s.)",
+      "nom": "Formes et circulations artistiques au Moyen Âge (IXe-XVe s.)",
       "description": "Découvrir les arts du Moyen Âge : châteaux, villes, églises et leurs décors ; les débats sur les images entre Orient et Occident (l’iconoclasme, c’est le refus ou la destruction des images religieuses) ; les échanges de formes autour de la Méditerranée ; la musique et les textes ; le manuscrit enluminé et la naissance de l’écriture musicale.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Formes et circulations artistiques (IXe-XVe s.)",
         "La question de l’image entre Orient et Occident : iconoclasme et discours de l’image.",
         "Architectures et décors civils, urbains, militaires et religieux au Moyen Âge.",
@@ -306,21 +288,21 @@
         "Musique et texte(s) au Moyen Âge.",
         "Le manuscrit médiéval : matériaux, calligraphie, développement de l’écriture musicale et enluminure."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme quelques œuvres ou édifices majeurs du Moyen Âge et les rattache à leur époque et à leur aire de production.",
         "Dégage les éléments constitutifs d’un manuscrit médiéval : matériaux, calligraphie, enluminure, écriture musicale.",
         "Travaille sur le rapport texte-image à partir de manuscrits enluminés ou musicaux numérisés.",
         "Compare, sur écoute, une écriture musicale ancienne avec sa retranscription moderne.",
         "Repère des formes artistiques qui ont circulé autour de la Méditerranée médiévale."
       ],
-      "period": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer, devant la page d’un manuscrit médiéval, ses matériaux (parchemin, encres), ce qu’est une enluminure et l’usage de ce livre ?",
-      "priorKnowledge": [
+      "periode": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
+      "question": "Est-ce que {{prenom}} sait expliquer, devant la page d’un manuscrit médiéval, ses matériaux (parchemin, encres), ce qu’est une enluminure et l’usage de ce livre ?",
+      "acquisAnterieurs": [
         "Différencier l’art roman de l’art gothique (CM1, histoire-géographie)",
         "Mettre en relation un texte connu et plusieurs de ses illustrations ou transpositions visuelles, musicales, scéniques, chorégraphiques ou filmiques (Cycle 3, histoire des arts)"
       ],
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 60,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -329,17 +311,15 @@
     {
       "id": "fr-hda-c4-them-03",
       "programme": "hda-c4",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Thématiques, objets d’étude possibles",
-      "subdomain": "3. Le sacre de l’artiste (XIVe-début XVIIe s.)",
-      "level": "Cycle 4",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Thématiques, objets d’étude possibles",
+      "sousDomaine": "3. Le sacre de l’artiste (XIVe-début XVIIe s.)",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "Le sacre de l’artiste à la Renaissance (XIVe-début XVIIe s.)",
+      "nom": "Le sacre de l’artiste à la Renaissance (XIVe-début XVIIe s.)",
       "description": "Découvrir comment l’artiste gagne en prestige à la Renaissance : les artistes italiens et leurs mécènes (protecteurs qui commandent et financent les œuvres) du Trecento (XIVe siècle) au Cinquecento (XVIe siècle), les échanges entre Flandres, France et Italie, la gravure et l’imprimerie qui permettent de multiplier images et textes, les chansons et madrigaux, l’essor du théâtre et des fêtes.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Le sacre de l’artiste (XIVe-début XVIIe s.)",
         "L’artiste, ses inspirations et ses mécènes dans les cités-États italiennes : peintures, sculptures et architectures du Trecento au Cinquecento.",
         "Flandres, France et Italie : circulations des formes, des styles et des écoles.",
@@ -347,20 +327,20 @@
         "Nouveaux rapports entre poésie et musique : motets, chansons et madrigaux.",
         "Développement des arts du spectacle : le tragique, le sacré, le comique et la fête."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme quelques peintures, sculptures ou architectures majeures de la Renaissance et les rattache à leur aire de production (Italie, Flandres, France).",
         "Explique le rôle du mécène auprès de l’artiste.",
         "Explique ce que la gravure et l’imprimerie changent à la diffusion des images et des textes.",
         "Compare des œuvres de même période issues d’écoles différentes.",
         "Associe poésie et musique à travers un motet, une chanson ou un madrigal."
       ],
-      "period": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qu’est un mécène à la Renaissance et pourquoi l’invention de l’imprimerie a changé la diffusion des images ?",
-      "priorKnowledge": [
+      "periode": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
+      "question": "Est-ce que {{prenom}} sait expliquer ce qu’est un mécène à la Renaissance et pourquoi l’invention de l’imprimerie a changé la diffusion des images ?",
+      "acquisAnterieurs": [
         "François Ier, roi mécène de la Renaissance (CM1, histoire-géographie)"
       ],
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 61,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -369,17 +349,15 @@
     {
       "id": "fr-hda-c4-them-04",
       "programme": "hda-c4",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Thématiques, objets d’étude possibles",
-      "subdomain": "4. État, société et modes de vie (XIIIe-XVIIIe s.)",
-      "level": "Cycle 4",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Thématiques, objets d’étude possibles",
+      "sousDomaine": "4. État, société et modes de vie (XIIIe-XVIIIe s.)",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "État, société et modes de vie dans les arts (XIIIe-XVIIIe s.)",
+      "nom": "État, société et modes de vie dans les arts (XIIIe-XVIIIe s.)",
       "description": "Comprendre la hiérarchie des genres artistiques (la peinture d’histoire placée au-dessus du portrait, du paysage ou de la nature morte), l’évolution de l’habitat, du décor et du mobilier, la naissance de l’art du paysage et l’observation de la nature, les danses populaires et de cour, et les liens entre progrès des sciences et évolution des arts.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "État, société et modes de vie (XIIIe-XVIIIe s.)",
         "Définition et hiérarchie des genres artistiques.",
         "Changements dans l’habitat, le décor et le mobilier.",
@@ -387,21 +365,21 @@
         "Danse populaire, danse de cour, danse stylisée.",
         "Évolution des sciences et techniques, évolution des arts."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme quelques œuvres majeures du XIIIe au XVIIIe siècle et les rattache à leur époque et à leur aire de production.",
         "Explique la hiérarchie des genres artistiques et situe une peinture dans son genre.",
         "Décrit l’évolution de l’habitat, du décor et du mobilier à partir d’exemples.",
         "Distingue danse populaire, danse de cour et danse stylisée.",
         "Relie une évolution des arts à une évolution des sciences et des techniques."
       ],
-      "period": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait classer quelques tableaux selon leur genre (histoire, portrait, paysage, nature morte) et dire lequel était le plus prestigieux au XVIIe siècle ?",
-      "priorKnowledge": [
+      "periode": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
+      "question": "Est-ce que {{prenom}} sait classer quelques tableaux selon leur genre (histoire, portrait, paysage, nature morte) et dire lequel était le plus prestigieux au XVIIe siècle ?",
+      "acquisAnterieurs": [
         "Louis XIV, Versailles et la monarchie absolue (CM1, histoire-géographie)",
         "Mettre en relation des œuvres et objets mobiliers et des usages et modes de vie (Cycle 3, histoire des arts)"
       ],
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 61,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -410,36 +388,34 @@
     {
       "id": "fr-hda-c4-them-05",
       "programme": "hda-c4",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Thématiques, objets d’étude possibles",
-      "subdomain": "5. L’art au temps des Lumières et des révolutions (1750-1850)",
-      "level": "Cycle 4",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Thématiques, objets d’étude possibles",
+      "sousDomaine": "5. L’art au temps des Lumières et des révolutions (1750-1850)",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "L’art au temps des Lumières et des révolutions (1750-1850)",
+      "nom": "L’art au temps des Lumières et des révolutions (1750-1850)",
       "description": "Découvrir l’art de 1750 à 1850 : l’apparition d’un public qui juge les œuvres, de la critique d’art et des journaux, l’importance nouvelle de l’émotion et de la sensibilité, l’art qui exprime des idées politiques, et l’hésitation entre confiance dans le progrès et retour vers le passé (Antiquité, Moyen Âge).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "L’art au temps des Lumières et des révolutions (1750-1850)",
         "Émergence des publics et de la critique, naissance des médias.",
         "Sensation et sensibilité.",
         "L’art, expression de la pensée politique.",
         "Foi dans le progrès et recours au passé."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme quelques œuvres majeures de 1750 à 1850 et les rattache à leur époque et à leur aire de production.",
         "Explique comment naissent un public, une critique d’art et des médias.",
         "Analyse une œuvre qui exprime une pensée politique.",
         "Repère dans une œuvre la foi dans le progrès ou le recours au passé."
       ],
-      "period": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer comment un tableau de l’époque révolutionnaire défend des idées politiques, en s’appuyant sur ce que montre le tableau ?",
-      "priorKnowledge": [
+      "periode": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
+      "question": "Est-ce que {{prenom}} sait expliquer comment un tableau de l’époque révolutionnaire défend des idées politiques, en s’appuyant sur ce que montre le tableau ?",
+      "acquisAnterieurs": [
         "Les idées des Lumières (CM1, histoire-géographie)"
       ],
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 61,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -448,37 +424,35 @@
     {
       "id": "fr-hda-c4-them-06",
       "programme": "hda-c4",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Thématiques, objets d’étude possibles",
-      "subdomain": "6. De la Belle Époque aux « années folles » : l’ère des avant-gardes (1870-1930)",
-      "level": "Cycle 4",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Thématiques, objets d’étude possibles",
+      "sousDomaine": "6. De la Belle Époque aux « années folles » : l’ère des avant-gardes (1870-1930)",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "De la Belle Époque aux années folles : les avant-gardes (1870-1930)",
+      "nom": "De la Belle Époque aux années folles : les avant-gardes (1870-1930)",
       "description": "Découvrir les avant-gardes de 1870 à 1930 : des paysages qui montrent le réel ou expriment un monde intérieur, la photographie, le cinéma et le disque qui changent le rapport au réel, l’intérêt pour les arts d’autres cultures (primitivismes) ou pour les traditions nationales et régionales, et les spectacles nouveaux des grandes villes : jazz, cirque, music-hall.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "De la Belle Époque aux « années folles » : l’ère des avant-gardes (1870-1930)",
         "Paysages du réel, paysages intérieurs.",
         "Photographie, cinéma et enregistrement phonographique : un nouveau rapport au réel.",
         "La recherche des racines dans un monde qui s’ouvre : primitivismes, écoles nationales et régionalismes.",
         "Métropoles et spectacles nouveaux : jazz, cirque et music-hall."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme quelques œuvres majeures de 1870 à 1930 et les rattache à leur époque et à leur aire de production.",
         "Explique en quoi la photographie, le cinéma et l’enregistrement phonographique changent le rapport au réel.",
         "Distingue un paysage qui représente le réel d’un paysage intérieur, qui exprime des émotions.",
         "Cite des spectacles nouveaux nés dans les métropoles : jazz, cirque, music-hall.",
         "Repère dans une œuvre l’influence des primitivismes ou d’une école nationale."
       ],
-      "period": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi l’invention de la photographie a poussé certains peintres à ne plus chercher à copier la réalité ?",
-      "priorKnowledge": [
+      "periode": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
+      "question": "Est-ce que {{prenom}} sait expliquer pourquoi l’invention de la photographie a poussé certains peintres à ne plus chercher à copier la réalité ?",
+      "acquisAnterieurs": [
         "Les progrès techniques du XIXe siècle et la vie quotidienne (CM2, histoire-géographie)"
       ],
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 61,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -487,34 +461,32 @@
     {
       "id": "fr-hda-c4-them-07",
       "programme": "hda-c4",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Thématiques, objets d’étude possibles",
-      "subdomain": "7. Les arts entre liberté et propagande (1910-1945)",
-      "level": "Cycle 4",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Thématiques, objets d’étude possibles",
+      "sousDomaine": "7. Les arts entre liberté et propagande (1910-1945)",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "Les arts entre liberté et propagande (1910-1945)",
+      "nom": "Les arts entre liberté et propagande (1910-1945)",
       "description": "Découvrir les arts de 1910 à 1945 : la naissance de l’art abstrait, où formes et couleurs ne représentent plus rien de reconnaissable, l’art qui conteste, dénonce ou au contraire sert la propagande d’un pouvoir, la place conquise par les femmes artistes, et l’électricité (la « Fée électricité ») comme sujet et outil des arts.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Les arts entre liberté et propagande (1910-1945)",
         "De l’autonomie des formes et des couleurs à la naissance de l’abstraction.",
         "Art et pouvoir : contestation, dénonciation ou propagande.",
         "L’émancipation de la femme artiste.",
         "La « Fée électricité » dans les arts."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme quelques œuvres majeures de 1910 à 1945 et les rattache à leur époque et à leur aire de production.",
         "Explique comment l’autonomie des formes et des couleurs conduit à l’abstraction.",
         "Distingue une œuvre de contestation ou de dénonciation d’une œuvre de propagande.",
         "Cite des femmes artistes de la période et la place conquise par ces artistes.",
         "Repère la place de l’électricité dans les arts de la période."
       ],
-      "period": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, devant une affiche des années 1930, s’il s’agit de propagande ou de dénonciation, en justifiant par des éléments de l’image ?",
+      "periode": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
+      "question": "Est-ce que {{prenom}} sait dire, devant une affiche des années 1930, s’il s’agit de propagande ou de dénonciation, en justifiant par des éléments de l’image ?",
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 62,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
@@ -523,69 +495,71 @@
     {
       "id": "fr-hda-c4-them-08",
       "programme": "hda-c4",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire des arts",
-      "domain": "Thématiques, objets d’étude possibles",
-      "subdomain": "8. Les arts à l’ère de la consommation de masse (de 1945 à nos jours)",
-      "level": "Cycle 4",
+      "nature": "compréhension",
+      "matiere": "Histoire des arts",
+      "domaine": "Thématiques, objets d’étude possibles",
+      "sousDomaine": "8. Les arts à l’ère de la consommation de masse (de 1945 à nos jours)",
+      "classe": "Cycle 4",
       "cycle": 4,
-      "ageRangeStart": 12,
-      "ageRangeEnd": 15,
-      "name": "Les arts à l’ère de la consommation de masse (de 1945 à nos jours)",
+      "nom": "Les arts à l’ère de la consommation de masse (de 1945 à nos jours)",
       "description": "Découvrir les arts depuis 1945 : des œuvres réalistes ou abstraites face au monde contemporain, l’architecture et le design liés aux nouvelles technologies et aux nouveaux modes de vie, les arts qui interrogent l’énergie, le climat et le développement durable, et les mélanges de cultures artistiques à l’heure de la mondialisation.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Les arts à l’ère de la consommation de masse (de 1945 à nos jours)",
         "Réalismes et abstractions : les arts face à la réalité contemporaine.",
         "Architecture et design : entre nouvelles technologies et nouveaux modes de vie.",
         "Arts, énergies, climatologie et développement durable.",
         "Un monde ouvert ? les métissages artistiques à l’époque de la globalisation."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme quelques œuvres majeures depuis 1945 et les rattache à leur époque et à leur aire de production.",
         "Distingue des démarches réalistes et abstraites face à la réalité contemporaine.",
         "Relie un objet de design ou une architecture récente aux nouvelles technologies et aux nouveaux modes de vie.",
         "Analyse une œuvre qui traite d’énergie, de climat ou de développement durable.",
         "Repère dans une œuvre des métissages artistiques liés à la globalisation."
       ],
-      "period": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer en quoi un objet de design récent (une chaise, un téléphone) répond à de nouveaux modes de vie ou à de nouvelles technologies ?",
+      "periode": "à un moment du cycle 4 choisi par l’équipe pédagogique (thématiques présentées dans l’ordre chronologique mais abordées dans l’ordre voulu)",
+      "question": "Est-ce que {{prenom}} sait expliquer en quoi un objet de design récent (une chaise, un téléphone) répond à de nouveaux modes de vie ou à de nouvelles technologies ?",
       "source": {
-        "file": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
+        "fichier": "cycle-4-5e-4e-3e/programmes-c4-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 62,
         "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb"
       }
     }
   ],
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-hda-c4-comp-02",
-      "prerequisiteId": "fr-hda-c4-comp-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Associer une œuvre à une époque s’appuie sur les éléments de langage artistique relevés en la décrivant."
+      "de": "fr-hda-c4-comp-01",
+      "vers": "fr-hda-c4-comp-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Associer une œuvre à une époque s’appuie sur les éléments de langage artistique relevés en la décrivant."
     },
     {
-      "topicId": "fr-hda-c4-comp-03",
-      "prerequisiteId": "fr-hda-c4-comp-02",
-      "strength": "hard",
-      "origin": "texte",
-      "reason": "Le programme précise que le discours critique s’amorce « à l’aide de ces éléments » de langage artistique."
+      "de": "fr-hda-c4-comp-02",
+      "vers": "fr-hda-c4-comp-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "raison": "Le programme précise que le discours critique s’amorce « à l’aide de ces éléments » de langage artistique."
     },
     {
-      "topicId": "fr-hda-c4-att-01",
-      "prerequisiteId": "fr-hda-c4-comp-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Dégager filiations et parentés suppose de savoir situer chaque œuvre dans une époque et une civilisation."
+      "de": "fr-hda-c4-comp-02",
+      "vers": "fr-hda-c4-att-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Dégager filiations et parentés suppose de savoir situer chaque œuvre dans une époque et une civilisation."
     },
     {
-      "topicId": "fr-hda-c4-comp-04",
-      "prerequisiteId": "fr-hda-c4-comp-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Un exposé sur des œuvres s’appuie sur leur description avec un lexique adapté."
+      "de": "fr-hda-c4-comp-01",
+      "vers": "fr-hda-c4-comp-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Un exposé sur des œuvres s’appuie sur leur description avec un lexique adapté."
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extraitLe": "2026-10-23"
 }

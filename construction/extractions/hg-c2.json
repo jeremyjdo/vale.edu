@@ -1,7 +1,7 @@
 {
   "programme": "hg-c2",
-  "level": "multiple",
-  "themeCodes": {
+  "classe": "multiple",
+  "codesThemes": {
     "nat": "CP – Histoire – Thème 1 : Les manifestations naturelles du temps",
     "cal": "CP – Histoire – Thème 2 : Les représentations humaines du temps",
     "sit": "CP – Histoire – Thème 3 : Situer des évènements dans le temps",
@@ -24,30 +24,28 @@
     {
       "id": "fr-hg-cp-nat-01",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 1 : Les manifestations naturelles du temps",
-      "level": "CP",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 1 : Les manifestations naturelles du temps",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "L’alternance du jour et de la nuit",
+      "nom": "L’alternance du jour et de la nuit",
       "description": "Comprendre que le jour et la nuit se succèdent parce que la Terre tourne sur elle-même, en le montrant avec un globe terrestre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Observer des manifestations naturelles du temps."
       ],
-      "evidence": [
+      "criteres": [
         "Explique l’alternance du jour et de la nuit en manipulant un globe terrestre.",
         "Emploie les mots jour, nuit, globe terrestre et rotation de la Terre."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer, en faisant tourner un globe terrestre, pourquoi il fait jour puis nuit ?",
-      "priorKnowledge": [
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait expliquer, en faisant tourner un globe terrestre, pourquoi il fait jour puis nuit ?",
+      "acquisAnterieurs": [
         "Différencier le matin et le soir, le jour et la nuit (PS, maternelle – Se repérer dans le temps)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 3,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -56,31 +54,29 @@
     {
       "id": "fr-hg-cp-nat-02",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 1 : Les manifestations naturelles du temps",
-      "level": "CP",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 1 : Les manifestations naturelles du temps",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Nommer les saisons et donner leurs caractéristiques",
+      "nom": "Nommer les saisons et donner leurs caractéristiques",
       "description": "Connaître le nom des saisons et dire ce qui les caractérise là où l’on vit (le temps qu’il fait, la végétation…). Les saisons sont étudiées en fonction du lieu de vie de l’élève.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Observer des manifestations naturelles du temps."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme les saisons.",
         "Donne les caractéristiques des saisons en fonction de son lieu de vie.",
         "Emploie le mot saison."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer les saisons et dire à quoi on reconnaît l’hiver là où il habite ?",
-      "priorKnowledge": [
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait nommer les saisons et dire à quoi on reconnaît l’hiver là où il habite ?",
+      "acquisAnterieurs": [
         "Nommer les saisons et citer quelques-unes de leurs caractéristiques selon le contexte local (GS, maternelle – Se repérer dans le temps)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 3,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -89,31 +85,29 @@
     {
       "id": "fr-hg-cp-cal-01",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 2 : Les représentations humaines du temps",
-      "level": "CP",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 2 : Les représentations humaines du temps",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "La structure du calendrier : année, mois, semaine, jour, heure",
+      "nom": "La structure du calendrier : année, mois, semaine, jour, heure",
       "description": "Comprendre comment le calendrier que nous utilisons (le calendrier grégorien) découpe le temps : l’année est divisée en 12 mois, le mois en semaines, la semaine en 7 jours, la journée en 24 heures.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre la structure du calendrier grégorien."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que l’année est divisée en mois, le mois en semaines, la semaine en jours et la journée en heures.",
         "Retient les repères : l’année compte 12 mois, la semaine 7 jours, la journée 24 heures.",
         "Emploie les mots année, mois, semaine, journée et heure."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire combien il y a de jours dans une semaine, de mois dans une année et d’heures dans une journée ?",
-      "priorKnowledge": [
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait dire combien il y a de jours dans une semaine, de mois dans une année et d’heures dans une journée ?",
+      "acquisAnterieurs": [
         "Savoir que la semaine est une suite de sept jours (MS, maternelle – Se repérer dans le temps)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 3,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -122,32 +116,30 @@
     {
       "id": "fr-hg-cp-cal-02",
       "programme": "hg-c2",
-      "type": "PROCEDURAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 2 : Les représentations humaines du temps",
-      "level": "CP",
+      "nature": "savoir-faire",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 2 : Les représentations humaines du temps",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Nommer et ordonner les sept jours de la semaine",
+      "nom": "Nommer et ordonner les sept jours de la semaine",
       "description": "Connaître les sept jours de la semaine dans l’ordre, du lundi au dimanche, et savoir retrouver un jour dans la semaine.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre la structure du calendrier grégorien."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme les sept jours de la semaine.",
         "Ordonne les jours de la semaine.",
         "Repère un jour dans la semaine."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait réciter les sept jours de la semaine dans l’ordre et dire quel jour vient après mercredi ?",
-      "priorKnowledge": [
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait réciter les sept jours de la semaine dans l’ordre et dire quel jour vient après mercredi ?",
+      "acquisAnterieurs": [
         "Nommer les jours de la semaine (MS, maternelle – Se repérer dans le temps)",
         "Situer un évènement dans la semaine avec aujourd’hui, hier, demain (GS, maternelle – Se repérer dans le temps)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 3,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -156,30 +148,28 @@
     {
       "id": "fr-hg-cp-cal-03",
       "programme": "hg-c2",
-      "type": "PROCEDURAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 2 : Les représentations humaines du temps",
-      "level": "CP",
+      "nature": "savoir-faire",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 2 : Les représentations humaines du temps",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Connaître les douze mois de l’année",
+      "nom": "Connaître les douze mois de l’année",
       "description": "Savoir citer les douze mois de l’année, de janvier à décembre, et les retrouver sur un calendrier.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre la structure du calendrier grégorien."
       ],
-      "evidence": [
+      "criteres": [
         "Cite les douze mois de l’année.",
         "Repère les mois sur un calendrier."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait citer les douze mois de l’année dans l’ordre, de janvier à décembre ?",
-      "priorKnowledge": [
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait citer les douze mois de l’année dans l’ordre, de janvier à décembre ?",
+      "acquisAnterieurs": [
         "Nommer la plupart des mois de l’année, dans l’ordre ou le désordre (GS, maternelle – Se repérer dans le temps)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 3,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -188,31 +178,29 @@
     {
       "id": "fr-hg-cp-cal-04",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 2 : Les représentations humaines du temps",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 2 : Les représentations humaines du temps",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Utiliser des calendriers : représentations linéaire et cyclique",
+      "nom": "Utiliser des calendriers : représentations linéaire et cyclique",
       "description": "Se servir de plusieurs outils qui représentent le temps : l’emploi du temps de la journée, l’éphéméride (un calendrier dont on enlève une page chaque jour), le calendrier et la roue des jours. Découvrir que le temps se représente en ligne (une frise) ou en cercle, comme les jours de la semaine qui reviennent.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Découvrir différentes représentations du temps : linéaire et cyclique."
       ],
-      "evidence": [
+      "criteres": [
         "Utilise divers types de calendriers : emploi du temps de la journée, éphéméride, calendrier, roue des jours.",
         "Distingue une représentation cyclique du temps (roue des jours) d’une représentation linéaire (frise).",
         "Emploie les mots calendrier et frise."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait utiliser une roue des jours ou un calendrier pour dire quel jour on est aujourd’hui et quel jour on sera demain ?",
-      "priorKnowledge": [
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait utiliser une roue des jours ou un calendrier pour dire quel jour on est aujourd’hui et quel jour on sera demain ?",
+      "acquisAnterieurs": [
         "Utiliser les outils de la classe pour composer la date (jour et mois) et l’énoncer (GS, maternelle – Se repérer dans le temps)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 3,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -221,30 +209,28 @@
     {
       "id": "fr-hg-cp-cal-05",
       "programme": "hg-c2",
-      "type": "PROCEDURAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 2 : Les représentations humaines du temps",
-      "level": "CP",
+      "nature": "savoir-faire",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 2 : Les représentations humaines du temps",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Les outils de mesure du temps : sablier, pendule, montre, réveil",
+      "nom": "Les outils de mesure du temps : sablier, pendule, montre, réveil",
       "description": "Connaître des objets qui servent à mesurer le temps et apprendre à s’en servir : le sablier, la pendule, la montre et le réveil, à aiguilles (analogiques) ou à affichage chiffré (numériques).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre des outils de mesure du temps."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme des outils de mesure du temps : sablier, pendule, montre, réveil.",
         "Observe et utilise ces outils, dans leurs versions analogiques et numériques."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire à quoi sert un sablier et citer d’autres objets qui mesurent le temps, comme la pendule, la montre ou le réveil ?",
-      "priorKnowledge": [
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait dire à quoi sert un sablier et citer d’autres objets qui mesurent le temps, comme la pendule, la montre ou le réveil ?",
+      "acquisAnterieurs": [
         "Planifier une activité en utilisant un sablier et comparer des durées (GS, maternelle – Se repérer dans le temps)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 3,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -253,32 +239,30 @@
     {
       "id": "fr-hg-cp-sit-01",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 3 : Situer des évènements dans le temps",
-      "level": "CP",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 3 : Situer des évènements dans le temps",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Avant, en même temps, après : antériorité, simultanéité, postériorité",
+      "nom": "Avant, en même temps, après : antériorité, simultanéité, postériorité",
       "description": "Comprendre qu’un évènement peut avoir lieu avant un autre (antériorité), en même temps (simultanéité) ou après (postériorité), et le dire avec les bons mots (hier, avant-hier, il y a un mois, demain, après-demain, dans un mois) et le bon temps du verbe (passé, présent, futur).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les notions d’antériorité, de simultanéité, de postériorité."
       ],
-      "evidence": [
+      "criteres": [
         "Emploie les marqueurs temporels du passé : hier, avant-hier, il y a un mois.",
         "Emploie les marqueurs temporels du futur : demain, après-demain, dans un mois.",
         "Utilise les temps verbaux adaptés (passé, présent, futur) pour situer un évènement.",
         "Emploie les mots passé, présent et futur."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter ce qu’il a fait avant-hier et ce qu’il fera après-demain, en employant le passé et le futur ?",
-      "priorKnowledge": [
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait raconter ce qu’il a fait avant-hier et ce qu’il fera après-demain, en employant le passé et le futur ?",
+      "acquisAnterieurs": [
         "Relater des évènements passés ou à venir qui indiquent la succession, l’antériorité, la postériorité et la simultanéité (GS, maternelle – Se repérer dans le temps)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 3,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -287,31 +271,29 @@
     {
       "id": "fr-hg-cp-sit-02",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 3 : Situer des évènements dans le temps",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 3 : Situer des évènements dans le temps",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Situer et planifier des évènements sur un calendrier",
+      "nom": "Situer et planifier des évènements sur un calendrier",
       "description": "Placer sur un calendrier les évènements de la vie de la classe, qu’ils arrivent une seule fois ou reviennent chaque année (anniversaires, fêtes, commémorations, projets de classe), et prévoir ceux qui sont à venir. Une commémoration est une cérémonie qui rappelle un évènement passé.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les notions d’antériorité, de simultanéité, de postériorité."
       ],
-      "evidence": [
+      "criteres": [
         "Situe sur un calendrier des évènements particuliers ou récurrents : anniversaires, fêtes, commémorations, projets de classe.",
         "Planifie sur un calendrier des évènements à venir de la vie de la classe.",
         "Emploie le mot commémoration."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait retrouver la date de son anniversaire sur un calendrier et dire si elle est déjà passée ou encore à venir ?",
-      "priorKnowledge": [
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait retrouver la date de son anniversaire sur un calendrier et dire si elle est déjà passée ou encore à venir ?",
+      "acquisAnterieurs": [
         "Associer certains mois de l’année à un évènement marquant : anniversaires, fêtes, vacances (GS, maternelle – Se repérer dans le temps)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 3,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -320,30 +302,28 @@
     {
       "id": "fr-hg-cp-sit-03",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 3 : Situer des évènements dans le temps",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 3 : Situer des évènements dans le temps",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Se repérer dans les générations avec un arbre généalogique",
+      "nom": "Se repérer dans les générations avec un arbre généalogique",
       "description": "Lire un arbre généalogique pour comprendre la suite des générations (enfants, parents, grands-parents…) et voir que le temps passé ne revient pas.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre la représentation du temps passé et son irréversibilité."
       ],
-      "evidence": [
+      "criteres": [
         "Se repère dans les différentes générations à partir d’exemples d’arbres généalogiques.",
         "Emploie les mots arbre généalogique et génération."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer, sur un arbre généalogique, la génération de ses parents et celle de ses grands-parents ?",
-      "priorKnowledge": [
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait montrer, sur un arbre généalogique, la génération de ses parents et celle de ses grands-parents ?",
+      "acquisAnterieurs": [
         "Comprendre qu’il existe un temps long, un passé très éloigné, des évènements antérieurs à notre propre vie (GS, maternelle – Se repérer dans le temps)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 3,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -352,32 +332,30 @@
     {
       "id": "fr-hg-cp-sit-04",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 3 : Situer des évènements dans le temps",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 3 : Situer des évènements dans le temps",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Compléter une frise chronologique : la journée, sa vie, les générations",
+      "nom": "Compléter une frise chronologique : la journée, sa vie, les générations",
       "description": "Remplir une frise chronologique, c’est-à-dire une ligne du temps où les évènements sont rangés dans l’ordre : celle d’une journée, celle de sa propre vie, voire celle de plusieurs générations. La frise montre que le temps avance toujours dans le même sens.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre la représentation du temps passé et son irréversibilité.",
         "Connaitre les notions d’antériorité, de simultanéité, de postériorité."
       ],
-      "evidence": [
+      "criteres": [
         "Complète une frise chronologique de la journée.",
         "Complète une frise chronologique de sa vie, voire une frise générationnelle.",
         "Emploie l’expression frise chronologique."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait placer dans l’ordre, sur la frise de sa vie, sa naissance, son entrée à l’école maternelle et son entrée au CP ?",
-      "priorKnowledge": [
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait placer dans l’ordre, sur la frise de sa vie, sa naissance, son entrée à l’école maternelle et son entrée au CP ?",
+      "acquisAnterieurs": [
         "Ordonner des évènements passés les uns par rapport aux autres dans l’année scolaire (GS, maternelle – Se repérer dans le temps)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 3,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -386,27 +364,25 @@
     {
       "id": "fr-hg-ce1-pass-01",
       "programme": "hg-c2",
-      "type": "LANGUAGE",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 1 : Du passé proche au passé lointain",
-      "level": "CE1",
+      "nature": "vocabulaire",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 1 : Du passé proche au passé lointain",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Passé proche et passé lointain : le vocabulaire du temps",
+      "nom": "Passé proche et passé lointain : le vocabulaire du temps",
       "description": "Faire la différence entre ce qui s’est passé il y a peu de temps (hier, il y a dix jours) et il y a très longtemps (autrefois, il y a cent ans), et employer les mots justes pour le dire.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre la différence entre le passé proche et le passé lointain."
       ],
-      "evidence": [
+      "criteres": [
         "Emploie le lexique relatif au temps : hier, autrefois, il y a dix jours, dix ans, cent ans.",
         "Distingue un évènement du passé proche d’un évènement du passé lointain."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire si « il y a dix jours » et « autrefois » parlent du passé proche ou du passé lointain ?",
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait dire si « il y a dix jours » et « autrefois » parlent du passé proche ou du passé lointain ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 4,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -415,27 +391,25 @@
     {
       "id": "fr-hg-ce1-pass-02",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 1 : Du passé proche au passé lointain",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 1 : Du passé proche au passé lointain",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Les unités du temps long : année, décennie, siècle, millénaire",
+      "nom": "Les unités du temps long : année, décennie, siècle, millénaire",
       "description": "Connaître les mots qui mesurent le temps long : une décennie dure 10 ans, un siècle 100 ans et un millénaire 1 000 ans.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre la différence entre le passé proche et le passé lointain."
       ],
-      "evidence": [
+      "criteres": [
         "Emploie les mots année, décennie, siècle et millénaire.",
         "Associe « il y a dix ans » à une décennie et « il y a cent ans » à un siècle."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait combien d’années il y a dans une décennie, dans un siècle et dans un millénaire ?",
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait combien d’années il y a dans une décennie, dans un siècle et dans un millénaire ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 4,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -444,27 +418,25 @@
     {
       "id": "fr-hg-ce1-pass-03",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 1 : Du passé proche au passé lointain",
-      "level": "CE1",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 1 : Du passé proche au passé lointain",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Placer sur une frise des évènements récents et des évènements anciens",
+      "nom": "Placer sur une frise des évènements récents et des évènements anciens",
       "description": "Repérer des évènements récents et d’autres beaucoup plus anciens et les placer au bon endroit sur une frise chronologique, par exemple des moments proches ou lointains de sa propre vie.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre la différence entre le passé proche et le passé lointain."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie et positionne sur une frise chronologique des évènements récents et des évènements qui appartiennent à des périodes plus anciennes.",
         "Positionne sur une frise des éléments temporels proches et lointains de sa propre vie."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait placer dans l’ordre, sur une frise, sa dernière rentrée des classes, sa naissance et la naissance de ses grands-parents ?",
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait placer dans l’ordre, sur une frise, sa dernière rentrée des classes, sa naissance et la naissance de ses grands-parents ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 4,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -473,29 +445,27 @@
     {
       "id": "fr-hg-ce1-per-01",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 2 : Les grandes périodes de l’histoire",
-      "level": "CE1",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 2 : Les grandes périodes de l’histoire",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Les cinq grandes périodes de l’histoire sur une frise",
+      "nom": "Les cinq grandes périodes de l’histoire sur une frise",
       "description": "Connaître dans l’ordre, avec leurs dates, les grandes périodes qui découpent l’histoire par convention en Europe : Préhistoire, Antiquité, Moyen Âge, Temps modernes, époque contemporaine. « Av. J.-C. » signifie avant la naissance de Jésus-Christ, point de départ de notre calendrier.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Construire une première représentation du temps long et savoir distinguer de grandes périodes historiques."
       ],
-      "evidence": [
+      "criteres": [
         "Repère et mémorise sur une frise chronologique les grandes périodes de l’histoire.",
         "Place la Préhistoire (environ 3 millions d’années à 3000 av. J.-C.) et l’Antiquité (environ 3000 av. J.-C. à 476 ap. J.-C.).",
         "Place le Moyen Âge (476 à 1492), les Temps modernes (1492 à 1789) et l’époque contemporaine (1789 à nos jours).",
         "Emploie l’expression période de l’histoire."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait ranger sur une frise la Préhistoire, l’Antiquité, le Moyen Âge, les Temps modernes et l’époque contemporaine, et dire en quelle année commence le Moyen Âge (476) ?",
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait ranger sur une frise la Préhistoire, l’Antiquité, le Moyen Âge, les Temps modernes et l’époque contemporaine, et dire en quelle année commence le Moyen Âge (476) ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 4,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -504,28 +474,26 @@
     {
       "id": "fr-hg-ce1-per-02",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 2 : Les grandes périodes de l’histoire",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 2 : Les grandes périodes de l’histoire",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Des figures historiques de chaque période",
+      "nom": "Des figures historiques de chaque période",
       "description": "Connaître une ou deux personnes marquantes, hommes ou femmes, pour chaque grande période de l’histoire, et savoir les placer dans la bonne période sur la frise.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre des figures de chaque période historique."
       ],
-      "evidence": [
+      "criteres": [
         "Cite une ou deux figures historiques (homme ou femme) par période historique.",
         "Situe sur une frise chronologique des figures de chaque période historique.",
         "Emploie les expressions figure historique et évènement historique."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait citer un personnage historique, homme ou femme, et le placer dans la bonne période sur une frise ?",
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait citer un personnage historique, homme ou femme, et le placer dans la bonne période sur une frise ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 4,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -534,28 +502,26 @@
     {
       "id": "fr-hg-ce1-trac-01",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 3 : Les traces du passé",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 3 : Les traces du passé",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Le passé laisse des traces : reconnaître les différentes traces",
+      "nom": "Le passé laisse des traces : reconnaître les différentes traces",
       "description": "Comprendre que le passé laisse des traces qu’on peut encore voir ou consulter aujourd’hui : fossiles, ossements, grottes préhistoriques, ruines, monuments, objets, écrits, images, œuvres d’art, témoignages.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre que le passé laisse des traces."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie des traces du passé dans son environnement proche ou dans des documents.",
         "Reconnaît des traces de différentes natures : fossiles, ossements, grottes (préhistoire), ruines, monuments, objets, écrits, images, œuvres d’art, témoignages.",
         "Emploie l’expression trace du passé."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait citer trois sortes de traces du passé, par exemple un monument, un objet ancien et un témoignage ?",
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait citer trois sortes de traces du passé, par exemple un monument, un objet ancien et un témoignage ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 4,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -564,28 +530,26 @@
     {
       "id": "fr-hg-ce1-trac-02",
       "programme": "hg-c2",
-      "type": "PROCEDURAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 3 : Les traces du passé",
-      "level": "CE1",
+      "nature": "savoir-faire",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 3 : Les traces du passé",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Situer une trace du passé dans le temps pour comprendre le passé",
+      "nom": "Situer une trace du passé dans le temps pour comprendre le passé",
       "description": "Se servir d’une trace (un monument près de chez soi, un objet, une image, un écrit, un témoignage) pour la dater et apprendre quelque chose sur la vie à cette époque.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Utiliser les traces du passé pour le comprendre."
       ],
-      "evidence": [
+      "criteres": [
         "Situe dans le temps une trace du passé issue de son environnement proche.",
         "Situe dans le temps une trace du passé vue dans un document : écrit, image, œuvre d’art, témoignage.",
         "Utilise une trace du passé pour comprendre comment on vivait à cette époque."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire de quelle période date un monument proche de chez lui et ce qu’il nous apprend sur la vie à cette époque ?",
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait dire de quelle période date un monument proche de chez lui et ce qu’il nous apprend sur la vie à cette époque ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 4,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -594,27 +558,25 @@
     {
       "id": "fr-hg-ce1-trac-03",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 3 : Les traces du passé",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 3 : Les traces du passé",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Les métiers qui étudient le passé : archéologue, historien, historienne",
+      "nom": "Les métiers qui étudient le passé : archéologue, historien, historienne",
       "description": "Savoir que des spécialistes étudient les traces du passé : l’archéologue fouille le sol pour retrouver des objets et des vestiges, l’historien ou l’historienne étudie les documents, l’archiviste conserve les archives.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les métiers d’archéologue, d’historien et d’historienne."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme les métiers d’archéologue, d’historien et d’historienne, et d’archiviste.",
         "Explique que ces spécialistes étudient les traces du passé pour le connaître."
       ],
-      "period": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce que fait une archéologue et ce que fait un historien ?",
+      "periode": "tout au long de l’année, sans durée fixée (dimensions du temps abordées conjointement)",
+      "question": "Est-ce que {{prenom}} sait expliquer ce que fait une archéologue et ce que fait un historien ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 4,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -623,28 +585,26 @@
     {
       "id": "fr-hg-ce2-preh-01",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 1 : La vie des femmes et des hommes au Paléolithique et au Néolithique (environ 3 millions d’années à 3000 av. J.-C.)",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 1 : La vie des femmes et des hommes au Paléolithique et au Néolithique (environ 3 millions d’années à 3000 av. J.-C.)",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Le mode de vie nomade des chasseurs-cueilleurs du Paléolithique",
+      "nom": "Le mode de vie nomade des chasseurs-cueilleurs du Paléolithique",
       "description": "Au Paléolithique, la première partie de la Préhistoire, les femmes et les hommes sont nomades : ils se déplacent pour chasser et cueillir leur nourriture.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre le mode de vie nomade au Paléolithique."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit le mode de vie des chasseurs-cueilleurs au Paléolithique.",
         "Explique qu’au Paléolithique les femmes et les hommes sont nomades.",
         "Emploie les mots Paléolithique et nomadisme."
       ],
-      "period": "période 1",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer comment les chasseurs-cueilleurs du Paléolithique trouvaient leur nourriture et pourquoi ils se déplaçaient ?",
+      "periode": "période 1",
+      "question": "Est-ce que {{prenom}} sait expliquer comment les chasseurs-cueilleurs du Paléolithique trouvaient leur nourriture et pourquoi ils se déplaçaient ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -653,27 +613,25 @@
     {
       "id": "fr-hg-ce2-preh-02",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 1 : La vie des femmes et des hommes au Paléolithique et au Néolithique (environ 3 millions d’années à 3000 av. J.-C.)",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 1 : La vie des femmes et des hommes au Paléolithique et au Néolithique (environ 3 millions d’années à 3000 av. J.-C.)",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Décrire une peinture pariétale ou une gravure rupestre",
+      "nom": "Décrire une peinture pariétale ou une gravure rupestre",
       "description": "Observer et décrire une œuvre d’art de la Préhistoire : une peinture faite sur la paroi d’une grotte (art pariétal) ou un dessin gravé sur une roche (art rupestre).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre le mode de vie nomade au Paléolithique."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit une peinture pariétale ou une gravure rupestre.",
         "Emploie les expressions art pariétal et art rupestre."
       ],
-      "period": "période 1",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire une peinture de grotte préhistorique : ce qu’elle représente et sur quel support elle a été faite ?",
+      "periode": "période 1",
+      "question": "Est-ce que {{prenom}} sait décrire une peinture de grotte préhistorique : ce qu’elle représente et sur quel support elle a été faite ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -682,29 +640,27 @@
     {
       "id": "fr-hg-ce2-preh-03",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 1 : La vie des femmes et des hommes au Paléolithique et au Néolithique (environ 3 millions d’années à 3000 av. J.-C.)",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 1 : La vie des femmes et des hommes au Paléolithique et au Néolithique (environ 3 millions d’années à 3000 av. J.-C.)",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Le mode de vie sédentaire du Néolithique : agriculture et premiers métaux",
+      "nom": "Le mode de vie sédentaire du Néolithique : agriculture et premiers métaux",
       "description": "Au Néolithique, les femmes et les hommes cultivent la terre et élèvent des animaux : c’est l’agriculture. Ils s’installent alors durablement au même endroit (ils deviennent sédentaires) et commencent à utiliser les premiers métaux.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre le mode de vie sédentaire au Néolithique : agriculture (culture et élevage), utilisation des premiers métaux."
       ],
-      "evidence": [
+      "criteres": [
         "Explique qu’au Néolithique les femmes et les hommes deviennent sédentaires grâce à l’agriculture : culture et élevage.",
         "Cite l’utilisation des premiers métaux.",
         "Cite le repère : vers 10000 / 9000 av. J.-C., naissance de l’agriculture.",
         "Emploie les mots agriculture, Néolithique et sédentarité."
       ],
-      "period": "période 1",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi, au Néolithique, les êtres humains cessent de se déplacer et s’installent au même endroit ?",
+      "periode": "période 1",
+      "question": "Est-ce que {{prenom}} sait expliquer pourquoi, au Néolithique, les êtres humains cessent de se déplacer et s’installent au même endroit ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -713,28 +669,26 @@
     {
       "id": "fr-hg-ce2-preh-04",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 1 : La vie des femmes et des hommes au Paléolithique et au Néolithique (environ 3 millions d’années à 3000 av. J.-C.)",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 1 : La vie des femmes et des hommes au Paléolithique et au Néolithique (environ 3 millions d’années à 3000 av. J.-C.)",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Comparer les modes de vie du Paléolithique et du Néolithique",
+      "nom": "Comparer les modes de vie du Paléolithique et du Néolithique",
       "description": "Expliquer ce qui change dans la vie des femmes et des hommes entre le Paléolithique (nomades, chasseurs-cueilleurs) et le Néolithique (sédentaires, agriculteurs et éleveurs).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre le mode de vie nomade au Paléolithique.",
         "Comprendre le mode de vie sédentaire au Néolithique : agriculture (culture et élevage), utilisation des premiers métaux."
       ],
-      "evidence": [
+      "criteres": [
         "Explique les différences de mode de vie des femmes et des hommes entre le Paléolithique et le Néolithique.",
         "Oppose le nomadisme des chasseurs-cueilleurs à la sédentarité des agriculteurs."
       ],
-      "period": "période 1",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait donner deux différences entre la vie au Paléolithique et la vie au Néolithique, par exemple la façon de se nourrir et le fait de se déplacer ou non ?",
+      "periode": "période 1",
+      "question": "Est-ce que {{prenom}} sait donner deux différences entre la vie au Paléolithique et la vie au Néolithique, par exemple la façon de se nourrir et le fait de se déplacer ou non ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -743,29 +697,27 @@
     {
       "id": "fr-hg-ce2-preh-05",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 1 : La vie des femmes et des hommes au Paléolithique et au Néolithique (environ 3 millions d’années à 3000 av. J.-C.)",
-      "level": "CE2",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 1 : La vie des femmes et des hommes au Paléolithique et au Néolithique (environ 3 millions d’années à 3000 av. J.-C.)",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Les repères de la Préhistoire : agriculture, Ötzi, écriture",
+      "nom": "Les repères de la Préhistoire : agriculture, Ötzi, écriture",
       "description": "Placer sur une frise la Préhistoire (d’environ 3 millions d’années à 3000 av. J.-C.) et ses grands repères : la naissance de l’agriculture, Ötzi (un homme de la Préhistoire dont le corps a été retrouvé dans un glacier des Alpes) et l’apparition de l’écriture, qui marque la fin de la Préhistoire. Connaître aussi un site archéologique préhistorique en France.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre le mode de vie nomade au Paléolithique.",
         "Comprendre le mode de vie sédentaire au Néolithique : agriculture (culture et élevage), utilisation des premiers métaux."
       ],
-      "evidence": [
+      "criteres": [
         "Situe la Préhistoire sur une frise chronologique : environ 3 millions d’années à 3000 av. J.-C.",
         "Cite et place les repères : vers 10000 / 9000 av. J.-C., naissance de l’agriculture ; 3200 av. J.-C., Ötzi ; vers 3000 av. J.-C., apparition de l’écriture.",
         "Nomme un site archéologique préhistorique sur le territoire français."
       ],
-      "period": "période 1",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait placer dans l’ordre sur une frise la naissance de l’agriculture, Ötzi et l’apparition de l’écriture ?",
+      "periode": "période 1",
+      "question": "Est-ce que {{prenom}} sait placer dans l’ordre sur une frise la naissance de l’agriculture, Ötzi et l’apparition de l’écriture ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -774,28 +726,26 @@
     {
       "id": "fr-hg-ce2-rome-01",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 2 : Vivre à Rome et en Gaule romaine du Ier siècle avant J.-C. au IIe siècle après J.-C.",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 2 : Vivre à Rome et en Gaule romaine du Ier siècle avant J.-C. au IIe siècle après J.-C.",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "La vie quotidienne à Rome et l’usage de ses monuments",
+      "nom": "La vie quotidienne à Rome et l’usage de ses monuments",
       "description": "Savoir comment les habitantes et les habitants de Rome se logeaient, se nourrissaient, se déplaçaient et se divertissaient, et à quoi servaient les monuments de la ville : amphithéâtre (spectacles), aqueduc (eau), forum (place publique), thermes (bains), temple, palais, villa.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre la vie quotidienne des habitantes et des habitants de Rome : se loger, se nourrir, se déplacer, se divertir."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit la vie quotidienne des habitantes et des habitants de Rome : se loger, se nourrir, se déplacer, se divertir.",
         "Définit l’usage d’un monument ou d’un aménagement caractéristique de la ville de Rome : amphithéâtre, aqueduc, forum, palais, temple, thermes, villa.",
         "Emploie les mots amphithéâtre, aqueduc, forum, temple et thermes."
       ],
-      "period": "périodes 2 et 3",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer à quoi servaient un aqueduc et un amphithéâtre dans la Rome antique ?",
+      "periode": "périodes 2 et 3",
+      "question": "Est-ce que {{prenom}} sait expliquer à quoi servaient un aqueduc et un amphithéâtre dans la Rome antique ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -804,27 +754,25 @@
     {
       "id": "fr-hg-ce2-rome-02",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 2 : Vivre à Rome et en Gaule romaine du Ier siècle avant J.-C. au IIe siècle après J.-C.",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 2 : Vivre à Rome et en Gaule romaine du Ier siècle avant J.-C. au IIe siècle après J.-C.",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Une société antique hiérarchisée",
+      "nom": "Une société antique hiérarchisée",
       "description": "Comprendre que, dans la société romaine, tout le monde n’a pas la même place : hommes, femmes, esclaves et étrangers n’ont pas les mêmes droits.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre que la société antique est hiérarchisée (hommes, femmes, esclaves, étrangers, etc.)"
       ],
-      "evidence": [
+      "criteres": [
         "Explique que la société antique est hiérarchisée : toutes les personnes n’y ont pas la même place.",
         "Cite des groupes qui composent la société romaine : hommes, femmes, esclaves, étrangers."
       ],
-      "period": "périodes 2 et 3",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer qu’à Rome un homme, une femme et un esclave n’avaient pas la même place dans la société ?",
+      "periode": "périodes 2 et 3",
+      "question": "Est-ce que {{prenom}} sait expliquer qu’à Rome un homme, une femme et un esclave n’avaient pas la même place dans la société ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -833,27 +781,25 @@
     {
       "id": "fr-hg-ce2-rome-03",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 2 : Vivre à Rome et en Gaule romaine du Ier siècle avant J.-C. au IIe siècle après J.-C.",
-      "level": "CE2",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 2 : Vivre à Rome et en Gaule romaine du Ier siècle avant J.-C. au IIe siècle après J.-C.",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "L’empire romain à son apogée et la Gaule sur une carte",
+      "nom": "L’empire romain à son apogée et la Gaule sur une carte",
       "description": "Repérer sur une carte l’immense territoire de l’empire romain au IIe siècle après J.-C., au moment où il est le plus étendu (son apogée), et y situer la Gaule, qui correspond à peu près à la France actuelle.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre l’étendue de l’empire romain au IIe siècle après J.-C."
       ],
-      "evidence": [
+      "criteres": [
         "Repère sur une carte l’étendue de l’empire romain à son apogée, au IIe siècle après J.-C.",
         "Localise la Gaule dans l’empire romain."
       ],
-      "period": "périodes 2 et 3",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sur une carte l’étendue de l’empire romain au IIe siècle après J.-C. et y situer la Gaule ?",
+      "periode": "périodes 2 et 3",
+      "question": "Est-ce que {{prenom}} sait montrer sur une carte l’étendue de l’empire romain au IIe siècle après J.-C. et y situer la Gaule ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -862,29 +808,27 @@
     {
       "id": "fr-hg-ce2-rome-04",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 2 : Vivre à Rome et en Gaule romaine du Ier siècle avant J.-C. au IIe siècle après J.-C.",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 2 : Vivre à Rome et en Gaule romaine du Ier siècle avant J.-C. au IIe siècle après J.-C.",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "La Gaule romaine : le monde gallo-romain",
+      "nom": "La Gaule romaine : le monde gallo-romain",
       "description": "Après la conquête romaine, la vie en Gaule mélange les habitudes gauloises et romaines : c’est le monde gallo-romain. On en retrouve les traces dans des sites archéologiques.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre la vie quotidienne des habitantes et des habitants de la Gaule romaine."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit la vie quotidienne des habitantes et des habitants de la Gaule romaine.",
         "Explique que le monde gallo-romain mêle les cultures gauloise et romaine.",
         "Nomme un site archéologique gallo-romain.",
         "Emploie le mot gallo-romain."
       ],
-      "period": "périodes 2 et 3",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi on parle de Gaule « gallo-romaine » et citer un site archéologique gallo-romain ?",
+      "periode": "périodes 2 et 3",
+      "question": "Est-ce que {{prenom}} sait expliquer pourquoi on parle de Gaule « gallo-romaine » et citer un site archéologique gallo-romain ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -893,29 +837,27 @@
     {
       "id": "fr-hg-ce2-rome-05",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 2 : Vivre à Rome et en Gaule romaine du Ier siècle avant J.-C. au IIe siècle après J.-C.",
-      "level": "CE2",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 2 : Vivre à Rome et en Gaule romaine du Ier siècle avant J.-C. au IIe siècle après J.-C.",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Situer Alésia et le règne d’Auguste sur une frise",
+      "nom": "Situer Alésia et le règne d’Auguste sur une frise",
       "description": "Placer sur une frise deux repères de l’Antiquité : le siège d’Alésia en 52 av. J.-C., où le chef gaulois Vercingétorix est vaincu par les Romains, et le règne de l’empereur Auguste (27 av. J.-C. – 14 après J.-C.). Avant J.-C., les années se comptent à rebours : 52 av. J.-C. est plus ancien que 27 av. J.-C.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre la vie quotidienne des habitantes et des habitants de la Gaule romaine.",
         "Connaitre l’étendue de l’empire romain au IIe siècle après J.-C."
       ],
-      "evidence": [
+      "criteres": [
         "Cite le repère : 52 av. J.-C., siège d’Alésia, défaite de Vercingétorix.",
         "Cite le repère : 27 av. J.-C. – 14 après J.-C., règne de l’empereur Auguste.",
         "Place ces repères sur une frise chronologique, dans l’Antiquité."
       ],
-      "period": "périodes 2 et 3",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qui s’est passé à Alésia en 52 av. J.-C. et placer cette date avant le règne d’Auguste sur une frise ?",
+      "periode": "périodes 2 et 3",
+      "question": "Est-ce que {{prenom}} sait dire ce qui s’est passé à Alésia en 52 av. J.-C. et placer cette date avant le règne d’Auguste sur une frise ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -924,28 +866,26 @@
     {
       "id": "fr-hg-ce2-roy-01",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 3 : La construction du royaume de France (Xe – XVe siècles)",
-      "level": "CE2",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 3 : La construction du royaume de France (Xe – XVe siècles)",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Les grandes étapes de la construction du royaume de France",
+      "nom": "Les grandes étapes de la construction du royaume de France",
       "description": "Comprendre, à l’aide de cartes, comment le royaume de France se construit et s’agrandit peu à peu entre le Xe et le XVe siècle, une période marquée par la guerre de Cent Ans (XIVe-XVe siècles).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Les grandes étapes de la construction du royaume de France."
       ],
-      "evidence": [
+      "criteres": [
         "Repère les grandes étapes de la construction du royaume de France à partir de cartes.",
         "Cite le repère : XIVe-XVe siècles, guerre de Cent Ans.",
         "Emploie le mot royaume."
       ],
-      "period": "périodes 4 et 5",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer, en comparant deux cartes, comment le royaume de France s’est agrandi entre le Xe et le XVe siècle ?",
+      "periode": "périodes 4 et 5",
+      "question": "Est-ce que {{prenom}} sait montrer, en comparant deux cartes, comment le royaume de France s’est agrandi entre le Xe et le XVe siècle ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -954,27 +894,25 @@
     {
       "id": "fr-hg-ce2-roy-02",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 3 : La construction du royaume de France (Xe – XVe siècles)",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 3 : La construction du royaume de France (Xe – XVe siècles)",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Décrire la cérémonie du sacre",
+      "nom": "Décrire la cérémonie du sacre",
       "description": "Le sacre est la cérémonie religieuse au cours de laquelle le nouveau roi est couronné. Savoir la décrire aide à comprendre comment le roi affirme son autorité.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Les moyens d’affirmation de l’autorité du roi."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit la cérémonie du sacre.",
         "Emploie le mot sacre."
       ],
-      "period": "périodes 4 et 5",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter ce qui se passe pendant le sacre d’un roi de France ?",
+      "periode": "périodes 4 et 5",
+      "question": "Est-ce que {{prenom}} sait raconter ce qui se passe pendant le sacre d’un roi de France ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -983,27 +921,25 @@
     {
       "id": "fr-hg-ce2-roy-03",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 3 : La construction du royaume de France (Xe – XVe siècles)",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 3 : La construction du royaume de France (Xe – XVe siècles)",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Les moyens utilisés par le roi pour affirmer son autorité",
+      "nom": "Les moyens utilisés par le roi pour affirmer son autorité",
       "description": "Savoir comment les rois de France imposent leur pouvoir sur le royaume, par exemple par la guerre, l’impôt ou la monnaie.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Les moyens d’affirmation de l’autorité du roi."
       ],
-      "evidence": [
+      "criteres": [
         "Cite les moyens utilisés par les rois de France pour affirmer leur autorité sur leur royaume.",
         "Emploie les mots guerre, impôt, monnaie et monarchie."
       ],
-      "period": "périodes 4 et 5",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait citer deux moyens utilisés par les rois de France pour affirmer leur autorité, comme lever l’impôt ou frapper la monnaie ?",
+      "periode": "périodes 4 et 5",
+      "question": "Est-ce que {{prenom}} sait citer deux moyens utilisés par les rois de France pour affirmer leur autorité, comme lever l’impôt ou frapper la monnaie ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1012,30 +948,28 @@
     {
       "id": "fr-hg-ce2-roy-04",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Histoire",
-      "subdomain": "Thème 3 : La construction du royaume de France (Xe – XVe siècles)",
-      "level": "CE2",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Histoire",
+      "sousDomaine": "Thème 3 : La construction du royaume de France (Xe – XVe siècles)",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Les dynasties royales et des figures du Moyen Âge sur une frise",
+      "nom": "Les dynasties royales et des figures du Moyen Âge sur une frise",
       "description": "Nommer et placer sur une frise les familles de rois qui se succèdent (les dynasties) : les Capétiens, à partir de l’élection d’Hugues Capet en 987, puis les Valois ; ainsi que quelques rois, comme Philippe Auguste, et quelques grandes figures féminines, comme Aliénor d’Aquitaine ou Blanche de Castille.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Les grandes étapes de la construction du royaume de France."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme et situe sur une frise chronologique les dynasties royales : Capétiens, Valois.",
         "Nomme et situe sur la frise quelques rois, comme Philippe Auguste.",
         "Nomme et situe quelques grandes figures féminines, comme Aliénor d’Aquitaine ou Blanche de Castille.",
         "Cite le repère : 987, élection d’Hugues Capet.",
         "Emploie le mot dynastie."
       ],
-      "period": "périodes 4 et 5",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quelle dynastie commence avec l’élection d’Hugues Capet en 987 et placer Philippe Auguste sur une frise ?",
+      "periode": "périodes 4 et 5",
+      "question": "Est-ce que {{prenom}} sait dire quelle dynastie commence avec l’élection d’Hugues Capet en 987 et placer Philippe Auguste sur une frise ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 5,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1044,27 +978,25 @@
     {
       "id": "fr-hg-ce2-mh-01",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Principes",
-      "subdomain": "L’enseignement formel de l’histoire (à partir du CE2)",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Principes",
+      "sousDomaine": "L’enseignement formel de l’histoire (à partir du CE2)",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Distinguer un récit de fiction d’un évènement historique",
+      "nom": "Distinguer un récit de fiction d’un évènement historique",
       "description": "À partir du CE2, savoir faire la différence entre une histoire inventée (un conte, une légende, un roman) et un évènement qui a vraiment eu lieu, puis situer cet évènement dans le temps.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "À partir du cours élémentaire deuxième année, l’élève aborde l’enseignement formel de l’histoire. Il apprend à distinguer les récits fictionnels des évènements historiques et à situer ces derniers dans le temps."
       ],
-      "evidence": [
+      "criteres": [
         "Distingue un récit fictionnel d’un évènement historique.",
         "Situe un évènement historique dans le temps."
       ],
-      "period": "toute l’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, entre un conte de chevaliers et le récit de l’élection d’Hugues Capet en 987, lequel raconte un évènement historique ?",
+      "periode": "toute l’année",
+      "question": "Est-ce que {{prenom}} sait dire, entre un conte de chevaliers et le récit de l’élection d’Hugues Capet en 987, lequel raconte un évènement historique ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 2,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1073,30 +1005,28 @@
     {
       "id": "fr-hg-cp-ecol-01",
       "programme": "hg-c2",
-      "type": "LANGUAGE",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : Autour de l’école",
-      "level": "CP",
+      "nature": "vocabulaire",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : Autour de l’école",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Situer les éléments de la classe avec le vocabulaire de position",
+      "nom": "Situer les éléments de la classe avec le vocabulaire de position",
       "description": "Nommer ce qui organise la classe (le tableau, les tables, la porte, les coins…) et dire où se trouvent ces éléments les uns par rapport aux autres avec les bons mots : à gauche, à droite, au-dessus, en dessous, devant, derrière, à côté.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les éléments d’organisation de la classe et de l’école."
       ],
-      "evidence": [
+      "criteres": [
         "Nomme les éléments d’organisation de la classe et les situe les uns par rapport aux autres.",
         "Emploie les termes permettant de positionner : à gauche, à droite, au-dessus, en dessous, devant, derrière, à côté."
       ],
-      "period": "trois périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire où se trouve le tableau par rapport à sa table, avec des mots comme devant, derrière, à gauche ou à droite ?",
-      "priorKnowledge": [
+      "periode": "trois périodes",
+      "question": "Est-ce que {{prenom}} sait dire où se trouve le tableau par rapport à sa table, avec des mots comme devant, derrière, à gauche ou à droite ?",
+      "acquisAnterieurs": [
         "Distinguer la gauche de la droite et décrire la place occupée par un camarade dans la classe (GS, maternelle – Se repérer dans l’espace)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1105,30 +1035,28 @@
     {
       "id": "fr-hg-cp-ecol-02",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : Autour de l’école",
-      "level": "CP",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : Autour de l’école",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Les lieux de l’école et leur usage",
+      "nom": "Les lieux de l’école et leur usage",
       "description": "Connaître les différents lieux de l’école et à quoi ils servent : la classe, la cour de récréation, les couloirs, les sanitaires, le réfectoire, le portail…",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les éléments d’organisation de la classe et de l’école.",
         "Explorer les locaux de l’école pour s’y repérer."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit l’usage des différents lieux de l’école : la classe, la cour de récréation, les couloirs, les sanitaires, le réfectoire, le portail, etc."
       ],
-      "period": "trois périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer les lieux de son école, comme le réfectoire ou les sanitaires, et dire à quoi sert chacun ?",
-      "priorKnowledge": [
+      "periode": "trois périodes",
+      "question": "Est-ce que {{prenom}} sait nommer les lieux de son école, comme le réfectoire ou les sanitaires, et dire à quoi sert chacun ?",
+      "acquisAnterieurs": [
         "Se déplacer dans l’école pour déposer un objet dans un lieu proposé : cantine, dortoirs, toilettes, cour (PS, maternelle – Se repérer dans l’espace)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1137,31 +1065,29 @@
     {
       "id": "fr-hg-cp-ecol-03",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : Autour de l’école",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : Autour de l’école",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Faire le plan de la classe",
+      "nom": "Faire le plan de la classe",
       "description": "Comprendre qu’un lieu peut être représenté sur une feuille, vu d’en haut : c’est un plan. Dessiner le plan de sa classe et le comparer avec celui d’une autre classe.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre que l’espace se représente."
       ],
-      "evidence": [
+      "criteres": [
         "Fait le plan de la classe.",
         "Compare le plan de sa classe à celui d’une autre classe.",
         "Emploie le mot plan."
       ],
-      "period": "trois périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dessiner le plan de sa classe, vu d’en haut, avec les tables, le tableau et la porte ?",
-      "priorKnowledge": [
+      "periode": "trois périodes",
+      "question": "Est-ce que {{prenom}} sait dessiner le plan de sa classe, vu d’en haut, avec les tables, le tableau et la porte ?",
+      "acquisAnterieurs": [
         "Dessiner le plan de la classe ou de la cour et représenter divers éléments sur un plan (GS, maternelle – Se repérer dans l’espace)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1170,26 +1096,24 @@
     {
       "id": "fr-hg-cp-ecol-04",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : Autour de l’école",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : Autour de l’école",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Reconnaître un lieu familier sous différents angles de vue",
+      "nom": "Reconnaître un lieu familier sous différents angles de vue",
       "description": "Reconnaître un lieu qu’on connaît bien (la cour, la rue de l’école…) sur une photo ou un dessin, qu’il soit vu de face, de côté ou d’en haut.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre que l’espace se représente."
       ],
-      "evidence": [
+      "criteres": [
         "Reconnaît des lieux familiers représentés sous différents angles de vue."
       ],
-      "period": "trois périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître la cour de son école sur une photo prise d’en haut ?",
+      "periode": "trois périodes",
+      "question": "Est-ce que {{prenom}} sait reconnaître la cour de son école sur une photo prise d’en haut ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1198,30 +1122,28 @@
     {
       "id": "fr-hg-cp-ecol-05",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : Autour de l’école",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : Autour de l’école",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Se déplacer dans l’école en utilisant un plan",
+      "nom": "Se déplacer dans l’école en utilisant un plan",
       "description": "Explorer les locaux de l’école et s’y orienter à l’aide d’un plan pour aller d’un lieu à un autre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Explorer les locaux de l’école pour s’y repérer.",
         "Comprendre que l’espace se représente."
       ],
-      "evidence": [
+      "criteres": [
         "Se déplace dans l’école en s’orientant et en utilisant un plan."
       ],
-      "period": "trois périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait aller de sa classe jusqu’au réfectoire en suivant un plan de l’école ?",
-      "priorKnowledge": [
+      "periode": "trois périodes",
+      "question": "Est-ce que {{prenom}} sait aller de sa classe jusqu’au réfectoire en suivant un plan de l’école ?",
+      "acquisAnterieurs": [
         "Déplacer une figurine sur un plan de l’école en respectant un parcours mémorisé (GS, maternelle – Se repérer dans l’espace)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1230,31 +1152,29 @@
     {
       "id": "fr-hg-cp-ecol-06",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : Autour de l’école",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : Autour de l’école",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Décrire ou représenter un trajet et ses repères autour de l’école",
+      "nom": "Décrire ou représenter un trajet et ses repères autour de l’école",
       "description": "Décrire, à l’oral ou par un dessin, un trajet entre un lieu proche (son domicile, un bâtiment public, un équipement sportif…) et l’école, en citant les repères rencontrés : carrefours, bâtiments publics ou monuments, commerces, panneaux…",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier les différents repères autour de l’école, du quartier ou de la commune."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit et/ou représente un trajet, par exemple entre son domicile, un bâtiment public ou un équipement sportif et l’école.",
         "Identifie les repères autour de l’école, du quartier ou de la commune : carrefours, bâtiments publics, monuments, commerces, équipements sportifs, panneaux.",
         "Emploie les mots rue, route, quartier, village et trajet."
       ],
-      "period": "trois périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire le trajet de chez lui à l’école en citant des repères, comme un carrefour, un commerce ou un panneau ?",
-      "priorKnowledge": [
+      "periode": "trois périodes",
+      "question": "Est-ce que {{prenom}} sait décrire le trajet de chez lui à l’école en citant des repères, comme un carrefour, un commerce ou un panneau ?",
+      "acquisAnterieurs": [
         "Expliquer le trajet de l’entrée de l’école à la salle de classe en utilisant des repères et des marqueurs spatiaux (GS, maternelle – Se repérer dans l’espace)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1263,32 +1183,30 @@
     {
       "id": "fr-hg-cp-mond-01",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Des représentations du monde",
-      "level": "CP",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Des représentations du monde",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Distinguer les continents et les océans",
+      "nom": "Distinguer les continents et les océans",
       "description": "Faire la différence entre les terres émergées (les continents) et les océans, et comprendre, en manipulant un globe, que tous les océans communiquent entre eux.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier la différence entre continents et océans."
       ],
-      "evidence": [
+      "criteres": [
         "Distingue les terres émergées et les océans.",
         "Identifie les continents en manipulant un globe terrestre ou le planisphère.",
         "Montre, en manipulant un globe terrestre, la continuité entre les océans.",
         "Emploie les mots continent, océan et pays."
       ],
-      "period": "deux périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sur un globe ce qui est un continent et ce qui est un océan ?",
-      "priorKnowledge": [
+      "periode": "deux périodes",
+      "question": "Est-ce que {{prenom}} sait montrer sur un globe ce qui est un continent et ce qui est un océan ?",
+      "acquisAnterieurs": [
         "Faire la différence entre la mer et la terre ; nommer un ou deux continents et quelques pays sur un globe ou un planisphère (GS, maternelle – Se repérer dans l’espace)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1297,30 +1215,28 @@
     {
       "id": "fr-hg-cp-mond-02",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Des représentations du monde",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Des représentations du monde",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Passer du globe au planisphère",
+      "nom": "Passer du globe au planisphère",
       "description": "Comprendre que le globe est une boule qui représente la Terre, et que le planisphère est une carte qui montre le monde entier à plat, d’un seul coup d’œil ; savoir reconnaître un planisphère.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre comment et pourquoi passer du globe au planisphère."
       ],
-      "evidence": [
+      "criteres": [
         "Reconnaît un planisphère.",
         "Identifie les mêmes continents sur un globe terrestre et sur le planisphère."
       ],
-      "period": "deux périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître un planisphère et expliquer pourquoi on l’utilise à la place du globe pour voir le monde entier d’un coup ?",
-      "priorKnowledge": [
+      "periode": "deux périodes",
+      "question": "Est-ce que {{prenom}} sait reconnaître un planisphère et expliquer pourquoi on l’utilise à la place du globe pour voir le monde entier d’un coup ?",
+      "acquisAnterieurs": [
         "Reconnaitre quelques espaces géographiques sur un planisphère (GS, maternelle – Se repérer dans l’espace)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1329,27 +1245,25 @@
     {
       "id": "fr-hg-cp-mond-03",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Des représentations du monde",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Des représentations du monde",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Localiser les continents et les océans sur un planisphère",
+      "nom": "Localiser les continents et les océans sur un planisphère",
       "description": "Montrer et nommer sur un planisphère les continents et les trois grands océans : Atlantique, Pacifique et Indien.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier la différence entre continents et océans."
       ],
-      "evidence": [
+      "criteres": [
         "Reconnaît et localise les continents sur un planisphère.",
         "Reconnaît et localise les océans Atlantique, Pacifique et Indien sur un planisphère."
       ],
-      "period": "deux périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sur un planisphère les continents et les océans Atlantique, Pacifique et Indien ?",
+      "periode": "deux périodes",
+      "question": "Est-ce que {{prenom}} sait montrer sur un planisphère les continents et les océans Atlantique, Pacifique et Indien ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1358,27 +1272,25 @@
     {
       "id": "fr-hg-cp-mond-04",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Des représentations du monde",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Des représentations du monde",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Les points cardinaux : nord, sud, est, ouest",
+      "nom": "Les points cardinaux : nord, sud, est, ouest",
       "description": "Connaître les quatre points cardinaux et savoir les repérer sur un planisphère : en général, le nord est en haut, le sud en bas, l’est à droite et l’ouest à gauche.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre comment et pourquoi passer du globe au planisphère."
       ],
-      "evidence": [
+      "criteres": [
         "Repère le nord, le sud, l’est et l’ouest sur un planisphère.",
         "Emploie les mots nord, sud, est et ouest."
       ],
-      "period": "deux périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer le nord, le sud, l’est et l’ouest sur un planisphère ?",
+      "periode": "deux périodes",
+      "question": "Est-ce que {{prenom}} sait montrer le nord, le sud, l’est et l’ouest sur un planisphère ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1387,27 +1299,25 @@
     {
       "id": "fr-hg-cp-mond-05",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Des représentations du monde",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Des représentations du monde",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Situer la France sur un globe et sur un planisphère",
+      "nom": "Situer la France sur un globe et sur un planisphère",
       "description": "Retrouver la France sur un globe et sur un planisphère, aussi bien la France hexagonale (la métropole) que les territoires d’outre-mer (la France ultramarine).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre comment et pourquoi passer du globe au planisphère."
       ],
-      "evidence": [
+      "criteres": [
         "Situe la France sur un planisphère et sur un globe terrestre.",
         "Repère la France hexagonale et la France ultramarine sur le planisphère de la classe."
       ],
-      "period": "deux périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer la France sur un planisphère, ainsi qu’un territoire français d’outre-mer ?",
+      "periode": "deux périodes",
+      "question": "Est-ce que {{prenom}} sait montrer la France sur un planisphère, ainsi qu’un territoire français d’outre-mer ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1416,27 +1326,25 @@
     {
       "id": "fr-hg-cp-mond-06",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Des représentations du monde",
-      "level": "CP",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Des représentations du monde",
+      "classe": "CP",
       "cycle": 2,
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "name": "Le monde est peuplé : les grands foyers de peuplement",
+      "nom": "Le monde est peuplé : les grands foyers de peuplement",
       "description": "Comprendre que des êtres humains vivent un peu partout sur la Terre, mais qu’ils sont très nombreux dans certaines régions, appelées grands foyers de peuplement, et les localiser sur un planisphère.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre que le monde est peuplé."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que le monde est peuplé et que certaines régions, les grands foyers de peuplement, regroupent beaucoup d’habitants.",
         "Localise les grands foyers de peuplement sur un planisphère."
       ],
-      "period": "deux périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sur un planisphère une région du monde où vivent beaucoup d’habitants ?",
+      "periode": "deux périodes",
+      "question": "Est-ce que {{prenom}} sait montrer sur un planisphère une région du monde où vivent beaucoup d’habitants ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1445,27 +1353,25 @@
     {
       "id": "fr-hg-ce1-peup-01",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : La Terre est peuplée",
-      "level": "CE1",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : La Terre est peuplée",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Les grands foyers de peuplement : des espaces de fortes densités",
+      "nom": "Les grands foyers de peuplement : des espaces de fortes densités",
       "description": "Retrouver sur un planisphère les régions du monde où vivent beaucoup d’habitants sur un même espace (fortes densités), en réutilisant ce qui a été appris au CP.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les grands foyers de peuplement (fortes densités) en remobilisant les repères acquis depuis le CP."
       ],
-      "evidence": [
+      "criteres": [
         "Localise les grands foyers de peuplement sur un planisphère.",
         "Explique qu’un grand foyer de peuplement est un espace de fortes densités."
       ],
-      "period": "une ou deux périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sur un planisphère deux grands foyers de peuplement, là où vivent beaucoup d’habitants ?",
+      "periode": "une ou deux périodes",
+      "question": "Est-ce que {{prenom}} sait montrer sur un planisphère deux grands foyers de peuplement, là où vivent beaucoup d’habitants ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1474,27 +1380,25 @@
     {
       "id": "fr-hg-ce1-peup-02",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : La Terre est peuplée",
-      "level": "CE1",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : La Terre est peuplée",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Les principales villes du monde : une ville très peuplée par continent",
+      "nom": "Les principales villes du monde : une ville très peuplée par continent",
       "description": "Mémoriser le nom de grandes villes du monde et savoir les placer sur un planisphère, avec au moins une ville très peuplée sur chaque continent.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les principales villes dans le monde."
       ],
-      "evidence": [
+      "criteres": [
         "Mémorise et localise les principales villes à l’échelle mondiale.",
         "Nomme et localise une ville très peuplée de chaque continent."
       ],
-      "period": "une ou deux périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer une très grande ville sur chaque continent et la montrer sur un planisphère ?",
+      "periode": "une ou deux périodes",
+      "question": "Est-ce que {{prenom}} sait nommer une très grande ville sur chaque continent et la montrer sur un planisphère ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1503,28 +1407,26 @@
     {
       "id": "fr-hg-ce1-peup-03",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : La Terre est peuplée",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : La Terre est peuplée",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Ville, village et campagne",
+      "nom": "Ville, village et campagne",
       "description": "Faire la différence entre la ville et la campagne en observant des paysages, et expliquer ce qui distingue une ville d’un village.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre la différence entre ville et campagne à partir d’une approche paysagère."
       ],
-      "evidence": [
+      "criteres": [
         "Explique la différence entre ville et village.",
         "Distingue la ville et la campagne en observant des paysages.",
         "Emploie les mots ville, village et campagne."
       ],
-      "period": "une ou deux périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, devant deux photos, laquelle montre une ville et laquelle montre un village à la campagne, et pourquoi ?",
+      "periode": "une ou deux périodes",
+      "question": "Est-ce que {{prenom}} sait dire, devant deux photos, laquelle montre une ville et laquelle montre un village à la campagne, et pourquoi ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 6,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1533,27 +1435,25 @@
     {
       "id": "fr-hg-ce1-lieu-01",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Les trois grandes zones climatiques : tropicale, tempérée, froide",
+      "nom": "Les trois grandes zones climatiques : tropicale, tempérée, froide",
       "description": "Savoir qu’il existe sur Terre trois grandes zones de climat (tropicale, tempérée et froide) et dire ce qui les caractérise. Le climat, c’est le temps qu’il fait habituellement dans un lieu ; la météo, c’est le temps qu’il fait un jour donné.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les trois grandes zones climatiques (tropicale, tempérée, froide)."
       ],
-      "evidence": [
+      "criteres": [
         "Caractérise les trois principales zones climatiques : tropicale, tempérée, froide.",
         "Distingue le climat de la météo."
       ],
-      "period": "trois ou quatre périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer les trois grandes zones climatiques et dire dans laquelle il fait chaud toute l’année ?",
+      "periode": "trois ou quatre périodes",
+      "question": "Est-ce que {{prenom}} sait nommer les trois grandes zones climatiques et dire dans laquelle il fait chaud toute l’année ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1562,27 +1462,25 @@
     {
       "id": "fr-hg-ce1-lieu-02",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
-      "level": "CE1",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Localiser les zones climatiques et y placer les territoires français",
+      "nom": "Localiser les zones climatiques et y placer les territoires français",
       "description": "Repérer sur un planisphère la zone tropicale, la zone tempérée et la zone froide, et savoir dans quelle zone se trouvent la France hexagonale et les territoires français d’outre-mer.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les trois grandes zones climatiques (tropicale, tempérée, froide)."
       ],
-      "evidence": [
+      "criteres": [
         "Localise et nomme sur un planisphère les trois principales zones climatiques.",
         "Inscrit les territoires français dans les zones tropicale, tempérée et froide."
       ],
-      "period": "trois ou quatre périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait colorier sur un planisphère la zone tropicale, la zone tempérée et la zone froide, et dire dans laquelle se trouve la France hexagonale ?",
+      "periode": "trois ou quatre périodes",
+      "question": "Est-ce que {{prenom}} sait colorier sur un planisphère la zone tropicale, la zone tempérée et la zone froide, et dire dans laquelle se trouve la France hexagonale ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1591,28 +1489,26 @@
     {
       "id": "fr-hg-ce1-lieu-03",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Les grands types de végétation : forêt, prairie, désert",
+      "nom": "Les grands types de végétation : forêt, prairie, désert",
       "description": "Connaître les grands types de végétation et les reconnaître sur des photos : forêt tempérée ou tropicale, prairie ou savane, désert chaud ou froid.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les principaux types de végétation (forêt, prairie, désert)."
       ],
-      "evidence": [
+      "criteres": [
         "Caractérise les grands types de végétation : forêt, prairie, désert.",
         "Reconnaît une forêt tempérée et une forêt tropicale, un désert chaud et un désert froid, une prairie et une savane.",
         "Emploie les mots forêt et désert."
       ],
-      "period": "trois ou quatre périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, devant deux photos de forêts, laquelle est une forêt tropicale et laquelle est une forêt tempérée ?",
+      "periode": "trois ou quatre périodes",
+      "question": "Est-ce que {{prenom}} sait dire, devant deux photos de forêts, laquelle est une forêt tropicale et laquelle est une forêt tempérée ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1621,27 +1517,25 @@
     {
       "id": "fr-hg-ce1-lieu-04",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
-      "level": "CE1",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Localiser les principaux déserts et de grandes forêts du monde",
+      "nom": "Localiser les principaux déserts et de grandes forêts du monde",
       "description": "Placer sur un planisphère les principaux déserts (l’Antarctique, désert froid, et le Sahara, désert chaud) et de grandes forêts : la forêt amazonienne, la forêt du bassin du Congo, la forêt indonésienne, ainsi qu’une forêt proche de chez soi.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les principaux types de végétation (forêt, prairie, désert)."
       ],
-      "evidence": [
+      "criteres": [
         "Localise et nomme sur un planisphère les principaux déserts : Antarctique, Sahara.",
         "Situe la forêt amazonienne, la forêt du bassin du Congo, la forêt indonésienne et une forêt proche de son lieu de vie."
       ],
-      "period": "trois ou quatre périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sur un planisphère le Sahara, l’Antarctique et la forêt amazonienne ?",
+      "periode": "trois ou quatre périodes",
+      "question": "Est-ce que {{prenom}} sait montrer sur un planisphère le Sahara, l’Antarctique et la forêt amazonienne ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1650,27 +1544,25 @@
     {
       "id": "fr-hg-ce1-lieu-05",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Les types de relief : montagne, plaine, plateau, vallée",
+      "nom": "Les types de relief : montagne, plaine, plateau, vallée",
       "description": "Reconnaître et décrire les grandes formes de relief : la montagne (haute, avec de fortes pentes), la plaine (basse et plate), le plateau (plat mais en hauteur) et la vallée (creusée par un cours d’eau).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les différents types de relief (montagne, plaine, plateau et vallée)."
       ],
-      "evidence": [
+      "criteres": [
         "Caractérise les différents types de relief : montagne, plaine, plateau et vallée.",
         "Emploie les mots montagne, plaine et plateau."
       ],
-      "period": "trois ou quatre périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer la différence entre une plaine et un plateau ?",
+      "periode": "trois ou quatre périodes",
+      "question": "Est-ce que {{prenom}} sait expliquer la différence entre une plaine et un plateau ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1679,27 +1571,25 @@
     {
       "id": "fr-hg-ce1-lieu-06",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
-      "level": "CE1",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Localiser les grandes chaînes de montagne du monde",
+      "nom": "Localiser les grandes chaînes de montagne du monde",
       "description": "Nommer et placer sur un planisphère cinq grands massifs montagneux : les Andes, les Alpes, l’Atlas, l’Himalaya et les Rocheuses.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre les différents types de relief (montagne, plaine, plateau et vallée)."
       ],
-      "evidence": [
+      "criteres": [
         "Localise et nomme sur un planisphère les grandes chaines de montagne.",
         "Nomme et situe cinq massifs montagneux : Andes, Alpes, Atlas, Himalaya, Rocheuses."
       ],
-      "period": "trois ou quatre périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sur un planisphère l’Himalaya et les Andes, et dire sur quel continent se trouve chacune ?",
+      "periode": "trois ou quatre périodes",
+      "question": "Est-ce que {{prenom}} sait montrer sur un planisphère l’Himalaya et les Andes, et dire sur quel continent se trouve chacune ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1708,27 +1598,25 @@
     {
       "id": "fr-hg-ce1-lieu-07",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "La différence entre un fleuve et une rivière",
+      "nom": "La différence entre un fleuve et une rivière",
       "description": "Savoir qu’un fleuve se jette dans la mer ou dans l’océan, alors qu’une rivière se jette dans un autre cours d’eau.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre la différence entre un fleuve et une rivière."
       ],
-      "evidence": [
+      "criteres": [
         "Explique la différence entre un fleuve et une rivière.",
         "Emploie les mots fleuve et rivière."
       ],
-      "period": "trois ou quatre périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qui différencie un fleuve d’une rivière ?",
+      "periode": "trois ou quatre périodes",
+      "question": "Est-ce que {{prenom}} sait expliquer ce qui différencie un fleuve d’une rivière ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1737,28 +1625,26 @@
     {
       "id": "fr-hg-ce1-lieu-08",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
-      "level": "CE1",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Localiser les grands fleuves du monde",
+      "nom": "Localiser les grands fleuves du monde",
       "description": "Nommer et placer sur un planisphère les trois plus longs fleuves du monde (l’Amazone, le Mississippi et le Nil), ainsi qu’un fleuve proche de chez soi.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre la différence entre un fleuve et une rivière."
       ],
-      "evidence": [
+      "criteres": [
         "Localise et nomme sur un planisphère quelques grands fleuves.",
         "Nomme et situe les trois plus longs fleuves du monde : Amazone, Mississippi, Nil.",
         "Nomme et situe un fleuve proche de son lieu de vie."
       ],
-      "period": "trois ou quatre périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer les trois plus longs fleuves du monde et montrer le Nil sur un planisphère ?",
+      "periode": "trois ou quatre périodes",
+      "question": "Est-ce que {{prenom}} sait nommer les trois plus longs fleuves du monde et montrer le Nil sur un planisphère ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1767,27 +1653,25 @@
     {
       "id": "fr-hg-ce1-lieu-09",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
-      "level": "CE1",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Les êtres humains vivent dans des milieux différents",
+      "nom": "Les êtres humains vivent dans des milieux différents",
       "description": "Comprendre que les êtres humains vivent dans des milieux très variés, qui se distinguent par leur climat, leur végétation et leur relief : forêt tropicale, désert, montagne, plaine…",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre que les êtres humains vivent dans des milieux différents."
       ],
-      "evidence": [
+      "criteres": [
         "Explique que les êtres humains vivent dans des milieux différents.",
         "Caractérise un milieu de vie par son climat, sa végétation et son relief."
       ],
-      "period": "trois ou quatre périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire deux milieux très différents où vivent des êtres humains, par exemple un désert chaud et une montagne ?",
+      "periode": "trois ou quatre périodes",
+      "question": "Est-ce que {{prenom}} sait décrire deux milieux très différents où vivent des êtres humains, par exemple un désert chaud et une montagne ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1796,30 +1680,28 @@
     {
       "id": "fr-hg-ce1-lieu-10",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
-      "level": "CE1",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Découvrir les lieux où vivent les êtres humains",
+      "classe": "CE1",
       "cycle": 2,
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "name": "Décrire un paysage à partir d’une photographie ou d’une observation",
+      "nom": "Décrire un paysage à partir d’une photographie ou d’une observation",
       "description": "Observer un paysage, en vrai ou en photo, et le décrire à l’oral ou par un dessin, en distinguant ce qui est au premier plan et ce qui est à l’arrière-plan.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Comprendre que les êtres humains vivent dans des milieux différents."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit un paysage à partir d’une photographie ou d’une observation directe, à l’oral et/ou avec une production graphique.",
         "Distingue le premier plan et l’arrière-plan d’un paysage."
       ],
-      "period": "trois ou quatre périodes",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire une photo de paysage en disant ce qu’il voit au premier plan et à l’arrière-plan ?",
-      "priorKnowledge": [
+      "periode": "trois ou quatre périodes",
+      "question": "Est-ce que {{prenom}} sait décrire une photo de paysage en disant ce qu’il voit au premier plan et à l’arrière-plan ?",
+      "acquisAnterieurs": [
         "Produire des représentations des différents espaces et paysages aux abords de l’école : photographies, textes, dessins (GS, maternelle – Se repérer dans l’espace)"
       ],
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1828,27 +1710,25 @@
     {
       "id": "fr-hg-ce2-rep-01",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : L’inégale répartition de la population en France",
-      "level": "CE2",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : L’inégale répartition de la population en France",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Espaces de fortes et de faibles densités en France",
+      "nom": "Espaces de fortes et de faibles densités en France",
       "description": "Comprendre que la population n’est pas répartie de la même façon sur le territoire français : certains espaces sont très peuplés (fortes densités), d’autres beaucoup moins (faibles densités). Savoir les situer sur une carte de France.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre la répartition de la population en France."
       ],
-      "evidence": [
+      "criteres": [
         "Localise sur une carte de France les espaces de fortes densités et de faibles densités.",
         "Emploie les mots population et peuplement."
       ],
-      "period": "une période, placée librement dans l’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sur une carte de France un espace très peuplé et un espace peu peuplé ?",
+      "periode": "une période, placée librement dans l’année",
+      "question": "Est-ce que {{prenom}} sait montrer sur une carte de France un espace très peuplé et un espace peu peuplé ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1857,27 +1737,25 @@
     {
       "id": "fr-hg-ce2-rep-02",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : L’inégale répartition de la population en France",
-      "level": "CE2",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : L’inégale répartition de la population en France",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Les cinq principales agglomérations françaises",
+      "nom": "Les cinq principales agglomérations françaises",
       "description": "Une agglomération est une ville avec les communes qui l’entourent. Savoir nommer et placer sur une carte de France les cinq plus grandes agglomérations du pays et, s’il y a lieu, la grande agglomération la plus proche de l’école.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre la répartition de la population en France."
       ],
-      "evidence": [
+      "criteres": [
         "Localise et nomme sur une carte de France les cinq principales agglomérations à l’échelle nationale.",
         "Localise et nomme, le cas échéant, la principale agglomération à proximité de l’école."
       ],
-      "period": "une période, placée librement dans l’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer les cinq plus grandes agglomérations de France et les placer sur une carte ?",
+      "periode": "une période, placée librement dans l’année",
+      "question": "Est-ce que {{prenom}} sait nommer les cinq plus grandes agglomérations de France et les placer sur une carte ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1886,27 +1764,25 @@
     {
       "id": "fr-hg-ce2-rep-03",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : L’inégale répartition de la population en France",
-      "level": "CE2",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : L’inégale répartition de la population en France",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Les principaux massifs de montagne français",
+      "nom": "Les principaux massifs de montagne français",
       "description": "Nommer et placer sur une carte de France les principaux massifs montagneux : les Alpes, la Corse, le Jura, le Massif central, les Pyrénées, les Vosges et un massif d’outre-mer au choix.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre la répartition de la population en France."
       ],
-      "evidence": [
+      "criteres": [
         "Localise et nomme sur une carte de France les grandes chaines de montagne.",
         "Nomme et situe les principaux massifs de montagne français : Alpes, Corse, Jura, Massif central, Pyrénées, Vosges et un massif ultramarin au choix."
       ],
-      "period": "une période, placée librement dans l’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait montrer sur une carte de France les Alpes, les Pyrénées et le Massif central ?",
+      "periode": "une période, placée librement dans l’année",
+      "question": "Est-ce que {{prenom}} sait montrer sur une carte de France les Alpes, les Pyrénées et le Massif central ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1915,27 +1791,25 @@
     {
       "id": "fr-hg-ce2-rep-04",
       "programme": "hg-c2",
-      "type": "REPRESENTATIONAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 1 : L’inégale répartition de la population en France",
-      "level": "CE2",
+      "nature": "représentation",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 1 : L’inégale répartition de la population en France",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Les grands fleuves français",
+      "nom": "Les grands fleuves français",
       "description": "Nommer et placer sur une carte les grands fleuves français : la Garonne, la Loire, le Rhin, le Rhône, la Seine, ainsi que le Maroni en Guyane.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre la répartition de la population en France."
       ],
-      "evidence": [
+      "criteres": [
         "Localise et nomme sur une carte de France quelques grands fleuves.",
         "Nomme et situe les grands fleuves français : Garonne, Loire, Maroni, Rhin, Rhône, Seine."
       ],
-      "period": "une période, placée librement dans l’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait nommer les grands fleuves français et montrer la Loire et la Seine sur une carte ?",
+      "periode": "une période, placée librement dans l’année",
+      "question": "Est-ce que {{prenom}} sait nommer les grands fleuves français et montrer la Loire et la Seine sur une carte ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1944,28 +1818,26 @@
     {
       "id": "fr-hg-ce2-log-01",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 2 : Se loger en France",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 2 : Se loger en France",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Reconnaître et décrire les paysages résidentiels en France",
+      "nom": "Reconnaître et décrire les paysages résidentiels en France",
       "description": "Reconnaître sur des photos les différents types de lieux d’habitation en France et décrire ce qui les compose : un centre-ville historique, un quartier récent, un grand ensemble (de grands immeubles construits en même temps), un lotissement pavillonnaire (des maisons individuelles bâties ensemble) et un village.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre et comprendre la diversité des paysages résidentiels en France."
       ],
-      "evidence": [
+      "criteres": [
         "Reconnaît et décrit les éléments constitutifs des espaces résidentiels.",
         "Reconnaît les paysages d’un centre-ville historique, d’un quartier récent d’habitation, d’un grand ensemble, d’un lotissement pavillonnaire et d’un village.",
         "Emploie les mots centre-ville, grand ensemble et lotissement pavillonnaire."
       ],
-      "period": "deux périodes, placées librement dans l’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, devant une photo, s’il s’agit d’un grand ensemble, d’un lotissement pavillonnaire ou d’un centre-ville historique, et pourquoi ?",
+      "periode": "deux périodes, placées librement dans l’année",
+      "question": "Est-ce que {{prenom}} sait dire, devant une photo, s’il s’agit d’un grand ensemble, d’un lotissement pavillonnaire ou d’un centre-ville historique, et pourquoi ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 7,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
@@ -1974,498 +1846,562 @@
     {
       "id": "fr-hg-ce2-trav-01",
       "programme": "hg-c2",
-      "type": "CONCEPTUAL",
-      "subject": "Histoire-géographie",
-      "domain": "Géographie",
-      "subdomain": "Thème 3 : Travailler en France",
-      "level": "CE2",
+      "nature": "compréhension",
+      "matiere": "Histoire-géographie",
+      "domaine": "Géographie",
+      "sousDomaine": "Thème 3 : Travailler en France",
+      "classe": "CE2",
       "cycle": 2,
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "name": "Reconnaître et décrire les paysages des activités en France",
+      "nom": "Reconnaître et décrire les paysages des activités en France",
       "description": "Reconnaître et décrire les paysages liés au travail : un paysage industriel (usines), agricole (exploitations agricoles), commercial (magasins), de quartier d’affaires (bureaux) et de station touristique, au bord de la mer ou à la montagne.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Connaitre et comprendre la diversité paysagère des activités en France."
       ],
-      "evidence": [
+      "criteres": [
         "Reconnaît et décrit un paysage industriel et un paysage agricole.",
         "Reconnaît et décrit un paysage d’activité commerciale et un paysage de quartier d’affaires.",
         "Reconnaît et décrit un paysage de station touristique, littorale ou de montagne.",
         "Emploie les mots exploitation agricole, station touristique et usine."
       ],
-      "period": "deux périodes, placées librement dans l’année",
-      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître sur une photo un paysage industriel, un paysage agricole et une station touristique de montagne ?",
+      "periode": "deux périodes, placées librement dans l’année",
+      "question": "Est-ce que {{prenom}} sait reconnaître sur une photo un paysage industriel, un paysage agricole et une station touristique de montagne ?",
       "source": {
-        "file": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
+        "fichier": "cycle-2-cp-ce1-ce2/histoire-geo-c2-BO22-2026.pdf",
         "bo": "BO n° 22 du 28 mai 2026",
         "page": 8,
         "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762"
       }
     }
   ],
-  "prerequisites": [
-    {
-      "topicId": "fr-hg-cp-cal-01",
-      "prerequisiteId": "fr-hg-cp-cal-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Savoir que la semaine compte sept jours s’appuie sur la connaissance des jours."
-    },
-    {
-      "topicId": "fr-hg-cp-cal-01",
-      "prerequisiteId": "fr-hg-cp-cal-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Savoir que l’année compte douze mois s’appuie sur la connaissance des mois."
-    },
-    {
-      "topicId": "fr-hg-cp-cal-04",
-      "prerequisiteId": "fr-hg-cp-cal-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Utiliser une roue des jours ou un emploi du temps suppose de connaître les jours de la semaine."
-    },
-    {
-      "topicId": "fr-hg-cp-cal-04",
-      "prerequisiteId": "fr-hg-cp-cal-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Lire un calendrier de l’année demande de connaître les mois."
-    },
-    {
-      "topicId": "fr-hg-cp-sit-02",
-      "prerequisiteId": "fr-hg-cp-cal-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Situer des évènements sur un calendrier suppose de savoir utiliser un calendrier."
-    },
-    {
-      "topicId": "fr-hg-cp-sit-02",
-      "prerequisiteId": "fr-hg-cp-sit-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Situer un évènement passé ou à venir mobilise les marqueurs temporels et les temps verbaux."
-    },
-    {
-      "topicId": "fr-hg-cp-sit-03",
-      "prerequisiteId": "fr-hg-cp-sit-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Se repérer dans les générations, c’est situer qui vient avant et après."
-    },
-    {
-      "topicId": "fr-hg-cp-sit-04",
-      "prerequisiteId": "fr-hg-cp-sit-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Compléter une frise suppose d’ordonner les évènements (avant, après)."
-    },
-    {
-      "topicId": "fr-hg-ce1-pass-01",
-      "prerequisiteId": "fr-hg-cp-sit-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Le lexique du passé proche et lointain prolonge les marqueurs temporels du CP."
-    },
-    {
-      "topicId": "fr-hg-ce1-pass-02",
-      "prerequisiteId": "fr-hg-cp-cal-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Décennie, siècle et millénaire prolongent le découpage du temps en années."
+  "liens": [
+    {
+      "de": "fr-hg-cp-cal-02",
+      "vers": "fr-hg-cp-cal-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Savoir que la semaine compte sept jours s’appuie sur la connaissance des jours."
     },
-    {
-      "topicId": "fr-hg-ce1-pass-03",
-      "prerequisiteId": "fr-hg-cp-sit-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Placer des évènements anciens sur une frise suppose d’avoir déjà complété une frise au CP."
-    },
-    {
-      "topicId": "fr-hg-ce1-pass-03",
-      "prerequisiteId": "fr-hg-ce1-pass-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Distinguer passé proche et passé lointain aide à placer les évènements sur la frise."
-    },
-    {
-      "topicId": "fr-hg-ce1-per-01",
-      "prerequisiteId": "fr-hg-ce1-pass-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Les grandes périodes se placent sur une frise du temps long."
+    {
+      "de": "fr-hg-cp-cal-03",
+      "vers": "fr-hg-cp-cal-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Savoir que l’année compte douze mois s’appuie sur la connaissance des mois."
     },
-    {
-      "topicId": "fr-hg-ce1-per-01",
-      "prerequisiteId": "fr-hg-ce1-pass-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Lire les dates des périodes (millénaires, siècles) demande de connaître ces unités."
-    },
-    {
-      "topicId": "fr-hg-ce1-per-02",
-      "prerequisiteId": "fr-hg-ce1-per-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Situer une figure historique suppose de connaître les périodes de l’histoire."
+    {
+      "de": "fr-hg-cp-cal-02",
+      "vers": "fr-hg-cp-cal-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Utiliser une roue des jours ou un emploi du temps suppose de connaître les jours de la semaine."
     },
-    {
-      "topicId": "fr-hg-ce1-trac-02",
-      "prerequisiteId": "fr-hg-ce1-trac-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "On ne peut situer une trace du passé qu’après l’avoir identifiée comme telle."
+    {
+      "de": "fr-hg-cp-cal-03",
+      "vers": "fr-hg-cp-cal-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Lire un calendrier de l’année demande de connaître les mois."
     },
-    {
-      "topicId": "fr-hg-ce1-trac-02",
-      "prerequisiteId": "fr-hg-ce1-per-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Situer une trace dans le temps revient souvent à la rattacher à une grande période."
+    {
+      "de": "fr-hg-cp-cal-04",
+      "vers": "fr-hg-cp-sit-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Situer des évènements sur un calendrier suppose de savoir utiliser un calendrier."
     },
-    {
-      "topicId": "fr-hg-ce1-trac-03",
-      "prerequisiteId": "fr-hg-ce1-trac-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Archéologues et historiens travaillent à partir des traces du passé."
+    {
+      "de": "fr-hg-cp-sit-01",
+      "vers": "fr-hg-cp-sit-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Situer un évènement passé ou à venir mobilise les marqueurs temporels et les temps verbaux."
     },
-    {
-      "topicId": "fr-hg-ce2-preh-01",
-      "prerequisiteId": "fr-hg-ce1-per-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Le Paléolithique est une partie de la Préhistoire, première grande période de l’histoire."
+    {
+      "de": "fr-hg-cp-sit-01",
+      "vers": "fr-hg-cp-sit-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Se repérer dans les générations, c’est situer qui vient avant et après."
     },
-    {
-      "topicId": "fr-hg-ce2-preh-02",
-      "prerequisiteId": "fr-hg-ce1-trac-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les grottes ornées sont des traces du passé étudiées au CE1."
+    {
+      "de": "fr-hg-cp-sit-01",
+      "vers": "fr-hg-cp-sit-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Compléter une frise suppose d’ordonner les évènements (avant, après)."
     },
-    {
-      "topicId": "fr-hg-ce2-preh-04",
-      "prerequisiteId": "fr-hg-ce2-preh-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Comparer suppose de connaître le mode de vie du Paléolithique."
+    {
+      "de": "fr-hg-cp-sit-01",
+      "vers": "fr-hg-ce1-pass-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Le lexique du passé proche et lointain prolonge les marqueurs temporels du CP."
     },
-    {
-      "topicId": "fr-hg-ce2-preh-04",
-      "prerequisiteId": "fr-hg-ce2-preh-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Comparer suppose de connaître le mode de vie du Néolithique."
+    {
+      "de": "fr-hg-cp-cal-01",
+      "vers": "fr-hg-ce1-pass-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Décennie, siècle et millénaire prolongent le découpage du temps en années."
     },
-    {
-      "topicId": "fr-hg-ce2-preh-05",
-      "prerequisiteId": "fr-hg-ce1-per-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Les repères de la Préhistoire se placent sur la frise des grandes périodes."
+    {
+      "de": "fr-hg-cp-sit-04",
+      "vers": "fr-hg-ce1-pass-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Placer des évènements anciens sur une frise suppose d’avoir déjà complété une frise au CP."
     },
-    {
-      "topicId": "fr-hg-ce2-rome-01",
-      "prerequisiteId": "fr-hg-ce1-trac-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les monuments et les ruines sont des traces du passé qui renseignent sur la vie à Rome."
+    {
+      "de": "fr-hg-ce1-pass-01",
+      "vers": "fr-hg-ce1-pass-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Distinguer passé proche et passé lointain aide à placer les évènements sur la frise."
     },
-    {
-      "topicId": "fr-hg-ce2-rome-03",
-      "prerequisiteId": "fr-hg-cp-mond-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Situer la Gaule dans l’empire s’appuie sur la localisation de la France."
+    {
+      "de": "fr-hg-ce1-pass-03",
+      "vers": "fr-hg-ce1-per-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Les grandes périodes se placent sur une frise du temps long."
     },
-    {
-      "topicId": "fr-hg-ce2-rome-04",
-      "prerequisiteId": "fr-hg-ce2-rome-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Le monde gallo-romain reprend les monuments et le mode de vie romains."
+    {
+      "de": "fr-hg-ce1-pass-02",
+      "vers": "fr-hg-ce1-per-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Lire les dates des périodes (millénaires, siècles) demande de connaître ces unités."
     },
-    {
-      "topicId": "fr-hg-ce2-rome-04",
-      "prerequisiteId": "fr-hg-ce2-rome-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Comprendre la Gaule romaine suppose de savoir que la Gaule fait partie de l’empire."
+    {
+      "de": "fr-hg-ce1-per-01",
+      "vers": "fr-hg-ce1-per-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Situer une figure historique suppose de connaître les périodes de l’histoire."
     },
-    {
-      "topicId": "fr-hg-ce2-rome-05",
-      "prerequisiteId": "fr-hg-ce1-per-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Alésia et le règne d’Auguste se placent dans l’Antiquité, sur la frise des grandes périodes."
+    {
+      "de": "fr-hg-ce1-trac-01",
+      "vers": "fr-hg-ce1-trac-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "On ne peut situer une trace du passé qu’après l’avoir identifiée comme telle."
     },
-    {
-      "topicId": "fr-hg-ce2-roy-01",
-      "prerequisiteId": "fr-hg-cp-mond-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Lire des cartes du royaume suppose de savoir situer la France."
+    {
+      "de": "fr-hg-ce1-per-01",
+      "vers": "fr-hg-ce1-trac-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Situer une trace dans le temps revient souvent à la rattacher à une grande période."
     },
-    {
-      "topicId": "fr-hg-ce2-roy-03",
-      "prerequisiteId": "fr-hg-ce2-roy-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Le sacre est l’un des moyens par lesquels le roi affirme son autorité."
+    {
+      "de": "fr-hg-ce1-trac-01",
+      "vers": "fr-hg-ce1-trac-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Archéologues et historiens travaillent à partir des traces du passé."
     },
-    {
-      "topicId": "fr-hg-ce2-roy-04",
-      "prerequisiteId": "fr-hg-ce1-per-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Les dynasties capétienne et Valois se placent dans le Moyen Âge (476-1492)."
+    {
+      "de": "fr-hg-ce1-per-01",
+      "vers": "fr-hg-ce2-preh-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Le Paléolithique est une partie de la Préhistoire, première grande période de l’histoire."
     },
-    {
-      "topicId": "fr-hg-ce2-mh-01",
-      "prerequisiteId": "fr-hg-ce1-trac-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Ce sont les traces du passé qui permettent de distinguer l’histoire de la fiction."
+    {
+      "de": "fr-hg-ce1-trac-01",
+      "vers": "fr-hg-ce2-preh-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les grottes ornées sont des traces du passé étudiées au CE1."
     },
-    {
-      "topicId": "fr-hg-cp-ecol-03",
-      "prerequisiteId": "fr-hg-cp-ecol-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Faire un plan demande de situer les éléments de la classe les uns par rapport aux autres."
+    {
+      "de": "fr-hg-ce2-preh-01",
+      "vers": "fr-hg-ce2-preh-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Comparer suppose de connaître le mode de vie du Paléolithique."
     },
-    {
-      "topicId": "fr-hg-cp-ecol-03",
-      "prerequisiteId": "fr-hg-cp-ecol-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Reconnaître un lieu vu d’en haut prépare à la vue de dessus du plan."
+    {
+      "de": "fr-hg-ce2-preh-03",
+      "vers": "fr-hg-ce2-preh-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Comparer suppose de connaître le mode de vie du Néolithique."
     },
-    {
-      "topicId": "fr-hg-cp-ecol-05",
-      "prerequisiteId": "fr-hg-cp-ecol-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Utiliser un plan pour se déplacer suppose de comprendre ce qu’est un plan."
+    {
+      "de": "fr-hg-ce1-per-01",
+      "vers": "fr-hg-ce2-preh-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Les repères de la Préhistoire se placent sur la frise des grandes périodes."
     },
-    {
-      "topicId": "fr-hg-cp-ecol-05",
-      "prerequisiteId": "fr-hg-cp-ecol-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Se rendre dans un lieu de l’école suppose de connaître ces lieux."
+    {
+      "de": "fr-hg-ce1-trac-01",
+      "vers": "fr-hg-ce2-rome-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les monuments et les ruines sont des traces du passé qui renseignent sur la vie à Rome."
     },
-    {
-      "topicId": "fr-hg-cp-ecol-06",
-      "prerequisiteId": "fr-hg-cp-ecol-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Représenter un trajet hors de l’école prolonge les déplacements avec un plan dans l’école."
+    {
+      "de": "fr-hg-cp-mond-05",
+      "vers": "fr-hg-ce2-rome-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Situer la Gaule dans l’empire s’appuie sur la localisation de la France."
     },
-    {
-      "topicId": "fr-hg-cp-mond-02",
-      "prerequisiteId": "fr-hg-cp-nat-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Le globe terrestre a déjà été manipulé pour expliquer le jour et la nuit."
+    {
+      "de": "fr-hg-ce2-rome-01",
+      "vers": "fr-hg-ce2-rome-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Le monde gallo-romain reprend les monuments et le mode de vie romains."
     },
-    {
-      "topicId": "fr-hg-cp-mond-03",
-      "prerequisiteId": "fr-hg-cp-mond-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Localiser continents et océans suppose de savoir les distinguer."
+    {
+      "de": "fr-hg-ce2-rome-03",
+      "vers": "fr-hg-ce2-rome-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Comprendre la Gaule romaine suppose de savoir que la Gaule fait partie de l’empire."
     },
-    {
-      "topicId": "fr-hg-cp-mond-03",
-      "prerequisiteId": "fr-hg-cp-mond-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Localiser sur un planisphère suppose de savoir reconnaître un planisphère."
+    {
+      "de": "fr-hg-ce1-per-01",
+      "vers": "fr-hg-ce2-rome-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Alésia et le règne d’Auguste se placent dans l’Antiquité, sur la frise des grandes périodes."
     },
-    {
-      "topicId": "fr-hg-cp-mond-04",
-      "prerequisiteId": "fr-hg-cp-mond-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les points cardinaux se repèrent sur le planisphère."
+    {
+      "de": "fr-hg-cp-mond-05",
+      "vers": "fr-hg-ce2-roy-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Lire des cartes du royaume suppose de savoir situer la France."
     },
-    {
-      "topicId": "fr-hg-cp-mond-05",
-      "prerequisiteId": "fr-hg-cp-mond-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Situer la France demande de se repérer parmi les continents et les océans."
+    {
+      "de": "fr-hg-ce2-roy-02",
+      "vers": "fr-hg-ce2-roy-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Le sacre est l’un des moyens par lesquels le roi affirme son autorité."
     },
-    {
-      "topicId": "fr-hg-cp-mond-06",
-      "prerequisiteId": "fr-hg-cp-mond-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Les foyers de peuplement se localisent sur les continents du planisphère."
+    {
+      "de": "fr-hg-ce1-per-01",
+      "vers": "fr-hg-ce2-roy-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Les dynasties capétienne et Valois se placent dans le Moyen Âge (476-1492)."
     },
-    {
-      "topicId": "fr-hg-ce1-peup-01",
-      "prerequisiteId": "fr-hg-cp-mond-06",
-      "strength": "hard",
-      "origin": "texte",
-      "reason": "Le programme demande de remobiliser les repères de peuplement acquis depuis le CP."
+    {
+      "de": "fr-hg-ce1-trac-02",
+      "vers": "fr-hg-ce2-mh-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Ce sont les traces du passé qui permettent de distinguer l’histoire de la fiction."
     },
-    {
-      "topicId": "fr-hg-ce1-peup-02",
-      "prerequisiteId": "fr-hg-cp-mond-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Localiser une ville de chaque continent suppose de savoir localiser les continents."
+    {
+      "de": "fr-hg-cp-ecol-01",
+      "vers": "fr-hg-cp-ecol-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Faire un plan demande de situer les éléments de la classe les uns par rapport aux autres."
     },
-    {
-      "topicId": "fr-hg-ce1-peup-03",
-      "prerequisiteId": "fr-hg-cp-ecol-06",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Le quartier ou le village autour de l’école sert de premier exemple."
+    {
+      "de": "fr-hg-cp-ecol-04",
+      "vers": "fr-hg-cp-ecol-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Reconnaître un lieu vu d’en haut prépare à la vue de dessus du plan."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-01",
-      "prerequisiteId": "fr-hg-cp-nat-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les saisons observées sur son lieu de vie aident à caractériser les climats."
+    {
+      "de": "fr-hg-cp-ecol-03",
+      "vers": "fr-hg-cp-ecol-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Utiliser un plan pour se déplacer suppose de comprendre ce qu’est un plan."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-02",
-      "prerequisiteId": "fr-hg-ce1-lieu-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "On localise des zones climatiques qu’on sait caractériser."
+    {
+      "de": "fr-hg-cp-ecol-02",
+      "vers": "fr-hg-cp-ecol-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Se rendre dans un lieu de l’école suppose de connaître ces lieux."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-02",
-      "prerequisiteId": "fr-hg-cp-mond-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Inscrire les territoires français dans les zones suppose de savoir situer la France."
+    {
+      "de": "fr-hg-cp-ecol-05",
+      "vers": "fr-hg-cp-ecol-06",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Représenter un trajet hors de l’école prolonge les déplacements avec un plan dans l’école."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-03",
-      "prerequisiteId": "fr-hg-ce1-lieu-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Forêt tropicale ou tempérée, désert chaud ou froid : la végétation dépend du climat."
+    {
+      "de": "fr-hg-cp-nat-01",
+      "vers": "fr-hg-cp-mond-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Le globe terrestre a déjà été manipulé pour expliquer le jour et la nuit."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-04",
-      "prerequisiteId": "fr-hg-ce1-lieu-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Localiser des déserts et des forêts suppose de savoir ce que sont ces types de végétation."
+    {
+      "de": "fr-hg-cp-mond-01",
+      "vers": "fr-hg-cp-mond-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Localiser continents et océans suppose de savoir les distinguer."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-04",
-      "prerequisiteId": "fr-hg-cp-mond-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Se repérer sur le planisphère par les continents aide à placer forêts et déserts."
+    {
+      "de": "fr-hg-cp-mond-02",
+      "vers": "fr-hg-cp-mond-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Localiser sur un planisphère suppose de savoir reconnaître un planisphère."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-06",
-      "prerequisiteId": "fr-hg-ce1-lieu-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Localiser des chaines de montagne suppose de savoir ce qu’est une montagne."
+    {
+      "de": "fr-hg-cp-mond-02",
+      "vers": "fr-hg-cp-mond-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les points cardinaux se repèrent sur le planisphère."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-06",
-      "prerequisiteId": "fr-hg-cp-mond-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Se repérer sur le planisphère par les continents aide à placer les massifs."
+    {
+      "de": "fr-hg-cp-mond-03",
+      "vers": "fr-hg-cp-mond-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Situer la France demande de se repérer parmi les continents et les océans."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-08",
-      "prerequisiteId": "fr-hg-ce1-lieu-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "reason": "Nommer les grands fleuves suppose de savoir ce qu’est un fleuve."
+    {
+      "de": "fr-hg-cp-mond-03",
+      "vers": "fr-hg-cp-mond-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Les foyers de peuplement se localisent sur les continents du planisphère."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-08",
-      "prerequisiteId": "fr-hg-cp-mond-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Se repérer sur le planisphère par les continents aide à placer les fleuves."
+    {
+      "de": "fr-hg-cp-mond-06",
+      "vers": "fr-hg-ce1-peup-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "raison": "Le programme demande de remobiliser les repères de peuplement acquis depuis le CP."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-09",
-      "prerequisiteId": "fr-hg-ce1-lieu-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Un milieu de vie se caractérise notamment par sa végétation (liée au climat)."
+    {
+      "de": "fr-hg-cp-mond-03",
+      "vers": "fr-hg-ce1-peup-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Localiser une ville de chaque continent suppose de savoir localiser les continents."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-09",
-      "prerequisiteId": "fr-hg-ce1-lieu-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Un milieu de vie se caractérise notamment par son relief."
+    {
+      "de": "fr-hg-cp-ecol-06",
+      "vers": "fr-hg-ce1-peup-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Le quartier ou le village autour de l’école sert de premier exemple."
     },
-    {
-      "topicId": "fr-hg-ce1-lieu-10",
-      "prerequisiteId": "fr-hg-ce1-peup-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "L’approche paysagère de la ville et de la campagne prépare la description de paysages."
+    {
+      "de": "fr-hg-cp-nat-02",
+      "vers": "fr-hg-ce1-lieu-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les saisons observées sur son lieu de vie aident à caractériser les climats."
     },
-    {
-      "topicId": "fr-hg-ce2-rep-01",
-      "prerequisiteId": "fr-hg-ce1-peup-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les fortes densités vues à l’échelle du monde sont reprises à l’échelle de la France."
+    {
+      "de": "fr-hg-ce1-lieu-01",
+      "vers": "fr-hg-ce1-lieu-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "On localise des zones climatiques qu’on sait caractériser."
     },
-    {
-      "topicId": "fr-hg-ce2-rep-02",
-      "prerequisiteId": "fr-hg-ce2-rep-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les grandes agglomérations correspondent aux espaces de fortes densités."
+    {
+      "de": "fr-hg-cp-mond-05",
+      "vers": "fr-hg-ce1-lieu-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Inscrire les territoires français dans les zones suppose de savoir situer la France."
     },
-    {
-      "topicId": "fr-hg-ce2-rep-02",
-      "prerequisiteId": "fr-hg-ce1-peup-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Comprendre ce qu’est une agglomération suppose de savoir ce qu’est une ville."
+    {
+      "de": "fr-hg-ce1-lieu-01",
+      "vers": "fr-hg-ce1-lieu-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Forêt tropicale ou tempérée, désert chaud ou froid : la végétation dépend du climat."
     },
-    {
-      "topicId": "fr-hg-ce2-rep-03",
-      "prerequisiteId": "fr-hg-ce1-lieu-06",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les massifs français prolongent la localisation des chaines de montagne du monde (dont les Alpes)."
+    {
+      "de": "fr-hg-ce1-lieu-03",
+      "vers": "fr-hg-ce1-lieu-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Localiser des déserts et des forêts suppose de savoir ce que sont ces types de végétation."
     },
-    {
-      "topicId": "fr-hg-ce2-rep-04",
-      "prerequisiteId": "fr-hg-ce1-lieu-08",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les grands fleuves français prolongent la localisation des fleuves du monde."
+    {
+      "de": "fr-hg-cp-mond-03",
+      "vers": "fr-hg-ce1-lieu-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Se repérer sur le planisphère par les continents aide à placer forêts et déserts."
     },
-    {
-      "topicId": "fr-hg-ce2-log-01",
-      "prerequisiteId": "fr-hg-ce1-lieu-10",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Reconnaître un paysage résidentiel s’appuie sur la description de paysages."
+    {
+      "de": "fr-hg-ce1-lieu-05",
+      "vers": "fr-hg-ce1-lieu-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Localiser des chaines de montagne suppose de savoir ce qu’est une montagne."
     },
-    {
-      "topicId": "fr-hg-ce2-trav-01",
-      "prerequisiteId": "fr-hg-ce1-lieu-10",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Reconnaître un paysage d’activité s’appuie sur la description de paysages."
+    {
+      "de": "fr-hg-cp-mond-03",
+      "vers": "fr-hg-ce1-lieu-06",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Se repérer sur le planisphère par les continents aide à placer les massifs."
+    },
+    {
+      "de": "fr-hg-ce1-lieu-07",
+      "vers": "fr-hg-ce1-lieu-08",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "raison": "Nommer les grands fleuves suppose de savoir ce qu’est un fleuve."
+    },
+    {
+      "de": "fr-hg-cp-mond-03",
+      "vers": "fr-hg-ce1-lieu-08",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Se repérer sur le planisphère par les continents aide à placer les fleuves."
+    },
+    {
+      "de": "fr-hg-ce1-lieu-03",
+      "vers": "fr-hg-ce1-lieu-09",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Un milieu de vie se caractérise notamment par sa végétation (liée au climat)."
+    },
+    {
+      "de": "fr-hg-ce1-lieu-05",
+      "vers": "fr-hg-ce1-lieu-09",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Un milieu de vie se caractérise notamment par son relief."
+    },
+    {
+      "de": "fr-hg-ce1-peup-03",
+      "vers": "fr-hg-ce1-lieu-10",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "L’approche paysagère de la ville et de la campagne prépare la description de paysages."
+    },
+    {
+      "de": "fr-hg-ce1-peup-01",
+      "vers": "fr-hg-ce2-rep-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les fortes densités vues à l’échelle du monde sont reprises à l’échelle de la France."
+    },
+    {
+      "de": "fr-hg-ce2-rep-01",
+      "vers": "fr-hg-ce2-rep-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les grandes agglomérations correspondent aux espaces de fortes densités."
+    },
+    {
+      "de": "fr-hg-ce1-peup-03",
+      "vers": "fr-hg-ce2-rep-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Comprendre ce qu’est une agglomération suppose de savoir ce qu’est une ville."
+    },
+    {
+      "de": "fr-hg-ce1-lieu-06",
+      "vers": "fr-hg-ce2-rep-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les massifs français prolongent la localisation des chaines de montagne du monde (dont les Alpes)."
+    },
+    {
+      "de": "fr-hg-ce1-lieu-08",
+      "vers": "fr-hg-ce2-rep-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les grands fleuves français prolongent la localisation des fleuves du monde."
+    },
+    {
+      "de": "fr-hg-ce1-lieu-10",
+      "vers": "fr-hg-ce2-log-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Reconnaître un paysage résidentiel s’appuie sur la description de paysages."
+    },
+    {
+      "de": "fr-hg-ce1-lieu-10",
+      "vers": "fr-hg-ce2-trav-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Reconnaître un paysage d’activité s’appuie sur la description de paysages."
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extraitLe": "2026-10-23"
 }

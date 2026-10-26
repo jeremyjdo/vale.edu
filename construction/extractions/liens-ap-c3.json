@@ -1,312 +1,350 @@
 {
   "programme": "ap-c3",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-ap-c3-exp-01",
-      "prerequisiteId": "fr-ap-c2-rep-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre l’influence des outils, supports, matériaux et gestes » (Cycle 2)"
+      "de": "fr-ap-c2-rep-03",
+      "vers": "fr-ap-c3-exp-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre l’influence des outils, supports, matériaux et gestes » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-exp-02",
-      "prerequisiteId": "fr-ap-c2-rep-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Employer des outils variés, y compris numériques, pour représenter » (Cycle 2)"
+      "de": "fr-ap-c2-rep-02",
+      "vers": "fr-ap-c3-exp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Employer des outils variés, y compris numériques, pour représenter » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-exp-02",
-      "prerequisiteId": "fr-ap-c2-rep-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Utiliser le dessin sous toutes ses formes pour s’exprimer » (Cycle 2)"
+      "de": "fr-ap-c2-rep-01",
+      "vers": "fr-ap-c3-exp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Utiliser le dessin sous toutes ses formes pour s’exprimer » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-exp-03",
-      "prerequisiteId": "fr-ap-c2-emo-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « S’exprimer en s’emparant des couleurs, des formes et des matières » (Cycle 2)"
+      "de": "fr-ap-c2-emo-01",
+      "vers": "fr-ap-c3-exp-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « S’exprimer en s’emparant des couleurs, des formes et des matières » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-exp-03",
-      "prerequisiteId": "fr-ap-c2-crea-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Tirer parti des trouvailles fortuites aide à s’éloigner des images toutes faites"
+      "de": "fr-ap-c2-crea-01",
+      "vers": "fr-ap-c3-exp-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Tirer parti des trouvailles fortuites aide à s’éloigner des images toutes faites"
     },
     {
-      "topicId": "fr-ap-c3-exp-04",
-      "prerequisiteId": "fr-ap-c2-rep-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Employer des outils variés, y compris numériques, pour représenter » (Cycle 2)"
+      "de": "fr-ap-c2-rep-02",
+      "vers": "fr-ap-c3-exp-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Employer des outils variés, y compris numériques, pour représenter » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-proj-01",
-      "prerequisiteId": "fr-ap-c2-proj-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Mener à terme une production en y apportant une réponse personnelle » (Cycle 2)"
+      "de": "fr-ap-c2-proj-02",
+      "vers": "fr-ap-c3-proj-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Mener à terme une production en y apportant une réponse personnelle » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-proj-02",
-      "prerequisiteId": "fr-ap-c2-proj-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Mener à terme une production en y apportant une réponse personnelle » (Cycle 2)"
+      "de": "fr-ap-c2-proj-02",
+      "vers": "fr-ap-c3-proj-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Mener à terme une production en y apportant une réponse personnelle » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-proj-03",
-      "prerequisiteId": "fr-ap-c2-proj-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Coopérer et respecter le matériel et l’espace partagés » (Cycle 2)"
+      "de": "fr-ap-c2-proj-01",
+      "vers": "fr-ap-c3-proj-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Coopérer et respecter le matériel et l’espace partagés » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-proj-04",
-      "prerequisiteId": "fr-ap-c2-proj-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Penser au public suppose d’avoir déjà montré ses productions et regardé celles des autres"
+      "de": "fr-ap-c2-proj-03",
+      "vers": "fr-ap-c3-proj-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Penser au public suppose d’avoir déjà montré ses productions et regardé celles des autres"
     },
     {
-      "topicId": "fr-ap-c3-expr-01",
-      "prerequisiteId": "fr-ap-c2-expr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Repérer les éléments du langage plastique dans une production » (Cycle 2)"
+      "de": "fr-ap-c2-expr-02",
+      "vers": "fr-ap-c3-expr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Repérer les éléments du langage plastique dans une production » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-expr-01",
-      "prerequisiteId": "fr-ap-c2-expr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Parler de sa production, de celles des autres et des œuvres » (Cycle 2)"
+      "de": "fr-ap-c2-expr-01",
+      "vers": "fr-ap-c3-expr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Parler de sa production, de celles des autres et des œuvres » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-expr-02",
-      "prerequisiteId": "fr-ap-c2-expr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Parler de sa production, de celles des autres et des œuvres » (Cycle 2)"
+      "de": "fr-ap-c2-expr-01",
+      "vers": "fr-ap-c3-expr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Parler de sa production, de celles des autres et des œuvres » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-expr-03",
-      "prerequisiteId": "fr-ap-c2-emo-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Exprimer ses émotions et confronter sa perception à celle des autres » (Cycle 2)"
+      "de": "fr-ap-c2-emo-04",
+      "vers": "fr-ap-c3-expr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Exprimer ses émotions et confronter sa perception à celle des autres » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-expr-03",
-      "prerequisiteId": "fr-ap-c2-cult-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Rencontrer des œuvres avec curiosité et dire ce qu’elles font ressentir » (Cycle 2)"
+      "de": "fr-ap-c2-cult-02",
+      "vers": "fr-ap-c3-expr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Rencontrer des œuvres avec curiosité et dire ce qu’elles font ressentir » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-rep-01",
-      "prerequisiteId": "fr-ap-c2-cult-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Rencontrer des œuvres avec curiosité et dire ce qu’elles font ressentir » (Cycle 2) : s’ouvrir à la diversité des pratiques artistiques"
+      "de": "fr-ap-c2-cult-02",
+      "vers": "fr-ap-c3-rep-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Rencontrer des œuvres avec curiosité et dire ce qu’elles font ressentir » (Cycle 2) : s’ouvrir à la diversité des pratiques artistiques"
     },
     {
-      "topicId": "fr-ap-c3-rep-02",
-      "prerequisiteId": "fr-ap-c2-rep-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Connaître et comparer des œuvres d’époques et de cultures variées » (Cycle 2)"
+      "de": "fr-ap-c2-rep-04",
+      "vers": "fr-ap-c3-rep-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Connaître et comparer des œuvres d’époques et de cultures variées » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-rep-03",
-      "prerequisiteId": "fr-ap-c2-rep-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Connaître et comparer des œuvres d’époques et de cultures variées » (Cycle 2)"
+      "de": "fr-ap-c2-rep-04",
+      "vers": "fr-ap-c3-rep-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Connaître et comparer des œuvres d’époques et de cultures variées » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-rpd-01",
-      "prerequisiteId": "fr-ap-c2-rep-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Utiliser le dessin sous toutes ses formes pour s’exprimer » (Cycle 2)"
+      "de": "fr-ap-c2-rep-01",
+      "vers": "fr-ap-c3-rpd-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Utiliser le dessin sous toutes ses formes pour s’exprimer » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-rpd-02",
-      "prerequisiteId": "fr-ap-c2-rep-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre l’influence des outils, supports, matériaux et gestes » (Cycle 2)"
+      "de": "fr-ap-c2-rep-03",
+      "vers": "fr-ap-c3-rpd-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre l’influence des outils, supports, matériaux et gestes » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-rpd-03",
-      "prerequisiteId": "fr-ap-c2-cult-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Relier les images de son quotidien à la culture artistique » (Cycle 2)"
+      "de": "fr-ap-c2-cult-01",
+      "vers": "fr-ap-c3-rpd-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Relier les images de son quotidien à la culture artistique » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-rpd-03",
-      "prerequisiteId": "fr-ap-c2-rep-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Reconnaître comment une image a été fabriquée suppose d’avoir dessiné, peint ou photographié soi-même"
+      "de": "fr-ap-c2-rep-02",
+      "vers": "fr-ap-c3-rpd-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Reconnaître comment une image a été fabriquée suppose d’avoir dessiné, peint ou photographié soi-même"
     },
     {
-      "topicId": "fr-ap-c3-rpd-04",
-      "prerequisiteId": "fr-ap-c2-nar-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Transformer ou détourner des images et des objets » (Cycle 2)"
+      "de": "fr-ap-c2-nar-03",
+      "vers": "fr-ap-c3-rpd-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Transformer ou détourner des images et des objets » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-rpd-05",
-      "prerequisiteId": "fr-ap-c2-nar-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Raconter une histoire par des productions plastiques » (Cycle 2)"
+      "de": "fr-ap-c2-nar-01",
+      "vers": "fr-ap-c3-rpd-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Raconter une histoire par des productions plastiques » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-rpd-05",
-      "prerequisiteId": "fr-ap-c2-nar-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Témoigner d’un fait vécu ou observé par des productions plastiques » (Cycle 2)"
+      "de": "fr-ap-c2-nar-02",
+      "vers": "fr-ap-c3-rpd-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Témoigner d’un fait vécu ou observé par des productions plastiques » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-rpd-05",
-      "prerequisiteId": "fr-ap-c2-nar-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Les suites d’images (bande dessinée, album) articulent souvent texte et image"
+      "de": "fr-ap-c2-nar-04",
+      "vers": "fr-ap-c3-rpd-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Les suites d’images (bande dessinée, album) articulent souvent texte et image"
     },
     {
-      "topicId": "fr-ap-c3-rpd-06",
-      "prerequisiteId": "fr-ap-c2-proj-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Montrer ses productions et regarder celles des autres » (Cycle 2)"
+      "de": "fr-ap-c2-proj-03",
+      "vers": "fr-ap-c3-rpd-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Montrer ses productions et regarder celles des autres » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-rpd-07",
-      "prerequisiteId": "fr-ap-c2-proj-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Montrer ses productions et regarder celles des autres » (Cycle 2)"
+      "de": "fr-ap-c2-proj-03",
+      "vers": "fr-ap-c3-rpd-07",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Montrer ses productions et regarder celles des autres » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-fab-01",
-      "prerequisiteId": "fr-ap-c2-emo-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Explorer l’organisation et la composition d’une production » (Cycle 2)"
+      "de": "fr-ap-c2-emo-03",
+      "vers": "fr-ap-c3-fab-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Explorer l’organisation et la composition d’une production » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-fab-02",
-      "prerequisiteId": "fr-ap-c2-nar-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Transformer ou détourner des images et des objets » (Cycle 2)"
+      "de": "fr-ap-c2-nar-03",
+      "vers": "fr-ap-c3-fab-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Transformer ou détourner des images et des objets » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-fab-04",
-      "prerequisiteId": "fr-ap-c2-rep-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre l’influence des outils, supports, matériaux et gestes » (Cycle 2) : en trois dimensions (modelage, sculpture)"
+      "de": "fr-ap-c2-rep-03",
+      "vers": "fr-ap-c3-fab-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre l’influence des outils, supports, matériaux et gestes » (Cycle 2) : en trois dimensions (modelage, sculpture)"
     },
     {
-      "topicId": "fr-ap-c3-mat-01",
-      "prerequisiteId": "fr-ap-c2-emo-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « S’exprimer en s’emparant des couleurs, des formes et des matières » (Cycle 2)"
+      "de": "fr-ap-c2-emo-01",
+      "vers": "fr-ap-c3-mat-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « S’exprimer en s’emparant des couleurs, des formes et des matières » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-mat-02",
-      "prerequisiteId": "fr-ap-c2-emo-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Expérimenter les effets des couleurs, des matériaux et des supports » (Cycle 2)"
+      "de": "fr-ap-c2-emo-02",
+      "vers": "fr-ap-c3-mat-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Expérimenter les effets des couleurs, des matériaux et des supports » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-mat-02",
-      "prerequisiteId": "fr-ap-c2-emo-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "S’appuie sur la découverte sensorielle des matières et des supports (Cycle 2)"
+      "de": "fr-ap-c2-emo-01",
+      "vers": "fr-ap-c3-mat-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "S’appuie sur la découverte sensorielle des matières et des supports (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-mat-03",
-      "prerequisiteId": "fr-ap-c2-rep-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre l’influence des outils, supports, matériaux et gestes » (Cycle 2)"
+      "de": "fr-ap-c2-rep-03",
+      "vers": "fr-ap-c3-mat-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre l’influence des outils, supports, matériaux et gestes » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-mat-03",
-      "prerequisiteId": "fr-ap-c2-crea-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Le geste imprévisible prolonge l’attention aux effets du hasard (Cycle 2)"
+      "de": "fr-ap-c2-crea-01",
+      "vers": "fr-ap-c3-mat-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Le geste imprévisible prolonge l’attention aux effets du hasard (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-mat-04",
-      "prerequisiteId": "fr-ap-c2-emo-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Expérimenter les effets des couleurs, des matériaux et des supports » (Cycle 2)"
+      "de": "fr-ap-c2-emo-02",
+      "vers": "fr-ap-c3-mat-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Expérimenter les effets des couleurs, des matériaux et des supports » (Cycle 2)"
     },
     {
-      "topicId": "fr-ap-c3-mat-05",
-      "prerequisiteId": "fr-ap-c2-emo-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Expérimenter les effets des couleurs, des matériaux et des supports » (Cycle 2)"
+      "de": "fr-ap-c2-emo-02",
+      "vers": "fr-ap-c3-mat-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Expérimenter les effets des couleurs, des matériaux et des supports » (Cycle 2)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "ap-c2": "2026-10-23",
     "ap-c3": "2026-10-23"

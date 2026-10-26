@@ -11,9 +11,9 @@ Toutes les commandes se lancent depuis `construction/`. Le jeu de données produ
 | PDF officiel | `programmes-officiels/sources.json` | Adresse, BO, date de téléchargement, SHA-256, taille, pages. Les versions remplacées sont listées dans `anciennesVersions`, avec leur fichier archivé dans `programmes-officiels/archives/` |
 | Texte du PDF | `textes/<nom>.txt` (et `.ocr.txt` pour un PDF en images) | Texte page par page. Les anciennes versions vont dans `textes/archives/` |
 | Programme | `outils/programmes.json` | PDF, BO, classes, programme précédent (`follows`), programmes qu'il remplace (`remplace`) |
-| Notion | `extractions/<programme>.json` | PDF, BO, page, **empreinte du PDF au moment de l'extraction** (`source.sha256`), objectif officiel mot pour mot. Le fichier porte sa date d'extraction (`extractedAt`) |
-| Lien entre notions | `extractions/liens-*.json` | Date de la liaison (`linkedAt`) et date d'extraction de chaque programme relié (`versionsCibles`) |
-| Base assemblée | `../data/` : `notions.json`, `prerequis.json`, `JOURNAL.md`, `historique/` | Pour chaque programme : empreinte et date d'extraction. À chaque assemblage : notions et prérequis ajoutés, retirés ou modifiés, avec les valeurs avant et après |
+| Notion | `extractions/<programme>.json` | PDF, BO, page, **empreinte du PDF au moment de l'extraction** (`source.sha256`), objectif officiel mot pour mot (`objectifsOfficiels`). Le fichier porte sa date d'extraction (`extraitLe`) |
+| Lien entre notions | `extractions/liens-*.json` | Date de la liaison (`relieLe`) et date d'extraction de chaque programme relié (`versionsCibles`) |
+| Base assemblée | `../data/` : `programmes.json`, `objectifs.json`, `notions.json`, `liens.json`, `JOURNAL.md`, `historique/` | Pour chaque programme : empreinte et date d'extraction. À chaque assemblage : notions et liens ajoutés, retirés ou modifiés, avec les valeurs avant et après |
 
 `python3 outils/etat.py` compare tout cela et donne la liste des actions à faire. Quand il répond « Tout est à jour », la base est cohérente.
 
@@ -34,7 +34,7 @@ Le script retélécharge chaque PDF du manifeste. Une « NOUVELLE VERSION » est
 2. **Mesurer l'impact** : `python3 outils/etat.py` signale « Ré-extraire <programme> ». `python3 outils/etat.py --programme <clé>` liste les fichiers d'extraction, les liens d'autres programmes qui pointent vers ses notions et les programmes qui lui font suite.
 3. **Archiver l'ancienne extraction** (chaque fichier listé par `etat.py --programme`) :
    ```bash
-   mkdir -p extractions/archives && mv extractions/<fichier>.json extractions/archives/<fichier>-<extractedAt>.json
+   mkdir -p extractions/archives && mv extractions/<fichier>.json extractions/archives/<fichier>-<extraitLe>.json
    ```
 4. **Ré-extraire** avec les consignes (`outils/consignes-extraction.md`, modèle de demande ci-dessous). La règle 10 garde les mêmes `id` pour les notions inchangées, ce qui préserve les liens des autres programmes.
 5. **Refaire les liaisons** listées par `etat.py` : celles du programme vers ses prédécesseurs, et celles des autres programmes vers lui (`outils/consignes-liens.md`). `valider.py` signale tout lien vers une notion disparue.
@@ -75,10 +75,10 @@ Une extraction ou une liaison se fait avec un agent (sous-tâche) par classe ou 
 
 **Extraction**
 
-> Tu extrais les notions d'un programme officiel français pour une base de connaissances générique (format inspiré de la taxonomie Marble). Dossier de travail : `construction/`. Lis d'abord `outils/consignes-extraction.md` (et `outils/consignes-autres-formats.md` si le programme n'a pas de tableaux « Objectifs d'apprentissage / Exemples de réussite »).
-> Programme : `<clé>` du registre, `<matière>` (<classes>), <BO>. Texte : `textes/<nom>.txt`, pages <a> à <b>. Sortie : `extractions/<fichier>.json` (`"level": "multiple"` si le fichier couvre plusieurs classes).
+> Tu extrais les notions d'un programme officiel français pour une base de connaissances générique. Dossier de travail : `construction/`. Lis d'abord `outils/consignes-extraction.md` (et `outils/consignes-autres-formats.md` si le programme n'a pas de tableaux « Objectifs d'apprentissage / Exemples de réussite »).
+> Programme : `<clé>` du registre, `<matière>` (<classes>), <BO>. Texte : `textes/<nom>.txt`, pages <a> à <b>. Sortie : `extractions/<fichier>.json` (`"classe": "multiple"` si le fichier couvre plusieurs classes).
 > [Ré-extraction : l'ancienne extraction est dans `extractions/archives/<fichier>` ; applique la règle 10.]
-> `priorKnowledge` : renvoie aux notions de `<programme précédent>` (`extractions/<fichier>.json`).
+> `acquisAnterieurs` : renvoie aux notions de `<programme précédent>` (`extractions/<fichier>.json`).
 > Ne crée ni ne modifie aucun autre fichier du projet. Rapport final en français, comme indiqué dans les consignes.
 
 **Liaison**

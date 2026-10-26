@@ -1,7 +1,7 @@
 {
   "programme": "ap-c3",
-  "level": "multiple",
-  "themeCodes": {
+  "classe": "multiple",
+  "codesThemes": {
     "exp": "Expérimenter, produire, créer",
     "proj": "Mettre en œuvre un projet artistique",
     "expr": "S’exprimer, analyser sa pratique, celle de ses pairs ; établir une relation avec celle des artistes, s’ouvrir à l’altérité",
@@ -14,32 +14,30 @@
     {
       "id": "fr-ap-c3-exp-01",
       "programme": "ap-c3",
-      "type": "PROCEDURAL",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "Expérimenter, produire, créer",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Expérimenter, produire, créer",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Choisir gestes, outils et matériaux selon l’effet recherché",
+      "nom": "Choisir gestes, outils et matériaux selon l’effet recherché",
       "description": "Choisir un outil (pinceau, éponge, chiffon, la main…), un matériau ou un geste en fonction de l’effet qu’on veut obtenir. Au cycle 3, on découvre aussi qu’un outil peut être utilisé de façon inhabituelle, voire détournée.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Choisir, organiser et mobiliser des gestes, des outils et des matériaux en fonction des effets qu’ils produisent."
       ],
-      "evidence": [
+      "criteres": [
         "Choisit un geste, un outil ou un matériau en fonction de l’effet recherché.",
         "Interroge l’efficacité des outils, des matériaux, des formats et des gestes au regard d’une intention, d’un projet.",
         "Identifie, nomme et choisit les moyens inventés ou déjà maîtrisés.",
         "Enrichit l’usage conventionnel d’un outil par une utilisation renouvelée, voire détournée."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait choisir entre un pinceau, une éponge ou un chiffon selon l’effet voulu sur la peinture, et dire pourquoi ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait choisir entre un pinceau, une éponge ou un chiffon selon l’effet voulu sur la peinture, et dire pourquoi ?",
+      "acquisAnterieurs": [
         "Observer les effets produits par ses gestes, par les outils utilisés (Cycle 2)",
         "Prendre en compte l’influence des outils, supports, matériaux, gestes sur la représentation en deux et en trois dimensions (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 41,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -48,31 +46,29 @@
     {
       "id": "fr-ap-c3-exp-02",
       "programme": "ap-c3",
-      "type": "PROCEDURAL",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "Expérimenter, produire, créer",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Expérimenter, produire, créer",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Représenter le monde ou son imaginaire dans divers domaines",
+      "nom": "Représenter le monde ou son imaginaire dans divers domaines",
       "description": "Dessiner, peindre, coller, modeler, sculpter, photographier ou filmer pour représenter ce qui entoure ou pour donner forme à un monde imaginaire.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Représenter le monde environnant ou donner forme à son imaginaire en explorant divers domaines (dessin, collage, modelage, sculpture, photographie, vidéo…)."
       ],
-      "evidence": [
+      "criteres": [
         "Réalise des productions en deux dimensions (dessin, peinture, collage) pour représenter le monde environnant ou un univers imaginaire.",
         "Réalise des productions en volume (modelage, sculpture, assemblage, installation).",
         "Produit des images fixes ou animées (photographie, vidéo, création numérique)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait représenter un lieu familier ou un animal imaginaire, aussi bien en dessin qu’en modelage ou en photographie ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait représenter un lieu familier ou un animal imaginaire, aussi bien en dessin qu’en modelage ou en photographie ?",
+      "acquisAnterieurs": [
         "Représenter le monde environnant ou donner forme à son imaginaire en explorant la diversité des domaines (dessin, collage, modelage, sculpture, photographie …) (Cycle 2)",
         "Utiliser le dessin dans toute sa diversité comme moyen d’expression (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 41,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -81,31 +77,29 @@
     {
       "id": "fr-ap-c3-exp-03",
       "programme": "ap-c3",
-      "type": "PROCEDURAL",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "Expérimenter, produire, créer",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Expérimenter, produire, créer",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Chercher une expression personnelle, loin des stéréotypes",
+      "nom": "Chercher une expression personnelle, loin des stéréotypes",
       "description": "Ne pas se contenter des images toutes faites (par exemple la maison dessinée toujours de la même façon) mais chercher sa propre manière de représenter et affirmer ses intentions.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Rechercher une expression personnelle en s’éloignant des stéréotypes."
       ],
-      "evidence": [
+      "criteres": [
         "Élabore une intention artistique et l’affirme dans sa production.",
         "Distingue, dans sa production, ce qui relève du hasard et ce qui manifeste ses choix.",
         "S’éloigne volontairement d’une représentation convenue (accentuation, interprétation, surgissement d’autre chose)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait, pour dessiner un arbre, inventer une façon personnelle de le représenter au lieu de reproduire le modèle que tout le monde dessine ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait, pour dessiner un arbre, inventer une façon personnelle de le représenter au lieu de reproduire le modèle que tout le monde dessine ?",
+      "acquisAnterieurs": [
         "Tirer parti de trouvailles fortuites, saisir les effets du hasard (Cycle 2)",
         "Exprimer sa sensibilité et son imagination en s’emparant des éléments du langage plastique (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 41,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -114,31 +108,29 @@
     {
       "id": "fr-ap-c3-exp-04",
       "programme": "ap-c3",
-      "type": "PROCEDURAL",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "Expérimenter, produire, créer",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Expérimenter, produire, créer",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Utiliser les outils numériques au service de la pratique plastique",
+      "nom": "Utiliser les outils numériques au service de la pratique plastique",
       "description": "Se servir d’un appareil photo, d’une caméra ou d’un logiciel d’image pour créer ou transformer des images, et chercher des informations ou des images utiles à un projet.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Intégrer l’usage des outils informatiques de travail de l’image et de recherche d’information, au service de la pratique plastique."
       ],
-      "evidence": [
+      "criteres": [
         "Utilise l’appareil photographique ou la caméra, notamment numériques, pour produire des images.",
         "Modifie une image existante grâce aux possibilités des outils numériques (collage, montage).",
         "Crée des images animées en jouant sur le ralenti, l’accélération ou le séquençage.",
         "Recherche des informations ou des images au service d’un projet plastique."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait prendre une photo puis la transformer avec un logiciel (montage, collage d’éléments) pour en changer le sens ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait prendre une photo puis la transformer avec un logiciel (montage, collage d’éléments) pour en changer le sens ?",
+      "acquisAnterieurs": [
         "Employer divers outils, dont ceux numériques, pour représenter (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 41,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -147,29 +139,27 @@
     {
       "id": "fr-ap-c3-proj-01",
       "programme": "ap-c3",
-      "type": "META",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "Mettre en œuvre un projet artistique",
-      "level": "Cycle 3",
+      "nature": "stratégie",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Mettre en œuvre un projet artistique",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Identifier les outils et compétences nécessaires à un projet",
+      "nom": "Identifier les outils et compétences nécessaires à un projet",
       "description": "Avant de se lancer dans une réalisation artistique, repérer ce dont on aura besoin : le matériel, mais aussi les savoir-faire à mobiliser.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier les principaux outils et compétences nécessaires à la réalisation d’un projet artistique."
       ],
-      "evidence": [
+      "criteres": [
         "Liste, avant de commencer, les principaux outils et matériaux nécessaires à la réalisation d’un projet artistique.",
         "Repère les savoir-faire à mobiliser pour mener le projet."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, avant de fabriquer une sculpture en carton pour la classe, de quels outils et matériaux il faudra disposer et ce qu’il faudra savoir faire ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire, avant de fabriquer une sculpture en carton pour la classe, de quels outils et matériaux il faudra disposer et ce qu’il faudra savoir faire ?",
+      "acquisAnterieurs": [
         "Mener à terme une production individuelle dans le cadre d’un projet accompagné par le professeur (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 41,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -178,30 +168,28 @@
     {
       "id": "fr-ap-c3-proj-02",
       "programme": "ap-c3",
-      "type": "META",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "Mettre en œuvre un projet artistique",
-      "level": "Cycle 3",
+      "nature": "stratégie",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Mettre en œuvre un projet artistique",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Se repérer dans les étapes d’une réalisation et anticiper les difficultés",
+      "nom": "Se repérer dans les étapes d’une réalisation et anticiper les difficultés",
       "description": "Savoir où l’on en est dans une production plastique, seul ou en groupe, et prévoir ce qui pourrait poser problème pour s’organiser.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Se repérer dans les étapes de la réalisation d’une production plastique individuelle ou collective, anticiper les difficultés éventuelles."
       ],
-      "evidence": [
+      "criteres": [
         "Situe l’étape en cours dans la réalisation d’une production plastique individuelle ou collective.",
         "Anticipe les difficultés éventuelles de la réalisation.",
         "Mène la production à son terme en suivant les étapes prévues."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer où en est la fresque collective de la classe, ce qui reste à faire et ce qui risque d’être difficile ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer où en est la fresque collective de la classe, ce qui reste à faire et ce qui risque d’être difficile ?",
+      "acquisAnterieurs": [
         "Mener à terme une production individuelle dans le cadre d’un projet accompagné par le professeur (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 41,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -210,31 +198,29 @@
     {
       "id": "fr-ap-c3-proj-03",
       "programme": "ap-c3",
-      "type": "META",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "Mettre en œuvre un projet artistique",
-      "level": "Cycle 3",
+      "nature": "stratégie",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Mettre en œuvre un projet artistique",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Assumer sa part dans une création collective",
+      "nom": "Assumer sa part dans une création collective",
       "description": "Dans un projet artistique à plusieurs, savoir quel est son rôle, le tenir et en répondre devant le groupe.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier et assumer sa part de responsabilité dans un processus coopératif de création."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie son rôle dans un processus coopératif de création.",
         "Réalise la part de travail attribuée dans le projet collectif.",
         "Rend compte au groupe de l’avancement de cette part de travail."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire quelle partie de la maquette collective est à sa charge et la mener à bien ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire quelle partie de la maquette collective est à sa charge et la mener à bien ?",
+      "acquisAnterieurs": [
         "Coopérer dans un projet artistique (Cycle 2)",
         "Respecter l’espace, les outils et les matériaux partagés (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 41,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -243,27 +229,25 @@
     {
       "id": "fr-ap-c3-proj-04",
       "programme": "ap-c3",
-      "type": "META",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "Mettre en œuvre un projet artistique",
-      "level": "Cycle 3",
+      "nature": "stratégie",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Mettre en œuvre un projet artistique",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Adapter son projet aux contraintes et au spectateur",
+      "nom": "Adapter son projet aux contraintes et au spectateur",
       "description": "Modifier son projet quand une contrainte de réalisation apparaît (outils, matériaux, format) et penser à la façon dont le public va découvrir la production.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Adapter son projet en fonction des contraintes de réalisation et de la prise en compte du spectateur."
       ],
-      "evidence": [
+      "criteres": [
         "Modifie son projet en fonction des contraintes de réalisation (outils, matériaux, formats disponibles).",
         "Tient compte de la place du spectateur (frontalité, englobement, parcours) dans la conception du projet.",
         "Explique les ajustements apportés entre le projet de départ et la réalisation."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait modifier une installation quand l’emplacement prévu ne convient pas, en pensant à la façon dont les visiteurs vont la regarder ?",
+      "question": "Est-ce que {{prenom}} sait modifier une installation quand l’emplacement prévu ne convient pas, en pensant à la façon dont les visiteurs vont la regarder ?",
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 41,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -272,32 +256,30 @@
     {
       "id": "fr-ap-c3-expr-01",
       "programme": "ap-c3",
-      "type": "LANGUAGE",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "S’exprimer, analyser sa pratique, celle de ses pairs ; établir une relation avec celle des artistes, s’ouvrir à l’altérité",
-      "level": "Cycle 3",
+      "nature": "vocabulaire",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "S’exprimer, analyser sa pratique, celle de ses pairs ; établir une relation avec celle des artistes, s’ouvrir à l’altérité",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Décrire et interroger productions et œuvres avec un vocabulaire précis",
+      "nom": "Décrire et interroger productions et œuvres avec un vocabulaire précis",
       "description": "Parler de ses productions, de celles des camarades et des œuvres vues en classe avec des mots précis (gestes, matières, couleurs, formes…), et se poser des questions à leur sujet.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Décrire et interroger à l’aide d’un vocabulaire spécifique ses productions plastiques, celles de ses pairs et des œuvres d’art étudiées en classe."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit une production ou une œuvre avec un lexique précis portant sur les sensations, les perceptions, les gestes, les opérations plastiques.",
         "Nomme les notions travaillées : forme, espace, lumière, couleur, matière, corps, support, outil, temps.",
         "Va au-delà de la description vers la caractérisation, l’analyse, l’interprétation.",
         "Compare des œuvres différentes sur une même question."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait décrire un tableau vu en classe avec des mots précis sur les couleurs, la matière et les gestes du peintre ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait décrire un tableau vu en classe avec des mots précis sur les couleurs, la matière et les gestes du peintre ?",
+      "acquisAnterieurs": [
         "Repérer les éléments du langage plastique dans une production : couleurs, formes, matières, support… (Cycle 2)",
         "S’exprimer sur sa production, celle de ses pairs, sur l’art (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 42,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -306,30 +288,28 @@
     {
       "id": "fr-ap-c3-expr-02",
       "programme": "ap-c3",
-      "type": "META",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "S’exprimer, analyser sa pratique, celle de ses pairs ; établir une relation avec celle des artistes, s’ouvrir à l’altérité",
-      "level": "Cycle 3",
+      "nature": "stratégie",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "S’exprimer, analyser sa pratique, celle de ses pairs ; établir une relation avec celle des artistes, s’ouvrir à l’altérité",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Justifier ses choix, de l’intention à la réalisation",
+      "nom": "Justifier ses choix, de l’intention à la réalisation",
       "description": "Expliquer pourquoi on a fait tel ou tel choix et raconter le chemin parcouru entre l’idée de départ et la production finale.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Justifier des choix pour rendre compte du cheminement qui conduit de l’intention à la réalisation."
       ],
-      "evidence": [
+      "criteres": [
         "Explique l’intention de départ et les choix faits pour la réaliser.",
         "Raconte les étapes du cheminement, en distinguant la part du hasard et celle de l’intention.",
         "Justifie le choix d’un outil, d’un matériau ou d’un geste par l’effet produit."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi un collage a été fait avec du papier journal plutôt qu’avec du papier coloré, et ce qui a changé en cours de route ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer pourquoi un collage a été fait avec du papier journal plutôt qu’avec du papier coloré, et ce qui a changé en cours de route ?",
+      "acquisAnterieurs": [
         "Prendre la parole devant un groupe pour partager ses trouvailles, s’intéresser à celles découvertes dans des œuvres d’art (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 42,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -338,31 +318,29 @@
     {
       "id": "fr-ap-c3-expr-03",
       "programme": "ap-c3",
-      "type": "LANGUAGE",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "S’exprimer, analyser sa pratique, celle de ses pairs ; établir une relation avec celle des artistes, s’ouvrir à l’altérité",
-      "level": "Cycle 3",
+      "nature": "vocabulaire",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "S’exprimer, analyser sa pratique, celle de ses pairs ; établir une relation avec celle des artistes, s’ouvrir à l’altérité",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Exprimer justement ses émotions face aux productions et aux œuvres",
+      "nom": "Exprimer justement ses émotions face aux productions et aux œuvres",
       "description": "Trouver les mots justes pour dire ce que l’on ressent devant sa propre production, celle d’un camarade ou une œuvre d’art.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Formuler une expression juste de ses émotions, en prenant appui sur ses propres réalisations plastiques, celles des autres élèves et des œuvres d’art."
       ],
-      "evidence": [
+      "criteres": [
         "Formule avec des mots justes l’émotion ressentie devant une production ou une œuvre d’art.",
         "Appuie cette expression sur des éléments observés dans la production ou l’œuvre.",
         "Enrichit le lexique des sensations et des perceptions utilisé pour exprimer ses émotions."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire ce qu’une sculpture vue au musée fait ressentir, en s’appuyant sur ce qu’on y voit (matière, taille, couleur) ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire ce qu’une sculpture vue au musée fait ressentir, en s’appuyant sur ce qu’on y voit (matière, taille, couleur) ?",
+      "acquisAnterieurs": [
         "Formuler ses émotions, entendre et respecter celles des autres (Cycle 2)",
         "Exprimer ses émotions lors de la rencontre avec des œuvres d’art, manifester son intérêt pour la rencontre directe avec des œuvres (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 42,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -371,30 +349,28 @@
     {
       "id": "fr-ap-c3-rep-01",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "Se repérer dans les domaines liés aux arts plastiques, être sensible aux questions de l’art",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Se repérer dans les domaines liés aux arts plastiques, être sensible aux questions de l’art",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Repérer et dépasser les a priori et stéréotypes sur l’art",
+      "nom": "Repérer et dépasser les a priori et stéréotypes sur l’art",
       "description": "Prendre conscience des idées toutes faites sur l’art et sur les cultures artistiques (par exemple qu’une œuvre doit ressembler au réel pour être réussie), pour les dépasser.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Repérer, pour les dépasser, certains a priori et stéréotypes culturels et artistiques."
       ],
-      "evidence": [
+      "criteres": [
         "Repère, dans un jugement porté sur une œuvre, un a priori ou un stéréotype culturel ou artistique.",
         "S’intéresse à des œuvres de pratiques, d’époques et de lieux de création divers, occidentales et extra-occidentales.",
         "Admet qu’une représentation peut s’éloigner du réel et garder une valeur expressive."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait reconnaître qu’une œuvre qui ne ressemble pas au réel n’est pas forcément « ratée », et expliquer pourquoi ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait reconnaître qu’une œuvre qui ne ressemble pas au réel n’est pas forcément « ratée », et expliquer pourquoi ?",
+      "acquisAnterieurs": [
         "S’ouvrir à la diversité des pratiques et des cultures artistiques (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 42,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -403,31 +379,29 @@
     {
       "id": "fr-ap-c3-rep-02",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "Se repérer dans les domaines liés aux arts plastiques, être sensible aux questions de l’art",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Se repérer dans les domaines liés aux arts plastiques, être sensible aux questions de l’art",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Situer une œuvre dans une aire culturelle et une époque",
+      "nom": "Situer une œuvre dans une aire culturelle et une époque",
       "description": "Repérer quelques indices (matériaux, sujets, manière de faire…) qui permettent de dire d’où vient une œuvre et à quelle époque, proche ou lointaine, elle a été faite.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Identifier quelques caractéristiques qui inscrivent une œuvre d’art dans une aire géographique ou culturelle et dans un temps historique, contemporain, proche ou lointain."
       ],
-      "evidence": [
+      "criteres": [
         "Identifie quelques caractéristiques qui rattachent une œuvre à une aire géographique ou culturelle.",
         "Situe une œuvre dans un temps historique ou contemporain, proche ou lointain.",
         "Compare des œuvres contemporaines et passées, occidentales et extra-occidentales."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait repérer, sur un masque ou une peinture vus en classe, quelques indices qui montrent de quelle région du monde et de quelle époque vient l’œuvre ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait repérer, sur un masque ou une peinture vus en classe, quelques indices qui montrent de quelle région du monde et de quelle époque vient l’œuvre ?",
+      "acquisAnterieurs": [
         "Connaître diverses formes artistiques de représentation du monde : œuvres contemporaines et du passé, occidentales et extra occidentales (Cycle 2)",
         "S’approprier quelques œuvres de domaines et d’époques variés appartenant au patrimoine national et mondial (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 42,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -436,31 +410,29 @@
     {
       "id": "fr-ap-c3-rep-03",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "Compétences travaillées",
-      "subdomain": "Se repérer dans les domaines liés aux arts plastiques, être sensible aux questions de l’art",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "Compétences travaillées",
+      "sousDomaine": "Se repérer dans les domaines liés aux arts plastiques, être sensible aux questions de l’art",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Décrire une œuvre et en proposer une compréhension argumentée",
+      "nom": "Décrire une œuvre et en proposer une compréhension argumentée",
       "description": "Décrire une œuvre d’art puis dire ce qu’on en comprend, en justifiant son interprétation par ce qu’on observe.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Décrire des œuvres d’art, en proposer une compréhension personnelle argumentée."
       ],
-      "evidence": [
+      "criteres": [
         "Décrit une œuvre d’art rencontrée directement ou en reproduction.",
         "Propose une interprétation personnelle de l’œuvre et l’argumente à partir d’éléments observés.",
         "Compare des œuvres différentes sur une même question ou dans d’autres arts."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait, devant la reproduction d’un tableau, le décrire puis proposer une interprétation en la justifiant par des détails observés ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait, devant la reproduction d’un tableau, le décrire puis proposer une interprétation en la justifiant par des détails observés ?",
+      "acquisAnterieurs": [
         "Comparer quelques œuvres d’art (Cycle 2)",
         "S’exprimer sur sa production, celle de ses pairs, sur l’art (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 42,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -469,32 +441,30 @@
     {
       "id": "fr-ap-c3-rpd-01",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "La représentation plastique et les dispositifs de présentation",
-      "subdomain": "La ressemblance",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "La représentation plastique et les dispositifs de présentation",
+      "sousDomaine": "La ressemblance",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "La ressemblance et la valeur expressive de l’écart au réel",
+      "nom": "La ressemblance et la valeur expressive de l’écart au réel",
       "description": "Comprendre qu’une représentation n’a pas besoin d’être une copie fidèle du réel : exagérer, interpréter ou s’éloigner du modèle peut donner plus de force à une image.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "La ressemblance : découverte, prise de conscience et appropriation de la valeur expressive de l’écart dans la représentation."
       ],
-      "evidence": [
+      "criteres": [
         "Recherche l’imitation, l’accentuation ou l’interprétation des caractéristiques du réel dans une représentation.",
         "S’éloigne volontairement des caractéristiques du réel, jusqu’au surgissement d’autre chose.",
         "Distingue, dans sa représentation, ce qui relève du hasard et ce qui manifeste ses choix.",
         "Observe et compare des œuvres qui représentent le réel de façons différentes."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dessiner un visage en accentuant volontairement un trait (le regard, la bouche) et expliquer l’effet produit ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dessiner un visage en accentuant volontairement un trait (le regard, la bouche) et expliquer l’effet produit ?",
+      "acquisAnterieurs": [
         "Prendre conscience de l’écart entre ce qu’on voit, ce qu’on produit et ce que le spectateur perçoit (Cycle 2)",
         "Utiliser le dessin dans toute sa diversité comme moyen d’expression (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 43,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -503,31 +473,29 @@
     {
       "id": "fr-ap-c3-rpd-02",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "La représentation plastique et les dispositifs de présentation",
-      "subdomain": "L’autonomie du geste graphique, pictural, sculptural",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "La représentation plastique et les dispositifs de présentation",
+      "sousDomaine": "L’autonomie du geste graphique, pictural, sculptural",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Le geste, l’original, la copie, le multiple et la série",
+      "nom": "Le geste, l’original, la copie, le multiple et la série",
       "description": "Comprendre que la trace du geste (du crayon, du pinceau, de la main qui modèle) compte dans une œuvre, et distinguer une œuvre unique (l’original) d’une copie, d’un tirage en plusieurs exemplaires (le multiple) ou d’une série.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "L’autonomie du geste graphique, pictural, sculptural : ses incidences sur la représentation, sur l’unicité de l’œuvre, son lien aux notions d’original, de copie, de multiple et de série."
       ],
-      "evidence": [
+      "criteres": [
         "Explore les possibilités créatives liées à la reproduction ou au travail en série.",
         "Distingue un original, une copie, un multiple et une série.",
         "Observe l’incidence du geste graphique, pictural ou sculptural sur la représentation.",
         "Compare des œuvres différentes sur une même question."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer la différence entre un tableau original et sa copie, ou entre une œuvre unique et une série d’images réalisées à partir d’un même motif ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer la différence entre un tableau original et sa copie, ou entre une œuvre unique et une série d’images réalisées à partir d’un même motif ?",
+      "acquisAnterieurs": [
         "Observer les effets produits par ses gestes, par les outils utilisés (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 43,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -536,31 +504,29 @@
     {
       "id": "fr-ap-c3-rpd-03",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "La représentation plastique et les dispositifs de présentation",
-      "subdomain": "Les différentes catégories d’images, leurs procédés de fabrication, leurs transformations",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "La représentation plastique et les dispositifs de présentation",
+      "sousDomaine": "Les différentes catégories d’images, leurs procédés de fabrication, leurs transformations",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Distinguer les catégories d’images et leurs procédés de fabrication",
+      "nom": "Distinguer les catégories d’images et leurs procédés de fabrication",
       "description": "Faire la différence entre une image artistique et une image scientifique ou documentaire, et reconnaître comment une image a été fabriquée : dessinée, peinte, photographiée ou filmée.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Les différentes catégories d’images, leurs procédés de fabrication, leurs transformations : la différence entre images à caractère artistique et images scientifiques ou documentaires, l’image dessinée, peinte, photographiée, filmée, la transformation d’images existantes dans une visée poétique ou artistique."
       ],
-      "evidence": [
+      "criteres": [
         "Distingue une image à caractère artistique d’une image scientifique ou documentaire.",
         "Reconnaît une image dessinée, peinte, photographiée ou filmée.",
         "Produit des images avec l’appareil photographique ou la caméra, notamment numériques.",
         "Observe et analyse des images ; compare des œuvres différentes sur une même question."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, devant une planche d’encyclopédie et un tableau représentant le même oiseau, laquelle est une image documentaire et laquelle est une image artistique ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait dire, devant une planche d’encyclopédie et un tableau représentant le même oiseau, laquelle est une image documentaire et laquelle est une image artistique ?",
+      "acquisAnterieurs": [
         "Employer divers outils, dont ceux numériques, pour représenter (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 43,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -569,30 +535,28 @@
     {
       "id": "fr-ap-c3-rpd-04",
       "programme": "ap-c3",
-      "type": "PROCEDURAL",
-      "subject": "Arts plastiques",
-      "domain": "La représentation plastique et les dispositifs de présentation",
-      "subdomain": "Les différentes catégories d’images, leurs procédés de fabrication, leurs transformations",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Arts plastiques",
+      "domaine": "La représentation plastique et les dispositifs de présentation",
+      "sousDomaine": "Les différentes catégories d’images, leurs procédés de fabrication, leurs transformations",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Transformer une image existante dans une visée poétique ou artistique",
+      "nom": "Transformer une image existante dans une visée poétique ou artistique",
       "description": "Intervenir sur une image qui existe déjà (photo, affiche, reproduction) en la découpant, en dessinant ou peignant dessus, ou en la montant avec d’autres, pour lui donner un nouveau sens.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Les différentes catégories d’images, leurs procédés de fabrication, leurs transformations : la différence entre images à caractère artistique et images scientifiques ou documentaires, l’image dessinée, peinte, photographiée, filmée, la transformation d’images existantes dans une visée poétique ou artistique."
       ],
-      "evidence": [
+      "criteres": [
         "Intervient sur une image déjà existante pour en modifier le sens par le collage, le dessin, la peinture, le montage.",
         "Transforme une image grâce aux possibilités des outils numériques.",
         "Explique le nouveau sens donné à l’image transformée."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait transformer une photo de magazine par le collage ou le dessin pour lui faire raconter autre chose ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait transformer une photo de magazine par le collage ou le dessin pour lui faire raconter autre chose ?",
+      "acquisAnterieurs": [
         "Transformer ou restructurer des images ou des objets (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 43,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -601,32 +565,30 @@
     {
       "id": "fr-ap-c3-rpd-05",
       "programme": "ap-c3",
-      "type": "PROCEDURAL",
-      "subject": "Arts plastiques",
-      "domain": "La représentation plastique et les dispositifs de présentation",
-      "subdomain": "La narration visuelle",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Arts plastiques",
+      "domaine": "La représentation plastique et les dispositifs de présentation",
+      "sousDomaine": "La narration visuelle",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Raconter ou témoigner par des compositions et des suites d’images",
+      "nom": "Raconter ou témoigner par des compositions et des suites d’images",
       "description": "Organiser des images, fixes ou animées, ou une composition en deux ou trois dimensions pour raconter une histoire ou témoigner d’un événement vécu.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "La narration visuelle : les compositions plastiques, en deux et en trois dimensions, à des fins de récit ou de témoignage, l’organisation des images fixes et animées pour raconter."
       ],
-      "evidence": [
+      "criteres": [
         "Met en œuvre, en deux et trois dimensions, des principes d’organisation et d’agencement plastiques explicites pour raconter ou témoigner.",
         "Réalise des productions plastiques exprimant l’espace et le temps.",
         "Organise des images animées en jouant sur le ralenti, l’accélération, le séquençage.",
         "Organise une suite d’images pour sous-tendre un récit ou un témoignage."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait raconter une sortie de classe en organisant une suite de dessins ou de photos dans un ordre qui fait comprendre l’histoire ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait raconter une sortie de classe en organisant une suite de dessins ou de photos dans un ordre qui fait comprendre l’histoire ?",
+      "acquisAnterieurs": [
         "Réaliser des productions plastiques pour raconter, témoigner (Cycle 2)",
         "Articuler le texte et l’image à des fins d’illustration, de création (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 43,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -635,31 +597,29 @@
     {
       "id": "fr-ap-c3-rpd-06",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "La représentation plastique et les dispositifs de présentation",
-      "subdomain": "La mise en regard et en espace",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "La représentation plastique et les dispositifs de présentation",
+      "sousDomaine": "La mise en regard et en espace",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Présenter une production : cadre, socle, lieux et contextes",
+      "nom": "Présenter une production : cadre, socle, lieux et contextes",
       "description": "Comprendre que la façon de montrer une œuvre change la manière de la voir : avec ou sans cadre ou socle, dans la classe, sur un écran, dans une vitrine, au musée, ou intégrée à un lieu (in situ).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "La mise en regard et en espace : ses modalités (présence ou absence du cadre, du socle, du piédestal, etc.), ses contextes (l’espace quotidien privé ou public, l’écran individuel ou collectif, la vitrine, le musée, etc.), l’exploration des présentations des productions plastiques et des œuvres (lieux : salle d’exposition, installation, in situ, l’intégration dans des espaces existants, etc.)."
       ],
-      "evidence": [
+      "criteres": [
         "Explore diverses modalités et divers lieux de présentation de sa production et de l’œuvre.",
         "Compare l’effet d’une même production présentée avec ou sans cadre, socle ou piédestal.",
         "Observe le rôle du rapport d’échelle dans la présentation.",
         "Explore les lieux de présentation dans l’espace scolaire ou dans des lieux adaptés (salle d’exposition, in situ)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce qui change quand une petite sculpture est posée sur un socle plutôt que directement sur le sol ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer ce qui change quand une petite sculpture est posée sur un socle plutôt que directement sur le sol ?",
+      "acquisAnterieurs": [
         "Réaliser et donner à voir, individuellement ou collectivement, des productions plastiques de natures diverses (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 43,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -668,30 +628,28 @@
     {
       "id": "fr-ap-c3-rpd-07",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "La représentation plastique et les dispositifs de présentation",
-      "subdomain": "La prise en compte du spectateur, de l’effet recherché",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "La représentation plastique et les dispositifs de présentation",
+      "sousDomaine": "La prise en compte du spectateur, de l’effet recherché",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Penser la présentation en fonction du spectateur",
+      "nom": "Penser la présentation en fonction du spectateur",
       "description": "Choisir comment accrocher ou mettre en scène une production pour produire un effet sur le public : de face, à contourner, à parcourir, ou en faisant participer le spectateur.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "La prise en compte du spectateur, de l’effet recherché : découverte des modalités de présentation afin de permettre la réception d’une production plastique ou d’une œuvre (accrochage, mise en espace, mise en scène, frontalité, circulation, parcours, participation ou passivité du spectateur, etc.)."
       ],
-      "evidence": [
+      "criteres": [
         "Choisit un accrochage, une mise en espace ou une mise en scène en fonction de l’effet recherché sur le spectateur.",
         "Distingue frontalité, circulation ou parcours, participation ou passivité du spectateur.",
         "Observe les effets produits par les diverses modalités de présentation des productions plastiques."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait proposer une façon d’exposer les productions de la classe pour que les visiteurs suivent un parcours, et expliquer ce choix ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait proposer une façon d’exposer les productions de la classe pour que les visiteurs suivent un parcours, et expliquer ce choix ?",
+      "acquisAnterieurs": [
         "Montrer sans réticence ses productions et regarder celles des autres (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 44,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -700,30 +658,28 @@
     {
       "id": "fr-ap-c3-fab-01",
       "programme": "ap-c3",
-      "type": "PROCEDURAL",
-      "subject": "Arts plastiques",
-      "domain": "Les fabrications et la relation entre l’objet et l’espace",
-      "subdomain": "L’hétérogénéité et la cohérence plastiques",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Arts plastiques",
+      "domaine": "Les fabrications et la relation entre l’objet et l’espace",
+      "sousDomaine": "L’hétérogénéité et la cohérence plastiques",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Associer des éléments hétérogènes de façon cohérente (techniques mixtes)",
+      "nom": "Associer des éléments hétérogènes de façon cohérente (techniques mixtes)",
       "description": "Mélanger des matériaux, des objets ou des images très différents (collage, techniques mixtes) tout en réfléchissant à l’effet d’ensemble et au sens produit.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "L’hétérogénéité et la cohérence plastiques : les questions de choix et de relations formelles entre constituants plastiques divers, la qualité des effets plastiques induits ; le sens produit par des techniques mixtes dans les pratiques bidimensionnelles et dans les fabrications en trois dimensions."
       ],
-      "evidence": [
+      "criteres": [
         "Associe des matériaux, des objets ou des images en tenant compte de leurs qualités formelles, au profit d’un effet, d’une organisation, d’une intention.",
         "Réalise un collage d’éléments hétéroclites, une association d’images disparates ou une intrusion de perturbations.",
         "Explique le sens produit par l’usage de techniques mixtes, en deux ou en trois dimensions."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait réaliser un collage mêlant papier, tissu et photos découpées, et expliquer ce qui donne une unité à l’ensemble (couleurs, formes, idée) ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait réaliser un collage mêlant papier, tissu et photos découpées, et expliquer ce qui donne une unité à l’ensemble (couleurs, formes, idée) ?",
+      "acquisAnterieurs": [
         "Expérimenter les effets des couleurs, des matériaux, des supports… en explorant l’organisation et la composition plastiques (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 44,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -732,30 +688,28 @@
     {
       "id": "fr-ap-c3-fab-02",
       "programme": "ap-c3",
-      "type": "PROCEDURAL",
-      "subject": "Arts plastiques",
-      "domain": "Les fabrications et la relation entre l’objet et l’espace",
-      "subdomain": "L’invention, la fabrication, les détournements, les mises en scène des objets",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Arts plastiques",
+      "domaine": "Les fabrications et la relation entre l’objet et l’espace",
+      "sousDomaine": "L’invention, la fabrication, les détournements, les mises en scène des objets",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Créer, transformer ou détourner des objets",
+      "nom": "Créer, transformer ou détourner des objets",
       "description": "Fabriquer un objet, ou transformer et mettre en scène un objet existant, pour raconter une histoire, en faire un symbole ou créer un effet poétique.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "L’invention, la fabrication, les détournements, les mises en scène des objets : création d’objets, intervention sur des objets, leur transformation ou manipulation à des fins narratives, symboliques ou poétiques ; la prise en compte des statuts de l’objet (artistique, symbolique, utilitaire, de communication) ; la relation entre forme et fonction."
       ],
-      "evidence": [
+      "criteres": [
         "Crée, fabrique ou transforme des objets en lien avec des situations à forte charge symbolique.",
         "Modifie les qualités physiques d’un objet et fait l’expérience de la dimension poétique ainsi provoquée.",
         "Manipule ou met en scène des objets à des fins narratives, symboliques ou poétiques."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait détourner un objet du quotidien (une chaise, une cuillère) en modifiant sa matière ou sa forme pour lui donner une dimension poétique ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait détourner un objet du quotidien (une chaise, une cuillère) en modifiant sa matière ou sa forme pour lui donner une dimension poétique ?",
+      "acquisAnterieurs": [
         "Transformer ou restructurer des images ou des objets (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 44,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -764,27 +718,25 @@
     {
       "id": "fr-ap-c3-fab-03",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "Les fabrications et la relation entre l’objet et l’espace",
-      "subdomain": "L’invention, la fabrication, les détournements, les mises en scène des objets",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "Les fabrications et la relation entre l’objet et l’espace",
+      "sousDomaine": "L’invention, la fabrication, les détournements, les mises en scène des objets",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Les statuts de l’objet et la relation entre forme et fonction",
+      "nom": "Les statuts de l’objet et la relation entre forme et fonction",
       "description": "Comprendre qu’un même objet peut être utile, symbolique, artistique ou servir à communiquer, et que sa forme est liée à ce à quoi il sert.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "L’invention, la fabrication, les détournements, les mises en scène des objets : création d’objets, intervention sur des objets, leur transformation ou manipulation à des fins narratives, symboliques ou poétiques ; la prise en compte des statuts de l’objet (artistique, symbolique, utilitaire, de communication) ; la relation entre forme et fonction."
       ],
-      "evidence": [
+      "criteres": [
         "Distingue les statuts d’un objet : artistique, symbolique, utilitaire, de communication.",
         "Joue sur les relations entre forme et fonction, entre dimension symbolique et qualités plastiques.",
         "Observe et analyse des objets et des œuvres ; compare des œuvres différentes sur une même question."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi un objet utilitaire exposé dans un musée change de statut et devient une œuvre ?",
+      "question": "Est-ce que {{prenom}} sait expliquer pourquoi un objet utilitaire exposé dans un musée change de statut et devient une œuvre ?",
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 44,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -793,30 +745,28 @@
     {
       "id": "fr-ap-c3-fab-04",
       "programme": "ap-c3",
-      "type": "PROCEDURAL",
-      "subject": "Arts plastiques",
-      "domain": "Les fabrications et la relation entre l’objet et l’espace",
-      "subdomain": "L’espace en trois dimensions",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Arts plastiques",
+      "domaine": "Les fabrications et la relation entre l’objet et l’espace",
+      "sousDomaine": "L’espace en trois dimensions",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Travailler en volume : modelage, assemblage, construction, installation",
+      "nom": "Travailler en volume : modelage, assemblage, construction, installation",
       "description": "Fabriquer des volumes en modelant, en assemblant ou en construisant, jusqu’à l’installation qui occupe un espace, en faisant attention à l’équilibre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "L’espace en trois dimensions : découverte et expérimentation du travail en volume (modelage, assemblage, construction, installation, etc.) ; les notions de forme fermée et forme ouverte, de contour et de limite, de vide et de plein, d’intérieur et d’extérieur, d’enveloppe et de structure, de passage et de transition ; les interpénétrations entre l’espace de l’œuvre et l’espace du spectateur."
       ],
-      "evidence": [
+      "criteres": [
         "Réalise des volumes par modelage, assemblage, construction ou installation.",
         "Explore les conditions du déploiement de volumes dans l’espace, en lien notamment avec l’architecture (équilibre et déséquilibre).",
         "Observe et analyse des architectures et des objets dans l’environnement proche."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait construire une structure en carton qui tient debout sans appui, en jouant sur l’équilibre ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait construire une structure en carton qui tient debout sans appui, en jouant sur l’équilibre ?",
+      "acquisAnterieurs": [
         "Prendre en compte l’influence des outils, supports, matériaux, gestes sur la représentation en deux et en trois dimensions (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 44,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -825,28 +775,26 @@
     {
       "id": "fr-ap-c3-fab-05",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "Les fabrications et la relation entre l’objet et l’espace",
-      "subdomain": "L’espace en trois dimensions",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "Les fabrications et la relation entre l’objet et l’espace",
+      "sousDomaine": "L’espace en trois dimensions",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Les notions de l’espace en volume : ouvert et fermé, vide et plein…",
+      "nom": "Les notions de l’espace en volume : ouvert et fermé, vide et plein…",
       "description": "Connaître et utiliser les notions qui décrivent un volume : forme ouverte ou fermée, contour et limite, vide et plein, intérieur et extérieur, enveloppe et structure, passage ; comprendre aussi qu’une œuvre peut faire entrer le spectateur dans son espace.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "L’espace en trois dimensions : découverte et expérimentation du travail en volume (modelage, assemblage, construction, installation, etc.) ; les notions de forme fermée et forme ouverte, de contour et de limite, de vide et de plein, d’intérieur et d’extérieur, d’enveloppe et de structure, de passage et de transition ; les interpénétrations entre l’espace de l’œuvre et l’espace du spectateur."
       ],
-      "evidence": [
+      "criteres": [
         "Distingue forme ouverte et forme fermée, vide et plein, intérieur et extérieur dans une production ou une architecture.",
         "Nomme le contour et la limite, l’enveloppe et la structure, le passage et la transition dans un volume.",
         "Repère les interpénétrations entre l’espace de l’œuvre et l’espace du spectateur.",
         "Compare des œuvres, des architectures ou des objets porteurs des questions que posent l’espace, l’objet et l’architecture."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait dire, devant une sculpture ou un bâtiment, si la forme est ouverte ou fermée et où sont les vides et les pleins ?",
+      "question": "Est-ce que {{prenom}} sait dire, devant une sculpture ou un bâtiment, si la forme est ouverte ou fermée et où sont les vides et les pleins ?",
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 44,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -855,31 +803,29 @@
     {
       "id": "fr-ap-c3-mat-01",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre",
-      "subdomain": "La réalité concrète d’une production ou d’une œuvre",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre",
+      "sousDomaine": "La réalité concrète d’une production ou d’une œuvre",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "La matérialité de l’œuvre ; l’objet ou l’image devenus matériau",
+      "nom": "La matérialité de l’œuvre ; l’objet ou l’image devenus matériau",
       "description": "Comprendre qu’une œuvre est faite de matière et que cette matière produit des effets sur le spectateur ; découvrir qu’en art, un objet ou une image peut servir de matériau à une nouvelle œuvre.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "La réalité concrète d’une production ou d’une œuvre : le rôle de la matérialité dans les effets sensibles que produit une œuvre ; faire l’expérience de la matérialité de l’œuvre, en tirer parti, comprendre qu’en art l’objet et l’image peuvent aussi devenir matériau."
       ],
-      "evidence": [
+      "criteres": [
         "Donne forme à la matière, l’éprouve, joue de ses caractéristiques physiques et des textures pour nourrir un projet artistique.",
         "Identifie la part du hasard et celle de l’intention dans le travail de la matière.",
         "Utilise un objet ou une image comme matériau d’une nouvelle réalisation.",
         "Observe et interprète le rôle de la matière dans les effets sensibles produits par une œuvre."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer ce que change le choix d’une matière épaisse ou lisse dans une œuvre, ou utiliser des images découpées comme matériau d’une nouvelle création ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer ce que change le choix d’une matière épaisse ou lisse dans une œuvre, ou utiliser des images découpées comme matériau d’une nouvelle création ?",
+      "acquisAnterieurs": [
         "S’approprier par les sens les éléments du langage plastique : matière, support, couleur… (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 44,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -888,32 +834,30 @@
     {
       "id": "fr-ap-c3-mat-02",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre",
-      "subdomain": "Les qualités physiques des matériaux",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre",
+      "sousDomaine": "Les qualités physiques des matériaux",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Les qualités physiques des matériaux et leurs effets",
+      "nom": "Les qualités physiques des matériaux et leurs effets",
       "description": "Connaître différentes sortes de matériaux (de récupération, non transformés, transformés, biomatériaux) et leurs qualités (poreux, rugueux, liquide, malléable…), et voir comment elles influencent ce qu’on peut faire en peinture, en collage ou en volume.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Les qualités physiques des matériaux : caractéristiques des matériaux (matériaux de récupération, matériaux non transformés, matériaux issus de transformations physiques ou chimiques, biomatériaux), incidences de leurs caractéristiques (porosité, rugosité, liquidité, malléabilité, etc.) sur la pratique plastique en deux dimensions (transparences, épaisseurs, mélanges homogènes et hétérogènes, collages, etc.) et en volume (stratifications, assemblages, empilements, tressages, emboîtements, adjonctions d’objets ou de fragments d’objets, etc.), sur l’invention de formes ou de techniques, sur la production de sens."
       ],
-      "evidence": [
+      "criteres": [
         "Explore les qualités physiques des matériaux, des médiums et des supports pour peindre ou dessiner, pour sculpter ou construire.",
         "Nomme des qualités physiques d’un matériau : porosité, rugosité, liquidité, malléabilité.",
         "Distingue matériaux de récupération, matériaux non transformés, matériaux issus de transformations physiques ou chimiques, biomatériaux.",
         "Tire parti des caractéristiques d’un matériau en deux dimensions (transparences, épaisseurs, mélanges) et en volume (empilements, tressages, emboîtements)."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi l’argile se prête au modelage alors que le carton se prête plutôt à l’assemblage ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer pourquoi l’argile se prête au modelage alors que le carton se prête plutôt à l’assemblage ?",
+      "acquisAnterieurs": [
         "S’approprier par les sens les éléments du langage plastique : matière, support, couleur… (Cycle 2)",
         "Expérimenter les effets des couleurs, des matériaux, des supports… en explorant l’organisation et la composition plastiques (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 44,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -922,32 +866,30 @@
     {
       "id": "fr-ap-c3-mat-03",
       "programme": "ap-c3",
-      "type": "PROCEDURAL",
-      "subject": "Arts plastiques",
-      "domain": "La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre",
-      "subdomain": "Les effets du geste et de l’instrument",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Arts plastiques",
+      "domaine": "La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre",
+      "sousDomaine": "Les effets du geste et de l’instrument",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Les effets du geste et de l’outil",
+      "nom": "Les effets du geste et de l’outil",
       "description": "Découvrir les effets obtenus avec des outils variés (la main, des pinceaux de toutes tailles, des chiffons, des éponges, des outils inventés) et en jouant sur un geste ample ou retenu, maîtrisé ou imprévisible.",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "Les effets du geste et de l’instrument : les qualités plastiques et les effets visuels obtenus par la mise en œuvre d’outils, de médiums et de supports variés ; par l’élargissement de la notion d’outil — la main, les brosses et pinceaux de caractéristiques et tailles diverses, les chiffons, les éponges, les outils inventés, etc. — ; par les dialogues entre les instruments et la matière — touche, trace, texture, facture, griffure, traînée, découpe, coulure, etc. — ; par l’amplitude ou la retenue du geste, sa maîtrise ou son imprévisibilité."
       ],
-      "evidence": [
+      "criteres": [
         "Découvre et utilise les qualités plastiques et les effets visuels obtenus par les interactions entre outils, médiums et supports variés.",
         "Élargit la notion d’outil : la main, les brosses et pinceaux de tailles diverses, les chiffons, les éponges, les outils inventés.",
         "Joue sur l’amplitude ou la retenue du geste, sa maîtrise ou son imprévisibilité (rythme, vitesse, rapport aux limites et aux bords du support).",
         "Nomme des effets du dialogue entre l’instrument et la matière : touche, trace, texture, griffure, traînée, coulure."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait obtenir des traces différentes avec une éponge, un chiffon ou la main, et nommer l’effet obtenu (griffure, traînée, coulure) ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait obtenir des traces différentes avec une éponge, un chiffon ou la main, et nommer l’effet obtenu (griffure, traînée, coulure) ?",
+      "acquisAnterieurs": [
         "Observer les effets produits par ses gestes, par les outils utilisés (Cycle 2)",
         "Tirer parti de trouvailles fortuites, saisir les effets du hasard (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 45,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -956,30 +898,28 @@
     {
       "id": "fr-ap-c3-mat-04",
       "programme": "ap-c3",
-      "type": "PROCEDURAL",
-      "subject": "Arts plastiques",
-      "domain": "La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre",
-      "subdomain": "La matérialité et la qualité de la couleur",
-      "level": "Cycle 3",
+      "nature": "savoir-faire",
+      "matiere": "Arts plastiques",
+      "domaine": "La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre",
+      "sousDomaine": "La matérialité et la qualité de la couleur",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "La matière colorée et ses usages (jus, glacis, empâtement, aplat…)",
+      "nom": "La matière colorée et ses usages (jus, glacis, empâtement, aplat…)",
       "description": "Comprendre qu’une couleur est aussi une matière (pigment, liant…) et que la façon de la poser change l’effet : couche très diluée (jus), couche transparente (glacis), couche épaisse (empâtement), couleur uniforme (aplat)…",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "La matérialité et la qualité de la couleur : la découverte des relations entre sensation colorée et qualités physiques de la matière colorée (pigments, substances, liants, siccatifs, etc.), des effets induits par les usages (jus, glacis, empâtement, couverture, aplat, plage, giclure, etc.), les supports, les mélanges avec d’autres médiums ; la compréhension des dimensions sensorielles de la couleur, notamment les interrelations entre quantité (formats, surfaces, étendue, environnement) et qualité (teintes, intensité, nuances, lumière, etc.)."
       ],
-      "evidence": [
+      "criteres": [
         "Réalise des productions qui lient les qualités de la matière colorée (pigments, substances, liants, siccatifs) et ses usages (jus, glacis, empâtement, couverture, aplat, plage, giclure).",
         "Observe les effets induits par les supports et par les mélanges avec d’autres médiums.",
         "Nomme quelques usages de la matière colorée : jus, glacis, empâtement, aplat."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait poser une même couleur en aplat puis en empâtement et décrire la différence d’effet ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait poser une même couleur en aplat puis en empâtement et décrire la différence d’effet ?",
+      "acquisAnterieurs": [
         "Expérimenter les effets des couleurs, des matériaux, des supports… en explorant l’organisation et la composition plastiques (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 45,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
@@ -988,128 +928,139 @@
     {
       "id": "fr-ap-c3-mat-05",
       "programme": "ap-c3",
-      "type": "CONCEPTUAL",
-      "subject": "Arts plastiques",
-      "domain": "La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre",
-      "subdomain": "La matérialité et la qualité de la couleur",
-      "level": "Cycle 3",
+      "nature": "compréhension",
+      "matiere": "Arts plastiques",
+      "domaine": "La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre",
+      "sousDomaine": "La matérialité et la qualité de la couleur",
+      "classe": "Cycle 3",
       "cycle": 3,
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "name": "Les dimensions sensorielles de la couleur : quantité et qualité",
+      "nom": "Les dimensions sensorielles de la couleur : quantité et qualité",
       "description": "Comprendre que l’effet d’une couleur dépend de sa quantité (taille de la surface, format, couleurs autour) autant que de sa qualité (teinte, intensité, nuance, lumière).",
-      "officialObjectives": [
+      "objectifsOfficiels": [
         "La matérialité et la qualité de la couleur : la découverte des relations entre sensation colorée et qualités physiques de la matière colorée (pigments, substances, liants, siccatifs, etc.), des effets induits par les usages (jus, glacis, empâtement, couverture, aplat, plage, giclure, etc.), les supports, les mélanges avec d’autres médiums ; la compréhension des dimensions sensorielles de la couleur, notamment les interrelations entre quantité (formats, surfaces, étendue, environnement) et qualité (teintes, intensité, nuances, lumière, etc.)."
       ],
-      "evidence": [
+      "criteres": [
         "Observe comment la quantité d’une couleur (format, surface, étendue, environnement) modifie la perception de sa qualité (teinte, intensité, nuance, lumière).",
         "Observe et analyse des œuvres mettant en évidence le rôle de la matérialité et de la couleur.",
         "Compare des œuvres différentes sur une même question ou dans d’autres arts."
       ],
-      "assessmentPrompt": "Est-ce que {{prenom}} sait expliquer pourquoi un petit point rouge sur un grand fond vert ne produit pas le même effet qu’une grande surface rouge ?",
-      "priorKnowledge": [
+      "question": "Est-ce que {{prenom}} sait expliquer pourquoi un petit point rouge sur un grand fond vert ne produit pas le même effet qu’une grande surface rouge ?",
+      "acquisAnterieurs": [
         "Expérimenter les effets des couleurs, des matériaux, des supports… en explorant l’organisation et la composition plastiques (Cycle 2)"
       ],
       "source": {
-        "file": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
+        "fichier": "cycle-3-cm1-cm2-6e/programmes-c3-consolide-BO31-2020.pdf",
         "bo": "BO n° 31 du 30 juillet 2020",
         "page": 45,
         "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3"
       }
     }
   ],
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-ap-c3-exp-01",
-      "prerequisiteId": "fr-ap-c3-mat-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Choisir un geste ou un outil selon son effet suppose d’avoir expérimenté les effets des gestes et des outils."
+      "de": "fr-ap-c3-mat-03",
+      "vers": "fr-ap-c3-exp-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Choisir un geste ou un outil selon son effet suppose d’avoir expérimenté les effets des gestes et des outils."
     },
     {
-      "topicId": "fr-ap-c3-expr-02",
-      "prerequisiteId": "fr-ap-c3-exp-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Justifier ses choix suppose d’avoir choisi gestes, outils et matériaux en fonction de leurs effets."
+      "de": "fr-ap-c3-exp-01",
+      "vers": "fr-ap-c3-expr-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Justifier ses choix suppose d’avoir choisi gestes, outils et matériaux en fonction de leurs effets."
     },
     {
-      "topicId": "fr-ap-c3-exp-03",
-      "prerequisiteId": "fr-ap-c3-rep-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "S’éloigner des stéréotypes suppose de savoir les repérer."
+      "de": "fr-ap-c3-rep-01",
+      "vers": "fr-ap-c3-exp-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "S’éloigner des stéréotypes suppose de savoir les repérer."
     },
     {
-      "topicId": "fr-ap-c3-proj-02",
-      "prerequisiteId": "fr-ap-c3-proj-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Anticiper les étapes et les difficultés s’appuie sur l’inventaire des outils et compétences nécessaires."
+      "de": "fr-ap-c3-proj-01",
+      "vers": "fr-ap-c3-proj-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Anticiper les étapes et les difficultés s’appuie sur l’inventaire des outils et compétences nécessaires."
     },
     {
-      "topicId": "fr-ap-c3-proj-04",
-      "prerequisiteId": "fr-ap-c3-proj-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Adapter son projet aux contraintes suppose de se repérer dans ses étapes."
+      "de": "fr-ap-c3-proj-02",
+      "vers": "fr-ap-c3-proj-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Adapter son projet aux contraintes suppose de se repérer dans ses étapes."
     },
     {
-      "topicId": "fr-ap-c3-rep-03",
-      "prerequisiteId": "fr-ap-c3-expr-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Une compréhension argumentée d’une œuvre s’appuie sur une description précise."
+      "de": "fr-ap-c3-expr-01",
+      "vers": "fr-ap-c3-rep-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Une compréhension argumentée d’une œuvre s’appuie sur une description précise."
     },
     {
-      "topicId": "fr-ap-c3-rpd-01",
-      "prerequisiteId": "fr-ap-c3-exp-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Jouer sur l’écart au réel suppose de savoir représenter le monde environnant."
+      "de": "fr-ap-c3-exp-02",
+      "vers": "fr-ap-c3-rpd-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Jouer sur l’écart au réel suppose de savoir représenter le monde environnant."
     },
     {
-      "topicId": "fr-ap-c3-rpd-04",
-      "prerequisiteId": "fr-ap-c3-rpd-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Transformer une image existante s’appuie sur la connaissance des catégories d’images et de leurs procédés."
+      "de": "fr-ap-c3-rpd-03",
+      "vers": "fr-ap-c3-rpd-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Transformer une image existante s’appuie sur la connaissance des catégories d’images et de leurs procédés."
     },
     {
-      "topicId": "fr-ap-c3-rpd-07",
-      "prerequisiteId": "fr-ap-c3-rpd-06",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Penser l’effet sur le spectateur prolonge l’exploration des modalités et des lieux de présentation."
+      "de": "fr-ap-c3-rpd-06",
+      "vers": "fr-ap-c3-rpd-07",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Penser l’effet sur le spectateur prolonge l’exploration des modalités et des lieux de présentation."
     },
     {
-      "topicId": "fr-ap-c3-fab-03",
-      "prerequisiteId": "fr-ap-c3-fab-02",
-      "strength": "soft",
-      "origin": "texte",
-      "reason": "Le programme indique que les changements de statut imposés aux objets permettent de comprendre leurs dimensions artistiques, symboliques ou utilitaires."
+      "de": "fr-ap-c3-fab-02",
+      "vers": "fr-ap-c3-fab-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "texte",
+      "raison": "Le programme indique que les changements de statut imposés aux objets permettent de comprendre leurs dimensions artistiques, symboliques ou utilitaires."
     },
     {
-      "topicId": "fr-ap-c3-fab-05",
-      "prerequisiteId": "fr-ap-c3-fab-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les notions de vide et de plein, d’ouvert et de fermé se construisent en travaillant le volume."
+      "de": "fr-ap-c3-fab-04",
+      "vers": "fr-ap-c3-fab-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les notions de vide et de plein, d’ouvert et de fermé se construisent en travaillant le volume."
     },
     {
-      "topicId": "fr-ap-c3-mat-04",
-      "prerequisiteId": "fr-ap-c3-mat-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Les usages de la matière colorée prolongent la connaissance des qualités physiques des matériaux."
+      "de": "fr-ap-c3-mat-02",
+      "vers": "fr-ap-c3-mat-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Les usages de la matière colorée prolongent la connaissance des qualités physiques des matériaux."
     },
     {
-      "topicId": "fr-ap-c3-mat-05",
-      "prerequisiteId": "fr-ap-c3-mat-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "reason": "Percevoir les dimensions sensorielles de la couleur s’appuie sur l’expérience de la matière colorée."
+      "de": "fr-ap-c3-mat-04",
+      "vers": "fr-ap-c3-mat-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "raison": "Percevoir les dimensions sensorielles de la couleur s’appuie sur l’expérience de la matière colorée."
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extraitLe": "2026-10-23"
 }

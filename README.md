@@ -11,7 +11,7 @@ vale.edu est une base de données ouverte du curriculum français : tout ce que 
 | Liens de prérequis | 8 002, chacun avec sa raison |
 | Matières | français, mathématiques, sciences, histoire-géographie, langues vivantes, EMC, vie affective et relationnelle, arts, EPS, éducation aux médias |
 
-Le projet s'inspire de la [taxonomie ouverte de Marble](https://github.com/withmarbleapp/os-taxonomy), construite à partir des curriculums américain et britannique du primaire. vale.edu en reprend le principe et le format pour le curriculum français, et l'étend au collège.
+Le projet s'inspire de la [taxonomie ouverte de Marble](https://github.com/withmarbleapp/os-taxonomy), construite à partir des curriculums américain et britannique du primaire. vale.edu en reprend le principe pour le curriculum français, et l'étend au collège.
 
 ## Pourquoi
 
@@ -27,7 +27,7 @@ vale.edu veut fournir cette base, ouverte et réutilisable :
 
 - **Le site** : en ligne sur **[vale-edu.vercel.app](https://vale-edu.vercel.app)**, ou en ouvrant [`site/index.html`](site/index.html) dans un navigateur (la page est autonome, sans serveur). Une carte montre toutes les notions, classe par classe et matière par matière. Un clic sur une notion trace tout ce qu'il faut savoir avant, et ouvre sa fiche : description, question à poser, critères de réussite, prérequis, texte officiel et lien vers la page du PDF.
 - **Les vues texte** : [`data/vues/`](data/vues/index.md), une page Markdown par programme.
-- **Les données** : [`data/notions.json`](data/) et `prerequis.json`, décrits dans [`data/README.md`](data/README.md).
+- **Les données** : [`data/`](data/) (programmes, objectifs officiels, notions et liens), décrites dans [`data/README.md`](data/README.md).
 
 ## Couverture
 
@@ -50,30 +50,53 @@ Nombre de notions par matière et par cycle :
 
 En maternelle, le programme est écrit par domaine (« Mobiliser le langage », « Explorer le monde »…) ; ses notions sont rangées dans la matière la plus proche. Les programmes en vigueur, et ceux qui en remplacent d'autres progressivement, sont listés dans [`construction/programmes-officiels/README.md`](construction/programmes-officiels/README.md).
 
-## Une notion
+## Les données
+
+Le jeu de données sépare ce que dit le texte officiel de ce qu'on en tire pour accompagner un enfant. Quatre fichiers, dans [`data/`](data/README.md) :
+
+| Fichier | Contenu |
+|---|---|
+| `programmes.json` | Les 43 programmes : matière, classes, PDF, BO, empreinte |
+| `objectifs.json` | Les 6 798 objectifs officiels, cités mot pour mot, avec la page du PDF |
+| `notions.json` | Les 5 604 notions, chacune reliée aux objectifs dont elle vient |
+| `liens.json` | Les 8 002 liens de prérequis entre notions |
+
+Une notion :
 
 ```json
 {
   "id": "fr-ma-ce1-fra-07",
   "programme": "maths-c2",
-  "type": "PROCEDURAL",
-  "subject": "Mathématiques",
-  "domain": "Nombres, calcul et résolution de problèmes",
-  "subdomain": "Les fractions",
-  "level": "CE1",
+  "matiere": "Mathématiques",
+  "domaine": "Nombres, calcul et résolution de problèmes",
+  "sousDomaine": "Les fractions",
+  "classe": "CE1",
   "cycle": 2,
-  "ageRangeStart": 7,
-  "ageRangeEnd": 8,
-  "name": "Additionner et soustraire des fractions de même dénominateur",
+  "nom": "Additionner et soustraire des fractions de même dénominateur",
   "description": "Calculer par exemple 2/3 - 1/3 ou 1/5 + 2/5 en s'aidant de manipulations et de dessins…",
-  "officialObjectives": ["Additionner et soustraire des fractions de même dénominateur."],
-  "evidence": [
+  "nature": "savoir-faire",
+  "objectifs": ["fr-ma-ce1-objectif-aa097e8d"],
+  "criteres": [
     "Calcule 2/3 - 1/3 ou 1/5 + 2/5 en s'appuyant sur des manipulations et des représentations.",
     "Verbalise le calcul : « deux tiers du tout moins un tiers du tout, cela fait un tiers du tout »."
   ],
-  "assessmentPrompt": "Est-ce que {{prenom}} sait calculer 1/5 + 2/5 en expliquant avec des mots ce qu'il ou elle fait ?",
+  "question": "Est-ce que {{prenom}} sait calculer 1/5 + 2/5 en expliquant avec des mots ce qu'il ou elle fait ?",
+  "source": {"page": 13}
+}
+```
+
+L'objectif officiel auquel elle renvoie :
+
+```json
+{
+  "id": "fr-ma-ce1-objectif-aa097e8d",
+  "programme": "maths-c2",
+  "classe": "CE1",
+  "domaine": "Nombres, calcul et résolution de problèmes",
+  "sousDomaine": "Les fractions",
+  "texte": "Additionner et soustraire des fractions de même dénominateur.",
   "source": {
-    "file": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
+    "fichier": "cycle-2-cp-ce1-ce2/maths-c2-BO41-2024.pdf",
     "bo": "BO n° 41 du 31 octobre 2024",
     "page": 13,
     "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed"
@@ -81,23 +104,24 @@ En maternelle, le programme est écrit par domaine (« Mobiliser le langage », 
 }
 ```
 
-- `officialObjectives` est recopié mot pour mot du programme. `description`, `evidence` (critères de réussite, tirés des « exemples de réussite » officiels quand ils existent) et `assessmentPrompt` sont des reformulations.
-- `type` : `CONCEPTUAL` (comprendre), `PROCEDURAL` (savoir-faire), `REPRESENTATIONAL` (passer d'une représentation à une autre), `LANGUAGE` (vocabulaire), `META` (stratégie).
-- `source.sha256` est l'empreinte du PDF au moment de l'extraction : si le programme change, les notions concernées sont repérées.
+- Le `texte` de l'objectif est recopié mot pour mot du programme. La `description`, les `criteres` (tirés des « exemples de réussite » officiels quand ils existent) et la `question` de la notion sont des reformulations.
+- `nature` : `compréhension`, `savoir-faire`, `représentation` (passer d'une représentation à une autre), `vocabulaire` ou `stratégie`.
+- `source.sha256` est l'empreinte du PDF au moment de l'extraction : si le programme change, les objectifs et les notions concernés sont repérés.
 
-Un prérequis :
+Un lien :
 
 ```json
 {
-  "topicId": "fr-ma-ce1-fra-07",
-  "prerequisiteId": "fr-ma-ce1-fra-02",
-  "strength": "hard",
-  "origin": "déduit",
-  "reason": "Additionner 1/5 et 2/5 suppose de comprendre 3/5 comme trois fois 1/5."
+  "de": "fr-ma-ce1-fra-02",
+  "vers": "fr-ma-ce1-fra-07",
+  "type": "prerequis",
+  "force": "indispensable",
+  "origine": "déduit",
+  "raison": "Additionner 1/5 et 2/5 suppose de comprendre 3/5 comme trois fois 1/5."
 }
 ```
 
-`strength` vaut `hard` (indispensable) ou `soft` (utile). `origin` vaut `texte` quand le programme écrit lui-même le lien (492 liens), `déduit` sinon (7 510 liens). Le format complet est décrit dans [`data/README.md`](data/README.md#format).
+La notion `de` est un prérequis de la notion `vers`. `force` vaut `indispensable` ou `utile`. `origine` vaut `texte` quand le programme écrit lui-même le lien (492 liens), `déduit` sinon (7 510 liens). Le format complet est décrit dans [`data/README.md`](data/README.md#format).
 
 Exemple en Python : tout ce qu'il faut savoir avant une notion.
 
@@ -107,8 +131,8 @@ from collections import defaultdict
 
 notions = {n["id"]: n for n in json.load(open("data/notions.json"))["notions"]}
 avant = defaultdict(list)
-for p in json.load(open("data/prerequis.json"))["prerequisites"]:
-    avant[p["topicId"]].append(p["prerequisiteId"])
+for l in json.load(open("data/liens.json"))["liens"]:
+    avant[l["vers"]].append(l["de"])
 
 def chaine(i, vus=None):
     vus = set() if vus is None else vus
@@ -118,8 +142,10 @@ def chaine(i, vus=None):
             chaine(p, vus)
     return vus
 
-for i in sorted(chaine("fr-ma-ce1-fra-07"), key=lambda i: notions[i]["ageRangeStart"]):
-    print(notions[i]["level"], notions[i]["name"])
+CLASSES = ["PS", "MS", "GS", "CP", "CE1", "CE2", "CM1", "CM2", "6e", "5e", "4e", "3e"]
+rang = lambda i: (notions[i]["cycle"], CLASSES.index(notions[i]["classe"]) if notions[i]["classe"] in CLASSES else 0)
+for i in sorted(chaine("fr-ma-ce1-fra-07"), key=rang):
+    print(notions[i]["classe"], notions[i]["nom"])
 ```
 
 ## Comment la base est construite
@@ -168,8 +194,10 @@ Le dépôt a trois parties : les données, le site qui les affiche, et la constr
 
 ```
 data/                        le jeu de données (Licence Ouverte 2.0)
+├── programmes.json          les programmes officiels
+├── objectifs.json           leurs objectifs, mot pour mot
 ├── notions.json             les notions
-├── prerequis.json           les liens de prérequis
+├── liens.json               les liens de prérequis
 ├── vues/                    une page Markdown par programme
 ├── historique/              détail des changements, à chaque assemblage
 └── JOURNAL.md               historique de la base
@@ -188,7 +216,7 @@ bench/                       état des lieux des projets voisins
 
 ## Projets voisins
 
-- **[Marble, taxonomie ouverte](https://github.com/withmarbleapp/os-taxonomy)** : 1 930 notions du primaire et 4 102 prérequis, en anglais, alignés sur les programmes américains, britanniques, australiens et internationaux. Données sous ODbL, contenus sous CC BY-SA 4.0. vale.edu en reprend le format, pas les données.
+- **[Marble, taxonomie ouverte](https://github.com/withmarbleapp/os-taxonomy)** : 1 930 notions du primaire et 4 102 prérequis, en anglais, alignés sur les programmes américains, britanniques, australiens et internationaux. Données sous ODbL, contenus sous CC BY-SA 4.0. vale.edu en reprend le principe, pas les données.
 - **[MathALÉA / Coopmaths](https://forge.apps.education.fr/coopmaths/mathalea)** (AGPL) : exercices de mathématiques générés aléatoirement, avec des référentiels JSON par niveau, surtout à partir du CM1.
 - **Adaptiv'Math et Mathia** (programme P2IA du ministère) : parcours adaptatifs de mathématiques pour le cycle 2, gratuits, ouverts par l'enseignant, données fermées.
 - **Ontologies des programmes scolaires** (data.gouv.fr) : OWL/RDF, surtout pour le secondaire et d'anciens programmes.
@@ -199,10 +227,10 @@ bench/                       état des lieux des projets voisins
 
 - **Données** (notions, liens, descriptions, questions, critères : `data/` et `construction/extractions/`) : [Licence Ouverte 2.0](LICENCE-DONNEES.md) (Etalab). Réutilisation libre, y compris commerciale, en citant « vale.edu » et l'adresse du dépôt.
 - **Code** (scripts de `construction/outils/` et site `site/`) : [licence MIT](LICENSE).
-- **Programmes officiels** (`construction/programmes-officiels/`, `construction/textes/` et citations dans `officialObjectives`) : informations publiques du ministère de l'Éducation nationale, réutilisables en citant leur source et leur date (articles L321-1 et L322-1 du code des relations entre le public et l'administration). Source et date de chaque document : [`sources.json`](construction/programmes-officiels/sources.json).
+- **Programmes officiels** (`construction/programmes-officiels/`, `construction/textes/` et texte des objectifs dans `data/objectifs.json`) : informations publiques du ministère de l'Éducation nationale, réutilisables en citant leur source et leur date (articles L321-1 et L322-1 du code des relations entre le public et l'administration). Source et date de chaque document : [`sources.json`](construction/programmes-officiels/sources.json).
 
 vale.edu est un projet indépendant, sans lien avec le ministère de l'Éducation nationale ni avec Marble.
 
 ## In English
 
-vale.edu is an open dataset of the French national curriculum, from age 3 (petite section) to age 15 (3e): 5,604 learning concepts taken from 43 official programmes, linked by 8,002 prerequisite relations, each with its reason. Every concept quotes the official objective verbatim with the page of the source PDF. It follows the format of [Marble's open taxonomy](https://github.com/withmarbleapp/os-taxonomy) and extends it to lower secondary school. Content is in French. Data: Licence Ouverte 2.0 (compatible with CC BY 4.0). Code: MIT.
+vale.edu is an open dataset of the French national curriculum, from age 3 (petite section) to age 15 (3e): 5,604 learning concepts taken from 43 official programmes, linked by 8,002 prerequisite relations, each with its reason. Official objectives are kept verbatim, with the page of the source PDF, and each concept points to the objectives it comes from. It is inspired by [Marble's open taxonomy](https://github.com/withmarbleapp/os-taxonomy) and extends the idea to lower secondary school. Content and field names are in French. Data: Licence Ouverte 2.0 (compatible with CC BY 4.0). Code: MIT.

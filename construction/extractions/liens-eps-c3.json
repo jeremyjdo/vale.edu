@@ -1,232 +1,260 @@
 {
   "programme": "eps-c3",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-eps-cm-cour-01",
-      "prerequisiteId": "fr-eps-ce2-cour-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Adapter sa foulée pour courir vite sans ralentir » (CE2)"
+      "de": "fr-eps-ce2-cour-02",
+      "vers": "fr-eps-cm-cour-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Adapter sa foulée pour courir vite sans ralentir » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-cour-01",
-      "prerequisiteId": "fr-eps-ce2-cour-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Réagir vite au signal de départ » (CE2)"
+      "de": "fr-eps-ce2-cour-01",
+      "vers": "fr-eps-cm-cour-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Réagir vite au signal de départ » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-cour-03",
-      "prerequisiteId": "fr-eps-ce2-cour-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Franchir en courant plusieurs petites haies » (CE2)"
+      "de": "fr-eps-ce2-cour-03",
+      "vers": "fr-eps-cm-cour-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Franchir en courant plusieurs petites haies » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-cour-04",
-      "prerequisiteId": "fr-eps-ce2-cour-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Courir de plus en plus longtemps et choisir son contrat » (CE2)"
+      "de": "fr-eps-ce2-cour-04",
+      "vers": "fr-eps-cm-cour-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Courir de plus en plus longtemps et choisir son contrat » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-saut-01",
-      "prerequisiteId": "fr-eps-ce2-saut-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Sauter plus loin ou plus haut avec son pied d’appel » (CE2)"
+      "de": "fr-eps-ce2-saut-01",
+      "vers": "fr-eps-cm-saut-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Sauter plus loin ou plus haut avec son pied d’appel » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-lanc-01",
-      "prerequisiteId": "fr-eps-ce2-lanc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lancer en poussée à deux mains ou « à bras cassé » » (CE2)"
+      "de": "fr-eps-ce2-lanc-01",
+      "vers": "fr-eps-cm-lanc-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lancer en poussée à deux mains ou « à bras cassé » » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-orie-01",
-      "prerequisiteId": "fr-eps-ce2-orie-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Trouver deux balises à moins de 20 m avec un plan » (CE2)"
+      "de": "fr-eps-ce2-orie-01",
+      "vers": "fr-eps-cm-orie-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Trouver deux balises à moins de 20 m avec un plan » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-res-01",
-      "prerequisiteId": "fr-eps-ce2-res-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Utiliser ses résultats pour changer sa façon de faire » (CE2)"
+      "de": "fr-eps-ce2-res-01",
+      "vers": "fr-eps-cm-res-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Utiliser ses résultats pour changer sa façon de faire » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-terr-01",
-      "prerequisiteId": "fr-eps-ce2-terr-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Varier départs et arrivées de la roulade avant » (CE2)"
+      "de": "fr-eps-ce2-terr-01",
+      "vers": "fr-eps-cm-terr-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Varier départs et arrivées de la roulade avant » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-terr-02",
-      "prerequisiteId": "fr-eps-ce2-terr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Sauter le corps droit après un élan sur un tremplin » (CE2)"
+      "de": "fr-eps-ce2-terr-02",
+      "vers": "fr-eps-cm-terr-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Sauter le corps droit après un élan sur un tremplin » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-terr-03",
-      "prerequisiteId": "fr-eps-ce2-terr-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Tenir « l’équerre » et avancer en « saut de lapin » » (CE2)"
+      "de": "fr-eps-ce2-terr-03",
+      "vers": "fr-eps-cm-terr-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Tenir « l’équerre » et avancer en « saut de lapin » » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-terr-04",
-      "prerequisiteId": "fr-eps-ce2-terr-05",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Se tenir suspendu s’appuie sur l’habitude de porter son poids par les mains sur une paroi ou un espalier"
+      "de": "fr-eps-ce2-terr-05",
+      "vers": "fr-eps-cm-terr-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Se tenir suspendu s’appuie sur l’habitude de porter son poids par les mains sur une paroi ou un espalier"
     },
     {
-      "topicId": "fr-eps-cm-terr-05",
-      "prerequisiteId": "fr-eps-ce2-terr-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Traverser une paroi sur des prises plus petites » (CE2)"
+      "de": "fr-eps-ce2-terr-05",
+      "vers": "fr-eps-cm-terr-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Traverser une paroi sur des prises plus petites » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-loco-01",
-      "prerequisiteId": "fr-eps-ce2-loco-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Maîtriser son engin : pas du patineur, virages, suivre un camarade » (CE2)"
+      "de": "fr-eps-ce2-loco-01",
+      "vers": "fr-eps-cm-loco-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Maîtriser son engin : pas du patineur, virages, suivre un camarade » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-nat-01",
-      "prerequisiteId": "fr-eps-ce2-nat-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Flotter sur le ventre et sur le dos et avancer quelques mètres » (CE2)"
+      "de": "fr-eps-ce2-nat-01",
+      "vers": "fr-eps-cm-nat-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Flotter sur le ventre et sur le dos et avancer quelques mètres » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-secu-01",
-      "prerequisiteId": "fr-eps-ce2-secu-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Choisir un parcours à sa mesure et savoir renoncer » (CE2)"
+      "de": "fr-eps-ce2-secu-01",
+      "vers": "fr-eps-cm-secu-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Choisir un parcours à sa mesure et savoir renoncer » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-art-01",
-      "prerequisiteId": "fr-eps-ce2-art-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Varier vitesse et trajets de ses mouvements selon la musique » (CE2)"
+      "de": "fr-eps-ce2-art-01",
+      "vers": "fr-eps-cm-art-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Varier vitesse et trajets de ses mouvements selon la musique » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-art-02",
-      "prerequisiteId": "fr-eps-ce2-art-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Occuper l’espace en largeur, en hauteur et en profondeur » (CE2)"
+      "de": "fr-eps-ce2-art-02",
+      "vers": "fr-eps-cm-art-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Occuper l’espace en largeur, en hauteur et en profondeur » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-ench-01",
-      "prerequisiteId": "fr-eps-ce2-ench-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Construire un enchaînement avec un début, un milieu et une fin » (CE2)"
+      "de": "fr-eps-ce2-ench-01",
+      "vers": "fr-eps-cm-ench-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Construire un enchaînement avec un début, un milieu et une fin » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-emo-01",
-      "prerequisiteId": "fr-eps-ce2-emo-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Jouer un personnage et tenir compte du public » (CE2)"
+      "de": "fr-eps-ce2-emo-01",
+      "vers": "fr-eps-cm-emo-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Jouer un personnage et tenir compte du public » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-emo-02",
-      "prerequisiteId": "fr-eps-ce2-emo-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Justifier son avis sur une prestation et proposer une amélioration » (CE2)"
+      "de": "fr-eps-ce2-emo-02",
+      "vers": "fr-eps-cm-emo-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Justifier son avis sur une prestation et proposer une amélioration » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-opp-01",
-      "prerequisiteId": "fr-eps-ce2-opp-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Échanger une balle de part et d’autre d’un filet » (CE2)"
+      "de": "fr-eps-ce2-opp-01",
+      "vers": "fr-eps-cm-opp-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Échanger une balle de part et d’autre d’un filet » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-opp-01",
-      "prerequisiteId": "fr-eps-ce2-opp-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Se défendre au sol pour ne pas être immobilisé » (CE2)"
+      "de": "fr-eps-ce2-opp-02",
+      "vers": "fr-eps-cm-opp-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Se défendre au sol pour ne pas être immobilisé » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-opp-02",
-      "prerequisiteId": "fr-eps-ce2-opp-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Se démarquer et viser une zone précise » (CE2)"
+      "de": "fr-eps-ce2-opp-03",
+      "vers": "fr-eps-cm-opp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Se démarquer et viser une zone précise » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-opp-02",
-      "prerequisiteId": "fr-eps-ce2-marq-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Se déplacer vers la cible reprend la « montée de balle » à deux pour se rapprocher de la cible"
+      "de": "fr-eps-ce2-marq-01",
+      "vers": "fr-eps-cm-opp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Se déplacer vers la cible reprend la « montée de balle » à deux pour se rapprocher de la cible"
     },
     {
-      "topicId": "fr-eps-cm-marq-01",
-      "prerequisiteId": "fr-eps-ce2-marq-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Monter la balle à deux et se démarquer pour recevoir » (CE2)"
+      "de": "fr-eps-ce2-marq-01",
+      "vers": "fr-eps-cm-marq-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Monter la balle à deux et se démarquer pour recevoir » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-regl-01",
-      "prerequisiteId": "fr-eps-ce2-regl-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Arbitrer un jeu et compter les points » (CE2)"
+      "de": "fr-eps-ce2-regl-01",
+      "vers": "fr-eps-cm-regl-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Arbitrer un jeu et compter les points » (CE2)"
     },
     {
-      "topicId": "fr-eps-cm-regl-02",
-      "prerequisiteId": "fr-eps-ce2-regl-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Encourager, féliciter et jouer sans arbitre » (CE2)"
+      "de": "fr-eps-ce2-regl-02",
+      "vers": "fr-eps-cm-regl-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Encourager, féliciter et jouer sans arbitre » (CE2)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "eps-c2": "2026-10-23",
     "eps-c3": "2026-10-23"

@@ -1,264 +1,296 @@
 {
   "programme": "sciences-c3",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-sc-cm1-masv-01",
-      "prerequisiteId": "fr-ma-ce2-mas-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comparer et ranger des masses » (CE2)"
+      "de": "fr-ma-ce2-mas-02",
+      "vers": "fr-sc-cm1-masv-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comparer et ranger des masses » (CE2)"
     },
     {
-      "topicId": "fr-sc-cm1-masv-01",
-      "prerequisiteId": "fr-qm-c2-eau-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "A déjà comparé à la balance la masse d’une même quantité d’eau liquide et de glace"
+      "de": "fr-qm-c2-eau-01",
+      "vers": "fr-sc-cm1-masv-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "A déjà comparé à la balance la masse d’une même quantité d’eau liquide et de glace"
     },
     {
-      "topicId": "fr-sc-cm1-masv-02",
-      "prerequisiteId": "fr-ma-ce2-mas-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Lire et exprimer la masse mesurée en g ou en kg"
+      "de": "fr-ma-ce2-mas-01",
+      "vers": "fr-sc-cm1-masv-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Lire et exprimer la masse mesurée en g ou en kg"
     },
     {
-      "topicId": "fr-sc-cm1-mel-01",
-      "prerequisiteId": "fr-qm-ce2-etat-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les trois états de la matière : solide, liquide et gazeux » (CE2)"
+      "de": "fr-qm-ce2-etat-01",
+      "vers": "fr-sc-cm1-mel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les trois états de la matière : solide, liquide et gazeux » (CE2)"
     },
     {
-      "topicId": "fr-sc-cm1-mvt-01",
-      "prerequisiteId": "fr-ma-ce2-lon-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Exprimer la distance mesurée en m ou en cm et convertir"
+      "de": "fr-ma-ce2-lon-01",
+      "vers": "fr-sc-cm1-mvt-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Exprimer la distance mesurée en m ou en cm et convertir"
     },
     {
-      "topicId": "fr-sc-cm1-mvt-02",
-      "prerequisiteId": "fr-qm-c2-tps-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comparer, estimer et mesurer des durées » (Cycle 2)"
+      "de": "fr-qm-c2-tps-03",
+      "vers": "fr-sc-cm1-mvt-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comparer, estimer et mesurer des durées » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-mvt-02",
-      "prerequisiteId": "fr-ma-ce2-tps-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Calculer et comparer des durées, travaillé en mathématiques"
+      "de": "fr-ma-ce2-tps-03",
+      "vers": "fr-sc-cm1-mvt-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Calculer et comparer des durées, travaillé en mathématiques"
     },
     {
-      "topicId": "fr-sc-cm1-lum-05",
-      "prerequisiteId": "fr-qm-c2-glob-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La Terre dans l’univers : le Soleil, la Lune et les autres astres » (Cycle 2)"
+      "de": "fr-qm-c2-glob-04",
+      "vers": "fr-sc-cm1-lum-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La Terre dans l’univers : le Soleil, la Lune et les autres astres » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-lum-05",
-      "prerequisiteId": "fr-qm-cp-tps-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Reconnaître un cycle qui revient toujours dans le même ordre, comme les jours ou les saisons"
+      "de": "fr-qm-cp-tps-02",
+      "vers": "fr-sc-cm1-lum-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Reconnaître un cycle qui revient toujours dans le même ordre, comme les jours ou les saisons"
     },
     {
-      "topicId": "fr-sc-cm1-cla-01",
-      "prerequisiteId": "fr-qm-c2-viv-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Définir une espèce par la reproduction suppose de savoir que les êtres vivants se reproduisent"
+      "de": "fr-qm-c2-viv-03",
+      "vers": "fr-sc-cm1-cla-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Définir une espèce par la reproduction suppose de savoir que les êtres vivants se reproduisent"
     },
     {
-      "topicId": "fr-sc-cm1-cla-01",
-      "prerequisiteId": "fr-qm-c2-viv-06",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "S’appuie sur la diversité des êtres vivants observée dans un milieu"
+      "de": "fr-qm-c2-viv-06",
+      "vers": "fr-sc-cm1-cla-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "S’appuie sur la diversité des êtres vivants observée dans un milieu"
     },
     {
-      "topicId": "fr-sc-cm1-cla-02",
-      "prerequisiteId": "fr-qm-c2-viv-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Distinguer animal, végétal, minéral et ce qui est produit par le vivant » (Cycle 2)"
+      "de": "fr-qm-c2-viv-01",
+      "vers": "fr-sc-cm1-cla-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Distinguer animal, végétal, minéral et ce qui est produit par le vivant » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-cyc-01",
-      "prerequisiteId": "fr-qm-c2-viv-03",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que les étapes du cycle de vie, abordées aux cycles 1 et 2, sont approfondies au cycle 3 ; Prolonge « Le cycle de vie des êtres vivants » (Cycle 2)"
+      "de": "fr-qm-c2-viv-03",
+      "vers": "fr-sc-cm1-cyc-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que les étapes du cycle de vie, abordées aux cycles 1 et 2, sont approfondies au cycle 3 ; Prolonge « Le cycle de vie des êtres vivants » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-eco-01",
-      "prerequisiteId": "fr-qm-c2-viv-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La diversité des êtres vivants d’un milieu et leur interdépendance » (Cycle 2)"
+      "de": "fr-qm-c2-viv-06",
+      "vers": "fr-sc-cm1-eco-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La diversité des êtres vivants d’un milieu et leur interdépendance » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-eco-02",
-      "prerequisiteId": "fr-qm-c2-viv-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les relations alimentaires et les chaînes de prédation » (Cycle 2)"
+      "de": "fr-qm-c2-viv-07",
+      "vers": "fr-sc-cm1-eco-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les relations alimentaires et les chaînes de prédation » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-res-01",
-      "prerequisiteId": "fr-qm-c2-viv-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Ce que mangent quelques animaux : les régimes alimentaires » (Cycle 2)"
+      "de": "fr-qm-c2-viv-04",
+      "vers": "fr-sc-cm1-res-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Ce que mangent quelques animaux : les régimes alimentaires » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-res-02",
-      "prerequisiteId": "fr-qm-c2-viv-05",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les besoins vitaux des plantes » (Cycle 2)"
+      "de": "fr-qm-c2-viv-05",
+      "vers": "fr-sc-cm1-res-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les besoins vitaux des plantes » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-res-02",
-      "prerequisiteId": "fr-qm-c2-dem-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Mener l’expérience reprend les étapes de la démarche d’investigation (question, expérience, conclusion)"
+      "de": "fr-qm-c2-dem-01",
+      "vers": "fr-sc-cm1-res-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Mener l’expérience reprend les étapes de la démarche d’investigation (question, expérience, conclusion)"
     },
     {
-      "topicId": "fr-sc-cm1-res-03",
-      "prerequisiteId": "fr-qm-c2-viv-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les relations alimentaires et les chaînes de prédation » (Cycle 2)"
+      "de": "fr-qm-c2-viv-07",
+      "vers": "fr-sc-cm1-res-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les relations alimentaires et les chaînes de prédation » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-meteo-01",
-      "prerequisiteId": "fr-qm-c2-eau-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Reconnaître l’eau liquide et la glace dans la nature et la météo » (Cycle 2)"
+      "de": "fr-qm-c2-eau-02",
+      "vers": "fr-sc-cm1-meteo-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Reconnaître l’eau liquide et la glace dans la nature et la météo » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-meteo-01",
-      "prerequisiteId": "fr-qm-c2-meth-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Choisir l’instrument adapté et utiliser un thermomètre"
+      "de": "fr-qm-c2-meth-01",
+      "vers": "fr-sc-cm1-meteo-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Choisir l’instrument adapté et utiliser un thermomètre"
     },
     {
-      "topicId": "fr-sc-cm1-meteo-01",
-      "prerequisiteId": "fr-ma-ce2-don-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Noter les relevés dans un tableau"
+      "de": "fr-ma-ce2-don-01",
+      "vers": "fr-sc-cm1-meteo-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Noter les relevés dans un tableau"
     },
     {
-      "topicId": "fr-sc-cm1-meteo-02",
-      "prerequisiteId": "fr-qm-cp-tps-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Décrire les variations d’une saison à l’autre suppose de connaître les saisons"
+      "de": "fr-qm-cp-tps-02",
+      "vers": "fr-sc-cm1-meteo-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Décrire les variations d’une saison à l’autre suppose de connaître les saisons"
     },
     {
-      "topicId": "fr-sc-cm1-cerv-01",
-      "prerequisiteId": "fr-qm-c2-sante-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Le cerveau commande les muscles qui font bouger les os : s’appuie sur ce qui permet de bouger"
+      "de": "fr-qm-c2-sante-01",
+      "vers": "fr-sc-cm1-cerv-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Le cerveau commande les muscles qui font bouger les os : s’appuie sur ce qui permet de bouger"
     },
     {
-      "topicId": "fr-sc-cm1-pub-01",
-      "prerequisiteId": "fr-qm-c2-sante-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Mesurer et suivre sa croissance » (Cycle 2)"
+      "de": "fr-qm-c2-sante-02",
+      "vers": "fr-sc-cm1-pub-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Mesurer et suivre sa croissance » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-bes-01",
-      "prerequisiteId": "fr-qm-c2-obj-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que la relation besoin-objet technique vue au cycle 2 est revisitée au CM1 ; Prolonge « Dire à quoi sert un objet technique et comment l’utiliser » (Cycle 2)"
+      "de": "fr-qm-c2-obj-01",
+      "vers": "fr-sc-cm1-bes-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que la relation besoin-objet technique vue au cycle 2 est revisitée au CM1 ; Prolonge « Dire à quoi sert un objet technique et comment l’utiliser » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-bes-01",
-      "prerequisiteId": "fr-qm-ce2-long-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "S’appuie sur l’évolution des techniques à travers les époques vue au CE2"
+      "de": "fr-qm-ce2-long-01",
+      "vers": "fr-sc-cm1-bes-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "S’appuie sur l’évolution des techniques à travers les époques vue au CE2"
     },
     {
-      "topicId": "fr-sc-cm1-bes-02",
-      "prerequisiteId": "fr-qm-c2-obj-01",
-      "strength": "hard",
-      "origin": "texte",
-      "continuation": true,
-      "reason": "Le programme dit que la relation besoin-objet technique vue au cycle 2 est revisitée au CM1 ; Prolonge « Dire à quoi sert un objet technique et comment l’utiliser » (Cycle 2)"
+      "de": "fr-qm-c2-obj-01",
+      "vers": "fr-sc-cm1-bes-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "texte",
+      "continuite": true,
+      "raison": "Le programme dit que la relation besoin-objet technique vue au cycle 2 est revisitée au CM1 ; Prolonge « Dire à quoi sert un objet technique et comment l’utiliser » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-fonc-01",
-      "prerequisiteId": "fr-qm-c2-obj-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Démonter et tester un objet pour comprendre son fonctionnement » (Cycle 2)"
+      "de": "fr-qm-c2-obj-02",
+      "vers": "fr-sc-cm1-fonc-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Démonter et tester un objet pour comprendre son fonctionnement » (Cycle 2)"
     },
     {
-      "topicId": "fr-sc-cm1-prog-01",
-      "prerequisiteId": "fr-ma-ce1-esp-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "A déjà écrit et lu des suites d’instructions pour faire se déplacer un robot"
+      "de": "fr-ma-ce1-esp-04",
+      "vers": "fr-sc-cm1-prog-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "A déjà écrit et lu des suites d’instructions pour faire se déplacer un robot"
     },
     {
-      "topicId": "fr-sc-cm1-prog-01",
-      "prerequisiteId": "fr-qm-c2-esp-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Dire ce que fait le programme demande le vocabulaire du déplacement (avancer, tourner…)"
+      "de": "fr-qm-c2-esp-03",
+      "vers": "fr-sc-cm1-prog-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Dire ce que fait le programme demande le vocabulaire du déplacement (avancer, tourner…)"
     },
     {
-      "topicId": "fr-sc-cm1-prog-01",
-      "prerequisiteId": "fr-qm-c2-num-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Manipuler un logiciel à l’écran suppose une première familiarité avec les outils numériques"
+      "de": "fr-qm-c2-num-02",
+      "vers": "fr-sc-cm1-prog-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Manipuler un logiciel à l’écran suppose une première familiarité avec les outils numériques"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "maths-c2": "2026-10-22",
     "qlm-c2": "2026-10-23",

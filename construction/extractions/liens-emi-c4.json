@@ -1,216 +1,242 @@
 {
   "programme": "emi-c4",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-emi-c4-auto-01",
-      "prerequisiteId": "fr-fr-6e-enr-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Chercher une définition suppose de savoir quand et comment recourir au dictionnaire face à un mot inconnu (6e, français)"
+      "de": "fr-fr-6e-enr-02",
+      "vers": "fr-emi-c4-auto-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Chercher une définition suppose de savoir quand et comment recourir au dictionnaire face à un mot inconnu (6e, français)"
     },
     {
-      "topicId": "fr-emi-c4-auto-02",
-      "prerequisiteId": "fr-fr-6e-doc-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Relier les informations d’un document composite » (6e, français)"
+      "de": "fr-fr-6e-doc-04",
+      "vers": "fr-emi-c4-auto-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Relier les informations d’un document composite » (6e, français)"
     },
     {
-      "topicId": "fr-emi-c4-auto-05",
-      "prerequisiteId": "fr-fr-6e-ecou-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre une interview ou un reportage » (6e, français)"
+      "de": "fr-fr-6e-ecou-02",
+      "vers": "fr-emi-c4-auto-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre une interview ou un reportage » (6e, français)"
     },
     {
-      "topicId": "fr-emi-c4-auto-05",
-      "prerequisiteId": "fr-fr-6e-doc-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Lire des documents variés : images, tableaux, schémas, articles » (6e, français)"
+      "de": "fr-fr-6e-doc-02",
+      "vers": "fr-emi-c4-auto-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Lire des documents variés : images, tableaux, schémas, articles » (6e, français)"
     },
     {
-      "topicId": "fr-emi-c4-auto-06",
-      "prerequisiteId": "fr-fr-6e-doc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Choisir le bon type de ressource suppose d’identifier la nature d’un document (6e, français)"
+      "de": "fr-fr-6e-doc-01",
+      "vers": "fr-emi-c4-auto-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Choisir le bon type de ressource suppose d’identifier la nature d’un document (6e, français)"
     },
     {
-      "topicId": "fr-emi-c4-auto-08",
-      "prerequisiteId": "fr-fr-6e-doc-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Se repérer dans une page documentaire composite prépare au repérage dans l’organisation d’un livre ou d’un site (6e, français)"
+      "de": "fr-fr-6e-doc-04",
+      "vers": "fr-emi-c4-auto-08",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Se repérer dans une page documentaire composite prépare au repérage dans l’organisation d’un livre ou d’un site (6e, français)"
     },
     {
-      "topicId": "fr-emi-c4-auto-10",
-      "prerequisiteId": "fr-emc-cm1-civ-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Rechercher et produire de l’information en ligne » (CM1, EMC)"
+      "de": "fr-emc-cm1-civ-03",
+      "vers": "fr-emi-c4-auto-10",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Rechercher et produire de l’information en ligne » (CM1, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-auto-11",
-      "prerequisiteId": "fr-emc-cm1-civ-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Rechercher et produire de l’information en ligne » (CM1, EMC)"
+      "de": "fr-emc-cm1-civ-03",
+      "vers": "fr-emi-c4-auto-11",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Rechercher et produire de l’information en ligne » (CM1, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-rais-01",
-      "prerequisiteId": "fr-fr-6e-doc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Identifier la nature et la source d’un document » (6e, français)"
+      "de": "fr-fr-6e-doc-01",
+      "vers": "fr-emi-c4-rais-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Identifier la nature et la source d’un document » (6e, français)"
     },
     {
-      "topicId": "fr-emi-c4-rais-01",
-      "prerequisiteId": "fr-emc-cm1-civ-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Rechercher et produire de l’information en ligne » (CM1, EMC)"
+      "de": "fr-emc-cm1-civ-03",
+      "vers": "fr-emi-c4-rais-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Rechercher et produire de l’information en ligne » (CM1, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-rais-01",
-      "prerequisiteId": "fr-emc-cm2-lib-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Évaluer la fiabilité prend appui sur ce qu’est la désinformation et pourquoi une information vérifiée compte (CM2, EMC)"
+      "de": "fr-emc-cm2-lib-04",
+      "vers": "fr-emi-c4-rais-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Évaluer la fiabilité prend appui sur ce qu’est la désinformation et pourquoi une information vérifiée compte (CM2, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-rais-04",
-      "prerequisiteId": "fr-emc-cm2-drt-01",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Repérer l’image du monde que donnent les médias s’appuie sur les stéréotypes qu’ils peuvent renforcer (CM2, EMC)"
+      "de": "fr-emc-cm2-drt-01",
+      "vers": "fr-emi-c4-rais-04",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Repérer l’image du monde que donnent les médias s’appuie sur les stéréotypes qu’ils peuvent renforcer (CM2, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-rais-05",
-      "prerequisiteId": "fr-emc-cm2-lib-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Réfléchir à l’influence des médias sur la démocratie s’appuie sur le rôle d’une presse libre et d’une information vérifiée (CM2, EMC)"
+      "de": "fr-emc-cm2-lib-04",
+      "vers": "fr-emi-c4-rais-05",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Réfléchir à l’influence des médias sur la démocratie s’appuie sur le rôle d’une presse libre et d’une information vérifiée (CM2, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-resp-01",
-      "prerequisiteId": "fr-emc-6e-vpriv-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Protéger sa vie privée en ligne : données et traces numériques » (6e, EMC)"
+      "de": "fr-emc-6e-vpriv-03",
+      "vers": "fr-emi-c4-resp-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Protéger sa vie privée en ligne : données et traces numériques » (6e, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-resp-02",
-      "prerequisiteId": "fr-emc-6e-vpriv-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Savoir que chacun a droit au respect de sa vie privée » (6e, EMC)"
+      "de": "fr-emc-6e-vpriv-01",
+      "vers": "fr-emi-c4-resp-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Savoir que chacun a droit au respect de sa vie privée » (6e, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-resp-02",
-      "prerequisiteId": "fr-emc-6e-vpriv-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Savoir qu’une image publiée peut devenir publique s’appuie sur le droit de chacun sur son image (6e, EMC)"
+      "de": "fr-emc-6e-vpriv-02",
+      "vers": "fr-emi-c4-resp-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Savoir qu’une image publiée peut devenir publique s’appuie sur le droit de chacun sur son image (6e, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-resp-03",
-      "prerequisiteId": "fr-emc-cm2-lib-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre que les libertés s’exercent dans le cadre de la loi » (CM2, EMC)"
+      "de": "fr-emc-cm2-lib-03",
+      "vers": "fr-emi-c4-resp-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre que les libertés s’exercent dans le cadre de la loi » (CM2, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-resp-03",
-      "prerequisiteId": "fr-emc-6e-vpriv-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Les limites de la publication incluent le droit à l’intimité et à l’image d’autrui (6e, EMC)"
+      "de": "fr-emc-6e-vpriv-02",
+      "vers": "fr-emi-c4-resp-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Les limites de la publication incluent le droit à l’intimité et à l’image d’autrui (6e, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-resp-03",
-      "prerequisiteId": "fr-emc-6e-vpriv-04",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Les règles de publication sur les réseaux sociaux tiennent compte de la majorité numérique (6e, EMC)"
+      "de": "fr-emc-6e-vpriv-04",
+      "vers": "fr-emi-c4-resp-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Les règles de publication sur les réseaux sociaux tiennent compte de la majorité numérique (6e, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-resp-04",
-      "prerequisiteId": "fr-emc-cm2-lib-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre l’importance d’une information fiable » (CM2, EMC)"
+      "de": "fr-emc-cm2-lib-04",
+      "vers": "fr-emi-c4-resp-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre l’importance d’une information fiable » (CM2, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-prod-01",
-      "prerequisiteId": "fr-emc-cm1-civ-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Travailler à plusieurs en ligne suppose d’y appliquer les règles de comportement civique (CM1, EMC)"
+      "de": "fr-emc-cm1-civ-02",
+      "vers": "fr-emi-c4-prod-01",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Travailler à plusieurs en ligne suppose d’y appliquer les règles de comportement civique (CM1, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-prod-02",
-      "prerequisiteId": "fr-emc-cm1-civ-03",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Rechercher et produire de l’information en ligne » (CM1, EMC)"
+      "de": "fr-emc-cm1-civ-03",
+      "vers": "fr-emi-c4-prod-02",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Rechercher et produire de l’information en ligne » (CM1, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-prod-03",
-      "prerequisiteId": "fr-emc-6e-vpriv-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Publier dans le respect du droit suppose de respecter l’intimité et l’image des personnes (6e, EMC)"
+      "de": "fr-emc-6e-vpriv-02",
+      "vers": "fr-emi-c4-prod-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Publier dans le respect du droit suppose de respecter l’intimité et l’image des personnes (6e, EMC)"
     },
     {
-      "topicId": "fr-emi-c4-prod-05",
-      "prerequisiteId": "fr-fr-6e-doc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Citer correctement suppose d’identifier la source d’un document (6e, français)"
+      "de": "fr-fr-6e-doc-01",
+      "vers": "fr-emi-c4-prod-05",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Citer correctement suppose d’identifier la source d’un document (6e, français)"
     },
     {
-      "topicId": "fr-emi-c4-prod-06",
-      "prerequisiteId": "fr-fr-6e-refl-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Hiérarchiser des idées » (6e, français)"
+      "de": "fr-fr-6e-refl-04",
+      "vers": "fr-emi-c4-prod-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Hiérarchiser des idées » (6e, français)"
     },
     {
-      "topicId": "fr-emi-c4-prod-06",
-      "prerequisiteId": "fr-fr-6e-refl-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Structurer ses connaissances suppose de savoir rassembler l’essentiel en un écrit court (6e, français)"
+      "de": "fr-fr-6e-refl-01",
+      "vers": "fr-emi-c4-prod-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Structurer ses connaissances suppose de savoir rassembler l’essentiel en un écrit court (6e, français)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "emc": "2026-10-23",
     "emi-c4": "2026-10-23",

@@ -1,6 +1,6 @@
 # Notions par programme
 
-Vues lisibles générées automatiquement à partir de [notions.json](../notions.json) et [prerequis.json](../prerequis.json).
+Vues lisibles générées automatiquement à partir de [notions.json](../notions.json), [objectifs.json](../objectifs.json) et [liens.json](../liens.json).
 
 | Programme | Classes | Notions | Prérequis |
 |---|---|---:|---:|

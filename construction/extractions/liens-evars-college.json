@@ -1,176 +1,197 @@
 {
   "programme": "evars-college",
-  "prerequisites": [
+  "liens": [
     {
-      "topicId": "fr-evs-6e-corps-01",
-      "prerequisiteId": "fr-eva-cm2-corps-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Décrire et expliquer les changements du corps à la puberté » (CM2)"
+      "de": "fr-eva-cm2-corps-01",
+      "vers": "fr-evs-6e-corps-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Décrire et expliquer les changements du corps à la puberté » (CM2)"
     },
     {
-      "topicId": "fr-evs-6e-corps-01",
-      "prerequisiteId": "fr-eva-cm2-corps-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Décrire les changements biologiques de la puberté suppose de connaître les organes reproducteurs et leur fonction (CM2)"
+      "de": "fr-eva-cm2-corps-02",
+      "vers": "fr-evs-6e-corps-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Décrire les changements biologiques de la puberté suppose de connaître les organes reproducteurs et leur fonction (CM2)"
     },
     {
-      "topicId": "fr-evs-6e-corps-03",
-      "prerequisiteId": "fr-eva-cm2-corps-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre les règles, sans tabou ni moquerie » (CM2)"
+      "de": "fr-eva-cm2-corps-03",
+      "vers": "fr-evs-6e-corps-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre les règles, sans tabou ni moquerie » (CM2)"
     },
     {
-      "topicId": "fr-evs-6e-rel-01",
-      "prerequisiteId": "fr-eva-cm2-rel-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Différents types de relations affectives et façons d’exprimer son amour » (CM2)"
+      "de": "fr-eva-cm2-rel-01",
+      "vers": "fr-evs-6e-rel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Différents types de relations affectives et façons d’exprimer son amour » (CM2)"
     },
     {
-      "topicId": "fr-evs-6e-rel-01",
-      "prerequisiteId": "fr-eva-cm2-rel-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Caractériser une relation suppose de savoir nommer les sentiments qu’on y éprouve (CM2)"
+      "de": "fr-eva-cm2-rel-02",
+      "vers": "fr-evs-6e-rel-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Caractériser une relation suppose de savoir nommer les sentiments qu’on y éprouve (CM2)"
     },
     {
-      "topicId": "fr-evs-6e-rel-02",
-      "prerequisiteId": "fr-eva-cm1-soc-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Penser de façon critique et résister à la pression sociale » (CM1)"
+      "de": "fr-eva-cm1-soc-06",
+      "vers": "fr-evs-6e-rel-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Penser de façon critique et résister à la pression sociale » (CM1)"
     },
     {
-      "topicId": "fr-evs-6e-rel-03",
-      "prerequisiteId": "fr-eva-cm2-soc-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Comprendre la majorité numérique et son rôle de protection » (CM2)"
+      "de": "fr-eva-cm2-soc-01",
+      "vers": "fr-evs-6e-rel-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Comprendre la majorité numérique et son rôle de protection » (CM2)"
     },
     {
-      "topicId": "fr-evs-6e-rel-03",
-      "prerequisiteId": "fr-eva-cm2-soc-02",
-      "strength": "soft",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Savoir que faire en cas de cyberharcèlement s’appuie sur les réflexes de protection en ligne et l’adulte de confiance (CM2)"
+      "de": "fr-eva-cm2-soc-02",
+      "vers": "fr-evs-6e-rel-03",
+      "type": "prerequis",
+      "force": "utile",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Savoir que faire en cas de cyberharcèlement s’appuie sur les réflexes de protection en ligne et l’adulte de confiance (CM2)"
     },
     {
-      "topicId": "fr-evs-6e-rel-04",
-      "prerequisiteId": "fr-eva-cm1-rel-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Écouter les autres et faire preuve d’empathie » (CM1)"
+      "de": "fr-eva-cm1-rel-01",
+      "vers": "fr-evs-6e-rel-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Écouter les autres et faire preuve d’empathie » (CM1)"
     },
     {
-      "topicId": "fr-evs-6e-soc-01",
-      "prerequisiteId": "fr-eva-cm1-soc-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « L’influence des stéréotypes de genre sur la vie des personnes » (CM1)"
+      "de": "fr-eva-cm1-soc-02",
+      "vers": "fr-evs-6e-soc-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « L’influence des stéréotypes de genre sur la vie des personnes » (CM1)"
     },
     {
-      "topicId": "fr-evs-6e-soc-02",
-      "prerequisiteId": "fr-eva-cm1-corps-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les changements de la puberté sont normaux et se respectent » (CM1)"
+      "de": "fr-eva-cm1-corps-02",
+      "vers": "fr-evs-6e-soc-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les changements de la puberté sont normaux et se respectent » (CM1)"
     },
     {
-      "topicId": "fr-evs-6e-soc-03",
-      "prerequisiteId": "fr-eva-ce1-soc-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Développer des relations constructives : accepter, coopérer, s’entraider » (CE1)"
+      "de": "fr-eva-ce1-soc-04",
+      "vers": "fr-evs-6e-soc-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Développer des relations constructives : accepter, coopérer, s’entraider » (CE1)"
     },
     {
-      "topicId": "fr-evs-5e-corps-01",
-      "prerequisiteId": "fr-eva-cm1-soc-02",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Distinguer le genre du sexe et de l’orientation s’appuie sur l’analyse des stéréotypes et représentations liées au genre (CM1)"
+      "de": "fr-eva-cm1-soc-02",
+      "vers": "fr-evs-5e-corps-01",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Distinguer le genre du sexe et de l’orientation s’appuie sur l’analyse des stéréotypes et représentations liées au genre (CM1)"
     },
     {
-      "topicId": "fr-evs-5e-corps-04",
-      "prerequisiteId": "fr-eva-ce2-corps-01",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Apprécier son corps et en prendre soin » (CE2) : la santé physique, mentale et sociale"
+      "de": "fr-eva-ce2-corps-01",
+      "vers": "fr-evs-5e-corps-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Apprécier son corps et en prendre soin » (CE2) : la santé physique, mentale et sociale"
     },
     {
-      "topicId": "fr-evs-5e-rel-03",
-      "prerequisiteId": "fr-eva-cm2-rel-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Les victimes de violences sexuelles ne sont jamais responsables » (CM2)"
+      "de": "fr-eva-cm2-rel-06",
+      "vers": "fr-evs-5e-rel-03",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Les victimes de violences sexuelles ne sont jamais responsables » (CM2)"
     },
     {
-      "topicId": "fr-evs-5e-rel-04",
-      "prerequisiteId": "fr-eva-cm2-rel-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Demander, donner ou refuser son consentement, respecter le refus » (CM2)"
+      "de": "fr-eva-cm2-rel-04",
+      "vers": "fr-evs-5e-rel-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Demander, donner ou refuser son consentement, respecter le refus » (CM2)"
     },
     {
-      "topicId": "fr-evs-5e-rel-06",
-      "prerequisiteId": "fr-eva-cm2-soc-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Connaître les dangers d’Internet et des réseaux sociaux » (CM2)"
+      "de": "fr-eva-cm2-soc-03",
+      "vers": "fr-evs-5e-rel-06",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Connaître les dangers d’Internet et des réseaux sociaux » (CM2)"
     },
     {
-      "topicId": "fr-evs-5e-soc-02",
-      "prerequisiteId": "fr-eva-cm1-rel-04",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Définir et reconnaître le harcèlement et ses différentes formes » (CM1)"
+      "de": "fr-eva-cm1-rel-04",
+      "vers": "fr-evs-5e-soc-02",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Définir et reconnaître le harcèlement et ses différentes formes » (CM1)"
     },
     {
-      "topicId": "fr-evs-5e-soc-04",
-      "prerequisiteId": "fr-eva-cm1-rel-06",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « La victime n’est jamais responsable ; le témoin doit signaler » (CM1)"
+      "de": "fr-eva-cm1-rel-06",
+      "vers": "fr-evs-5e-soc-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « La victime n’est jamais responsable ; le témoin doit signaler » (CM1)"
     },
     {
-      "topicId": "fr-evs-5e-soc-04",
-      "prerequisiteId": "fr-eva-cm2-rel-07",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": false,
-      "reason": "Signaler les violences suppose de connaître les recours : adulte de confiance, 119, 3018 (CM2)"
+      "de": "fr-eva-cm2-rel-07",
+      "vers": "fr-evs-5e-soc-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": false,
+      "raison": "Signaler les violences suppose de connaître les recours : adulte de confiance, 119, 3018 (CM2)"
     },
     {
-      "topicId": "fr-evs-4e-corps-04",
-      "prerequisiteId": "fr-eva-cm2-rel-03",
-      "strength": "hard",
-      "origin": "déduit",
-      "continuation": true,
-      "reason": "Prolonge « Exprimer ses émotions avec des mots clairs et sans moquerie » (CM2)"
+      "de": "fr-eva-cm2-rel-03",
+      "vers": "fr-evs-4e-corps-04",
+      "type": "prerequis",
+      "force": "indispensable",
+      "origine": "déduit",
+      "continuite": true,
+      "raison": "Prolonge « Exprimer ses émotions avec des mots clairs et sans moquerie » (CM2)"
     }
   ],
-  "linkedAt": "2026-10-23",
+  "relieLe": "2026-10-23",
   "versionsCibles": {
     "evar-elem": "2026-10-23",
     "evars-college": "2026-10-23"
