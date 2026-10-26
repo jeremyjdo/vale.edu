@@ -25,7 +25,7 @@ vale.edu veut fournir cette base, ouverte et réutilisable :
 
 ## Consulter
 
-- **Le site** : en ligne sur **[vale-edu.vercel.app](https://vale-edu.vercel.app)**, ou en ouvrant [`site/index.html`](site/index.html) dans un navigateur (la page est autonome, sans serveur). Une carte montre toutes les notions, classe par classe et matière par matière. Un clic sur une notion trace tout ce qu'il faut savoir avant, et ouvre sa fiche : description, question à poser, critères de réussite, prérequis, texte officiel et lien vers la page du PDF.
+- **Le site** : en ligne sur **[vale-edu.vercel.app](https://vale-edu.vercel.app)**, ou en ouvrant [`site/index.html`](site/index.html) dans un navigateur (la page est autonome, sans serveur). Sur ordinateur, une carte montre toutes les notions, classe par classe et matière par matière ; un clic sur une notion trace tout ce qu'il faut savoir avant et ouvre sa fiche : description, question à poser, critères de réussite, prérequis, texte officiel et lien vers la page du PDF. Sur téléphone, on choisit une classe puis une matière. Recherche, choix des matières et des langues du collège, sources : tout est sur la même page.
 - **Les vues texte** : [`data/vues/`](data/vues/index.md), une page Markdown par programme.
 - **Les données** : [`data/`](data/) (programmes, objectifs officiels, notions et liens), décrites dans [`data/README.md`](data/README.md).
 
