@@ -566,7 +566,7 @@ function dessiner() {
   ctx.stroke(); ctx.setLineDash([]);
   ctx.globalAlpha = .38;
   ctx.beginPath();
-  for (const cy of D.cycles) { const x = Math.round(GAUCHE + cy.de * colW) + .5; ctx.moveTo(x, 4); ctx.lineTo(x, H); }
+  for (const cy of D.cycles) { if (!cy.de) continue; const x = Math.round(GAUCHE + cy.de * colW) + .5; ctx.moveTo(x, 4); ctx.lineTo(x, H); }
   ctx.stroke();
   ctx.globalAlpha = 1;
   ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
@@ -586,7 +586,8 @@ function dessiner() {
   });
   // Marge rouge
   ctx.strokeStyle = C.marge; ctx.lineWidth = 1.5;
-  ctx.beginPath(); ctx.moveTo(GAUCHE - 9, 0); ctx.lineTo(GAUCHE - 9, H); ctx.stroke();
+  // La marge rouge marque le début des classes (et remplace le trait du cycle 1)
+  ctx.beginPath(); ctx.moveTo(Math.round(GAUCHE) + .5, 0); ctx.lineTo(Math.round(GAUCHE) + .5, H); ctx.stroke();
   // Bandes
   ctx.lineWidth = 1; ctx.textAlign = 'left';
   for (const b of bandes) {
