@@ -218,12 +218,19 @@ bench/                       état des lieux des projets voisins
 
 ## Projets voisins
 
-- **[Marble, taxonomie ouverte](https://github.com/withmarbleapp/os-taxonomy)** : 1 930 notions du primaire et 4 102 prérequis, en anglais, alignés sur les programmes américains, britanniques, australiens et internationaux. Données sous ODbL, contenus sous CC BY-SA 4.0. vale.edu en reprend le principe, pas les données.
-- **[MathALÉA / Coopmaths](https://forge.apps.education.fr/coopmaths/mathalea)** (AGPL) : exercices de mathématiques générés aléatoirement, avec des référentiels JSON par niveau, surtout à partir du CM1.
-- **Adaptiv'Math et Mathia** (programme P2IA du ministère) : parcours adaptatifs de mathématiques pour le cycle 2, gratuits, ouverts par l'enseignant, données fermées.
-- **Ontologies des programmes scolaires** (data.gouv.fr) : OWL/RDF, surtout pour le secondaire et d'anciens programmes.
+Relevé du 26/10/2026 : aucun projet ouvert trouvé ne découpe les programmes français en notions reliées par des prérequis. Comparaison détaillée dans [`bench/`](bench/README.md).
 
-État des lieux plus complet, avec les projets d'enseignants de la Forge des communs numériques éducatifs et les graphes étrangers (relevé du 26/10/2026) : [`bench/`](bench/README.md).
+**En France**
+- **[Explorateurs de Programmes 2026](https://forge.apps.education.fr/chedotalnicole/explorateur-portail-programmes-de-la-ps-a-la-sixieme)** (GPL-3.0+) : les objectifs et exemples de réussite des programmes 2026, de la PS à la 6e, à chercher et copier pour préparer la classe. Pas de notions ni de prérequis.
+- **[Socle4](https://forge.apps.education.fr/glb/socle4)** : navigateur des compétences du cycle 4, toutes matières, avec un attendu par classe. Une hiérarchie, sans prérequis.
+- **[MathALÉA / Coopmaths](https://forge.apps.education.fr/coopmaths/mathalea)** et **[SACoche](https://forge.apps.education.fr/sesamath/sacoche)** (Sésamath), sous AGPL-3.0 : exercices de maths et évaluation par compétences. Ils pourraient rattacher leurs exercices et compétences aux identifiants `fr-…` des notions.
+- **Données publiques** : le [jeu de données des programmes du premier degré](https://data.education.gouv.fr/explore/dataset/fr-en-programmes-enseignement-premier-degre/) liste des liens vers les PDF, le plus récent pour la rentrée 2020 ; les [ontologies des programmes scolaires](https://www.data.gouv.fr/datasets/ontologies-descriptives-du-systeme-et-des-programmes-scolaires-francais) (OWL, surtout le lycée, usage non commercial) ne sont pas publiées par le ministère.
+- **Graphes non ouverts** : SmartEnseigno (maths du cycle 2, avec l'IREM de Grenoble) et Adaptiv'Math (programme P2IA) s'appuient sur des graphes de prérequis, sans en publier les données.
+
+**À l'étranger**
+- **[Marble](https://github.com/withmarbleapp/os-taxonomy)** : 1 930 notions du primaire et 4 102 prérequis, en anglais, alignés sur les programmes américains, britanniques, australiens et internationaux. ODbL et CC BY-SA 4.0. vale.edu en reprend le principe, pas les données.
+- **[Learning Commons Knowledge Graph](https://github.com/learning-commons-org/knowledge-graph)** : les standards des 50 États américains et des progressions d'apprentissage, en CSV et JSON. CC BY 4.0.
+- **[Oak National Academy](https://open-api.thenational.academy/)** : le programme national britannique en API ouverte, unités et leçons. Open Government Licence.
 
 ## Licences
 
