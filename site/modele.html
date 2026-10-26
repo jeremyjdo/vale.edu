@@ -78,14 +78,23 @@ h1 .point { color: var(--marge); }
 .champ svg { flex: none; color: var(--encre-3); }
 .champ-recherche { flex: 0 1 230px; min-width: 170px; }
 kbd { font: 500 11px/1 var(--police-mono); color: var(--encre-3); border: 1px solid var(--filet); border-radius: 5px; padding: 3px 5px; }
-.legende { display: flex; flex-wrap: wrap; align-items: center; gap: 0 14px; }
-.puce { display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0; cursor: pointer;
+.filtre { position: relative; }
+.bouton-filtre { display: inline-flex; align-items: center; gap: 6px; height: 30px; padding-inline: 12px 10px; cursor: pointer;
+  background: var(--surface); border: 1px solid var(--filet); border-radius: 999px; font-size: 12.5px; font-weight: 600; color: var(--encre-2); }
+.bouton-filtre:hover, .bouton-filtre[aria-expanded="true"] { color: var(--encre); border-color: var(--ligne-forte); }
+.menu-filtre { position: absolute; z-index: 10; top: calc(100% + 6px); left: 0; width: 270px; padding: 6px; display: grid; gap: 4px;
+  background: var(--surface); border: 1px solid var(--filet); border-radius: 12px; box-shadow: 0 12px 30px rgb(0 0 0 / .25); }
+.legende { display: grid; }
+.menu-pied { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px; padding: 8px 8px 4px; border-top: 1px solid var(--filet); }
+.lien-menu { padding: 0; cursor: pointer; background: none; border: 0; font-size: 12px; font-weight: 600; color: var(--stylo); }
+.puce .n { margin-left: auto; font: 400 11.5px var(--police-mono); color: var(--encre-3); font-variant-numeric: tabular-nums; }
+.puce { display: flex; align-items: center; gap: 8px; width: 100%; height: 30px; padding: 0 8px; border-radius: 8px; cursor: pointer;
   background: none; border: 0; font-size: 12.5px; font-weight: 600; color: var(--encre-2); }
-.puce:hover { color: var(--encre); }
+.puce:hover { color: var(--encre); background: var(--survol); }
 .puce[aria-pressed="false"] { color: var(--encre-3); opacity: .6; }
 .puce[aria-pressed="false"] .pastille { background: transparent; box-shadow: inset 0 0 0 1.5px var(--c); }
 .pastille { width: 9px; height: 9px; flex: none; border-radius: 50%; background: var(--c); }
-.choix-langue { display: inline-flex; align-items: center; gap: 4px; margin-left: auto; font-size: 12.5px; color: var(--encre-3); }
+.choix-langue { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; color: var(--encre-3); }
 select { height: 26px; padding-inline: 2px; font: inherit; font-size: 12.5px; font-weight: 600; color: var(--encre-2);
   background: transparent; border: 0; border-radius: 6px; cursor: pointer; }
 select:hover { color: var(--encre); }
@@ -237,8 +246,16 @@ td .pastille { display: inline-block; margin-right: 7px; }
         <input id="recherche" type="search" placeholder="Rechercher une notion" autocomplete="off" spellcheck="false">
         <kbd>/</kbd>
       </label>
-      <div class="legende" id="legende"></div>
-      <label class="choix-langue" for="langue" title="Langue vivante étudiée au collège">Langue <select id="langue"></select></label>
+      <div class="filtre" id="filtre">
+        <button type="button" class="bouton-filtre" id="bouton-filtre" aria-expanded="false" aria-controls="menu-filtre"><span>Toutes les matières</span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+        <div class="menu-filtre" id="menu-filtre" hidden>
+          <div class="legende" id="legende"></div>
+          <div class="menu-pied">
+            <button type="button" class="lien-menu" id="tout-afficher">Tout afficher</button>
+            <label class="choix-langue" for="langue">Langue au collège <select id="langue"></select></label>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="cadre">
       <div class="carte-defile" id="carte-defile">
@@ -659,9 +676,22 @@ canvas.addEventListener('click', ev => {
 });
 
 /* ---------- Légende et filtres ---------- */
+// Menu des matières : une ligne par matière, à cocher, avec son nombre de notions
+const boutonFiltre = $('#bouton-filtre'), menuFiltre = $('#menu-filtre');
 function legende() {
-  $('#legende').innerHTML = FAM.map((f, fi) => `<button type="button" class="puce" data-fam="${fi}" aria-pressed="${!etat.masquees.has(fi)}" title="${esc(f.nom)} : afficher ou masquer">${pastille(fi)}${esc(f.court)}</button>`).join('');
+  const compte = FAM.map(() => 0);
+  for (const n of N) if (bonneLangue(n)) compte[n.fam]++;
+  $('#legende').innerHTML = FAM.map((f, fi) => `<button type="button" class="puce" data-fam="${fi}" aria-pressed="${!etat.masquees.has(fi)}" title="${esc(f.nom)} : afficher ou masquer">${pastille(fi)}${esc(f.court)}<span class="n">${nf.format(compte[fi])}</span></button>`).join('');
+  const vues = FAM.map((f, fi) => fi).filter(fi => !etat.masquees.has(fi));
+  boutonFiltre.firstElementChild.textContent = vues.length === FAM.length ? 'Toutes les matières'
+    : vues.length === 1 ? FAM[vues[0]].court : vues.length ? `${vues.length} matières sur ${FAM.length}` : 'Aucune matière';
 }
+const ouvrirMenu = ouvert => { menuFiltre.hidden = !ouvert; boutonFiltre.setAttribute('aria-expanded', String(ouvert)); };
+boutonFiltre.addEventListener('click', () => ouvrirMenu(menuFiltre.hidden));
+// composedPath : la ligne cliquée est redessinée entre-temps, son ancêtre #filtre reste dans le chemin
+const filtre = $('#filtre');
+document.addEventListener('click', ev => { if (!menuFiltre.hidden && !ev.composedPath().includes(filtre)) ouvrirMenu(false); });
+$('#tout-afficher').addEventListener('click', () => { etat.masquees.clear(); legende(); disposer(); });
 const choixLangue = $('#langue');
 if (familleChoix >= 0) {
   choixLangue.innerHTML = FAM[familleChoix].choix.map(l => `<option>${esc(l)}</option>`).join('') + '<option value="toutes">Toutes</option>';
@@ -892,6 +922,7 @@ recherche.addEventListener('input', () => {
 recherche.addEventListener('keydown', ev => { if (ev.key === 'Escape') { recherche.value = ''; recherche.dispatchEvent(new Event('input')); } });
 document.addEventListener('keydown', ev => {
   if (ev.key === '/' && !/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName)) { ev.preventDefault(); recherche.focus(); }
+  if (ev.key === 'Escape' && !menuFiltre.hidden) { ouvrirMenu(false); boutonFiltre.focus(); return; }
   if (ev.key === 'Escape' && !panneau.hidden && !$('#fenetre-sources').open && document.activeElement !== recherche) fermerFiche();
 });
 
