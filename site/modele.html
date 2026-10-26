@@ -119,6 +119,13 @@ select:hover { color: var(--encre); }
   overflow: auto; overscroll-behavior: contain; padding: 18px 18px 22px; background: var(--surface);
   border: 1px solid var(--filet); border-radius: 14px; box-shadow: 0 14px 36px rgb(0 0 0 / .24); }
 .panneau.a-gauche { right: auto; left: 140px; }
+.poignee { display: none; }
+.entete-colonnes { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; height: 40px; margin-bottom: -40px;
+  background: var(--papier); border-bottom: 1px solid var(--filet); border-radius: 12px 12px 0 0; }
+.entete-colonnes button { position: absolute; top: 0; height: 40px; display: grid; justify-items: center; align-content: center; gap: 4px;
+  padding: 0; cursor: pointer; background: none; border: 0; font: 700 10.5px/1 var(--police); color: var(--encre); }
+.entete-colonnes button.actif { color: var(--stylo); }
+.entete-colonnes .pastille { width: 8px; height: 8px; }
 .fermer-fiche { position: sticky; top: 0; float: right; z-index: 1; margin: -6px -6px 4px 10px; background: var(--surface); user-select: none; }
 #contenu { display: grid; gap: 18px; }
 #contenu > * { margin: 0; min-width: 0; }
@@ -203,10 +210,15 @@ td .pastille { display: inline-block; margin-right: 7px; }
 @media (max-width: 1080px) {
   .libre-bloc { justify-items: start; }
   /* Sur mobile, la fiche est une vraie fenêtre qui monte du bas de l'écran, au-dessus d'un voile */
-  .panneau, .panneau.a-gauche { position: fixed; z-index: 20; inset: auto 0 0 0; width: auto; max-height: 86vh;
+  /* Réduite, la fiche laisse voir la carte et la chaîne au-dessus ; la poignée l'agrandit */
+  .panneau, .panneau.a-gauche { position: fixed; z-index: 20; inset: auto 0 0 0; width: auto; max-height: 42vh;
     border-radius: 16px 16px 0 0; border-bottom: 0; box-shadow: 0 -14px 40px rgb(0 0 0 / .3);
     padding: 18px max(18px, env(safe-area-inset-right, 0px)) calc(24px + env(safe-area-inset-bottom, 0px)) max(18px, env(safe-area-inset-left, 0px));
     animation: monte .22s ease-out; }
+  .panneau.etendue { max-height: 88vh; }
+  .poignee { display: block; position: sticky; top: -18px; z-index: 2; width: calc(100% + 36px); height: 22px; margin: -18px -18px 0;
+    cursor: pointer; background: var(--surface); border: 0; border-radius: 16px 16px 0 0; }
+  .poignee::after { content: ""; display: block; width: 40px; height: 4px; margin: 6px auto 0; border-radius: 2px; background: var(--ligne-forte); }
   .voile { position: fixed; z-index: 19; inset: 0; background: rgb(12 16 26 / .45); }
   html.fiche-ouverte, html.fiche-ouverte body { overflow: hidden; }
 }
@@ -228,7 +240,7 @@ td .pastille { display: inline-block; margin-right: 7px; }
   .astuce-carte { display: none; }
   .barre { gap: 8px; }
   .champ-recherche { flex: 1 1 100%; height: 38px; }
-  .carte-defile { overflow-x: hidden; }
+  .carte-defile { overflow: visible; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } .fenetre[open] { animation: none; } }
 </style>
@@ -267,11 +279,13 @@ td .pastille { display: inline-block; margin-right: 7px; }
     </div>
     <div class="cadre">
       <div class="carte-defile" id="carte-defile">
+        <div class="entete-colonnes" id="entete-colonnes" hidden></div>
         <canvas id="carte" role="img" aria-label="Carte des notions, classes en colonnes et matières en lignes. La recherche donne les mêmes notions sous forme de liste."></canvas>
         <div class="bulle" id="bulle" hidden></div>
       </div>
       <div class="voile" id="voile" hidden></div>
       <aside class="panneau" id="panneau" aria-label="Fiche" hidden>
+        <button type="button" class="poignee" id="poignee" aria-label="Agrandir la fiche" aria-expanded="false"></button>
         <button type="button" class="fermer fermer-fiche" id="fermer-fiche" aria-label="Fermer la fiche">×</button>
         <div id="contenu" aria-live="polite"></div>
       </aside>
@@ -403,7 +417,7 @@ let compact = false;
 const pleinEcran = matchMedia('(min-width: 1081px)');
 // Sur téléphone, la carte pivote : les classes de haut en bas, une colonne par matière
 const enColonne = matchMedia('(max-width: 700px)');
-const MARGE_V = 46, HAUT_V = 40;
+const MARGE_V = 46, HAUT_V = 40, enteteColonnes = $('#entete-colonnes');
 const ABR = { 'Français': 'Fr', 'Mathématiques': 'Ma', 'Sciences': 'Sc', 'Histoire-géo': 'HG', 'Langues vivantes': 'LV',
   'Moral et civique': 'Civ', 'Vie affective': 'VA', 'Arts': 'Art', 'EPS': 'EPS', 'Médias': 'Méd' };
 let vertical = false, colonnes = [], rangees = [];
@@ -528,6 +542,8 @@ function disposerVertical() {
     rangees.push({ ...l, y0: y, y1: y + h });
     y += h;
   }
+  enteteColonnes.innerHTML = colonnes.map(c => `<button type="button" data-fam="${c.fi}" style="left:${c.x0}px;width:${c.x1 - c.x0}px" title="${esc(FAM[c.fi].nom)} : la liste, classe par classe">${pastille(c.fi)}${esc(ABR[FAM[c.fi].court] || FAM[c.fi].court.slice(0, 3))}</button>`).join('');
+  enteteColonnes.hidden = false;
   P = p; R = Math.max(1.7, p * .38); HAUT = HAUT_V; H = y + 6;
   dpr = Math.min(window.devicePixelRatio || 1, 2);
   canvas.width = Math.round(W * dpr);
@@ -548,14 +564,8 @@ function fondVertical(ctx) {
   ctx.beginPath();
   colonnes.slice(1).forEach(c => { const x = Math.round(c.x0) + .5; ctx.moveTo(x, 6); ctx.lineTo(x, H); });
   ctx.stroke(); ctx.setLineDash([]); ctx.globalAlpha = 1;
-  ctx.textAlign = 'center';
   const ca = etat.caseActive;
-  for (const c of colonnes) {
-    const xc = (c.x0 + c.x1) / 2, actif = ca && ca.fi === c.fi && ca.c == null;
-    ctx.fillStyle = C.fam[c.fi]; ctx.beginPath(); ctx.arc(xc, 12, 4, 0, 7); ctx.fill();
-    ctx.fillStyle = actif ? C.stylo : C.encre; ctx.font = police(700, 10.5);
-    ctx.fillText(ABR[FAM[c.fi].court] || FAM[c.fi].court.slice(0, 3), xc, 31);
-  }
+  enteteColonnes.querySelectorAll('button').forEach(b => b.classList.toggle('actif', !!ca && ca.c == null && ca.fi === +b.dataset.fam));
   // Rangées : une classe, ou les notions valables sur plusieurs classes
   ctx.textAlign = 'left';
   const debutsCycle = new Set(D.cycles.map(cy => cy.de));
@@ -595,6 +605,7 @@ function fondVertical(ctx) {
 function disposer() {
   vertical = enColonne.matches;
   if (vertical) return disposerVertical();
+  enteteColonnes.hidden = true;
   W = Math.max(defile.clientWidth, LARGEUR_MIN);
   colW = (W - GAUCHE - DROITE) / NIV.length;
   N.forEach(n => { n.vis = false; });
@@ -822,9 +833,15 @@ canvas.addEventListener('pointermove', ev => {
   } else bulle.hidden = true;
 });
 canvas.addEventListener('pointerleave', () => { bulle.hidden = true; if (etat.survol) { etat.survol = null; dessiner(); } });
+enteteColonnes.addEventListener('click', ev => {
+  const b = ev.target.closest('[data-fam]');
+  if (b) afficher({ t: 'liste', fi: +b.dataset.fam, c: null });
+});
 canvas.addEventListener('click', ev => {
   const p = sousLePointeur(ev);
   bulle.hidden = true;
+  // Depuis la carte, la fiche s'ouvre réduite : la chaîne reste visible au-dessus
+  panneau.classList.remove('etendue');
   if (p.point) afficher({ t: 'notion', n: p.point });
   else if (p.nom) afficher({ t: 'liste', fi: p.bande.fi, c: null });
   else if (p.entete) afficher({ t: 'liste', fi: null, c: p.c });
@@ -1048,12 +1065,14 @@ function ouvrirFiche() {
   panneau.hidden = false;
   majVoile();
   panneau.scrollTop = 0;
+  requestAnimationFrame(montrerSelection);
 }
 function fermerFiche() {
   etat.vue = null; etat.pile = [];
   etat.sel = null; etat.resultats = null; etat.caseActive = null;
   etat.anc = new Set(); etat.desc = new Set(); etat.directs = new Set();
   panneau.hidden = true;
+  panneau.classList.remove('etendue');
   majVoile();
   try { history.replaceState(null, '', location.pathname + location.search); } catch {}
   dessiner();
@@ -1062,11 +1081,20 @@ $('#fermer-fiche').addEventListener('click', fermerFiche);
 // Sur mobile, la fiche ouverte bloque la page derrière un voile ; un tap sur le voile la ferme
 const voile = $('#voile');
 function majVoile() {
-  const modale = !panneau.hidden && !pleinEcran.matches;
+  const modale = !panneau.hidden && !pleinEcran.matches && panneau.classList.contains('etendue');
+  $('#poignee').setAttribute('aria-expanded', String(panneau.classList.contains('etendue')));
   voile.hidden = !modale;
   document.documentElement.classList.toggle('fiche-ouverte', modale);
 }
 voile.addEventListener('click', fermerFiche);
+$('#poignee').addEventListener('click', () => { panneau.classList.toggle('etendue'); majVoile(); });
+// Sur téléphone, fait défiler la page pour que la notion choisie soit juste au-dessus de la fiche,
+// et sa chaîne de prérequis au-dessus d'elle
+function montrerSelection() {
+  if (!vertical || !etat.sel || !etat.sel.vis || panneau.hidden) return;
+  const y = canvas.getBoundingClientRect().top + etat.sel.y, cible = panneau.getBoundingClientRect().top - 36;
+  if (y > cible || y < 60) window.scrollBy({ top: y - cible, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+}
 pleinEcran.addEventListener?.('change', majVoile);
 
 contenu.addEventListener('click', ev => {

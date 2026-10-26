@@ -123,7 +123,7 @@ Un lien :
 }
 ```
 
-La notion `de` est un prérequis de la notion `vers`. `force` vaut `indispensable` ou `utile`. `origine` vaut `texte` quand le programme écrit lui-même le lien (492 liens), `déduit` sinon (7 510 liens). Le format complet est décrit dans [`data/README.md`](data/README.md#format).
+La notion `de` est un prérequis de la notion `vers`. `force` vaut `indispensable` ou `utile`. `origine` vaut `texte` quand le programme écrit lui-même le lien (494 liens), `déduit` sinon (7 548 liens). Le format complet est décrit dans [`data/README.md`](data/README.md#format).
 
 Exemple en Python : tout ce qu'il faut savoir avant une notion.
 
@@ -163,7 +163,7 @@ for i in sorted(chaine("fr-ma-ce1-fra-07"), key=rang):
 ## Limites
 
 - **Seul le texte officiel fait foi.** Les descriptions, questions et critères sont des reformulations, à vérifier avant tout usage pédagogique.
-- **La base n'a pas encore été relue en entier par des enseignants.** Les points à relire sont listés dans [`construction/README.md`](construction/README.md#à-relire), en particulier les 7 510 liens déduits.
+- **La base n'a pas encore été relue en entier par des enseignants.** Les points à relire sont listés dans [`construction/README.md`](construction/README.md#à-relire), en particulier les 7 548 liens déduits.
 - Programmes non couverts : langues et cultures de l'Antiquité, langues régionales et langues autres que les quatre principales au collège, lycée.
 
 ## Pistes
@@ -242,4 +242,4 @@ vale.edu est un projet indépendant, sans lien avec le ministère de l'Éducatio
 
 ## In English
 
-vale.edu is an open dataset of the French national curriculum, from age 3 (petite section) to age 15 (3e): 5,604 learning concepts taken from 43 official programmes, linked by 8,002 prerequisite relations, each with its reason. Official objectives are kept verbatim, with the page of the source PDF, and each concept points to the objectives it comes from. It is inspired by [Marble's open taxonomy](https://github.com/withmarbleapp/os-taxonomy) and extends the idea to lower secondary school. Content and field names are in French. Data: Licence Ouverte 2.0 (compatible with CC BY 4.0). Code: MIT.
+vale.edu is an open dataset of the French national curriculum, from age 3 (petite section) to age 15 (3e): 5,604 learning concepts taken from 43 official programmes, linked by 8,042 prerequisite relations, each with its reason. Official objectives are kept verbatim, with the page of the source PDF, and each concept points to the objectives it comes from. It is inspired by [Marble's open taxonomy](https://github.com/withmarbleapp/os-taxonomy) and extends the idea to lower secondary school. Content and field names are in French. Data: Licence Ouverte 2.0 (compatible with CC BY 4.0). Code: MIT.

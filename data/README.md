@@ -64,7 +64,7 @@ On distingue ce que dit le texte officiel (les **objectifs**, cités mot pour mo
 |---|---|
 | `type` | `prerequis` (seul type pour l'instant) |
 | `force` | `indispensable`, ou `utile` si la notion aide sans être nécessaire |
-| `origine` | `texte` si le programme le dit explicitement (492 liens), `déduit` sinon (7 510 liens, à relire) |
+| `origine` | `texte` si le programme le dit explicitement (494 liens), `déduit` sinon (7 548 liens, à relire) |
 | `continuite` | Liens entre classes : `true` quand c'est le même savoir-faire l'année d'avant |
 | `raison` | Une phrase d'explication |
 
