@@ -190,8 +190,15 @@ td .pastille { display: inline-block; margin-right: 7px; }
 @media (max-width: 1080px) {
   .libre-ligne { justify-content: flex-start; }
   .choix-langue { margin-left: 0; }
-  .panneau { position: static; width: auto; max-height: none; margin-top: 12px; box-shadow: none; }
+  /* Sur mobile, la fiche est une vraie fenêtre qui monte du bas de l'écran, au-dessus d'un voile */
+  .panneau, .panneau.a-gauche { position: fixed; z-index: 20; inset: auto 0 0 0; width: auto; max-height: 86vh;
+    border-radius: 16px 16px 0 0; border-bottom: 0; box-shadow: 0 -14px 40px rgb(0 0 0 / .3);
+    padding: 18px max(18px, env(safe-area-inset-right, 0px)) calc(24px + env(safe-area-inset-bottom, 0px)) max(18px, env(safe-area-inset-left, 0px));
+    animation: monte .22s ease-out; }
+  .voile { position: fixed; z-index: 19; inset: 0; background: rgb(12 16 26 / .45); }
+  html.fiche-ouverte, html.fiche-ouverte body { overflow: hidden; }
 }
+@media (min-width: 1081px) { .voile { display: none; } }
 /* Sur un écran large, la page tient dans la fenêtre : la carte prend toute la place restante */
 @media (min-width: 1081px) {
   html, body { height: 100%; }
@@ -238,6 +245,7 @@ td .pastille { display: inline-block; margin-right: 7px; }
         <canvas id="carte" role="img" aria-label="Carte des notions, classes en colonnes et matières en lignes. La recherche donne les mêmes notions sous forme de liste."></canvas>
         <div class="bulle" id="bulle" hidden></div>
       </div>
+      <div class="voile" id="voile" hidden></div>
       <aside class="panneau" id="panneau" aria-label="Fiche" hidden>
         <button type="button" class="fermer fermer-fiche" id="fermer-fiche" aria-label="Fermer la fiche">×</button>
         <div id="contenu" aria-live="polite"></div>
@@ -648,7 +656,6 @@ canvas.addEventListener('click', ev => {
   else if (p.entete) afficher({ t: 'liste', fi: null, c: p.c });
   else if (p.bande && p.c >= 0) afficher({ t: 'liste', fi: p.bande.fi, c: p.c });
   else return;
-  if (matchMedia('(max-width: 1080px)').matches) $('#panneau').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
 });
 
 /* ---------- Légende et filtres ---------- */
@@ -830,6 +837,7 @@ function ouvrirFiche() {
   else if (etat.caseActive) x = GAUCHE + (etat.caseActive.c + .5) * colW;
   panneau.classList.toggle('a-gauche', x > W / 2);
   panneau.hidden = false;
+  majVoile();
   panneau.scrollTop = 0;
 }
 function fermerFiche() {
@@ -837,10 +845,20 @@ function fermerFiche() {
   etat.sel = null; etat.resultats = null; etat.caseActive = null;
   etat.anc = new Set(); etat.desc = new Set(); etat.directs = new Set();
   panneau.hidden = true;
+  majVoile();
   try { history.replaceState(null, '', location.pathname + location.search); } catch {}
   dessiner();
 }
 $('#fermer-fiche').addEventListener('click', fermerFiche);
+// Sur mobile, la fiche ouverte bloque la page derrière un voile ; un tap sur le voile la ferme
+const voile = $('#voile');
+function majVoile() {
+  const modale = !panneau.hidden && !pleinEcran.matches;
+  voile.hidden = !modale;
+  document.documentElement.classList.toggle('fiche-ouverte', modale);
+}
+voile.addEventListener('click', fermerFiche);
+pleinEcran.addEventListener?.('change', majVoile);
 
 contenu.addEventListener('click', ev => {
   const n = ev.target.closest('[data-i]');
