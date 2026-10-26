@@ -1,0 +1,6 @@
+# Vercel ne publie que l'atlas (site/index.html), déjà généré par construction/outils/assembler.py
+/*
+!/site
+!/vercel.json
+/site/modele.html
+/site/README.md

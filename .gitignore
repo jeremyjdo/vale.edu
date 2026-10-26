@@ -6,3 +6,4 @@ __pycache__/
 !/.claude/skills/
 # Clone de la taxonomie Marble, à récupérer sur https://github.com/withmarbleapp/os-taxonomy
 /construction/marble-os-taxonomy/
+.vercel
