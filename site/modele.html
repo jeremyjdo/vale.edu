@@ -105,7 +105,7 @@ select { height: 28px; padding-inline: 8px; font: inherit; font-size: 12.5px; co
   overflow: auto; overscroll-behavior: contain; padding: 18px 18px 22px; background: var(--surface);
   border: 1px solid var(--filet); border-radius: 14px; box-shadow: 0 14px 36px rgb(0 0 0 / .24); }
 .panneau.a-gauche { right: auto; left: 140px; }
-.fermer-fiche { position: sticky; top: 0; float: right; z-index: 1; margin: -6px -6px 4px 10px; background: var(--surface); }
+.fermer-fiche { position: sticky; top: 0; float: right; z-index: 1; margin: -6px -6px 4px 10px; background: var(--surface); user-select: none; }
 #contenu { display: grid; gap: 18px; }
 #contenu > * { margin: 0; min-width: 0; }
 .sur-titre { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; font-size: var(--t-s); color: var(--encre-2); }
@@ -822,14 +822,12 @@ function afficher(vue, pousser = true) {
 }
 
 const panneau = $('#panneau');
-// Place la fiche du côté opposé aux points mis en valeur, pour ne pas cacher la chaîne
+// Place la fiche du côté opposé à la notion ou à la classe choisie, pour ne pas la cacher
 function ouvrirFiche() {
   let x = W * .25;
-  if (etat.sel) {
-    const pts = [etat.sel, ...etat.anc, ...etat.directs].filter(n => n.vis);
-    x = pts.reduce((s, n) => s + n.x, 0) / Math.max(1, pts.length);
-  } else if (etat.caseActive) x = GAUCHE + (etat.caseActive.c + .5) * colW;
-  panneau.classList.toggle('a-gauche', x > W * .55);
+  if (etat.sel && etat.sel.vis) x = etat.sel.x;
+  else if (etat.caseActive) x = GAUCHE + (etat.caseActive.c + .5) * colW;
+  panneau.classList.toggle('a-gauche', x > W / 2);
   panneau.hidden = false;
   panneau.scrollTop = 0;
 }
