@@ -6,7 +6,7 @@ Aucun n'est en français ni aligné sur les programmes français. Ils servent de
 
 ### Marble Skill Taxonomy (`withmarbleapp/os-taxonomy`)
 
-- **Quoi** : la référence dont vale.edu reprend le principe et les noms de champs. Micro-notions du primaire reliées par un graphe de prérequis `hard`/`soft` avec une raison, critères de maîtrise, alignement sur les standards, pistes pédagogiques.
+- **Quoi** : la référence dont vale.curriculum reprend le principe et les noms de champs. Micro-notions du primaire reliées par un graphe de prérequis `hard`/`soft` avec une raison, critères de maîtrise, alignement sur les standards, pistes pédagogiques.
 - **Taille** : 1 930 notions et 4 102 prérequis dans la version clonée le 22/10/2026 (1 590 et 3 221 à la première version, le 08/07/2026).
 - **Périmètre** : programmes des États-Unis, du Royaume-Uni, d'Australie et internationaux, en anglais.
 - **Licence** : ODbL 1.0 pour la base, CC BY-SA 4.0 pour les textes.

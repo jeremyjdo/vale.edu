@@ -1,8 +1,8 @@
-# vale.edu
+# vale.curriculum
 
 **Tout ce qu'on apprend à l'école en France, de la petite section à la 3e, découpé en notions et relié par les prérequis.**
 
-vale.edu est une base de données ouverte des programmes scolaires français. Chaque objectif des programmes officiels devient une notion : ce qu'elle veut dire, comment savoir si elle est acquise, et ce qu'il faut savoir avant. Chaque notion renvoie au texte officiel, à la page près.
+vale.curriculum est une base de données ouverte des programmes scolaires français. Chaque objectif des programmes officiels devient une notion : ce qu'elle veut dire, comment savoir si elle est acquise, et ce qu'il faut savoir avant. Chaque notion renvoie au texte officiel, à la page près.
 
 | | |
 |---|---|
@@ -11,13 +11,13 @@ vale.edu est une base de données ouverte des programmes scolaires français. Ch
 | Liens de prérequis | 8 002, chacun avec sa raison |
 | Matières | français, mathématiques, sciences, histoire-géographie, langues vivantes, EMC, vie affective et relationnelle, arts, EPS, éducation aux médias |
 
-Le projet s'inspire de la [taxonomie ouverte de Marble](https://github.com/withmarbleapp/os-taxonomy), construite à partir des programmes américains et britanniques du primaire. vale.edu en reprend le principe et le format pour les programmes français, et l'étend au collège.
+Le projet s'inspire de la [taxonomie ouverte de Marble](https://github.com/withmarbleapp/os-taxonomy), construite à partir des programmes américains et britanniques du primaire. vale.curriculum en reprend le principe et le format pour les programmes français, et l'étend au collège.
 
 ## Pourquoi
 
 Les programmes officiels disent ce qu'un élève apprend chaque année, mais ils sont publiés en PDF, matière par matière et cycle par cycle, sans lien explicite d'une année à l'autre. Pour accompagner un enfant, il manque une base structurée : quelles notions, dans quel ordre, et comment savoir si elles sont acquises.
 
-vale.edu veut fournir cette base, ouverte et réutilisable :
+vale.curriculum veut fournir cette base, ouverte et réutilisable :
 
 - **aux parents**, pour savoir ce qui s'apprend dans l'année et, quand quelque chose bloque, remonter aux notions qui manquent ;
 - **aux enseignants**, pour repérer les prérequis d'une notion et préparer une remédiation ou un approfondissement ;
@@ -189,7 +189,7 @@ bench/                       état des lieux des projets voisins
 
 ## Projets voisins
 
-- **[Marble, taxonomie ouverte](https://github.com/withmarbleapp/os-taxonomy)** : 1 930 notions du primaire et 4 102 prérequis, en anglais, alignés sur les programmes américains, britanniques, australiens et internationaux. Données sous ODbL, contenus sous CC BY-SA 4.0. vale.edu en reprend le format, pas les données.
+- **[Marble, taxonomie ouverte](https://github.com/withmarbleapp/os-taxonomy)** : 1 930 notions du primaire et 4 102 prérequis, en anglais, alignés sur les programmes américains, britanniques, australiens et internationaux. Données sous ODbL, contenus sous CC BY-SA 4.0. vale.curriculum en reprend le format, pas les données.
 - **[MathALÉA / Coopmaths](https://forge.apps.education.fr/coopmaths/mathalea)** (AGPL) : exercices de mathématiques générés aléatoirement, avec des référentiels JSON par niveau, surtout à partir du CM1.
 - **Adaptiv'Math et Mathia** (programme P2IA du ministère) : parcours adaptatifs de mathématiques pour le cycle 2, gratuits, ouverts par l'enseignant, données fermées.
 - **Ontologies des programmes scolaires** (data.gouv.fr) : OWL/RDF, surtout pour le secondaire et d'anciens programmes.
@@ -198,12 +198,12 @@ bench/                       état des lieux des projets voisins
 
 ## Licences
 
-- **Données** (notions, liens, descriptions, questions, critères : `data/` et `construction/extractions/`) : [Licence Ouverte 2.0](LICENCE-DONNEES.md) (Etalab). Réutilisation libre, y compris commerciale, en citant « vale.edu » et l'adresse du dépôt.
+- **Données** (notions, liens, descriptions, questions, critères : `data/` et `construction/extractions/`) : [Licence Ouverte 2.0](LICENCE-DONNEES.md) (Etalab). Réutilisation libre, y compris commerciale, en citant « vale.curriculum » et l'adresse du dépôt.
 - **Code** (scripts de `construction/outils/` et atlas `site/`) : [licence MIT](LICENSE).
 - **Programmes officiels** (`construction/programmes-officiels/`, `construction/textes/` et citations dans `officialObjectives`) : informations publiques du ministère de l'Éducation nationale, réutilisables en citant leur source et leur date (articles L321-1 et L322-1 du code des relations entre le public et l'administration). Source et date de chaque document : [`sources.json`](construction/programmes-officiels/sources.json).
 
-vale.edu est un projet indépendant, sans lien avec le ministère de l'Éducation nationale ni avec Marble.
+vale.curriculum est un projet indépendant, sans lien avec le ministère de l'Éducation nationale ni avec Marble.
 
 ## In English
 
-vale.edu is an open dataset of the French national curriculum, from age 3 (petite section) to age 15 (3e): 5,604 learning concepts taken from 43 official programmes, linked by 8,002 prerequisite relations, each with its reason. Every concept quotes the official objective verbatim with the page of the source PDF. It follows the format of [Marble's open taxonomy](https://github.com/withmarbleapp/os-taxonomy) and extends it to lower secondary school. Content is in French. Data: Licence Ouverte 2.0 (compatible with CC BY 4.0). Code: MIT.
+vale.curriculum is an open dataset of the French national curriculum, from age 3 (petite section) to age 15 (3e): 5,604 learning concepts taken from 43 official programmes, linked by 8,002 prerequisite relations, each with its reason. Every concept quotes the official objective verbatim with the page of the source PDF. It follows the format of [Marble's open taxonomy](https://github.com/withmarbleapp/os-taxonomy) and extends it to lower secondary school. Content is in French. Data: Licence Ouverte 2.0 (compatible with CC BY 4.0). Code: MIT.

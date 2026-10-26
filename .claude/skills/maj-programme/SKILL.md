@@ -1,6 +1,6 @@
 ---
 name: maj-programme
-description: Ajoute un nouveau programme officiel (BO) ou une nouvelle version d'un programme à la base de notions vale.edu, en gardant toute la traçabilité (PDF archivé, empreintes, dates d'extraction et de liaison, journal des changements). À utiliser quand on dépose un nouveau PDF de programme, qu'un nouveau BO paraît, qu'on demande de vérifier si les programmes ont changé, ou de mettre la base à jour.
+description: Ajoute un nouveau programme officiel (BO) ou une nouvelle version d'un programme à la base de notions vale.curriculum, en gardant toute la traçabilité (PDF archivé, empreintes, dates d'extraction et de liaison, journal des changements). À utiliser quand on dépose un nouveau PDF de programme, qu'un nouveau BO paraît, qu'on demande de vérifier si les programmes ont changé, ou de mettre la base à jour.
 ---
 
 # Mettre à jour la base de notions

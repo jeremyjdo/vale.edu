@@ -12,7 +12,7 @@ Relevé du 26/10/2026. Les dates d'activité et les licences viennent de l'API d
 - **Licence** : GPL-3.0+.
 - **Activité** : créé en juin 2026, mis à jour en août-septembre 2026. Une variante existe chez `rouxsimon` (français et maths C2-C3).
 - **Lien** : [portail](https://forge.apps.education.fr/chedotalnicole/explorateur-portail-programmes-de-la-ps-a-la-sixieme), [maths C2-C3](https://forge.apps.education.fr/chedotalnicole/explorateur-programmes-c-2-c-3-maths).
-- **Comparaison** : même matière première que vale.edu (objectifs mot pour mot et exemples de réussite), mais pour l'enseignant qui prépare sa classe. Pas de découpage en notions, de graphe, de question d'évaluation ni de lien vers la page du PDF.
+- **Comparaison** : même matière première que vale.curriculum (objectifs mot pour mot et exemples de réussite), mais pour l'enseignant qui prépare sa classe. Pas de découpage en notions, de graphe, de question d'évaluation ni de lien vers la page du PDF.
 
 ### Lecteur de programmes et m-progression
 
