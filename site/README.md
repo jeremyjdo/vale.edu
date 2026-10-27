@@ -11,6 +11,7 @@ La version en ligne est publiée par Vercel à chaque envoi sur la branche `main
 - **Le menu des matières** : afficher ou masquer chaque matière, avec son nombre de notions ; les langues du collège se cochent sous « Langues vivantes », l'anglais par défaut.
 - **Sur téléphone**, la carte pivote : les classes défilent de haut en bas, une colonne par matière, et les notions valables pour tout un cycle sont réparties dans ses classes, en points creux. Un tap sur un point ouvre la fiche, un tap sur une classe ou une matière en donne la liste.
 - **Les sources** : les programmes officiels, dans une fenêtre ouverte depuis le bas de la page (`index.html#sources`).
+- **La mesure d'audience** : la version en ligne compte les visites avec [Vercel Web Analytics](https://vercel.com/docs/analytics), sans cookie et en chiffres agrégés. Le script n'est chargé que sur le site publié, pas dans un fichier ouvert en local.
 
 ## Comment elle est faite
 

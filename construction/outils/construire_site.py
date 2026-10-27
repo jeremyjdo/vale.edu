@@ -47,6 +47,17 @@ FAMILLES = [
     {"court": "Médias", "nom": "Éducation aux médias et à l'information", "matieres": [
         "Éducation aux médias et à l'information"]},
 ]
+# Mesure d'audience Vercel Web Analytics (sans cookie, chiffres agrégés), seulement dans la page publiée :
+# le script est servi par Vercel, il n'existe ni dans la copie --artefact ni dans un fichier ouvert en local.
+MESURE_AUDIENCE = """<script>
+if (location.protocol.startsWith("http")) {
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  const s = document.createElement("script");
+  s.defer = true; s.src = "/_vercel/insights/script.js";
+  document.head.appendChild(s);
+}
+</script>
+"""
 NOMS_CYCLES = {1: "maternelle", 2: "apprentissages fondamentaux", 3: "consolidation", 4: "approfondissements"}
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre",
         "novembre", "décembre"]
@@ -182,6 +193,7 @@ def construire(artefact=None, lien=""):
         "@@NB_NOTIONS@@": nombre(len(d["n"])), "@@NB_LIENS@@": nombre(len(d["l"])),
         "@@NB_PROGRAMMES@@": str(len(d["programmes"])), "@@DATE@@": f"{jour} {MOIS[mois - 1]} {annee}",
         "@@LIEN_BASE@@": json.dumps(lien), "@@PHOTO_ECOLE@@": photo, "@@DONNEES@@": paquet,
+        "@@MESURE_AUDIENCE@@": "" if artefact else MESURE_AUDIENCE,
     }.items():
         page = page.replace(cle, valeur)
     tete, corps = page.split("<!-- corps -->", 1)
