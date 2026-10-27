@@ -194,7 +194,7 @@ kbd { font: 500 11px/1 var(--police-mono); color: var(--encre-3); border: 1px so
   overflow: auto; overscroll-behavior: contain; padding: 18px 18px 22px; background: var(--surface); color: var(--encre);
   border: 2.5px solid var(--contour); border-radius: 18px; box-shadow: 8px 8px 0 var(--ombre-dure); }
 .panneau.a-gauche { right: auto; left: 140px; }
-.poignee { display: none; }
+.poignee, .voir-suite { display: none; }
 .entete-colonnes { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; height: 40px; margin-bottom: -40px;
   background: var(--papier); border-bottom: 1px solid var(--filet); border-radius: 17px 17px 0 0; }
 .entete-colonnes button { position: absolute; top: 0; height: 40px; display: grid; justify-items: center; align-content: center; gap: 4px;
@@ -294,6 +294,14 @@ td .pastille { display: inline-block; margin-right: 7px; }
     padding: 18px max(18px, env(safe-area-inset-right, 0px)) calc(24px + env(safe-area-inset-bottom, 0px)) max(18px, env(safe-area-inset-left, 0px));
     animation: monte .22s ease-out; }
   .panneau.etendue { max-height: 88vh; }
+  /* Un seul défilement à la fois : réduite, la fiche est un aperçu fixe (la page défile derrière) ;
+     un glissé vers le haut, un tap ou « Voir la suite » l'agrandit, et c'est alors elle seule qui défile */
+  .panneau:not(.etendue) { overflow: hidden; touch-action: none; }
+  .panneau.deborde:not(.etendue)::after { content: ""; position: absolute; z-index: 1; left: 0; right: 0; bottom: 0; height: 120px; pointer-events: none;
+    background: linear-gradient(color-mix(in srgb, var(--surface) 0%, transparent), var(--surface) 62%); }
+  .panneau.deborde:not(.etendue) .voir-suite { display: inline-flex; position: absolute; z-index: 2; left: 50%; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+    align-items: center; height: 44px; padding: 0 20px; cursor: pointer; border: 0; border-radius: 999px; background: var(--encre); color: var(--fond);
+    font-weight: 700; white-space: nowrap; box-shadow: 4px 4px 0 var(--accent); }
   .poignee { display: block; position: sticky; top: -18px; z-index: 2; width: calc(100% + 36px); height: 22px; margin: -18px -18px 0;
     cursor: pointer; background: var(--surface); border: 0; border-radius: 20px 20px 0 0; }
   .poignee::after { content: ""; display: block; width: 40px; height: 4px; margin: 6px auto 0; border-radius: 2px; background: var(--encre-3); }
@@ -315,14 +323,19 @@ td .pastille { display: inline-block; margin-right: 7px; }
   .accueil-contenu { gap: 14px; }
 }
 @media (max-width: 700px) {
-  /* Sur téléphone, pas de collage : le premier écran s'arrête après le texte et la carte arrive tout de suite */
-  .accueil { min-height: 0; grid-template-columns: 1fr; align-items: start; padding: 72px 20px 92px; }
-  .visuel { display: none; }
-  .actions { gap: 12px; }
-  .cta, .bouton-github { min-height: 48px; padding: 0 18px; }
-  h1 { font-size: clamp(44px, 13vw, 64px); }
-  .chapo { font-size: 18px; }
-  .ruban { height: 48px; font-size: 18px; }
+  /* Sur téléphone, pas de collage : le premier écran tient en entier dans l'écran visible
+     (390 × 664 dans Safari sur un iPhone 12), la carte commence juste en dessous */
+  .accueil { grid-template-columns: 1fr; align-items: center; padding: 64px 20px 68px; }
+  .accueil-contenu { gap: 14px; }
+  .theme { top: max(12px, env(safe-area-inset-top, 0px)); right: max(14px, env(safe-area-inset-right, 0px)); }
+  .visuel, .sauf-telephone { display: none; }
+  h1 { font-size: clamp(40px, 12vw, 60px); }
+  .chapo { font-size: 17px; line-height: 1.45; }
+  .explication { font-size: 14.5px; line-height: 1.5; }
+  .actions { flex-wrap: nowrap; gap: 10px; padding-top: 2px; }
+  .cta, .bouton-github { min-height: 46px; padding: 0 16px; font-size: 15px; white-space: nowrap; }
+  .libre { font-size: 12px; } .badge-libre { padding: 3px 8px; font-size: 10px; }
+  .ruban { height: 44px; font-size: 17px; }
   .zone-carte { padding: 20px 14px 24px; }
   .barre { gap: 10px; }
   .champ-recherche { flex: 1 1 100%; }
@@ -343,10 +356,10 @@ td .pastille { display: inline-block; margin-right: 7px; }
     <p class="marque">vale.edu · Curriculum français</p>
     <h1>Tout ce qu'on apprend à l'école<span class="point">.</span></h1>
     <p class="chapo">Comprendre le curriculum (programme scolaire) français : de la petite section à la 3e, <strong>@@NB_NOTIONS@@ notions</strong> et <strong>@@NB_LIENS@@ liens</strong> qui disent ce qu'il faut savoir avant, et pourquoi.</p>
-    <p class="explication">Chaque notion vient des programmes officiels, avec la page du texte. Sur la carte, un clic sur un point remonte tout ce qu'il faut maîtriser avant : les classes précédentes, les autres matières, la raison de chaque lien.</p>
+    <p class="explication">Chaque notion vient des programmes officiels, page à l'appui. Un clic sur un point remonte tout ce qu'il faut maîtriser avant.</p>
     <div class="actions">
       <a class="cta" href="#la-carte">Explorer le curriculum ↓</a>
-      <a class="bouton-github" href="https://github.com/jeremyjdo/vale.edu" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>Voir sur GitHub</a>
+      <a class="bouton-github" href="https://github.com/jeremyjdo/vale.edu" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg><span class="sauf-telephone">Voir sur </span>GitHub</a>
     </div>
     <p class="libre"><span class="badge-libre">Open source</span>données Licence Ouverte 2.0 · code MIT</p>
   </div>
@@ -406,6 +419,7 @@ td .pastille { display: inline-block; margin-right: 7px; }
       <button type="button" class="poignee" id="poignee" aria-label="Agrandir la fiche" aria-expanded="false"></button>
       <button type="button" class="fermer fermer-fiche" id="fermer-fiche" aria-label="Fermer la fiche">×</button>
       <div id="contenu" aria-live="polite"></div>
+      <button type="button" class="voir-suite" id="voir-suite">Voir la suite ↑</button>
     </aside>
   </div>
   <footer class="pied">
@@ -1192,8 +1206,10 @@ function ouvrirFiche() {
   panneau.hidden = false;
   majVoile();
   panneau.scrollTop = 0;
-  requestAnimationFrame(montrerSelection);
+  requestAnimationFrame(() => { majDebord(); montrerSelection(); });
 }
+// La fiche réduite dépasse-t-elle ? (alors elle montre « Voir la suite »)
+const majDebord = () => panneau.classList.toggle('deborde', !panneau.classList.contains('etendue') && panneau.scrollHeight > panneau.clientHeight + 4);
 function fermerFiche() {
   etat.vue = null; etat.pile = [];
   etat.sel = null; etat.resultats = null; etat.caseActive = null;
@@ -1214,7 +1230,29 @@ function majVoile() {
   document.documentElement.classList.toggle('fiche-ouverte', modale);
 }
 voile.addEventListener('click', fermerFiche);
-$('#poignee').addEventListener('click', () => { panneau.classList.toggle('etendue'); majVoile(); });
+function agrandir(oui) {
+  panneau.classList.toggle('etendue', oui);
+  if (!oui) panneau.scrollTop = 0;
+  majVoile(); majDebord();
+}
+$('#poignee').addEventListener('click', () => agrandir(!panneau.classList.contains('etendue')));
+$('#voir-suite').addEventListener('click', () => agrandir(true));
+// Sur téléphone et tablette : un tap sur la fiche réduite l'agrandit ; un glissé vers le haut l'agrandit,
+// vers le bas la réduit (agrandie, une fois revenue en haut) ou la ferme (réduite)
+panneau.addEventListener('click', ev => {
+  if (pleinEcran.matches || panneau.classList.contains('etendue') || ev.target.closest('button, a, summary, input')) return;
+  agrandir(true);
+});
+let geste = null;
+panneau.addEventListener('touchstart', ev => { geste = { y: ev.touches[0].clientY, haut: panneau.scrollTop }; }, { passive: true });
+panneau.addEventListener('touchend', ev => {
+  if (!geste || pleinEcran.matches) return;
+  const dy = ev.changedTouches[0].clientY - geste.y, etendue = panneau.classList.contains('etendue');
+  if (!etendue && dy < -30) agrandir(true);
+  else if (!etendue && dy > 60) fermerFiche();
+  else if (etendue && geste.haut <= 0 && dy > 80) agrandir(false);
+  geste = null;
+}, { passive: true });
 // Sur téléphone, fait défiler la page pour que la notion choisie soit juste au-dessus de la fiche,
 // et sa chaîne de prérequis au-dessus d'elle
 function montrerSelection() {
@@ -1222,7 +1260,7 @@ function montrerSelection() {
   const y = canvas.getBoundingClientRect().top + etat.sel.y, cible = panneau.getBoundingClientRect().top - 36;
   if (y > cible || y < 60) window.scrollBy({ top: y - cible, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
 }
-pleinEcran.addEventListener?.('change', majVoile);
+pleinEcran.addEventListener?.('change', () => { majVoile(); majDebord(); });
 
 contenu.addEventListener('click', ev => {
   const n = ev.target.closest('[data-i]');
