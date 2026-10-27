@@ -236,6 +236,7 @@ Relevé du 26/10/2026 : aucun projet ouvert trouvé ne découpe les programmes f
 
 - **Données** (notions, liens, descriptions, questions, critères : `data/` et `construction/extractions/`) : [Licence Ouverte 2.0](LICENCE-DONNEES.md) (Etalab). Réutilisation libre, y compris commerciale, en citant « vale.edu » et l'adresse du dépôt.
 - **Code** (scripts de `construction/outils/` et site `site/`) : [licence MIT](LICENSE).
+- **Photo** du premier écran du site (`site/photos/`) : école primaire de Revest-des-Brousses, par [Sebleouf](https://commons.wikimedia.org/wiki/File:Revest-des-Brousses_-_%C3%89cole_primaire_2_(sept_2026).jpg), via Wikimedia Commons, sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr) ; recadrée et réduite.
 - **Programmes officiels** (`construction/programmes-officiels/`, `construction/textes/` et texte des objectifs dans `data/objectifs.json`) : informations publiques du ministère de l'Éducation nationale, réutilisables en citant leur source et leur date (articles L321-1 et L322-1 du code des relations entre le public et l'administration). Source et date de chaque document : [`sources.json`](construction/programmes-officiels/sources.json).
 
 vale.edu est un projet indépendant, construit à partir des programmes publiés au Bulletin officiel et inspiré de la taxonomie de Marble.

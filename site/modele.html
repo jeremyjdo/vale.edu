@@ -3,122 +3,199 @@
 <meta name="description" content="Comprendre le curriculum (programme scolaire) français : de la petite section à la 3e, @@NB_NOTIONS@@ notions et @@NB_LIENS@@ liens qui disent ce qu'il faut savoir avant, et pourquoi.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,600;0,700;1,400&family=Atkinson+Hyperlegible+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,600;0,700;1,400&family=Atkinson+Hyperlegible+Mono:wght@400;500&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Caveat:wght@700&family=Playwrite+FR+Moderne:wght@300;400&display=swap">
+<script>try { const t = localStorage.getItem('atlas-theme'); if (t) document.documentElement.dataset.theme = t; } catch {}</script>
 <style>
-/* Une page de cahier à grands carreaux (Seyès) : la carte des notions, sur toute la largeur, est écrite sur les lignes,
-   les classes de gauche à droite, les matières en bandes dans la marge ; la fiche s'ouvre par-dessus, au clic.
-   En sombre, le cahier devient l'ardoise. Couleurs des matières : celles des protège-cahiers. */
+/* vale.edu, direction « Dopamine » : couleurs vives, typo grasse, contours et ombres franches.
+   Premier écran : l'accroche et un collage (photo d'école, cahier, copie notée). En dessous, la carte en plein écran :
+   une page à grands carreaux (Seyès), les classes de gauche à droite, les matières en bandes ; la fiche s'ouvre par-dessus.
+   Clair et sombre : mêmes jetons, redéfinis sur :root. */
 :root {
-  --papier: #fbfbfd; --surface: #ffffff; --survol: #f1f3fa; --filet: #e2e5ee;
-  --encre: #1b2133; --encre-2: #4b5268; --encre-3: #737a91;
-  --ligne: #d5dcf1; --ligne-forte: #b7c2e6; --marge: #dc4f46; --stylo: #2443b5;
-  --f0: #d7443e; --f1: #2c68d6; --f2: #2a9658; --f3: #c48a0e; --f4: #8656d2;
-  --f5: #df6f24; --f6: #cf4f8d; --f7: #11979f; --f8: #77861a; --f9: #5e6c8c; --f-autre: #868b98;
-  --police-titre: "Newsreader", Georgia, "Times New Roman", serif;
+  --fond: #ffe14d; --section-carte: #00b4f0; --sur-section: #16131f;
+  --papier: #ffffff; --surface: #ffffff; --survol: #f3f1fa; --filet: #e4e2ee; --question: #fff3a3;
+  --encre: #16131f; --encre-2: #3d3650; --encre-3: #6b6580;
+  --ligne: #e6eaf7; --ligne-forte: #c9d3f0; --marge: #e8364f; --stylo: #16131f;
+  --accent: #ff3d7f; --accent-2: #00b4f0; --vert: #00c26b; --contour: #16131f; --ombre-dure: #16131f;
+  --f0: #f5333f; --f1: #2f6bff; --f2: #00b862; --f3: #f5a400; --f4: #9b4dff;
+  --f5: #ff6a1a; --f6: #ff4fc0; --f7: #00b8d9; --f8: #7cbf00; --f9: #5b6478; --f-autre: #8a8698;
+  --police-titre: "Bricolage Grotesque", "Arial Black", sans-serif;
   --police: "Atkinson Hyperlegible Next", system-ui, -apple-system, "Segoe UI", sans-serif;
   --police-mono: "Atkinson Hyperlegible Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --ecriture: "Playwrite FR Moderne", "Segoe Script", cursive; --main: "Caveat", "Comic Sans MS", cursive;
+  --encre-eleve: #1f3a93; --rouge-prof: #d7263d;
   --t-xs: 11.5px; --t-s: 13px; --t-m: 15px; --t-l: 17px; --t-xl: 23px;
+  --dechire: polygon(0% 3%, 4% 0%, 9% 2%, 15% .5%, 21% 2.5%, 27% 0%, 33% 1.8%, 40% .3%, 46% 2.2%, 53% 0%, 60% 2%, 66% .4%, 73% 2.4%, 80% .2%, 86% 1.9%, 93% 0%, 100% 2%, 98.6% 9%, 100% 17%, 98.4% 25%, 99.8% 34%, 98.2% 43%, 100% 52%, 98.5% 61%, 99.7% 70%, 98.1% 79%, 100% 88%, 98.7% 95%, 100% 100%, 93% 98.2%, 86% 100%, 79% 98%, 72% 99.8%, 65% 98.1%, 58% 100%, 51% 98.4%, 44% 99.9%, 37% 98%, 30% 99.7%, 23% 98.2%, 16% 100%, 9% 98.3%, 3% 99.8%, 0% 97%, 1.5% 89%, 0% 80%, 1.7% 71%, .2% 62%, 1.8% 53%, 0% 44%, 1.5% 35%, .3% 26%, 1.9% 17%, 0% 9%);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --papier: #19221f; --surface: #202a27; --survol: #28342f; --filet: #33403b;
-    --encre: #e9eee7; --encre-2: #b6bfb7; --encre-3: #8b968e;
-    --ligne: #26312d; --ligne-forte: #34413c; --marge: #ee7a70; --stylo: #9db7ff;
-    --f0: #f27f72; --f1: #80a9f6; --f2: #5fc98c; --f3: #e9bb4c; --f4: #b393f1;
-    --f5: #f59c5d; --f6: #ef88b7; --f7: #4ec8d2; --f8: #b5c450; --f9: #9caac9; --f-autre: #a2a8b2;
+    --fond: #16131f; --section-carte: #2b2140; --sur-section: #fff6d6;
+    --papier: #1d1828; --surface: #221d30; --survol: #2c2540; --filet: #362e4c; --question: #2e2640;
+    --encre: #fff6d6; --encre-2: #cfc7e2; --encre-3: #9d94b5;
+    --ligne: #262036; --ligne-forte: #352d4a; --marge: #ff6f86; --stylo: #ffe14d;
+    --accent: #ff4f8b; --accent-2: #3fd4ff; --vert: #22d47f; --contour: #fff6d6; --ombre-dure: #ff4f8b;
+    --f0: #ff6b6b; --f1: #6f95ff; --f2: #2fdc8a; --f3: #ffc433; --f4: #b583ff;
+    --f5: #ff8a47; --f6: #ff86d4; --f7: #3fd4ff; --f8: #a8e83a; --f9: #9aa3b8; --f-autre: #a7a1b8;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --papier: #19221f; --surface: #202a27; --survol: #28342f; --filet: #33403b;
-  --encre: #e9eee7; --encre-2: #b6bfb7; --encre-3: #8b968e;
-  --ligne: #26312d; --ligne-forte: #34413c; --marge: #ee7a70; --stylo: #9db7ff;
-  --f0: #f27f72; --f1: #80a9f6; --f2: #5fc98c; --f3: #e9bb4c; --f4: #b393f1;
-  --f5: #f59c5d; --f6: #ef88b7; --f7: #4ec8d2; --f8: #b5c450; --f9: #9caac9; --f-autre: #a2a8b2;
+  --fond: #16131f; --section-carte: #2b2140; --sur-section: #fff6d6;
+  --papier: #1d1828; --surface: #221d30; --survol: #2c2540; --filet: #362e4c; --question: #2e2640;
+  --encre: #fff6d6; --encre-2: #cfc7e2; --encre-3: #9d94b5;
+  --ligne: #262036; --ligne-forte: #352d4a; --marge: #ff6f86; --stylo: #ffe14d;
+  --accent: #ff4f8b; --accent-2: #3fd4ff; --vert: #22d47f; --contour: #fff6d6; --ombre-dure: #ff4f8b;
+  --f0: #ff6b6b; --f1: #6f95ff; --f2: #2fdc8a; --f3: #ffc433; --f4: #b583ff;
+  --f5: #ff8a47; --f6: #ff86d4; --f7: #3fd4ff; --f8: #a8e83a; --f9: #9aa3b8; --f-autre: #a7a1b8;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
-body {
-  margin: 0; background: var(--papier); color: var(--encre);
-  font: var(--t-m)/1.55 var(--police);
-  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
-  -webkit-font-smoothing: antialiased;
-}
-.page { max-width: 1680px; margin: 0 auto; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--fond); color: var(--encre); font: var(--t-m)/1.55 var(--police); -webkit-font-smoothing: antialiased; }
 [hidden] { display: none !important; }
-:focus-visible { outline: 2px solid var(--stylo); outline-offset: 2px; border-radius: 4px; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
 .cache { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 button { font: inherit; color: inherit; }
 a { color: var(--stylo); text-underline-offset: .15em; }
 
-/* En-tête */
-.tete { padding-block: 14px 12px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px; }
-.titre-bloc { display: grid; gap: 5px; min-width: 0; flex: 1 1 520px; }
-.marque { margin: 0; font: 700 var(--t-xs)/1 var(--police);
-  letter-spacing: .09em; text-transform: uppercase; color: var(--encre-2); }
-h1 { margin: 0; font: 500 clamp(28px, 2.7vw, 40px)/1.12 var(--police-titre); letter-spacing: -.012em; color: var(--encre); text-wrap: balance; }
-h1 .point { color: var(--marge); }
-.chapo { margin: 2px 0 0; max-width: 110ch; font-size: 15px; color: var(--encre-2); text-wrap: pretty; }
-.chapo strong { color: var(--encre); font-weight: 700; }
-.libre-bloc { display: grid; justify-items: end; gap: 8px; }
-.bouton-github { display: inline-flex; align-items: center; gap: 8px; height: 38px; padding-inline: 15px; border-radius: 10px;
-  background: var(--encre); color: var(--papier); font-weight: 700; text-decoration: none; }
-.bouton-github:hover { background: var(--stylo); }
-.libre { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin: 0; font-size: 12px; color: var(--encre-3); }
-.badge-libre { padding: 3px 8px; font: 700 10.5px/1.2 var(--police); letter-spacing: .08em; text-transform: uppercase; color: var(--encre);
-  border: 1px solid var(--ligne-forte); border-radius: 999px; }
+/* ---------- Premier écran ---------- */
+.accueil { position: relative; min-height: 100vh; min-height: 100svh; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); align-items: center;
+  gap: clamp(24px, 4vw, 72px); padding: 84px max(24px, 6vw, env(safe-area-inset-right, 0px)) 112px max(24px, 6vw, env(safe-area-inset-left, 0px)); overflow: hidden; }
+.theme { position: absolute; z-index: 4; top: max(16px, env(safe-area-inset-top, 0px)); right: max(16px, env(safe-area-inset-right, 0px)); display: flex; gap: 2px; padding: 4px;
+  border-radius: 999px; background: var(--encre); box-shadow: 3px 3px 0 var(--accent); }
+.theme button { display: grid; place-items: center; width: 36px; height: 32px; padding: 0; cursor: pointer; border: 0; border-radius: 999px; background: transparent; color: var(--fond); }
+.theme button[aria-pressed="true"] { background: var(--fond); color: var(--encre); }
+.accueil-contenu { position: relative; z-index: 2; display: grid; gap: clamp(16px, 2.6vh, 24px); max-width: 680px; }
+.marque { margin: 0; font: 700 13px/1 var(--police); letter-spacing: .14em; text-transform: uppercase; color: var(--encre-2); }
+h1 { margin: 0; font: 800 clamp(46px, min(7.4vw, 12.5vh), 108px)/.92 var(--police-titre); letter-spacing: -.045em; text-wrap: balance; }
+h1 .point { color: var(--accent); }
+.chapo { margin: 0; max-width: 34em; font-size: clamp(18px, 1.6vw, 22px); line-height: 1.5; }
+.chapo strong { padding: .04em .3em; border-radius: .3em; background: var(--accent); color: #16131f; white-space: nowrap; }
+.explication { margin: 0; max-width: 38em; color: var(--encre-2); }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; padding-top: 4px; }
+.cta, .bouton-github { display: inline-flex; align-items: center; gap: 10px; min-height: 50px; padding: 0 22px; border-radius: 999px; font-weight: 700; text-decoration: none; transition: transform .15s, box-shadow .15s; }
+.cta { background: var(--encre); color: var(--fond); box-shadow: 5px 5px 0 var(--accent); }
+.cta:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--accent); }
+.bouton-github { border: 2.5px solid var(--contour); background: var(--surface); color: var(--encre); }
+.bouton-github:hover { transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--contour); }
+.libre { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 0; font-size: 13px; color: var(--encre-2); }
+.badge-libre { padding: 4px 10px; font: 700 11px/1.2 var(--police); letter-spacing: .08em; text-transform: uppercase; color: var(--encre); border: 2px solid var(--contour); border-radius: 999px; }
+.visuel { position: relative; z-index: 1; display: grid; justify-items: center; gap: 12px; }
+.credit-photo { margin: 0; font-size: 11.5px; color: var(--encre-2); text-align: center; }
+.credit-photo a { color: inherit; }
 
-/* Barre : recherche, matières, langue */
-.barre { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; margin-bottom: 8px; }
-.champ { display: flex; align-items: center; gap: 7px; height: 30px; padding-inline: 10px 6px; background: var(--surface);
-  border: 1px solid var(--filet); border-radius: 999px; }
-.champ:focus-within { border-color: var(--stylo); box-shadow: 0 0 0 3px color-mix(in srgb, var(--stylo) 18%, transparent); }
-.champ input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--encre); font: inherit; font-size: 13px; }
+/* Bandeau défilant en bas du premier écran */
+.ruban { position: absolute; z-index: 3; left: 0; right: 0; bottom: 0; height: 56px; display: flex; align-items: center; overflow: hidden;
+  background: var(--encre); color: var(--fond); font: 800 21px/1 var(--police-titre); letter-spacing: -.01em; white-space: nowrap; }
+.ruban-piste { display: flex; flex: none; animation: defile 70s linear infinite; }
+.ruban-piste span { display: inline-flex; gap: .7em; padding-right: .7em; }
+.ruban b { font-weight: inherit; color: var(--accent); }
+.ruban b:nth-of-type(3n+2) { color: var(--accent-2); }
+.ruban b:nth-of-type(3n) { color: var(--vert); }
+@keyframes defile { to { transform: translateX(-50%); } }
+
+/* Le collage : tout est en unités du conteneur, il garde ses proportions à toutes les tailles */
+.collage { position: relative; width: min(100%, 620px, calc((100svh - 220px) / 1.04)); aspect-ratio: 1 / 1.04; container-type: inline-size; }
+.collage > * { position: absolute; margin: 0; }
+:root[data-theme="dark"] .collage { filter: brightness(.93); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .collage { filter: brightness(.93); } }
+.dechire { clip-path: var(--dechire); }
+.dechire.rose { left: -3cqw; top: 22cqw; width: 46cqw; height: 60cqw; background: var(--accent); transform: rotate(5deg); }
+.dechire.vert { left: 74cqw; top: 63cqw; width: 30cqw; height: 34cqw; background: var(--vert); transform: rotate(-7deg); }
+.photo { left: 4cqw; top: 4cqw; width: 70cqw; padding: 2.2cqw 2.2cqw 7.4cqw; background: #fbfaf5; transform: rotate(-3deg);
+  box-shadow: 0 .3cqw .6cqw rgb(0 0 0 / .18), 0 2cqw 4cqw rgb(0 0 0 / .22); }
+.photo img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 42%; background: #d9d4c6; filter: saturate(1.08) contrast(1.04); }
+.photo figcaption { position: absolute; left: 3.4cqw; bottom: 2cqw; font: 300 3.2cqw/1 var(--ecriture); color: var(--encre-eleve); transform: rotate(-1.5deg); }
+.cahier { left: 63cqw; top: 9cqw; width: 35cqw; aspect-ratio: 17 / 22; transform: rotate(8deg); border-radius: .6cqw 1.2cqw 1.2cqw .6cqw;
+  background: linear-gradient(115deg, rgb(255 255 255 / .28) 0 18%, transparent 18% 52%, rgb(255 255 255 / .14) 52% 60%, transparent 60%),
+    linear-gradient(90deg, rgb(0 0 0 / .22) 0 3.2cqw, rgb(255 255 255 / .1) 3.2cqw 3.6cqw, transparent 3.6cqw), var(--accent-2);
+  box-shadow: .6cqw .6cqw 0 -.1cqw #f4f1e8, .6cqw .6cqw 0 0 rgb(0 0 0 / .12), 0 2cqw 3.6cqw rgb(0 0 0 / .25); }
+.etiquette-cahier { position: absolute; left: 5.6cqw; right: 2.6cqw; top: 11cqw; padding: 2.2cqw 1.6cqw 2.4cqw; border-radius: 1.2cqw; background: #fffdf7;
+  outline: .35cqw solid var(--accent-2); outline-offset: -1.1cqw; text-align: center; box-shadow: 0 .2cqw .4cqw rgb(0 0 0 / .15); }
+.etiquette-cahier .matiere { display: block; font: 400 2.5cqw/1.6 var(--ecriture); color: var(--encre-eleve); }
+.etiquette-cahier .classe { display: block; margin-top: .6cqw; font: 700 1.9cqw/1 var(--police); letter-spacing: .12em; text-transform: uppercase; color: #4f4a63; }
+.etiquette-cahier .classe i { font: 400 2.8cqw/1 var(--ecriture); letter-spacing: 0; text-transform: none; color: var(--encre-eleve); }
+.copie-ombre { left: 33cqw; top: 49cqw; width: 51cqw; height: 53cqw; transform: rotate(4deg); filter: drop-shadow(0 .3cqw .5cqw rgb(0 0 0 / .18)) drop-shadow(0 1.8cqw 2.6cqw rgb(0 0 0 / .2)); }
+.copie { position: relative; width: 100%; height: 100%; background:
+    linear-gradient(90deg, transparent 9.4cqw, #e8606b 9.4cqw 9.65cqw, transparent 9.65cqw),
+    repeating-linear-gradient(transparent 0 calc(4.4cqw - 1px), #9aaee4 calc(4.4cqw - 1px) 4.4cqw),
+    repeating-linear-gradient(transparent 0 calc(1.1cqw - 1px), #d9e0f4 calc(1.1cqw - 1px) 1.1cqw),
+    repeating-linear-gradient(90deg, transparent 0 calc(4.4cqw - 1px), #e8ecf8 calc(4.4cqw - 1px) 4.4cqw), #fffffb;
+  background-position: 0 0, 0 2.2cqw, 0 2.2cqw, 9.6cqw 0, 0 0;
+  -webkit-mask: radial-gradient(circle at 3.6cqw 12cqw, #0000 1.05cqw, #000 1.15cqw), radial-gradient(circle at 3.6cqw 41cqw, #0000 1.05cqw, #000 1.15cqw);
+  -webkit-mask-composite: source-in;
+  mask: radial-gradient(circle at 3.6cqw 12cqw, #0000 1.05cqw, #000 1.15cqw), radial-gradient(circle at 3.6cqw 41cqw, #0000 1.05cqw, #000 1.15cqw);
+  mask-composite: intersect; }
+.copie > * { position: absolute; margin: 0; }
+.copie .date { right: 3.4cqw; top: 3.1cqw; font: 300 2.1cqw/1 var(--ecriture); color: var(--encre-eleve); }
+.copie .consigne { left: 11.4cqw; top: 7.4cqw; font: 400 2.9cqw/1 var(--ecriture); color: var(--encre-eleve);
+  text-decoration: underline; text-decoration-color: var(--rouge-prof); text-decoration-thickness: .28cqw; text-underline-offset: 1.1cqw; }
+.copie .cubes { left: 12.4cqw; top: 13.6cqw; width: 16cqw; height: auto; overflow: visible; }
+.cubes polygon { stroke: #24346e; stroke-width: 1.3; stroke-linejoin: round; }
+.cubes .dessus { fill: #eef2ff; } .cubes .face { fill: #c3d1fb; } .cubes .cote { fill: #a5b9f2; }
+.copie .reponse { left: 11.4cqw; top: 39.2cqw; font: 300 2.6cqw/1 var(--ecriture); color: var(--encre-eleve); }
+.copie .coche { left: 36.6cqw; top: 37.4cqw; width: 4.6cqw; overflow: visible; }
+.copie .note-prof { right: 3.2cqw; top: 14.2cqw; width: 15cqw; transform: rotate(-6deg); }
+.copie .note-prof svg { position: absolute; inset: -1.6cqw -1cqw; width: calc(100% + 2cqw); height: calc(100% + 3.2cqw); overflow: visible; }
+.copie .note-prof span { display: block; text-align: center; font: 700 5.3cqw/1.15 var(--main); color: var(--rouge-prof); }
+.copie .bravo { left: 20cqw; top: 44.6cqw; font: 700 4.6cqw/1 var(--main); color: var(--rouge-prof); transform: rotate(-5deg); }
+.trait-encre { fill: none; stroke: var(--rouge-prof); stroke-linecap: round; stroke-linejoin: round; }
+.scotch { width: 17cqw; height: 4.6cqw; background: linear-gradient(180deg, rgb(255 250 214 / .7), rgb(250 240 190 / .62)); box-shadow: 0 .1cqw .3cqw rgb(0 0 0 / .12);
+  clip-path: polygon(0 8%, 3% 0, 97% 4%, 100% 14%, 98% 30%, 100% 50%, 97% 70%, 100% 92%, 96% 100%, 2% 96%, 0 84%, 2.5% 64%, 0 44%, 3% 26%); }
+.scotch.s1 { left: -1cqw; top: 2cqw; transform: rotate(-34deg); }
+.scotch.s2 { left: 57cqw; top: .4cqw; transform: rotate(22deg); }
+.scotch.s3 { left: 51cqw; top: 47cqw; transform: rotate(-6deg); }
+.etoile { left: 78cqw; top: 83cqw; width: 17cqw; aspect-ratio: 1; display: grid; place-items: center; transform: rotate(14deg); background: var(--accent);
+  clip-path: polygon(50.0% 0.0%, 57.8% 9.3%, 69.1% 3.8%, 72.1% 15.6%, 84.4% 15.6%, 81.8% 27.5%, 92.8% 33.0%, 85.2% 42.5%, 92.8% 52.0%, 81.8% 57.5%, 84.4% 69.4%, 72.1% 69.4%, 69.1% 81.2%, 57.8% 75.7%, 50.0% 85.0%, 42.2% 75.7%, 30.9% 81.2%, 27.9% 69.4%, 15.6% 69.4%, 18.2% 57.5%, 7.2% 52.0%, 14.8% 42.5%, 7.2% 33.0%, 18.2% 27.5%, 15.6% 15.6%, 27.9% 15.6%, 30.9% 3.8%, 42.2% 9.3%);
+  font: 800 2.9cqw/1 var(--police-titre); color: #fff; letter-spacing: -.01em; }
+
+/* ---------- La carte ---------- */
+.zone-carte { position: relative; display: flex; flex-direction: column; min-width: 0; background: var(--section-carte); color: var(--sur-section);
+  padding: 22px max(16px, 3vw, env(safe-area-inset-right, 0px), calc((100% - 1680px) / 2)) 16px max(16px, 3vw, env(safe-area-inset-left, 0px), calc((100% - 1680px) / 2)); }
+.barre { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin-bottom: 18px; }
+.titre-carte { margin: 0 8px 0 0; font: 800 clamp(26px, 2.4vw, 34px)/1 var(--police-titre); letter-spacing: -.035em; color: var(--sur-section); }
+.champ { display: flex; align-items: center; gap: 8px; height: 40px; padding-inline: 14px 8px; background: var(--surface);
+  border: 2.5px solid var(--contour); border-radius: 999px; box-shadow: 3px 3px 0 var(--contour); color: var(--encre); }
+.champ:focus-within { outline: 3px solid var(--accent); outline-offset: 2px; }
+.champ input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--encre); font: inherit; font-size: 14px; }
 .champ input::placeholder { color: var(--encre-3); }
-.champ svg { flex: none; color: var(--encre-3); }
-.champ-recherche { flex: 0 1 230px; min-width: 170px; }
+.champ svg { flex: none; color: var(--encre-2); }
+.champ-recherche { flex: 0 1 300px; min-width: 190px; }
 kbd { font: 500 11px/1 var(--police-mono); color: var(--encre-3); border: 1px solid var(--filet); border-radius: 5px; padding: 3px 5px; }
 .filtre { position: relative; }
-.bouton-filtre { display: inline-flex; align-items: center; gap: 6px; height: 30px; padding-inline: 12px 10px; cursor: pointer;
-  background: var(--surface); border: 1px solid var(--filet); border-radius: 999px; font-size: 12.5px; font-weight: 600; color: var(--encre-2); }
-.bouton-filtre:hover, .bouton-filtre[aria-expanded="true"] { color: var(--encre); border-color: var(--ligne-forte); }
-.menu-filtre { position: absolute; z-index: 10; top: calc(100% + 6px); left: 0; width: 270px; padding: 6px; display: grid; gap: 4px;
-  background: var(--surface); border: 1px solid var(--filet); border-radius: 12px; box-shadow: 0 12px 30px rgb(0 0 0 / .25); }
+.bouton-filtre { display: inline-flex; align-items: center; gap: 8px; height: 40px; padding-inline: 16px 13px; cursor: pointer;
+  background: var(--surface); border: 2.5px solid var(--contour); border-radius: 999px; box-shadow: 3px 3px 0 var(--contour); font-size: 14px; font-weight: 700; color: var(--encre); }
+.bouton-filtre:hover, .bouton-filtre[aria-expanded="true"] { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--contour); }
+.menu-filtre { position: absolute; z-index: 10; top: calc(100% + 10px); left: 0; width: 280px; padding: 6px; display: grid; gap: 4px; color: var(--encre);
+  background: var(--surface); border: 2.5px solid var(--contour); border-radius: 16px; box-shadow: 6px 6px 0 var(--ombre-dure); }
 .legende { display: grid; }
 .menu-pied { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px; padding: 8px 8px 4px; border-top: 1px solid var(--filet); }
-.lien-menu { padding: 0; cursor: pointer; background: none; border: 0; font-size: 12px; font-weight: 600; color: var(--stylo); }
+.lien-menu { padding: 0; cursor: pointer; background: none; border: 0; font-size: 12.5px; font-weight: 700; color: var(--stylo); text-decoration: underline; text-underline-offset: .15em; }
 .puce .n { margin-left: auto; font: 400 11.5px var(--police-mono); color: var(--encre-3); font-variant-numeric: tabular-nums; }
 .puce { display: flex; align-items: center; gap: 8px; width: 100%; height: 30px; padding: 0 8px; border-radius: 8px; cursor: pointer;
-  background: none; border: 0; font-size: 12.5px; font-weight: 600; color: var(--encre-2); }
+  background: none; border: 0; font-size: 13px; font-weight: 600; color: var(--encre-2); }
 .puce:hover { color: var(--encre); background: var(--survol); }
 .puce[aria-pressed="false"] { color: var(--encre-3); opacity: .6; }
 .puce[aria-pressed="false"] .pastille { background: transparent; box-shadow: inset 0 0 0 1.5px var(--c); }
 .pastille { width: 9px; height: 9px; flex: none; border-radius: 50%; background: var(--c); }
 .puce.sous { height: 26px; padding-left: 26px; font-weight: 500; }
 .puce.sous .pastille { width: 7px; height: 7px; }
-select { height: 26px; padding-inline: 2px; font: inherit; font-size: 12.5px; font-weight: 600; color: var(--encre-2);
-  background: transparent; border: 0; border-radius: 6px; cursor: pointer; }
-select:hover { color: var(--encre); }
 
-/* Carte, sur toute la largeur */
-.zone-carte { min-width: 0; padding-bottom: 6px; }
 .cadre { position: relative; }
-.carte-defile { overflow: auto; background: var(--papier); border: 1px solid var(--filet); border-radius: 12px; }
+.carte-defile { overflow: auto; background: var(--papier); color: var(--encre); border: 3px solid var(--contour); border-radius: 20px; box-shadow: 10px 10px 0 var(--ombre-dure); }
 #carte { display: block; cursor: crosshair; touch-action: pan-x pan-y; }
 #carte.sur-point { cursor: pointer; }
 .bulle { position: absolute; z-index: 2; max-width: 290px; padding: 7px 10px; pointer-events: none;
-  background: var(--encre); color: var(--papier); border-radius: 8px; font-size: var(--t-s); line-height: 1.35;
-  box-shadow: 0 6px 18px rgb(0 0 0 / .2); }
+  background: var(--encre); color: var(--papier); border-radius: 10px; font-size: var(--t-s); line-height: 1.35; box-shadow: 0 6px 18px rgb(0 0 0 / .2); }
 .bulle small { display: block; margin-top: 2px; font-size: 12px; opacity: .78; }
 
 /* Fiche : fenêtre posée sur la carte, du côté où elle cache le moins la chaîne de notions */
-.panneau { position: absolute; z-index: 3; top: 10px; right: 10px; width: min(410px, calc(100% - 20px)); max-height: calc(100% - 20px);
-  overflow: auto; overscroll-behavior: contain; padding: 18px 18px 22px; background: var(--surface);
-  border: 1px solid var(--filet); border-radius: 14px; box-shadow: 0 14px 36px rgb(0 0 0 / .24); }
+.panneau { position: absolute; z-index: 3; top: 14px; right: 14px; width: min(420px, calc(100% - 28px)); max-height: calc(100% - 28px);
+  overflow: auto; overscroll-behavior: contain; padding: 18px 18px 22px; background: var(--surface); color: var(--encre);
+  border: 2.5px solid var(--contour); border-radius: 18px; box-shadow: 8px 8px 0 var(--ombre-dure); }
 .panneau.a-gauche { right: auto; left: 140px; }
 .poignee { display: none; }
 .entete-colonnes { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; height: 40px; margin-bottom: -40px;
-  background: var(--papier); border-bottom: 1px solid var(--filet); border-radius: 12px 12px 0 0; }
+  background: var(--papier); border-bottom: 1px solid var(--filet); border-radius: 17px 17px 0 0; }
 .entete-colonnes button { position: absolute; top: 0; height: 40px; display: grid; justify-items: center; align-content: center; gap: 4px;
   padding: 0; cursor: pointer; background: none; border: 0; font: 700 10.5px/1 var(--police); color: var(--encre); }
 .entete-colonnes button.actif { color: var(--stylo); }
@@ -127,11 +204,11 @@ select:hover { color: var(--encre); }
 #contenu { display: grid; gap: 18px; }
 #contenu > * { margin: 0; min-width: 0; }
 .sur-titre { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; font-size: var(--t-s); color: var(--encre-2); }
-.nom { margin: -10px 0 0; font: 700 var(--t-xl)/1.22 var(--police); text-wrap: balance; }
+.nom { margin: -10px 0 0; font: 800 26px/1.12 var(--police-titre); letter-spacing: -.025em; text-wrap: balance; }
 .etiquettes { display: flex; flex-wrap: wrap; gap: 6px; margin-top: -8px !important; }
-.etiquette { font-size: 12px; line-height: 1; padding: 5px 8px; border-radius: 999px; background: var(--survol); color: var(--encre-2); }
+.etiquette { font-size: 12px; font-weight: 600; line-height: 1; padding: 6px 9px; border-radius: 999px; background: var(--survol); color: var(--encre-2); }
 .desc { font-size: var(--t-m); }
-.question { display: grid; gap: 4px; padding-block: 12px; border-block: 1px dashed var(--ligne-forte); }
+.question { display: grid; gap: 4px; padding: 12px 14px; border-radius: 14px; background: var(--question); }
 .question p { margin: 0; }
 .question .q { font-size: var(--t-l); line-height: 1.45; }
 .petit-titre, .section h3 { margin: 0; font: 700 var(--t-xs)/1.3 var(--police); letter-spacing: .08em; text-transform: uppercase; color: var(--encre-2); }
@@ -139,9 +216,9 @@ select:hover { color: var(--encre); }
 .section h3 { display: flex; align-items: baseline; gap: 8px; }
 .section h3 .compte { font: 500 12px var(--police-mono); color: var(--encre-3); letter-spacing: 0; }
 .criteres { margin: 0; padding-left: 1.1em; display: grid; gap: 4px; }
-.criteres li::marker { color: var(--marge); }
+.criteres li::marker { color: var(--accent); }
 .liens { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
-.liens li { display: grid; gap: 1px; padding: 6px 8px; margin-inline: -8px; border-radius: 8px; }
+.liens li { display: grid; gap: 1px; padding: 6px 8px; margin-inline: -8px; border-radius: 10px; }
 .liens li:hover { background: var(--survol); }
 .lien-notion, .item { display: grid; grid-template-columns: 9px minmax(0, 1fr) auto; align-items: baseline; gap: 9px; width: 100%;
   padding: 0; text-align: left; background: none; border: 0; cursor: pointer; font-size: var(--t-m); line-height: 1.35; }
@@ -156,146 +233,182 @@ details { font-size: var(--t-s); }
 summary { cursor: pointer; color: var(--encre-2); width: fit-content; }
 summary:hover { color: var(--stylo); }
 summary strong { color: var(--encre); }
-.chaine { display: grid; gap: 10px; margin-top: 10px; padding-left: 10px; border-left: 1px solid var(--ligne-forte); }
+.chaine { display: grid; gap: 10px; margin-top: 10px; padding-left: 10px; border-left: 2px solid var(--ligne-forte); }
 .chaine h4 { margin: 0 0 2px; font: 700 12px var(--police-mono); color: var(--encre-2); }
 .chaine .item { font-size: var(--t-s); }
-.officiel blockquote { margin: 0; padding: 2px 0 2px 12px; border-left: 3px solid var(--ligne-forte); font-size: 14px; color: var(--encre); }
+.officiel blockquote { margin: 0; padding: 2px 0 2px 12px; border-left: 3px solid var(--accent); font-size: 14px; color: var(--encre); }
 .officiel blockquote p { margin: 0 0 6px; }
 .source { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 5px 12px; margin: 4px 0 0; font-size: var(--t-s); }
 .source dt { color: var(--encre-3); }
 .source dd { margin: 0; overflow-wrap: anywhere; }
 code { font: 500 12.5px var(--police-mono); }
-.copier { margin-left: 6px; padding: 2px 8px; cursor: pointer; font-size: 12px; background: transparent; border: 1px solid var(--filet); border-radius: 6px; }
+.copier { margin-left: 6px; padding: 2px 9px; cursor: pointer; font-size: 12px; font-weight: 600; background: transparent; border: 1.5px solid var(--contour); border-radius: 999px; }
 .copier:hover { background: var(--survol); }
 .note, .vide { font-size: var(--t-s); color: var(--encre-2); }
-.note { padding: 8px 10px; background: var(--survol); border-radius: 8px; }
-.groupe { margin: 6px 0 0; font: 700 var(--t-l)/1.3 var(--police); }
+.note { padding: 8px 10px; background: var(--survol); border-radius: 10px; }
+.groupe { margin: 6px 0 0; font: 800 19px/1.25 var(--police-titre); letter-spacing: -.02em; }
 .liste h4 { margin: 10px 0 4px; font: 700 var(--t-s)/1.3 var(--police); color: var(--encre); }
 .liste h5 { margin: 6px 0 2px; font: 600 12px/1.3 var(--police); color: var(--encre-3); }
-.liste .item { padding: 5px 8px; margin-inline: -8px; border-radius: 7px; width: calc(100% + 16px); font-size: 14px; }
+.liste .item { padding: 5px 8px; margin-inline: -8px; border-radius: 8px; width: calc(100% + 16px); font-size: 14px; }
 .liste .item:hover { background: var(--survol); }
-.lien-liste { width: fit-content; padding: 0; background: none; border: 0; cursor: pointer; color: var(--stylo); font-size: var(--t-s); font-weight: 600; text-align: left; }
+.lien-liste { width: fit-content; padding: 0; background: none; border: 0; cursor: pointer; color: var(--stylo); font-size: var(--t-s); font-weight: 700; text-align: left; }
 .lien-liste:hover { text-decoration: underline; }
 
 /* Sources : fenêtre qui monte du bas de la page */
 .fenetre { position: fixed; inset: auto 0 0 0; margin: 0 auto; width: min(1000px, 100%); max-width: 100%; max-height: 84vh; padding: 0;
-  background: var(--surface); color: var(--encre); border: 1px solid var(--filet); border-bottom: 0; border-radius: 16px 16px 0 0;
+  background: var(--surface); color: var(--encre); border: 2.5px solid var(--contour); border-bottom: 0; border-radius: 20px 20px 0 0;
   box-shadow: 0 -14px 40px rgb(0 0 0 / .2); }
 .fenetre[open] { display: flex; flex-direction: column; animation: monte .22s ease-out; }
-.fenetre::backdrop { background: rgb(12 16 26 / .45); }
+.fenetre::backdrop { background: rgb(22 19 31 / .5); }
 @keyframes monte { from { transform: translateY(28px); opacity: 0; } }
-.fenetre-tete { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 22px 10px; border-bottom: 1px solid var(--filet); }
-.fenetre-tete h2 { margin: 0; font: 700 var(--t-xl)/1.25 var(--police); }
-.fermer { width: 36px; height: 36px; flex: none; cursor: pointer; font-size: 22px; line-height: 1; background: transparent; border: 1px solid var(--filet); border-radius: 50%; color: var(--encre-2); }
+.fenetre-tete { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 22px 12px; border-bottom: 1px solid var(--filet); }
+.fenetre-tete h2 { margin: 0; font: 800 26px/1.2 var(--police-titre); letter-spacing: -.025em; }
+.fermer { width: 36px; height: 36px; flex: none; cursor: pointer; font-size: 22px; line-height: 1; background: transparent; border: 2px solid var(--contour); border-radius: 50%; color: var(--encre); }
 .fermer:hover { background: var(--survol); }
 .fenetre-corps { display: grid; gap: 14px; overflow: auto; padding: 14px 22px calc(22px + env(safe-area-inset-bottom, 0px)); }
 .fenetre-corps > p { margin: 0; max-width: 80ch; color: var(--encre-2); }
 .table-defile { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; font-size: var(--t-s); }
-th { text-align: left; padding: 8px 10px; font: 700 var(--t-xs)/1.2 var(--police); letter-spacing: .07em; text-transform: uppercase; color: var(--encre-3); border-bottom: 1px solid var(--ligne-forte); white-space: nowrap; }
+th { text-align: left; padding: 8px 10px; font: 700 var(--t-xs)/1.2 var(--police); letter-spacing: .07em; text-transform: uppercase; color: var(--encre-3); border-bottom: 2px solid var(--contour); white-space: nowrap; }
 td { padding: 8px 10px; border-bottom: 1px solid var(--filet); vertical-align: top; }
 td.num { text-align: right; font-family: var(--police-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
 td .pastille { display: inline-block; margin-right: 7px; }
-.pied { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 18px; padding-block: 2px 12px; font-size: 12px; color: var(--encre-3); }
-.cle-traits, .pied-droite { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
-.cle-traits span { display: inline-flex; align-items: center; gap: 6px; }
-.cle-traits i { width: 16px; height: 2px; border-radius: 1px; background: var(--c); }
-.cle-clic svg { flex: none; color: var(--marge); }
+
+.pied { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 20px; padding-top: 18px; font-size: 12.5px; color: var(--sur-section); }
+.cle-traits, .pied-droite { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; }
+.cle-traits span { display: inline-flex; align-items: center; gap: 7px; }
+.cle-traits i { width: 20px; height: 3.5px; border-radius: 2px; background: var(--c); }
+.cle-clic svg { flex: none; }
 .cle-traits .cle-creux { display: none; }
-.creux { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--encre-2); }
-.pied a, .lien-pied { color: var(--encre-2); font-weight: 600; }
-.lien-pied { padding: 0; cursor: pointer; background: none; border: 0; font-size: 12px; text-decoration: underline; text-underline-offset: .15em; }
-.lien-pied:hover, .pied a:hover { color: var(--stylo); }
+.creux { width: 10px; height: 10px; border-radius: 50%; border: 2px solid currentColor; }
+.pied a, .lien-pied { color: inherit; font-weight: 700; }
+.lien-pied { padding: 0; cursor: pointer; background: none; border: 0; font-size: 12.5px; text-decoration: underline; text-underline-offset: .15em; }
+.lien-pied:hover, .pied a:hover { text-decoration-thickness: 2px; }
 
 @media (max-width: 1080px) {
-  .libre-bloc { justify-items: start; }
-  /* Sur mobile, la fiche est une vraie fenêtre qui monte du bas de l'écran, au-dessus d'un voile */
+  /* Sur mobile, la fiche est une vraie fenêtre qui monte du bas de l'écran */
   /* Réduite, la fiche laisse voir la carte et la chaîne au-dessus ; la poignée l'agrandit */
   .panneau, .panneau.a-gauche { position: fixed; z-index: 20; inset: auto 0 0 0; width: auto; max-height: 42vh;
-    border-radius: 16px 16px 0 0; border-bottom: 0; box-shadow: 0 -14px 40px rgb(0 0 0 / .3);
+    border-radius: 20px 20px 0 0; border-bottom: 0; box-shadow: 0 -12px 36px rgb(0 0 0 / .3);
     padding: 18px max(18px, env(safe-area-inset-right, 0px)) calc(24px + env(safe-area-inset-bottom, 0px)) max(18px, env(safe-area-inset-left, 0px));
     animation: monte .22s ease-out; }
   .panneau.etendue { max-height: 88vh; }
   .poignee { display: block; position: sticky; top: -18px; z-index: 2; width: calc(100% + 36px); height: 22px; margin: -18px -18px 0;
-    cursor: pointer; background: var(--surface); border: 0; border-radius: 16px 16px 0 0; }
-  .poignee::after { content: ""; display: block; width: 40px; height: 4px; margin: 6px auto 0; border-radius: 2px; background: var(--ligne-forte); }
-  .voile { position: fixed; z-index: 19; inset: 0; background: rgb(12 16 26 / .45); }
+    cursor: pointer; background: var(--surface); border: 0; border-radius: 20px 20px 0 0; }
+  .poignee::after { content: ""; display: block; width: 40px; height: 4px; margin: 6px auto 0; border-radius: 2px; background: var(--encre-3); }
+  .voile { position: fixed; z-index: 19; inset: 0; background: rgb(22 19 31 / .5); }
   html.fiche-ouverte, html.fiche-ouverte body { overflow: hidden; }
 }
 @media (min-width: 1081px) { .voile { display: none; } }
-/* Sur un écran large, la page tient dans la fenêtre : la carte prend toute la place restante */
+/* Sur un écran large, chaque partie tient dans la fenêtre : la carte prend toute la place restante */
 @media (min-width: 1081px) {
-  html, body { height: 100%; }
-  .page { height: 100%; display: flex; flex-direction: column; }
-  .tete, .pied { flex: none; }
-  .zone-carte { flex: 1; min-height: 0; display: flex; flex-direction: column; }
-  .barre { flex: none; }
+  html { scroll-snap-type: y proximity; }
+  .accueil, .zone-carte { scroll-snap-align: start; }
+  .zone-carte { height: 100vh; height: 100svh; }
+  .barre, .pied { flex: none; }
   .cadre { flex: 1; min-height: 260px; }
   .carte-defile { position: absolute; inset: 0; }
 }
+@media (max-height: 800px) and (min-width: 701px) {
+  .accueil { padding-top: 60px; padding-bottom: 84px; }
+  .accueil-contenu { gap: 14px; }
+}
 @media (max-width: 700px) {
-  .tete { padding-block: 16px 10px; }
-  h1 { font-size: 30px; }
-  .chapo { font-size: 14px; }
-  .barre { gap: 8px; }
-  .champ-recherche { flex: 1 1 100%; height: 38px; }
-  .carte-defile { overflow: visible; }
+  .accueil { grid-template-columns: 1fr; align-items: start; gap: 40px; padding: 76px 20px 104px; }
+  h1 { font-size: clamp(44px, 13vw, 64px); }
+  .chapo { font-size: 18px; }
+  .collage { width: min(100%, 460px); }
+  .ruban { height: 48px; font-size: 18px; }
+  .zone-carte { padding: 20px 14px 24px; }
+  .barre { gap: 10px; }
+  .champ-recherche { flex: 1 1 100%; }
+  /* Pas de défilement propre : les en-têtes de matières restent collés en haut de l'écran */
+  .carte-defile { overflow: visible; overflow: clip; box-shadow: 6px 6px 0 var(--ombre-dure); border-radius: 16px; }
+  .entete-colonnes { border-radius: 13px 13px 0 0; }
   .cle-traits .cle-creux { display: inline-flex; }
 }
-@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } .fenetre[open] { animation: none; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { scroll-behavior: auto !important; } .fenetre[open], .panneau { animation: none; } .ruban-piste { animation: none; } }
 </style>
 <!-- corps -->
-<div class="page">
-  <header class="tete">
-    <div class="titre-bloc">
-      <p class="marque">vale.edu · Curriculum français</p>
-      <h1>Tout ce qu'on apprend à l'école<span class="point">.</span></h1>
-      <p class="chapo">Comprendre le curriculum (programme scolaire) français : de la petite section à la 3e, <strong>@@NB_NOTIONS@@ notions</strong> et <strong>@@NB_LIENS@@ liens</strong> qui disent ce qu'il faut savoir avant, et pourquoi.</p>
+<header class="accueil">
+  <div class="theme" role="group" aria-label="Thème">
+    <button type="button" data-t="light" aria-label="Thème clair" title="Clair"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"></circle><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"></path></svg></button>
+    <button type="button" data-t="dark" aria-label="Thème sombre" title="Sombre"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"></path></svg></button>
+  </div>
+  <div class="accueil-contenu">
+    <p class="marque">vale.edu · Curriculum français</p>
+    <h1>Tout ce qu'on apprend à l'école<span class="point">.</span></h1>
+    <p class="chapo">Comprendre le curriculum (programme scolaire) français : de la petite section à la 3e, <strong>@@NB_NOTIONS@@ notions</strong> et <strong>@@NB_LIENS@@ liens</strong> qui disent ce qu'il faut savoir avant, et pourquoi.</p>
+    <p class="explication">Chaque notion vient des programmes officiels, avec la page du texte. Sur la carte, un clic sur un point remonte tout ce qu'il faut maîtriser avant : les classes précédentes, les autres matières, la raison de chaque lien.</p>
+    <div class="actions">
+      <a class="cta" href="#la-carte">Explorer la carte ↓</a>
+      <a class="bouton-github" href="https://github.com/jeremyjdo/vale.edu" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>Voir sur GitHub</a>
     </div>
-    <div class="libre-bloc">
-      <a class="bouton-github" href="https://github.com/jeremyjdo/vale.edu" target="_blank" rel="noopener"><svg width="17" height="17" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>Voir sur GitHub</a>
-      <p class="libre"><span class="badge-libre">Open source</span>données Licence Ouverte 2.0 · code MIT</p>
+    <p class="libre"><span class="badge-libre">Open source</span>données Licence Ouverte 2.0 · code MIT</p>
+  </div>
+  <div class="visuel">
+    <div class="collage" aria-hidden="true">
+      <span class="dechire rose"></span>
+      <span class="dechire vert"></span>
+      <figure class="photo"><img src="@@PHOTO_ECOLE@@" alt="" width="960" height="720" decoding="async"><figcaption>la rentrée</figcaption></figure>
+      <span class="scotch s1"></span><span class="scotch s2"></span>
+      <div class="cahier"><div class="etiquette-cahier"><span class="matiere">Mathématiques</span><span class="classe">Classe : <i>6e</i></span></div></div>
+      <div class="copie-ombre">
+        <div class="copie">
+          <p class="date">Lundi 12 octobre</p>
+          <p class="consigne">Combien de cubes ?</p>
+          <svg class="cubes" viewBox="38 15 78 109"><polygon class="dessus" points="60.0,60.0 77.3,70.0 60.0,80.0 42.7,70.0"/><polygon class="face" points="42.7,90.0 60.0,100.0 60.0,80.0 42.7,70.0"/><polygon class="cote" points="77.3,90.0 60.0,100.0 60.0,80.0 77.3,70.0"/><polygon class="dessus" points="60.0,40.0 77.3,50.0 60.0,60.0 42.7,50.0"/><polygon class="face" points="42.7,70.0 60.0,80.0 60.0,60.0 42.7,50.0"/><polygon class="cote" points="77.3,70.0 60.0,80.0 60.0,60.0 77.3,50.0"/><polygon class="dessus" points="60.0,20.0 77.3,30.0 60.0,40.0 42.7,30.0"/><polygon class="face" points="42.7,50.0 60.0,60.0 60.0,40.0 42.7,30.0"/><polygon class="cote" points="77.3,50.0 60.0,60.0 60.0,40.0 77.3,30.0"/><polygon class="dessus" points="77.3,70.0 94.6,80.0 77.3,90.0 60.0,80.0"/><polygon class="face" points="60.0,100.0 77.3,110.0 77.3,90.0 60.0,80.0"/><polygon class="cote" points="94.6,100.0 77.3,110.0 77.3,90.0 94.6,80.0"/><polygon class="dessus" points="77.3,50.0 94.6,60.0 77.3,70.0 60.0,60.0"/><polygon class="face" points="60.0,80.0 77.3,90.0 77.3,70.0 60.0,60.0"/><polygon class="cote" points="94.6,80.0 77.3,90.0 77.3,70.0 94.6,60.0"/><polygon class="dessus" points="94.6,80.0 112.0,90.0 94.6,100.0 77.3,90.0"/><polygon class="face" points="77.3,110.0 94.6,120.0 94.6,100.0 77.3,90.0"/><polygon class="cote" points="112.0,110.0 94.6,120.0 94.6,100.0 112.0,90.0"/></svg>
+          <p class="reponse">Il y a 6 cubes.</p>
+          <svg class="coche" viewBox="0 0 40 30"><path class="trait-encre" stroke-width="3.4" d="M3 16 C 8 19, 11 23, 14 27 C 20 16, 28 8, 38 2"/></svg>
+          <p class="note-prof"><svg viewBox="0 0 100 60" preserveAspectRatio="none"><path class="trait-encre" stroke-width="2.6" vector-effect="non-scaling-stroke" d="M14 40 C 2 22, 30 4, 62 6 C 92 8, 104 30, 84 46 C 66 60, 22 60, 8 44 C 2 36, 10 24, 24 18"/></svg><span>18/20</span></p>
+          <p class="bravo">Très bien !</p>
+        </div>
+      </div>
+      <span class="scotch s3"></span>
+      <span class="etoile">Bravo !</span>
     </div>
-  </header>
+    <p class="credit-photo">Photo : école primaire de Revest-des-Brousses, par <a href="https://commons.wikimedia.org/wiki/File:Revest-des-Brousses_-_%C3%89cole_primaire_2_(sept_2026).jpg" target="_blank" rel="noopener">Sebleouf</a>, <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noopener">CC BY 4.0</a>, recadrée</p>
+  </div>
+  <div class="ruban" aria-hidden="true"><div class="ruban-piste"><span>PS<b>✦</b>MS<b>✦</b>GS<b>✦</b>CP<b>✦</b>CE1<b>✦</b>CE2<b>✦</b>CM1<b>✦</b>CM2<b>✦</b>6e<b>✦</b>5e<b>✦</b>4e<b>✦</b>3e<b>✦</b>français<b>✦</b>mathématiques<b>✦</b>sciences<b>✦</b>histoire-géo<b>✦</b>langues<b>✦</b>moral et civique<b>✦</b>vie affective<b>✦</b>arts<b>✦</b>EPS<b>✦</b>médias<b>✦</b></span><span>PS<b>✦</b>MS<b>✦</b>GS<b>✦</b>CP<b>✦</b>CE1<b>✦</b>CE2<b>✦</b>CM1<b>✦</b>CM2<b>✦</b>6e<b>✦</b>5e<b>✦</b>4e<b>✦</b>3e<b>✦</b>français<b>✦</b>mathématiques<b>✦</b>sciences<b>✦</b>histoire-géo<b>✦</b>langues<b>✦</b>moral et civique<b>✦</b>vie affective<b>✦</b>arts<b>✦</b>EPS<b>✦</b>médias<b>✦</b></span></div></div>
+</header>
 
-  <main class="zone-carte" aria-label="Carte des notions">
-    <div class="barre">
-      <label class="champ champ-recherche" for="recherche">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
-        <span class="cache">Rechercher une notion</span>
-        <input id="recherche" type="search" placeholder="Rechercher une notion" autocomplete="off" spellcheck="false">
-        <kbd>/</kbd>
-      </label>
-      <div class="filtre" id="filtre">
-        <button type="button" class="bouton-filtre" id="bouton-filtre" aria-expanded="false" aria-controls="menu-filtre"><span>Toutes les matières</span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
-        <div class="menu-filtre" id="menu-filtre" hidden>
-          <div class="legende" id="legende"></div>
-          <div class="menu-pied">
-            <button type="button" class="lien-menu" id="tout-afficher">Tout afficher</button>
-          </div>
+<main class="zone-carte" id="la-carte" aria-label="Carte des notions">
+  <div class="barre">
+    <h2 class="titre-carte">La carte</h2>
+    <label class="champ champ-recherche" for="recherche">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+      <span class="cache">Rechercher une notion</span>
+      <input id="recherche" type="search" placeholder="Rechercher une notion" autocomplete="off" spellcheck="false">
+      <kbd>/</kbd>
+    </label>
+    <div class="filtre" id="filtre">
+      <button type="button" class="bouton-filtre" id="bouton-filtre" aria-expanded="false" aria-controls="menu-filtre"><span>Toutes les matières</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+      <div class="menu-filtre" id="menu-filtre" hidden>
+        <div class="legende" id="legende"></div>
+        <div class="menu-pied">
+          <button type="button" class="lien-menu" id="tout-afficher">Tout afficher</button>
         </div>
       </div>
     </div>
-    <div class="cadre">
-      <div class="carte-defile" id="carte-defile">
-        <div class="entete-colonnes" id="entete-colonnes" hidden></div>
-        <canvas id="carte" role="img" aria-label="Carte des notions, classes en colonnes et matières en lignes. La recherche donne les mêmes notions sous forme de liste."></canvas>
-        <div class="bulle" id="bulle" hidden></div>
-      </div>
-      <div class="voile" id="voile" hidden></div>
-      <aside class="panneau" id="panneau" aria-label="Fiche" hidden>
-        <button type="button" class="poignee" id="poignee" aria-label="Agrandir la fiche" aria-expanded="false"></button>
-        <button type="button" class="fermer fermer-fiche" id="fermer-fiche" aria-label="Fermer la fiche">×</button>
-        <div id="contenu" aria-live="polite"></div>
-      </aside>
+  </div>
+  <div class="cadre">
+    <div class="carte-defile" id="carte-defile">
+      <div class="entete-colonnes" id="entete-colonnes" hidden></div>
+      <canvas id="carte" role="img" aria-label="Carte des notions, classes en colonnes et matières en lignes. La recherche donne les mêmes notions sous forme de liste."></canvas>
+      <div class="bulle" id="bulle" hidden></div>
     </div>
-  </main>
-
+    <div class="voile" id="voile" hidden></div>
+    <aside class="panneau" id="panneau" aria-label="Fiche" hidden>
+      <button type="button" class="poignee" id="poignee" aria-label="Agrandir la fiche" aria-expanded="false"></button>
+      <button type="button" class="fermer fermer-fiche" id="fermer-fiche" aria-label="Fermer la fiche">×</button>
+      <div id="contenu" aria-live="polite"></div>
+    </aside>
+  </div>
   <footer class="pied">
     <span class="cle-traits"><span class="cle-clic"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l7 17 2.5-7.5L21 11z"></path></svg>clic sur un point : tout ce qu'il faut maîtriser avant</span><span><i style="--c:var(--stylo)"></i>à savoir avant</span><span><i style="--c:var(--marge)"></i>ce que la notion ouvre</span><span>clic sur une classe ou une case : la liste des notions</span><span class="cle-creux"><b class="creux"></b>valable pour tout le cycle</span></span>
     <span class="pied-droite"><button type="button" class="lien-pied" id="ouvrir-sources">Sources : les @@NB_PROGRAMMES@@ programmes officiels</button><span>Projet indépendant, construit à partir des programmes publiés au Bulletin officiel.</span></span>
   </footer>
-</div>
+</main>
 
 <dialog class="fenetre" id="fenetre-sources" aria-labelledby="titre-sources">
   <div class="fenetre-tete">
@@ -307,6 +420,21 @@ td .pastille { display: inline-block; margin-right: 7px; }
     <div class="table-defile"><table id="table-sources"></table></div>
   </div>
 </dialog>
+
+<script>
+// Thème clair / sombre choisi à la main ; sinon, celui du système
+(() => {
+  const boutons = document.querySelectorAll('[data-t]'), sombre = matchMedia('(prefers-color-scheme: dark)');
+  const maj = () => { const t = document.documentElement.dataset.theme || (sombre.matches ? 'dark' : 'light'); boutons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.t === t))); };
+  boutons.forEach(b => b.addEventListener('click', () => {
+    document.documentElement.dataset.theme = b.dataset.t;
+    try { localStorage.setItem('atlas-theme', b.dataset.t); } catch {}
+    maj();
+  }));
+  sombre.addEventListener?.('change', maj);
+  maj();
+})();
+</script>
 
 <script id="donnees" type="application/octet-stream">@@DONNEES@@</script>
 <script>
@@ -1147,14 +1275,16 @@ lireCouleurs();
 legende();
 disposer();
 const depuisAncre = () => { const id = decodeURIComponent(location.hash.slice(1)); return parId.get(id); };
+// Un lien direct vers une notion amène à la carte, sous le premier écran
+const allerCarte = () => { const z = $('#la-carte'); if (z.getBoundingClientRect().top > 1) z.scrollIntoView({ behavior: 'instant' }); };
 const sourcesAuDepart = location.hash === '#sources';
 // Au départ, la carte entière ; la fiche ne s'ouvre que pour un lien direct vers une notion
-if (depuisAncre()) afficher({ t: 'notion', n: depuisAncre() }, false);
+if (depuisAncre()) { allerCarte(); afficher({ t: 'notion', n: depuisAncre() }, false); }
 if (sourcesAuDepart) ouvrirSources();
 window.addEventListener('hashchange', () => {
   if (location.hash === '#sources') return ouvrirSources();
   const n = depuisAncre();
-  if (n && n !== etat.sel) afficher({ t: 'notion', n });
+  if (n && n !== etat.sel) { allerCarte(); afficher({ t: 'notion', n }); }
 });
 let taille = '';
 new ResizeObserver(() => {

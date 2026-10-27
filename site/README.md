@@ -4,11 +4,12 @@ Une page pour consulter le curriculum : en ligne sur [vale-edu.vercel.app](https
 
 La version en ligne est publiée par Vercel à chaque envoi sur la branche `main` : seul `index.html` est publié (voir `vercel.json` et `.vercelignore` à la racine du dépôt).
 
-- **La carte** : toutes les notions, les classes de la petite section à la 3e de gauche à droite, une bande par matière. Un clic sur une notion trace en bleu tout ce qu'il faut savoir avant, classe par classe, et en rouge ce qu'elle ouvre.
+- **Le premier écran** : l'accroche, les liens vers la carte et vers GitHub, et un collage (photo d'une école, cahier, copie notée). La carte est juste en dessous, en plein écran. Un bouton passe du thème clair au thème sombre ; sans choix, la page suit le système.
+- **La carte** : toutes les notions, les classes de la petite section à la 3e de gauche à droite, une bande par matière. Un clic sur une notion trace tout ce qu'il faut savoir avant, classe par classe (en noir, en jaune dans le thème sombre), et en rouge ce qu'elle ouvre.
 - **La fiche**, ouverte au clic par-dessus la carte (sur téléphone, dans une fenêtre qui monte du bas) : description, question à poser, critères de réussite, prérequis avec leur raison, texte officiel mot pour mot et lien vers la page du PDF.
 - **La recherche** (sans accents), la liste des notions d'une classe ou d'une matière en cliquant sur la carte, et un lien direct vers chaque notion (`index.html#fr-ma-ce1-fra-07`).
 - **Le menu des matières** : afficher ou masquer chaque matière, avec son nombre de notions ; les langues du collège se cochent sous « Langues vivantes », l'anglais par défaut.
-- **Sur téléphone**, la carte pivote : les classes défilent de haut en bas, une colonne par matière, et les notions valables pour tout un cycle sont regroupées à la fin du cycle. Un tap sur un point ouvre la fiche, un tap sur une classe ou une matière en donne la liste.
+- **Sur téléphone**, la carte pivote : les classes défilent de haut en bas, une colonne par matière, et les notions valables pour tout un cycle sont réparties dans ses classes, en points creux. Un tap sur un point ouvre la fiche, un tap sur une classe ou une matière en donne la liste.
 - **Les sources** : les programmes officiels, dans une fenêtre ouverte depuis le bas de la page (`index.html#sources`).
 
 ## Comment elle est faite
@@ -16,7 +17,7 @@ La version en ligne est publiée par Vercel à chaque envoi sur la branche `main
 `index.html` est générée : ne la modifie pas à la main.
 
 - [modele.html](modele.html) contient la page (HTML, CSS et JavaScript, sans dépendance hormis les polices Google Fonts).
-- `construction/outils/construire_site.py` y intègre le jeu de données de `data/` (programmes, objectifs, notions et liens), compressé, et écrit `index.html`. L'assemblage (`construction/outils/assembler.py`) le lance à chaque fois.
+- `construction/outils/construire_site.py` y intègre le jeu de données de `data/` (programmes, objectifs, notions et liens), compressé, ainsi que la photo de `photos/`, et écrit `index.html`. L'assemblage (`construction/outils/assembler.py`) le lance à chaque fois.
 
 ```bash
 cd construction && python3 outils/construire_site.py
@@ -24,4 +25,4 @@ cd construction && python3 outils/construire_site.py
 
 Les matières sont regroupées en bandes par la liste `FAMILLES` de `construire_site.py` : une matière nouvelle s'y ajoute, sinon elle forme sa propre bande.
 
-Licence : MIT ([LICENSE](../LICENSE)).
+Licence : MIT ([LICENSE](../LICENSE)). La photo de `photos/` (école primaire de Revest-des-Brousses) est de [Sebleouf](https://commons.wikimedia.org/wiki/File:Revest-des-Brousses_-_%C3%89cole_primaire_2_(sept_2026).jpg), sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr), recadrée et réduite ; le crédit est affiché sous le collage.

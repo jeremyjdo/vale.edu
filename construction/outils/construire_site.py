@@ -7,7 +7,8 @@ Usage :
                                                        # --lien donne l'adresse publique, pour le bouton « Copier le lien »
 
 La page reprend le jeu de données data/ (programmes, objectifs, notions et liens), compressé et intégré à la page : elle se met à jour
-à chaque assemblage (assembler.py l'appelle). Le modèle de la page est site/modele.html.
+à chaque assemblage (assembler.py l'appelle). Le modèle de la page est site/modele.html ; la photo du premier écran
+(site/photos/, CC BY 4.0, crédit dans la page) est intégrée elle aussi, pour que la page reste un seul fichier.
 Une matière absente de FAMILLES forme sa propre bande sur la carte : ajoute-la à la bonne famille.
 """
 import base64
@@ -20,6 +21,7 @@ from collections import defaultdict
 from commun import DONNEES, NATURES, NIVEAUX, ORDRE_NIVEAUX, PROGRAMMES, SITE, registre
 
 MODELE = os.path.join(SITE, "modele.html")
+PHOTO_ECOLE = os.path.join(SITE, "photos", "ecole-revest-des-brousses.jpg")
 SORTIE = os.path.join(SITE, "index.html")
 
 # Bandes de la carte, de haut en bas. `choix` : matières parallèles dont la carte n'affiche qu'une à la fois.
@@ -175,10 +177,11 @@ def construire(artefact=None, lien=""):
     paquet = base64.b64encode(gzip.compress(brut, compresslevel=9, mtime=0)).decode()
     annee, mois, jour = (int(x) for x in d["genere"][:10].split("-"))
     page = open(MODELE).read()
+    photo = "data:image/jpeg;base64," + base64.b64encode(open(PHOTO_ECOLE, "rb").read()).decode()
     for cle, valeur in {
         "@@NB_NOTIONS@@": nombre(len(d["n"])), "@@NB_LIENS@@": nombre(len(d["l"])),
         "@@NB_PROGRAMMES@@": str(len(d["programmes"])), "@@DATE@@": f"{jour} {MOIS[mois - 1]} {annee}",
-        "@@LIEN_BASE@@": json.dumps(lien), "@@DONNEES@@": paquet,
+        "@@LIEN_BASE@@": json.dumps(lien), "@@PHOTO_ECOLE@@": photo, "@@DONNEES@@": paquet,
     }.items():
         page = page.replace(cle, valeur)
     tete, corps = page.split("<!-- corps -->", 1)
