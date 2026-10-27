@@ -152,7 +152,8 @@ h1 .point { color: var(--accent); }
 .zone-carte { position: relative; display: flex; flex-direction: column; min-width: 0; background: var(--section-carte); color: var(--sur-section);
   padding: 22px max(16px, 3vw, env(safe-area-inset-right, 0px), calc((100% - 1680px) / 2)) 16px max(16px, 3vw, env(safe-area-inset-left, 0px), calc((100% - 1680px) / 2)); }
 .barre { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin-bottom: 18px; }
-.titre-carte { margin: 0 8px 0 0; font: 800 clamp(26px, 2.4vw, 34px)/1 var(--police-titre); letter-spacing: -.035em; color: var(--sur-section); }
+.titre-carte { margin: 0 8px 0 0; font: 800 clamp(26px, 2.4vw, 34px)/1.05 var(--police-titre); letter-spacing: -.035em; color: var(--sur-section); }
+.titre-carte span { font-size: .62em; font-weight: 700; letter-spacing: -.015em; white-space: nowrap; }
 .champ { display: flex; align-items: center; gap: 8px; height: 40px; padding-inline: 14px 8px; background: var(--surface);
   border: 2.5px solid var(--contour); border-radius: 999px; box-shadow: 3px 3px 0 var(--contour); color: var(--encre); }
 .champ:focus-within { outline: 3px solid var(--accent); outline-offset: 2px; }
@@ -344,7 +345,7 @@ td .pastille { display: inline-block; margin-right: 7px; }
     <p class="chapo">Comprendre le curriculum (programme scolaire) français : de la petite section à la 3e, <strong>@@NB_NOTIONS@@ notions</strong> et <strong>@@NB_LIENS@@ liens</strong> qui disent ce qu'il faut savoir avant, et pourquoi.</p>
     <p class="explication">Chaque notion vient des programmes officiels, avec la page du texte. Sur la carte, un clic sur un point remonte tout ce qu'il faut maîtriser avant : les classes précédentes, les autres matières, la raison de chaque lien.</p>
     <div class="actions">
-      <a class="cta" href="#la-carte">Explorer la carte ↓</a>
+      <a class="cta" href="#la-carte">Explorer le curriculum ↓</a>
       <a class="bouton-github" href="https://github.com/jeremyjdo/vale.edu" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>Voir sur GitHub</a>
     </div>
     <p class="libre"><span class="badge-libre">Open source</span>données Licence Ouverte 2.0 · code MIT</p>
@@ -377,7 +378,7 @@ td .pastille { display: inline-block; margin-right: 7px; }
 
 <main class="zone-carte" id="la-carte" aria-label="Carte des notions">
   <div class="barre">
-    <h2 class="titre-carte">La carte</h2>
+    <h2 class="titre-carte">Le curriculum <span>(programme scolaire)</span></h2>
     <label class="champ champ-recherche" for="recherche">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
       <span class="cache">Rechercher une notion</span>
