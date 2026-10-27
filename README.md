@@ -238,7 +238,7 @@ Relevé du 26/10/2026 : aucun projet ouvert trouvé ne découpe les programmes f
 - **Code** (scripts de `construction/outils/` et site `site/`) : [licence MIT](LICENSE).
 - **Programmes officiels** (`construction/programmes-officiels/`, `construction/textes/` et texte des objectifs dans `data/objectifs.json`) : informations publiques du ministère de l'Éducation nationale, réutilisables en citant leur source et leur date (articles L321-1 et L322-1 du code des relations entre le public et l'administration). Source et date de chaque document : [`sources.json`](construction/programmes-officiels/sources.json).
 
-vale.edu est un projet indépendant, sans lien avec le ministère de l'Éducation nationale ni avec Marble.
+vale.edu est un projet indépendant, construit à partir des programmes publiés au Bulletin officiel et inspiré de la taxonomie de Marble.
 
 ## In English
 
