@@ -2,7 +2,7 @@
 
 **Tout ce qu'on apprend à l'école.**
 
-Comprendre le curriculum (programme scolaire) français : de la petite section à la 3e, 5 604 notions et 8 042 liens qui disent ce qu'il faut savoir avant, et pourquoi. → **[vale-edu.vercel.app](https://vale-edu.vercel.app)**
+Comprendre le curriculum (programme scolaire) en France : de la petite section à la 3e, 5 604 notions et 8 042 liens qui disent ce qu'il faut savoir avant, et pourquoi. → **[vale-edu.vercel.app](https://vale-edu.vercel.app)**
 
 vale.edu est une base de données ouverte : tout ce que les programmes officiels prévoient d'enseigner, classe par classe et matière par matière. Chaque objectif des programmes devient une notion : ce qu'elle veut dire, comment savoir si elle est acquise, et ce qu'il faut savoir avant. Chaque notion renvoie au texte officiel, à la page près.
 
