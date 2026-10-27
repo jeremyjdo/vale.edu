@@ -4,7 +4,7 @@ Une page pour consulter le curriculum : en ligne sur [vale-edu.vercel.app](https
 
 La version en ligne est publiée par Vercel à chaque envoi sur la branche `main` : seul `index.html` est publié (voir `vercel.json` et `.vercelignore` à la racine du dépôt).
 
-- **Le premier écran** : l'accroche, les liens vers la carte et vers GitHub, et un collage (photo d'une école, cahier, copie notée). La carte est juste en dessous, en plein écran. Un bouton passe du thème clair au thème sombre ; sans choix, la page suit le système.
+- **Le premier écran** : l'accroche, les liens vers la carte et vers GitHub, et, sur ordinateur et tablette, un collage (photo d'une école, cahier, copie notée). La carte est juste en dessous, en plein écran ; sur téléphone, le premier écran s'arrête au texte pour arriver vite à la carte. Un bouton passe du thème clair au thème sombre ; sans choix, la page suit le système.
 - **La carte** : toutes les notions, les classes de la petite section à la 3e de gauche à droite, une bande par matière. Un clic sur une notion trace tout ce qu'il faut savoir avant, classe par classe (en noir, en jaune dans le thème sombre), et en rouge ce qu'elle ouvre.
 - **La fiche**, ouverte au clic par-dessus la carte (sur téléphone, dans une fenêtre qui monte du bas) : description, question à poser, critères de réussite, prérequis avec leur raison, texte officiel mot pour mot et lien vers la page du PDF.
 - **La recherche** (sans accents), la liste des notions d'une classe ou d'une matière en cliquant sur la carte, et un lien direct vers chaque notion (`index.html#fr-ma-ce1-fra-07`).

@@ -314,10 +314,13 @@ td .pastille { display: inline-block; margin-right: 7px; }
   .accueil-contenu { gap: 14px; }
 }
 @media (max-width: 700px) {
-  .accueil { grid-template-columns: 1fr; align-items: start; gap: 40px; padding: 76px 20px 104px; }
+  /* Sur téléphone, pas de collage : le premier écran s'arrête après le texte et la carte arrive tout de suite */
+  .accueil { min-height: 0; grid-template-columns: 1fr; align-items: start; padding: 72px 20px 92px; }
+  .visuel { display: none; }
+  .actions { gap: 12px; }
+  .cta, .bouton-github { min-height: 48px; padding: 0 18px; }
   h1 { font-size: clamp(44px, 13vw, 64px); }
   .chapo { font-size: 18px; }
-  .collage { width: min(100%, 460px); }
   .ruban { height: 48px; font-size: 18px; }
   .zone-carte { padding: 20px 14px 24px; }
   .barre { gap: 10px; }
